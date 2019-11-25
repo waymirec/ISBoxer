@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ISBoxerToolkitProfile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="42" VersionMinor="0" BuildDate="11/24/2019 12:12:54 AM">
+<ISBoxerToolkitProfile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="42" VersionMinor="0" BuildDate="11/24/2019 6:07:13 PM">
   <CharacterSet>
     <ExecuteOnLoad>
       <Target />
@@ -47,6 +47,12 @@
         <CPUCores>
           <unsignedInt>1</unsignedInt>
           <unsignedInt>2</unsignedInt>
+          <unsignedInt>3</unsignedInt>
+          <unsignedInt>4</unsignedInt>
+          <unsignedInt>5</unsignedInt>
+          <unsignedInt>6</unsignedInt>
+          <unsignedInt>7</unsignedInt>
+          <unsignedInt>8</unsignedInt>
         </CPUCores>
         <VariableKeystrokeInstances>
           <VariableKeystrokeInstance>
@@ -81,8 +87,14 @@
           <FTLModifierEnum>RShift</FTLModifierEnum>
         </FTLModifiers>
         <CPUCores>
+          <unsignedInt>1</unsignedInt>
+          <unsignedInt>2</unsignedInt>
           <unsignedInt>3</unsignedInt>
           <unsignedInt>4</unsignedInt>
+          <unsignedInt>5</unsignedInt>
+          <unsignedInt>6</unsignedInt>
+          <unsignedInt>7</unsignedInt>
+          <unsignedInt>8</unsignedInt>
         </CPUCores>
         <VariableKeystrokeInstances />
       </Slot>
@@ -106,8 +118,14 @@
           <FTLModifierEnum>LCtrl</FTLModifierEnum>
         </FTLModifiers>
         <CPUCores>
+          <unsignedInt>1</unsignedInt>
+          <unsignedInt>2</unsignedInt>
+          <unsignedInt>3</unsignedInt>
+          <unsignedInt>4</unsignedInt>
           <unsignedInt>5</unsignedInt>
           <unsignedInt>6</unsignedInt>
+          <unsignedInt>7</unsignedInt>
+          <unsignedInt>8</unsignedInt>
         </CPUCores>
         <VariableKeystrokeInstances />
       </Slot>
@@ -131,6 +149,12 @@
           <FTLModifierEnum>LAlt</FTLModifierEnum>
         </FTLModifiers>
         <CPUCores>
+          <unsignedInt>1</unsignedInt>
+          <unsignedInt>2</unsignedInt>
+          <unsignedInt>3</unsignedInt>
+          <unsignedInt>4</unsignedInt>
+          <unsignedInt>5</unsignedInt>
+          <unsignedInt>6</unsignedInt>
           <unsignedInt>7</unsignedInt>
           <unsignedInt>8</unsignedInt>
         </CPUCores>
@@ -159,6 +183,12 @@
         <CPUCores>
           <unsignedInt>1</unsignedInt>
           <unsignedInt>2</unsignedInt>
+          <unsignedInt>3</unsignedInt>
+          <unsignedInt>4</unsignedInt>
+          <unsignedInt>5</unsignedInt>
+          <unsignedInt>6</unsignedInt>
+          <unsignedInt>7</unsignedInt>
+          <unsignedInt>8</unsignedInt>
         </CPUCores>
         <VariableKeystrokeInstances />
       </Slot>
@@ -292,6 +322,26 @@
         <ToMappedKey>
           <KeyMapString>ISB42 - Party</KeyMapString>
           <MappedKeyString>Assist Me (WoW Macro)</MappedKeyString>
+        </ToMappedKey>
+      </VirtualMappedKey>
+      <VirtualMappedKey>
+        <FromMappedKey>
+          <KeyMapString>ISB42 - Party</KeyMapString>
+          <MappedKeyString>Follow Me Melee - Active Method</MappedKeyString>
+        </FromMappedKey>
+        <ToMappedKey>
+          <KeyMapString>ISB42 - Party</KeyMapString>
+          <MappedKeyString>Follow Me Melee (WoW Macro)</MappedKeyString>
+        </ToMappedKey>
+      </VirtualMappedKey>
+      <VirtualMappedKey>
+        <FromMappedKey>
+          <KeyMapString>ISB42 - Party</KeyMapString>
+          <MappedKeyString>Assist Me CC - Active Method</MappedKeyString>
+        </FromMappedKey>
+        <ToMappedKey>
+          <KeyMapString>ISB42 - Party</KeyMapString>
+          <MappedKeyString>Assist Me CC (WoW Macro)</MappedKeyString>
         </ToMappedKey>
       </VirtualMappedKey>
     </VirtualMappedKeys>
@@ -832,79 +882,6 @@
       <SwapGroup DeactivateSwapGroup="7" />
     </SwapGroups>
   </WindowLayout>
-  <WindowLayout>
-    <UserScreenSet>
-      <AllScreens>
-        <UserScreen>
-          <Bounds>
-            <Width>3440</Width>
-            <Height>1440</Height>
-          </Bounds>
-          <WorkingArea>
-            <Width>3440</Width>
-            <Height>1400</Height>
-          </WorkingArea>
-          <Primary>true</Primary>
-          <DeviceName>\\.\DISPLAY1</DeviceName>
-          <DPIScale>100</DPIScale>
-        </UserScreen>
-      </AllScreens>
-      <Name>&lt;Current Screen Layout&gt;</Name>
-    </UserScreenSet>
-    <Name>Foo</Name>
-    <Description>This Window Layout features stacked windows with no border, the size of the full screen, on \\.\DISPLAY1. Swapping disabled. Does not leave space for the Windows taskbar. This style is great in conjunction with Video FX to see parts of, or all of, the other windows.</Description>
-    <InstantSwap>true</InstantSwap>
-    <Regions>
-      <Region>
-        <CharacterSetSlot>1</CharacterSetSlot>
-        <Permanent>true</Permanent>
-        <AlwaysOnTopMode>Normal</AlwaysOnTopMode>
-        <Rect>
-          <Width>3440</Width>
-          <Height>1440</Height>
-        </Rect>
-      </Region>
-      <Region>
-        <CharacterSetSlot>2</CharacterSetSlot>
-        <Permanent>true</Permanent>
-        <AlwaysOnTopMode>Normal</AlwaysOnTopMode>
-        <Rect>
-          <Width>3440</Width>
-          <Height>1440</Height>
-        </Rect>
-      </Region>
-      <Region>
-        <CharacterSetSlot>3</CharacterSetSlot>
-        <Permanent>true</Permanent>
-        <AlwaysOnTopMode>Normal</AlwaysOnTopMode>
-        <Rect>
-          <Width>3440</Width>
-          <Height>1440</Height>
-        </Rect>
-      </Region>
-      <Region>
-        <CharacterSetSlot>4</CharacterSetSlot>
-        <Permanent>true</Permanent>
-        <AlwaysOnTopMode>Normal</AlwaysOnTopMode>
-        <Rect>
-          <Width>3440</Width>
-          <Height>1440</Height>
-        </Rect>
-      </Region>
-      <Region>
-        <CharacterSetSlot>5</CharacterSetSlot>
-        <Permanent>true</Permanent>
-        <AlwaysOnTopMode>Normal</AlwaysOnTopMode>
-        <Rect>
-          <Width>3440</Width>
-          <Height>1440</Height>
-        </Rect>
-      </Region>
-    </Regions>
-    <SwapGroups>
-      <SwapGroup />
-    </SwapGroups>
-  </WindowLayout>
   <RepeaterProfile>
     <Name>Default</Name>
     <WhiteOrBlackList />
@@ -951,6 +928,9 @@
   </RelayGroup>
   <RelayGroup>
     <Name>Melee</Name>
+  </RelayGroup>
+  <RelayGroup>
+    <Name>Pull</Name>
   </RelayGroup>
   <RelayGroup>
     <Name>Ranged</Name>
@@ -1583,6 +1563,40 @@
           </Step>
         </Steps>
       </MappedKey>
+      <MappedKey>
+        <Name>-----------------------------------------------      </Name>
+        <Steps>
+          <Step>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Pull - Join</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="TargetGroupAction">
+                <Action>Join</Action>
+                <RelayGroupString>Pull</RelayGroupString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Pull - Leave</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="TargetGroupAction">
+                <Action>Join</Action>
+                <RelayGroupString>Pull</RelayGroupString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
     </Mappings>
   </KeyMap>
   <KeyMap>
@@ -1614,13 +1628,13 @@
         </Steps>
       </MappedKey>
       <MappedKey>
-        <Name>Assist Me</Name>
+        <Name>Follow Me (Melee)</Name>
         <Combo>
-          <Combo>Alt+A</Combo>
-          <Modifiers>Alt</Modifiers>
+          <Combo>Shift+Alt+F</Combo>
+          <Modifiers>Shift Alt</Modifiers>
           <Key>
-            <Key>A</Key>
-            <Code>30</Code>
+            <Key>F</Key>
+            <Code>33</Code>
           </Key>
         </Combo>
         <Hold>
@@ -1631,7 +1645,49 @@
             <Actions>
               <MappedKeyAction xsi:type="MappedKeyExecuteAction">
                 <KeyMapString>ISB42 - Party</KeyMapString>
+                <MappedKeyString>Follow Me Melee - Active Method</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Assist Me</Name>
+        <Combo>
+          <Combo>Alt+A</Combo>
+          <Modifiers>Alt</Modifiers>
+          <Key>
+            <Key>A</Key>
+            <Code>30</Code>
+          </Key>
+        </Combo>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>ISB42 - Party</KeyMapString>
                 <MappedKeyString>Assist Me - Active Method</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Assist Me (CC)</Name>
+        <Combo>
+          <Combo>Ctrl+Alt+A</Combo>
+          <Modifiers>Ctrl Alt</Modifiers>
+          <Key>
+            <Key>A</Key>
+            <Code>30</Code>
+          </Key>
+        </Combo>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>ISB42 - Party</KeyMapString>
+                <MappedKeyString>Assist Me CC - Active Method</MappedKeyString>
               </MappedKeyAction>
             </Actions>
           </Step>
@@ -1917,7 +1973,7 @@ This can be used to break auto-follow (some games do not provide a more convenie
             <Actions>
               <MappedKeyAction xsi:type="VariableKeystrokeAction">
                 <Target>all other</Target>
-                <Name>Turn Right</Name>
+                <Name>Move Forward</Name>
               </MappedKeyAction>
             </Actions>
           </Step>
@@ -1945,7 +2001,7 @@ This can be used to break auto-follow (some games do not provide a more convenie
             <Actions>
               <MappedKeyAction xsi:type="VariableKeystrokeAction">
                 <Target>all other</Target>
-                <Name>Turn Right</Name>
+                <Name>Move Backward</Name>
               </MappedKeyAction>
             </Actions>
           </Step>
@@ -1973,7 +2029,7 @@ This can be used to break auto-follow (some games do not provide a more convenie
             <Actions>
               <MappedKeyAction xsi:type="VariableKeystrokeAction">
                 <Target>all other</Target>
-                <Name>Turn Right</Name>
+                <Name>Move Left</Name>
               </MappedKeyAction>
             </Actions>
           </Step>
@@ -2001,7 +2057,7 @@ This can be used to break auto-follow (some games do not provide a more convenie
             <Actions>
               <MappedKeyAction xsi:type="VariableKeystrokeAction">
                 <Target>all other</Target>
-                <Name>Turn Right</Name>
+                <Name>Move Right</Name>
               </MappedKeyAction>
             </Actions>
           </Step>
@@ -2029,7 +2085,7 @@ This can be used to break auto-follow (some games do not provide a more convenie
             <Actions>
               <MappedKeyAction xsi:type="VariableKeystrokeAction">
                 <Target>all other</Target>
-                <Name>Turn Right</Name>
+                <Name>Jump</Name>
               </MappedKeyAction>
             </Actions>
           </Step>
@@ -2068,6 +2124,14 @@ See http://isboxer.com/wiki/WoW:Interact_with_Target.</Description>
         <Name>Face Toward Target</Name>
         <Description>Interact with Target will help you interact with NPCs (e.g. merchants, quest givers and enemies) and, when combined with Click to Move, can be used to keep melees on target.
 See http://isboxer.com/wiki/WoW:Interact_with_Target.</Description>
+        <Combo>
+          <Combo>Shift+Alt+J</Combo>
+          <Modifiers>Shift Alt</Modifiers>
+          <Key>
+            <Key>J</Key>
+            <Code>36</Code>
+          </Key>
+        </Combo>
         <Hold>
           <Value>true</Value>
         </Hold>
@@ -2458,7 +2522,6 @@ See http://isboxer.com/wiki/WoW:Interact_with_Target.</Description>
       </MappedKey>
       <MappedKey>
         <Name>Hold to Control 6</Name>
-        <Combo />
         <Mode>OnPressAndRelease</Mode>
         <Steps>
           <Step>
@@ -2523,6 +2586,13 @@ See http://isboxer.com/wiki/WoW:Interact_with_Target.</Description>
       </MappedKey>
       <MappedKey>
         <Name>Console Reload</Name>
+        <Combo>
+          <Combo>F7</Combo>
+          <Key>
+            <Key>F7</Key>
+            <Code>65</Code>
+          </Key>
+        </Combo>
         <Steps>
           <Step>
             <Actions>
@@ -2532,6 +2602,31 @@ See http://isboxer.com/wiki/WoW:Interact_with_Target.</Description>
                 <WoWMacro>
                   <WoWMacroSetString>Quick Setup 42</WoWMacroSetString>
                   <WoWMacroString>/console reloadui</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Mount</Name>
+        <Combo>
+          <Combo>Ctrl+Alt+E</Combo>
+          <Modifiers>Ctrl Alt</Modifiers>
+          <Key>
+            <Key>E</Key>
+            <Code>18</Code>
+          </Key>
+        </Combo>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <Target>all</Target>
+                <UseCustomModifiers />
+                <WoWMacro>
+                  <WoWMacroSetString>General</WoWMacroSetString>
+                  <WoWMacroString>Mount</WoWMacroString>
                 </WoWMacro>
               </MappedKeyAction>
             </Actions>
@@ -2751,9 +2846,14 @@ See http://isboxer.com/wiki/WoW:Interact_with_Target.</Description>
             <Code>24</Code>
           </Key>
         </Combo>
+        <Mode>OnPressAndRelease</Mode>
         <Steps>
           <Step>
             <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>ISB42 - Party</KeyMapString>
+                <MappedKeyString>Assist Me CC - Active Method</MappedKeyString>
+              </MappedKeyAction>
               <MappedKeyAction xsi:type="MappedKeyExecuteAction">
                 <Target>Crowd Control</Target>
                 <RoundRobin>true</RoundRobin>
@@ -2778,7 +2878,8 @@ See http://isboxer.com/wiki/WoW:Interact_with_Target.</Description>
           <Step>
             <Actions>
               <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-                <Target>all</Target>
+                <Target>Pull</Target>
+                <RoundRobin>true</RoundRobin>
                 <KeyMapString>ISB42 - Virtual Combat</KeyMapString>
                 <MappedKeyString>Pull</MappedKeyString>
               </MappedKeyAction>
@@ -2895,17 +2996,17 @@ See http://isboxer.com/wiki/WoW:Interact_with_Target.</Description>
           <Step>
             <Actions>
               <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-                <Target>all other</Target>
-                <KeyMapString>ISB42 - WoW</KeyMapString>
-                <MappedKeyString>Click to Move On</MappedKeyString>
-              </MappedKeyAction>
-              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
                 <KeyMapString>ISB42 - Party</KeyMapString>
                 <MappedKeyString>Assist Me - Active Method</MappedKeyString>
               </MappedKeyAction>
-              <MappedKeyAction xsi:type="VariableKeystrokeAction">
-                <Target>other Melee</Target>
-                <Name>Move Backward</Name>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>ISB42 - Base Hotkeys</KeyMapString>
+                <MappedKeyString>Face Toward Target</MappedKeyString>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <Target>all other</Target>
+                <KeyMapString>ISB42 - WoW</KeyMapString>
+                <MappedKeyString>Click to Move On</MappedKeyString>
               </MappedKeyAction>
               <MappedKeyAction xsi:type="VariableKeystrokeAction">
                 <Target>other Melee</Target>
@@ -3166,12 +3267,15 @@ See http://isboxer.com/wiki/WoW:Interact_with_Target.</Description>
           <Step>
             <Actions>
               <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-                <KeyMapString>ISB42 - Party</KeyMapString>
-                <MappedKeyString>Assist Me - Active Method</MappedKeyString>
-              </MappedKeyAction>
-              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
                 <KeyMapString>ISB42 - Virtual Combat</KeyMapString>
                 <MappedKeyString>Crowd Control</MappedKeyString>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <UseCustomModifiers />
+                <WoWMacro>
+                  <WoWMacroSetString>General</WoWMacroSetString>
+                  <WoWMacroString>Clear Target</WoWMacroString>
+                </WoWMacro>
               </MappedKeyAction>
             </Actions>
           </Step>
@@ -3218,6 +3322,22 @@ The Active Methods are set up in your Character Set under Virtual Mapped Keys!</
         </Steps>
       </MappedKey>
       <MappedKey>
+        <Name>Follow Me Melee - Active Method</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="PopupTextAction">
+                <Text>Follow Me: No Follow Method Active!</Text>
+                <DurationMS>1500</DurationMS>
+                <FadeDurationMS>1500</FadeDurationMS>
+                <Green>0</Green>
+                <Blue>0</Blue>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
         <Name>--------------------------------------------------</Name>
         <Steps>
           <Step>
@@ -3236,6 +3356,22 @@ The Active Methods are set up in your Character Set under Virtual Mapped Keys!</
               <MappedKeyAction xsi:type="MappedKeyExecuteAction">
                 <KeyMapString>ISB42 - WoW</KeyMapString>
                 <MappedKeyString>Follow Me</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Follow Me Melee (WoW Macro)</Name>
+        <Hold>
+          <Value>true</Value>
+        </Hold>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>ISB42 - WoW</KeyMapString>
+                <MappedKeyString>Follow Me (Melee)</MappedKeyString>
               </MappedKeyAction>
             </Actions>
           </Step>
@@ -3363,6 +3499,22 @@ The Active Methods are set up in your Character Set under Virtual Mapped Keys!</
         </Steps>
       </MappedKey>
       <MappedKey>
+        <Name>Assist Me CC - Active Method</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="PopupTextAction">
+                <Text>Assist Me: No Assist Method Active!</Text>
+                <DurationMS>1500</DurationMS>
+                <FadeDurationMS>1500</FadeDurationMS>
+                <Green>0</Green>
+                <Blue>0</Blue>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
         <Name>Auto-Assist Me - Active Method</Name>
         <Steps>
           <Step>
@@ -3390,6 +3542,22 @@ The Active Methods are set up in your Character Set under Virtual Mapped Keys!</
               <MappedKeyAction xsi:type="MappedKeyExecuteAction">
                 <KeyMapString>ISB42 - WoW</KeyMapString>
                 <MappedKeyString>Assist Me</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Assist Me CC (WoW Macro)</Name>
+        <Hold>
+          <Value>true</Value>
+        </Hold>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>ISB42 - WoW</KeyMapString>
+                <MappedKeyString>Assist Me (CC)</MappedKeyString>
               </MappedKeyAction>
             </Actions>
           </Step>
@@ -5533,13 +5701,75 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
         </Steps>
       </MappedKey>
       <MappedKey>
-        <Name>Assist Me</Name>
+        <Name>Follow Me (Melee)</Name>
         <Steps>
           <Step>
             <Actions>
               <MappedKeyAction xsi:type="WoWMacroRefAction">
                 <UseFTLModifiers>true</UseFTLModifiers>
+                <Target>(other Follower)&amp;(other Melee)</Target>
+                <UseCustomModifiers />
+                <WoWMacro>
+                  <WoWMacroSetString>Quick Setup 42</WoWMacroSetString>
+                  <WoWMacroString>/follow {FTL}</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Assist Me</Name>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
                 <Target>all other</Target>
+                <UseCustomModifiers />
+                <WoWMacro>
+                  <WoWMacroSetString>General</WoWMacroSetString>
+                  <WoWMacroString>Clear Target</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <UseFTLModifiers>true</UseFTLModifiers>
+                <Target>all other</Target>
+                <UseCustomModifiers />
+                <WoWMacro>
+                  <WoWMacroSetString>Quick Setup 42</WoWMacroSetString>
+                  <WoWMacroString>/assist {FTL}</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Assist Me (CC)</Name>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <Target>Crowd Control</Target>
+                <UseCustomModifiers />
+                <WoWMacro>
+                  <WoWMacroSetString>General</WoWMacroSetString>
+                  <WoWMacroString>Clear Target</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <UseFTLModifiers>true</UseFTLModifiers>
+                <Target>Crowd Control</Target>
                 <UseCustomModifiers />
                 <WoWMacro>
                   <WoWMacroSetString>Quick Setup 42</WoWMacroSetString>
@@ -7734,6 +7964,10 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
           </Step>
           <Step>
             <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>ISB42 - Base Hotkeys</KeyMapString>
+                <MappedKeyString>Face Toward Target</MappedKeyString>
+              </MappedKeyAction>
               <MappedKeyAction xsi:type="WoWMacroRefAction">
                 <UseCustomModifiers />
                 <WoWMacro>
@@ -9644,6 +9878,10 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
                 <KeyMapString>ISB42 - Action Target Group</KeyMapString>
                 <MappedKeyString>Interrupt - Join</MappedKeyString>
               </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>ISB42 - Action Target Group</KeyMapString>
+                <MappedKeyString>Pull - Join</MappedKeyString>
+              </MappedKeyAction>
             </Actions>
           </Step>
         </Steps>
@@ -10884,10 +11122,6 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
                 <KeyMapString>ISB42 - Action Target Group</KeyMapString>
                 <MappedKeyString>Healer - Primary - Join</MappedKeyString>
               </MappedKeyAction>
-              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-                <KeyMapString>ISB42 - Action Target Group</KeyMapString>
-                <MappedKeyString>Crowd Control - Secondary - Join</MappedKeyString>
-              </MappedKeyAction>
             </Actions>
           </Step>
         </Steps>
@@ -11343,16 +11577,7 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
         <Name>Initiate Combat</Name>
         <Steps>
           <Step>
-            <Actions>
-              <MappedKeyAction xsi:type="TimerPoolAction">
-                <TimerPool>Agony CD</TimerPool>
-                <Action>Reset</Action>
-              </MappedKeyAction>
-              <MappedKeyAction xsi:type="TimerPoolAction">
-                <TimerPool>Corruption CD</TimerPool>
-                <Action>Reset</Action>
-              </MappedKeyAction>
-            </Actions>
+            <Actions />
           </Step>
         </Steps>
       </MappedKey>
@@ -11367,14 +11592,6 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
                   <WoWMacroSetString>Warlock</WoWMacroSetString>
                   <WoWMacroString>Agony</WoWMacroString>
                 </WoWMacro>
-              </MappedKeyAction>
-              <MappedKeyAction xsi:type="MappedKeyStepAction">
-                <MappedKey>
-                  <KeyMapString>Warlock - Affliction</KeyMapString>
-                  <MappedKeyString>DPS Rotation</MappedKeyString>
-                </MappedKey>
-                <Action>Set</Action>
-                <Value>1</Value>
               </MappedKeyAction>
               <MappedKeyAction xsi:type="MappedKeyStepStateAction">
                 <ActionTimer>
@@ -11408,14 +11625,6 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
                   <WoWMacroString>Corruption</WoWMacroString>
                 </WoWMacro>
               </MappedKeyAction>
-              <MappedKeyAction xsi:type="MappedKeyStepAction">
-                <MappedKey>
-                  <KeyMapString>Warlock - Affliction</KeyMapString>
-                  <MappedKeyString>DPS Rotation</MappedKeyString>
-                </MappedKey>
-                <Action>Set</Action>
-                <Value>1</Value>
-              </MappedKeyAction>
               <MappedKeyAction xsi:type="MappedKeyStepStateAction">
                 <ActionTimer>
                   <PoolName>Corruption CD</PoolName>
@@ -11447,14 +11656,6 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
                   <WoWMacroSetString>Warlock</WoWMacroSetString>
                   <WoWMacroString>Phantom Singularity</WoWMacroString>
                 </WoWMacro>
-              </MappedKeyAction>
-              <MappedKeyAction xsi:type="MappedKeyStepAction">
-                <MappedKey>
-                  <KeyMapString>Warlock - Affliction</KeyMapString>
-                  <MappedKeyString>DPS Rotation</MappedKeyString>
-                </MappedKey>
-                <Action>Set</Action>
-                <Value>1</Value>
               </MappedKeyAction>
               <MappedKeyAction xsi:type="MappedKeyStepStateAction">
                 <ActionTimer>
@@ -11488,14 +11689,6 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
                   <WoWMacroString>Haunt</WoWMacroString>
                 </WoWMacro>
               </MappedKeyAction>
-              <MappedKeyAction xsi:type="MappedKeyStepAction">
-                <MappedKey>
-                  <KeyMapString>Warlock - Affliction</KeyMapString>
-                  <MappedKeyString>DPS Rotation</MappedKeyString>
-                </MappedKey>
-                <Action>Set</Action>
-                <Value>1</Value>
-              </MappedKeyAction>
               <MappedKeyAction xsi:type="MappedKeyStepStateAction">
                 <ActionTimer>
                   <PoolName>Haunt CD</PoolName>
@@ -11528,14 +11721,6 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
                   <WoWMacroString>Deathbolt</WoWMacroString>
                 </WoWMacro>
               </MappedKeyAction>
-              <MappedKeyAction xsi:type="MappedKeyStepAction">
-                <MappedKey>
-                  <KeyMapString>Warlock - Affliction</KeyMapString>
-                  <MappedKeyString>DPS Rotation</MappedKeyString>
-                </MappedKey>
-                <Action>Set</Action>
-                <Value>1</Value>
-              </MappedKeyAction>
               <MappedKeyAction xsi:type="MappedKeyStepStateAction">
                 <ActionTimer>
                   <PoolName>Deathbolt CD</PoolName>
@@ -11567,42 +11752,6 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
                   <WoWMacroSetString>Warlock</WoWMacroSetString>
                   <WoWMacroString>Shadow Bolt</WoWMacroString>
                 </WoWMacro>
-              </MappedKeyAction>
-            </Actions>
-          </Step>
-          <Step>
-            <Actions>
-              <MappedKeyAction xsi:type="WoWMacroRefAction">
-                <UseCustomModifiers />
-                <WoWMacro>
-                  <WoWMacroSetString>Warlock</WoWMacroSetString>
-                  <WoWMacroString>Unstable Affliction</WoWMacroString>
-                </WoWMacro>
-              </MappedKeyAction>
-              <MappedKeyAction xsi:type="MappedKeyStepStateAction">
-                <ActionTimer>
-                  <PoolName>Unstable Affliction CD</PoolName>
-                  <Seconds>7</Seconds>
-                  <Enabled>true</Enabled>
-                </ActionTimer>
-                <Target>self</Target>
-                <MappedKey>
-                  <KeyMapString>Warlock - Affliction</KeyMapString>
-                  <MappedKeyString>DPS Rotation</MappedKeyString>
-                </MappedKey>
-                <Enable>1</Enable>
-              </MappedKeyAction>
-              <MappedKeyAction xsi:type="MappedKeyStepStateAction">
-                <Target>self</Target>
-                <MappedKey>
-                  <KeyMapString>Warlock - Affliction</KeyMapString>
-                  <MappedKeyString>DPS Rotation</MappedKeyString>
-                </MappedKey>
-                <Enable>0</Enable>
-              </MappedKeyAction>
-              <MappedKeyAction xsi:type="TimerPoolAction">
-                <TimerPool>Unstable Affliction CD</TimerPool>
-                <Action>Reset</Action>
               </MappedKeyAction>
             </Actions>
           </Step>
@@ -12464,6 +12613,19 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
           <Key>
             <Key>D</Key>
             <Code>32</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers />
+      </WoWMacro>
+      <WoWMacro>
+        <MacroCommands>/cast Armored Blue Wind Rider</MacroCommands>
+        <ColloquialName>Mount</ColloquialName>
+        <Combo>
+          <Combo>Ctrl+Alt+E</Combo>
+          <Modifiers>Ctrl Alt</Modifiers>
+          <Key>
+            <Key>E</Key>
+            <Code>18</Code>
           </Key>
         </Combo>
         <AllowCustomModifiers />
@@ -13648,13 +13810,11 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
     <Name>Follow Target</Name>
     <Category>Movement</Category>
     <Description>Most MMORPGs include an Auto-Follow feature, which is useful to move your characters together as a group.</Description>
-    <DefaultValue />
   </VariableKeystroke>
   <VariableKeystroke>
     <Name>Assist Target</Name>
     <Category>Targeting</Category>
     <Description>Causes the character to select his target's target, such as to assist in combat against the same enemy. Most games include this feature.</Description>
-    <DefaultValue />
   </VariableKeystroke>
   <VariableKeystroke>
     <Name>Target Self</Name>
