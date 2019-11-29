@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ISBoxerToolkitProfile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="42" VersionMinor="0" BuildDate="11/26/2019 10:47:06 PM">
+<ISBoxerToolkitProfile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="42" VersionMinor="0" BuildDate="11/28/2019 10:00:19 PM">
   <CharacterSet>
     <ExecuteOnLoad />
     <Name>Blaumeux - Mixed</Name>
@@ -680,6 +680,7 @@
     <KnownGame>WoW</KnownGame>
     <RelayGroupStrings />
     <KeyMapStrings>
+      <string>Warlock - Base</string>
       <string>Warlock - Affliction</string>
       <string>Warlock - Demonology</string>
       <string>Warlock - Destruction</string>
@@ -743,6 +744,7 @@
     <KnownGame>WoW</KnownGame>
     <RelayGroupStrings />
     <KeyMapStrings>
+      <string>Warlock - Base</string>
       <string>Warlock - Affliction</string>
       <string>Warlock - Demonology</string>
       <string>Warlock - Destruction</string>
@@ -806,6 +808,7 @@
     <KnownGame>WoW</KnownGame>
     <RelayGroupStrings />
     <KeyMapStrings>
+      <string>Mage - Base</string>
       <string>Mage - Arcane</string>
       <string>Mage - Fire</string>
       <string>Mage - Frost</string>
@@ -869,6 +872,7 @@
     <KnownGame>WoW</KnownGame>
     <RelayGroupStrings />
     <KeyMapStrings>
+      <string>Mage - Base</string>
       <string>Mage - Arcane</string>
       <string>Mage - Fire</string>
       <string>Mage - Frost</string>
@@ -932,6 +936,7 @@
     <KnownGame>WoW</KnownGame>
     <RelayGroupStrings />
     <KeyMapStrings>
+      <string>Priest - Base</string>
       <string>Priest - Discipline</string>
       <string>Priest - Holy</string>
       <string>Priest - Shadow</string>
@@ -3062,6 +3067,7 @@ See http://isboxer.com/wiki/WoW:Interact_with_Target.</Description>
           <Step>
             <Actions>
               <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <Target>Crowd Control</Target>
                 <KeyMapString>ISB42 - Party</KeyMapString>
                 <MappedKeyString>Assist Me CC - Active Method</MappedKeyString>
               </MappedKeyAction>
@@ -3237,14 +3243,44 @@ See http://isboxer.com/wiki/WoW:Interact_with_Target.</Description>
         </Steps>
       </MappedKey>
       <MappedKey>
-        <Name>Self Buffs</Name>
+        <Name>Buffs - Self</Name>
+        <Combo>
+          <Combo>Ctrl+Shift+P</Combo>
+          <Modifiers>Ctrl Shift</Modifiers>
+          <Key>
+            <Key>P</Key>
+            <Code>25</Code>
+          </Key>
+        </Combo>
         <Steps>
           <Step>
             <Actions>
               <MappedKeyAction xsi:type="MappedKeyExecuteAction">
                 <Target>all</Target>
                 <KeyMapString>ISB42 - Virtual Combat</KeyMapString>
-                <MappedKeyString>Self Buffs</MappedKeyString>
+                <MappedKeyString>Buffs - Self</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Buffs - Targeted</Name>
+        <Combo>
+          <Combo>Ctrl+Shift+Q</Combo>
+          <Modifiers>Ctrl Shift</Modifiers>
+          <Key>
+            <Key>Q</Key>
+            <Code>16</Code>
+          </Key>
+        </Combo>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <Target>all</Target>
+                <KeyMapString>ISB42 - Virtual Combat</KeyMapString>
+                <MappedKeyString>Buffs - Targeted</MappedKeyString>
               </MappedKeyAction>
             </Actions>
           </Step>
@@ -5580,12 +5616,12 @@ See http://isboxer.com/wiki/WoW:Interact_with_Target.</Description>
         </Steps>
       </MappedKey>
       <MappedKey>
-        <Name>Self Buffs</Name>
-        <Steps>
-          <Step>
-            <Actions />
-          </Step>
-        </Steps>
+        <Name>Buffs - Self</Name>
+        <Steps />
+      </MappedKey>
+      <MappedKey>
+        <Name>Buffs - Targeted</Name>
+        <Steps />
       </MappedKey>
       <MappedKey>
         <Name>__Targeted Heals___________________________________________</Name>
@@ -5633,6 +5669,14 @@ See http://isboxer.com/wiki/WoW:Interact_with_Target.</Description>
       </MappedKey>
       <MappedKey>
         <Name>Tilt Wheel Right [+AS]</Name>
+        <Steps />
+      </MappedKey>
+      <MappedKey>
+        <Name>Copy of Buffs - Self</Name>
+        <Steps />
+      </MappedKey>
+      <MappedKey>
+        <Name>Copy of Buffs - Targeted</Name>
         <Steps />
       </MappedKey>
     </Mappings>
@@ -8102,46 +8146,13 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
         <Steps>
           <Step>
             <Actions>
-              <MappedKeyAction xsi:type="PopupTextAction">
-                <Text>Mage Base Init</Text>
-                <DurationMS>1000</DurationMS>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>ISB42 - Action Target Group</KeyMapString>
+                <MappedKeyString>Ranged - Join</MappedKeyString>
               </MappedKeyAction>
-            </Actions>
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
-        <Name>Self Buffs</Name>
-        <Steps>
-          <Step>
-            <Actions>
-              <MappedKeyAction xsi:type="WoWMacroRefAction">
-                <UseCustomModifiers />
-                <WoWMacro>
-                  <WoWMacroSetString>Mage</WoWMacroSetString>
-                  <WoWMacroString>Frost Armor</WoWMacroString>
-                </WoWMacro>
-              </MappedKeyAction>
-              <MappedKeyAction xsi:type="MappedKeyStepStateAction">
-                <ActionTimer>
-                  <PoolName>Frost Armor CD</PoolName>
-                  <Seconds>1200</Seconds>
-                  <Enabled>true</Enabled>
-                </ActionTimer>
-                <Target>self</Target>
-                <MappedKey>
-                  <KeyMapString>Mage - Base</KeyMapString>
-                  <MappedKeyString>Self Buffs</MappedKeyString>
-                </MappedKey>
-                <Enable>1</Enable>
-              </MappedKeyAction>
-              <MappedKeyAction xsi:type="MappedKeyStepStateAction">
-                <Target>self</Target>
-                <MappedKey>
-                  <KeyMapString>Mage - Base</KeyMapString>
-                  <MappedKeyString>Self Buffs</MappedKeyString>
-                </MappedKey>
-                <Enable>0</Enable>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>ISB42 - Action Target Group</KeyMapString>
+                <MappedKeyString>Crowd Control - Join</MappedKeyString>
               </MappedKeyAction>
             </Actions>
           </Step>
@@ -8152,6 +8163,10 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
   <KeyMap>
     <Name>Mage - Arcane</Name>
     <Mappings>
+      <MappedKey>
+        <Name>Buffs - Self</Name>
+        <Steps />
+      </MappedKey>
       <MappedKey>
         <Name>__Initialization_____________________________________</Name>
         <Steps>
@@ -8178,6 +8193,10 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
   <KeyMap>
     <Name>Mage - Fire</Name>
     <Mappings>
+      <MappedKey>
+        <Name>Buffs - Self</Name>
+        <Steps />
+      </MappedKey>
       <MappedKey>
         <Name>__Initialization_____________________________________</Name>
         <Steps>
@@ -8361,6 +8380,57 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
         </Steps>
       </MappedKey>
       <MappedKey>
+        <Name>Buffs - Self</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <UseCustomModifiers />
+                <WoWMacro>
+                  <WoWMacroSetString>Mage</WoWMacroSetString>
+                  <WoWMacroString>Frost Armor</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+          <Step>
+            <Stick>5</Stick>
+            <Stump>true</Stump>
+            <Actions>
+              <MappedKeyAction xsi:type="PopupTextAction">
+                <Target>all</Target>
+                <Text>{CHARACTER} done applying self buffs</Text>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Buffs - Targeted</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <UseCustomModifiers />
+                <WoWMacro>
+                  <WoWMacroSetString>Mage</WoWMacroSetString>
+                  <WoWMacroString>Arcane Intellect</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+          <Step>
+            <Stick>5</Stick>
+            <Actions>
+              <MappedKeyAction xsi:type="PopupTextAction">
+                <Target>all</Target>
+                <Text>{CHARACTER} done applying targeted buffs</Text>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
         <Name>__Initialization_____________________________________</Name>
         <Steps>
           <Step>
@@ -8373,9 +8443,6 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
         <Steps>
           <Step>
             <Actions>
-              <MappedKeyAction xsi:type="PopupTextAction">
-                <Text>Frost Mage Init</Text>
-              </MappedKeyAction>
               <MappedKeyAction xsi:type="MappedKeyExecuteAction">
                 <KeyMapString>Mage - Base</KeyMapString>
                 <MappedKeyString>____ - Initialize</MappedKeyString>
@@ -10584,8 +10651,61 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
         </Steps>
       </MappedKey>
       <MappedKey>
-        <Name>Left Click</Name>
+        <Name>Buffs - Self</Name>
         <Steps />
+      </MappedKey>
+      <MappedKey>
+        <Name>Buffs - Targeted</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <UseCustomModifiers />
+                <WoWMacro>
+                  <WoWMacroSetString>Priest</WoWMacroSetString>
+                  <WoWMacroString>Power Word - Shield</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <UseCustomModifiers />
+                <WoWMacro>
+                  <WoWMacroSetString>Priest</WoWMacroSetString>
+                  <WoWMacroString>Power Word - Fortitude</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+          <Step>
+            <Stick>5</Stick>
+            <Stump>true</Stump>
+            <Actions>
+              <MappedKeyAction xsi:type="PopupTextAction">
+                <Target>all</Target>
+                <Text>{CHARACTER} done applying targeted buffs</Text>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Left Click</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <UseCustomModifiers />
+                <WoWMacro>
+                  <WoWMacroSetString>Priest</WoWMacroSetString>
+                  <WoWMacroString>Lesser Heal (Mouseover)</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
       </MappedKey>
       <MappedKey>
         <Name>Left Click [+A]</Name>
@@ -10679,7 +10799,15 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
         <Name>Middle Click</Name>
         <Steps>
           <Step>
-            <Actions />
+            <Actions>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <UseCustomModifiers />
+                <WoWMacro>
+                  <WoWMacroSetString>Priest</WoWMacroSetString>
+                  <WoWMacroString>Power Word - Shield (Mouseover)</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+            </Actions>
           </Step>
         </Steps>
       </MappedKey>
@@ -11996,6 +12124,32 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
         </Steps>
       </MappedKey>
       <MappedKey>
+        <Name>Buffs - Self</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <UseCustomModifiers />
+                <WoWMacro>
+                  <WoWMacroSetString>Warlock</WoWMacroSetString>
+                  <WoWMacroString>Demon Skin</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+          <Step>
+            <Stick>5</Stick>
+            <Stump>true</Stump>
+            <Actions>
+              <MappedKeyAction xsi:type="PopupTextAction">
+                <Target>all</Target>
+                <Text>{CHARACTER} done applying self buffs</Text>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
         <Name>__Targeted Heals____________________________________</Name>
         <Steps>
           <Step>
@@ -12195,6 +12349,24 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
         </Steps>
       </MappedKey>
       <MappedKey>
+        <Name>Buffs - Self</Name>
+        <Steps>
+          <Step>
+            <Stop>true</Stop>
+            <Stump>true</Stump>
+            <Actions>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <UseCustomModifiers />
+                <WoWMacro>
+                  <WoWMacroSetString>Warlock</WoWMacroSetString>
+                  <WoWMacroString>Demon Skin</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
         <Name>__Targeted Heals___________________________________________</Name>
         <Steps>
           <Step>
@@ -12388,6 +12560,24 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
         <Steps>
           <Step>
             <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Buffs - Self</Name>
+        <Steps>
+          <Step>
+            <Stop>true</Stop>
+            <Stump>true</Stump>
+            <Actions>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <UseCustomModifiers />
+                <WoWMacro>
+                  <WoWMacroSetString>Warlock</WoWMacroSetString>
+                  <WoWMacroString>Demon Skin</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+            </Actions>
           </Step>
         </Steps>
       </MappedKey>
@@ -13565,6 +13755,19 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
         </Combo>
         <AllowCustomModifiers />
       </WoWMacro>
+      <WoWMacro>
+        <MacroCommands>/cast Arcane Intellect</MacroCommands>
+        <ColloquialName>Arcane Intellect</ColloquialName>
+        <Combo>
+          <Combo>Ctrl+Shift+P</Combo>
+          <Modifiers>Ctrl Shift</Modifiers>
+          <Key>
+            <Key>P</Key>
+            <Code>25</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers />
+      </WoWMacro>
     </WoWMacros>
   </WoWMacroSet>
   <WoWMacroSet>
@@ -13709,6 +13912,71 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
           <Key>
             <Key>K</Key>
             <Code>37</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers />
+      </WoWMacro>
+      <WoWMacro>
+        <MacroCommands>/cast Power Word: Shield</MacroCommands>
+        <ColloquialName>Power Word - Shield</ColloquialName>
+        <Combo>
+          <Combo>Ctrl+Shift+L</Combo>
+          <Modifiers>Ctrl Shift</Modifiers>
+          <Key>
+            <Key>L</Key>
+            <Code>38</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers />
+      </WoWMacro>
+      <WoWMacro>
+        <MacroCommands>/cast Power Word: Fortitude</MacroCommands>
+        <ColloquialName>Power Word - Fortitude</ColloquialName>
+        <Combo>
+          <Combo>Ctrl+Shift+M</Combo>
+          <Modifiers>Ctrl Shift</Modifiers>
+          <Key>
+            <Key>M</Key>
+            <Code>50</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers />
+      </WoWMacro>
+      <WoWMacro>
+        <MacroCommands>/cast Inner Fire</MacroCommands>
+        <ColloquialName>Inner Fire</ColloquialName>
+        <Combo>
+          <Combo>Ctrl+Shift+N</Combo>
+          <Modifiers>Ctrl Shift</Modifiers>
+          <Key>
+            <Key>N</Key>
+            <Code>49</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers />
+      </WoWMacro>
+      <WoWMacro>
+        <MacroCommands>/cast [@mouseover] Power Word: Shield</MacroCommands>
+        <ColloquialName>Power Word - Shield (Mouseover)</ColloquialName>
+        <Combo>
+          <Combo>Ctrl+Shift+O</Combo>
+          <Modifiers>Ctrl Shift</Modifiers>
+          <Key>
+            <Key>O</Key>
+            <Code>24</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers />
+      </WoWMacro>
+      <WoWMacro>
+        <MacroCommands>/cast [@mouseover]  Power Word: Fortitude</MacroCommands>
+        <ColloquialName>Power Word - Fortitude (Mouseover</ColloquialName>
+        <Combo>
+          <Combo>Ctrl+Shift+P</Combo>
+          <Modifiers>Ctrl Shift</Modifiers>
+          <Key>
+            <Key>P</Key>
+            <Code>25</Code>
           </Key>
         </Combo>
         <AllowCustomModifiers />
