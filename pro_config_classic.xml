@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ISBoxerToolkitProfile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="42" VersionMinor="0" BuildDate="11/28/2019 10:00:19 PM">
+<ISBoxerToolkitProfile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="42" VersionMinor="0" BuildDate="11/28/2019 10:04:21 PM">
   <CharacterSet>
     <ExecuteOnLoad />
     <Name>Blaumeux - Mixed</Name>
@@ -3066,11 +3066,6 @@ See http://isboxer.com/wiki/WoW:Interact_with_Target.</Description>
         <Steps>
           <Step>
             <Actions>
-              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-                <Target>Crowd Control</Target>
-                <KeyMapString>ISB42 - Party</KeyMapString>
-                <MappedKeyString>Assist Me CC - Active Method</MappedKeyString>
-              </MappedKeyAction>
               <MappedKeyAction xsi:type="MappedKeyExecuteAction">
                 <Target>Crowd Control</Target>
                 <RoundRobin>true</RoundRobin>
