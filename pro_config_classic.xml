@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ISBoxerToolkitProfile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="42" VersionMinor="0" BuildDate="11/28/2019 10:04:21 PM">
+<ISBoxerToolkitProfile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="42" VersionMinor="0" BuildDate="11/30/2019 9:18:06 PM">
   <CharacterSet>
     <ExecuteOnLoad />
     <Name>Blaumeux - Mixed</Name>
@@ -437,31 +437,29 @@
       <string>ISB42 - WoW</string>
       <string>ISB42 - Initialization</string>
       <string>ISB42 - Initialization [Virtualized]</string>
+      <string>ISB42 - Slot 1 Menu</string>
+      <string>ISB42 - Slot 1 Menu [Virtualized]</string>
+      <string>ISB42 - Slot 2 Menu</string>
+      <string>ISB42 - Slot 2 Menu [Virtualized]</string>
+      <string>ISB42 - Slot 3 Menu</string>
+      <string>ISB42 - Slot 3 Menu [Virtualized]</string>
+      <string>ISB42 - Slot 4 Menu</string>
+      <string>ISB42 - Slot 4 Menu [Virtualized]</string>
+      <string>ISB42 - Slot 5 Menu</string>
+      <string>ISB42 - Slot 5 Menu [Virtualized]</string>
       <string>ISB42 - Healing - Primary</string>
       <string>ISB42 - Healing - Primary [Virtualized]</string>
       <string>ISB42 - Healing - Secondary</string>
       <string>ISB42 - Healing - Secondary [Virtualized]</string>
       <string>ISB42 - Healing - Tertiary</string>
       <string>ISB42 - Healing - Tertiary [Virtualized]</string>
+      <string>ISB42 - Crowd Control</string>
     </KeyMapStrings>
     <KeyMapWhiteOrBlackListType>BlackList</KeyMapWhiteOrBlackListType>
     <KeyMapWhiteOrBlackList />
     <ClickBarStrings>
-      <string>Healing - Primary S1</string>
-      <string>Healing - Primary S2</string>
-      <string>Healing - Primary S3</string>
-      <string>Healing - Primary S4</string>
-      <string>Healing - Primary S5</string>
-      <string>Healing - Secondary S1</string>
-      <string>Healing - Secondary S2</string>
-      <string>Healing - Secondary S3</string>
-      <string>Healing - Secondary S4</string>
-      <string>Healing - Secondary S5</string>
-      <string>Healing - Tertiary S1</string>
-      <string>Healing - Tertiary S2</string>
-      <string>Healing - Tertiary S3</string>
-      <string>Healing - Tertiary S4</string>
-      <string>Healing - Tertiary S5</string>
+      <string>1 - Target CC</string>
+      <string>2 - Target CC</string>
     </ClickBarStrings>
     <VirtualFileTargets />
     <VirtualMappedKeys>
@@ -680,6 +678,7 @@
     <KnownGame>WoW</KnownGame>
     <RelayGroupStrings />
     <KeyMapStrings>
+      <string>Warlock - Affliction - Menu</string>
       <string>Warlock - Base</string>
       <string>Warlock - Affliction</string>
       <string>Warlock - Demonology</string>
@@ -705,6 +704,15 @@
     </VirtualFileTargets>
     <WoWMacroSets>
       <WoWMacroSetLooseRef>
+        <WoWMacroSetString>Quick Setup 42</WoWMacroSetString>
+      </WoWMacroSetLooseRef>
+      <WoWMacroSetLooseRef>
+        <WoWMacroSetString>General</WoWMacroSetString>
+      </WoWMacroSetLooseRef>
+      <WoWMacroSetLooseRef>
+        <WoWMacroSetString>Game Settings</WoWMacroSetString>
+      </WoWMacroSetLooseRef>
+      <WoWMacroSetLooseRef>
         <WoWMacroSetString>Warlock</WoWMacroSetString>
       </WoWMacroSetLooseRef>
     </WoWMacroSets>
@@ -715,7 +723,7 @@
           <KeyMapString>ISB42 - Virtual Combat</KeyMapString>
         </FromMappedKey>
         <ToMappedKey>
-          <KeyMapString>Warlock - Affliction</KeyMapString>
+          <KeyMapString>Warlock - Demonology</KeyMapString>
         </ToMappedKey>
       </VirtualMappedKey>
       <VirtualMappedKey>
@@ -723,7 +731,7 @@
           <KeyMapString>ISB42 - Initialization [Virtualized]</KeyMapString>
         </FromMappedKey>
         <ToMappedKey>
-          <KeyMapString>Warlock - Affliction</KeyMapString>
+          <KeyMapString>Warlock - Demonology</KeyMapString>
         </ToMappedKey>
       </VirtualMappedKey>
     </VirtualMappedKeys>
@@ -744,6 +752,7 @@
     <KnownGame>WoW</KnownGame>
     <RelayGroupStrings />
     <KeyMapStrings>
+      <string>Warlock - Affliction - Menu</string>
       <string>Warlock - Base</string>
       <string>Warlock - Affliction</string>
       <string>Warlock - Demonology</string>
@@ -768,6 +777,15 @@
       </VirtualFileTarget>
     </VirtualFileTargets>
     <WoWMacroSets>
+      <WoWMacroSetLooseRef>
+        <WoWMacroSetString>Quick Setup 42</WoWMacroSetString>
+      </WoWMacroSetLooseRef>
+      <WoWMacroSetLooseRef>
+        <WoWMacroSetString>General</WoWMacroSetString>
+      </WoWMacroSetLooseRef>
+      <WoWMacroSetLooseRef>
+        <WoWMacroSetString>Game Settings</WoWMacroSetString>
+      </WoWMacroSetLooseRef>
       <WoWMacroSetLooseRef>
         <WoWMacroSetString>Warlock</WoWMacroSetString>
       </WoWMacroSetLooseRef>
@@ -806,8 +824,11 @@
     <Game>World of Warcraft</Game>
     <GameProfile>World of Warcraft Classic Client</GameProfile>
     <KnownGame>WoW</KnownGame>
-    <RelayGroupStrings />
+    <RelayGroupStrings>
+      <string>Crowd Control 1</string>
+    </RelayGroupStrings>
     <KeyMapStrings>
+      <string>Mage - Frost - Menu</string>
       <string>Mage - Base</string>
       <string>Mage - Arcane</string>
       <string>Mage - Fire</string>
@@ -832,6 +853,15 @@
       </VirtualFileTarget>
     </VirtualFileTargets>
     <WoWMacroSets>
+      <WoWMacroSetLooseRef>
+        <WoWMacroSetString>Quick Setup 42</WoWMacroSetString>
+      </WoWMacroSetLooseRef>
+      <WoWMacroSetLooseRef>
+        <WoWMacroSetString>General</WoWMacroSetString>
+      </WoWMacroSetLooseRef>
+      <WoWMacroSetLooseRef>
+        <WoWMacroSetString>Game Settings</WoWMacroSetString>
+      </WoWMacroSetLooseRef>
       <WoWMacroSetLooseRef>
         <WoWMacroSetString>Mage</WoWMacroSetString>
       </WoWMacroSetLooseRef>
@@ -870,8 +900,11 @@
     <Game>World of Warcraft</Game>
     <GameProfile>World of Warcraft Classic Client</GameProfile>
     <KnownGame>WoW</KnownGame>
-    <RelayGroupStrings />
+    <RelayGroupStrings>
+      <string>Crowd Control 2</string>
+    </RelayGroupStrings>
     <KeyMapStrings>
+      <string>Mage - Frost - Menu</string>
       <string>Mage - Base</string>
       <string>Mage - Arcane</string>
       <string>Mage - Fire</string>
@@ -896,6 +929,15 @@
       </VirtualFileTarget>
     </VirtualFileTargets>
     <WoWMacroSets>
+      <WoWMacroSetLooseRef>
+        <WoWMacroSetString>Quick Setup 42</WoWMacroSetString>
+      </WoWMacroSetLooseRef>
+      <WoWMacroSetLooseRef>
+        <WoWMacroSetString>General</WoWMacroSetString>
+      </WoWMacroSetLooseRef>
+      <WoWMacroSetLooseRef>
+        <WoWMacroSetString>Game Settings</WoWMacroSetString>
+      </WoWMacroSetLooseRef>
       <WoWMacroSetLooseRef>
         <WoWMacroSetString>Mage</WoWMacroSetString>
       </WoWMacroSetLooseRef>
@@ -961,6 +1003,15 @@
     </VirtualFileTargets>
     <WoWMacroSets>
       <WoWMacroSetLooseRef>
+        <WoWMacroSetString>Quick Setup 42</WoWMacroSetString>
+      </WoWMacroSetLooseRef>
+      <WoWMacroSetLooseRef>
+        <WoWMacroSetString>General</WoWMacroSetString>
+      </WoWMacroSetLooseRef>
+      <WoWMacroSetLooseRef>
+        <WoWMacroSetString>Game Settings</WoWMacroSetString>
+      </WoWMacroSetLooseRef>
+      <WoWMacroSetLooseRef>
         <WoWMacroSetString>Priest</WoWMacroSetString>
       </WoWMacroSetLooseRef>
     </WoWMacroSets>
@@ -971,7 +1022,7 @@
           <KeyMapString>ISB42 - Virtual Combat</KeyMapString>
         </FromMappedKey>
         <ToMappedKey>
-          <KeyMapString>Priest - Holy</KeyMapString>
+          <KeyMapString>Priest - Discipline</KeyMapString>
         </ToMappedKey>
       </VirtualMappedKey>
       <VirtualMappedKey>
@@ -979,7 +1030,7 @@
           <KeyMapString>ISB42 - Healing - Primary [Virtualized]</KeyMapString>
         </FromMappedKey>
         <ToMappedKey>
-          <KeyMapString>Priest - Holy</KeyMapString>
+          <KeyMapString>Priest - Discipline</KeyMapString>
         </ToMappedKey>
       </VirtualMappedKey>
       <VirtualMappedKey>
@@ -987,7 +1038,7 @@
           <KeyMapString>ISB42 - Initialization [Virtualized]</KeyMapString>
         </FromMappedKey>
         <ToMappedKey>
-          <KeyMapString>Priest - Holy</KeyMapString>
+          <KeyMapString>Priest - Discipline</KeyMapString>
         </ToMappedKey>
       </VirtualMappedKey>
     </VirtualMappedKeys>
@@ -1121,7 +1172,10 @@
     <Name>Combat</Name>
   </RelayGroup>
   <RelayGroup>
-    <Name>Crowd Control</Name>
+    <Name>Crowd Control 1</Name>
+  </RelayGroup>
+  <RelayGroup>
+    <Name>Crowd Control 2</Name>
   </RelayGroup>
   <RelayGroup>
     <Name>DxNothing</Name>
@@ -1421,6 +1475,27 @@
           </Step>
         </Steps>
       </MappedKey>
+      <MappedKey>
+        <Name>Toggle Health Clickbar</Name>
+        <Combo>
+          <Combo>Ctrl+Shift+H</Combo>
+          <Modifiers>Ctrl Shift</Modifiers>
+          <Key>
+            <Key>H</Key>
+            <Code>35</Code>
+          </Key>
+        </Combo>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>ISB42 - Toggles</KeyMapString>
+                <MappedKeyString>Toggle Healing Bar</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
     </Mappings>
   </KeyMap>
   <KeyMap>
@@ -1455,14 +1530,6 @@
               <MappedKeyAction xsi:type="TargetGroupAction">
                 <Action>Leave</Action>
                 <RelayGroupString>Combat</RelayGroupString>
-              </MappedKeyAction>
-              <MappedKeyAction xsi:type="TargetGroupAction">
-                <Action>Leave</Action>
-                <RelayGroupString>Crowd Control - Primary</RelayGroupString>
-              </MappedKeyAction>
-              <MappedKeyAction xsi:type="TargetGroupAction">
-                <Action>Leave</Action>
-                <RelayGroupString>Crowd Control - Secondary</RelayGroupString>
               </MappedKeyAction>
               <MappedKeyAction xsi:type="TargetGroupAction">
                 <Action>Leave</Action>
@@ -1753,13 +1820,26 @@
         </Steps>
       </MappedKey>
       <MappedKey>
-        <Name>Crowd Control - Join</Name>
+        <Name>Crowd Control 1 - Join</Name>
         <Steps>
           <Step>
             <Actions>
               <MappedKeyAction xsi:type="TargetGroupAction">
                 <Action>Join</Action>
-                <RelayGroupString>Crowd Control</RelayGroupString>
+                <RelayGroupString>Crowd Control 1</RelayGroupString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Crowd Control 2 - Join</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="TargetGroupAction">
+                <Action>Join</Action>
+                <RelayGroupString>Crowd Control 2</RelayGroupString>
               </MappedKeyAction>
             </Actions>
           </Step>
@@ -1771,8 +1851,12 @@
           <Step>
             <Actions>
               <MappedKeyAction xsi:type="TargetGroupAction">
-                <Action>Join</Action>
-                <RelayGroupString>Crowd Control</RelayGroupString>
+                <Action>Leave</Action>
+                <RelayGroupString>Crowd Control 1</RelayGroupString>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="TargetGroupAction">
+                <Action>Leave</Action>
+                <RelayGroupString>Crowd Control 2</RelayGroupString>
               </MappedKeyAction>
             </Actions>
           </Step>
@@ -2867,6 +2951,16 @@ See http://isboxer.com/wiki/WoW:Interact_with_Target.</Description>
         <Steps>
           <Step>
             <Actions>
+              <MappedKeyAction xsi:type="MappedKeyStateAction">
+                <Target>all</Target>
+                <KeyMapString>ISB42 - Combat Hotkeys</KeyMapString>
+                <MappedKeyString>Buffs - Self</MappedKeyString>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyStateAction">
+                <Target>all</Target>
+                <KeyMapString>ISB42 - Combat Hotkeys</KeyMapString>
+                <MappedKeyString>Buffs - Targeted</MappedKeyString>
+              </MappedKeyAction>
               <MappedKeyAction xsi:type="MappedKeyExecuteAction">
                 <Target>all</Target>
                 <KeyMapString>ISB42 - Virtual Combat</KeyMapString>
@@ -3062,15 +3156,13 @@ See http://isboxer.com/wiki/WoW:Interact_with_Target.</Description>
             <Code>24</Code>
           </Key>
         </Combo>
-        <Mode>OnPressAndRelease</Mode>
         <Steps>
           <Step>
             <Actions>
               <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-                <Target>Crowd Control</Target>
-                <RoundRobin>true</RoundRobin>
-                <KeyMapString>ISB42 - Combat Hotkeys</KeyMapString>
-                <MappedKeyString>DoCrowdControl</MappedKeyString>
+                <Target>all</Target>
+                <KeyMapString>ISB42 - Virtual Combat</KeyMapString>
+                <MappedKeyString>Crowd Control</MappedKeyString>
               </MappedKeyAction>
             </Actions>
           </Step>
@@ -3252,8 +3344,8 @@ See http://isboxer.com/wiki/WoW:Interact_with_Target.</Description>
             <Actions>
               <MappedKeyAction xsi:type="MappedKeyExecuteAction">
                 <Target>all</Target>
-                <KeyMapString>ISB42 - Virtual Combat</KeyMapString>
-                <MappedKeyString>Buffs - Self</MappedKeyString>
+                <KeyMapString>ISB42 - Combat Hotkeys</KeyMapString>
+                <MappedKeyString>DoSelfBuffs</MappedKeyString>
               </MappedKeyAction>
             </Actions>
           </Step>
@@ -3274,8 +3366,30 @@ See http://isboxer.com/wiki/WoW:Interact_with_Target.</Description>
             <Actions>
               <MappedKeyAction xsi:type="MappedKeyExecuteAction">
                 <Target>all</Target>
+                <KeyMapString>ISB42 - Combat Hotkeys</KeyMapString>
+                <MappedKeyString>DoTargetedBuffs</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Pet Attack</Name>
+        <Combo>
+          <Combo>Ctrl+Shift+R</Combo>
+          <Modifiers>Ctrl Shift</Modifiers>
+          <Key>
+            <Key>R</Key>
+            <Code>19</Code>
+          </Key>
+        </Combo>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <Target>all</Target>
                 <KeyMapString>ISB42 - Virtual Combat</KeyMapString>
-                <MappedKeyString>Buffs - Targeted</MappedKeyString>
+                <MappedKeyString>Pet Attack</MappedKeyString>
               </MappedKeyAction>
             </Actions>
           </Step>
@@ -3518,20 +3632,54 @@ See http://isboxer.com/wiki/WoW:Interact_with_Target.</Description>
         </Steps>
       </MappedKey>
       <MappedKey>
-        <Name>DoCrowdControl</Name>
+        <Name>DoSelfBuffs</Name>
         <Steps>
           <Step>
             <Actions>
               <MappedKeyAction xsi:type="MappedKeyExecuteAction">
                 <KeyMapString>ISB42 - Virtual Combat</KeyMapString>
-                <MappedKeyString>Crowd Control</MappedKeyString>
+                <MappedKeyString>Buffs - Self</MappedKeyString>
               </MappedKeyAction>
-              <MappedKeyAction xsi:type="WoWMacroRefAction">
-                <UseCustomModifiers />
-                <WoWMacro>
-                  <WoWMacroSetString>General</WoWMacroSetString>
-                  <WoWMacroString>Clear Target</WoWMacroString>
-                </WoWMacro>
+              <MappedKeyAction xsi:type="MappedKeyStateAction">
+                <ActionTimer>
+                  <PoolName>SelfBuffsTimer</PoolName>
+                  <Seconds>5</Seconds>
+                  <Enabled>true</Enabled>
+                </ActionTimer>
+                <KeyMapString>ISB42 - Combat Hotkeys</KeyMapString>
+                <MappedKeyString>Buffs - Self</MappedKeyString>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyStateAction">
+                <Value>Off</Value>
+                <KeyMapString>ISB42 - Combat Hotkeys</KeyMapString>
+                <MappedKeyString>Buffs - Self</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>DoTargetedBuffs</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>ISB42 - Virtual Combat</KeyMapString>
+                <MappedKeyString>Buffs - Targeted</MappedKeyString>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyStateAction">
+                <ActionTimer>
+                  <PoolName>SelfBuffsTimer</PoolName>
+                  <Seconds>5</Seconds>
+                  <Enabled>true</Enabled>
+                </ActionTimer>
+                <KeyMapString>ISB42 - Combat Hotkeys</KeyMapString>
+                <MappedKeyString>Buffs - Targeted</MappedKeyString>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyStateAction">
+                <Value>Off</Value>
+                <KeyMapString>ISB42 - Combat Hotkeys</KeyMapString>
+                <MappedKeyString>Buffs - Targeted</MappedKeyString>
               </MappedKeyAction>
             </Actions>
           </Step>
@@ -4610,6 +4758,8 @@ See http://isboxer.com/wiki/WoW:Interact_with_Target.</Description>
                   <Width>688</Width>
                   <Height>233</Height>
                 </Rect>
+                <UseKeyRepeat>true</UseKeyRepeat>
+                <UseMouseRepeat>true</UseMouseRepeat>
                 <UseFocusHotkey>true</UseFocusHotkey>
                 <MappedKey />
               </MappedKeyAction>
@@ -4631,6 +4781,8 @@ See http://isboxer.com/wiki/WoW:Interact_with_Target.</Description>
                   <Width>688</Width>
                   <Height>233</Height>
                 </Rect>
+                <UseKeyRepeat>true</UseKeyRepeat>
+                <UseMouseRepeat>true</UseMouseRepeat>
                 <UseFocusHotkey>true</UseFocusHotkey>
                 <MappedKey />
               </MappedKeyAction>
@@ -4652,6 +4804,8 @@ See http://isboxer.com/wiki/WoW:Interact_with_Target.</Description>
                   <Width>688</Width>
                   <Height>233</Height>
                 </Rect>
+                <UseKeyRepeat>true</UseKeyRepeat>
+                <UseMouseRepeat>true</UseMouseRepeat>
                 <UseFocusHotkey>true</UseFocusHotkey>
                 <MappedKey />
               </MappedKeyAction>
@@ -4673,6 +4827,8 @@ See http://isboxer.com/wiki/WoW:Interact_with_Target.</Description>
                   <Width>688</Width>
                   <Height>233</Height>
                 </Rect>
+                <UseKeyRepeat>true</UseKeyRepeat>
+                <UseMouseRepeat>true</UseMouseRepeat>
                 <UseFocusHotkey>true</UseFocusHotkey>
                 <MappedKey />
               </MappedKeyAction>
@@ -4694,6 +4850,8 @@ See http://isboxer.com/wiki/WoW:Interact_with_Target.</Description>
                   <Width>688</Width>
                   <Height>233</Height>
                 </Rect>
+                <UseKeyRepeat>true</UseKeyRepeat>
+                <UseMouseRepeat>true</UseMouseRepeat>
                 <UseFocusHotkey>true</UseFocusHotkey>
                 <MappedKey />
               </MappedKeyAction>
@@ -5404,6 +5562,761 @@ See http://isboxer.com/wiki/WoW:Interact_with_Target.</Description>
           </Step>
         </Steps>
       </MappedKey>
+      <MappedKey>
+        <Name>Toggle Healing Bar</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="ClickBarStateAction">
+                <Target>all</Target>
+                <ClickBar>
+                  <ClickBarString>Healing - Primary S1</ClickBarString>
+                </ClickBar>
+                <ClickBarSet />
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="ClickBarStateAction">
+                <Target>all</Target>
+                <ClickBar>
+                  <ClickBarString>Healing - Primary S2</ClickBarString>
+                </ClickBar>
+                <ClickBarSet />
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="ClickBarStateAction">
+                <Target>all</Target>
+                <ClickBar>
+                  <ClickBarString>Healing - Primary S3</ClickBarString>
+                </ClickBar>
+                <ClickBarSet />
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="ClickBarStateAction">
+                <Target>all</Target>
+                <ClickBar>
+                  <ClickBarString>Healing - Primary S4</ClickBarString>
+                </ClickBar>
+                <ClickBarSet />
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="ClickBarStateAction">
+                <Target>all</Target>
+                <ClickBar>
+                  <ClickBarString>Healing - Primary S5</ClickBarString>
+                </ClickBar>
+                <ClickBarSet />
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="ClickBarStateAction">
+                <Target>all</Target>
+                <ClickBar>
+                  <ClickBarString>Healing - Secondary S1</ClickBarString>
+                </ClickBar>
+                <ClickBarSet />
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="ClickBarStateAction">
+                <Target>all</Target>
+                <ClickBar>
+                  <ClickBarString>Healing - Secondary S2</ClickBarString>
+                </ClickBar>
+                <ClickBarSet />
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="ClickBarStateAction">
+                <Target>all</Target>
+                <ClickBar>
+                  <ClickBarString>Healing - Secondary S3</ClickBarString>
+                </ClickBar>
+                <ClickBarSet />
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="ClickBarStateAction">
+                <Target>all</Target>
+                <ClickBar>
+                  <ClickBarString>Healing - Secondary S4</ClickBarString>
+                </ClickBar>
+                <ClickBarSet />
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="ClickBarStateAction">
+                <Target>all</Target>
+                <ClickBar>
+                  <ClickBarString>Healing - Secondary S5</ClickBarString>
+                </ClickBar>
+                <ClickBarSet />
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="ClickBarStateAction">
+                <Target>all</Target>
+                <ClickBar>
+                  <ClickBarString>Healing - Tertiary S1</ClickBarString>
+                </ClickBar>
+                <ClickBarSet />
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="ClickBarStateAction">
+                <Target>all</Target>
+                <ClickBar>
+                  <ClickBarString>Healing - Tertiary S2</ClickBarString>
+                </ClickBar>
+                <ClickBarSet />
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="ClickBarStateAction">
+                <Target>all</Target>
+                <ClickBar>
+                  <ClickBarString>Healing - Tertiary S3</ClickBarString>
+                </ClickBar>
+                <ClickBarSet />
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="ClickBarStateAction">
+                <Target>all</Target>
+                <ClickBar>
+                  <ClickBarString>Healing - Tertiary S4</ClickBarString>
+                </ClickBar>
+                <ClickBarSet />
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="ClickBarStateAction">
+                <Target>all</Target>
+                <ClickBar>
+                  <ClickBarString>Healing - Tertiary S5</ClickBarString>
+                </ClickBar>
+                <ClickBarSet />
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyStepAction">
+                <Target>all other</Target>
+                <MappedKey>
+                  <KeyMapString>ISB42 - Toggles</KeyMapString>
+                  <MappedKeyString>Toggle Healing Bar</MappedKeyString>
+                </MappedKey>
+                <Action>Set</Action>
+                <Value>2</Value>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="ClickBarStateAction">
+                <Target>all</Target>
+                <ClickBar>
+                  <ClickBarString>Healing - Primary S1</ClickBarString>
+                </ClickBar>
+                <Value>Off</Value>
+                <ClickBarSet />
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="ClickBarStateAction">
+                <Target>all</Target>
+                <ClickBar>
+                  <ClickBarString>Healing - Primary S2</ClickBarString>
+                </ClickBar>
+                <Value>Off</Value>
+                <ClickBarSet />
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="ClickBarStateAction">
+                <Target>all</Target>
+                <ClickBar>
+                  <ClickBarString>Healing - Primary S3</ClickBarString>
+                </ClickBar>
+                <Value>Off</Value>
+                <ClickBarSet />
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="ClickBarStateAction">
+                <Target>all</Target>
+                <ClickBar>
+                  <ClickBarString>Healing - Primary S4</ClickBarString>
+                </ClickBar>
+                <Value>Off</Value>
+                <ClickBarSet />
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="ClickBarStateAction">
+                <Target>all</Target>
+                <ClickBar>
+                  <ClickBarString>Healing - Primary S5</ClickBarString>
+                </ClickBar>
+                <Value>Off</Value>
+                <ClickBarSet />
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="ClickBarStateAction">
+                <Target>all</Target>
+                <ClickBar>
+                  <ClickBarString>Healing - Secondary S1</ClickBarString>
+                </ClickBar>
+                <Value>Off</Value>
+                <ClickBarSet />
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="ClickBarStateAction">
+                <Target>all</Target>
+                <ClickBar>
+                  <ClickBarString>Healing - Secondary S2</ClickBarString>
+                </ClickBar>
+                <Value>Off</Value>
+                <ClickBarSet />
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="ClickBarStateAction">
+                <Target>all</Target>
+                <ClickBar>
+                  <ClickBarString>Healing - Secondary S3</ClickBarString>
+                </ClickBar>
+                <Value>Off</Value>
+                <ClickBarSet />
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="ClickBarStateAction">
+                <Target>all</Target>
+                <ClickBar>
+                  <ClickBarString>Healing - Secondary S4</ClickBarString>
+                </ClickBar>
+                <Value>Off</Value>
+                <ClickBarSet />
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="ClickBarStateAction">
+                <Target>all</Target>
+                <ClickBar>
+                  <ClickBarString>Healing - Secondary S5</ClickBarString>
+                </ClickBar>
+                <Value>Off</Value>
+                <ClickBarSet />
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="ClickBarStateAction">
+                <Target>all</Target>
+                <ClickBar>
+                  <ClickBarString>Healing - Tertiary S1</ClickBarString>
+                </ClickBar>
+                <Value>Off</Value>
+                <ClickBarSet />
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="ClickBarStateAction">
+                <Target>all</Target>
+                <ClickBar>
+                  <ClickBarString>Healing - Tertiary S2</ClickBarString>
+                </ClickBar>
+                <Value>Off</Value>
+                <ClickBarSet />
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="ClickBarStateAction">
+                <Target>all</Target>
+                <ClickBar>
+                  <ClickBarString>Healing - Tertiary S3</ClickBarString>
+                </ClickBar>
+                <Value>Off</Value>
+                <ClickBarSet />
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="ClickBarStateAction">
+                <Target>all</Target>
+                <ClickBar>
+                  <ClickBarString>Healing - Tertiary S4</ClickBarString>
+                </ClickBar>
+                <Value>Off</Value>
+                <ClickBarSet />
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="ClickBarStateAction">
+                <Target>all</Target>
+                <ClickBar>
+                  <ClickBarString>Healing - Tertiary S5</ClickBarString>
+                </ClickBar>
+                <Value>Off</Value>
+                <ClickBarSet />
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyStepAction">
+                <Target>all other</Target>
+                <MappedKey>
+                  <KeyMapString>ISB42 - Toggles</KeyMapString>
+                  <MappedKeyString>Toggle Healing Bar</MappedKeyString>
+                </MappedKey>
+                <Action>Set</Action>
+                <Value>1</Value>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Toggle Crowd Control Buttons</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="ClickBarStateAction">
+                <Target>all</Target>
+                <ClickBar>
+                  <ClickBarString>1 - Target CC</ClickBarString>
+                </ClickBar>
+                <ClickBarSet />
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="ClickBarStateAction">
+                <Target>all</Target>
+                <ClickBar>
+                  <ClickBarString>2 - Target CC</ClickBarString>
+                </ClickBar>
+                <ClickBarSet />
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyStepAction">
+                <MappedKey>
+                  <KeyMapString>ISB42 - Toggles</KeyMapString>
+                  <MappedKeyString>Toggle Crowd Control Buttons</MappedKeyString>
+                </MappedKey>
+                <Action>Set</Action>
+                <Value>2</Value>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="ClickBarStateAction">
+                <Target>all</Target>
+                <ClickBar>
+                  <ClickBarString>1 - Target CC</ClickBarString>
+                </ClickBar>
+                <Value>Off</Value>
+                <ClickBarSet />
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="ClickBarStateAction">
+                <Target>all</Target>
+                <ClickBar>
+                  <ClickBarString>2 - Target CC</ClickBarString>
+                </ClickBar>
+                <Value>Off</Value>
+                <ClickBarSet />
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyStepAction">
+                <Target>all other</Target>
+                <MappedKey>
+                  <KeyMapString>ISB42 - Toggles</KeyMapString>
+                  <MappedKeyString>Toggle Crowd Control Buttons</MappedKeyString>
+                </MappedKey>
+                <Action>Set</Action>
+                <Value>1</Value>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>--------------------------------------------------------     </Name>
+        <ResetTimer>0</ResetTimer>
+        <Steps>
+          <Step>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Toggle Warlock Menu</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MenuStateAction">
+                <Menu />
+                <ActionType>Load</ActionType>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MenuStateAction">
+                <Menu />
+                <ActionType>Unload</ActionType>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Toggle Slot 1 Menu</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MenuStateAction">
+                <Menu>
+                  <MenuString>Slot 1 Menu</MenuString>
+                </Menu>
+                <ActionType>Load</ActionType>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MenuStateAction">
+                <Menu>
+                  <MenuString>Slot 2 Menu</MenuString>
+                </Menu>
+                <ActionType>Unload</ActionType>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyStepAction">
+                <MappedKey>
+                  <KeyMapString>ISB42 - Toggles</KeyMapString>
+                  <MappedKeyString>Toggle Slot 2 Menu</MappedKeyString>
+                </MappedKey>
+                <Action>Set</Action>
+                <Value>1</Value>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MenuStateAction">
+                <Menu>
+                  <MenuString>Slot 3 Menu</MenuString>
+                </Menu>
+                <ActionType>Unload</ActionType>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyStepAction">
+                <MappedKey>
+                  <KeyMapString>ISB42 - Toggles</KeyMapString>
+                  <MappedKeyString>Toggle Slot 3 Menu</MappedKeyString>
+                </MappedKey>
+                <Action>Set</Action>
+                <Value>1</Value>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MenuStateAction">
+                <Menu>
+                  <MenuString>Slot 4 Menu</MenuString>
+                </Menu>
+                <ActionType>Unload</ActionType>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyStepAction">
+                <MappedKey>
+                  <KeyMapString>ISB42 - Toggles</KeyMapString>
+                  <MappedKeyString>Toggle Slot 4 Menu</MappedKeyString>
+                </MappedKey>
+                <Action>Set</Action>
+                <Value>1</Value>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MenuStateAction">
+                <Menu>
+                  <MenuString>Slot 5 Menu</MenuString>
+                </Menu>
+                <ActionType>Unload</ActionType>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyStepAction">
+                <MappedKey>
+                  <KeyMapString>ISB42 - Toggles</KeyMapString>
+                  <MappedKeyString>Toggle Slot 5 Menu</MappedKeyString>
+                </MappedKey>
+                <Action>Set</Action>
+                <Value>1</Value>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MenuButtonAction">
+                <MenuButton />
+                <ButtonChanges />
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MenuStateAction">
+                <Menu>
+                  <MenuString>Slot 1 Menu</MenuString>
+                </Menu>
+                <ActionType>Unload</ActionType>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Toggle Slot 2 Menu</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MenuStateAction">
+                <Menu>
+                  <MenuString>Slot 1 Menu</MenuString>
+                </Menu>
+                <ActionType>Unload</ActionType>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyStepAction">
+                <MappedKey>
+                  <KeyMapString>ISB42 - Toggles</KeyMapString>
+                  <MappedKeyString>Toggle Slot 1 Menu</MappedKeyString>
+                </MappedKey>
+                <Action>Set</Action>
+                <Value>1</Value>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MenuStateAction">
+                <Menu>
+                  <MenuString>Slot 2 Menu</MenuString>
+                </Menu>
+                <ActionType>Load</ActionType>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MenuStateAction">
+                <Menu>
+                  <MenuString>Slot 3 Menu</MenuString>
+                </Menu>
+                <ActionType>Unload</ActionType>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyStepAction">
+                <MappedKey>
+                  <KeyMapString>ISB42 - Toggles</KeyMapString>
+                  <MappedKeyString>Toggle Slot 3 Menu</MappedKeyString>
+                </MappedKey>
+                <Action>Set</Action>
+                <Value>1</Value>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MenuStateAction">
+                <Menu>
+                  <MenuString>Slot 4 Menu</MenuString>
+                </Menu>
+                <ActionType>Unload</ActionType>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyStepAction">
+                <MappedKey>
+                  <KeyMapString>ISB42 - Toggles</KeyMapString>
+                  <MappedKeyString>Toggle Slot 4 Menu</MappedKeyString>
+                </MappedKey>
+                <Action>Set</Action>
+                <Value>1</Value>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MenuStateAction">
+                <Menu>
+                  <MenuString>Slot 5 Menu</MenuString>
+                </Menu>
+                <ActionType>Unload</ActionType>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyStepAction">
+                <MappedKey>
+                  <KeyMapString>ISB42 - Toggles</KeyMapString>
+                  <MappedKeyString>Toggle Slot 5 Menu</MappedKeyString>
+                </MappedKey>
+                <Action>Set</Action>
+                <Value>1</Value>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MenuStateAction">
+                <Menu>
+                  <MenuString>Slot 2 Menu</MenuString>
+                </Menu>
+                <ActionType>Unload</ActionType>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Toggle Slot 3 Menu</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MenuStateAction">
+                <Menu>
+                  <MenuString>Slot 1 Menu</MenuString>
+                </Menu>
+                <ActionType>Unload</ActionType>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyStepAction">
+                <MappedKey>
+                  <KeyMapString>ISB42 - Toggles</KeyMapString>
+                  <MappedKeyString>Toggle Slot 1 Menu</MappedKeyString>
+                </MappedKey>
+                <Action>Set</Action>
+                <Value>1</Value>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MenuStateAction">
+                <Menu>
+                  <MenuString>Slot 2 Menu</MenuString>
+                </Menu>
+                <ActionType>Unload</ActionType>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyStepAction">
+                <MappedKey>
+                  <KeyMapString>ISB42 - Toggles</KeyMapString>
+                  <MappedKeyString>Toggle Slot 2 Menu</MappedKeyString>
+                </MappedKey>
+                <Action>Set</Action>
+                <Value>1</Value>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MenuStateAction">
+                <Menu>
+                  <MenuString>Slot 3 Menu</MenuString>
+                </Menu>
+                <ActionType>Load</ActionType>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MenuStateAction">
+                <Menu>
+                  <MenuString>Slot 4 Menu</MenuString>
+                </Menu>
+                <ActionType>Unload</ActionType>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyStepAction">
+                <MappedKey>
+                  <KeyMapString>ISB42 - Toggles</KeyMapString>
+                  <MappedKeyString>Toggle Slot 4 Menu</MappedKeyString>
+                </MappedKey>
+                <Action>Set</Action>
+                <Value>1</Value>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MenuStateAction">
+                <Menu>
+                  <MenuString>Slot 5 Menu</MenuString>
+                </Menu>
+                <ActionType>Unload</ActionType>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyStepAction">
+                <MappedKey>
+                  <KeyMapString>ISB42 - Toggles</KeyMapString>
+                  <MappedKeyString>Toggle Slot 5 Menu</MappedKeyString>
+                </MappedKey>
+                <Action>Set</Action>
+                <Value>1</Value>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MenuStateAction">
+                <Menu>
+                  <MenuString>Slot 3 Menu</MenuString>
+                </Menu>
+                <ActionType>Unload</ActionType>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Toggle Slot 4 Menu</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MenuStateAction">
+                <Menu>
+                  <MenuString>Slot 1 Menu</MenuString>
+                </Menu>
+                <ActionType>Unload</ActionType>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyStepAction">
+                <MappedKey>
+                  <KeyMapString>ISB42 - Toggles</KeyMapString>
+                  <MappedKeyString>Toggle Slot 1 Menu</MappedKeyString>
+                </MappedKey>
+                <Action>Set</Action>
+                <Value>1</Value>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MenuStateAction">
+                <Menu>
+                  <MenuString>Slot 2 Menu</MenuString>
+                </Menu>
+                <ActionType>Unload</ActionType>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyStepAction">
+                <MappedKey>
+                  <KeyMapString>ISB42 - Toggles</KeyMapString>
+                  <MappedKeyString>Toggle Slot 2 Menu</MappedKeyString>
+                </MappedKey>
+                <Action>Set</Action>
+                <Value>1</Value>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MenuStateAction">
+                <Menu>
+                  <MenuString>Slot 3 Menu</MenuString>
+                </Menu>
+                <ActionType>Unload</ActionType>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyStepAction">
+                <MappedKey>
+                  <KeyMapString>ISB42 - Toggles</KeyMapString>
+                  <MappedKeyString>Toggle Slot 3 Menu</MappedKeyString>
+                </MappedKey>
+                <Action>Set</Action>
+                <Value>1</Value>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MenuStateAction">
+                <Menu>
+                  <MenuString>Slot 4 Menu</MenuString>
+                </Menu>
+                <ActionType>Load</ActionType>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MenuStateAction">
+                <Menu>
+                  <MenuString>Slot 5 Menu</MenuString>
+                </Menu>
+                <ActionType>Unload</ActionType>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyStepAction">
+                <MappedKey>
+                  <KeyMapString>ISB42 - Toggles</KeyMapString>
+                  <MappedKeyString>Toggle Slot 5 Menu</MappedKeyString>
+                </MappedKey>
+                <Action>Set</Action>
+                <Value>1</Value>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MenuStateAction">
+                <Menu>
+                  <MenuString>Slot 4 Menu</MenuString>
+                </Menu>
+                <ActionType>Unload</ActionType>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Toggle Slot 5 Menu</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MenuStateAction">
+                <Menu>
+                  <MenuString>Slot 1 Menu</MenuString>
+                </Menu>
+                <ActionType>Unload</ActionType>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyStepAction">
+                <MappedKey>
+                  <KeyMapString>ISB42 - Toggles</KeyMapString>
+                  <MappedKeyString>Toggle Slot 1 Menu</MappedKeyString>
+                </MappedKey>
+                <Action>Set</Action>
+                <Value>1</Value>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MenuStateAction">
+                <Menu>
+                  <MenuString>Slot 2 Menu</MenuString>
+                </Menu>
+                <ActionType>Unload</ActionType>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyStepAction">
+                <MappedKey>
+                  <KeyMapString>ISB42 - Toggles</KeyMapString>
+                  <MappedKeyString>Toggle Slot 2 Menu</MappedKeyString>
+                </MappedKey>
+                <Action>Set</Action>
+                <Value>1</Value>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MenuStateAction">
+                <Menu>
+                  <MenuString>Slot 3 Menu</MenuString>
+                </Menu>
+                <ActionType>Unload</ActionType>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyStepAction">
+                <MappedKey>
+                  <KeyMapString>ISB42 - Toggles</KeyMapString>
+                  <MappedKeyString>Toggle Slot 3 Menu</MappedKeyString>
+                </MappedKey>
+                <Action>Set</Action>
+                <Value>1</Value>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MenuStateAction">
+                <Menu>
+                  <MenuString>Slot 4 Menu</MenuString>
+                </Menu>
+                <ActionType>Unload</ActionType>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyStepAction">
+                <MappedKey>
+                  <KeyMapString>ISB42 - Toggles</KeyMapString>
+                  <MappedKeyString>Toggle Slot 4 Menu</MappedKeyString>
+                </MappedKey>
+                <Action>Set</Action>
+                <Value>1</Value>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MenuStateAction">
+                <Menu>
+                  <MenuString>Slot 5 Menu</MenuString>
+                </Menu>
+                <ActionType>Load</ActionType>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MenuStateAction">
+                <Menu>
+                  <MenuString>Slot 5 Menu</MenuString>
+                </Menu>
+                <ActionType>Unload</ActionType>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
     </Mappings>
   </KeyMap>
   <KeyMap>
@@ -5617,6 +6530,14 @@ See http://isboxer.com/wiki/WoW:Interact_with_Target.</Description>
       <MappedKey>
         <Name>Buffs - Targeted</Name>
         <Steps />
+      </MappedKey>
+      <MappedKey>
+        <Name>Pet Attack</Name>
+        <Steps>
+          <Step>
+            <Actions />
+          </Step>
+        </Steps>
       </MappedKey>
       <MappedKey>
         <Name>__Targeted Heals___________________________________________</Name>
@@ -6043,6 +6964,10 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
     </Mappings>
   </KeyMap>
   <KeyMap>
+    <Name />
+    <Mappings />
+  </KeyMap>
+  <KeyMap>
     <Name>__Initialization_______________</Name>
     <Mappings />
   </KeyMap>
@@ -6062,6 +6987,131 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
                 <KeyMapString>ISB42 - Initialization [Virtualized]</KeyMapString>
                 <MappedKeyString>____ - Initialize</MappedKeyString>
               </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>ISB42 - Toggles</KeyMapString>
+                <MappedKeyString>Toggle Healing Bar</MappedKeyString>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>ISB42 - Toggles</KeyMapString>
+                <MappedKeyString>Toggle Crowd Control Buttons</MappedKeyString>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>ISB42 - Initialization</KeyMapString>
+                <MappedKeyString>Setup Class Menus</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Setup Class Menus</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyRewriteAction">
+                <FromMappedKey>
+                  <KeyMapString>ISB42 - Slot 1 Menu [Virtualized]</KeyMapString>
+                </FromMappedKey>
+                <ToMappedKey>
+                  <KeyMapString>Warlock - Affliction - Menu</KeyMapString>
+                </ToMappedKey>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MenuButtonAction">
+                <MenuButton>
+                  <MenuButtonSetString>Slot 1 Menu Button set</MenuButtonSetString>
+                </MenuButton>
+                <ButtonChanges>
+                  <Actions />
+                  <Text>Summon Imp</Text>
+                </ButtonChanges>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="ClickBarStateAction">
+                <ClickBar>
+                  <ClickBarString>Slot 1 Menu Clickbar</ClickBarString>
+                </ClickBar>
+                <ClickBarSet />
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyRewriteAction">
+                <FromMappedKey>
+                  <KeyMapString>ISB42 - Slot 2 Menu [Virtualized]</KeyMapString>
+                </FromMappedKey>
+                <ToMappedKey>
+                  <KeyMapString>Warlock - Affliction - Menu</KeyMapString>
+                </ToMappedKey>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MenuButtonAction">
+                <MenuButton>
+                  <MenuButtonSetString>Slot 2 Menu Button set</MenuButtonSetString>
+                </MenuButton>
+                <ButtonChanges>
+                  <Actions />
+                  <Text>Summon Imp</Text>
+                </ButtonChanges>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="ClickBarStateAction">
+                <ClickBar>
+                  <ClickBarString>Slot 2 Menu Clickbar</ClickBarString>
+                </ClickBar>
+                <ClickBarSet />
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyRewriteAction">
+                <FromMappedKey>
+                  <KeyMapString>ISB42 - Slot 3 Menu [Virtualized]</KeyMapString>
+                </FromMappedKey>
+                <ToMappedKey>
+                  <KeyMapString>Mage - Frost - Menu</KeyMapString>
+                </ToMappedKey>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MenuButtonAction">
+                <MenuButton>
+                  <MenuButtonSetString>Slot 3 Menu Button set</MenuButtonSetString>
+                </MenuButton>
+                <ButtonChanges>
+                  <Actions />
+                  <Text>Conjure Water</Text>
+                </ButtonChanges>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="ClickBarStateAction">
+                <ClickBar>
+                  <ClickBarString>Slot 3 Menu Clickbar</ClickBarString>
+                </ClickBar>
+                <ClickBarSet />
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyRewriteAction">
+                <FromMappedKey>
+                  <KeyMapString>ISB42 - Slot 4 Menu [Virtualized]</KeyMapString>
+                </FromMappedKey>
+                <ToMappedKey>
+                  <KeyMapString>Mage - Frost - Menu</KeyMapString>
+                </ToMappedKey>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MenuButtonAction">
+                <MenuButton>
+                  <MenuButtonSetString>Slot 4 Menu Button set</MenuButtonSetString>
+                </MenuButton>
+                <ButtonChanges>
+                  <Actions />
+                  <Text>Conjure Water</Text>
+                </ButtonChanges>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="ClickBarStateAction">
+                <ClickBar>
+                  <ClickBarString>Slot 4 Menu Clickbar</ClickBarString>
+                </ClickBar>
+                <ClickBarSet />
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyRewriteAction">
+                <FromMappedKey>
+                  <KeyMapString>ISB42 - Slot 5 Menu [Virtualized]</KeyMapString>
+                </FromMappedKey>
+                <ToMappedKey />
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="ClickBarStateAction">
+                <ClickBar>
+                  <ClickBarString>Slot 5 Menu Clickbar</ClickBarString>
+                </ClickBar>
+                <ClickBarSet />
+              </MappedKeyAction>
             </Actions>
           </Step>
         </Steps>
@@ -6076,6 +7126,1182 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
         <Steps />
       </MappedKey>
     </Mappings>
+  </KeyMap>
+  <KeyMap>
+    <Name />
+    <Mappings />
+  </KeyMap>
+  <KeyMap>
+    <Name>__Slot Menu_______________</Name>
+    <Mappings />
+  </KeyMap>
+  <KeyMap>
+    <Name>ISB42 - Slot Menu</Name>
+    <Mappings>
+      <MappedKey>
+        <Name>Button 1</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>ISB42 - Slot Menu [Virtualized]</KeyMapString>
+                <MappedKeyString>Button 1</MappedKeyString>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyStepAction">
+                <MappedKey>
+                  <KeyMapString>ISB42 - Toggles</KeyMapString>
+                  <MappedKeyString>Toggle Slot 1 Menu</MappedKeyString>
+                </MappedKey>
+                <Action>Set</Action>
+                <Value>1</Value>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 2</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>ISB42 - Slot Menu [Virtualized]</KeyMapString>
+                <MappedKeyString>Button 2</MappedKeyString>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyStepAction">
+                <MappedKey>
+                  <KeyMapString>ISB42 - Toggles</KeyMapString>
+                  <MappedKeyString>Toggle Slot 1 Menu</MappedKeyString>
+                </MappedKey>
+                <Action>Set</Action>
+                <Value>1</Value>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 3</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>ISB42 - Slot Menu [Virtualized]</KeyMapString>
+                <MappedKeyString>Button 3</MappedKeyString>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyStepAction">
+                <MappedKey>
+                  <KeyMapString>ISB42 - Toggles</KeyMapString>
+                  <MappedKeyString>Toggle Slot 1 Menu</MappedKeyString>
+                </MappedKey>
+                <Action>Set</Action>
+                <Value>1</Value>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 4</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>ISB42 - Slot Menu [Virtualized]</KeyMapString>
+                <MappedKeyString>Button 4</MappedKeyString>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyStepAction">
+                <MappedKey>
+                  <KeyMapString>ISB42 - Toggles</KeyMapString>
+                  <MappedKeyString>Toggle Slot 1 Menu</MappedKeyString>
+                </MappedKey>
+                <Action>Set</Action>
+                <Value>1</Value>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 5</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>ISB42 - Slot Menu [Virtualized]</KeyMapString>
+                <MappedKeyString>Button 5</MappedKeyString>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyStepAction">
+                <MappedKey>
+                  <KeyMapString>ISB42 - Toggles</KeyMapString>
+                  <MappedKeyString>Toggle Slot 1 Menu</MappedKeyString>
+                </MappedKey>
+                <Action>Set</Action>
+                <Value>1</Value>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 6</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>ISB42 - Slot Menu [Virtualized]</KeyMapString>
+                <MappedKeyString>Button 6</MappedKeyString>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyStepAction">
+                <MappedKey>
+                  <KeyMapString>ISB42 - Toggles</KeyMapString>
+                  <MappedKeyString>Toggle Slot 1 Menu</MappedKeyString>
+                </MappedKey>
+                <Action>Set</Action>
+                <Value>1</Value>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+    </Mappings>
+  </KeyMap>
+  <KeyMap>
+    <Name>ISB42 - Slot Menu [Virtualized]</Name>
+    <Mappings>
+      <MappedKey>
+        <Name>Button 1</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="PopupTextAction">
+                <Text>No active method for Slot 1 Menu, Button 1</Text>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 2</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="PopupTextAction">
+                <Text>No active method for Slot 1 Menu, Button 2</Text>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 3</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="PopupTextAction">
+                <Text>No active method for Slot 1 Menu, Button 3</Text>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 4</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="PopupTextAction">
+                <Text>No active method for Slot 1 Menu, Button 4</Text>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 5</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="PopupTextAction">
+                <Text>No active method for Slot 1 Menu, Button 5</Text>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 6</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="PopupTextAction">
+                <Text>No active method for Slot 1 Menu, Button 6</Text>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+    </Mappings>
+  </KeyMap>
+  <KeyMap>
+    <Name>ISB42 - Slot 1 Menu</Name>
+    <Mappings>
+      <MappedKey>
+        <Name>Button 1</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <Target>1</Target>
+                <KeyMapString>ISB42 - Slot 1 Menu [Virtualized]</KeyMapString>
+                <MappedKeyString>Button 1</MappedKeyString>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyStepAction">
+                <MappedKey>
+                  <KeyMapString>ISB42 - Toggles</KeyMapString>
+                  <MappedKeyString>Toggle Slot 1 Menu</MappedKeyString>
+                </MappedKey>
+                <Action>Set</Action>
+                <Value>1</Value>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 2</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <Target>1</Target>
+                <KeyMapString>ISB42 - Slot 1 Menu [Virtualized]</KeyMapString>
+                <MappedKeyString>Button 2</MappedKeyString>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyStepAction">
+                <MappedKey>
+                  <KeyMapString>ISB42 - Toggles</KeyMapString>
+                  <MappedKeyString>Toggle Slot 1 Menu</MappedKeyString>
+                </MappedKey>
+                <Action>Set</Action>
+                <Value>1</Value>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 3</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <Target>1</Target>
+                <KeyMapString>ISB42 - Slot 1 Menu [Virtualized]</KeyMapString>
+                <MappedKeyString>Button 3</MappedKeyString>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyStepAction">
+                <MappedKey>
+                  <KeyMapString>ISB42 - Toggles</KeyMapString>
+                  <MappedKeyString>Toggle Slot 1 Menu</MappedKeyString>
+                </MappedKey>
+                <Action>Set</Action>
+                <Value>1</Value>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 4</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <Target>1</Target>
+                <KeyMapString>ISB42 - Slot 1 Menu [Virtualized]</KeyMapString>
+                <MappedKeyString>Button 4</MappedKeyString>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyStepAction">
+                <MappedKey>
+                  <KeyMapString>ISB42 - Toggles</KeyMapString>
+                  <MappedKeyString>Toggle Slot 1 Menu</MappedKeyString>
+                </MappedKey>
+                <Action>Set</Action>
+                <Value>1</Value>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 5</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <Target>1</Target>
+                <KeyMapString>ISB42 - Slot 1 Menu [Virtualized]</KeyMapString>
+                <MappedKeyString>Button 5</MappedKeyString>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyStepAction">
+                <MappedKey>
+                  <KeyMapString>ISB42 - Toggles</KeyMapString>
+                  <MappedKeyString>Toggle Slot 1 Menu</MappedKeyString>
+                </MappedKey>
+                <Action>Set</Action>
+                <Value>1</Value>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 6</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <Target>1</Target>
+                <KeyMapString>ISB42 - Slot 1 Menu [Virtualized]</KeyMapString>
+                <MappedKeyString>Button 6</MappedKeyString>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyStepAction">
+                <MappedKey>
+                  <KeyMapString>ISB42 - Toggles</KeyMapString>
+                  <MappedKeyString>Toggle Slot 1 Menu</MappedKeyString>
+                </MappedKey>
+                <Action>Set</Action>
+                <Value>1</Value>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+    </Mappings>
+  </KeyMap>
+  <KeyMap>
+    <Name>ISB42 - Slot 1 Menu [Virtualized]</Name>
+    <Mappings>
+      <MappedKey>
+        <Name>Button 1</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="PopupTextAction">
+                <Text>No active method for Slot 1 Menu, Button 1</Text>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 2</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="PopupTextAction">
+                <Text>No active method for Slot 1 Menu, Button 2</Text>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 3</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="PopupTextAction">
+                <Text>No active method for Slot 1 Menu, Button 3</Text>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 4</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="PopupTextAction">
+                <Text>No active method for Slot 1 Menu, Button 4</Text>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 5</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="PopupTextAction">
+                <Text>No active method for Slot 1 Menu, Button 5</Text>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 6</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="PopupTextAction">
+                <Text>No active method for Slot 1 Menu, Button 6</Text>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+    </Mappings>
+  </KeyMap>
+  <KeyMap>
+    <Name>ISB42 - Slot 2 Menu</Name>
+    <Mappings>
+      <MappedKey>
+        <Name>Button 1</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <Target>2</Target>
+                <KeyMapString>ISB42 - Slot 2 Menu [Virtualized]</KeyMapString>
+                <MappedKeyString>Button 1</MappedKeyString>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyStepAction">
+                <MappedKey>
+                  <KeyMapString>ISB42 - Toggles</KeyMapString>
+                  <MappedKeyString>Toggle Slot 2 Menu</MappedKeyString>
+                </MappedKey>
+                <Action>Set</Action>
+                <Value>1</Value>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 2</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <Target>2</Target>
+                <KeyMapString>ISB42 - Slot 2 Menu [Virtualized]</KeyMapString>
+                <MappedKeyString>Button 2</MappedKeyString>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyStepAction">
+                <MappedKey>
+                  <KeyMapString>ISB42 - Toggles</KeyMapString>
+                  <MappedKeyString>Toggle Slot 2 Menu</MappedKeyString>
+                </MappedKey>
+                <Action>Set</Action>
+                <Value>1</Value>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 3</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <Target>2</Target>
+                <KeyMapString>ISB42 - Slot 2 Menu [Virtualized]</KeyMapString>
+                <MappedKeyString>Button 3</MappedKeyString>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyStepAction">
+                <MappedKey>
+                  <KeyMapString>ISB42 - Toggles</KeyMapString>
+                  <MappedKeyString>Toggle Slot 2 Menu</MappedKeyString>
+                </MappedKey>
+                <Action>Set</Action>
+                <Value>1</Value>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 4</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <Target>2</Target>
+                <KeyMapString>ISB42 - Slot 2 Menu [Virtualized]</KeyMapString>
+                <MappedKeyString>Button 4</MappedKeyString>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyStepAction">
+                <MappedKey>
+                  <KeyMapString>ISB42 - Toggles</KeyMapString>
+                  <MappedKeyString>Toggle Slot 2 Menu</MappedKeyString>
+                </MappedKey>
+                <Action>Set</Action>
+                <Value>1</Value>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 5</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <Target>2</Target>
+                <KeyMapString>ISB42 - Slot 2 Menu [Virtualized]</KeyMapString>
+                <MappedKeyString>Button 5</MappedKeyString>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyStepAction">
+                <MappedKey>
+                  <KeyMapString>ISB42 - Toggles</KeyMapString>
+                  <MappedKeyString>Toggle Slot 2 Menu</MappedKeyString>
+                </MappedKey>
+                <Action>Set</Action>
+                <Value>1</Value>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 6</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <Target>2</Target>
+                <KeyMapString>ISB42 - Slot 2 Menu [Virtualized]</KeyMapString>
+                <MappedKeyString>Button 6</MappedKeyString>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyStepAction">
+                <MappedKey>
+                  <KeyMapString>ISB42 - Toggles</KeyMapString>
+                  <MappedKeyString>Toggle Slot 2 Menu</MappedKeyString>
+                </MappedKey>
+                <Action>Set</Action>
+                <Value>1</Value>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+    </Mappings>
+  </KeyMap>
+  <KeyMap>
+    <Name>ISB42 - Slot 2 Menu [Virtualized]</Name>
+    <Mappings>
+      <MappedKey>
+        <Name>Button 1</Name>
+        <Steps>
+          <Step>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 2</Name>
+        <Steps>
+          <Step>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 3</Name>
+        <Steps>
+          <Step>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 4</Name>
+        <Steps>
+          <Step>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 5</Name>
+        <Steps>
+          <Step>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 6</Name>
+        <Steps>
+          <Step>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+    </Mappings>
+  </KeyMap>
+  <KeyMap>
+    <Name>ISB42 - Slot 3 Menu</Name>
+    <Mappings>
+      <MappedKey>
+        <Name>Button 1</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <Target>3</Target>
+                <KeyMapString>ISB42 - Slot 3 Menu [Virtualized]</KeyMapString>
+                <MappedKeyString>Button 1</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 2</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <Target>3</Target>
+                <KeyMapString>ISB42 - Slot 3 Menu [Virtualized]</KeyMapString>
+                <MappedKeyString>Button 2</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 3</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <Target>3</Target>
+                <KeyMapString>ISB42 - Slot 3 Menu [Virtualized]</KeyMapString>
+                <MappedKeyString>Button 3</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 4</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <Target>3</Target>
+                <KeyMapString>ISB42 - Slot 3 Menu [Virtualized]</KeyMapString>
+                <MappedKeyString>Button 4</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 5</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <Target>3</Target>
+                <KeyMapString>ISB42 - Slot 3 Menu [Virtualized]</KeyMapString>
+                <MappedKeyString>Button 5</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 6</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <Target>3</Target>
+                <KeyMapString>ISB42 - Slot 3 Menu [Virtualized]</KeyMapString>
+                <MappedKeyString>Button 6</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+    </Mappings>
+  </KeyMap>
+  <KeyMap>
+    <Name>ISB42 - Slot 3 Menu [Virtualized]</Name>
+    <Mappings>
+      <MappedKey>
+        <Name>Button 1</Name>
+        <Steps>
+          <Step>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 2</Name>
+        <Steps>
+          <Step>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 3</Name>
+        <Steps>
+          <Step>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 4</Name>
+        <Steps>
+          <Step>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 5</Name>
+        <Steps>
+          <Step>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 6</Name>
+        <Steps>
+          <Step>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+    </Mappings>
+  </KeyMap>
+  <KeyMap>
+    <Name>ISB42 - Slot 4 Menu</Name>
+    <Mappings>
+      <MappedKey>
+        <Name>Button 1</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <Target>4</Target>
+                <KeyMapString>ISB42 - Slot 4 Menu [Virtualized]</KeyMapString>
+                <MappedKeyString>Button 1</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 2</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <Target>4</Target>
+                <KeyMapString>ISB42 - Slot 4 Menu [Virtualized]</KeyMapString>
+                <MappedKeyString>Button 2</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 3</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <Target>4</Target>
+                <KeyMapString>ISB42 - Slot 4 Menu [Virtualized]</KeyMapString>
+                <MappedKeyString>Button 3</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 4</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <Target>4</Target>
+                <KeyMapString>ISB42 - Slot 4 Menu [Virtualized]</KeyMapString>
+                <MappedKeyString>Button 4</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 5</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <Target>4</Target>
+                <KeyMapString>ISB42 - Slot 4 Menu [Virtualized]</KeyMapString>
+                <MappedKeyString>Button 5</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 6</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <Target>4</Target>
+                <KeyMapString>ISB42 - Slot 4 Menu [Virtualized]</KeyMapString>
+                <MappedKeyString>Button 6</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+    </Mappings>
+  </KeyMap>
+  <KeyMap>
+    <Name>ISB42 - Slot 4 Menu [Virtualized]</Name>
+    <Mappings>
+      <MappedKey>
+        <Name>Button 1</Name>
+        <Steps>
+          <Step>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 2</Name>
+        <Steps>
+          <Step>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 3</Name>
+        <Steps>
+          <Step>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 4</Name>
+        <Steps>
+          <Step>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 5</Name>
+        <Steps>
+          <Step>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 6</Name>
+        <Steps>
+          <Step>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+    </Mappings>
+  </KeyMap>
+  <KeyMap>
+    <Name>ISB42 - Slot 5 Menu</Name>
+    <Mappings>
+      <MappedKey>
+        <Name>Button 1</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <Target>5</Target>
+                <KeyMapString>ISB42 - Slot 5 Menu [Virtualized]</KeyMapString>
+                <MappedKeyString>Button 1</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 2</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <Target>5</Target>
+                <KeyMapString>ISB42 - Slot 5 Menu [Virtualized]</KeyMapString>
+                <MappedKeyString>Button 2</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 3</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <Target>5</Target>
+                <KeyMapString>ISB42 - Slot 5 Menu [Virtualized]</KeyMapString>
+                <MappedKeyString>Button 3</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 4</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <Target>5</Target>
+                <KeyMapString>ISB42 - Slot 5 Menu [Virtualized]</KeyMapString>
+                <MappedKeyString>Button 4</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 5</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <Target>5</Target>
+                <KeyMapString>ISB42 - Slot 5 Menu [Virtualized]</KeyMapString>
+                <MappedKeyString>Button 5</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 6</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <Target>5</Target>
+                <KeyMapString>ISB42 - Slot 5 Menu [Virtualized]</KeyMapString>
+                <MappedKeyString>Button 6</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+    </Mappings>
+  </KeyMap>
+  <KeyMap>
+    <Name>ISB42 - Slot 5 Menu [Virtualized]</Name>
+    <Mappings>
+      <MappedKey>
+        <Name>Button 1</Name>
+        <Steps>
+          <Step>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 2</Name>
+        <Steps>
+          <Step>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 3</Name>
+        <Steps>
+          <Step>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 4</Name>
+        <Steps>
+          <Step>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 5</Name>
+        <Steps>
+          <Step>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 6</Name>
+        <Steps>
+          <Step>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+    </Mappings>
+  </KeyMap>
+  <KeyMap>
+    <Name>--     </Name>
+    <Mappings />
+  </KeyMap>
+  <KeyMap>
+    <Name>Warlock - Affliction - Menu</Name>
+    <Mappings>
+      <MappedKey>
+        <Name>Button 1</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <UseCustomModifiers />
+                <WoWMacro>
+                  <WoWMacroSetString>Warlock</WoWMacroSetString>
+                  <WoWMacroString>Summon Imp</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 2</Name>
+        <Steps>
+          <Step>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 3</Name>
+        <Steps>
+          <Step>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 4</Name>
+        <Steps>
+          <Step>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 5</Name>
+        <Steps>
+          <Step>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 6</Name>
+        <Steps>
+          <Step>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+    </Mappings>
+  </KeyMap>
+  <KeyMap>
+    <Name>Mage - Frost - Menu</Name>
+    <Mappings>
+      <MappedKey>
+        <Name>Button 1</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <UseCustomModifiers />
+                <WoWMacro>
+                  <WoWMacroSetString>Mage</WoWMacroSetString>
+                  <WoWMacroString>Conjure Water</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 2</Name>
+        <Steps>
+          <Step>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 3</Name>
+        <Steps>
+          <Step>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 4</Name>
+        <Steps>
+          <Step>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 5</Name>
+        <Steps>
+          <Step>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 6</Name>
+        <Steps>
+          <Step>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+    </Mappings>
+  </KeyMap>
+  <KeyMap>
+    <Name />
+    <Mappings />
   </KeyMap>
   <KeyMap>
     <Name>__Healing__________________</Name>
@@ -6370,6 +8596,13 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
       </MappedKey>
       <MappedKey>
         <Name>Wheel Up</Name>
+        <Combo>
+          <Combo>MouseWheelUp</Combo>
+          <Key>
+            <Key>MouseWheelUp</Key>
+            <Code>0</Code>
+          </Key>
+        </Combo>
         <Steps>
           <Step>
             <Actions>
@@ -6463,6 +8696,13 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
       </MappedKey>
       <MappedKey>
         <Name>Wheel Down</Name>
+        <Combo>
+          <Combo>MouseWheelDown</Combo>
+          <Key>
+            <Key>MouseWheelDown</Key>
+            <Code>0</Code>
+          </Key>
+        </Combo>
         <Steps>
           <Step>
             <Actions>
@@ -6541,6 +8781,69 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
                 <Target>Healer - Primary</Target>
                 <KeyMapString>ISB42 - Healing - Primary [Virtualized]</KeyMapString>
                 <MappedKeyString>Wheel Down [+AS]</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>----------------------------------------------------    </Name>
+        <Steps>
+          <Step>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Toggle Mouseover</Name>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="SyncCursorAction">
+                <Target>Healer - Primary</Target>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyStateAction">
+                <KeyMapString>ISB42 - Healing - Primary</KeyMapString>
+                <MappedKeyString>Wheel Up</MappedKeyString>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyStateAction">
+                <KeyMapString>ISB42 - Healing - Primary</KeyMapString>
+                <MappedKeyString>Wheel Down</MappedKeyString>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyStateAction">
+                <Value>Off</Value>
+                <KeyMapString>ISB42 - Healing - Secondary</KeyMapString>
+                <MappedKeyString>Wheel Up</MappedKeyString>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyStateAction">
+                <Value>Off</Value>
+                <KeyMapString>ISB42 - Healing - Secondary</KeyMapString>
+                <MappedKeyString>Wheel Down</MappedKeyString>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyStateAction">
+                <Value>Off</Value>
+                <KeyMapString>ISB42 - Healing - Tertiary</KeyMapString>
+                <MappedKeyString>Wheel Up</MappedKeyString>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyStateAction">
+                <Value>Off</Value>
+                <KeyMapString>ISB42 - Healing - Tertiary</KeyMapString>
+                <MappedKeyString>Wheel Down</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyStateAction">
+                <Value>Off</Value>
+                <KeyMapString>ISB42 - Healing - Primary</KeyMapString>
+                <MappedKeyString>Wheel Up</MappedKeyString>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyStateAction">
+                <Value>Off</Value>
+                <KeyMapString>ISB42 - Healing - Primary</KeyMapString>
+                <MappedKeyString>Wheel Down</MappedKeyString>
               </MappedKeyAction>
             </Actions>
           </Step>
@@ -7050,6 +9353,13 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
       </MappedKey>
       <MappedKey>
         <Name>Wheel Up</Name>
+        <Combo>
+          <Combo>MouseWheelUp</Combo>
+          <Key>
+            <Key>MouseWheelUp</Key>
+            <Code>0</Code>
+          </Key>
+        </Combo>
         <Steps>
           <Step>
             <Actions>
@@ -7138,6 +9448,13 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
       </MappedKey>
       <MappedKey>
         <Name>Wheel Down</Name>
+        <Combo>
+          <Combo>MouseWheelDown</Combo>
+          <Key>
+            <Key>MouseWheelDown</Key>
+            <Code>0</Code>
+          </Key>
+        </Combo>
         <Steps>
           <Step>
             <Actions>
@@ -7211,6 +9528,69 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
               <MappedKeyAction xsi:type="MappedKeyExecuteAction">
                 <KeyMapString>ISB42 - Healing - Secondary [Virtualized]</KeyMapString>
                 <MappedKeyString>Wheel Down [+AS]</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>----------------------------------------------------    </Name>
+        <Steps>
+          <Step>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Toggle Mouseover</Name>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="SyncCursorAction">
+                <Target>Healer - Secondary</Target>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyStateAction">
+                <Value>Off</Value>
+                <KeyMapString>ISB42 - Healing - Primary</KeyMapString>
+                <MappedKeyString>Wheel Up</MappedKeyString>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyStateAction">
+                <Value>Off</Value>
+                <KeyMapString>ISB42 - Healing - Primary</KeyMapString>
+                <MappedKeyString>Wheel Down</MappedKeyString>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyStateAction">
+                <KeyMapString>ISB42 - Healing - Secondary</KeyMapString>
+                <MappedKeyString>Wheel Up</MappedKeyString>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyStateAction">
+                <KeyMapString>ISB42 - Healing - Secondary</KeyMapString>
+                <MappedKeyString>Wheel Down</MappedKeyString>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyStateAction">
+                <Value>Off</Value>
+                <KeyMapString>ISB42 - Healing - Tertiary</KeyMapString>
+                <MappedKeyString>Wheel Up</MappedKeyString>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyStateAction">
+                <Value>Off</Value>
+                <KeyMapString>ISB42 - Healing - Tertiary</KeyMapString>
+                <MappedKeyString>Wheel Down</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyStateAction">
+                <Value>Off</Value>
+                <KeyMapString>ISB42 - Healing - Secondary</KeyMapString>
+                <MappedKeyString>Wheel Up</MappedKeyString>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyStateAction">
+                <Value>Off</Value>
+                <KeyMapString>ISB42 - Healing - Secondary</KeyMapString>
+                <MappedKeyString>Wheel Down</MappedKeyString>
               </MappedKeyAction>
             </Actions>
           </Step>
@@ -7720,6 +10100,13 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
       </MappedKey>
       <MappedKey>
         <Name>Wheel Up</Name>
+        <Combo>
+          <Combo>MouseWheelUp</Combo>
+          <Key>
+            <Key>MouseWheelUp</Key>
+            <Code>0</Code>
+          </Key>
+        </Combo>
         <Steps>
           <Step>
             <Actions>
@@ -7808,6 +10195,13 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
       </MappedKey>
       <MappedKey>
         <Name>Wheel Down</Name>
+        <Combo>
+          <Combo>MouseWheelDown</Combo>
+          <Key>
+            <Key>MouseWheelDown</Key>
+            <Code>0</Code>
+          </Key>
+        </Combo>
         <Steps>
           <Step>
             <Actions>
@@ -7881,6 +10275,69 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
               <MappedKeyAction xsi:type="MappedKeyExecuteAction">
                 <KeyMapString>ISB42 - Healing - Tertiary [Virtualized]</KeyMapString>
                 <MappedKeyString>Wheel Down [+AS]</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>----------------------------------------------------    </Name>
+        <Steps>
+          <Step>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Toggle Mouseover</Name>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="SyncCursorAction">
+                <Target>Healer - Tertiary</Target>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyStateAction">
+                <Value>Off</Value>
+                <KeyMapString>ISB42 - Healing - Primary</KeyMapString>
+                <MappedKeyString>Wheel Up</MappedKeyString>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyStateAction">
+                <Value>Off</Value>
+                <KeyMapString>ISB42 - Healing - Primary</KeyMapString>
+                <MappedKeyString>Wheel Down</MappedKeyString>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyStateAction">
+                <Value>Off</Value>
+                <KeyMapString>ISB42 - Healing - Secondary</KeyMapString>
+                <MappedKeyString>Wheel Up</MappedKeyString>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyStateAction">
+                <Value>Off</Value>
+                <KeyMapString>ISB42 - Healing - Secondary</KeyMapString>
+                <MappedKeyString>Wheel Down</MappedKeyString>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyStateAction">
+                <KeyMapString>ISB42 - Healing - Tertiary</KeyMapString>
+                <MappedKeyString>Wheel Up</MappedKeyString>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyStateAction">
+                <KeyMapString>ISB42 - Healing - Tertiary</KeyMapString>
+                <MappedKeyString>Wheel Down</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyStateAction">
+                <Value>Off</Value>
+                <KeyMapString>ISB42 - Healing - Tertiary</KeyMapString>
+                <MappedKeyString>Wheel Up</MappedKeyString>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyStateAction">
+                <Value>Off</Value>
+                <KeyMapString>ISB42 - Healing - Tertiary</KeyMapString>
+                <MappedKeyString>Wheel Down</MappedKeyString>
               </MappedKeyAction>
             </Actions>
           </Step>
@@ -8122,6 +10579,135 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
     </Mappings>
   </KeyMap>
   <KeyMap>
+    <Name />
+    <Mappings />
+  </KeyMap>
+  <KeyMap>
+    <Name>__Crowd Control_______________</Name>
+    <Mappings />
+  </KeyMap>
+  <KeyMap>
+    <Name>ISB42 - Crowd Control</Name>
+    <Mappings>
+      <MappedKey>
+        <Name>1 - Mouseover</Name>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="SyncCursorAction">
+                <Target>Crowd Control 1</Target>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <UseFTLModifiers>true</UseFTLModifiers>
+                <Target>Crowd Control 1</Target>
+                <UseCustomModifiers />
+                <WoWMacro>
+                  <WoWMacroSetString>Quick Setup 42</WoWMacroSetString>
+                  <WoWMacroString>/assist {FTL}</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <UseFTLModifiers>true</UseFTLModifiers>
+                <Target>Crowd Control 1</Target>
+                <UseCustomModifiers />
+                <WoWMacro>
+                  <WoWMacroSetString>General</WoWMacroSetString>
+                  <WoWMacroString>Clear Target</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>1 - Left Click</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="SyncCursorAction">
+                <Target>Crowd Control 1</Target>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <Target>Crowd Control 1</Target>
+                <KeyMapString>ISB42 - Virtual Combat</KeyMapString>
+                <MappedKeyString>Crowd Control</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>--</Name>
+        <Steps>
+          <Step>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>2 - Mouseover</Name>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="SyncCursorAction">
+                <Target>Crowd Control 2</Target>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <UseFTLModifiers>true</UseFTLModifiers>
+                <Target>Crowd Control 2</Target>
+                <UseCustomModifiers />
+                <WoWMacro>
+                  <WoWMacroSetString>Quick Setup 42</WoWMacroSetString>
+                  <WoWMacroString>/assist {FTL}</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <UseFTLModifiers>true</UseFTLModifiers>
+                <Target>Crowd Control 2</Target>
+                <UseCustomModifiers />
+                <WoWMacro>
+                  <WoWMacroSetString>General</WoWMacroSetString>
+                  <WoWMacroString>Clear Target</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>2 - Left Click</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="SyncCursorAction">
+                <Target>Crowd Control 2</Target>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <Target>Crowd Control 2</Target>
+                <KeyMapString>ISB42 - Virtual Combat</KeyMapString>
+                <MappedKeyString>Crowd Control</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+    </Mappings>
+  </KeyMap>
+  <KeyMap>
+    <Name />
+    <Mappings />
+  </KeyMap>
+  <KeyMap>
     <Name>__Class/Spec_______________</Name>
     <Mappings />
   </KeyMap>
@@ -8141,13 +10727,13 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
         <Steps>
           <Step>
             <Actions>
-              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-                <KeyMapString>ISB42 - Action Target Group</KeyMapString>
-                <MappedKeyString>Ranged - Join</MappedKeyString>
+              <MappedKeyAction xsi:type="TargetGroupAction">
+                <Action>Join</Action>
+                <RelayGroupString>Mage</RelayGroupString>
               </MappedKeyAction>
               <MappedKeyAction xsi:type="MappedKeyExecuteAction">
                 <KeyMapString>ISB42 - Action Target Group</KeyMapString>
-                <MappedKeyString>Crowd Control - Join</MappedKeyString>
+                <MappedKeyString>Ranged - Join</MappedKeyString>
               </MappedKeyAction>
             </Actions>
           </Step>
@@ -8245,17 +10831,6 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
                 <WoWMacro>
                   <WoWMacroSetString>Mage</WoWMacroSetString>
                   <WoWMacroString>Frostbolt</WoWMacroString>
-                </WoWMacro>
-              </MappedKeyAction>
-            </Actions>
-          </Step>
-          <Step>
-            <Actions>
-              <MappedKeyAction xsi:type="WoWMacroRefAction">
-                <UseCustomModifiers />
-                <WoWMacro>
-                  <WoWMacroSetString>Mage</WoWMacroSetString>
-                  <WoWMacroString>Fireball</WoWMacroString>
                 </WoWMacro>
               </MappedKeyAction>
             </Actions>
@@ -8388,16 +10963,6 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
               </MappedKeyAction>
             </Actions>
           </Step>
-          <Step>
-            <Stick>5</Stick>
-            <Stump>true</Stump>
-            <Actions>
-              <MappedKeyAction xsi:type="PopupTextAction">
-                <Target>all</Target>
-                <Text>{CHARACTER} done applying self buffs</Text>
-              </MappedKeyAction>
-            </Actions>
-          </Step>
         </Steps>
       </MappedKey>
       <MappedKey>
@@ -8411,15 +10976,6 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
                   <WoWMacroSetString>Mage</WoWMacroSetString>
                   <WoWMacroString>Arcane Intellect</WoWMacroString>
                 </WoWMacro>
-              </MappedKeyAction>
-            </Actions>
-          </Step>
-          <Step>
-            <Stick>5</Stick>
-            <Actions>
-              <MappedKeyAction xsi:type="PopupTextAction">
-                <Target>all</Target>
-                <Text>{CHARACTER} done applying targeted buffs</Text>
               </MappedKeyAction>
             </Actions>
           </Step>
@@ -8465,7 +11021,16 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
       </MappedKey>
       <MappedKey>
         <Name>____ - Initialize</Name>
-        <Steps />
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="TargetGroupAction">
+                <Action>Join</Action>
+                <RelayGroupString>Paladin</RelayGroupString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
       </MappedKey>
     </Mappings>
   </KeyMap>
@@ -8786,7 +11351,11 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
     <Mappings>
       <MappedKey>
         <Name>Initiate Combat</Name>
-        <Steps />
+        <Steps>
+          <Step>
+            <Actions />
+          </Step>
+        </Steps>
       </MappedKey>
       <MappedKey>
         <Name>DPS Rotation</Name>
@@ -9755,6 +12324,10 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
         <Steps>
           <Step>
             <Actions>
+              <MappedKeyAction xsi:type="TargetGroupAction">
+                <Action>Join</Action>
+                <RelayGroupString>Warrior</RelayGroupString>
+              </MappedKeyAction>
               <MappedKeyAction xsi:type="MappedKeyExecuteAction">
                 <KeyMapString>ISB42 - Action Target Group</KeyMapString>
                 <MappedKeyString>Melee - Join</MappedKeyString>
@@ -10512,6 +13085,10 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
         <Steps>
           <Step>
             <Actions>
+              <MappedKeyAction xsi:type="TargetGroupAction">
+                <Action>Join</Action>
+                <RelayGroupString>Priest</RelayGroupString>
+              </MappedKeyAction>
               <MappedKeyAction xsi:type="MappedKeyExecuteAction">
                 <KeyMapString>ISB42 - Action Target Group</KeyMapString>
                 <MappedKeyString>Ranged - Join</MappedKeyString>
@@ -10658,29 +13235,8 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
                 <UseCustomModifiers />
                 <WoWMacro>
                   <WoWMacroSetString>Priest</WoWMacroSetString>
-                  <WoWMacroString>Power Word - Shield</WoWMacroString>
-                </WoWMacro>
-              </MappedKeyAction>
-            </Actions>
-          </Step>
-          <Step>
-            <Actions>
-              <MappedKeyAction xsi:type="WoWMacroRefAction">
-                <UseCustomModifiers />
-                <WoWMacro>
-                  <WoWMacroSetString>Priest</WoWMacroSetString>
                   <WoWMacroString>Power Word - Fortitude</WoWMacroString>
                 </WoWMacro>
-              </MappedKeyAction>
-            </Actions>
-          </Step>
-          <Step>
-            <Stick>5</Stick>
-            <Stump>true</Stump>
-            <Actions>
-              <MappedKeyAction xsi:type="PopupTextAction">
-                <Target>all</Target>
-                <Text>{CHARACTER} done applying targeted buffs</Text>
               </MappedKeyAction>
             </Actions>
           </Step>
@@ -10850,7 +13406,15 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
         <Name>Wheel Up</Name>
         <Steps>
           <Step>
-            <Actions />
+            <Actions>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <UseCustomModifiers />
+                <WoWMacro>
+                  <WoWMacroSetString>Priest</WoWMacroSetString>
+                  <WoWMacroString>Power Word - Shield (Mouseover)</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+            </Actions>
           </Step>
         </Steps>
       </MappedKey>
@@ -10898,7 +13462,15 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
         <Name>Wheel Down</Name>
         <Steps>
           <Step>
-            <Actions />
+            <Actions>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <UseCustomModifiers />
+                <WoWMacro>
+                  <WoWMacroSetString>Priest</WoWMacroSetString>
+                  <WoWMacroString>Renew (Mouseover)</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+            </Actions>
           </Step>
         </Steps>
       </MappedKey>
@@ -11009,13 +13581,9 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
           <Step>
             <Actions>
               <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-                <KeyMapString>ISB42 - Action Target Group</KeyMapString>
-                <MappedKeyString>Ranged - Join</MappedKeyString>
+                <KeyMapString>Priest - Base</KeyMapString>
+                <MappedKeyString>____ - Initialize</MappedKeyString>
               </MappedKeyAction>
-            </Actions>
-          </Step>
-          <Step>
-            <Actions>
               <MappedKeyAction xsi:type="MappedKeyExecuteAction">
                 <KeyMapString>ISB42 - Action Target Group</KeyMapString>
                 <MappedKeyString>Healer - Primary - Join</MappedKeyString>
@@ -11961,10 +14529,11 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
         <Name>____ - Initialize</Name>
         <Steps>
           <Step>
-            <Actions />
-          </Step>
-          <Step>
             <Actions>
+              <MappedKeyAction xsi:type="TargetGroupAction">
+                <Action>Join</Action>
+                <RelayGroupString>Warlock</RelayGroupString>
+              </MappedKeyAction>
               <MappedKeyAction xsi:type="MappedKeyExecuteAction">
                 <KeyMapString>ISB42 - Action Target Group</KeyMapString>
                 <MappedKeyString>Ranged - Join</MappedKeyString>
@@ -11983,12 +14552,13 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
         <Steps>
           <Step>
             <Actions>
-              <MappedKeyAction xsi:type="WoWMacroRefAction">
-                <UseCustomModifiers />
-                <WoWMacro>
-                  <WoWMacroSetString>General</WoWMacroSetString>
-                  <WoWMacroString>Pet Attack</WoWMacroString>
-                </WoWMacro>
+              <MappedKeyAction xsi:type="MappedKeyStepAction">
+                <MappedKey>
+                  <KeyMapString>Warlock - Affliction</KeyMapString>
+                  <MappedKeyString>DPS Rotation</MappedKeyString>
+                </MappedKey>
+                <Action>Set</Action>
+                <Value>1</Value>
               </MappedKeyAction>
             </Actions>
           </Step>
@@ -12132,13 +14702,19 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
               </MappedKeyAction>
             </Actions>
           </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Pet Attack</Name>
+        <Steps>
           <Step>
-            <Stick>5</Stick>
-            <Stump>true</Stump>
             <Actions>
-              <MappedKeyAction xsi:type="PopupTextAction">
-                <Target>all</Target>
-                <Text>{CHARACTER} done applying self buffs</Text>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <UseCustomModifiers />
+                <WoWMacro>
+                  <WoWMacroSetString>General</WoWMacroSetString>
+                  <WoWMacroString>Pet Attack</WoWMacroString>
+                </WoWMacro>
               </MappedKeyAction>
             </Actions>
           </Step>
@@ -12227,7 +14803,16 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
         <Name>Initiate Combat</Name>
         <Steps>
           <Step>
-            <Actions />
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyStepAction">
+                <MappedKey>
+                  <KeyMapString>Warlock - Demonology</KeyMapString>
+                  <MappedKeyString>DPS Rotation</MappedKeyString>
+                </MappedKey>
+                <Action>Set</Action>
+                <Value>1</Value>
+              </MappedKeyAction>
+            </Actions>
           </Step>
         </Steps>
       </MappedKey>
@@ -12235,7 +14820,15 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
         <Name>DPS Rotation</Name>
         <Steps>
           <Step>
-            <Actions />
+            <Actions>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <UseCustomModifiers />
+                <WoWMacro>
+                  <WoWMacroSetString>Warlock</WoWMacroSetString>
+                  <WoWMacroString>Shadow Bolt</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+            </Actions>
           </Step>
         </Steps>
       </MappedKey>
@@ -12362,6 +14955,22 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
         </Steps>
       </MappedKey>
       <MappedKey>
+        <Name>Pet Attack</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <UseCustomModifiers />
+                <WoWMacro>
+                  <WoWMacroSetString>General</WoWMacroSetString>
+                  <WoWMacroString>Pet Attack</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
         <Name>__Targeted Heals___________________________________________</Name>
         <Steps>
           <Step>
@@ -12411,18 +15020,11 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
       </MappedKey>
       <MappedKey>
         <Name>__Initialization_____________________________________</Name>
-        <Steps>
-          <Step>
-            <Actions />
-          </Step>
-        </Steps>
+        <Steps />
       </MappedKey>
       <MappedKey>
         <Name>____ - Initialize</Name>
         <Steps>
-          <Step>
-            <Actions />
-          </Step>
           <Step>
             <Actions>
               <MappedKeyAction xsi:type="MappedKeyExecuteAction">
@@ -12954,6 +15556,19 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
           <Key>
             <Key>G</Key>
             <Code>34</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers />
+      </WoWMacro>
+      <WoWMacro>
+        <MacroCommands>/targetlasttarget</MacroCommands>
+        <ColloquialName>Target Last Target</ColloquialName>
+        <Combo>
+          <Combo>Ctrl+Alt+H</Combo>
+          <Modifiers>Ctrl Alt</Modifiers>
+          <Key>
+            <Key>H</Key>
+            <Code>35</Code>
           </Key>
         </Combo>
         <AllowCustomModifiers />
@@ -13763,6 +16378,19 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
         </Combo>
         <AllowCustomModifiers />
       </WoWMacro>
+      <WoWMacro>
+        <MacroCommands>/cast Conjure Water</MacroCommands>
+        <ColloquialName>Conjure Water</ColloquialName>
+        <Combo>
+          <Combo>Ctrl+Shift+Q</Combo>
+          <Modifiers>Ctrl Shift</Modifiers>
+          <Key>
+            <Key>Q</Key>
+            <Code>16</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers />
+      </WoWMacro>
     </WoWMacros>
   </WoWMacroSet>
   <WoWMacroSet>
@@ -14103,6 +16731,14 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
       <WoWMacro>
         <MacroCommands>/cast Summon Darkglare</MacroCommands>
         <ColloquialName>Summon Darkglare</ColloquialName>
+        <Combo>
+          <Combo>Ctrl+Shift+K</Combo>
+          <Modifiers>Ctrl Shift</Modifiers>
+          <Key>
+            <Key>K</Key>
+            <Code>37</Code>
+          </Key>
+        </Combo>
         <AllowCustomModifiers />
       </WoWMacro>
       <WoWMacro>
@@ -14121,8 +16757,29 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
       <WoWMacro>
         <MacroCommands>/cast [nochanneling] Immolate</MacroCommands>
         <ColloquialName>Immolate</ColloquialName>
+        <Combo>
+          <Combo>Ctrl+Shift+L</Combo>
+          <Modifiers>Ctrl Shift</Modifiers>
+          <Key>
+            <Key>L</Key>
+            <Code>38</Code>
+          </Key>
+        </Combo>
         <AllowCustomModifiers />
         <Description>Burns the enemy for 10 Fire damage and then an additional 20 Fire damange over 15 sec.</Description>
+      </WoWMacro>
+      <WoWMacro>
+        <MacroCommands>/cast Summon Imp</MacroCommands>
+        <ColloquialName>Summon Imp</ColloquialName>
+        <Combo>
+          <Combo>Ctrl+Shift+M</Combo>
+          <Modifiers>Ctrl Shift</Modifiers>
+          <Key>
+            <Key>M</Key>
+            <Code>50</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers />
       </WoWMacro>
     </WoWMacros>
   </WoWMacroSet>
@@ -14209,6 +16866,9 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
   </ActionTimerPool>
   <ActionTimerPool>
     <Name>Frost Armor CD</Name>
+  </ActionTimerPool>
+  <ActionTimerPool>
+    <Name>SelfBuffsTimer</Name>
   </ActionTimerPool>
   <VariableKeystroke>
     <Name>Move Forward</Name>
@@ -14454,11 +17114,12 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
   </ClickBar>
   <ClickBar>
     <Name>Healing - Primary S1</Name>
-    <X>1028</X>
+    <X>1053</X>
     <Y>722</Y>
     <RowHeight>44</RowHeight>
-    <ColumnWidth>89</ColumnWidth>
+    <ColumnWidth>64</ColumnWidth>
     <BackgroundColor />
+    <CellBorder>0</CellBorder>
     <CellBorder_Color>
       <Red>255</Red>
       <Green>255</Green>
@@ -14491,7 +17152,10 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
         </ClickActions>
         <MouseOverAction>
           <LeftRight>Left</LeftRight>
-          <Action />
+          <Action>
+            <KeyMapString>ISB42 - Healing - Primary</KeyMapString>
+            <MappedKeyString>Toggle Mouseover</MappedKeyString>
+          </Action>
         </MouseOverAction>
         <Tooltip />
         <Text />
@@ -14500,11 +17164,12 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
   </ClickBar>
   <ClickBar>
     <Name>Healing - Primary S2</Name>
-    <X>1028</X>
+    <X>1053</X>
     <Y>769</Y>
     <RowHeight>44</RowHeight>
-    <ColumnWidth>89</ColumnWidth>
+    <ColumnWidth>64</ColumnWidth>
     <BackgroundColor />
+    <CellBorder>0</CellBorder>
     <CellBorder_Color>
       <Red>255</Red>
       <Green>255</Green>
@@ -14537,7 +17202,10 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
         </ClickActions>
         <MouseOverAction>
           <LeftRight>Left</LeftRight>
-          <Action />
+          <Action>
+            <KeyMapString>ISB42 - Healing - Primary</KeyMapString>
+            <MappedKeyString>Toggle Mouseover</MappedKeyString>
+          </Action>
         </MouseOverAction>
         <Tooltip />
         <Text />
@@ -14546,11 +17214,12 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
   </ClickBar>
   <ClickBar>
     <Name>Healing - Primary S3</Name>
-    <X>1028</X>
+    <X>1053</X>
     <Y>815</Y>
     <RowHeight>44</RowHeight>
-    <ColumnWidth>89</ColumnWidth>
+    <ColumnWidth>64</ColumnWidth>
     <BackgroundColor />
+    <CellBorder>0</CellBorder>
     <CellBorder_Color>
       <Red>255</Red>
       <Green>255</Green>
@@ -14583,7 +17252,10 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
         </ClickActions>
         <MouseOverAction>
           <LeftRight>Left</LeftRight>
-          <Action />
+          <Action>
+            <KeyMapString>ISB42 - Healing - Primary</KeyMapString>
+            <MappedKeyString>Toggle Mouseover</MappedKeyString>
+          </Action>
         </MouseOverAction>
         <Tooltip />
         <Text />
@@ -14592,11 +17264,12 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
   </ClickBar>
   <ClickBar>
     <Name>Healing - Primary S4</Name>
-    <X>1028</X>
+    <X>1053</X>
     <Y>862</Y>
     <RowHeight>44</RowHeight>
-    <ColumnWidth>89</ColumnWidth>
+    <ColumnWidth>64</ColumnWidth>
     <BackgroundColor />
+    <CellBorder>0</CellBorder>
     <CellBorder_Color>
       <Red>255</Red>
       <Green>255</Green>
@@ -14629,7 +17302,10 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
         </ClickActions>
         <MouseOverAction>
           <LeftRight>Left</LeftRight>
-          <Action />
+          <Action>
+            <KeyMapString>ISB42 - Healing - Primary</KeyMapString>
+            <MappedKeyString>Toggle Mouseover</MappedKeyString>
+          </Action>
         </MouseOverAction>
         <Tooltip />
         <Text />
@@ -14638,11 +17314,12 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
   </ClickBar>
   <ClickBar>
     <Name>Healing - Primary S5</Name>
-    <X>1028</X>
+    <X>1053</X>
     <Y>908</Y>
     <RowHeight>44</RowHeight>
-    <ColumnWidth>89</ColumnWidth>
+    <ColumnWidth>64</ColumnWidth>
     <BackgroundColor />
+    <CellBorder>0</CellBorder>
     <CellBorder_Color>
       <Red>255</Red>
       <Green>255</Green>
@@ -14675,7 +17352,10 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
         </ClickActions>
         <MouseOverAction>
           <LeftRight>Left</LeftRight>
-          <Action />
+          <Action>
+            <KeyMapString>ISB42 - Healing - Primary</KeyMapString>
+            <MappedKeyString>Toggle Mouseover</MappedKeyString>
+          </Action>
         </MouseOverAction>
         <Tooltip />
         <Text />
@@ -14698,11 +17378,12 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
   </ClickBar>
   <ClickBar>
     <Name>Healing - Secondary S1</Name>
-    <X>939</X>
+    <X>989</X>
     <Y>722</Y>
     <RowHeight>44</RowHeight>
-    <ColumnWidth>89</ColumnWidth>
+    <ColumnWidth>64</ColumnWidth>
     <BackgroundColor />
+    <CellBorder>0</CellBorder>
     <CellBorder_Color>
       <Red>255</Red>
       <Green>255</Green>
@@ -14735,7 +17416,10 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
         </ClickActions>
         <MouseOverAction>
           <LeftRight>Left</LeftRight>
-          <Action />
+          <Action>
+            <KeyMapString>ISB42 - Healing - Secondary</KeyMapString>
+            <MappedKeyString>Toggle Mouseover</MappedKeyString>
+          </Action>
         </MouseOverAction>
         <Tooltip />
         <Text />
@@ -14744,11 +17428,12 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
   </ClickBar>
   <ClickBar>
     <Name>Healing - Secondary S2</Name>
-    <X>939</X>
+    <X>989</X>
     <Y>769</Y>
     <RowHeight>44</RowHeight>
-    <ColumnWidth>89</ColumnWidth>
+    <ColumnWidth>64</ColumnWidth>
     <BackgroundColor />
+    <CellBorder>0</CellBorder>
     <CellBorder_Color>
       <Red>255</Red>
       <Green>255</Green>
@@ -14781,7 +17466,10 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
         </ClickActions>
         <MouseOverAction>
           <LeftRight>Left</LeftRight>
-          <Action />
+          <Action>
+            <KeyMapString>ISB42 - Healing - Secondary</KeyMapString>
+            <MappedKeyString>Toggle Mouseover</MappedKeyString>
+          </Action>
         </MouseOverAction>
         <Tooltip />
         <Text />
@@ -14790,11 +17478,12 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
   </ClickBar>
   <ClickBar>
     <Name>Healing - Secondary S3</Name>
-    <X>939</X>
+    <X>989</X>
     <Y>815</Y>
     <RowHeight>44</RowHeight>
-    <ColumnWidth>89</ColumnWidth>
+    <ColumnWidth>64</ColumnWidth>
     <BackgroundColor />
+    <CellBorder>0</CellBorder>
     <CellBorder_Color>
       <Red>255</Red>
       <Green>255</Green>
@@ -14827,7 +17516,10 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
         </ClickActions>
         <MouseOverAction>
           <LeftRight>Left</LeftRight>
-          <Action />
+          <Action>
+            <KeyMapString>ISB42 - Healing - Secondary</KeyMapString>
+            <MappedKeyString>Toggle Mouseover</MappedKeyString>
+          </Action>
         </MouseOverAction>
         <Tooltip />
         <Text />
@@ -14836,11 +17528,12 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
   </ClickBar>
   <ClickBar>
     <Name>Healing - Secondary S4</Name>
-    <X>939</X>
+    <X>989</X>
     <Y>862</Y>
     <RowHeight>44</RowHeight>
-    <ColumnWidth>89</ColumnWidth>
+    <ColumnWidth>64</ColumnWidth>
     <BackgroundColor />
+    <CellBorder>0</CellBorder>
     <CellBorder_Color>
       <Red>255</Red>
       <Green>255</Green>
@@ -14873,7 +17566,10 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
         </ClickActions>
         <MouseOverAction>
           <LeftRight>Left</LeftRight>
-          <Action />
+          <Action>
+            <KeyMapString>ISB42 - Healing - Secondary</KeyMapString>
+            <MappedKeyString>Toggle Mouseover</MappedKeyString>
+          </Action>
         </MouseOverAction>
         <Tooltip />
         <Text />
@@ -14882,11 +17578,12 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
   </ClickBar>
   <ClickBar>
     <Name>Healing - Secondary S5</Name>
-    <X>939</X>
+    <X>989</X>
     <Y>908</Y>
     <RowHeight>44</RowHeight>
-    <ColumnWidth>89</ColumnWidth>
+    <ColumnWidth>64</ColumnWidth>
     <BackgroundColor />
+    <CellBorder>0</CellBorder>
     <CellBorder_Color>
       <Red>255</Red>
       <Green>255</Green>
@@ -14919,7 +17616,10 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
         </ClickActions>
         <MouseOverAction>
           <LeftRight>Left</LeftRight>
-          <Action />
+          <Action>
+            <KeyMapString>ISB42 - Healing - Secondary</KeyMapString>
+            <MappedKeyString>Toggle Mouseover</MappedKeyString>
+          </Action>
         </MouseOverAction>
         <Tooltip />
         <Text />
@@ -14942,11 +17642,12 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
   </ClickBar>
   <ClickBar>
     <Name>Healing - Tertiary S1</Name>
-    <X>850</X>
+    <X>925</X>
     <Y>722</Y>
     <RowHeight>44</RowHeight>
-    <ColumnWidth>89</ColumnWidth>
+    <ColumnWidth>64</ColumnWidth>
     <BackgroundColor />
+    <CellBorder>0</CellBorder>
     <CellBorder_Color>
       <Red>255</Red>
       <Green>255</Green>
@@ -14979,7 +17680,10 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
         </ClickActions>
         <MouseOverAction>
           <LeftRight>Left</LeftRight>
-          <Action />
+          <Action>
+            <KeyMapString>ISB42 - Healing - Tertiary</KeyMapString>
+            <MappedKeyString>Toggle Mouseover</MappedKeyString>
+          </Action>
         </MouseOverAction>
         <Tooltip />
         <Text />
@@ -14988,11 +17692,12 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
   </ClickBar>
   <ClickBar>
     <Name>Healing - Tertiary S2</Name>
-    <X>850</X>
+    <X>925</X>
     <Y>769</Y>
     <RowHeight>44</RowHeight>
-    <ColumnWidth>89</ColumnWidth>
+    <ColumnWidth>64</ColumnWidth>
     <BackgroundColor />
+    <CellBorder>0</CellBorder>
     <CellBorder_Color>
       <Red>255</Red>
       <Green>255</Green>
@@ -15025,7 +17730,10 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
         </ClickActions>
         <MouseOverAction>
           <LeftRight>Left</LeftRight>
-          <Action />
+          <Action>
+            <KeyMapString>ISB42 - Healing - Tertiary</KeyMapString>
+            <MappedKeyString>Toggle Mouseover</MappedKeyString>
+          </Action>
         </MouseOverAction>
         <Tooltip />
         <Text />
@@ -15034,11 +17742,12 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
   </ClickBar>
   <ClickBar>
     <Name>Healing - Tertiary S3</Name>
-    <X>850</X>
+    <X>925</X>
     <Y>815</Y>
     <RowHeight>44</RowHeight>
-    <ColumnWidth>89</ColumnWidth>
+    <ColumnWidth>64</ColumnWidth>
     <BackgroundColor />
+    <CellBorder>0</CellBorder>
     <CellBorder_Color>
       <Red>255</Red>
       <Green>255</Green>
@@ -15071,7 +17780,10 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
         </ClickActions>
         <MouseOverAction>
           <LeftRight>Left</LeftRight>
-          <Action />
+          <Action>
+            <KeyMapString>ISB42 - Healing - Tertiary</KeyMapString>
+            <MappedKeyString>Toggle Mouseover</MappedKeyString>
+          </Action>
         </MouseOverAction>
         <Tooltip />
         <Text />
@@ -15080,11 +17792,12 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
   </ClickBar>
   <ClickBar>
     <Name>Healing - Tertiary S4</Name>
-    <X>850</X>
+    <X>925</X>
     <Y>862</Y>
     <RowHeight>44</RowHeight>
-    <ColumnWidth>89</ColumnWidth>
+    <ColumnWidth>64</ColumnWidth>
     <BackgroundColor />
+    <CellBorder>0</CellBorder>
     <CellBorder_Color>
       <Red>255</Red>
       <Green>255</Green>
@@ -15117,7 +17830,10 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
         </ClickActions>
         <MouseOverAction>
           <LeftRight>Left</LeftRight>
-          <Action />
+          <Action>
+            <KeyMapString>ISB42 - Healing - Tertiary</KeyMapString>
+            <MappedKeyString>Toggle Mouseover</MappedKeyString>
+          </Action>
         </MouseOverAction>
         <Tooltip />
         <Text />
@@ -15126,11 +17842,12 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
   </ClickBar>
   <ClickBar>
     <Name>Healing - Tertiary S5</Name>
-    <X>850</X>
+    <X>925</X>
     <Y>908</Y>
     <RowHeight>44</RowHeight>
-    <ColumnWidth>89</ColumnWidth>
+    <ColumnWidth>64</ColumnWidth>
     <BackgroundColor />
+    <CellBorder>0</CellBorder>
     <CellBorder_Color>
       <Red>255</Red>
       <Green>255</Green>
@@ -15158,6 +17875,306 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
             <Action>
               <KeyMapString>ISB42 - Healing - Tertiary</KeyMapString>
               <MappedKeyString>Right Click</MappedKeyString>
+            </Action>
+          </ClickAction>
+        </ClickActions>
+        <MouseOverAction>
+          <LeftRight>Left</LeftRight>
+          <Action>
+            <KeyMapString>ISB42 - Healing - Tertiary</KeyMapString>
+            <MappedKeyString>Toggle Mouseover</MappedKeyString>
+          </Action>
+        </MouseOverAction>
+        <Tooltip />
+        <Text />
+      </Button>
+    </Buttons>
+  </ClickBar>
+  <ClickBar>
+    <Name>__Crowd Control______________</Name>
+    <X>0</X>
+    <Y>0</Y>
+    <BackgroundColor />
+    <CellBorder_Color>
+      <Red>255</Red>
+      <Green>255</Green>
+      <Blue>255</Blue>
+    </CellBorder_Color>
+    <Rows>1</Rows>
+    <Columns>1</Columns>
+    <Buttons />
+  </ClickBar>
+  <ClickBar>
+    <Name>1 - Target CC</Name>
+    <X>850</X>
+    <Y>670</Y>
+    <RowHeight>34</RowHeight>
+    <ColumnWidth>44</ColumnWidth>
+    <BackgroundColor />
+    <CellBorder>0</CellBorder>
+    <CellBorder_Color />
+    <Rows>1</Rows>
+    <Columns>1</Columns>
+    <Buttons>
+      <Button>
+        <Enabled>false</Enabled>
+        <Name>1 - Target CC</Name>
+        <BackgroundColor>
+          <Alpha>0</Alpha>
+        </BackgroundColor>
+        <BackgroundImage>
+          <ImageString>polymorph -32x32.jpg</ImageString>
+        </BackgroundImage>
+        <ClickActions>
+          <ClickAction>
+            <LeftRight>Left</LeftRight>
+            <Action>
+              <KeyMapString>ISB42 - Crowd Control</KeyMapString>
+              <MappedKeyString>1 - Left Click</MappedKeyString>
+            </Action>
+          </ClickAction>
+        </ClickActions>
+        <MouseOverAction>
+          <LeftRight>Left</LeftRight>
+          <Action>
+            <KeyMapString>ISB42 - Crowd Control</KeyMapString>
+            <MappedKeyString>1 - Mouseover</MappedKeyString>
+          </Action>
+        </MouseOverAction>
+        <Tooltip />
+        <Text />
+      </Button>
+    </Buttons>
+  </ClickBar>
+  <ClickBar>
+    <Name>2 - Target CC</Name>
+    <X>895</X>
+    <Y>670</Y>
+    <RowHeight>34</RowHeight>
+    <ColumnWidth>44</ColumnWidth>
+    <BackgroundColor />
+    <CellBorder>0</CellBorder>
+    <CellBorder_Color />
+    <Rows>1</Rows>
+    <Columns>1</Columns>
+    <Buttons>
+      <Button>
+        <Enabled>false</Enabled>
+        <Name>2 - Target CC</Name>
+        <BackgroundColor>
+          <Alpha>0</Alpha>
+        </BackgroundColor>
+        <BackgroundImage>
+          <ImageString>polymorph -32x32.jpg</ImageString>
+        </BackgroundImage>
+        <ClickActions>
+          <ClickAction>
+            <LeftRight>Left</LeftRight>
+            <Action>
+              <KeyMapString>ISB42 - Crowd Control</KeyMapString>
+              <MappedKeyString>2 - Left Click</MappedKeyString>
+            </Action>
+          </ClickAction>
+        </ClickActions>
+        <MouseOverAction>
+          <LeftRight>Left</LeftRight>
+          <Action>
+            <KeyMapString>ISB42 - Crowd Control</KeyMapString>
+            <MappedKeyString>2 - Mouseover</MappedKeyString>
+          </Action>
+        </MouseOverAction>
+        <Tooltip />
+        <Text />
+      </Button>
+    </Buttons>
+  </ClickBar>
+  <ClickBar>
+    <Name>__Class/Spec______________</Name>
+    <X>0</X>
+    <Y>0</Y>
+    <BackgroundColor />
+    <CellBorder_Color>
+      <Red>255</Red>
+      <Green>255</Green>
+      <Blue>255</Blue>
+    </CellBorder_Color>
+    <Rows>1</Rows>
+    <Columns>1</Columns>
+    <Buttons />
+  </ClickBar>
+  <ClickBar>
+    <Name>Slot 1 Menu Clickbar</Name>
+    <X>1100</X>
+    <Y>730</Y>
+    <RowHeight>34</RowHeight>
+    <BackgroundColor />
+    <CellBorder_Color />
+    <Rows>1</Rows>
+    <Columns>1</Columns>
+    <Buttons>
+      <Button>
+        <Enabled>false</Enabled>
+        <Name>Button 1,1</Name>
+        <BackgroundColor>
+          <Alpha>0</Alpha>
+        </BackgroundColor>
+        <BackgroundImage>
+          <ImageString>inv_misc_book_09_34x34.jpg</ImageString>
+        </BackgroundImage>
+        <ClickActions>
+          <ClickAction>
+            <LeftRight>Left</LeftRight>
+            <Action>
+              <KeyMapString>ISB42 - Toggles</KeyMapString>
+              <MappedKeyString>Toggle Slot 1 Menu</MappedKeyString>
+            </Action>
+          </ClickAction>
+        </ClickActions>
+        <MouseOverAction>
+          <LeftRight>Left</LeftRight>
+          <Action />
+        </MouseOverAction>
+        <Tooltip />
+        <Text />
+      </Button>
+    </Buttons>
+  </ClickBar>
+  <ClickBar>
+    <Name>Slot 2 Menu Clickbar</Name>
+    <X>0</X>
+    <Y>0</Y>
+    <RowHeight>34</RowHeight>
+    <BackgroundColor />
+    <CellBorder_Color />
+    <Rows>1</Rows>
+    <Columns>1</Columns>
+    <Buttons>
+      <Button>
+        <Enabled>false</Enabled>
+        <Name>Button 1,1</Name>
+        <BackgroundColor>
+          <Alpha>0</Alpha>
+        </BackgroundColor>
+        <BackgroundImage>
+          <ImageString>inv_misc_book_09_34x34.jpg</ImageString>
+        </BackgroundImage>
+        <ClickActions>
+          <ClickAction>
+            <LeftRight>Left</LeftRight>
+            <Action>
+              <KeyMapString>ISB42 - Toggles</KeyMapString>
+              <MappedKeyString>Toggle Slot 2 Menu</MappedKeyString>
+            </Action>
+          </ClickAction>
+        </ClickActions>
+        <MouseOverAction>
+          <LeftRight>Left</LeftRight>
+          <Action />
+        </MouseOverAction>
+        <Tooltip />
+        <Text />
+      </Button>
+    </Buttons>
+  </ClickBar>
+  <ClickBar>
+    <Name>Slot 3 Menu Clickbar</Name>
+    <X>0</X>
+    <Y>0</Y>
+    <RowHeight>34</RowHeight>
+    <BackgroundColor />
+    <CellBorder_Color />
+    <Rows>1</Rows>
+    <Columns>1</Columns>
+    <Buttons>
+      <Button>
+        <Enabled>false</Enabled>
+        <Name>Button 1,1</Name>
+        <BackgroundColor>
+          <Alpha>0</Alpha>
+        </BackgroundColor>
+        <BackgroundImage>
+          <ImageString>inv_misc_book_09_34x34.jpg</ImageString>
+        </BackgroundImage>
+        <ClickActions>
+          <ClickAction>
+            <LeftRight>Left</LeftRight>
+            <Action>
+              <KeyMapString>ISB42 - Toggles</KeyMapString>
+              <MappedKeyString>Toggle Slot 3 Menu</MappedKeyString>
+            </Action>
+          </ClickAction>
+        </ClickActions>
+        <MouseOverAction>
+          <LeftRight>Left</LeftRight>
+          <Action />
+        </MouseOverAction>
+        <Tooltip />
+        <Text />
+      </Button>
+    </Buttons>
+  </ClickBar>
+  <ClickBar>
+    <Name>Slot 4 Menu Clickbar</Name>
+    <X>0</X>
+    <Y>0</Y>
+    <RowHeight>34</RowHeight>
+    <BackgroundColor />
+    <CellBorder_Color />
+    <Rows>1</Rows>
+    <Columns>1</Columns>
+    <Buttons>
+      <Button>
+        <Enabled>false</Enabled>
+        <Name>Button 1,1</Name>
+        <BackgroundColor>
+          <Alpha>0</Alpha>
+        </BackgroundColor>
+        <BackgroundImage>
+          <ImageString>inv_misc_book_09_34x34.jpg</ImageString>
+        </BackgroundImage>
+        <ClickActions>
+          <ClickAction>
+            <LeftRight>Left</LeftRight>
+            <Action>
+              <KeyMapString>ISB42 - Toggles</KeyMapString>
+              <MappedKeyString>Toggle Slot 4 Menu</MappedKeyString>
+            </Action>
+          </ClickAction>
+        </ClickActions>
+        <MouseOverAction>
+          <LeftRight>Left</LeftRight>
+          <Action />
+        </MouseOverAction>
+        <Tooltip />
+        <Text />
+      </Button>
+    </Buttons>
+  </ClickBar>
+  <ClickBar>
+    <Name>Slot 5 Menu Clickbar</Name>
+    <X>0</X>
+    <Y>0</Y>
+    <RowHeight>34</RowHeight>
+    <BackgroundColor />
+    <CellBorder_Color />
+    <Rows>1</Rows>
+    <Columns>1</Columns>
+    <Buttons>
+      <Button>
+        <Enabled>false</Enabled>
+        <Name>Button 1,1</Name>
+        <BackgroundColor>
+          <Alpha>0</Alpha>
+        </BackgroundColor>
+        <BackgroundImage>
+          <ImageString>inv_misc_book_09_34x34.jpg</ImageString>
+        </BackgroundImage>
+        <ClickActions>
+          <ClickAction>
+            <LeftRight>Left</LeftRight>
+            <Action>
+              <KeyMapString>ISB42 - Toggles</KeyMapString>
+              <MappedKeyString>Toggle Slot 5 Menu</MappedKeyString>
             </Action>
           </ClickAction>
         </ClickActions>
@@ -16011,6 +19028,537 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
       </MenuButton>
     </Buttons>
   </MenuButtonSet>
+  <MenuButtonSet>
+    <Name>Slot 1 Menu Button set</Name>
+    <Buttons>
+      <MenuButton>
+        <Actions>
+          <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+            <KeyMapString>ISB42 - Slot 1 Menu</KeyMapString>
+            <MappedKeyString>Button 1</MappedKeyString>
+          </MappedKeyAction>
+        </Actions>
+        <Mode>OnRelease</Mode>
+      </MenuButton>
+      <MenuButton>
+        <Actions>
+          <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+            <KeyMapString>ISB42 - Slot 1 Menu</KeyMapString>
+            <MappedKeyString>Button 2</MappedKeyString>
+          </MappedKeyAction>
+        </Actions>
+        <Mode>OnRelease</Mode>
+      </MenuButton>
+      <MenuButton>
+        <Actions>
+          <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+            <KeyMapString>ISB42 - Slot 1 Menu</KeyMapString>
+            <MappedKeyString>Button 3</MappedKeyString>
+          </MappedKeyAction>
+        </Actions>
+        <Mode>OnRelease</Mode>
+      </MenuButton>
+      <MenuButton>
+        <Actions>
+          <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+            <KeyMapString>ISB42 - Slot 1 Menu</KeyMapString>
+            <MappedKeyString>Button 4</MappedKeyString>
+          </MappedKeyAction>
+        </Actions>
+        <Mode>OnRelease</Mode>
+      </MenuButton>
+      <MenuButton>
+        <Actions>
+          <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+            <KeyMapString>ISB42 - Slot 1 Menu</KeyMapString>
+            <MappedKeyString>Button 5</MappedKeyString>
+          </MappedKeyAction>
+        </Actions>
+        <Mode>OnRelease</Mode>
+      </MenuButton>
+      <MenuButton>
+        <Actions>
+          <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+            <KeyMapString>ISB42 - Slot 1 Menu</KeyMapString>
+            <MappedKeyString>Button 6</MappedKeyString>
+          </MappedKeyAction>
+        </Actions>
+        <Mode>OnRelease</Mode>
+      </MenuButton>
+    </Buttons>
+  </MenuButtonSet>
+  <MenuButtonSet>
+    <Name>Slot 2 Menu Button set</Name>
+    <Buttons>
+      <MenuButton>
+        <Actions>
+          <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+            <KeyMapString>ISB42 - Slot 2 Menu</KeyMapString>
+            <MappedKeyString>Button 1</MappedKeyString>
+          </MappedKeyAction>
+        </Actions>
+        <Mode>OnRelease</Mode>
+      </MenuButton>
+      <MenuButton>
+        <Actions>
+          <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+            <KeyMapString>ISB42 - Slot 2 Menu</KeyMapString>
+            <MappedKeyString>Button 2</MappedKeyString>
+          </MappedKeyAction>
+        </Actions>
+        <Mode>OnRelease</Mode>
+      </MenuButton>
+      <MenuButton>
+        <Actions>
+          <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+            <KeyMapString>ISB42 - Slot 2 Menu</KeyMapString>
+            <MappedKeyString>Button 3</MappedKeyString>
+          </MappedKeyAction>
+        </Actions>
+        <Mode>OnRelease</Mode>
+      </MenuButton>
+      <MenuButton>
+        <Actions>
+          <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+            <KeyMapString>ISB42 - Slot 2 Menu</KeyMapString>
+            <MappedKeyString>Button 4</MappedKeyString>
+          </MappedKeyAction>
+        </Actions>
+        <Mode>OnRelease</Mode>
+      </MenuButton>
+      <MenuButton>
+        <Actions>
+          <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+            <KeyMapString>ISB42 - Slot 2 Menu</KeyMapString>
+            <MappedKeyString>Button 5</MappedKeyString>
+          </MappedKeyAction>
+        </Actions>
+        <Mode>OnRelease</Mode>
+      </MenuButton>
+      <MenuButton>
+        <Actions>
+          <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+            <KeyMapString>ISB42 - Slot 2 Menu</KeyMapString>
+            <MappedKeyString>Button 6</MappedKeyString>
+          </MappedKeyAction>
+        </Actions>
+        <Mode>OnRelease</Mode>
+      </MenuButton>
+    </Buttons>
+  </MenuButtonSet>
+  <MenuButtonSet>
+    <Name>Slot 3 Menu Button set</Name>
+    <Buttons>
+      <MenuButton>
+        <Actions>
+          <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+            <KeyMapString>ISB42 - Slot 3 Menu</KeyMapString>
+            <MappedKeyString>Button 1</MappedKeyString>
+          </MappedKeyAction>
+        </Actions>
+        <Mode>OnRelease</Mode>
+      </MenuButton>
+      <MenuButton>
+        <Actions>
+          <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+            <KeyMapString>ISB42 - Slot 3 Menu</KeyMapString>
+            <MappedKeyString>Button 2</MappedKeyString>
+          </MappedKeyAction>
+        </Actions>
+        <Mode>OnRelease</Mode>
+      </MenuButton>
+      <MenuButton>
+        <Actions>
+          <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+            <KeyMapString>ISB42 - Slot 3 Menu</KeyMapString>
+            <MappedKeyString>Button 3</MappedKeyString>
+          </MappedKeyAction>
+        </Actions>
+        <Mode>OnRelease</Mode>
+      </MenuButton>
+      <MenuButton>
+        <Actions>
+          <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+            <KeyMapString>ISB42 - Slot 3 Menu</KeyMapString>
+            <MappedKeyString>Button 4</MappedKeyString>
+          </MappedKeyAction>
+        </Actions>
+        <Mode>OnRelease</Mode>
+      </MenuButton>
+      <MenuButton>
+        <Actions>
+          <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+            <KeyMapString>ISB42 - Slot 3 Menu</KeyMapString>
+            <MappedKeyString>Button 5</MappedKeyString>
+          </MappedKeyAction>
+        </Actions>
+        <Mode>OnRelease</Mode>
+      </MenuButton>
+      <MenuButton>
+        <Actions>
+          <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+            <KeyMapString>ISB42 - Slot 3 Menu</KeyMapString>
+            <MappedKeyString>Button 6</MappedKeyString>
+          </MappedKeyAction>
+        </Actions>
+        <Mode>OnRelease</Mode>
+      </MenuButton>
+    </Buttons>
+  </MenuButtonSet>
+  <MenuButtonSet>
+    <Name>Slot 4 Menu Button set</Name>
+    <Buttons>
+      <MenuButton>
+        <Actions>
+          <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+            <KeyMapString>ISB42 - Slot 4 Menu</KeyMapString>
+            <MappedKeyString>Button 1</MappedKeyString>
+          </MappedKeyAction>
+        </Actions>
+        <Mode>OnRelease</Mode>
+      </MenuButton>
+      <MenuButton>
+        <Actions>
+          <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+            <KeyMapString>ISB42 - Slot 4 Menu</KeyMapString>
+            <MappedKeyString>Button 2</MappedKeyString>
+          </MappedKeyAction>
+        </Actions>
+        <Mode>OnRelease</Mode>
+      </MenuButton>
+      <MenuButton>
+        <Actions>
+          <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+            <KeyMapString>ISB42 - Slot 4 Menu</KeyMapString>
+            <MappedKeyString>Button 3</MappedKeyString>
+          </MappedKeyAction>
+        </Actions>
+        <Mode>OnRelease</Mode>
+      </MenuButton>
+      <MenuButton>
+        <Actions>
+          <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+            <KeyMapString>ISB42 - Slot 4 Menu</KeyMapString>
+            <MappedKeyString>Button 4</MappedKeyString>
+          </MappedKeyAction>
+        </Actions>
+        <Mode>OnRelease</Mode>
+      </MenuButton>
+      <MenuButton>
+        <Actions>
+          <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+            <KeyMapString>ISB42 - Slot 4 Menu</KeyMapString>
+            <MappedKeyString>Button 5</MappedKeyString>
+          </MappedKeyAction>
+        </Actions>
+        <Mode>OnRelease</Mode>
+      </MenuButton>
+      <MenuButton>
+        <Actions>
+          <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+            <KeyMapString>ISB42 - Slot 4 Menu</KeyMapString>
+            <MappedKeyString>Button 6</MappedKeyString>
+          </MappedKeyAction>
+        </Actions>
+        <Mode>OnRelease</Mode>
+      </MenuButton>
+    </Buttons>
+  </MenuButtonSet>
+  <MenuButtonSet>
+    <Name>Slot 5 Menu Button set</Name>
+    <Buttons>
+      <MenuButton>
+        <Actions>
+          <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+            <KeyMapString>ISB42 - Slot 5 Menu</KeyMapString>
+            <MappedKeyString>Button 1</MappedKeyString>
+          </MappedKeyAction>
+        </Actions>
+        <Mode>OnRelease</Mode>
+      </MenuButton>
+      <MenuButton>
+        <Actions>
+          <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+            <KeyMapString>ISB42 - Slot 5 Menu</KeyMapString>
+            <MappedKeyString>Button 2</MappedKeyString>
+          </MappedKeyAction>
+        </Actions>
+        <Mode>OnRelease</Mode>
+      </MenuButton>
+      <MenuButton>
+        <Actions>
+          <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+            <KeyMapString>ISB42 - Slot 5 Menu</KeyMapString>
+            <MappedKeyString>Button 3</MappedKeyString>
+          </MappedKeyAction>
+        </Actions>
+        <Mode>OnRelease</Mode>
+      </MenuButton>
+      <MenuButton>
+        <Actions>
+          <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+            <KeyMapString>ISB42 - Slot 4 Menu [Virtualized]</KeyMapString>
+            <MappedKeyString>Button 4</MappedKeyString>
+          </MappedKeyAction>
+        </Actions>
+        <Mode>OnRelease</Mode>
+      </MenuButton>
+      <MenuButton>
+        <Actions>
+          <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+            <KeyMapString>ISB42 - Slot 5 Menu</KeyMapString>
+            <MappedKeyString>Button 5</MappedKeyString>
+          </MappedKeyAction>
+        </Actions>
+        <Mode>OnRelease</Mode>
+      </MenuButton>
+      <MenuButton>
+        <Actions>
+          <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+            <KeyMapString>ISB42 - Slot 5 Menu</KeyMapString>
+            <MappedKeyString>Button 6</MappedKeyString>
+          </MappedKeyAction>
+        </Actions>
+        <Mode>OnRelease</Mode>
+      </MenuButton>
+    </Buttons>
+  </MenuButtonSet>
+  <MenuButtonSet>
+    <Name>Warlock - Affliction</Name>
+    <Buttons>
+      <MenuButton>
+        <Actions>
+          <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+            <KeyMapString>ISB42 - Slot 1 Menu</KeyMapString>
+            <MappedKeyString>Button 1</MappedKeyString>
+          </MappedKeyAction>
+        </Actions>
+        <Mode>OnRelease</Mode>
+      </MenuButton>
+      <MenuButton>
+        <Actions>
+          <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+            <KeyMapString>ISB42 - Slot 1 Menu</KeyMapString>
+            <MappedKeyString>Button 2</MappedKeyString>
+          </MappedKeyAction>
+        </Actions>
+        <Mode>OnRelease</Mode>
+      </MenuButton>
+      <MenuButton>
+        <Actions>
+          <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+            <KeyMapString>ISB42 - Slot 1 Menu</KeyMapString>
+            <MappedKeyString>Button 3</MappedKeyString>
+          </MappedKeyAction>
+        </Actions>
+        <Mode>OnRelease</Mode>
+      </MenuButton>
+      <MenuButton>
+        <Actions>
+          <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+            <KeyMapString>ISB42 - Slot 1 Menu</KeyMapString>
+            <MappedKeyString>Button 4</MappedKeyString>
+          </MappedKeyAction>
+        </Actions>
+        <Mode>OnRelease</Mode>
+      </MenuButton>
+      <MenuButton>
+        <Actions>
+          <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+            <KeyMapString>ISB42 - Slot 1 Menu</KeyMapString>
+            <MappedKeyString>Button 5</MappedKeyString>
+          </MappedKeyAction>
+        </Actions>
+        <Mode>OnRelease</Mode>
+      </MenuButton>
+      <MenuButton>
+        <Actions>
+          <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+            <KeyMapString>ISB42 - Slot 1 Menu</KeyMapString>
+            <MappedKeyString>Button 6</MappedKeyString>
+          </MappedKeyAction>
+        </Actions>
+        <Mode>OnRelease</Mode>
+      </MenuButton>
+    </Buttons>
+  </MenuButtonSet>
+  <MenuButtonSet>
+    <Name>Warlock - Demonology</Name>
+    <Buttons>
+      <MenuButton>
+        <Actions>
+          <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+            <KeyMapString>ISB42 - Slot 1 Menu</KeyMapString>
+            <MappedKeyString>Button 1</MappedKeyString>
+          </MappedKeyAction>
+        </Actions>
+        <Mode>OnRelease</Mode>
+      </MenuButton>
+      <MenuButton>
+        <Actions>
+          <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+            <KeyMapString>ISB42 - Slot 1 Menu</KeyMapString>
+            <MappedKeyString>Button 2</MappedKeyString>
+          </MappedKeyAction>
+        </Actions>
+        <Mode>OnRelease</Mode>
+      </MenuButton>
+      <MenuButton>
+        <Actions>
+          <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+            <KeyMapString>ISB42 - Slot 1 Menu</KeyMapString>
+            <MappedKeyString>Button 3</MappedKeyString>
+          </MappedKeyAction>
+        </Actions>
+        <Mode>OnRelease</Mode>
+      </MenuButton>
+      <MenuButton>
+        <Actions>
+          <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+            <KeyMapString>ISB42 - Slot 1 Menu</KeyMapString>
+            <MappedKeyString>Button 4</MappedKeyString>
+          </MappedKeyAction>
+        </Actions>
+        <Mode>OnRelease</Mode>
+      </MenuButton>
+      <MenuButton>
+        <Actions>
+          <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+            <KeyMapString>ISB42 - Slot 1 Menu</KeyMapString>
+            <MappedKeyString>Button 5</MappedKeyString>
+          </MappedKeyAction>
+        </Actions>
+        <Mode>OnRelease</Mode>
+      </MenuButton>
+      <MenuButton>
+        <Actions>
+          <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+            <KeyMapString>ISB42 - Slot 1 Menu</KeyMapString>
+            <MappedKeyString>Button 6</MappedKeyString>
+          </MappedKeyAction>
+        </Actions>
+        <Mode>OnRelease</Mode>
+      </MenuButton>
+    </Buttons>
+  </MenuButtonSet>
+  <MenuButtonSet>
+    <Name>Mage - Frost</Name>
+    <Buttons>
+      <MenuButton>
+        <Actions>
+          <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+            <KeyMapString>ISB42 - Slot 1 Menu</KeyMapString>
+            <MappedKeyString>Button 1</MappedKeyString>
+          </MappedKeyAction>
+        </Actions>
+        <Mode>OnRelease</Mode>
+      </MenuButton>
+      <MenuButton>
+        <Actions>
+          <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+            <KeyMapString>ISB42 - Slot 1 Menu</KeyMapString>
+            <MappedKeyString>Button 2</MappedKeyString>
+          </MappedKeyAction>
+        </Actions>
+        <Mode>OnRelease</Mode>
+      </MenuButton>
+      <MenuButton>
+        <Actions>
+          <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+            <KeyMapString>ISB42 - Slot 1 Menu</KeyMapString>
+            <MappedKeyString>Button 3</MappedKeyString>
+          </MappedKeyAction>
+        </Actions>
+        <Mode>OnRelease</Mode>
+      </MenuButton>
+      <MenuButton>
+        <Actions>
+          <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+            <KeyMapString>ISB42 - Slot 1 Menu</KeyMapString>
+            <MappedKeyString>Button 4</MappedKeyString>
+          </MappedKeyAction>
+        </Actions>
+        <Mode>OnRelease</Mode>
+      </MenuButton>
+      <MenuButton>
+        <Actions>
+          <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+            <KeyMapString>ISB42 - Slot 1 Menu</KeyMapString>
+            <MappedKeyString>Button 5</MappedKeyString>
+          </MappedKeyAction>
+        </Actions>
+        <Mode>OnRelease</Mode>
+      </MenuButton>
+      <MenuButton>
+        <Actions>
+          <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+            <KeyMapString>ISB42 - Slot 1 Menu</KeyMapString>
+            <MappedKeyString>Button 6</MappedKeyString>
+          </MappedKeyAction>
+        </Actions>
+        <Mode>OnRelease</Mode>
+      </MenuButton>
+    </Buttons>
+  </MenuButtonSet>
+  <MenuButtonSet>
+    <Name>Slot Menu Button Set</Name>
+    <Buttons>
+      <MenuButton>
+        <Actions>
+          <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+            <KeyMapString>ISB42 - Slot 1 Menu</KeyMapString>
+            <MappedKeyString>Button 1</MappedKeyString>
+          </MappedKeyAction>
+        </Actions>
+        <Mode>OnRelease</Mode>
+      </MenuButton>
+      <MenuButton>
+        <Actions>
+          <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+            <KeyMapString>ISB42 - Slot 1 Menu</KeyMapString>
+            <MappedKeyString>Button 2</MappedKeyString>
+          </MappedKeyAction>
+        </Actions>
+        <Mode>OnRelease</Mode>
+      </MenuButton>
+      <MenuButton>
+        <Actions>
+          <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+            <KeyMapString>ISB42 - Slot 1 Menu</KeyMapString>
+            <MappedKeyString>Button 3</MappedKeyString>
+          </MappedKeyAction>
+        </Actions>
+        <Mode>OnRelease</Mode>
+      </MenuButton>
+      <MenuButton>
+        <Actions>
+          <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+            <KeyMapString>ISB42 - Slot 1 Menu</KeyMapString>
+            <MappedKeyString>Button 4</MappedKeyString>
+          </MappedKeyAction>
+        </Actions>
+        <Mode>OnRelease</Mode>
+      </MenuButton>
+      <MenuButton>
+        <Actions>
+          <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+            <KeyMapString>ISB42 - Slot 1 Menu</KeyMapString>
+            <MappedKeyString>Button 5</MappedKeyString>
+          </MappedKeyAction>
+        </Actions>
+        <Mode>OnRelease</Mode>
+      </MenuButton>
+      <MenuButton>
+        <Actions>
+          <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+            <KeyMapString>ISB42 - Slot 1 Menu</KeyMapString>
+            <MappedKeyString>Button 6</MappedKeyString>
+          </MappedKeyAction>
+        </Actions>
+        <Mode>OnRelease</Mode>
+      </MenuButton>
+    </Buttons>
+  </MenuButtonSet>
   <MenuHotkeySet>
     <Name>Standard</Name>
     <Description>Quick Setup Wizard 42 - Standard 12-button Menu Hotkeys</Description>
@@ -16560,10 +20108,60 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
       <Height>1</Height>
     </Grid_Size>
   </MenuTemplate>
+  <MenuTemplate>
+    <Name>Slot Menu Template</Name>
+    <Popup>
+      <Value>true</Value>
+    </Popup>
+    <NumButtons>6</NumButtons>
+    <BackgroundImage />
+    <BackgroundColor />
+    <BorderColor>
+      <Red>128</Red>
+      <Green>128</Green>
+      <Blue>128</Blue>
+    </BorderColor>
+    <frameSize>
+      <Width>154</Width>
+      <Height>230</Height>
+    </frameSize>
+    <buttonSize>
+      <Width>150</Width>
+      <Height>36</Height>
+    </buttonSize>
+    <buttonImage />
+    <buttonImageHover />
+    <buttonImagePressed />
+    <buttonBackgroundColor />
+    <buttonBorderColor>
+      <Red>255</Red>
+      <Green>255</Green>
+      <Blue>255</Blue>
+    </buttonBorderColor>
+    <buttonFontColor>
+      <Red>255</Red>
+      <Green>255</Green>
+      <Blue>255</Blue>
+    </buttonFontColor>
+    <buttonFontBold>0</buttonFontBold>
+    <buttonFontSize>12</buttonFontSize>
+    <buttonFontName>Tahoma</buttonFontName>
+    <XML_FileName />
+    <XML_Element />
+    <Grid_buttonMargin>
+      <Width>2</Width>
+      <Height>2</Height>
+    </Grid_buttonMargin>
+    <Grid_Size>
+      <Width>1</Width>
+      <Height>6</Height>
+    </Grid_Size>
+  </MenuTemplate>
   <Menu>
     <Name>ISB42 - Formations</Name>
     <Template>Formations</Template>
     <ButtonLayout>ISB42 - Formations</ButtonLayout>
+    <HotkeyLayout />
     <X>400</X>
     <Y>100</Y>
   </Menu>
@@ -16571,6 +20169,7 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
     <Name>ISB42 - Toggles</Name>
     <Template>Toggles</Template>
     <ButtonLayout>ISB42 - Toggles</ButtonLayout>
+    <HotkeyLayout />
   </Menu>
   <Menu>
     <Name>ISB42 - Standard</Name>
@@ -16607,5 +20206,59 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
     <BindSoft>true</BindSoft>
     <X>100</X>
     <Y>200</Y>
+  </Menu>
+  <Menu>
+    <Name>__Class/Spec______________</Name>
+    <Template />
+    <ButtonLayout />
+    <HotkeyLayout />
+  </Menu>
+  <Menu>
+    <Name>Slot 1 Menu</Name>
+    <Template>Slot Menu Template</Template>
+    <ButtonLayout>Slot 1 Menu Button set</ButtonLayout>
+    <HotkeyLayout />
+    <X>1150</X>
+    <Y>730</Y>
+  </Menu>
+  <Menu>
+    <Name>Slot 2 Menu</Name>
+    <Template>Slot Menu Template</Template>
+    <ButtonLayout>Slot 2 Menu Button set</ButtonLayout>
+    <HotkeyLayout />
+    <X>1150</X>
+    <Y>730</Y>
+  </Menu>
+  <Menu>
+    <Name>Slot 3 Menu</Name>
+    <Template>Slot Menu Template</Template>
+    <ButtonLayout>Slot 3 Menu Button set</ButtonLayout>
+    <HotkeyLayout />
+    <X>1150</X>
+    <Y>730</Y>
+  </Menu>
+  <Menu>
+    <Name>Slot 4 Menu</Name>
+    <Template>Slot Menu Template</Template>
+    <ButtonLayout>Slot 4 Menu Button set</ButtonLayout>
+    <HotkeyLayout />
+    <X>1150</X>
+    <Y>730</Y>
+  </Menu>
+  <Menu>
+    <Name>Slot 5 Menu</Name>
+    <Template>Slot Menu Template</Template>
+    <ButtonLayout>Slot 5 Menu Button set</ButtonLayout>
+    <HotkeyLayout />
+    <X>1150</X>
+    <Y>730</Y>
+  </Menu>
+  <Menu>
+    <Name>Slot Menu</Name>
+    <Template>Slot Menu Template</Template>
+    <ButtonLayout>Slot 1 Menu Button set</ButtonLayout>
+    <HotkeyLayout />
+    <X>1150</X>
+    <Y>730</Y>
   </Menu>
 </ISBoxerToolkitProfile>
