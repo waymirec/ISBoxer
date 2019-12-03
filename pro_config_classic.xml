@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ISBoxerToolkitProfile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="42" VersionMinor="0" BuildDate="11/30/2019 9:18:06 PM">
+<ISBoxerToolkitProfile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="42" VersionMinor="0" BuildDate="11/30/2019 10:01:21 PM">
   <CharacterSet>
     <ExecuteOnLoad />
     <Name>Blaumeux - Mixed</Name>
@@ -5888,27 +5888,6 @@ See http://isboxer.com/wiki/WoW:Interact_with_Target.</Description>
         </Steps>
       </MappedKey>
       <MappedKey>
-        <Name>Toggle Warlock Menu</Name>
-        <Steps>
-          <Step>
-            <Actions>
-              <MappedKeyAction xsi:type="MenuStateAction">
-                <Menu />
-                <ActionType>Load</ActionType>
-              </MappedKeyAction>
-            </Actions>
-          </Step>
-          <Step>
-            <Actions>
-              <MappedKeyAction xsi:type="MenuStateAction">
-                <Menu />
-                <ActionType>Unload</ActionType>
-              </MappedKeyAction>
-            </Actions>
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
         <Name>Toggle Slot 1 Menu</Name>
         <Steps>
           <Step>
@@ -7016,15 +6995,6 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
                   <KeyMapString>Warlock - Affliction - Menu</KeyMapString>
                 </ToMappedKey>
               </MappedKeyAction>
-              <MappedKeyAction xsi:type="MenuButtonAction">
-                <MenuButton>
-                  <MenuButtonSetString>Slot 1 Menu Button set</MenuButtonSetString>
-                </MenuButton>
-                <ButtonChanges>
-                  <Actions />
-                  <Text>Summon Imp</Text>
-                </ButtonChanges>
-              </MappedKeyAction>
               <MappedKeyAction xsi:type="ClickBarStateAction">
                 <ClickBar>
                   <ClickBarString>Slot 1 Menu Clickbar</ClickBarString>
@@ -7038,15 +7008,6 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
                 <ToMappedKey>
                   <KeyMapString>Warlock - Affliction - Menu</KeyMapString>
                 </ToMappedKey>
-              </MappedKeyAction>
-              <MappedKeyAction xsi:type="MenuButtonAction">
-                <MenuButton>
-                  <MenuButtonSetString>Slot 2 Menu Button set</MenuButtonSetString>
-                </MenuButton>
-                <ButtonChanges>
-                  <Actions />
-                  <Text>Summon Imp</Text>
-                </ButtonChanges>
               </MappedKeyAction>
               <MappedKeyAction xsi:type="ClickBarStateAction">
                 <ClickBar>
@@ -7062,15 +7023,6 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
                   <KeyMapString>Mage - Frost - Menu</KeyMapString>
                 </ToMappedKey>
               </MappedKeyAction>
-              <MappedKeyAction xsi:type="MenuButtonAction">
-                <MenuButton>
-                  <MenuButtonSetString>Slot 3 Menu Button set</MenuButtonSetString>
-                </MenuButton>
-                <ButtonChanges>
-                  <Actions />
-                  <Text>Conjure Water</Text>
-                </ButtonChanges>
-              </MappedKeyAction>
               <MappedKeyAction xsi:type="ClickBarStateAction">
                 <ClickBar>
                   <ClickBarString>Slot 3 Menu Clickbar</ClickBarString>
@@ -7084,15 +7036,6 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
                 <ToMappedKey>
                   <KeyMapString>Mage - Frost - Menu</KeyMapString>
                 </ToMappedKey>
-              </MappedKeyAction>
-              <MappedKeyAction xsi:type="MenuButtonAction">
-                <MenuButton>
-                  <MenuButtonSetString>Slot 4 Menu Button set</MenuButtonSetString>
-                </MenuButton>
-                <ButtonChanges>
-                  <Actions />
-                  <Text>Conjure Water</Text>
-                </ButtonChanges>
               </MappedKeyAction>
               <MappedKeyAction xsi:type="ClickBarStateAction">
                 <ClickBar>
@@ -7140,6 +7083,9 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
     <Mappings>
       <MappedKey>
         <Name>Button 1</Name>
+        <UseFTLModifiers>
+          <Value>true</Value>
+        </UseFTLModifiers>
         <Steps>
           <Step>
             <Actions>
@@ -7150,7 +7096,7 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
               <MappedKeyAction xsi:type="MappedKeyStepAction">
                 <MappedKey>
                   <KeyMapString>ISB42 - Toggles</KeyMapString>
-                  <MappedKeyString>Toggle Slot 1 Menu</MappedKeyString>
+                  <MappedKeyString>Toggle Slot Menu</MappedKeyString>
                 </MappedKey>
                 <Action>Set</Action>
                 <Value>1</Value>
@@ -7161,6 +7107,9 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
       </MappedKey>
       <MappedKey>
         <Name>Button 2</Name>
+        <UseFTLModifiers>
+          <Value>true</Value>
+        </UseFTLModifiers>
         <Steps>
           <Step>
             <Actions>
@@ -7171,7 +7120,7 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
               <MappedKeyAction xsi:type="MappedKeyStepAction">
                 <MappedKey>
                   <KeyMapString>ISB42 - Toggles</KeyMapString>
-                  <MappedKeyString>Toggle Slot 1 Menu</MappedKeyString>
+                  <MappedKeyString>Toggle Slot Menu</MappedKeyString>
                 </MappedKey>
                 <Action>Set</Action>
                 <Value>1</Value>
@@ -7182,6 +7131,9 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
       </MappedKey>
       <MappedKey>
         <Name>Button 3</Name>
+        <UseFTLModifiers>
+          <Value>true</Value>
+        </UseFTLModifiers>
         <Steps>
           <Step>
             <Actions>
@@ -7192,7 +7144,7 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
               <MappedKeyAction xsi:type="MappedKeyStepAction">
                 <MappedKey>
                   <KeyMapString>ISB42 - Toggles</KeyMapString>
-                  <MappedKeyString>Toggle Slot 1 Menu</MappedKeyString>
+                  <MappedKeyString>Toggle Slot Menu</MappedKeyString>
                 </MappedKey>
                 <Action>Set</Action>
                 <Value>1</Value>
@@ -7203,6 +7155,9 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
       </MappedKey>
       <MappedKey>
         <Name>Button 4</Name>
+        <UseFTLModifiers>
+          <Value>true</Value>
+        </UseFTLModifiers>
         <Steps>
           <Step>
             <Actions>
@@ -7213,7 +7168,7 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
               <MappedKeyAction xsi:type="MappedKeyStepAction">
                 <MappedKey>
                   <KeyMapString>ISB42 - Toggles</KeyMapString>
-                  <MappedKeyString>Toggle Slot 1 Menu</MappedKeyString>
+                  <MappedKeyString>Toggle Slot Menu</MappedKeyString>
                 </MappedKey>
                 <Action>Set</Action>
                 <Value>1</Value>
@@ -7224,6 +7179,9 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
       </MappedKey>
       <MappedKey>
         <Name>Button 5</Name>
+        <UseFTLModifiers>
+          <Value>true</Value>
+        </UseFTLModifiers>
         <Steps>
           <Step>
             <Actions>
@@ -7234,7 +7192,7 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
               <MappedKeyAction xsi:type="MappedKeyStepAction">
                 <MappedKey>
                   <KeyMapString>ISB42 - Toggles</KeyMapString>
-                  <MappedKeyString>Toggle Slot 1 Menu</MappedKeyString>
+                  <MappedKeyString>Toggle Slot Menu</MappedKeyString>
                 </MappedKey>
                 <Action>Set</Action>
                 <Value>1</Value>
@@ -7245,6 +7203,9 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
       </MappedKey>
       <MappedKey>
         <Name>Button 6</Name>
+        <UseFTLModifiers>
+          <Value>true</Value>
+        </UseFTLModifiers>
         <Steps>
           <Step>
             <Actions>
@@ -7255,7 +7216,7 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
               <MappedKeyAction xsi:type="MappedKeyStepAction">
                 <MappedKey>
                   <KeyMapString>ISB42 - Toggles</KeyMapString>
-                  <MappedKeyString>Toggle Slot 1 Menu</MappedKeyString>
+                  <MappedKeyString>Toggle Slot Menu</MappedKeyString>
                 </MappedKey>
                 <Action>Set</Action>
                 <Value>1</Value>
@@ -8179,6 +8140,7 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
   </KeyMap>
   <KeyMap>
     <Name>Warlock - Affliction - Menu</Name>
+    <UseFTLModifiers>true</UseFTLModifiers>
     <Mappings>
       <MappedKey>
         <Name>Button 1</Name>
@@ -8186,6 +8148,7 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
           <Step>
             <Actions>
               <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <Target />
                 <UseCustomModifiers />
                 <WoWMacro>
                   <WoWMacroSetString>Warlock</WoWMacroSetString>
@@ -19039,6 +19002,12 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
           </MappedKeyAction>
         </Actions>
         <Mode>OnRelease</Mode>
+        <UseImages>true</UseImages>
+        <Image>
+          <ImageString>spell_shadow_summonimp.jpg</ImageString>
+        </Image>
+        <ImageHover />
+        <ImagePressed />
       </MenuButton>
       <MenuButton>
         <Actions>
@@ -19098,6 +19067,12 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
           </MappedKeyAction>
         </Actions>
         <Mode>OnRelease</Mode>
+        <UseImages>true</UseImages>
+        <Image>
+          <ImageString>spell_shadow_summonimp.jpg</ImageString>
+        </Image>
+        <ImageHover />
+        <ImagePressed />
       </MenuButton>
       <MenuButton>
         <Actions>
@@ -19157,6 +19132,12 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
           </MappedKeyAction>
         </Actions>
         <Mode>OnRelease</Mode>
+        <UseImages>true</UseImages>
+        <Image>
+          <ImageString>inv_misc_food_08_36x36.jpg</ImageString>
+        </Image>
+        <ImageHover />
+        <ImagePressed />
       </MenuButton>
       <MenuButton>
         <Actions>
@@ -19216,6 +19197,12 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
           </MappedKeyAction>
         </Actions>
         <Mode>OnRelease</Mode>
+        <UseImages>true</UseImages>
+        <Image>
+          <ImageString>inv_misc_food_08_36x36.jpg</ImageString>
+        </Image>
+        <ImageHover />
+        <ImagePressed />
       </MenuButton>
       <MenuButton>
         <Actions>
@@ -19324,12 +19311,53 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
     </Buttons>
   </MenuButtonSet>
   <MenuButtonSet>
-    <Name>Warlock - Affliction</Name>
+    <Name>Slot Menu Button Set</Name>
     <Buttons>
       <MenuButton>
         <Actions>
           <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-            <KeyMapString>ISB42 - Slot 1 Menu</KeyMapString>
+            <Target>1</Target>
+            <ConditionalKey>
+              <Key>Num 1</Key>
+              <Code>79</Code>
+            </ConditionalKey>
+            <KeyMapString>ISB42 - Slot Menu</KeyMapString>
+            <MappedKeyString>Button 1</MappedKeyString>
+          </MappedKeyAction>
+          <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+            <Target>2</Target>
+            <ConditionalKey>
+              <Key>Num 2</Key>
+              <Code>80</Code>
+            </ConditionalKey>
+            <KeyMapString>ISB42 - Slot Menu</KeyMapString>
+            <MappedKeyString>Button 1</MappedKeyString>
+          </MappedKeyAction>
+          <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+            <Target>3</Target>
+            <ConditionalKey>
+              <Key>Num 3</Key>
+              <Code>81</Code>
+            </ConditionalKey>
+            <KeyMapString>ISB42 - Slot Menu</KeyMapString>
+            <MappedKeyString>Button 1</MappedKeyString>
+          </MappedKeyAction>
+          <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+            <Target>4</Target>
+            <ConditionalKey>
+              <Key>Num 4</Key>
+              <Code>75</Code>
+            </ConditionalKey>
+            <KeyMapString>ISB42 - Slot Menu</KeyMapString>
+            <MappedKeyString>Button 1</MappedKeyString>
+          </MappedKeyAction>
+          <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+            <Target>5</Target>
+            <ConditionalKey>
+              <Key>Num 5</Key>
+              <Code>76</Code>
+            </ConditionalKey>
+            <KeyMapString>ISB42 - Slot Menu</KeyMapString>
             <MappedKeyString>Button 1</MappedKeyString>
           </MappedKeyAction>
         </Actions>
@@ -19338,66 +19366,48 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
       <MenuButton>
         <Actions>
           <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-            <KeyMapString>ISB42 - Slot 1 Menu</KeyMapString>
+            <Target>1</Target>
+            <ConditionalKey>
+              <Key>Num 1</Key>
+              <Code>79</Code>
+            </ConditionalKey>
+            <KeyMapString>ISB42 - Slot Menu</KeyMapString>
             <MappedKeyString>Button 2</MappedKeyString>
           </MappedKeyAction>
-        </Actions>
-        <Mode>OnRelease</Mode>
-      </MenuButton>
-      <MenuButton>
-        <Actions>
           <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-            <KeyMapString>ISB42 - Slot 1 Menu</KeyMapString>
-            <MappedKeyString>Button 3</MappedKeyString>
+            <Target>2</Target>
+            <ConditionalKey>
+              <Key>Num 2</Key>
+              <Code>80</Code>
+            </ConditionalKey>
+            <KeyMapString>ISB42 - Slot Menu</KeyMapString>
+            <MappedKeyString>Button 2</MappedKeyString>
           </MappedKeyAction>
-        </Actions>
-        <Mode>OnRelease</Mode>
-      </MenuButton>
-      <MenuButton>
-        <Actions>
           <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-            <KeyMapString>ISB42 - Slot 1 Menu</KeyMapString>
-            <MappedKeyString>Button 4</MappedKeyString>
+            <Target>3</Target>
+            <ConditionalKey>
+              <Key>Num 3</Key>
+              <Code>81</Code>
+            </ConditionalKey>
+            <KeyMapString>ISB42 - Slot Menu</KeyMapString>
+            <MappedKeyString>Button 2</MappedKeyString>
           </MappedKeyAction>
-        </Actions>
-        <Mode>OnRelease</Mode>
-      </MenuButton>
-      <MenuButton>
-        <Actions>
           <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-            <KeyMapString>ISB42 - Slot 1 Menu</KeyMapString>
-            <MappedKeyString>Button 5</MappedKeyString>
+            <Target>4</Target>
+            <ConditionalKey>
+              <Key>Num 4</Key>
+              <Code>75</Code>
+            </ConditionalKey>
+            <KeyMapString>ISB42 - Slot Menu</KeyMapString>
+            <MappedKeyString>Button 2</MappedKeyString>
           </MappedKeyAction>
-        </Actions>
-        <Mode>OnRelease</Mode>
-      </MenuButton>
-      <MenuButton>
-        <Actions>
           <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-            <KeyMapString>ISB42 - Slot 1 Menu</KeyMapString>
-            <MappedKeyString>Button 6</MappedKeyString>
-          </MappedKeyAction>
-        </Actions>
-        <Mode>OnRelease</Mode>
-      </MenuButton>
-    </Buttons>
-  </MenuButtonSet>
-  <MenuButtonSet>
-    <Name>Warlock - Demonology</Name>
-    <Buttons>
-      <MenuButton>
-        <Actions>
-          <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-            <KeyMapString>ISB42 - Slot 1 Menu</KeyMapString>
-            <MappedKeyString>Button 1</MappedKeyString>
-          </MappedKeyAction>
-        </Actions>
-        <Mode>OnRelease</Mode>
-      </MenuButton>
-      <MenuButton>
-        <Actions>
-          <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-            <KeyMapString>ISB42 - Slot 1 Menu</KeyMapString>
+            <Target>5</Target>
+            <ConditionalKey>
+              <Key>Num 5</Key>
+              <Code>76</Code>
+            </ConditionalKey>
+            <KeyMapString>ISB42 - Slot Menu</KeyMapString>
             <MappedKeyString>Button 2</MappedKeyString>
           </MappedKeyAction>
         </Actions>
@@ -19447,79 +19457,22 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
       <MenuButton>
         <Actions>
           <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-            <KeyMapString>ISB42 - Slot 1 Menu</KeyMapString>
+            <KeyMapString>ISB42 - Slot Menu</KeyMapString>
             <MappedKeyString>Button 1</MappedKeyString>
           </MappedKeyAction>
         </Actions>
         <Mode>OnRelease</Mode>
+        <Text>Conjure Water</Text>
       </MenuButton>
       <MenuButton>
         <Actions>
           <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-            <KeyMapString>ISB42 - Slot 1 Menu</KeyMapString>
+            <KeyMapString>ISB42 - Slot Menu</KeyMapString>
             <MappedKeyString>Button 2</MappedKeyString>
           </MappedKeyAction>
         </Actions>
         <Mode>OnRelease</Mode>
-      </MenuButton>
-      <MenuButton>
-        <Actions>
-          <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-            <KeyMapString>ISB42 - Slot 1 Menu</KeyMapString>
-            <MappedKeyString>Button 3</MappedKeyString>
-          </MappedKeyAction>
-        </Actions>
-        <Mode>OnRelease</Mode>
-      </MenuButton>
-      <MenuButton>
-        <Actions>
-          <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-            <KeyMapString>ISB42 - Slot 1 Menu</KeyMapString>
-            <MappedKeyString>Button 4</MappedKeyString>
-          </MappedKeyAction>
-        </Actions>
-        <Mode>OnRelease</Mode>
-      </MenuButton>
-      <MenuButton>
-        <Actions>
-          <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-            <KeyMapString>ISB42 - Slot 1 Menu</KeyMapString>
-            <MappedKeyString>Button 5</MappedKeyString>
-          </MappedKeyAction>
-        </Actions>
-        <Mode>OnRelease</Mode>
-      </MenuButton>
-      <MenuButton>
-        <Actions>
-          <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-            <KeyMapString>ISB42 - Slot 1 Menu</KeyMapString>
-            <MappedKeyString>Button 6</MappedKeyString>
-          </MappedKeyAction>
-        </Actions>
-        <Mode>OnRelease</Mode>
-      </MenuButton>
-    </Buttons>
-  </MenuButtonSet>
-  <MenuButtonSet>
-    <Name>Slot Menu Button Set</Name>
-    <Buttons>
-      <MenuButton>
-        <Actions>
-          <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-            <KeyMapString>ISB42 - Slot 1 Menu</KeyMapString>
-            <MappedKeyString>Button 1</MappedKeyString>
-          </MappedKeyAction>
-        </Actions>
-        <Mode>OnRelease</Mode>
-      </MenuButton>
-      <MenuButton>
-        <Actions>
-          <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-            <KeyMapString>ISB42 - Slot 1 Menu</KeyMapString>
-            <MappedKeyString>Button 2</MappedKeyString>
-          </MappedKeyAction>
-        </Actions>
-        <Mode>OnRelease</Mode>
+        <Text>Bar</Text>
       </MenuButton>
       <MenuButton>
         <Actions>
@@ -20122,11 +20075,11 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
       <Blue>128</Blue>
     </BorderColor>
     <frameSize>
-      <Width>154</Width>
+      <Width>40</Width>
       <Height>230</Height>
     </frameSize>
     <buttonSize>
-      <Width>150</Width>
+      <Width>36</Width>
       <Height>36</Height>
     </buttonSize>
     <buttonImage />
@@ -20256,7 +20209,7 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
   <Menu>
     <Name>Slot Menu</Name>
     <Template>Slot Menu Template</Template>
-    <ButtonLayout>Slot 1 Menu Button set</ButtonLayout>
+    <ButtonLayout />
     <HotkeyLayout />
     <X>1150</X>
     <Y>730</Y>
