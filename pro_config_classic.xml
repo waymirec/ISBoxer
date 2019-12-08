@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ISBoxerToolkitProfile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="42" VersionMinor="0" BuildDate="12/7/2019 4:34:30 PM">
+<ISBoxerToolkitProfile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="42" VersionMinor="0" BuildDate="12/8/2019 12:57:33 AM">
   <CharacterSet>
     <ExecuteOnLoad />
     <Name>Blaumeux - Mixed</Name>
@@ -1144,30 +1144,7 @@
         <ForegroundMaxFPS>60</ForegroundMaxFPS>
         <BackgroundMaxFPS>30</BackgroundMaxFPS>
         <CharacterString>DxNothing VFX1</CharacterString>
-        <SwitchToCombo>
-          <Combo>NONE</Combo>
-          <Key>
-            <Key>NONE</Key>
-            <Code>0</Code>
-          </Key>
-        </SwitchToCombo>
-        <EffectType>None</EffectType>
-        <WindowTitle />
-        <FTLModifiers />
-        <CPUCores />
-        <VariableKeystrokeInstances />
-      </Slot>
-      <Slot>
-        <ForegroundMaxFPS>60</ForegroundMaxFPS>
-        <BackgroundMaxFPS>30</BackgroundMaxFPS>
-        <CharacterString>DxNothing VFX2</CharacterString>
-        <SwitchToCombo>
-          <Combo>NONE</Combo>
-          <Key>
-            <Key>NONE</Key>
-            <Code>0</Code>
-          </Key>
-        </SwitchToCombo>
+        <SwitchToComboIsGlobal>false</SwitchToComboIsGlobal>
         <EffectType>None</EffectType>
         <WindowTitle />
         <FTLModifiers />
@@ -1202,19 +1179,8 @@
     <ClickBarStrings>
       <string>Healing - Primary S1</string>
       <string>Healing - Primary S2</string>
-      <string>Healing - Primary S3</string>
-      <string>Healing - Primary S4</string>
-      <string>Healing - Primary S5</string>
       <string>Healing - Secondary S1</string>
       <string>Healing - Secondary S2</string>
-      <string>Healing - Secondary S3</string>
-      <string>Healing - Secondary S4</string>
-      <string>Healing - Secondary S5</string>
-      <string>Healing - Tertiary S1</string>
-      <string>Healing - Tertiary S2</string>
-      <string>Healing - Tertiary S3</string>
-      <string>Healing - Tertiary S4</string>
-      <string>Healing - Tertiary S5</string>
     </ClickBarStrings>
     <VirtualFileTargets />
     <VirtualMappedKeys>
@@ -1360,7 +1326,7 @@
     <KeyMapStrings>
       <string>ISB42 - Video FX Layout</string>
     </KeyMapStrings>
-    <KeyMapWhiteOrBlackListType>WhiteList</KeyMapWhiteOrBlackListType>
+    <KeyMapWhiteOrBlackListType>Ignore</KeyMapWhiteOrBlackListType>
     <KeyMapWhiteOrBlackList>
       <KeyMapLooseRef>
         <KeyMapString>ISB42 - Video FX Layout</KeyMapString>
@@ -2453,7 +2419,7 @@
       </VirtualMappedKey>
       <VirtualMappedKey>
         <FromMappedKey>
-          <KeyMapString>ISB42 - Healing - Tertiary [Virtualized]</KeyMapString>
+          <KeyMapString>ISB42 - Healing - Secondary [Virtualized]</KeyMapString>
         </FromMappedKey>
         <ToMappedKey>
           <KeyMapString>Shaman - Enhancement</KeyMapString>
@@ -2525,7 +2491,7 @@
       </VirtualMappedKey>
       <VirtualMappedKey>
         <FromMappedKey>
-          <KeyMapString>ISB42 - Healing - Tertiary [Virtualized]</KeyMapString>
+          <KeyMapString>ISB42 - Healing - Secondary [Virtualized]</KeyMapString>
         </FromMappedKey>
         <ToMappedKey>
           <KeyMapString>Shaman - Enhancement</KeyMapString>
@@ -2912,8 +2878,8 @@
         <Permanent>true</Permanent>
         <AlwaysOnTopMode>Normal</AlwaysOnTopMode>
         <Rect>
-          <Width>2752</Width>
-          <Height>1165</Height>
+          <Width>3440</Width>
+          <Height>1256</Height>
         </Rect>
       </Region>
       <Region>
@@ -2921,8 +2887,8 @@
         <Permanent>true</Permanent>
         <AlwaysOnTopMode>Normal</AlwaysOnTopMode>
         <Rect>
-          <Width>2752</Width>
-          <Height>1165</Height>
+          <Width>3440</Width>
+          <Height>1256</Height>
         </Rect>
       </Region>
       <Region>
@@ -2930,8 +2896,8 @@
         <Permanent>true</Permanent>
         <AlwaysOnTopMode>Normal</AlwaysOnTopMode>
         <Rect>
-          <Width>2752</Width>
-          <Height>1165</Height>
+          <Width>3440</Width>
+          <Height>1256</Height>
         </Rect>
       </Region>
       <Region>
@@ -2939,8 +2905,8 @@
         <Permanent>true</Permanent>
         <AlwaysOnTopMode>Normal</AlwaysOnTopMode>
         <Rect>
-          <Width>2752</Width>
-          <Height>1165</Height>
+          <Width>3440</Width>
+          <Height>1256</Height>
         </Rect>
       </Region>
       <Region>
@@ -2948,8 +2914,8 @@
         <Permanent>true</Permanent>
         <AlwaysOnTopMode>Normal</AlwaysOnTopMode>
         <Rect>
-          <Width>2752</Width>
-          <Height>1165</Height>
+          <Width>3440</Width>
+          <Height>1256</Height>
         </Rect>
       </Region>
       <Region>
@@ -2957,8 +2923,8 @@
         <Permanent>true</Permanent>
         <AlwaysOnTopMode>Normal</AlwaysOnTopMode>
         <Rect>
-          <Width>2752</Width>
-          <Height>1165</Height>
+          <Width>3440</Width>
+          <Height>1256</Height>
         </Rect>
       </Region>
       <Region>
@@ -2966,8 +2932,8 @@
         <Permanent>true</Permanent>
         <AlwaysOnTopMode>Normal</AlwaysOnTopMode>
         <Rect>
-          <Width>2752</Width>
-          <Height>1165</Height>
+          <Width>3440</Width>
+          <Height>1256</Height>
         </Rect>
       </Region>
       <Region>
@@ -2975,8 +2941,8 @@
         <Permanent>true</Permanent>
         <AlwaysOnTopMode>Normal</AlwaysOnTopMode>
         <Rect>
-          <Width>2752</Width>
-          <Height>1165</Height>
+          <Width>3440</Width>
+          <Height>1256</Height>
         </Rect>
       </Region>
       <Region>
@@ -2984,8 +2950,8 @@
         <Permanent>true</Permanent>
         <AlwaysOnTopMode>Normal</AlwaysOnTopMode>
         <Rect>
-          <Width>2752</Width>
-          <Height>1165</Height>
+          <Width>3440</Width>
+          <Height>1256</Height>
         </Rect>
       </Region>
       <Region>
@@ -2993,28 +2959,17 @@
         <Permanent>true</Permanent>
         <AlwaysOnTopMode>Normal</AlwaysOnTopMode>
         <Rect>
-          <Width>2752</Width>
-          <Height>1165</Height>
+          <Width>3440</Width>
+          <Height>1256</Height>
         </Rect>
       </Region>
       <Region>
         <CharacterSetSlot>11</CharacterSetSlot>
         <Permanent>true</Permanent>
-        <AlwaysOnTopMode>Normal</AlwaysOnTopMode>
         <Rect>
-          <Top>1165</Top>
+          <Top>1256</Top>
           <Width>3440</Width>
-          <Height>233</Height>
-        </Rect>
-      </Region>
-      <Region>
-        <CharacterSetSlot>12</CharacterSetSlot>
-        <Permanent>true</Permanent>
-        <AlwaysOnTopMode>Normal</AlwaysOnTopMode>
-        <Rect>
-          <Left>2752</Left>
-          <Width>688</Width>
-          <Height>1165</Height>
+          <Height>144</Height>
         </Rect>
       </Region>
     </Regions>
@@ -5028,7 +4983,7 @@ See http://isboxer.com/wiki/WoW:Interact_with_Target.</Description>
           <Step>
             <Actions>
               <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-                <Target>all</Target>
+                <Target>Combat</Target>
                 <KeyMapString>ISB42 - Virtual Combat</KeyMapString>
                 <MappedKeyString>Initiate Combat</MappedKeyString>
               </MappedKeyAction>
@@ -5059,7 +5014,7 @@ See http://isboxer.com/wiki/WoW:Interact_with_Target.</Description>
           <Step>
             <Actions>
               <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-                <Target>all</Target>
+                <Target>Combat</Target>
                 <KeyMapString>ISB42 - Virtual Combat</KeyMapString>
                 <MappedKeyString>DPS Rotation</MappedKeyString>
               </MappedKeyAction>
@@ -5081,7 +5036,7 @@ See http://isboxer.com/wiki/WoW:Interact_with_Target.</Description>
           <Step>
             <Actions>
               <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-                <Target>all</Target>
+                <Target>Combat</Target>
                 <KeyMapString>ISB42 - Virtual Combat</KeyMapString>
                 <MappedKeyString>AOE DPS Rotation</MappedKeyString>
               </MappedKeyAction>
@@ -5103,7 +5058,7 @@ See http://isboxer.com/wiki/WoW:Interact_with_Target.</Description>
           <Step>
             <Actions>
               <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-                <Target>all</Target>
+                <Target>Combat</Target>
                 <KeyMapString>ISB42 - Virtual Combat</KeyMapString>
                 <MappedKeyString>PVP DPS Rotation</MappedKeyString>
               </MappedKeyAction>
@@ -5191,7 +5146,8 @@ See http://isboxer.com/wiki/WoW:Interact_with_Target.</Description>
           <Step>
             <Actions>
               <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-                <Target>all</Target>
+                <Target>Interrupt</Target>
+                <RoundRobin>true</RoundRobin>
                 <KeyMapString>ISB42 - Virtual Combat</KeyMapString>
                 <MappedKeyString>Interrupt</MappedKeyString>
               </MappedKeyAction>
@@ -5213,7 +5169,7 @@ See http://isboxer.com/wiki/WoW:Interact_with_Target.</Description>
           <Step>
             <Actions>
               <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-                <Target>all</Target>
+                <Target>Stun</Target>
                 <KeyMapString>ISB42 - Virtual Combat</KeyMapString>
                 <MappedKeyString>Stun</MappedKeyString>
               </MappedKeyAction>
@@ -5714,6 +5670,10 @@ See http://isboxer.com/wiki/WoW:Interact_with_Target.</Description>
               <MappedKeyAction xsi:type="MappedKeyExecuteAction">
                 <KeyMapString>ISB42 - Virtual Combat</KeyMapString>
                 <MappedKeyString>Buffs - Self</MappedKeyString>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="PopupTextAction">
+                <Text>{CHARACTER} finished applying self-buffs</Text>
+                <DurationMS>1000</DurationMS>
               </MappedKeyAction>
               <MappedKeyAction xsi:type="MappedKeyStateAction">
                 <ActionTimer>
@@ -6892,7 +6852,6 @@ See http://isboxer.com/wiki/WoW:Interact_with_Target.</Description>
         <Name>VFX Create</Name>
         <Steps>
           <Step>
-            <Disabled>true</Disabled>
             <Actions>
               <MappedKeyAction xsi:type="VideoFeedsAction">
                 <Action>Add</Action>
@@ -6904,13 +6863,13 @@ See http://isboxer.com/wiki/WoW:Interact_with_Target.</Description>
                     <Y>0</Y>
                   </Location>
                   <Size>
-                    <Width>688</Width>
-                    <Height>233</Height>
+                    <Width>344</Width>
+                    <Height>144</Height>
                   </Size>
                   <X>0</X>
                   <Y>0</Y>
-                  <Width>688</Width>
-                  <Height>233</Height>
+                  <Width>344</Width>
+                  <Height>144</Height>
                 </Rect>
                 <UseKeyRepeat>true</UseKeyRepeat>
                 <UseMouseRepeat>true</UseMouseRepeat>
@@ -6923,17 +6882,17 @@ See http://isboxer.com/wiki/WoW:Interact_with_Target.</Description>
                 <Target>DxNothing VFX1</Target>
                 <Rect>
                   <Location>
-                    <X>688</X>
+                    <X>344</X>
                     <Y>0</Y>
                   </Location>
                   <Size>
-                    <Width>688</Width>
-                    <Height>233</Height>
+                    <Width>344</Width>
+                    <Height>144</Height>
                   </Size>
-                  <X>688</X>
+                  <X>344</X>
                   <Y>0</Y>
-                  <Width>688</Width>
-                  <Height>233</Height>
+                  <Width>344</Width>
+                  <Height>144</Height>
                 </Rect>
                 <UseKeyRepeat>true</UseKeyRepeat>
                 <UseMouseRepeat>true</UseMouseRepeat>
@@ -6946,17 +6905,17 @@ See http://isboxer.com/wiki/WoW:Interact_with_Target.</Description>
                 <Target>DxNothing VFX1</Target>
                 <Rect>
                   <Location>
-                    <X>1376</X>
+                    <X>688</X>
                     <Y>0</Y>
                   </Location>
                   <Size>
-                    <Width>688</Width>
-                    <Height>233</Height>
+                    <Width>344</Width>
+                    <Height>144</Height>
                   </Size>
-                  <X>1376</X>
+                  <X>688</X>
                   <Y>0</Y>
-                  <Width>688</Width>
-                  <Height>233</Height>
+                  <Width>344</Width>
+                  <Height>144</Height>
                 </Rect>
                 <UseKeyRepeat>true</UseKeyRepeat>
                 <UseMouseRepeat>true</UseMouseRepeat>
@@ -6969,17 +6928,17 @@ See http://isboxer.com/wiki/WoW:Interact_with_Target.</Description>
                 <Target>DxNothing VFX1</Target>
                 <Rect>
                   <Location>
-                    <X>2064</X>
+                    <X>1032</X>
                     <Y>0</Y>
                   </Location>
                   <Size>
-                    <Width>688</Width>
-                    <Height>233</Height>
+                    <Width>344</Width>
+                    <Height>144</Height>
                   </Size>
-                  <X>2064</X>
+                  <X>1032</X>
                   <Y>0</Y>
-                  <Width>688</Width>
-                  <Height>233</Height>
+                  <Width>344</Width>
+                  <Height>144</Height>
                 </Rect>
                 <UseKeyRepeat>true</UseKeyRepeat>
                 <UseMouseRepeat>true</UseMouseRepeat>
@@ -6992,50 +6951,40 @@ See http://isboxer.com/wiki/WoW:Interact_with_Target.</Description>
                 <Target>DxNothing VFX1</Target>
                 <Rect>
                   <Location>
-                    <X>2752</X>
+                    <X>1376</X>
                     <Y>0</Y>
                   </Location>
                   <Size>
-                    <Width>688</Width>
-                    <Height>233</Height>
+                    <Width>344</Width>
+                    <Height>144</Height>
                   </Size>
-                  <X>2752</X>
+                  <X>1376</X>
                   <Y>0</Y>
-                  <Width>688</Width>
-                  <Height>233</Height>
+                  <Width>344</Width>
+                  <Height>144</Height>
                 </Rect>
                 <UseKeyRepeat>true</UseKeyRepeat>
                 <UseMouseRepeat>true</UseMouseRepeat>
                 <UseFocusHotkey>true</UseFocusHotkey>
                 <MappedKey />
               </MappedKeyAction>
-            </Actions>
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
-        <Name>VFX2 Create</Name>
-        <Steps>
-          <Step>
-            <Disabled>true</Disabled>
-            <Actions>
               <MappedKeyAction xsi:type="VideoFeedsAction">
                 <Action>Add</Action>
                 <Name>is6</Name>
-                <Target>DxNothing VFX2</Target>
+                <Target>DxNothing VFX1</Target>
                 <Rect>
                   <Location>
-                    <X>0</X>
+                    <X>1720</X>
                     <Y>0</Y>
                   </Location>
                   <Size>
-                    <Width>688</Width>
-                    <Height>233</Height>
+                    <Width>344</Width>
+                    <Height>144</Height>
                   </Size>
-                  <X>0</X>
+                  <X>1720</X>
                   <Y>0</Y>
-                  <Width>688</Width>
-                  <Height>233</Height>
+                  <Width>344</Width>
+                  <Height>144</Height>
                 </Rect>
                 <UseKeyRepeat>true</UseKeyRepeat>
                 <UseMouseRepeat>true</UseMouseRepeat>
@@ -7045,20 +6994,20 @@ See http://isboxer.com/wiki/WoW:Interact_with_Target.</Description>
               <MappedKeyAction xsi:type="VideoFeedsAction">
                 <Action>Add</Action>
                 <Name>is7</Name>
-                <Target>DxNothing VFX2</Target>
+                <Target>DxNothing VFX1</Target>
                 <Rect>
                   <Location>
-                    <X>0</X>
-                    <Y>233</Y>
+                    <X>2064</X>
+                    <Y>0</Y>
                   </Location>
                   <Size>
-                    <Width>688</Width>
-                    <Height>233</Height>
+                    <Width>344</Width>
+                    <Height>144</Height>
                   </Size>
-                  <X>0</X>
-                  <Y>233</Y>
-                  <Width>688</Width>
-                  <Height>233</Height>
+                  <X>2064</X>
+                  <Y>0</Y>
+                  <Width>344</Width>
+                  <Height>144</Height>
                 </Rect>
                 <UseKeyRepeat>true</UseKeyRepeat>
                 <UseMouseRepeat>true</UseMouseRepeat>
@@ -7068,20 +7017,20 @@ See http://isboxer.com/wiki/WoW:Interact_with_Target.</Description>
               <MappedKeyAction xsi:type="VideoFeedsAction">
                 <Action>Add</Action>
                 <Name>is8</Name>
-                <Target>DxNothing VFX2</Target>
+                <Target>DxNothing VFX1</Target>
                 <Rect>
                   <Location>
-                    <X>0</X>
-                    <Y>466</Y>
+                    <X>2408</X>
+                    <Y>0</Y>
                   </Location>
                   <Size>
-                    <Width>688</Width>
-                    <Height>233</Height>
+                    <Width>344</Width>
+                    <Height>144</Height>
                   </Size>
-                  <X>0</X>
-                  <Y>466</Y>
-                  <Width>688</Width>
-                  <Height>233</Height>
+                  <X>2408</X>
+                  <Y>0</Y>
+                  <Width>344</Width>
+                  <Height>144</Height>
                 </Rect>
                 <UseKeyRepeat>true</UseKeyRepeat>
                 <UseMouseRepeat>true</UseMouseRepeat>
@@ -7091,20 +7040,20 @@ See http://isboxer.com/wiki/WoW:Interact_with_Target.</Description>
               <MappedKeyAction xsi:type="VideoFeedsAction">
                 <Action>Add</Action>
                 <Name>is9</Name>
-                <Target>DxNothing VFX2</Target>
+                <Target>DxNothing VFX1</Target>
                 <Rect>
                   <Location>
-                    <X>0</X>
-                    <Y>699</Y>
+                    <X>2752</X>
+                    <Y>0</Y>
                   </Location>
                   <Size>
-                    <Width>688</Width>
-                    <Height>233</Height>
+                    <Width>344</Width>
+                    <Height>144</Height>
                   </Size>
-                  <X>0</X>
-                  <Y>699</Y>
-                  <Width>688</Width>
-                  <Height>233</Height>
+                  <X>2752</X>
+                  <Y>0</Y>
+                  <Width>344</Width>
+                  <Height>144</Height>
                 </Rect>
                 <UseKeyRepeat>true</UseKeyRepeat>
                 <UseMouseRepeat>true</UseMouseRepeat>
@@ -7114,20 +7063,20 @@ See http://isboxer.com/wiki/WoW:Interact_with_Target.</Description>
               <MappedKeyAction xsi:type="VideoFeedsAction">
                 <Action>Add</Action>
                 <Name>is10</Name>
-                <Target>DxNothing VFX2</Target>
+                <Target>DxNothing VFX1</Target>
                 <Rect>
                   <Location>
-                    <X>0</X>
-                    <Y>932</Y>
+                    <X>3096</X>
+                    <Y>0</Y>
                   </Location>
                   <Size>
-                    <Width>688</Width>
-                    <Height>233</Height>
+                    <Width>344</Width>
+                    <Height>144</Height>
                   </Size>
-                  <X>0</X>
-                  <Y>932</Y>
-                  <Width>688</Width>
-                  <Height>233</Height>
+                  <X>3096</X>
+                  <Y>0</Y>
+                  <Width>344</Width>
+                  <Height>144</Height>
                 </Rect>
                 <UseKeyRepeat>true</UseKeyRepeat>
                 <UseMouseRepeat>true</UseMouseRepeat>
@@ -7153,14 +7102,16 @@ See http://isboxer.com/wiki/WoW:Interact_with_Target.</Description>
                     <Y>0</Y>
                   </Location>
                   <Size>
-                    <Width>688</Width>
-                    <Height>233</Height>
+                    <Width>344</Width>
+                    <Height>144</Height>
                   </Size>
                   <X>0</X>
                   <Y>0</Y>
-                  <Width>688</Width>
-                  <Height>233</Height>
+                  <Width>344</Width>
+                  <Height>144</Height>
                 </Rect>
+                <UseKeyRepeat>true</UseKeyRepeat>
+                <UseMouseRepeat>true</UseMouseRepeat>
                 <UseFocusHotkey>true</UseFocusHotkey>
                 <MappedKey />
               </MappedKeyAction>
@@ -7170,18 +7121,20 @@ See http://isboxer.com/wiki/WoW:Interact_with_Target.</Description>
                 <Target>DxNothing VFX1</Target>
                 <Rect>
                   <Location>
-                    <X>688</X>
+                    <X>344</X>
                     <Y>0</Y>
                   </Location>
                   <Size>
-                    <Width>688</Width>
-                    <Height>233</Height>
+                    <Width>344</Width>
+                    <Height>144</Height>
                   </Size>
-                  <X>688</X>
+                  <X>344</X>
                   <Y>0</Y>
-                  <Width>688</Width>
-                  <Height>233</Height>
+                  <Width>344</Width>
+                  <Height>144</Height>
                 </Rect>
+                <UseKeyRepeat>true</UseKeyRepeat>
+                <UseMouseRepeat>true</UseMouseRepeat>
                 <UseFocusHotkey>true</UseFocusHotkey>
                 <MappedKey />
               </MappedKeyAction>
@@ -7191,18 +7144,20 @@ See http://isboxer.com/wiki/WoW:Interact_with_Target.</Description>
                 <Target>DxNothing VFX1</Target>
                 <Rect>
                   <Location>
-                    <X>1376</X>
+                    <X>688</X>
                     <Y>0</Y>
                   </Location>
                   <Size>
-                    <Width>688</Width>
-                    <Height>233</Height>
+                    <Width>344</Width>
+                    <Height>144</Height>
                   </Size>
-                  <X>1376</X>
+                  <X>688</X>
                   <Y>0</Y>
-                  <Width>688</Width>
-                  <Height>233</Height>
+                  <Width>344</Width>
+                  <Height>144</Height>
                 </Rect>
+                <UseKeyRepeat>true</UseKeyRepeat>
+                <UseMouseRepeat>true</UseMouseRepeat>
                 <UseFocusHotkey>true</UseFocusHotkey>
                 <MappedKey />
               </MappedKeyAction>
@@ -7212,18 +7167,20 @@ See http://isboxer.com/wiki/WoW:Interact_with_Target.</Description>
                 <Target>DxNothing VFX1</Target>
                 <Rect>
                   <Location>
-                    <X>2064</X>
+                    <X>1032</X>
                     <Y>0</Y>
                   </Location>
                   <Size>
-                    <Width>688</Width>
-                    <Height>233</Height>
+                    <Width>344</Width>
+                    <Height>144</Height>
                   </Size>
-                  <X>2064</X>
+                  <X>1032</X>
                   <Y>0</Y>
-                  <Width>688</Width>
-                  <Height>233</Height>
+                  <Width>344</Width>
+                  <Height>144</Height>
                 </Rect>
+                <UseKeyRepeat>true</UseKeyRepeat>
+                <UseMouseRepeat>true</UseMouseRepeat>
                 <UseFocusHotkey>true</UseFocusHotkey>
                 <MappedKey />
               </MappedKeyAction>
@@ -7233,123 +7190,135 @@ See http://isboxer.com/wiki/WoW:Interact_with_Target.</Description>
                 <Target>DxNothing VFX1</Target>
                 <Rect>
                   <Location>
-                    <X>2752</X>
+                    <X>1376</X>
                     <Y>0</Y>
                   </Location>
                   <Size>
-                    <Width>688</Width>
-                    <Height>233</Height>
+                    <Width>344</Width>
+                    <Height>144</Height>
                   </Size>
-                  <X>2752</X>
+                  <X>1376</X>
                   <Y>0</Y>
-                  <Width>688</Width>
-                  <Height>233</Height>
+                  <Width>344</Width>
+                  <Height>144</Height>
                 </Rect>
+                <UseKeyRepeat>true</UseKeyRepeat>
+                <UseMouseRepeat>true</UseMouseRepeat>
                 <UseFocusHotkey>true</UseFocusHotkey>
                 <MappedKey />
               </MappedKeyAction>
               <MappedKeyAction xsi:type="VideoFeedsAction">
                 <Action>Add</Action>
                 <Name>is6</Name>
-                <Target>DxNothing VFX2</Target>
+                <Target>DxNothing VFX1</Target>
                 <Rect>
                   <Location>
-                    <X>0</X>
+                    <X>1720</X>
                     <Y>0</Y>
                   </Location>
                   <Size>
-                    <Width>688</Width>
-                    <Height>233</Height>
+                    <Width>344</Width>
+                    <Height>144</Height>
                   </Size>
-                  <X>0</X>
+                  <X>1720</X>
                   <Y>0</Y>
-                  <Width>688</Width>
-                  <Height>233</Height>
+                  <Width>344</Width>
+                  <Height>144</Height>
                 </Rect>
+                <UseKeyRepeat>true</UseKeyRepeat>
+                <UseMouseRepeat>true</UseMouseRepeat>
                 <UseFocusHotkey>true</UseFocusHotkey>
                 <MappedKey />
               </MappedKeyAction>
               <MappedKeyAction xsi:type="VideoFeedsAction">
                 <Action>Add</Action>
                 <Name>is7</Name>
-                <Target>DxNothing VFX2</Target>
+                <Target>DxNothing VFX1</Target>
                 <Rect>
                   <Location>
-                    <X>0</X>
-                    <Y>233</Y>
+                    <X>2064</X>
+                    <Y>0</Y>
                   </Location>
                   <Size>
-                    <Width>688</Width>
-                    <Height>233</Height>
+                    <Width>344</Width>
+                    <Height>144</Height>
                   </Size>
-                  <X>0</X>
-                  <Y>233</Y>
-                  <Width>688</Width>
-                  <Height>233</Height>
+                  <X>2064</X>
+                  <Y>0</Y>
+                  <Width>344</Width>
+                  <Height>144</Height>
                 </Rect>
+                <UseKeyRepeat>true</UseKeyRepeat>
+                <UseMouseRepeat>true</UseMouseRepeat>
                 <UseFocusHotkey>true</UseFocusHotkey>
                 <MappedKey />
               </MappedKeyAction>
               <MappedKeyAction xsi:type="VideoFeedsAction">
                 <Action>Add</Action>
                 <Name>is8</Name>
-                <Target>DxNothing VFX2</Target>
+                <Target>DxNothing VFX1</Target>
                 <Rect>
                   <Location>
-                    <X>0</X>
-                    <Y>466</Y>
+                    <X>2408</X>
+                    <Y>0</Y>
                   </Location>
                   <Size>
-                    <Width>688</Width>
-                    <Height>233</Height>
+                    <Width>344</Width>
+                    <Height>144</Height>
                   </Size>
-                  <X>0</X>
-                  <Y>466</Y>
-                  <Width>688</Width>
-                  <Height>233</Height>
+                  <X>2408</X>
+                  <Y>0</Y>
+                  <Width>344</Width>
+                  <Height>144</Height>
                 </Rect>
+                <UseKeyRepeat>true</UseKeyRepeat>
+                <UseMouseRepeat>true</UseMouseRepeat>
                 <UseFocusHotkey>true</UseFocusHotkey>
                 <MappedKey />
               </MappedKeyAction>
               <MappedKeyAction xsi:type="VideoFeedsAction">
                 <Action>Add</Action>
                 <Name>is9</Name>
-                <Target>DxNothing VFX2</Target>
+                <Target>DxNothing VFX1</Target>
                 <Rect>
                   <Location>
-                    <X>0</X>
-                    <Y>699</Y>
+                    <X>2752</X>
+                    <Y>0</Y>
                   </Location>
                   <Size>
-                    <Width>688</Width>
-                    <Height>233</Height>
+                    <Width>344</Width>
+                    <Height>144</Height>
                   </Size>
-                  <X>0</X>
-                  <Y>699</Y>
-                  <Width>688</Width>
-                  <Height>233</Height>
+                  <X>2752</X>
+                  <Y>0</Y>
+                  <Width>344</Width>
+                  <Height>144</Height>
                 </Rect>
+                <UseKeyRepeat>true</UseKeyRepeat>
+                <UseMouseRepeat>true</UseMouseRepeat>
                 <UseFocusHotkey>true</UseFocusHotkey>
                 <MappedKey />
               </MappedKeyAction>
               <MappedKeyAction xsi:type="VideoFeedsAction">
                 <Action>Add</Action>
                 <Name>is10</Name>
-                <Target>DxNothing VFX2</Target>
+                <Target>DxNothing VFX1</Target>
                 <Rect>
                   <Location>
-                    <X>0</X>
-                    <Y>932</Y>
+                    <X>3096</X>
+                    <Y>0</Y>
                   </Location>
                   <Size>
-                    <Width>688</Width>
-                    <Height>233</Height>
+                    <Width>344</Width>
+                    <Height>144</Height>
                   </Size>
-                  <X>0</X>
-                  <Y>932</Y>
-                  <Width>688</Width>
-                  <Height>233</Height>
+                  <X>3096</X>
+                  <Y>0</Y>
+                  <Width>344</Width>
+                  <Height>144</Height>
                 </Rect>
+                <UseKeyRepeat>true</UseKeyRepeat>
+                <UseMouseRepeat>true</UseMouseRepeat>
                 <UseFocusHotkey>true</UseFocusHotkey>
                 <MappedKey />
               </MappedKeyAction>
@@ -7376,14 +7345,16 @@ See http://isboxer.com/wiki/WoW:Interact_with_Target.</Description>
                     <Y>0</Y>
                   </Location>
                   <Size>
-                    <Width>688</Width>
-                    <Height>233</Height>
+                    <Width>344</Width>
+                    <Height>144</Height>
                   </Size>
                   <X>0</X>
                   <Y>0</Y>
-                  <Width>688</Width>
-                  <Height>233</Height>
+                  <Width>344</Width>
+                  <Height>144</Height>
                 </Rect>
+                <UseKeyRepeat>true</UseKeyRepeat>
+                <UseMouseRepeat>true</UseMouseRepeat>
                 <UseFocusHotkey>true</UseFocusHotkey>
                 <MappedKey />
               </MappedKeyAction>
@@ -7393,18 +7364,20 @@ See http://isboxer.com/wiki/WoW:Interact_with_Target.</Description>
                 <Target>DxNothing VFX1</Target>
                 <Rect>
                   <Location>
-                    <X>688</X>
+                    <X>344</X>
                     <Y>0</Y>
                   </Location>
                   <Size>
-                    <Width>688</Width>
-                    <Height>233</Height>
+                    <Width>344</Width>
+                    <Height>144</Height>
                   </Size>
-                  <X>688</X>
+                  <X>344</X>
                   <Y>0</Y>
-                  <Width>688</Width>
-                  <Height>233</Height>
+                  <Width>344</Width>
+                  <Height>144</Height>
                 </Rect>
+                <UseKeyRepeat>true</UseKeyRepeat>
+                <UseMouseRepeat>true</UseMouseRepeat>
                 <UseFocusHotkey>true</UseFocusHotkey>
                 <MappedKey />
               </MappedKeyAction>
@@ -7414,18 +7387,20 @@ See http://isboxer.com/wiki/WoW:Interact_with_Target.</Description>
                 <Target>DxNothing VFX1</Target>
                 <Rect>
                   <Location>
-                    <X>1376</X>
+                    <X>688</X>
                     <Y>0</Y>
                   </Location>
                   <Size>
-                    <Width>688</Width>
-                    <Height>233</Height>
+                    <Width>344</Width>
+                    <Height>144</Height>
                   </Size>
-                  <X>1376</X>
+                  <X>688</X>
                   <Y>0</Y>
-                  <Width>688</Width>
-                  <Height>233</Height>
+                  <Width>344</Width>
+                  <Height>144</Height>
                 </Rect>
+                <UseKeyRepeat>true</UseKeyRepeat>
+                <UseMouseRepeat>true</UseMouseRepeat>
                 <UseFocusHotkey>true</UseFocusHotkey>
                 <MappedKey />
               </MappedKeyAction>
@@ -7435,18 +7410,20 @@ See http://isboxer.com/wiki/WoW:Interact_with_Target.</Description>
                 <Target>DxNothing VFX1</Target>
                 <Rect>
                   <Location>
-                    <X>2064</X>
+                    <X>1032</X>
                     <Y>0</Y>
                   </Location>
                   <Size>
-                    <Width>688</Width>
-                    <Height>233</Height>
+                    <Width>344</Width>
+                    <Height>144</Height>
                   </Size>
-                  <X>2064</X>
+                  <X>1032</X>
                   <Y>0</Y>
-                  <Width>688</Width>
-                  <Height>233</Height>
+                  <Width>344</Width>
+                  <Height>144</Height>
                 </Rect>
+                <UseKeyRepeat>true</UseKeyRepeat>
+                <UseMouseRepeat>true</UseMouseRepeat>
                 <UseFocusHotkey>true</UseFocusHotkey>
                 <MappedKey />
               </MappedKeyAction>
@@ -7456,123 +7433,135 @@ See http://isboxer.com/wiki/WoW:Interact_with_Target.</Description>
                 <Target>DxNothing VFX1</Target>
                 <Rect>
                   <Location>
-                    <X>2752</X>
+                    <X>1376</X>
                     <Y>0</Y>
                   </Location>
                   <Size>
-                    <Width>688</Width>
-                    <Height>233</Height>
+                    <Width>344</Width>
+                    <Height>144</Height>
                   </Size>
-                  <X>2752</X>
+                  <X>1376</X>
                   <Y>0</Y>
-                  <Width>688</Width>
-                  <Height>233</Height>
+                  <Width>344</Width>
+                  <Height>144</Height>
                 </Rect>
+                <UseKeyRepeat>true</UseKeyRepeat>
+                <UseMouseRepeat>true</UseMouseRepeat>
                 <UseFocusHotkey>true</UseFocusHotkey>
                 <MappedKey />
               </MappedKeyAction>
               <MappedKeyAction xsi:type="VideoFeedsAction">
                 <Action>Add</Action>
                 <Name>is6</Name>
-                <Target>DxNothing VFX2</Target>
+                <Target>DxNothing VFX1</Target>
                 <Rect>
                   <Location>
-                    <X>0</X>
+                    <X>1720</X>
                     <Y>0</Y>
                   </Location>
                   <Size>
-                    <Width>688</Width>
-                    <Height>233</Height>
+                    <Width>344</Width>
+                    <Height>144</Height>
                   </Size>
-                  <X>0</X>
+                  <X>1720</X>
                   <Y>0</Y>
-                  <Width>688</Width>
-                  <Height>233</Height>
+                  <Width>344</Width>
+                  <Height>144</Height>
                 </Rect>
+                <UseKeyRepeat>true</UseKeyRepeat>
+                <UseMouseRepeat>true</UseMouseRepeat>
                 <UseFocusHotkey>true</UseFocusHotkey>
                 <MappedKey />
               </MappedKeyAction>
               <MappedKeyAction xsi:type="VideoFeedsAction">
                 <Action>Add</Action>
                 <Name>is7</Name>
-                <Target>DxNothing VFX2</Target>
+                <Target>DxNothing VFX1</Target>
                 <Rect>
                   <Location>
-                    <X>0</X>
-                    <Y>233</Y>
+                    <X>2064</X>
+                    <Y>0</Y>
                   </Location>
                   <Size>
-                    <Width>688</Width>
-                    <Height>233</Height>
+                    <Width>344</Width>
+                    <Height>144</Height>
                   </Size>
-                  <X>0</X>
-                  <Y>233</Y>
-                  <Width>688</Width>
-                  <Height>233</Height>
+                  <X>2064</X>
+                  <Y>0</Y>
+                  <Width>344</Width>
+                  <Height>144</Height>
                 </Rect>
+                <UseKeyRepeat>true</UseKeyRepeat>
+                <UseMouseRepeat>true</UseMouseRepeat>
                 <UseFocusHotkey>true</UseFocusHotkey>
                 <MappedKey />
               </MappedKeyAction>
               <MappedKeyAction xsi:type="VideoFeedsAction">
                 <Action>Add</Action>
                 <Name>is8</Name>
-                <Target>DxNothing VFX2</Target>
+                <Target>DxNothing VFX1</Target>
                 <Rect>
                   <Location>
-                    <X>0</X>
-                    <Y>466</Y>
+                    <X>2408</X>
+                    <Y>0</Y>
                   </Location>
                   <Size>
-                    <Width>688</Width>
-                    <Height>233</Height>
+                    <Width>344</Width>
+                    <Height>144</Height>
                   </Size>
-                  <X>0</X>
-                  <Y>466</Y>
-                  <Width>688</Width>
-                  <Height>233</Height>
+                  <X>2408</X>
+                  <Y>0</Y>
+                  <Width>344</Width>
+                  <Height>144</Height>
                 </Rect>
+                <UseKeyRepeat>true</UseKeyRepeat>
+                <UseMouseRepeat>true</UseMouseRepeat>
                 <UseFocusHotkey>true</UseFocusHotkey>
                 <MappedKey />
               </MappedKeyAction>
               <MappedKeyAction xsi:type="VideoFeedsAction">
                 <Action>Add</Action>
                 <Name>is9</Name>
-                <Target>DxNothing VFX2</Target>
+                <Target>DxNothing VFX1</Target>
                 <Rect>
                   <Location>
-                    <X>0</X>
-                    <Y>699</Y>
+                    <X>2752</X>
+                    <Y>0</Y>
                   </Location>
                   <Size>
-                    <Width>688</Width>
-                    <Height>233</Height>
+                    <Width>344</Width>
+                    <Height>144</Height>
                   </Size>
-                  <X>0</X>
-                  <Y>699</Y>
-                  <Width>688</Width>
-                  <Height>233</Height>
+                  <X>2752</X>
+                  <Y>0</Y>
+                  <Width>344</Width>
+                  <Height>144</Height>
                 </Rect>
+                <UseKeyRepeat>true</UseKeyRepeat>
+                <UseMouseRepeat>true</UseMouseRepeat>
                 <UseFocusHotkey>true</UseFocusHotkey>
                 <MappedKey />
               </MappedKeyAction>
               <MappedKeyAction xsi:type="VideoFeedsAction">
                 <Action>Add</Action>
                 <Name>is10</Name>
-                <Target>DxNothing VFX2</Target>
+                <Target>DxNothing VFX1</Target>
                 <Rect>
                   <Location>
-                    <X>0</X>
-                    <Y>932</Y>
+                    <X>3096</X>
+                    <Y>0</Y>
                   </Location>
                   <Size>
-                    <Width>688</Width>
-                    <Height>233</Height>
+                    <Width>344</Width>
+                    <Height>144</Height>
                   </Size>
-                  <X>0</X>
-                  <Y>932</Y>
-                  <Width>688</Width>
-                  <Height>233</Height>
+                  <X>3096</X>
+                  <Y>0</Y>
+                  <Width>344</Width>
+                  <Height>144</Height>
                 </Rect>
+                <UseKeyRepeat>true</UseKeyRepeat>
+                <UseMouseRepeat>true</UseMouseRepeat>
                 <UseFocusHotkey>true</UseFocusHotkey>
                 <MappedKey />
               </MappedKeyAction>
@@ -7599,14 +7588,16 @@ See http://isboxer.com/wiki/WoW:Interact_with_Target.</Description>
                     <Y>0</Y>
                   </Location>
                   <Size>
-                    <Width>688</Width>
-                    <Height>233</Height>
+                    <Width>344</Width>
+                    <Height>144</Height>
                   </Size>
                   <X>0</X>
                   <Y>0</Y>
-                  <Width>688</Width>
-                  <Height>233</Height>
+                  <Width>344</Width>
+                  <Height>144</Height>
                 </Rect>
+                <UseKeyRepeat>true</UseKeyRepeat>
+                <UseMouseRepeat>true</UseMouseRepeat>
                 <UseFocusHotkey>true</UseFocusHotkey>
                 <MappedKey />
               </MappedKeyAction>
@@ -7616,18 +7607,20 @@ See http://isboxer.com/wiki/WoW:Interact_with_Target.</Description>
                 <Target>DxNothing VFX1</Target>
                 <Rect>
                   <Location>
-                    <X>688</X>
+                    <X>344</X>
                     <Y>0</Y>
                   </Location>
                   <Size>
-                    <Width>688</Width>
-                    <Height>233</Height>
+                    <Width>344</Width>
+                    <Height>144</Height>
                   </Size>
-                  <X>688</X>
+                  <X>344</X>
                   <Y>0</Y>
-                  <Width>688</Width>
-                  <Height>233</Height>
+                  <Width>344</Width>
+                  <Height>144</Height>
                 </Rect>
+                <UseKeyRepeat>true</UseKeyRepeat>
+                <UseMouseRepeat>true</UseMouseRepeat>
                 <UseFocusHotkey>true</UseFocusHotkey>
                 <MappedKey />
               </MappedKeyAction>
@@ -7637,18 +7630,20 @@ See http://isboxer.com/wiki/WoW:Interact_with_Target.</Description>
                 <Target>DxNothing VFX1</Target>
                 <Rect>
                   <Location>
-                    <X>1376</X>
+                    <X>688</X>
                     <Y>0</Y>
                   </Location>
                   <Size>
-                    <Width>688</Width>
-                    <Height>233</Height>
+                    <Width>344</Width>
+                    <Height>144</Height>
                   </Size>
-                  <X>1376</X>
+                  <X>688</X>
                   <Y>0</Y>
-                  <Width>688</Width>
-                  <Height>233</Height>
+                  <Width>344</Width>
+                  <Height>144</Height>
                 </Rect>
+                <UseKeyRepeat>true</UseKeyRepeat>
+                <UseMouseRepeat>true</UseMouseRepeat>
                 <UseFocusHotkey>true</UseFocusHotkey>
                 <MappedKey />
               </MappedKeyAction>
@@ -7658,18 +7653,20 @@ See http://isboxer.com/wiki/WoW:Interact_with_Target.</Description>
                 <Target>DxNothing VFX1</Target>
                 <Rect>
                   <Location>
-                    <X>2064</X>
+                    <X>1032</X>
                     <Y>0</Y>
                   </Location>
                   <Size>
-                    <Width>688</Width>
-                    <Height>233</Height>
+                    <Width>344</Width>
+                    <Height>144</Height>
                   </Size>
-                  <X>2064</X>
+                  <X>1032</X>
                   <Y>0</Y>
-                  <Width>688</Width>
-                  <Height>233</Height>
+                  <Width>344</Width>
+                  <Height>144</Height>
                 </Rect>
+                <UseKeyRepeat>true</UseKeyRepeat>
+                <UseMouseRepeat>true</UseMouseRepeat>
                 <UseFocusHotkey>true</UseFocusHotkey>
                 <MappedKey />
               </MappedKeyAction>
@@ -7679,123 +7676,135 @@ See http://isboxer.com/wiki/WoW:Interact_with_Target.</Description>
                 <Target>DxNothing VFX1</Target>
                 <Rect>
                   <Location>
-                    <X>2752</X>
+                    <X>1376</X>
                     <Y>0</Y>
                   </Location>
                   <Size>
-                    <Width>688</Width>
-                    <Height>233</Height>
+                    <Width>344</Width>
+                    <Height>144</Height>
                   </Size>
-                  <X>2752</X>
+                  <X>1376</X>
                   <Y>0</Y>
-                  <Width>688</Width>
-                  <Height>233</Height>
+                  <Width>344</Width>
+                  <Height>144</Height>
                 </Rect>
+                <UseKeyRepeat>true</UseKeyRepeat>
+                <UseMouseRepeat>true</UseMouseRepeat>
                 <UseFocusHotkey>true</UseFocusHotkey>
                 <MappedKey />
               </MappedKeyAction>
               <MappedKeyAction xsi:type="VideoFeedsAction">
                 <Action>Add</Action>
                 <Name>is6</Name>
-                <Target>DxNothing VFX2</Target>
+                <Target>DxNothing VFX1</Target>
                 <Rect>
                   <Location>
-                    <X>0</X>
+                    <X>1720</X>
                     <Y>0</Y>
                   </Location>
                   <Size>
-                    <Width>688</Width>
-                    <Height>233</Height>
+                    <Width>344</Width>
+                    <Height>144</Height>
                   </Size>
-                  <X>0</X>
+                  <X>1720</X>
                   <Y>0</Y>
-                  <Width>688</Width>
-                  <Height>233</Height>
+                  <Width>344</Width>
+                  <Height>144</Height>
                 </Rect>
+                <UseKeyRepeat>true</UseKeyRepeat>
+                <UseMouseRepeat>true</UseMouseRepeat>
                 <UseFocusHotkey>true</UseFocusHotkey>
                 <MappedKey />
               </MappedKeyAction>
               <MappedKeyAction xsi:type="VideoFeedsAction">
                 <Action>Add</Action>
                 <Name>is7</Name>
-                <Target>DxNothing VFX2</Target>
+                <Target>DxNothing VFX1</Target>
                 <Rect>
                   <Location>
-                    <X>0</X>
-                    <Y>233</Y>
+                    <X>2064</X>
+                    <Y>0</Y>
                   </Location>
                   <Size>
-                    <Width>688</Width>
-                    <Height>233</Height>
+                    <Width>344</Width>
+                    <Height>144</Height>
                   </Size>
-                  <X>0</X>
-                  <Y>233</Y>
-                  <Width>688</Width>
-                  <Height>233</Height>
+                  <X>2064</X>
+                  <Y>0</Y>
+                  <Width>344</Width>
+                  <Height>144</Height>
                 </Rect>
+                <UseKeyRepeat>true</UseKeyRepeat>
+                <UseMouseRepeat>true</UseMouseRepeat>
                 <UseFocusHotkey>true</UseFocusHotkey>
                 <MappedKey />
               </MappedKeyAction>
               <MappedKeyAction xsi:type="VideoFeedsAction">
                 <Action>Add</Action>
                 <Name>is8</Name>
-                <Target>DxNothing VFX2</Target>
+                <Target>DxNothing VFX1</Target>
                 <Rect>
                   <Location>
-                    <X>0</X>
-                    <Y>466</Y>
+                    <X>2408</X>
+                    <Y>0</Y>
                   </Location>
                   <Size>
-                    <Width>688</Width>
-                    <Height>233</Height>
+                    <Width>344</Width>
+                    <Height>144</Height>
                   </Size>
-                  <X>0</X>
-                  <Y>466</Y>
-                  <Width>688</Width>
-                  <Height>233</Height>
+                  <X>2408</X>
+                  <Y>0</Y>
+                  <Width>344</Width>
+                  <Height>144</Height>
                 </Rect>
+                <UseKeyRepeat>true</UseKeyRepeat>
+                <UseMouseRepeat>true</UseMouseRepeat>
                 <UseFocusHotkey>true</UseFocusHotkey>
                 <MappedKey />
               </MappedKeyAction>
               <MappedKeyAction xsi:type="VideoFeedsAction">
                 <Action>Add</Action>
                 <Name>is9</Name>
-                <Target>DxNothing VFX2</Target>
+                <Target>DxNothing VFX1</Target>
                 <Rect>
                   <Location>
-                    <X>0</X>
-                    <Y>699</Y>
+                    <X>2752</X>
+                    <Y>0</Y>
                   </Location>
                   <Size>
-                    <Width>688</Width>
-                    <Height>233</Height>
+                    <Width>344</Width>
+                    <Height>144</Height>
                   </Size>
-                  <X>0</X>
-                  <Y>699</Y>
-                  <Width>688</Width>
-                  <Height>233</Height>
+                  <X>2752</X>
+                  <Y>0</Y>
+                  <Width>344</Width>
+                  <Height>144</Height>
                 </Rect>
+                <UseKeyRepeat>true</UseKeyRepeat>
+                <UseMouseRepeat>true</UseMouseRepeat>
                 <UseFocusHotkey>true</UseFocusHotkey>
                 <MappedKey />
               </MappedKeyAction>
               <MappedKeyAction xsi:type="VideoFeedsAction">
                 <Action>Add</Action>
                 <Name>is10</Name>
-                <Target>DxNothing VFX2</Target>
+                <Target>DxNothing VFX1</Target>
                 <Rect>
                   <Location>
-                    <X>0</X>
-                    <Y>932</Y>
+                    <X>3096</X>
+                    <Y>0</Y>
                   </Location>
                   <Size>
-                    <Width>688</Width>
-                    <Height>233</Height>
+                    <Width>344</Width>
+                    <Height>144</Height>
                   </Size>
-                  <X>0</X>
-                  <Y>932</Y>
-                  <Width>688</Width>
-                  <Height>233</Height>
+                  <X>3096</X>
+                  <Y>0</Y>
+                  <Width>344</Width>
+                  <Height>144</Height>
                 </Rect>
+                <UseKeyRepeat>true</UseKeyRepeat>
+                <UseMouseRepeat>true</UseMouseRepeat>
                 <UseFocusHotkey>true</UseFocusHotkey>
                 <MappedKey />
               </MappedKeyAction>
@@ -7822,14 +7831,16 @@ See http://isboxer.com/wiki/WoW:Interact_with_Target.</Description>
                     <Y>0</Y>
                   </Location>
                   <Size>
-                    <Width>688</Width>
-                    <Height>233</Height>
+                    <Width>344</Width>
+                    <Height>144</Height>
                   </Size>
                   <X>0</X>
                   <Y>0</Y>
-                  <Width>688</Width>
-                  <Height>233</Height>
+                  <Width>344</Width>
+                  <Height>144</Height>
                 </Rect>
+                <UseKeyRepeat>true</UseKeyRepeat>
+                <UseMouseRepeat>true</UseMouseRepeat>
                 <UseFocusHotkey>true</UseFocusHotkey>
                 <MappedKey />
               </MappedKeyAction>
@@ -7839,18 +7850,20 @@ See http://isboxer.com/wiki/WoW:Interact_with_Target.</Description>
                 <Target>DxNothing VFX1</Target>
                 <Rect>
                   <Location>
-                    <X>688</X>
+                    <X>344</X>
                     <Y>0</Y>
                   </Location>
                   <Size>
-                    <Width>688</Width>
-                    <Height>233</Height>
+                    <Width>344</Width>
+                    <Height>144</Height>
                   </Size>
-                  <X>688</X>
+                  <X>344</X>
                   <Y>0</Y>
-                  <Width>688</Width>
-                  <Height>233</Height>
+                  <Width>344</Width>
+                  <Height>144</Height>
                 </Rect>
+                <UseKeyRepeat>true</UseKeyRepeat>
+                <UseMouseRepeat>true</UseMouseRepeat>
                 <UseFocusHotkey>true</UseFocusHotkey>
                 <MappedKey />
               </MappedKeyAction>
@@ -7860,18 +7873,20 @@ See http://isboxer.com/wiki/WoW:Interact_with_Target.</Description>
                 <Target>DxNothing VFX1</Target>
                 <Rect>
                   <Location>
-                    <X>1376</X>
+                    <X>688</X>
                     <Y>0</Y>
                   </Location>
                   <Size>
-                    <Width>688</Width>
-                    <Height>233</Height>
+                    <Width>344</Width>
+                    <Height>144</Height>
                   </Size>
-                  <X>1376</X>
+                  <X>688</X>
                   <Y>0</Y>
-                  <Width>688</Width>
-                  <Height>233</Height>
+                  <Width>344</Width>
+                  <Height>144</Height>
                 </Rect>
+                <UseKeyRepeat>true</UseKeyRepeat>
+                <UseMouseRepeat>true</UseMouseRepeat>
                 <UseFocusHotkey>true</UseFocusHotkey>
                 <MappedKey />
               </MappedKeyAction>
@@ -7881,18 +7896,20 @@ See http://isboxer.com/wiki/WoW:Interact_with_Target.</Description>
                 <Target>DxNothing VFX1</Target>
                 <Rect>
                   <Location>
-                    <X>2064</X>
+                    <X>1032</X>
                     <Y>0</Y>
                   </Location>
                   <Size>
-                    <Width>688</Width>
-                    <Height>233</Height>
+                    <Width>344</Width>
+                    <Height>144</Height>
                   </Size>
-                  <X>2064</X>
+                  <X>1032</X>
                   <Y>0</Y>
-                  <Width>688</Width>
-                  <Height>233</Height>
+                  <Width>344</Width>
+                  <Height>144</Height>
                 </Rect>
+                <UseKeyRepeat>true</UseKeyRepeat>
+                <UseMouseRepeat>true</UseMouseRepeat>
                 <UseFocusHotkey>true</UseFocusHotkey>
                 <MappedKey />
               </MappedKeyAction>
@@ -7902,123 +7919,135 @@ See http://isboxer.com/wiki/WoW:Interact_with_Target.</Description>
                 <Target>DxNothing VFX1</Target>
                 <Rect>
                   <Location>
-                    <X>2752</X>
+                    <X>1376</X>
                     <Y>0</Y>
                   </Location>
                   <Size>
-                    <Width>688</Width>
-                    <Height>233</Height>
+                    <Width>344</Width>
+                    <Height>144</Height>
                   </Size>
-                  <X>2752</X>
+                  <X>1376</X>
                   <Y>0</Y>
-                  <Width>688</Width>
-                  <Height>233</Height>
+                  <Width>344</Width>
+                  <Height>144</Height>
                 </Rect>
+                <UseKeyRepeat>true</UseKeyRepeat>
+                <UseMouseRepeat>true</UseMouseRepeat>
                 <UseFocusHotkey>true</UseFocusHotkey>
                 <MappedKey />
               </MappedKeyAction>
               <MappedKeyAction xsi:type="VideoFeedsAction">
                 <Action>Add</Action>
                 <Name>is6</Name>
-                <Target>DxNothing VFX2</Target>
+                <Target>DxNothing VFX1</Target>
                 <Rect>
                   <Location>
-                    <X>0</X>
+                    <X>1720</X>
                     <Y>0</Y>
                   </Location>
                   <Size>
-                    <Width>688</Width>
-                    <Height>233</Height>
+                    <Width>344</Width>
+                    <Height>144</Height>
                   </Size>
-                  <X>0</X>
+                  <X>1720</X>
                   <Y>0</Y>
-                  <Width>688</Width>
-                  <Height>233</Height>
+                  <Width>344</Width>
+                  <Height>144</Height>
                 </Rect>
+                <UseKeyRepeat>true</UseKeyRepeat>
+                <UseMouseRepeat>true</UseMouseRepeat>
                 <UseFocusHotkey>true</UseFocusHotkey>
                 <MappedKey />
               </MappedKeyAction>
               <MappedKeyAction xsi:type="VideoFeedsAction">
                 <Action>Add</Action>
                 <Name>is7</Name>
-                <Target>DxNothing VFX2</Target>
+                <Target>DxNothing VFX1</Target>
                 <Rect>
                   <Location>
-                    <X>0</X>
-                    <Y>233</Y>
+                    <X>2064</X>
+                    <Y>0</Y>
                   </Location>
                   <Size>
-                    <Width>688</Width>
-                    <Height>233</Height>
+                    <Width>344</Width>
+                    <Height>144</Height>
                   </Size>
-                  <X>0</X>
-                  <Y>233</Y>
-                  <Width>688</Width>
-                  <Height>233</Height>
+                  <X>2064</X>
+                  <Y>0</Y>
+                  <Width>344</Width>
+                  <Height>144</Height>
                 </Rect>
+                <UseKeyRepeat>true</UseKeyRepeat>
+                <UseMouseRepeat>true</UseMouseRepeat>
                 <UseFocusHotkey>true</UseFocusHotkey>
                 <MappedKey />
               </MappedKeyAction>
               <MappedKeyAction xsi:type="VideoFeedsAction">
                 <Action>Add</Action>
                 <Name>is8</Name>
-                <Target>DxNothing VFX2</Target>
+                <Target>DxNothing VFX1</Target>
                 <Rect>
                   <Location>
-                    <X>0</X>
-                    <Y>466</Y>
+                    <X>2408</X>
+                    <Y>0</Y>
                   </Location>
                   <Size>
-                    <Width>688</Width>
-                    <Height>233</Height>
+                    <Width>344</Width>
+                    <Height>144</Height>
                   </Size>
-                  <X>0</X>
-                  <Y>466</Y>
-                  <Width>688</Width>
-                  <Height>233</Height>
+                  <X>2408</X>
+                  <Y>0</Y>
+                  <Width>344</Width>
+                  <Height>144</Height>
                 </Rect>
+                <UseKeyRepeat>true</UseKeyRepeat>
+                <UseMouseRepeat>true</UseMouseRepeat>
                 <UseFocusHotkey>true</UseFocusHotkey>
                 <MappedKey />
               </MappedKeyAction>
               <MappedKeyAction xsi:type="VideoFeedsAction">
                 <Action>Add</Action>
                 <Name>is9</Name>
-                <Target>DxNothing VFX2</Target>
+                <Target>DxNothing VFX1</Target>
                 <Rect>
                   <Location>
-                    <X>0</X>
-                    <Y>699</Y>
+                    <X>2752</X>
+                    <Y>0</Y>
                   </Location>
                   <Size>
-                    <Width>688</Width>
-                    <Height>233</Height>
+                    <Width>344</Width>
+                    <Height>144</Height>
                   </Size>
-                  <X>0</X>
-                  <Y>699</Y>
-                  <Width>688</Width>
-                  <Height>233</Height>
+                  <X>2752</X>
+                  <Y>0</Y>
+                  <Width>344</Width>
+                  <Height>144</Height>
                 </Rect>
+                <UseKeyRepeat>true</UseKeyRepeat>
+                <UseMouseRepeat>true</UseMouseRepeat>
                 <UseFocusHotkey>true</UseFocusHotkey>
                 <MappedKey />
               </MappedKeyAction>
               <MappedKeyAction xsi:type="VideoFeedsAction">
                 <Action>Add</Action>
                 <Name>is10</Name>
-                <Target>DxNothing VFX2</Target>
+                <Target>DxNothing VFX1</Target>
                 <Rect>
                   <Location>
-                    <X>0</X>
-                    <Y>932</Y>
+                    <X>3096</X>
+                    <Y>0</Y>
                   </Location>
                   <Size>
-                    <Width>688</Width>
-                    <Height>233</Height>
+                    <Width>344</Width>
+                    <Height>144</Height>
                   </Size>
-                  <X>0</X>
-                  <Y>932</Y>
-                  <Width>688</Width>
-                  <Height>233</Height>
+                  <X>3096</X>
+                  <Y>0</Y>
+                  <Width>344</Width>
+                  <Height>144</Height>
                 </Rect>
+                <UseKeyRepeat>true</UseKeyRepeat>
+                <UseMouseRepeat>true</UseMouseRepeat>
                 <UseFocusHotkey>true</UseFocusHotkey>
                 <MappedKey />
               </MappedKeyAction>
@@ -8045,14 +8074,16 @@ See http://isboxer.com/wiki/WoW:Interact_with_Target.</Description>
                     <Y>0</Y>
                   </Location>
                   <Size>
-                    <Width>688</Width>
-                    <Height>233</Height>
+                    <Width>344</Width>
+                    <Height>144</Height>
                   </Size>
                   <X>0</X>
                   <Y>0</Y>
-                  <Width>688</Width>
-                  <Height>233</Height>
+                  <Width>344</Width>
+                  <Height>144</Height>
                 </Rect>
+                <UseKeyRepeat>true</UseKeyRepeat>
+                <UseMouseRepeat>true</UseMouseRepeat>
                 <UseFocusHotkey>true</UseFocusHotkey>
                 <MappedKey />
               </MappedKeyAction>
@@ -8062,18 +8093,20 @@ See http://isboxer.com/wiki/WoW:Interact_with_Target.</Description>
                 <Target>DxNothing VFX1</Target>
                 <Rect>
                   <Location>
-                    <X>688</X>
+                    <X>344</X>
                     <Y>0</Y>
                   </Location>
                   <Size>
-                    <Width>688</Width>
-                    <Height>233</Height>
+                    <Width>344</Width>
+                    <Height>144</Height>
                   </Size>
-                  <X>688</X>
+                  <X>344</X>
                   <Y>0</Y>
-                  <Width>688</Width>
-                  <Height>233</Height>
+                  <Width>344</Width>
+                  <Height>144</Height>
                 </Rect>
+                <UseKeyRepeat>true</UseKeyRepeat>
+                <UseMouseRepeat>true</UseMouseRepeat>
                 <UseFocusHotkey>true</UseFocusHotkey>
                 <MappedKey />
               </MappedKeyAction>
@@ -8083,18 +8116,20 @@ See http://isboxer.com/wiki/WoW:Interact_with_Target.</Description>
                 <Target>DxNothing VFX1</Target>
                 <Rect>
                   <Location>
-                    <X>1376</X>
+                    <X>688</X>
                     <Y>0</Y>
                   </Location>
                   <Size>
-                    <Width>688</Width>
-                    <Height>233</Height>
+                    <Width>344</Width>
+                    <Height>144</Height>
                   </Size>
-                  <X>1376</X>
+                  <X>688</X>
                   <Y>0</Y>
-                  <Width>688</Width>
-                  <Height>233</Height>
+                  <Width>344</Width>
+                  <Height>144</Height>
                 </Rect>
+                <UseKeyRepeat>true</UseKeyRepeat>
+                <UseMouseRepeat>true</UseMouseRepeat>
                 <UseFocusHotkey>true</UseFocusHotkey>
                 <MappedKey />
               </MappedKeyAction>
@@ -8104,18 +8139,20 @@ See http://isboxer.com/wiki/WoW:Interact_with_Target.</Description>
                 <Target>DxNothing VFX1</Target>
                 <Rect>
                   <Location>
-                    <X>2064</X>
+                    <X>1032</X>
                     <Y>0</Y>
                   </Location>
                   <Size>
-                    <Width>688</Width>
-                    <Height>233</Height>
+                    <Width>344</Width>
+                    <Height>144</Height>
                   </Size>
-                  <X>2064</X>
+                  <X>1032</X>
                   <Y>0</Y>
-                  <Width>688</Width>
-                  <Height>233</Height>
+                  <Width>344</Width>
+                  <Height>144</Height>
                 </Rect>
+                <UseKeyRepeat>true</UseKeyRepeat>
+                <UseMouseRepeat>true</UseMouseRepeat>
                 <UseFocusHotkey>true</UseFocusHotkey>
                 <MappedKey />
               </MappedKeyAction>
@@ -8125,123 +8162,135 @@ See http://isboxer.com/wiki/WoW:Interact_with_Target.</Description>
                 <Target>DxNothing VFX1</Target>
                 <Rect>
                   <Location>
-                    <X>2752</X>
+                    <X>1376</X>
                     <Y>0</Y>
                   </Location>
                   <Size>
-                    <Width>688</Width>
-                    <Height>233</Height>
+                    <Width>344</Width>
+                    <Height>144</Height>
                   </Size>
-                  <X>2752</X>
+                  <X>1376</X>
                   <Y>0</Y>
-                  <Width>688</Width>
-                  <Height>233</Height>
+                  <Width>344</Width>
+                  <Height>144</Height>
                 </Rect>
+                <UseKeyRepeat>true</UseKeyRepeat>
+                <UseMouseRepeat>true</UseMouseRepeat>
                 <UseFocusHotkey>true</UseFocusHotkey>
                 <MappedKey />
               </MappedKeyAction>
               <MappedKeyAction xsi:type="VideoFeedsAction">
                 <Action>Add</Action>
                 <Name>is6</Name>
-                <Target>DxNothing VFX2</Target>
+                <Target>DxNothing VFX1</Target>
                 <Rect>
                   <Location>
-                    <X>0</X>
+                    <X>1720</X>
                     <Y>0</Y>
                   </Location>
                   <Size>
-                    <Width>688</Width>
-                    <Height>233</Height>
+                    <Width>344</Width>
+                    <Height>144</Height>
                   </Size>
-                  <X>0</X>
+                  <X>1720</X>
                   <Y>0</Y>
-                  <Width>688</Width>
-                  <Height>233</Height>
+                  <Width>344</Width>
+                  <Height>144</Height>
                 </Rect>
+                <UseKeyRepeat>true</UseKeyRepeat>
+                <UseMouseRepeat>true</UseMouseRepeat>
                 <UseFocusHotkey>true</UseFocusHotkey>
                 <MappedKey />
               </MappedKeyAction>
               <MappedKeyAction xsi:type="VideoFeedsAction">
                 <Action>Add</Action>
                 <Name>is7</Name>
-                <Target>DxNothing VFX2</Target>
+                <Target>DxNothing VFX1</Target>
                 <Rect>
                   <Location>
-                    <X>0</X>
-                    <Y>233</Y>
+                    <X>2064</X>
+                    <Y>0</Y>
                   </Location>
                   <Size>
-                    <Width>688</Width>
-                    <Height>233</Height>
+                    <Width>344</Width>
+                    <Height>144</Height>
                   </Size>
-                  <X>0</X>
-                  <Y>233</Y>
-                  <Width>688</Width>
-                  <Height>233</Height>
+                  <X>2064</X>
+                  <Y>0</Y>
+                  <Width>344</Width>
+                  <Height>144</Height>
                 </Rect>
+                <UseKeyRepeat>true</UseKeyRepeat>
+                <UseMouseRepeat>true</UseMouseRepeat>
                 <UseFocusHotkey>true</UseFocusHotkey>
                 <MappedKey />
               </MappedKeyAction>
               <MappedKeyAction xsi:type="VideoFeedsAction">
                 <Action>Add</Action>
                 <Name>is8</Name>
-                <Target>DxNothing VFX2</Target>
+                <Target>DxNothing VFX1</Target>
                 <Rect>
                   <Location>
-                    <X>0</X>
-                    <Y>466</Y>
+                    <X>2408</X>
+                    <Y>0</Y>
                   </Location>
                   <Size>
-                    <Width>688</Width>
-                    <Height>233</Height>
+                    <Width>344</Width>
+                    <Height>144</Height>
                   </Size>
-                  <X>0</X>
-                  <Y>466</Y>
-                  <Width>688</Width>
-                  <Height>233</Height>
+                  <X>2408</X>
+                  <Y>0</Y>
+                  <Width>344</Width>
+                  <Height>144</Height>
                 </Rect>
+                <UseKeyRepeat>true</UseKeyRepeat>
+                <UseMouseRepeat>true</UseMouseRepeat>
                 <UseFocusHotkey>true</UseFocusHotkey>
                 <MappedKey />
               </MappedKeyAction>
               <MappedKeyAction xsi:type="VideoFeedsAction">
                 <Action>Add</Action>
                 <Name>is9</Name>
-                <Target>DxNothing VFX2</Target>
+                <Target>DxNothing VFX1</Target>
                 <Rect>
                   <Location>
-                    <X>0</X>
-                    <Y>699</Y>
+                    <X>2752</X>
+                    <Y>0</Y>
                   </Location>
                   <Size>
-                    <Width>688</Width>
-                    <Height>233</Height>
+                    <Width>344</Width>
+                    <Height>144</Height>
                   </Size>
-                  <X>0</X>
-                  <Y>699</Y>
-                  <Width>688</Width>
-                  <Height>233</Height>
+                  <X>2752</X>
+                  <Y>0</Y>
+                  <Width>344</Width>
+                  <Height>144</Height>
                 </Rect>
+                <UseKeyRepeat>true</UseKeyRepeat>
+                <UseMouseRepeat>true</UseMouseRepeat>
                 <UseFocusHotkey>true</UseFocusHotkey>
                 <MappedKey />
               </MappedKeyAction>
               <MappedKeyAction xsi:type="VideoFeedsAction">
                 <Action>Add</Action>
                 <Name>is10</Name>
-                <Target>DxNothing VFX2</Target>
+                <Target>DxNothing VFX1</Target>
                 <Rect>
                   <Location>
-                    <X>0</X>
-                    <Y>932</Y>
+                    <X>3096</X>
+                    <Y>0</Y>
                   </Location>
                   <Size>
-                    <Width>688</Width>
-                    <Height>233</Height>
+                    <Width>344</Width>
+                    <Height>144</Height>
                   </Size>
-                  <X>0</X>
-                  <Y>932</Y>
-                  <Width>688</Width>
-                  <Height>233</Height>
+                  <X>3096</X>
+                  <Y>0</Y>
+                  <Width>344</Width>
+                  <Height>144</Height>
                 </Rect>
+                <UseKeyRepeat>true</UseKeyRepeat>
+                <UseMouseRepeat>true</UseMouseRepeat>
                 <UseFocusHotkey>true</UseFocusHotkey>
                 <MappedKey />
               </MappedKeyAction>
@@ -8268,14 +8317,16 @@ See http://isboxer.com/wiki/WoW:Interact_with_Target.</Description>
                     <Y>0</Y>
                   </Location>
                   <Size>
-                    <Width>688</Width>
-                    <Height>233</Height>
+                    <Width>344</Width>
+                    <Height>144</Height>
                   </Size>
                   <X>0</X>
                   <Y>0</Y>
-                  <Width>688</Width>
-                  <Height>233</Height>
+                  <Width>344</Width>
+                  <Height>144</Height>
                 </Rect>
+                <UseKeyRepeat>true</UseKeyRepeat>
+                <UseMouseRepeat>true</UseMouseRepeat>
                 <UseFocusHotkey>true</UseFocusHotkey>
                 <MappedKey />
               </MappedKeyAction>
@@ -8285,18 +8336,20 @@ See http://isboxer.com/wiki/WoW:Interact_with_Target.</Description>
                 <Target>DxNothing VFX1</Target>
                 <Rect>
                   <Location>
-                    <X>688</X>
+                    <X>344</X>
                     <Y>0</Y>
                   </Location>
                   <Size>
-                    <Width>688</Width>
-                    <Height>233</Height>
+                    <Width>344</Width>
+                    <Height>144</Height>
                   </Size>
-                  <X>688</X>
+                  <X>344</X>
                   <Y>0</Y>
-                  <Width>688</Width>
-                  <Height>233</Height>
+                  <Width>344</Width>
+                  <Height>144</Height>
                 </Rect>
+                <UseKeyRepeat>true</UseKeyRepeat>
+                <UseMouseRepeat>true</UseMouseRepeat>
                 <UseFocusHotkey>true</UseFocusHotkey>
                 <MappedKey />
               </MappedKeyAction>
@@ -8306,18 +8359,20 @@ See http://isboxer.com/wiki/WoW:Interact_with_Target.</Description>
                 <Target>DxNothing VFX1</Target>
                 <Rect>
                   <Location>
-                    <X>1376</X>
+                    <X>688</X>
                     <Y>0</Y>
                   </Location>
                   <Size>
-                    <Width>688</Width>
-                    <Height>233</Height>
+                    <Width>344</Width>
+                    <Height>144</Height>
                   </Size>
-                  <X>1376</X>
+                  <X>688</X>
                   <Y>0</Y>
-                  <Width>688</Width>
-                  <Height>233</Height>
+                  <Width>344</Width>
+                  <Height>144</Height>
                 </Rect>
+                <UseKeyRepeat>true</UseKeyRepeat>
+                <UseMouseRepeat>true</UseMouseRepeat>
                 <UseFocusHotkey>true</UseFocusHotkey>
                 <MappedKey />
               </MappedKeyAction>
@@ -8327,18 +8382,20 @@ See http://isboxer.com/wiki/WoW:Interact_with_Target.</Description>
                 <Target>DxNothing VFX1</Target>
                 <Rect>
                   <Location>
-                    <X>2064</X>
+                    <X>1032</X>
                     <Y>0</Y>
                   </Location>
                   <Size>
-                    <Width>688</Width>
-                    <Height>233</Height>
+                    <Width>344</Width>
+                    <Height>144</Height>
                   </Size>
-                  <X>2064</X>
+                  <X>1032</X>
                   <Y>0</Y>
-                  <Width>688</Width>
-                  <Height>233</Height>
+                  <Width>344</Width>
+                  <Height>144</Height>
                 </Rect>
+                <UseKeyRepeat>true</UseKeyRepeat>
+                <UseMouseRepeat>true</UseMouseRepeat>
                 <UseFocusHotkey>true</UseFocusHotkey>
                 <MappedKey />
               </MappedKeyAction>
@@ -8348,123 +8405,135 @@ See http://isboxer.com/wiki/WoW:Interact_with_Target.</Description>
                 <Target>DxNothing VFX1</Target>
                 <Rect>
                   <Location>
-                    <X>2752</X>
+                    <X>1376</X>
                     <Y>0</Y>
                   </Location>
                   <Size>
-                    <Width>688</Width>
-                    <Height>233</Height>
+                    <Width>344</Width>
+                    <Height>144</Height>
                   </Size>
-                  <X>2752</X>
+                  <X>1376</X>
                   <Y>0</Y>
-                  <Width>688</Width>
-                  <Height>233</Height>
+                  <Width>344</Width>
+                  <Height>144</Height>
                 </Rect>
+                <UseKeyRepeat>true</UseKeyRepeat>
+                <UseMouseRepeat>true</UseMouseRepeat>
                 <UseFocusHotkey>true</UseFocusHotkey>
                 <MappedKey />
               </MappedKeyAction>
               <MappedKeyAction xsi:type="VideoFeedsAction">
                 <Action>Remove</Action>
                 <Name>is6</Name>
-                <Target>DxNothing VFX2</Target>
+                <Target>DxNothing VFX1</Target>
                 <Rect>
                   <Location>
-                    <X>0</X>
+                    <X>1720</X>
                     <Y>0</Y>
                   </Location>
                   <Size>
-                    <Width>688</Width>
-                    <Height>233</Height>
+                    <Width>344</Width>
+                    <Height>144</Height>
                   </Size>
-                  <X>0</X>
+                  <X>1720</X>
                   <Y>0</Y>
-                  <Width>688</Width>
-                  <Height>233</Height>
+                  <Width>344</Width>
+                  <Height>144</Height>
                 </Rect>
+                <UseKeyRepeat>true</UseKeyRepeat>
+                <UseMouseRepeat>true</UseMouseRepeat>
                 <UseFocusHotkey>true</UseFocusHotkey>
                 <MappedKey />
               </MappedKeyAction>
               <MappedKeyAction xsi:type="VideoFeedsAction">
                 <Action>Add</Action>
                 <Name>is7</Name>
-                <Target>DxNothing VFX2</Target>
+                <Target>DxNothing VFX1</Target>
                 <Rect>
                   <Location>
-                    <X>0</X>
-                    <Y>233</Y>
+                    <X>2064</X>
+                    <Y>0</Y>
                   </Location>
                   <Size>
-                    <Width>688</Width>
-                    <Height>233</Height>
+                    <Width>344</Width>
+                    <Height>144</Height>
                   </Size>
-                  <X>0</X>
-                  <Y>233</Y>
-                  <Width>688</Width>
-                  <Height>233</Height>
+                  <X>2064</X>
+                  <Y>0</Y>
+                  <Width>344</Width>
+                  <Height>144</Height>
                 </Rect>
+                <UseKeyRepeat>true</UseKeyRepeat>
+                <UseMouseRepeat>true</UseMouseRepeat>
                 <UseFocusHotkey>true</UseFocusHotkey>
                 <MappedKey />
               </MappedKeyAction>
               <MappedKeyAction xsi:type="VideoFeedsAction">
                 <Action>Add</Action>
                 <Name>is8</Name>
-                <Target>DxNothing VFX2</Target>
+                <Target>DxNothing VFX1</Target>
                 <Rect>
                   <Location>
-                    <X>0</X>
-                    <Y>466</Y>
+                    <X>2408</X>
+                    <Y>0</Y>
                   </Location>
                   <Size>
-                    <Width>688</Width>
-                    <Height>233</Height>
+                    <Width>344</Width>
+                    <Height>144</Height>
                   </Size>
-                  <X>0</X>
-                  <Y>466</Y>
-                  <Width>688</Width>
-                  <Height>233</Height>
+                  <X>2408</X>
+                  <Y>0</Y>
+                  <Width>344</Width>
+                  <Height>144</Height>
                 </Rect>
+                <UseKeyRepeat>true</UseKeyRepeat>
+                <UseMouseRepeat>true</UseMouseRepeat>
                 <UseFocusHotkey>true</UseFocusHotkey>
                 <MappedKey />
               </MappedKeyAction>
               <MappedKeyAction xsi:type="VideoFeedsAction">
                 <Action>Add</Action>
                 <Name>is9</Name>
-                <Target>DxNothing VFX2</Target>
+                <Target>DxNothing VFX1</Target>
                 <Rect>
                   <Location>
-                    <X>0</X>
-                    <Y>699</Y>
+                    <X>2752</X>
+                    <Y>0</Y>
                   </Location>
                   <Size>
-                    <Width>688</Width>
-                    <Height>233</Height>
+                    <Width>344</Width>
+                    <Height>144</Height>
                   </Size>
-                  <X>0</X>
-                  <Y>699</Y>
-                  <Width>688</Width>
-                  <Height>233</Height>
+                  <X>2752</X>
+                  <Y>0</Y>
+                  <Width>344</Width>
+                  <Height>144</Height>
                 </Rect>
+                <UseKeyRepeat>true</UseKeyRepeat>
+                <UseMouseRepeat>true</UseMouseRepeat>
                 <UseFocusHotkey>true</UseFocusHotkey>
                 <MappedKey />
               </MappedKeyAction>
               <MappedKeyAction xsi:type="VideoFeedsAction">
                 <Action>Add</Action>
                 <Name>is10</Name>
-                <Target>DxNothing VFX2</Target>
+                <Target>DxNothing VFX1</Target>
                 <Rect>
                   <Location>
-                    <X>0</X>
-                    <Y>932</Y>
+                    <X>3096</X>
+                    <Y>0</Y>
                   </Location>
                   <Size>
-                    <Width>688</Width>
-                    <Height>233</Height>
+                    <Width>344</Width>
+                    <Height>144</Height>
                   </Size>
-                  <X>0</X>
-                  <Y>932</Y>
-                  <Width>688</Width>
-                  <Height>233</Height>
+                  <X>3096</X>
+                  <Y>0</Y>
+                  <Width>344</Width>
+                  <Height>144</Height>
                 </Rect>
+                <UseKeyRepeat>true</UseKeyRepeat>
+                <UseMouseRepeat>true</UseMouseRepeat>
                 <UseFocusHotkey>true</UseFocusHotkey>
                 <MappedKey />
               </MappedKeyAction>
@@ -8491,14 +8560,16 @@ See http://isboxer.com/wiki/WoW:Interact_with_Target.</Description>
                     <Y>0</Y>
                   </Location>
                   <Size>
-                    <Width>688</Width>
-                    <Height>233</Height>
+                    <Width>344</Width>
+                    <Height>144</Height>
                   </Size>
                   <X>0</X>
                   <Y>0</Y>
-                  <Width>688</Width>
-                  <Height>233</Height>
+                  <Width>344</Width>
+                  <Height>144</Height>
                 </Rect>
+                <UseKeyRepeat>true</UseKeyRepeat>
+                <UseMouseRepeat>true</UseMouseRepeat>
                 <UseFocusHotkey>true</UseFocusHotkey>
                 <MappedKey />
               </MappedKeyAction>
@@ -8508,18 +8579,20 @@ See http://isboxer.com/wiki/WoW:Interact_with_Target.</Description>
                 <Target>DxNothing VFX1</Target>
                 <Rect>
                   <Location>
-                    <X>688</X>
+                    <X>344</X>
                     <Y>0</Y>
                   </Location>
                   <Size>
-                    <Width>688</Width>
-                    <Height>233</Height>
+                    <Width>344</Width>
+                    <Height>144</Height>
                   </Size>
-                  <X>688</X>
+                  <X>344</X>
                   <Y>0</Y>
-                  <Width>688</Width>
-                  <Height>233</Height>
+                  <Width>344</Width>
+                  <Height>144</Height>
                 </Rect>
+                <UseKeyRepeat>true</UseKeyRepeat>
+                <UseMouseRepeat>true</UseMouseRepeat>
                 <UseFocusHotkey>true</UseFocusHotkey>
                 <MappedKey />
               </MappedKeyAction>
@@ -8529,18 +8602,20 @@ See http://isboxer.com/wiki/WoW:Interact_with_Target.</Description>
                 <Target>DxNothing VFX1</Target>
                 <Rect>
                   <Location>
-                    <X>1376</X>
+                    <X>688</X>
                     <Y>0</Y>
                   </Location>
                   <Size>
-                    <Width>688</Width>
-                    <Height>233</Height>
+                    <Width>344</Width>
+                    <Height>144</Height>
                   </Size>
-                  <X>1376</X>
+                  <X>688</X>
                   <Y>0</Y>
-                  <Width>688</Width>
-                  <Height>233</Height>
+                  <Width>344</Width>
+                  <Height>144</Height>
                 </Rect>
+                <UseKeyRepeat>true</UseKeyRepeat>
+                <UseMouseRepeat>true</UseMouseRepeat>
                 <UseFocusHotkey>true</UseFocusHotkey>
                 <MappedKey />
               </MappedKeyAction>
@@ -8550,18 +8625,20 @@ See http://isboxer.com/wiki/WoW:Interact_with_Target.</Description>
                 <Target>DxNothing VFX1</Target>
                 <Rect>
                   <Location>
-                    <X>2064</X>
+                    <X>1032</X>
                     <Y>0</Y>
                   </Location>
                   <Size>
-                    <Width>688</Width>
-                    <Height>233</Height>
+                    <Width>344</Width>
+                    <Height>144</Height>
                   </Size>
-                  <X>2064</X>
+                  <X>1032</X>
                   <Y>0</Y>
-                  <Width>688</Width>
-                  <Height>233</Height>
+                  <Width>344</Width>
+                  <Height>144</Height>
                 </Rect>
+                <UseKeyRepeat>true</UseKeyRepeat>
+                <UseMouseRepeat>true</UseMouseRepeat>
                 <UseFocusHotkey>true</UseFocusHotkey>
                 <MappedKey />
               </MappedKeyAction>
@@ -8571,123 +8648,135 @@ See http://isboxer.com/wiki/WoW:Interact_with_Target.</Description>
                 <Target>DxNothing VFX1</Target>
                 <Rect>
                   <Location>
-                    <X>2752</X>
+                    <X>1376</X>
                     <Y>0</Y>
                   </Location>
                   <Size>
-                    <Width>688</Width>
-                    <Height>233</Height>
+                    <Width>344</Width>
+                    <Height>144</Height>
                   </Size>
-                  <X>2752</X>
+                  <X>1376</X>
                   <Y>0</Y>
-                  <Width>688</Width>
-                  <Height>233</Height>
+                  <Width>344</Width>
+                  <Height>144</Height>
                 </Rect>
+                <UseKeyRepeat>true</UseKeyRepeat>
+                <UseMouseRepeat>true</UseMouseRepeat>
                 <UseFocusHotkey>true</UseFocusHotkey>
                 <MappedKey />
               </MappedKeyAction>
               <MappedKeyAction xsi:type="VideoFeedsAction">
                 <Action>Add</Action>
                 <Name>is6</Name>
-                <Target>DxNothing VFX2</Target>
+                <Target>DxNothing VFX1</Target>
                 <Rect>
                   <Location>
-                    <X>0</X>
+                    <X>1720</X>
                     <Y>0</Y>
                   </Location>
                   <Size>
-                    <Width>688</Width>
-                    <Height>233</Height>
+                    <Width>344</Width>
+                    <Height>144</Height>
                   </Size>
-                  <X>0</X>
+                  <X>1720</X>
                   <Y>0</Y>
-                  <Width>688</Width>
-                  <Height>233</Height>
+                  <Width>344</Width>
+                  <Height>144</Height>
                 </Rect>
+                <UseKeyRepeat>true</UseKeyRepeat>
+                <UseMouseRepeat>true</UseMouseRepeat>
                 <UseFocusHotkey>true</UseFocusHotkey>
                 <MappedKey />
               </MappedKeyAction>
               <MappedKeyAction xsi:type="VideoFeedsAction">
                 <Action>Remove</Action>
                 <Name>is7</Name>
-                <Target>DxNothing VFX2</Target>
+                <Target>DxNothing VFX1</Target>
                 <Rect>
                   <Location>
-                    <X>0</X>
-                    <Y>233</Y>
+                    <X>2064</X>
+                    <Y>0</Y>
                   </Location>
                   <Size>
-                    <Width>688</Width>
-                    <Height>233</Height>
+                    <Width>344</Width>
+                    <Height>144</Height>
                   </Size>
-                  <X>0</X>
-                  <Y>233</Y>
-                  <Width>688</Width>
-                  <Height>233</Height>
+                  <X>2064</X>
+                  <Y>0</Y>
+                  <Width>344</Width>
+                  <Height>144</Height>
                 </Rect>
+                <UseKeyRepeat>true</UseKeyRepeat>
+                <UseMouseRepeat>true</UseMouseRepeat>
                 <UseFocusHotkey>true</UseFocusHotkey>
                 <MappedKey />
               </MappedKeyAction>
               <MappedKeyAction xsi:type="VideoFeedsAction">
                 <Action>Add</Action>
                 <Name>is8</Name>
-                <Target>DxNothing VFX2</Target>
+                <Target>DxNothing VFX1</Target>
                 <Rect>
                   <Location>
-                    <X>0</X>
-                    <Y>466</Y>
+                    <X>2408</X>
+                    <Y>0</Y>
                   </Location>
                   <Size>
-                    <Width>688</Width>
-                    <Height>233</Height>
+                    <Width>344</Width>
+                    <Height>144</Height>
                   </Size>
-                  <X>0</X>
-                  <Y>466</Y>
-                  <Width>688</Width>
-                  <Height>233</Height>
+                  <X>2408</X>
+                  <Y>0</Y>
+                  <Width>344</Width>
+                  <Height>144</Height>
                 </Rect>
+                <UseKeyRepeat>true</UseKeyRepeat>
+                <UseMouseRepeat>true</UseMouseRepeat>
                 <UseFocusHotkey>true</UseFocusHotkey>
                 <MappedKey />
               </MappedKeyAction>
               <MappedKeyAction xsi:type="VideoFeedsAction">
                 <Action>Add</Action>
                 <Name>is9</Name>
-                <Target>DxNothing VFX2</Target>
+                <Target>DxNothing VFX1</Target>
                 <Rect>
                   <Location>
-                    <X>0</X>
-                    <Y>699</Y>
+                    <X>2752</X>
+                    <Y>0</Y>
                   </Location>
                   <Size>
-                    <Width>688</Width>
-                    <Height>233</Height>
+                    <Width>344</Width>
+                    <Height>144</Height>
                   </Size>
-                  <X>0</X>
-                  <Y>699</Y>
-                  <Width>688</Width>
-                  <Height>233</Height>
+                  <X>2752</X>
+                  <Y>0</Y>
+                  <Width>344</Width>
+                  <Height>144</Height>
                 </Rect>
+                <UseKeyRepeat>true</UseKeyRepeat>
+                <UseMouseRepeat>true</UseMouseRepeat>
                 <UseFocusHotkey>true</UseFocusHotkey>
                 <MappedKey />
               </MappedKeyAction>
               <MappedKeyAction xsi:type="VideoFeedsAction">
                 <Action>Add</Action>
                 <Name>is10</Name>
-                <Target>DxNothing VFX2</Target>
+                <Target>DxNothing VFX1</Target>
                 <Rect>
                   <Location>
-                    <X>0</X>
-                    <Y>932</Y>
+                    <X>3096</X>
+                    <Y>0</Y>
                   </Location>
                   <Size>
-                    <Width>688</Width>
-                    <Height>233</Height>
+                    <Width>344</Width>
+                    <Height>144</Height>
                   </Size>
-                  <X>0</X>
-                  <Y>932</Y>
-                  <Width>688</Width>
-                  <Height>233</Height>
+                  <X>3096</X>
+                  <Y>0</Y>
+                  <Width>344</Width>
+                  <Height>144</Height>
                 </Rect>
+                <UseKeyRepeat>true</UseKeyRepeat>
+                <UseMouseRepeat>true</UseMouseRepeat>
                 <UseFocusHotkey>true</UseFocusHotkey>
                 <MappedKey />
               </MappedKeyAction>
@@ -8714,14 +8803,16 @@ See http://isboxer.com/wiki/WoW:Interact_with_Target.</Description>
                     <Y>0</Y>
                   </Location>
                   <Size>
-                    <Width>688</Width>
-                    <Height>233</Height>
+                    <Width>344</Width>
+                    <Height>144</Height>
                   </Size>
                   <X>0</X>
                   <Y>0</Y>
-                  <Width>688</Width>
-                  <Height>233</Height>
+                  <Width>344</Width>
+                  <Height>144</Height>
                 </Rect>
+                <UseKeyRepeat>true</UseKeyRepeat>
+                <UseMouseRepeat>true</UseMouseRepeat>
                 <UseFocusHotkey>true</UseFocusHotkey>
                 <MappedKey />
               </MappedKeyAction>
@@ -8731,18 +8822,20 @@ See http://isboxer.com/wiki/WoW:Interact_with_Target.</Description>
                 <Target>DxNothing VFX1</Target>
                 <Rect>
                   <Location>
-                    <X>688</X>
+                    <X>344</X>
                     <Y>0</Y>
                   </Location>
                   <Size>
-                    <Width>688</Width>
-                    <Height>233</Height>
+                    <Width>344</Width>
+                    <Height>144</Height>
                   </Size>
-                  <X>688</X>
+                  <X>344</X>
                   <Y>0</Y>
-                  <Width>688</Width>
-                  <Height>233</Height>
+                  <Width>344</Width>
+                  <Height>144</Height>
                 </Rect>
+                <UseKeyRepeat>true</UseKeyRepeat>
+                <UseMouseRepeat>true</UseMouseRepeat>
                 <UseFocusHotkey>true</UseFocusHotkey>
                 <MappedKey />
               </MappedKeyAction>
@@ -8752,18 +8845,20 @@ See http://isboxer.com/wiki/WoW:Interact_with_Target.</Description>
                 <Target>DxNothing VFX1</Target>
                 <Rect>
                   <Location>
-                    <X>1376</X>
+                    <X>688</X>
                     <Y>0</Y>
                   </Location>
                   <Size>
-                    <Width>688</Width>
-                    <Height>233</Height>
+                    <Width>344</Width>
+                    <Height>144</Height>
                   </Size>
-                  <X>1376</X>
+                  <X>688</X>
                   <Y>0</Y>
-                  <Width>688</Width>
-                  <Height>233</Height>
+                  <Width>344</Width>
+                  <Height>144</Height>
                 </Rect>
+                <UseKeyRepeat>true</UseKeyRepeat>
+                <UseMouseRepeat>true</UseMouseRepeat>
                 <UseFocusHotkey>true</UseFocusHotkey>
                 <MappedKey />
               </MappedKeyAction>
@@ -8773,18 +8868,20 @@ See http://isboxer.com/wiki/WoW:Interact_with_Target.</Description>
                 <Target>DxNothing VFX1</Target>
                 <Rect>
                   <Location>
-                    <X>2064</X>
+                    <X>1032</X>
                     <Y>0</Y>
                   </Location>
                   <Size>
-                    <Width>688</Width>
-                    <Height>233</Height>
+                    <Width>344</Width>
+                    <Height>144</Height>
                   </Size>
-                  <X>2064</X>
+                  <X>1032</X>
                   <Y>0</Y>
-                  <Width>688</Width>
-                  <Height>233</Height>
+                  <Width>344</Width>
+                  <Height>144</Height>
                 </Rect>
+                <UseKeyRepeat>true</UseKeyRepeat>
+                <UseMouseRepeat>true</UseMouseRepeat>
                 <UseFocusHotkey>true</UseFocusHotkey>
                 <MappedKey />
               </MappedKeyAction>
@@ -8794,123 +8891,135 @@ See http://isboxer.com/wiki/WoW:Interact_with_Target.</Description>
                 <Target>DxNothing VFX1</Target>
                 <Rect>
                   <Location>
-                    <X>2752</X>
+                    <X>1376</X>
                     <Y>0</Y>
                   </Location>
                   <Size>
-                    <Width>688</Width>
-                    <Height>233</Height>
+                    <Width>344</Width>
+                    <Height>144</Height>
                   </Size>
-                  <X>2752</X>
+                  <X>1376</X>
                   <Y>0</Y>
-                  <Width>688</Width>
-                  <Height>233</Height>
+                  <Width>344</Width>
+                  <Height>144</Height>
                 </Rect>
+                <UseKeyRepeat>true</UseKeyRepeat>
+                <UseMouseRepeat>true</UseMouseRepeat>
                 <UseFocusHotkey>true</UseFocusHotkey>
                 <MappedKey />
               </MappedKeyAction>
               <MappedKeyAction xsi:type="VideoFeedsAction">
                 <Action>Add</Action>
                 <Name>is6</Name>
-                <Target>DxNothing VFX2</Target>
+                <Target>DxNothing VFX1</Target>
                 <Rect>
                   <Location>
-                    <X>0</X>
+                    <X>1720</X>
                     <Y>0</Y>
                   </Location>
                   <Size>
-                    <Width>688</Width>
-                    <Height>233</Height>
+                    <Width>344</Width>
+                    <Height>144</Height>
                   </Size>
-                  <X>0</X>
+                  <X>1720</X>
                   <Y>0</Y>
-                  <Width>688</Width>
-                  <Height>233</Height>
+                  <Width>344</Width>
+                  <Height>144</Height>
                 </Rect>
+                <UseKeyRepeat>true</UseKeyRepeat>
+                <UseMouseRepeat>true</UseMouseRepeat>
                 <UseFocusHotkey>true</UseFocusHotkey>
                 <MappedKey />
               </MappedKeyAction>
               <MappedKeyAction xsi:type="VideoFeedsAction">
                 <Action>Add</Action>
                 <Name>is7</Name>
-                <Target>DxNothing VFX2</Target>
+                <Target>DxNothing VFX1</Target>
                 <Rect>
                   <Location>
-                    <X>0</X>
-                    <Y>233</Y>
+                    <X>2064</X>
+                    <Y>0</Y>
                   </Location>
                   <Size>
-                    <Width>688</Width>
-                    <Height>233</Height>
+                    <Width>344</Width>
+                    <Height>144</Height>
                   </Size>
-                  <X>0</X>
-                  <Y>233</Y>
-                  <Width>688</Width>
-                  <Height>233</Height>
+                  <X>2064</X>
+                  <Y>0</Y>
+                  <Width>344</Width>
+                  <Height>144</Height>
                 </Rect>
+                <UseKeyRepeat>true</UseKeyRepeat>
+                <UseMouseRepeat>true</UseMouseRepeat>
                 <UseFocusHotkey>true</UseFocusHotkey>
                 <MappedKey />
               </MappedKeyAction>
               <MappedKeyAction xsi:type="VideoFeedsAction">
                 <Action>Remove</Action>
                 <Name>is8</Name>
-                <Target>DxNothing VFX2</Target>
+                <Target>DxNothing VFX1</Target>
                 <Rect>
                   <Location>
-                    <X>0</X>
-                    <Y>466</Y>
+                    <X>2408</X>
+                    <Y>0</Y>
                   </Location>
                   <Size>
-                    <Width>688</Width>
-                    <Height>233</Height>
+                    <Width>344</Width>
+                    <Height>144</Height>
                   </Size>
-                  <X>0</X>
-                  <Y>466</Y>
-                  <Width>688</Width>
-                  <Height>233</Height>
+                  <X>2408</X>
+                  <Y>0</Y>
+                  <Width>344</Width>
+                  <Height>144</Height>
                 </Rect>
+                <UseKeyRepeat>true</UseKeyRepeat>
+                <UseMouseRepeat>true</UseMouseRepeat>
                 <UseFocusHotkey>true</UseFocusHotkey>
                 <MappedKey />
               </MappedKeyAction>
               <MappedKeyAction xsi:type="VideoFeedsAction">
                 <Action>Add</Action>
                 <Name>is9</Name>
-                <Target>DxNothing VFX2</Target>
+                <Target>DxNothing VFX1</Target>
                 <Rect>
                   <Location>
-                    <X>0</X>
-                    <Y>699</Y>
+                    <X>2752</X>
+                    <Y>0</Y>
                   </Location>
                   <Size>
-                    <Width>688</Width>
-                    <Height>233</Height>
+                    <Width>344</Width>
+                    <Height>144</Height>
                   </Size>
-                  <X>0</X>
-                  <Y>699</Y>
-                  <Width>688</Width>
-                  <Height>233</Height>
+                  <X>2752</X>
+                  <Y>0</Y>
+                  <Width>344</Width>
+                  <Height>144</Height>
                 </Rect>
+                <UseKeyRepeat>true</UseKeyRepeat>
+                <UseMouseRepeat>true</UseMouseRepeat>
                 <UseFocusHotkey>true</UseFocusHotkey>
                 <MappedKey />
               </MappedKeyAction>
               <MappedKeyAction xsi:type="VideoFeedsAction">
                 <Action>Add</Action>
                 <Name>is10</Name>
-                <Target>DxNothing VFX2</Target>
+                <Target>DxNothing VFX1</Target>
                 <Rect>
                   <Location>
-                    <X>0</X>
-                    <Y>932</Y>
+                    <X>3096</X>
+                    <Y>0</Y>
                   </Location>
                   <Size>
-                    <Width>688</Width>
-                    <Height>233</Height>
+                    <Width>344</Width>
+                    <Height>144</Height>
                   </Size>
-                  <X>0</X>
-                  <Y>932</Y>
-                  <Width>688</Width>
-                  <Height>233</Height>
+                  <X>3096</X>
+                  <Y>0</Y>
+                  <Width>344</Width>
+                  <Height>144</Height>
                 </Rect>
+                <UseKeyRepeat>true</UseKeyRepeat>
+                <UseMouseRepeat>true</UseMouseRepeat>
                 <UseFocusHotkey>true</UseFocusHotkey>
                 <MappedKey />
               </MappedKeyAction>
@@ -8937,14 +9046,16 @@ See http://isboxer.com/wiki/WoW:Interact_with_Target.</Description>
                     <Y>0</Y>
                   </Location>
                   <Size>
-                    <Width>688</Width>
-                    <Height>233</Height>
+                    <Width>344</Width>
+                    <Height>144</Height>
                   </Size>
                   <X>0</X>
                   <Y>0</Y>
-                  <Width>688</Width>
-                  <Height>233</Height>
+                  <Width>344</Width>
+                  <Height>144</Height>
                 </Rect>
+                <UseKeyRepeat>true</UseKeyRepeat>
+                <UseMouseRepeat>true</UseMouseRepeat>
                 <UseFocusHotkey>true</UseFocusHotkey>
                 <MappedKey />
               </MappedKeyAction>
@@ -8954,18 +9065,20 @@ See http://isboxer.com/wiki/WoW:Interact_with_Target.</Description>
                 <Target>DxNothing VFX1</Target>
                 <Rect>
                   <Location>
-                    <X>688</X>
+                    <X>344</X>
                     <Y>0</Y>
                   </Location>
                   <Size>
-                    <Width>688</Width>
-                    <Height>233</Height>
+                    <Width>344</Width>
+                    <Height>144</Height>
                   </Size>
-                  <X>688</X>
+                  <X>344</X>
                   <Y>0</Y>
-                  <Width>688</Width>
-                  <Height>233</Height>
+                  <Width>344</Width>
+                  <Height>144</Height>
                 </Rect>
+                <UseKeyRepeat>true</UseKeyRepeat>
+                <UseMouseRepeat>true</UseMouseRepeat>
                 <UseFocusHotkey>true</UseFocusHotkey>
                 <MappedKey />
               </MappedKeyAction>
@@ -8975,18 +9088,20 @@ See http://isboxer.com/wiki/WoW:Interact_with_Target.</Description>
                 <Target>DxNothing VFX1</Target>
                 <Rect>
                   <Location>
-                    <X>1376</X>
+                    <X>688</X>
                     <Y>0</Y>
                   </Location>
                   <Size>
-                    <Width>688</Width>
-                    <Height>233</Height>
+                    <Width>344</Width>
+                    <Height>144</Height>
                   </Size>
-                  <X>1376</X>
+                  <X>688</X>
                   <Y>0</Y>
-                  <Width>688</Width>
-                  <Height>233</Height>
+                  <Width>344</Width>
+                  <Height>144</Height>
                 </Rect>
+                <UseKeyRepeat>true</UseKeyRepeat>
+                <UseMouseRepeat>true</UseMouseRepeat>
                 <UseFocusHotkey>true</UseFocusHotkey>
                 <MappedKey />
               </MappedKeyAction>
@@ -8996,18 +9111,20 @@ See http://isboxer.com/wiki/WoW:Interact_with_Target.</Description>
                 <Target>DxNothing VFX1</Target>
                 <Rect>
                   <Location>
-                    <X>2064</X>
+                    <X>1032</X>
                     <Y>0</Y>
                   </Location>
                   <Size>
-                    <Width>688</Width>
-                    <Height>233</Height>
+                    <Width>344</Width>
+                    <Height>144</Height>
                   </Size>
-                  <X>2064</X>
+                  <X>1032</X>
                   <Y>0</Y>
-                  <Width>688</Width>
-                  <Height>233</Height>
+                  <Width>344</Width>
+                  <Height>144</Height>
                 </Rect>
+                <UseKeyRepeat>true</UseKeyRepeat>
+                <UseMouseRepeat>true</UseMouseRepeat>
                 <UseFocusHotkey>true</UseFocusHotkey>
                 <MappedKey />
               </MappedKeyAction>
@@ -9017,123 +9134,135 @@ See http://isboxer.com/wiki/WoW:Interact_with_Target.</Description>
                 <Target>DxNothing VFX1</Target>
                 <Rect>
                   <Location>
-                    <X>2752</X>
+                    <X>1376</X>
                     <Y>0</Y>
                   </Location>
                   <Size>
-                    <Width>688</Width>
-                    <Height>233</Height>
+                    <Width>344</Width>
+                    <Height>144</Height>
                   </Size>
-                  <X>2752</X>
+                  <X>1376</X>
                   <Y>0</Y>
-                  <Width>688</Width>
-                  <Height>233</Height>
+                  <Width>344</Width>
+                  <Height>144</Height>
                 </Rect>
+                <UseKeyRepeat>true</UseKeyRepeat>
+                <UseMouseRepeat>true</UseMouseRepeat>
                 <UseFocusHotkey>true</UseFocusHotkey>
                 <MappedKey />
               </MappedKeyAction>
               <MappedKeyAction xsi:type="VideoFeedsAction">
                 <Action>Add</Action>
                 <Name>is6</Name>
-                <Target>DxNothing VFX2</Target>
+                <Target>DxNothing VFX1</Target>
                 <Rect>
                   <Location>
-                    <X>0</X>
+                    <X>1720</X>
                     <Y>0</Y>
                   </Location>
                   <Size>
-                    <Width>688</Width>
-                    <Height>233</Height>
+                    <Width>344</Width>
+                    <Height>144</Height>
                   </Size>
-                  <X>0</X>
+                  <X>1720</X>
                   <Y>0</Y>
-                  <Width>688</Width>
-                  <Height>233</Height>
+                  <Width>344</Width>
+                  <Height>144</Height>
                 </Rect>
+                <UseKeyRepeat>true</UseKeyRepeat>
+                <UseMouseRepeat>true</UseMouseRepeat>
                 <UseFocusHotkey>true</UseFocusHotkey>
                 <MappedKey />
               </MappedKeyAction>
               <MappedKeyAction xsi:type="VideoFeedsAction">
                 <Action>Add</Action>
                 <Name>is7</Name>
-                <Target>DxNothing VFX2</Target>
+                <Target>DxNothing VFX1</Target>
                 <Rect>
                   <Location>
-                    <X>0</X>
-                    <Y>233</Y>
+                    <X>2064</X>
+                    <Y>0</Y>
                   </Location>
                   <Size>
-                    <Width>688</Width>
-                    <Height>233</Height>
+                    <Width>344</Width>
+                    <Height>144</Height>
                   </Size>
-                  <X>0</X>
-                  <Y>233</Y>
-                  <Width>688</Width>
-                  <Height>233</Height>
+                  <X>2064</X>
+                  <Y>0</Y>
+                  <Width>344</Width>
+                  <Height>144</Height>
                 </Rect>
+                <UseKeyRepeat>true</UseKeyRepeat>
+                <UseMouseRepeat>true</UseMouseRepeat>
                 <UseFocusHotkey>true</UseFocusHotkey>
                 <MappedKey />
               </MappedKeyAction>
               <MappedKeyAction xsi:type="VideoFeedsAction">
                 <Action>Add</Action>
                 <Name>is8</Name>
-                <Target>DxNothing VFX2</Target>
+                <Target>DxNothing VFX1</Target>
                 <Rect>
                   <Location>
-                    <X>0</X>
-                    <Y>466</Y>
+                    <X>2408</X>
+                    <Y>0</Y>
                   </Location>
                   <Size>
-                    <Width>688</Width>
-                    <Height>233</Height>
+                    <Width>344</Width>
+                    <Height>144</Height>
                   </Size>
-                  <X>0</X>
-                  <Y>466</Y>
-                  <Width>688</Width>
-                  <Height>233</Height>
+                  <X>2408</X>
+                  <Y>0</Y>
+                  <Width>344</Width>
+                  <Height>144</Height>
                 </Rect>
+                <UseKeyRepeat>true</UseKeyRepeat>
+                <UseMouseRepeat>true</UseMouseRepeat>
                 <UseFocusHotkey>true</UseFocusHotkey>
                 <MappedKey />
               </MappedKeyAction>
               <MappedKeyAction xsi:type="VideoFeedsAction">
                 <Action>Remove</Action>
                 <Name>is9</Name>
-                <Target>DxNothing VFX2</Target>
+                <Target>DxNothing VFX1</Target>
                 <Rect>
                   <Location>
-                    <X>0</X>
-                    <Y>699</Y>
+                    <X>2752</X>
+                    <Y>0</Y>
                   </Location>
                   <Size>
-                    <Width>688</Width>
-                    <Height>233</Height>
+                    <Width>344</Width>
+                    <Height>144</Height>
                   </Size>
-                  <X>0</X>
-                  <Y>699</Y>
-                  <Width>688</Width>
-                  <Height>233</Height>
+                  <X>2752</X>
+                  <Y>0</Y>
+                  <Width>344</Width>
+                  <Height>144</Height>
                 </Rect>
+                <UseKeyRepeat>true</UseKeyRepeat>
+                <UseMouseRepeat>true</UseMouseRepeat>
                 <UseFocusHotkey>true</UseFocusHotkey>
                 <MappedKey />
               </MappedKeyAction>
               <MappedKeyAction xsi:type="VideoFeedsAction">
                 <Action>Add</Action>
                 <Name>is10</Name>
-                <Target>DxNothing VFX2</Target>
+                <Target>DxNothing VFX1</Target>
                 <Rect>
                   <Location>
-                    <X>0</X>
-                    <Y>932</Y>
+                    <X>3096</X>
+                    <Y>0</Y>
                   </Location>
                   <Size>
-                    <Width>688</Width>
-                    <Height>233</Height>
+                    <Width>344</Width>
+                    <Height>144</Height>
                   </Size>
-                  <X>0</X>
-                  <Y>932</Y>
-                  <Width>688</Width>
-                  <Height>233</Height>
+                  <X>3096</X>
+                  <Y>0</Y>
+                  <Width>344</Width>
+                  <Height>144</Height>
                 </Rect>
+                <UseKeyRepeat>true</UseKeyRepeat>
+                <UseMouseRepeat>true</UseMouseRepeat>
                 <UseFocusHotkey>true</UseFocusHotkey>
                 <MappedKey />
               </MappedKeyAction>
@@ -9160,14 +9289,16 @@ See http://isboxer.com/wiki/WoW:Interact_with_Target.</Description>
                     <Y>0</Y>
                   </Location>
                   <Size>
-                    <Width>688</Width>
-                    <Height>233</Height>
+                    <Width>344</Width>
+                    <Height>144</Height>
                   </Size>
                   <X>0</X>
                   <Y>0</Y>
-                  <Width>688</Width>
-                  <Height>233</Height>
+                  <Width>344</Width>
+                  <Height>144</Height>
                 </Rect>
+                <UseKeyRepeat>true</UseKeyRepeat>
+                <UseMouseRepeat>true</UseMouseRepeat>
                 <UseFocusHotkey>true</UseFocusHotkey>
                 <MappedKey />
               </MappedKeyAction>
@@ -9177,18 +9308,20 @@ See http://isboxer.com/wiki/WoW:Interact_with_Target.</Description>
                 <Target>DxNothing VFX1</Target>
                 <Rect>
                   <Location>
-                    <X>688</X>
+                    <X>344</X>
                     <Y>0</Y>
                   </Location>
                   <Size>
-                    <Width>688</Width>
-                    <Height>233</Height>
+                    <Width>344</Width>
+                    <Height>144</Height>
                   </Size>
-                  <X>688</X>
+                  <X>344</X>
                   <Y>0</Y>
-                  <Width>688</Width>
-                  <Height>233</Height>
+                  <Width>344</Width>
+                  <Height>144</Height>
                 </Rect>
+                <UseKeyRepeat>true</UseKeyRepeat>
+                <UseMouseRepeat>true</UseMouseRepeat>
                 <UseFocusHotkey>true</UseFocusHotkey>
                 <MappedKey />
               </MappedKeyAction>
@@ -9198,18 +9331,20 @@ See http://isboxer.com/wiki/WoW:Interact_with_Target.</Description>
                 <Target>DxNothing VFX1</Target>
                 <Rect>
                   <Location>
-                    <X>1376</X>
+                    <X>688</X>
                     <Y>0</Y>
                   </Location>
                   <Size>
-                    <Width>688</Width>
-                    <Height>233</Height>
+                    <Width>344</Width>
+                    <Height>144</Height>
                   </Size>
-                  <X>1376</X>
+                  <X>688</X>
                   <Y>0</Y>
-                  <Width>688</Width>
-                  <Height>233</Height>
+                  <Width>344</Width>
+                  <Height>144</Height>
                 </Rect>
+                <UseKeyRepeat>true</UseKeyRepeat>
+                <UseMouseRepeat>true</UseMouseRepeat>
                 <UseFocusHotkey>true</UseFocusHotkey>
                 <MappedKey />
               </MappedKeyAction>
@@ -9219,18 +9354,20 @@ See http://isboxer.com/wiki/WoW:Interact_with_Target.</Description>
                 <Target>DxNothing VFX1</Target>
                 <Rect>
                   <Location>
-                    <X>2064</X>
+                    <X>1032</X>
                     <Y>0</Y>
                   </Location>
                   <Size>
-                    <Width>688</Width>
-                    <Height>233</Height>
+                    <Width>344</Width>
+                    <Height>144</Height>
                   </Size>
-                  <X>2064</X>
+                  <X>1032</X>
                   <Y>0</Y>
-                  <Width>688</Width>
-                  <Height>233</Height>
+                  <Width>344</Width>
+                  <Height>144</Height>
                 </Rect>
+                <UseKeyRepeat>true</UseKeyRepeat>
+                <UseMouseRepeat>true</UseMouseRepeat>
                 <UseFocusHotkey>true</UseFocusHotkey>
                 <MappedKey />
               </MappedKeyAction>
@@ -9240,123 +9377,135 @@ See http://isboxer.com/wiki/WoW:Interact_with_Target.</Description>
                 <Target>DxNothing VFX1</Target>
                 <Rect>
                   <Location>
-                    <X>2752</X>
+                    <X>1376</X>
                     <Y>0</Y>
                   </Location>
                   <Size>
-                    <Width>688</Width>
-                    <Height>233</Height>
+                    <Width>344</Width>
+                    <Height>144</Height>
                   </Size>
-                  <X>2752</X>
+                  <X>1376</X>
                   <Y>0</Y>
-                  <Width>688</Width>
-                  <Height>233</Height>
+                  <Width>344</Width>
+                  <Height>144</Height>
                 </Rect>
+                <UseKeyRepeat>true</UseKeyRepeat>
+                <UseMouseRepeat>true</UseMouseRepeat>
                 <UseFocusHotkey>true</UseFocusHotkey>
                 <MappedKey />
               </MappedKeyAction>
               <MappedKeyAction xsi:type="VideoFeedsAction">
                 <Action>Add</Action>
                 <Name>is6</Name>
-                <Target>DxNothing VFX2</Target>
+                <Target>DxNothing VFX1</Target>
                 <Rect>
                   <Location>
-                    <X>0</X>
+                    <X>1720</X>
                     <Y>0</Y>
                   </Location>
                   <Size>
-                    <Width>688</Width>
-                    <Height>233</Height>
+                    <Width>344</Width>
+                    <Height>144</Height>
                   </Size>
-                  <X>0</X>
+                  <X>1720</X>
                   <Y>0</Y>
-                  <Width>688</Width>
-                  <Height>233</Height>
+                  <Width>344</Width>
+                  <Height>144</Height>
                 </Rect>
+                <UseKeyRepeat>true</UseKeyRepeat>
+                <UseMouseRepeat>true</UseMouseRepeat>
                 <UseFocusHotkey>true</UseFocusHotkey>
                 <MappedKey />
               </MappedKeyAction>
               <MappedKeyAction xsi:type="VideoFeedsAction">
                 <Action>Add</Action>
                 <Name>is7</Name>
-                <Target>DxNothing VFX2</Target>
+                <Target>DxNothing VFX1</Target>
                 <Rect>
                   <Location>
-                    <X>0</X>
-                    <Y>233</Y>
+                    <X>2064</X>
+                    <Y>0</Y>
                   </Location>
                   <Size>
-                    <Width>688</Width>
-                    <Height>233</Height>
+                    <Width>344</Width>
+                    <Height>144</Height>
                   </Size>
-                  <X>0</X>
-                  <Y>233</Y>
-                  <Width>688</Width>
-                  <Height>233</Height>
+                  <X>2064</X>
+                  <Y>0</Y>
+                  <Width>344</Width>
+                  <Height>144</Height>
                 </Rect>
+                <UseKeyRepeat>true</UseKeyRepeat>
+                <UseMouseRepeat>true</UseMouseRepeat>
                 <UseFocusHotkey>true</UseFocusHotkey>
                 <MappedKey />
               </MappedKeyAction>
               <MappedKeyAction xsi:type="VideoFeedsAction">
                 <Action>Add</Action>
                 <Name>is8</Name>
-                <Target>DxNothing VFX2</Target>
+                <Target>DxNothing VFX1</Target>
                 <Rect>
                   <Location>
-                    <X>0</X>
-                    <Y>466</Y>
+                    <X>2408</X>
+                    <Y>0</Y>
                   </Location>
                   <Size>
-                    <Width>688</Width>
-                    <Height>233</Height>
+                    <Width>344</Width>
+                    <Height>144</Height>
                   </Size>
-                  <X>0</X>
-                  <Y>466</Y>
-                  <Width>688</Width>
-                  <Height>233</Height>
+                  <X>2408</X>
+                  <Y>0</Y>
+                  <Width>344</Width>
+                  <Height>144</Height>
                 </Rect>
+                <UseKeyRepeat>true</UseKeyRepeat>
+                <UseMouseRepeat>true</UseMouseRepeat>
                 <UseFocusHotkey>true</UseFocusHotkey>
                 <MappedKey />
               </MappedKeyAction>
               <MappedKeyAction xsi:type="VideoFeedsAction">
                 <Action>Add</Action>
                 <Name>is9</Name>
-                <Target>DxNothing VFX2</Target>
+                <Target>DxNothing VFX1</Target>
                 <Rect>
                   <Location>
-                    <X>0</X>
-                    <Y>699</Y>
+                    <X>2752</X>
+                    <Y>0</Y>
                   </Location>
                   <Size>
-                    <Width>688</Width>
-                    <Height>233</Height>
+                    <Width>344</Width>
+                    <Height>144</Height>
                   </Size>
-                  <X>0</X>
-                  <Y>699</Y>
-                  <Width>688</Width>
-                  <Height>233</Height>
+                  <X>2752</X>
+                  <Y>0</Y>
+                  <Width>344</Width>
+                  <Height>144</Height>
                 </Rect>
+                <UseKeyRepeat>true</UseKeyRepeat>
+                <UseMouseRepeat>true</UseMouseRepeat>
                 <UseFocusHotkey>true</UseFocusHotkey>
                 <MappedKey />
               </MappedKeyAction>
               <MappedKeyAction xsi:type="VideoFeedsAction">
                 <Action>Remove</Action>
                 <Name>is10</Name>
-                <Target>DxNothing VFX2</Target>
+                <Target>DxNothing VFX1</Target>
                 <Rect>
                   <Location>
-                    <X>0</X>
-                    <Y>932</Y>
+                    <X>3096</X>
+                    <Y>0</Y>
                   </Location>
                   <Size>
-                    <Width>688</Width>
-                    <Height>233</Height>
+                    <Width>344</Width>
+                    <Height>144</Height>
                   </Size>
-                  <X>0</X>
-                  <Y>932</Y>
-                  <Width>688</Width>
-                  <Height>233</Height>
+                  <X>3096</X>
+                  <Y>0</Y>
+                  <Width>344</Width>
+                  <Height>144</Height>
                 </Rect>
+                <UseKeyRepeat>true</UseKeyRepeat>
+                <UseMouseRepeat>true</UseMouseRepeat>
                 <UseFocusHotkey>true</UseFocusHotkey>
                 <MappedKey />
               </MappedKeyAction>
@@ -9502,23 +9651,17 @@ See http://isboxer.com/wiki/WoW:Interact_with_Target.</Description>
               </MappedKeyAction>
               <MappedKeyAction xsi:type="ClickBarStateAction">
                 <Target>all</Target>
-                <ClickBar>
-                  <ClickBarString>Healing - Primary S3</ClickBarString>
-                </ClickBar>
+                <ClickBar />
                 <ClickBarSet />
               </MappedKeyAction>
               <MappedKeyAction xsi:type="ClickBarStateAction">
                 <Target>all</Target>
-                <ClickBar>
-                  <ClickBarString>Healing - Primary S4</ClickBarString>
-                </ClickBar>
+                <ClickBar />
                 <ClickBarSet />
               </MappedKeyAction>
               <MappedKeyAction xsi:type="ClickBarStateAction">
                 <Target>all</Target>
-                <ClickBar>
-                  <ClickBarString>Healing - Primary S5</ClickBarString>
-                </ClickBar>
+                <ClickBar />
                 <ClickBarSet />
               </MappedKeyAction>
               <MappedKeyAction xsi:type="ClickBarStateAction">
@@ -9537,23 +9680,17 @@ See http://isboxer.com/wiki/WoW:Interact_with_Target.</Description>
               </MappedKeyAction>
               <MappedKeyAction xsi:type="ClickBarStateAction">
                 <Target>all</Target>
-                <ClickBar>
-                  <ClickBarString>Healing - Secondary S3</ClickBarString>
-                </ClickBar>
+                <ClickBar />
                 <ClickBarSet />
               </MappedKeyAction>
               <MappedKeyAction xsi:type="ClickBarStateAction">
                 <Target>all</Target>
-                <ClickBar>
-                  <ClickBarString>Healing - Secondary S4</ClickBarString>
-                </ClickBar>
+                <ClickBar />
                 <ClickBarSet />
               </MappedKeyAction>
               <MappedKeyAction xsi:type="ClickBarStateAction">
                 <Target>all</Target>
-                <ClickBar>
-                  <ClickBarString>Healing - Secondary S5</ClickBarString>
-                </ClickBar>
+                <ClickBar />
                 <ClickBarSet />
               </MappedKeyAction>
               <MappedKeyAction xsi:type="ClickBarStateAction">
@@ -9572,23 +9709,17 @@ See http://isboxer.com/wiki/WoW:Interact_with_Target.</Description>
               </MappedKeyAction>
               <MappedKeyAction xsi:type="ClickBarStateAction">
                 <Target>all</Target>
-                <ClickBar>
-                  <ClickBarString>Healing - Tertiary S3</ClickBarString>
-                </ClickBar>
+                <ClickBar />
                 <ClickBarSet />
               </MappedKeyAction>
               <MappedKeyAction xsi:type="ClickBarStateAction">
                 <Target>all</Target>
-                <ClickBar>
-                  <ClickBarString>Healing - Tertiary S4</ClickBarString>
-                </ClickBar>
+                <ClickBar />
                 <ClickBarSet />
               </MappedKeyAction>
               <MappedKeyAction xsi:type="ClickBarStateAction">
                 <Target>all</Target>
-                <ClickBar>
-                  <ClickBarString>Healing - Tertiary S5</ClickBarString>
-                </ClickBar>
+                <ClickBar />
                 <ClickBarSet />
               </MappedKeyAction>
               <MappedKeyAction xsi:type="MappedKeyStepAction">
@@ -9622,25 +9753,19 @@ See http://isboxer.com/wiki/WoW:Interact_with_Target.</Description>
               </MappedKeyAction>
               <MappedKeyAction xsi:type="ClickBarStateAction">
                 <Target>all</Target>
-                <ClickBar>
-                  <ClickBarString>Healing - Primary S3</ClickBarString>
-                </ClickBar>
+                <ClickBar />
                 <Value>Off</Value>
                 <ClickBarSet />
               </MappedKeyAction>
               <MappedKeyAction xsi:type="ClickBarStateAction">
                 <Target>all</Target>
-                <ClickBar>
-                  <ClickBarString>Healing - Primary S4</ClickBarString>
-                </ClickBar>
+                <ClickBar />
                 <Value>Off</Value>
                 <ClickBarSet />
               </MappedKeyAction>
               <MappedKeyAction xsi:type="ClickBarStateAction">
                 <Target>all</Target>
-                <ClickBar>
-                  <ClickBarString>Healing - Primary S5</ClickBarString>
-                </ClickBar>
+                <ClickBar />
                 <Value>Off</Value>
                 <ClickBarSet />
               </MappedKeyAction>
@@ -9662,25 +9787,19 @@ See http://isboxer.com/wiki/WoW:Interact_with_Target.</Description>
               </MappedKeyAction>
               <MappedKeyAction xsi:type="ClickBarStateAction">
                 <Target>all</Target>
-                <ClickBar>
-                  <ClickBarString>Healing - Secondary S3</ClickBarString>
-                </ClickBar>
+                <ClickBar />
                 <Value>Off</Value>
                 <ClickBarSet />
               </MappedKeyAction>
               <MappedKeyAction xsi:type="ClickBarStateAction">
                 <Target>all</Target>
-                <ClickBar>
-                  <ClickBarString>Healing - Secondary S4</ClickBarString>
-                </ClickBar>
+                <ClickBar />
                 <Value>Off</Value>
                 <ClickBarSet />
               </MappedKeyAction>
               <MappedKeyAction xsi:type="ClickBarStateAction">
                 <Target>all</Target>
-                <ClickBar>
-                  <ClickBarString>Healing - Secondary S5</ClickBarString>
-                </ClickBar>
+                <ClickBar />
                 <Value>Off</Value>
                 <ClickBarSet />
               </MappedKeyAction>
@@ -9702,25 +9821,19 @@ See http://isboxer.com/wiki/WoW:Interact_with_Target.</Description>
               </MappedKeyAction>
               <MappedKeyAction xsi:type="ClickBarStateAction">
                 <Target>all</Target>
-                <ClickBar>
-                  <ClickBarString>Healing - Tertiary S3</ClickBarString>
-                </ClickBar>
+                <ClickBar />
                 <Value>Off</Value>
                 <ClickBarSet />
               </MappedKeyAction>
               <MappedKeyAction xsi:type="ClickBarStateAction">
                 <Target>all</Target>
-                <ClickBar>
-                  <ClickBarString>Healing - Tertiary S4</ClickBarString>
-                </ClickBar>
+                <ClickBar />
                 <Value>Off</Value>
                 <ClickBarSet />
               </MappedKeyAction>
               <MappedKeyAction xsi:type="ClickBarStateAction">
                 <Target>all</Target>
-                <ClickBar>
-                  <ClickBarString>Healing - Tertiary S5</ClickBarString>
-                </ClickBar>
+                <ClickBar />
                 <Value>Off</Value>
                 <ClickBarSet />
               </MappedKeyAction>
@@ -16500,7 +16613,6 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
             </Actions>
           </Step>
           <Step>
-            <Disabled>true</Disabled>
             <Actions>
               <MappedKeyAction xsi:type="WoWMacroRefAction">
                 <UseCustomModifiers />
@@ -16508,6 +16620,38 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
                   <WoWMacroSetString>Warrior</WoWMacroSetString>
                   <WoWMacroString>Hamstring</WoWMacroString>
                 </WoWMacro>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <UseCustomModifiers />
+                <WoWMacro>
+                  <WoWMacroSetString>Warrior</WoWMacroSetString>
+                  <WoWMacroString>Thunder Clap</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyStepStateAction">
+                <ActionTimer>
+                  <PoolName>Thunder Clap CD</PoolName>
+                  <Seconds>15</Seconds>
+                  <Enabled>true</Enabled>
+                </ActionTimer>
+                <Target>self</Target>
+                <MappedKey>
+                  <KeyMapString>Warrior - Arms</KeyMapString>
+                  <MappedKeyString>DPS Rotation</MappedKeyString>
+                </MappedKey>
+                <Enable>1</Enable>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyStepStateAction">
+                <Target>self</Target>
+                <MappedKey>
+                  <KeyMapString>Warrior - Arms</KeyMapString>
+                  <MappedKeyString>DPS Rotation</MappedKeyString>
+                </MappedKey>
+                <Enable>0</Enable>
               </MappedKeyAction>
             </Actions>
           </Step>
@@ -19199,6 +19343,33 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
           </Step>
         </Steps>
       </MappedKey>
+      <MappedKey>
+        <Name>Buffs - Self</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <UseCustomModifiers />
+                <WoWMacro>
+                  <WoWMacroSetString>Shaman</WoWMacroSetString>
+                  <WoWMacroString>Rockbiter Weapon</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <UseCustomModifiers />
+                <WoWMacro>
+                  <WoWMacroSetString>Shaman</WoWMacroSetString>
+                  <WoWMacroString>Lightning Shield</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
     </Mappings>
   </KeyMap>
   <KeyMap>
@@ -19346,12 +19517,9 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
         <Steps>
           <Step>
             <Actions>
-              <MappedKeyAction xsi:type="WoWMacroRefAction">
-                <UseCustomModifiers />
-                <WoWMacro>
-                  <WoWMacroSetString>Shaman</WoWMacroSetString>
-                  <WoWMacroString>Rockbiter Weapon</WoWMacroString>
-                </WoWMacro>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Shaman - Base</KeyMapString>
+                <MappedKeyString>Buffs - Self</MappedKeyString>
               </MappedKeyAction>
             </Actions>
           </Step>
@@ -19674,6 +19842,10 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
                 <KeyMapString>ISB42 - Action Target Group</KeyMapString>
                 <MappedKeyString>Healer Role - Join</MappedKeyString>
               </MappedKeyAction>
+              <MappedKeyAction xsi:type="TargetGroupAction">
+                <Action>Leave</Action>
+                <RelayGroupString>Combat</RelayGroupString>
+              </MappedKeyAction>
             </Actions>
           </Step>
         </Steps>
@@ -19825,12 +19997,9 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
         <Steps>
           <Step>
             <Actions>
-              <MappedKeyAction xsi:type="WoWMacroRefAction">
-                <UseCustomModifiers />
-                <WoWMacro>
-                  <WoWMacroSetString>Shaman</WoWMacroSetString>
-                  <WoWMacroString>Rockbiter Weapon</WoWMacroString>
-                </WoWMacro>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Shaman - Base</KeyMapString>
+                <MappedKeyString>Buffs - Self</MappedKeyString>
               </MappedKeyAction>
             </Actions>
           </Step>
@@ -20304,12 +20473,9 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
         <Steps>
           <Step>
             <Actions>
-              <MappedKeyAction xsi:type="WoWMacroRefAction">
-                <UseCustomModifiers />
-                <WoWMacro>
-                  <WoWMacroSetString>Shaman</WoWMacroSetString>
-                  <WoWMacroString>Rockbiter Weapon</WoWMacroString>
-                </WoWMacro>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Shaman - Base</KeyMapString>
+                <MappedKeyString>Buffs - Self</MappedKeyString>
               </MappedKeyAction>
             </Actions>
           </Step>
@@ -20630,7 +20796,7 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
               </MappedKeyAction>
               <MappedKeyAction xsi:type="MappedKeyExecuteAction">
                 <KeyMapString>ISB42 - Action Target Group</KeyMapString>
-                <MappedKeyString>Healer - Tertiary - Join</MappedKeyString>
+                <MappedKeyString>Healer - Secondary - Join</MappedKeyString>
               </MappedKeyAction>
             </Actions>
           </Step>
@@ -22198,6 +22364,19 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
         </Combo>
         <AllowCustomModifiers />
       </WoWMacro>
+      <WoWMacro>
+        <MacroCommands>/cast Lightning Shield</MacroCommands>
+        <ColloquialName>Lightning Shield</ColloquialName>
+        <Combo>
+          <Combo>Ctrl+Shift+F</Combo>
+          <Modifiers>Ctrl Shift</Modifiers>
+          <Key>
+            <Key>F</Key>
+            <Code>33</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers />
+      </WoWMacro>
     </WoWMacros>
   </WoWMacroSet>
   <ActionTimerPool>
@@ -22301,6 +22480,9 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
   </ActionTimerPool>
   <ActionTimerPool>
     <Name>Rockbiter Weapon CD</Name>
+  </ActionTimerPool>
+  <ActionTimerPool>
+    <Name>Thunder Clap CD</Name>
   </ActionTimerPool>
   <VariableKeystroke>
     <Name>Move Forward</Name>
@@ -22546,11 +22728,12 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
   </ClickBar>
   <ClickBar>
     <Name>Healing - Primary S1</Name>
-    <X>567</X>
-    <Y>490</Y>
-    <RowHeight>44</RowHeight>
+    <X>860</X>
+    <Y>710</Y>
+    <RowHeight>315</RowHeight>
     <ColumnWidth>64</ColumnWidth>
     <BackgroundColor />
+    <CellBorder>0</CellBorder>
     <CellBorder_Color>
       <Red>255</Red>
       <Green>255</Green>
@@ -22595,158 +22778,12 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
   </ClickBar>
   <ClickBar>
     <Name>Healing - Primary S2</Name>
-    <X>567</X>
-    <Y>539</Y>
-    <RowHeight>44</RowHeight>
+    <X>1027</X>
+    <Y>710</Y>
+    <RowHeight>315</RowHeight>
     <ColumnWidth>64</ColumnWidth>
     <BackgroundColor />
-    <CellBorder_Color>
-      <Red>255</Red>
-      <Green>255</Green>
-      <Blue>255</Blue>
-    </CellBorder_Color>
-    <Rows>1</Rows>
-    <Columns>1</Columns>
-    <Buttons>
-      <Button>
-        <Enabled>false</Enabled>
-        <Name>HP1</Name>
-        <BackgroundColor>
-          <Alpha>0</Alpha>
-        </BackgroundColor>
-        <ClickActions>
-          <ClickAction>
-            <LeftRight>Left</LeftRight>
-            <Action>
-              <KeyMapString>ISB42 - Healing - Primary</KeyMapString>
-              <MappedKeyString>Left Click</MappedKeyString>
-            </Action>
-          </ClickAction>
-          <ClickAction>
-            <LeftRight>Right</LeftRight>
-            <Action>
-              <KeyMapString>ISB42 - Healing - Primary</KeyMapString>
-              <MappedKeyString>Right Click</MappedKeyString>
-            </Action>
-          </ClickAction>
-        </ClickActions>
-        <MouseOverAction>
-          <LeftRight>Left</LeftRight>
-          <Action>
-            <KeyMapString>ISB42 - Healing - Primary</KeyMapString>
-            <MappedKeyString>Toggle Mouseover</MappedKeyString>
-          </Action>
-        </MouseOverAction>
-        <Tooltip />
-        <Text />
-      </Button>
-    </Buttons>
-  </ClickBar>
-  <ClickBar>
-    <Name>Healing - Primary S3</Name>
-    <X>567</X>
-    <Y>588</Y>
-    <RowHeight>44</RowHeight>
-    <ColumnWidth>64</ColumnWidth>
-    <BackgroundColor />
-    <CellBorder_Color>
-      <Red>255</Red>
-      <Green>255</Green>
-      <Blue>255</Blue>
-    </CellBorder_Color>
-    <Rows>1</Rows>
-    <Columns>1</Columns>
-    <Buttons>
-      <Button>
-        <Enabled>false</Enabled>
-        <Name>HP1</Name>
-        <BackgroundColor>
-          <Alpha>0</Alpha>
-        </BackgroundColor>
-        <ClickActions>
-          <ClickAction>
-            <LeftRight>Left</LeftRight>
-            <Action>
-              <KeyMapString>ISB42 - Healing - Primary</KeyMapString>
-              <MappedKeyString>Left Click</MappedKeyString>
-            </Action>
-          </ClickAction>
-          <ClickAction>
-            <LeftRight>Right</LeftRight>
-            <Action>
-              <KeyMapString>ISB42 - Healing - Primary</KeyMapString>
-              <MappedKeyString>Right Click</MappedKeyString>
-            </Action>
-          </ClickAction>
-        </ClickActions>
-        <MouseOverAction>
-          <LeftRight>Left</LeftRight>
-          <Action>
-            <KeyMapString>ISB42 - Healing - Primary</KeyMapString>
-            <MappedKeyString>Toggle Mouseover</MappedKeyString>
-          </Action>
-        </MouseOverAction>
-        <Tooltip />
-        <Text />
-      </Button>
-    </Buttons>
-  </ClickBar>
-  <ClickBar>
-    <Name>Healing - Primary S4</Name>
-    <X>567</X>
-    <Y>638</Y>
-    <RowHeight>44</RowHeight>
-    <ColumnWidth>64</ColumnWidth>
-    <BackgroundColor />
-    <CellBorder_Color>
-      <Red>255</Red>
-      <Green>255</Green>
-      <Blue>255</Blue>
-    </CellBorder_Color>
-    <Rows>1</Rows>
-    <Columns>1</Columns>
-    <Buttons>
-      <Button>
-        <Enabled>false</Enabled>
-        <Name>HP1</Name>
-        <BackgroundColor>
-          <Alpha>0</Alpha>
-        </BackgroundColor>
-        <ClickActions>
-          <ClickAction>
-            <LeftRight>Left</LeftRight>
-            <Action>
-              <KeyMapString>ISB42 - Healing - Primary</KeyMapString>
-              <MappedKeyString>Left Click</MappedKeyString>
-            </Action>
-          </ClickAction>
-          <ClickAction>
-            <LeftRight>Right</LeftRight>
-            <Action>
-              <KeyMapString>ISB42 - Healing - Primary</KeyMapString>
-              <MappedKeyString>Right Click</MappedKeyString>
-            </Action>
-          </ClickAction>
-        </ClickActions>
-        <MouseOverAction>
-          <LeftRight>Left</LeftRight>
-          <Action>
-            <KeyMapString>ISB42 - Healing - Primary</KeyMapString>
-            <MappedKeyString>Toggle Mouseover</MappedKeyString>
-          </Action>
-        </MouseOverAction>
-        <Tooltip />
-        <Text />
-      </Button>
-    </Buttons>
-  </ClickBar>
-  <ClickBar>
-    <Name>Healing - Primary S5</Name>
-    <X>567</X>
-    <Y>688</Y>
-    <RowHeight>44</RowHeight>
-    <ColumnWidth>64</ColumnWidth>
-    <BackgroundColor />
+    <CellBorder>0</CellBorder>
     <CellBorder_Color>
       <Red>255</Red>
       <Green>255</Green>
@@ -22805,11 +22842,12 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
   </ClickBar>
   <ClickBar>
     <Name>Healing - Secondary S1</Name>
-    <X>503</X>
-    <Y>490</Y>
-    <RowHeight>44</RowHeight>
+    <X>960</X>
+    <Y>710</Y>
+    <RowHeight>315</RowHeight>
     <ColumnWidth>64</ColumnWidth>
     <BackgroundColor />
+    <CellBorder>0</CellBorder>
     <CellBorder_Color>
       <Red>255</Red>
       <Green>255</Green>
@@ -22854,158 +22892,12 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
   </ClickBar>
   <ClickBar>
     <Name>Healing - Secondary S2</Name>
-    <X>503</X>
-    <Y>539</Y>
-    <RowHeight>44</RowHeight>
+    <X>1127</X>
+    <Y>710</Y>
+    <RowHeight>315</RowHeight>
     <ColumnWidth>64</ColumnWidth>
     <BackgroundColor />
-    <CellBorder_Color>
-      <Red>255</Red>
-      <Green>255</Green>
-      <Blue>255</Blue>
-    </CellBorder_Color>
-    <Rows>1</Rows>
-    <Columns>1</Columns>
-    <Buttons>
-      <Button>
-        <Enabled>false</Enabled>
-        <Name>HP1</Name>
-        <BackgroundColor>
-          <Alpha>0</Alpha>
-        </BackgroundColor>
-        <ClickActions>
-          <ClickAction>
-            <LeftRight>Left</LeftRight>
-            <Action>
-              <KeyMapString>ISB42 - Healing - Secondary</KeyMapString>
-              <MappedKeyString>Left Click</MappedKeyString>
-            </Action>
-          </ClickAction>
-          <ClickAction>
-            <LeftRight>Right</LeftRight>
-            <Action>
-              <KeyMapString>ISB42 - Healing - Secondary</KeyMapString>
-              <MappedKeyString>Right Click</MappedKeyString>
-            </Action>
-          </ClickAction>
-        </ClickActions>
-        <MouseOverAction>
-          <LeftRight>Left</LeftRight>
-          <Action>
-            <KeyMapString>ISB42 - Healing - Secondary</KeyMapString>
-            <MappedKeyString>Toggle Mouseover</MappedKeyString>
-          </Action>
-        </MouseOverAction>
-        <Tooltip />
-        <Text />
-      </Button>
-    </Buttons>
-  </ClickBar>
-  <ClickBar>
-    <Name>Healing - Secondary S3</Name>
-    <X>503</X>
-    <Y>588</Y>
-    <RowHeight>44</RowHeight>
-    <ColumnWidth>64</ColumnWidth>
-    <BackgroundColor />
-    <CellBorder_Color>
-      <Red>255</Red>
-      <Green>255</Green>
-      <Blue>255</Blue>
-    </CellBorder_Color>
-    <Rows>1</Rows>
-    <Columns>1</Columns>
-    <Buttons>
-      <Button>
-        <Enabled>false</Enabled>
-        <Name>HP1</Name>
-        <BackgroundColor>
-          <Alpha>0</Alpha>
-        </BackgroundColor>
-        <ClickActions>
-          <ClickAction>
-            <LeftRight>Left</LeftRight>
-            <Action>
-              <KeyMapString>ISB42 - Healing - Secondary</KeyMapString>
-              <MappedKeyString>Left Click</MappedKeyString>
-            </Action>
-          </ClickAction>
-          <ClickAction>
-            <LeftRight>Right</LeftRight>
-            <Action>
-              <KeyMapString>ISB42 - Healing - Secondary</KeyMapString>
-              <MappedKeyString>Right Click</MappedKeyString>
-            </Action>
-          </ClickAction>
-        </ClickActions>
-        <MouseOverAction>
-          <LeftRight>Left</LeftRight>
-          <Action>
-            <KeyMapString>ISB42 - Healing - Secondary</KeyMapString>
-            <MappedKeyString>Toggle Mouseover</MappedKeyString>
-          </Action>
-        </MouseOverAction>
-        <Tooltip />
-        <Text />
-      </Button>
-    </Buttons>
-  </ClickBar>
-  <ClickBar>
-    <Name>Healing - Secondary S4</Name>
-    <X>503</X>
-    <Y>638</Y>
-    <RowHeight>44</RowHeight>
-    <ColumnWidth>64</ColumnWidth>
-    <BackgroundColor />
-    <CellBorder_Color>
-      <Red>255</Red>
-      <Green>255</Green>
-      <Blue>255</Blue>
-    </CellBorder_Color>
-    <Rows>1</Rows>
-    <Columns>1</Columns>
-    <Buttons>
-      <Button>
-        <Enabled>false</Enabled>
-        <Name>HP1</Name>
-        <BackgroundColor>
-          <Alpha>0</Alpha>
-        </BackgroundColor>
-        <ClickActions>
-          <ClickAction>
-            <LeftRight>Left</LeftRight>
-            <Action>
-              <KeyMapString>ISB42 - Healing - Secondary</KeyMapString>
-              <MappedKeyString>Left Click</MappedKeyString>
-            </Action>
-          </ClickAction>
-          <ClickAction>
-            <LeftRight>Right</LeftRight>
-            <Action>
-              <KeyMapString>ISB42 - Healing - Secondary</KeyMapString>
-              <MappedKeyString>Right Click</MappedKeyString>
-            </Action>
-          </ClickAction>
-        </ClickActions>
-        <MouseOverAction>
-          <LeftRight>Left</LeftRight>
-          <Action>
-            <KeyMapString>ISB42 - Healing - Secondary</KeyMapString>
-            <MappedKeyString>Toggle Mouseover</MappedKeyString>
-          </Action>
-        </MouseOverAction>
-        <Tooltip />
-        <Text />
-      </Button>
-    </Buttons>
-  </ClickBar>
-  <ClickBar>
-    <Name>Healing - Secondary S5</Name>
-    <X>503</X>
-    <Y>688</Y>
-    <RowHeight>44</RowHeight>
-    <ColumnWidth>64</ColumnWidth>
-    <BackgroundColor />
+    <CellBorder>0</CellBorder>
     <CellBorder_Color>
       <Red>255</Red>
       <Green>255</Green>
@@ -23064,10 +22956,9 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
   </ClickBar>
   <ClickBar>
     <Name>Healing - Tertiary S1</Name>
-    <X>439</X>
-    <Y>490</Y>
-    <RowHeight>44</RowHeight>
-    <ColumnWidth>64</ColumnWidth>
+    <X>700</X>
+    <Y>200</Y>
+    <RowHeight>250</RowHeight>
     <BackgroundColor />
     <CellBorder_Color>
       <Red>255</Red>
@@ -23113,157 +23004,9 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
   </ClickBar>
   <ClickBar>
     <Name>Healing - Tertiary S2</Name>
-    <X>439</X>
-    <Y>539</Y>
-    <RowHeight>44</RowHeight>
-    <ColumnWidth>64</ColumnWidth>
-    <BackgroundColor />
-    <CellBorder_Color>
-      <Red>255</Red>
-      <Green>255</Green>
-      <Blue>255</Blue>
-    </CellBorder_Color>
-    <Rows>1</Rows>
-    <Columns>1</Columns>
-    <Buttons>
-      <Button>
-        <Enabled>false</Enabled>
-        <Name>HP1</Name>
-        <BackgroundColor>
-          <Alpha>0</Alpha>
-        </BackgroundColor>
-        <ClickActions>
-          <ClickAction>
-            <LeftRight>Left</LeftRight>
-            <Action>
-              <KeyMapString>ISB42 - Healing - Tertiary</KeyMapString>
-              <MappedKeyString>Left Click</MappedKeyString>
-            </Action>
-          </ClickAction>
-          <ClickAction>
-            <LeftRight>Right</LeftRight>
-            <Action>
-              <KeyMapString>ISB42 - Healing - Tertiary</KeyMapString>
-              <MappedKeyString>Right Click</MappedKeyString>
-            </Action>
-          </ClickAction>
-        </ClickActions>
-        <MouseOverAction>
-          <LeftRight>Left</LeftRight>
-          <Action>
-            <KeyMapString>ISB42 - Healing - Tertiary</KeyMapString>
-            <MappedKeyString>Toggle Mouseover</MappedKeyString>
-          </Action>
-        </MouseOverAction>
-        <Tooltip />
-        <Text />
-      </Button>
-    </Buttons>
-  </ClickBar>
-  <ClickBar>
-    <Name>Healing - Tertiary S3</Name>
-    <X>439</X>
-    <Y>588</Y>
-    <RowHeight>44</RowHeight>
-    <ColumnWidth>64</ColumnWidth>
-    <BackgroundColor />
-    <CellBorder_Color>
-      <Red>255</Red>
-      <Green>255</Green>
-      <Blue>255</Blue>
-    </CellBorder_Color>
-    <Rows>1</Rows>
-    <Columns>1</Columns>
-    <Buttons>
-      <Button>
-        <Enabled>false</Enabled>
-        <Name>HP1</Name>
-        <BackgroundColor>
-          <Alpha>0</Alpha>
-        </BackgroundColor>
-        <ClickActions>
-          <ClickAction>
-            <LeftRight>Left</LeftRight>
-            <Action>
-              <KeyMapString>ISB42 - Healing - Tertiary</KeyMapString>
-              <MappedKeyString>Left Click</MappedKeyString>
-            </Action>
-          </ClickAction>
-          <ClickAction>
-            <LeftRight>Right</LeftRight>
-            <Action>
-              <KeyMapString>ISB42 - Healing - Tertiary</KeyMapString>
-              <MappedKeyString>Right Click</MappedKeyString>
-            </Action>
-          </ClickAction>
-        </ClickActions>
-        <MouseOverAction>
-          <LeftRight>Left</LeftRight>
-          <Action>
-            <KeyMapString>ISB42 - Healing - Tertiary</KeyMapString>
-            <MappedKeyString>Toggle Mouseover</MappedKeyString>
-          </Action>
-        </MouseOverAction>
-        <Tooltip />
-        <Text />
-      </Button>
-    </Buttons>
-  </ClickBar>
-  <ClickBar>
-    <Name>Healing - Tertiary S4</Name>
-    <X>439</X>
-    <Y>638</Y>
-    <RowHeight>44</RowHeight>
-    <ColumnWidth>64</ColumnWidth>
-    <BackgroundColor />
-    <CellBorder_Color>
-      <Red>255</Red>
-      <Green>255</Green>
-      <Blue>255</Blue>
-    </CellBorder_Color>
-    <Rows>1</Rows>
-    <Columns>1</Columns>
-    <Buttons>
-      <Button>
-        <Enabled>false</Enabled>
-        <Name>HP1</Name>
-        <BackgroundColor>
-          <Alpha>0</Alpha>
-        </BackgroundColor>
-        <ClickActions>
-          <ClickAction>
-            <LeftRight>Left</LeftRight>
-            <Action>
-              <KeyMapString>ISB42 - Healing - Tertiary</KeyMapString>
-              <MappedKeyString>Left Click</MappedKeyString>
-            </Action>
-          </ClickAction>
-          <ClickAction>
-            <LeftRight>Right</LeftRight>
-            <Action>
-              <KeyMapString>ISB42 - Healing - Tertiary</KeyMapString>
-              <MappedKeyString>Right Click</MappedKeyString>
-            </Action>
-          </ClickAction>
-        </ClickActions>
-        <MouseOverAction>
-          <LeftRight>Left</LeftRight>
-          <Action>
-            <KeyMapString>ISB42 - Healing - Tertiary</KeyMapString>
-            <MappedKeyString>Toggle Mouseover</MappedKeyString>
-          </Action>
-        </MouseOverAction>
-        <Tooltip />
-        <Text />
-      </Button>
-    </Buttons>
-  </ClickBar>
-  <ClickBar>
-    <Name>Healing - Tertiary S5</Name>
-    <X>439</X>
-    <Y>688</Y>
-    <RowHeight>44</RowHeight>
-    <ColumnWidth>64</ColumnWidth>
+    <X>800</X>
+    <Y>200</Y>
+    <RowHeight>250</RowHeight>
     <BackgroundColor />
     <CellBorder_Color>
       <Red>255</Red>
