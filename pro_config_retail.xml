@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ISBoxerToolkitProfile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="42" VersionMinor="0" BuildDate="12/3/2019 2:53:11 PM">
+<ISBoxerToolkitProfile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="42" VersionMinor="0" BuildDate="12/6/2019 5:32:39 PM">
   <CharacterSet>
     <ExecuteOnLoad>
       <Target />
@@ -943,6 +943,14 @@
         <Code>34</Code>
       </Key>
     </GUIToggleCombo>
+    <ConsoleToggleCombo>
+      <Combo>Alt+`</Combo>
+      <Modifiers>Alt</Modifiers>
+      <Key>
+        <Key>`</Key>
+        <Code>41</Code>
+      </Key>
+    </ConsoleToggleCombo>
     <VideoFXFocusCombo>
       <Combo>Alt+Mouse1</Combo>
       <Modifiers>Alt</Modifiers>
@@ -951,6 +959,7 @@
         <Code>0</Code>
       </Key>
     </VideoFXFocusCombo>
+    <UseConsoleToggleCombo>true</UseConsoleToggleCombo>
     <Slots>
       <Slot>
         <ForegroundMaxFPS>60</ForegroundMaxFPS>
@@ -1337,14 +1346,6 @@
         <ForegroundMaxFPS>60</ForegroundMaxFPS>
         <BackgroundMaxFPS>30</BackgroundMaxFPS>
         <CharacterString>DxNothing VFX1</CharacterString>
-        <SwitchToCombo>
-          <Combo>Ctrl+Alt+6</Combo>
-          <Modifiers>Ctrl Alt</Modifiers>
-          <Key>
-            <Key>6</Key>
-            <Code>7</Code>
-          </Key>
-        </SwitchToCombo>
         <SwitchToComboIsGlobal>false</SwitchToComboIsGlobal>
         <EffectType>None</EffectType>
         <WindowTitle />
@@ -1493,11 +1494,12 @@
     <RelayGroupStrings>
       <string>DxNothing</string>
     </RelayGroupStrings>
-    <KeyMapStrings>
-      <string>ISB42 - Video FX Layout</string>
-    </KeyMapStrings>
-    <KeyMapWhiteOrBlackListType>WhiteList</KeyMapWhiteOrBlackListType>
+    <KeyMapStrings />
+    <KeyMapWhiteOrBlackListType>Ignore</KeyMapWhiteOrBlackListType>
     <KeyMapWhiteOrBlackList>
+      <KeyMapLooseRef>
+        <KeyMapString>ISB42 - Toggles</KeyMapString>
+      </KeyMapLooseRef>
       <KeyMapLooseRef>
         <KeyMapString>ISB42 - Video FX Layout</KeyMapString>
       </KeyMapLooseRef>
@@ -1898,7 +1900,7 @@
     <ServerName>Tichondrius</ServerName>
     <ActualName>Nazuras</ActualName>
     <Game>World of Warcraft</Game>
-    <GameProfile>World of Warcraft Client (DirectX 12)</GameProfile>
+    <GameProfile>World of Warcraft Client (DirectX 11 Legacy)</GameProfile>
     <KnownGame>WoW</KnownGame>
     <RelayGroupStrings />
     <KeyMapStrings>
@@ -2022,7 +2024,7 @@
     <ServerName>Tichondrius</ServerName>
     <ActualName>Názuras</ActualName>
     <Game>World of Warcraft</Game>
-    <GameProfile>World of Warcraft Client (DirectX 12)</GameProfile>
+    <GameProfile>World of Warcraft Client (DirectX 11 Legacy)</GameProfile>
     <KnownGame>WoW</KnownGame>
     <RelayGroupStrings />
     <KeyMapStrings>
@@ -2084,7 +2086,7 @@
     <ServerName>Tichondrius</ServerName>
     <ActualName>Nazurás</ActualName>
     <Game>World of Warcraft</Game>
-    <GameProfile>World of Warcraft Client (DirectX 12)</GameProfile>
+    <GameProfile>World of Warcraft Client (DirectX 11 Legacy)</GameProfile>
     <KnownGame>WoW</KnownGame>
     <RelayGroupStrings />
     <KeyMapStrings>
@@ -2138,7 +2140,7 @@
     <ServerName>Tichondrius</ServerName>
     <ActualName>Nazúras</ActualName>
     <Game>World of Warcraft</Game>
-    <GameProfile>World of Warcraft Client (DirectX 12)</GameProfile>
+    <GameProfile>World of Warcraft Client (DirectX 11 Legacy)</GameProfile>
     <KnownGame>WoW</KnownGame>
     <RelayGroupStrings />
     <KeyMapStrings>
@@ -2200,7 +2202,7 @@
     <ServerName>Tichondrius</ServerName>
     <ActualName>Názurás</ActualName>
     <Game>World of Warcraft</Game>
-    <GameProfile>World of Warcraft Client (DirectX 12)</GameProfile>
+    <GameProfile>World of Warcraft Client (DirectX 11 Legacy)</GameProfile>
     <KnownGame>WoW</KnownGame>
     <RelayGroupStrings />
     <KeyMapStrings>
@@ -4411,6 +4413,41 @@ See http://isboxer.com/wiki/WoW:Interact_with_Target.</Description>
           </Step>
         </Steps>
       </MappedKey>
+      <MappedKey>
+        <Name>Mouseover Harvest</Name>
+        <Combo>
+          <Combo>Shift+Z</Combo>
+          <Modifiers>Shift</Modifiers>
+          <Key>
+            <Key>Z</Key>
+            <Code>44</Code>
+          </Key>
+        </Combo>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="SyncCursorAction">
+                <Target>all other</Target>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="Keystroke">
+                <Target>all</Target>
+                <Combo>
+                  <Combo>Mouse2</Combo>
+                  <Key>
+                    <Key>Mouse2</Key>
+                    <Code>0</Code>
+                  </Key>
+                </Combo>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
     </Mappings>
   </KeyMap>
   <KeyMap>
@@ -4430,7 +4467,7 @@ See http://isboxer.com/wiki/WoW:Interact_with_Target.</Description>
           <Step>
             <Actions>
               <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-                <Target>all</Target>
+                <Target>Combat</Target>
                 <KeyMapString>ISB42 - Virtual Combat</KeyMapString>
                 <MappedKeyString>Initiate Combat</MappedKeyString>
               </MappedKeyAction>
@@ -4448,11 +4485,20 @@ See http://isboxer.com/wiki/WoW:Interact_with_Target.</Description>
             <Code>3</Code>
           </Key>
         </Combo>
+        <Mode>OnPressAndRelease</Mode>
         <Steps>
           <Step>
             <Actions>
               <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-                <Target>all</Target>
+                <KeyMapString>ISB42 - Party</KeyMapString>
+                <MappedKeyString>Auto-Assist Me - Active Method</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <Target>Combat</Target>
                 <KeyMapString>ISB42 - Virtual Combat</KeyMapString>
                 <MappedKeyString>DPS Rotation</MappedKeyString>
               </MappedKeyAction>
@@ -4474,7 +4520,7 @@ See http://isboxer.com/wiki/WoW:Interact_with_Target.</Description>
           <Step>
             <Actions>
               <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-                <Target>all</Target>
+                <Target>Combat</Target>
                 <KeyMapString>ISB42 - Virtual Combat</KeyMapString>
                 <MappedKeyString>AOE DPS Rotation</MappedKeyString>
               </MappedKeyAction>
@@ -4496,7 +4542,7 @@ See http://isboxer.com/wiki/WoW:Interact_with_Target.</Description>
           <Step>
             <Actions>
               <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-                <Target>all</Target>
+                <Target>Combat</Target>
                 <KeyMapString>ISB42 - Virtual Combat</KeyMapString>
                 <MappedKeyString>PVP DPS Rotation</MappedKeyString>
               </MappedKeyAction>
@@ -4518,7 +4564,7 @@ See http://isboxer.com/wiki/WoW:Interact_with_Target.</Description>
           <Step>
             <Actions>
               <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-                <Target>all</Target>
+                <Target>Combat</Target>
                 <KeyMapString>ISB42 - Virtual Combat</KeyMapString>
                 <MappedKeyString>PVP AOE DPS Rotation</MappedKeyString>
               </MappedKeyAction>
@@ -4540,7 +4586,7 @@ See http://isboxer.com/wiki/WoW:Interact_with_Target.</Description>
           <Step>
             <Actions>
               <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-                <Target>all</Target>
+                <Target>Combat</Target>
                 <KeyMapString>ISB42 - Virtual Combat</KeyMapString>
                 <MappedKeyString>Ground-Target AOE (Damage)</MappedKeyString>
               </MappedKeyAction>
@@ -4562,7 +4608,7 @@ See http://isboxer.com/wiki/WoW:Interact_with_Target.</Description>
           <Step>
             <Actions>
               <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-                <Target>all</Target>
+                <Target>Combat</Target>
                 <KeyMapString>ISB42 - Virtual Combat</KeyMapString>
                 <MappedKeyString>Ground-Target AOE (Healing)</MappedKeyString>
               </MappedKeyAction>
@@ -4581,6 +4627,14 @@ See http://isboxer.com/wiki/WoW:Interact_with_Target.</Description>
           </Key>
         </Combo>
         <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>ISB42 - Party</KeyMapString>
+                <MappedKeyString>Auto-Assist Me - Active Method</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
           <Step>
             <Actions>
               <MappedKeyAction xsi:type="MappedKeyExecuteAction">
@@ -4607,7 +4661,7 @@ See http://isboxer.com/wiki/WoW:Interact_with_Target.</Description>
           <Step>
             <Actions>
               <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-                <Target>all</Target>
+                <Target>Stun</Target>
                 <KeyMapString>ISB42 - Virtual Combat</KeyMapString>
                 <MappedKeyString>Stun</MappedKeyString>
               </MappedKeyAction>
@@ -4653,7 +4707,16 @@ See http://isboxer.com/wiki/WoW:Interact_with_Target.</Description>
             <Code>12</Code>
           </Key>
         </Combo>
+        <Mode>OnPressAndRelease</Mode>
         <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>ISB42 - Party</KeyMapString>
+                <MappedKeyString>Auto-Assist Me - Active Method</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
           <Step>
             <Actions>
               <MappedKeyAction xsi:type="MappedKeyExecuteAction">
@@ -4702,7 +4765,7 @@ See http://isboxer.com/wiki/WoW:Interact_with_Target.</Description>
           <Step>
             <Actions>
               <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-                <Target>all</Target>
+                <Target>Combat</Target>
                 <KeyMapString>ISB42 - Virtual Combat</KeyMapString>
                 <MappedKeyString>Panic</MappedKeyString>
               </MappedKeyAction>
@@ -4724,7 +4787,7 @@ See http://isboxer.com/wiki/WoW:Interact_with_Target.</Description>
           <Step>
             <Actions>
               <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-                <Target>all</Target>
+                <Target>Combat</Target>
                 <KeyMapString>ISB42 - Virtual Combat</KeyMapString>
                 <MappedKeyString>Cooldowns</MappedKeyString>
               </MappedKeyAction>
@@ -4746,7 +4809,7 @@ See http://isboxer.com/wiki/WoW:Interact_with_Target.</Description>
           <Step>
             <Actions>
               <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-                <Target>all</Target>
+                <Target>Combat</Target>
                 <KeyMapString>ISB42 - Virtual Combat</KeyMapString>
                 <MappedKeyString>Activate Proc</MappedKeyString>
               </MappedKeyAction>
@@ -4862,7 +4925,7 @@ See http://isboxer.com/wiki/WoW:Interact_with_Target.</Description>
           <Step>
             <Actions>
               <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-                <Target>all</Target>
+                <Target>Combat</Target>
                 <KeyMapString>ISB42 - Virtual Combat</KeyMapString>
                 <MappedKeyString>Pet Attack</MappedKeyString>
               </MappedKeyAction>
@@ -6261,7 +6324,7 @@ See http://isboxer.com/wiki/WoW:Interact_with_Target.</Description>
               <MappedKeyAction xsi:type="VideoFeedsAction">
                 <Action>Add</Action>
                 <Name>is2</Name>
-                <Target>6</Target>
+                <Target>DxNothing VFX1</Target>
                 <Rect>
                   <Location>
                     <X>688</X>
@@ -6284,7 +6347,7 @@ See http://isboxer.com/wiki/WoW:Interact_with_Target.</Description>
               <MappedKeyAction xsi:type="VideoFeedsAction">
                 <Action>Add</Action>
                 <Name>is3</Name>
-                <Target>6</Target>
+                <Target>DxNothing VFX1</Target>
                 <Rect>
                   <Location>
                     <X>1376</X>
@@ -6307,7 +6370,7 @@ See http://isboxer.com/wiki/WoW:Interact_with_Target.</Description>
               <MappedKeyAction xsi:type="VideoFeedsAction">
                 <Action>Add</Action>
                 <Name>is4</Name>
-                <Target>6</Target>
+                <Target>DxNothing VFX1</Target>
                 <Rect>
                   <Location>
                     <X>2064</X>
@@ -6330,7 +6393,7 @@ See http://isboxer.com/wiki/WoW:Interact_with_Target.</Description>
               <MappedKeyAction xsi:type="VideoFeedsAction">
                 <Action>Add</Action>
                 <Name>is5</Name>
-                <Target>6</Target>
+                <Target>DxNothing VFX1</Target>
                 <Rect>
                   <Location>
                     <X>2752</X>
@@ -6360,9 +6423,9 @@ See http://isboxer.com/wiki/WoW:Interact_with_Target.</Description>
           <Step>
             <Actions>
               <MappedKeyAction xsi:type="VideoFeedsAction">
-                <Action>Remove</Action>
+                <Action>Add</Action>
                 <Name>is1</Name>
-                <Target>6</Target>
+                <Target>DxNothing VFX1</Target>
                 <Rect>
                   <Location>
                     <X>0</X>
@@ -6377,13 +6440,14 @@ See http://isboxer.com/wiki/WoW:Interact_with_Target.</Description>
                   <Width>688</Width>
                   <Height>233</Height>
                 </Rect>
+                <UseMouseRepeat>true</UseMouseRepeat>
                 <UseFocusHotkey>true</UseFocusHotkey>
                 <MappedKey />
               </MappedKeyAction>
               <MappedKeyAction xsi:type="VideoFeedsAction">
                 <Action>Add</Action>
                 <Name>is2</Name>
-                <Target>6</Target>
+                <Target>DxNothing VFX1</Target>
                 <Rect>
                   <Location>
                     <X>688</X>
@@ -6398,13 +6462,14 @@ See http://isboxer.com/wiki/WoW:Interact_with_Target.</Description>
                   <Width>688</Width>
                   <Height>233</Height>
                 </Rect>
+                <UseMouseRepeat>true</UseMouseRepeat>
                 <UseFocusHotkey>true</UseFocusHotkey>
                 <MappedKey />
               </MappedKeyAction>
               <MappedKeyAction xsi:type="VideoFeedsAction">
                 <Action>Add</Action>
                 <Name>is3</Name>
-                <Target>6</Target>
+                <Target>DxNothing VFX1</Target>
                 <Rect>
                   <Location>
                     <X>1376</X>
@@ -6419,13 +6484,14 @@ See http://isboxer.com/wiki/WoW:Interact_with_Target.</Description>
                   <Width>688</Width>
                   <Height>233</Height>
                 </Rect>
+                <UseMouseRepeat>true</UseMouseRepeat>
                 <UseFocusHotkey>true</UseFocusHotkey>
                 <MappedKey />
               </MappedKeyAction>
               <MappedKeyAction xsi:type="VideoFeedsAction">
                 <Action>Add</Action>
                 <Name>is4</Name>
-                <Target>6</Target>
+                <Target>DxNothing VFX1</Target>
                 <Rect>
                   <Location>
                     <X>2064</X>
@@ -6440,13 +6506,14 @@ See http://isboxer.com/wiki/WoW:Interact_with_Target.</Description>
                   <Width>688</Width>
                   <Height>233</Height>
                 </Rect>
+                <UseMouseRepeat>true</UseMouseRepeat>
                 <UseFocusHotkey>true</UseFocusHotkey>
                 <MappedKey />
               </MappedKeyAction>
               <MappedKeyAction xsi:type="VideoFeedsAction">
                 <Action>Add</Action>
                 <Name>is5</Name>
-                <Target>6</Target>
+                <Target>DxNothing VFX1</Target>
                 <Rect>
                   <Location>
                     <X>2752</X>
@@ -6461,6 +6528,7 @@ See http://isboxer.com/wiki/WoW:Interact_with_Target.</Description>
                   <Width>688</Width>
                   <Height>233</Height>
                 </Rect>
+                <UseMouseRepeat>true</UseMouseRepeat>
                 <UseFocusHotkey>true</UseFocusHotkey>
                 <MappedKey />
               </MappedKeyAction>
@@ -6952,6 +7020,13 @@ See http://isboxer.com/wiki/WoW:Interact_with_Target.</Description>
               <MappedKeyAction xsi:type="MappedKeyExecuteAction">
                 <KeyMapString>ISB42 - WoW</KeyMapString>
                 <MappedKeyString>JambaMaster</MappedKeyString>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <UseCustomModifiers />
+                <WoWMacro>
+                  <WoWMacroSetString>Game Settings</WoWMacroSetString>
+                  <WoWMacroString>Set Camera Position 4</WoWMacroString>
+                </WoWMacro>
               </MappedKeyAction>
             </Actions>
           </Step>
@@ -15955,6 +16030,10 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
                 <KeyMapString>ISB42 - Action Target Group</KeyMapString>
                 <MappedKeyString>Melee - Join</MappedKeyString>
               </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>ISB42 - Action Target Group</KeyMapString>
+                <MappedKeyString>Pull - Join</MappedKeyString>
+              </MappedKeyAction>
             </Actions>
           </Step>
         </Steps>
@@ -16264,7 +16343,7 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
                 <UseCustomModifiers />
                 <WoWMacro>
                   <WoWMacroSetString>Death Knight</WoWMacroSetString>
-                  <WoWMacroString>Dark Command</WoWMacroString>
+                  <WoWMacroString>Death Grip</WoWMacroString>
                 </WoWMacro>
               </MappedKeyAction>
             </Actions>
@@ -16331,10 +16410,6 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
               <MappedKeyAction xsi:type="MappedKeyExecuteAction">
                 <KeyMapString>ISB42 - Action Target Group</KeyMapString>
                 <MappedKeyString>Interrupt - Join</MappedKeyString>
-              </MappedKeyAction>
-              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-                <KeyMapString>ISB42 - Action Target Group</KeyMapString>
-                <MappedKeyString>Pull - Join</MappedKeyString>
               </MappedKeyAction>
               <MappedKeyAction xsi:type="MappedKeyExecuteAction">
                 <KeyMapString>ISB42 - Action Target Group</KeyMapString>
@@ -18103,7 +18178,7 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
     <Name>Death Knight</Name>
     <WoWMacros>
       <WoWMacro>
-        <MacroCommands>/cast Death's Caress</MacroCommands>
+        <MacroCommands>/cast [exists] Death's Caress</MacroCommands>
         <ColloquialName>Death's Caress</ColloquialName>
         <Combo>
           <Combo>Ctrl+Alt+A</Combo>
@@ -18120,7 +18195,7 @@ Instant
 Deals 1,800 shadow damage and applies Blood Plague -- drains 6,080 health over 24 secs</Description>
       </WoWMacro>
       <WoWMacro>
-        <MacroCommands>/cast [combat, nochanneling] Vampiric Blood</MacroCommands>
+        <MacroCommands>/cast [nochanneling] Vampiric Blood</MacroCommands>
         <ColloquialName>Vampiric Blood</ColloquialName>
         <Combo>
           <Combo>Ctrl+Alt+B</Combo>
@@ -18407,6 +18482,19 @@ Each Rune spent while active increases your Strength by an additional 1%</Descri
         <Description>Instant -- 15 sec cooldown
 
 Smash the target's mind with cold, interrutping spellcasting and preventing any spell in that school from being cast for 3 sec.</Description>
+      </WoWMacro>
+      <WoWMacro>
+        <MacroCommands>/cast Death Grip</MacroCommands>
+        <ColloquialName>Death Grip</ColloquialName>
+        <Combo>
+          <Combo>Ctrl+Alt+S</Combo>
+          <Modifiers>Ctrl Alt</Modifiers>
+          <Key>
+            <Key>S</Key>
+            <Code>31</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers />
       </WoWMacro>
     </WoWMacros>
   </WoWMacroSet>
@@ -18726,7 +18814,6 @@ Smash the target's mind with cold, interrutping spellcasting and preventing any 
     <Name>Target Party Leader</Name>
     <Category>Targeting</Category>
     <Description>If the game provides a key binding for targeting the Party Leader directly, this can be used to enable easily Following/Assisting the Party Leader</Description>
-    <DefaultValue />
   </VariableKeystroke>
   <VariableKeystroke>
     <Name>Invite Team</Name>
@@ -19708,10 +19795,7 @@ Smash the target's mind with cold, interrutping spellcasting and preventing any 
     <Buttons>
       <MenuButton>
         <Actions>
-          <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-            <KeyMapString>ISB42 - Combat Broadcast</KeyMapString>
-            <MappedKeyString>1</MappedKeyString>
-          </MappedKeyAction>
+          <MappedKeyAction xsi:type="MappedKeyExecuteAction" />
         </Actions>
         <UseImages>true</UseImages>
         <Image>
@@ -19726,10 +19810,7 @@ Smash the target's mind with cold, interrutping spellcasting and preventing any 
       </MenuButton>
       <MenuButton>
         <Actions>
-          <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-            <KeyMapString>ISB42 - Combat Broadcast</KeyMapString>
-            <MappedKeyString>2</MappedKeyString>
-          </MappedKeyAction>
+          <MappedKeyAction xsi:type="MappedKeyExecuteAction" />
         </Actions>
         <UseImages>true</UseImages>
         <Image>
@@ -19744,10 +19825,7 @@ Smash the target's mind with cold, interrutping spellcasting and preventing any 
       </MenuButton>
       <MenuButton>
         <Actions>
-          <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-            <KeyMapString>ISB42 - Combat Broadcast</KeyMapString>
-            <MappedKeyString>3</MappedKeyString>
-          </MappedKeyAction>
+          <MappedKeyAction xsi:type="MappedKeyExecuteAction" />
         </Actions>
         <UseImages>true</UseImages>
         <Image>
@@ -19762,10 +19840,7 @@ Smash the target's mind with cold, interrutping spellcasting and preventing any 
       </MenuButton>
       <MenuButton>
         <Actions>
-          <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-            <KeyMapString>ISB42 - Combat Broadcast</KeyMapString>
-            <MappedKeyString>4</MappedKeyString>
-          </MappedKeyAction>
+          <MappedKeyAction xsi:type="MappedKeyExecuteAction" />
         </Actions>
         <UseImages>true</UseImages>
         <Image>
@@ -19780,10 +19855,7 @@ Smash the target's mind with cold, interrutping spellcasting and preventing any 
       </MenuButton>
       <MenuButton>
         <Actions>
-          <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-            <KeyMapString>ISB42 - Combat Broadcast</KeyMapString>
-            <MappedKeyString>5</MappedKeyString>
-          </MappedKeyAction>
+          <MappedKeyAction xsi:type="MappedKeyExecuteAction" />
         </Actions>
         <UseImages>true</UseImages>
         <Image>
@@ -19798,10 +19870,7 @@ Smash the target's mind with cold, interrutping spellcasting and preventing any 
       </MenuButton>
       <MenuButton>
         <Actions>
-          <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-            <KeyMapString>ISB42 - Combat Broadcast</KeyMapString>
-            <MappedKeyString>6</MappedKeyString>
-          </MappedKeyAction>
+          <MappedKeyAction xsi:type="MappedKeyExecuteAction" />
         </Actions>
         <UseImages>true</UseImages>
         <Image>
@@ -19816,10 +19885,7 @@ Smash the target's mind with cold, interrutping spellcasting and preventing any 
       </MenuButton>
       <MenuButton>
         <Actions>
-          <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-            <KeyMapString>ISB42 - Combat Broadcast</KeyMapString>
-            <MappedKeyString>7</MappedKeyString>
-          </MappedKeyAction>
+          <MappedKeyAction xsi:type="MappedKeyExecuteAction" />
         </Actions>
         <UseImages>true</UseImages>
         <Image>
@@ -19834,10 +19900,7 @@ Smash the target's mind with cold, interrutping spellcasting and preventing any 
       </MenuButton>
       <MenuButton>
         <Actions>
-          <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-            <KeyMapString>ISB42 - Combat Broadcast</KeyMapString>
-            <MappedKeyString>8</MappedKeyString>
-          </MappedKeyAction>
+          <MappedKeyAction xsi:type="MappedKeyExecuteAction" />
         </Actions>
         <UseImages>true</UseImages>
         <Image>
@@ -19852,10 +19915,7 @@ Smash the target's mind with cold, interrutping spellcasting and preventing any 
       </MenuButton>
       <MenuButton>
         <Actions>
-          <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-            <KeyMapString>ISB42 - Combat Broadcast</KeyMapString>
-            <MappedKeyString>9</MappedKeyString>
-          </MappedKeyAction>
+          <MappedKeyAction xsi:type="MappedKeyExecuteAction" />
         </Actions>
         <UseImages>true</UseImages>
         <Image>
@@ -19870,10 +19930,7 @@ Smash the target's mind with cold, interrutping spellcasting and preventing any 
       </MenuButton>
       <MenuButton>
         <Actions>
-          <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-            <KeyMapString>ISB42 - Combat Broadcast</KeyMapString>
-            <MappedKeyString>0</MappedKeyString>
-          </MappedKeyAction>
+          <MappedKeyAction xsi:type="MappedKeyExecuteAction" />
         </Actions>
         <UseImages>true</UseImages>
         <Image>
@@ -19888,10 +19945,7 @@ Smash the target's mind with cold, interrutping spellcasting and preventing any 
       </MenuButton>
       <MenuButton>
         <Actions>
-          <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-            <KeyMapString>ISB42 - Combat Broadcast</KeyMapString>
-            <MappedKeyString>-</MappedKeyString>
-          </MappedKeyAction>
+          <MappedKeyAction xsi:type="MappedKeyExecuteAction" />
         </Actions>
         <UseImages>true</UseImages>
         <Image>
@@ -19906,10 +19960,7 @@ Smash the target's mind with cold, interrutping spellcasting and preventing any 
       </MenuButton>
       <MenuButton>
         <Actions>
-          <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-            <KeyMapString>ISB42 - Combat Broadcast</KeyMapString>
-            <MappedKeyString>=</MappedKeyString>
-          </MappedKeyAction>
+          <MappedKeyAction xsi:type="MappedKeyExecuteAction" />
         </Actions>
         <UseImages>true</UseImages>
         <Image>
@@ -19930,10 +19981,7 @@ Smash the target's mind with cold, interrutping spellcasting and preventing any 
     <Buttons>
       <MenuButton>
         <Actions>
-          <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-            <KeyMapString>ISB42 - Combat Broadcast</KeyMapString>
-            <MappedKeyString>Shift+1</MappedKeyString>
-          </MappedKeyAction>
+          <MappedKeyAction xsi:type="MappedKeyExecuteAction" />
         </Actions>
         <UseImages>true</UseImages>
         <Image>
@@ -19948,10 +19996,7 @@ Smash the target's mind with cold, interrutping spellcasting and preventing any 
       </MenuButton>
       <MenuButton>
         <Actions>
-          <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-            <KeyMapString>ISB42 - Combat Broadcast</KeyMapString>
-            <MappedKeyString>Shift+2</MappedKeyString>
-          </MappedKeyAction>
+          <MappedKeyAction xsi:type="MappedKeyExecuteAction" />
         </Actions>
         <UseImages>true</UseImages>
         <Image>
@@ -19966,10 +20011,7 @@ Smash the target's mind with cold, interrutping spellcasting and preventing any 
       </MenuButton>
       <MenuButton>
         <Actions>
-          <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-            <KeyMapString>ISB42 - Combat Broadcast</KeyMapString>
-            <MappedKeyString>Shift+3</MappedKeyString>
-          </MappedKeyAction>
+          <MappedKeyAction xsi:type="MappedKeyExecuteAction" />
         </Actions>
         <UseImages>true</UseImages>
         <Image>
@@ -19984,10 +20026,7 @@ Smash the target's mind with cold, interrutping spellcasting and preventing any 
       </MenuButton>
       <MenuButton>
         <Actions>
-          <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-            <KeyMapString>ISB42 - Combat Broadcast</KeyMapString>
-            <MappedKeyString>Shift+4</MappedKeyString>
-          </MappedKeyAction>
+          <MappedKeyAction xsi:type="MappedKeyExecuteAction" />
         </Actions>
         <UseImages>true</UseImages>
         <Image>
@@ -20002,10 +20041,7 @@ Smash the target's mind with cold, interrutping spellcasting and preventing any 
       </MenuButton>
       <MenuButton>
         <Actions>
-          <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-            <KeyMapString>ISB42 - Combat Broadcast</KeyMapString>
-            <MappedKeyString>Shift+5</MappedKeyString>
-          </MappedKeyAction>
+          <MappedKeyAction xsi:type="MappedKeyExecuteAction" />
         </Actions>
         <UseImages>true</UseImages>
         <Image>
@@ -20020,10 +20056,7 @@ Smash the target's mind with cold, interrutping spellcasting and preventing any 
       </MenuButton>
       <MenuButton>
         <Actions>
-          <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-            <KeyMapString>ISB42 - Combat Broadcast</KeyMapString>
-            <MappedKeyString>Shift+6</MappedKeyString>
-          </MappedKeyAction>
+          <MappedKeyAction xsi:type="MappedKeyExecuteAction" />
         </Actions>
         <UseImages>true</UseImages>
         <Image>
@@ -20038,10 +20071,7 @@ Smash the target's mind with cold, interrutping spellcasting and preventing any 
       </MenuButton>
       <MenuButton>
         <Actions>
-          <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-            <KeyMapString>ISB42 - Combat Broadcast</KeyMapString>
-            <MappedKeyString>Shift+7</MappedKeyString>
-          </MappedKeyAction>
+          <MappedKeyAction xsi:type="MappedKeyExecuteAction" />
         </Actions>
         <UseImages>true</UseImages>
         <Image>
@@ -20056,10 +20086,7 @@ Smash the target's mind with cold, interrutping spellcasting and preventing any 
       </MenuButton>
       <MenuButton>
         <Actions>
-          <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-            <KeyMapString>ISB42 - Combat Broadcast</KeyMapString>
-            <MappedKeyString>Shift+8</MappedKeyString>
-          </MappedKeyAction>
+          <MappedKeyAction xsi:type="MappedKeyExecuteAction" />
         </Actions>
         <UseImages>true</UseImages>
         <Image>
@@ -20074,10 +20101,7 @@ Smash the target's mind with cold, interrutping spellcasting and preventing any 
       </MenuButton>
       <MenuButton>
         <Actions>
-          <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-            <KeyMapString>ISB42 - Combat Broadcast</KeyMapString>
-            <MappedKeyString>Shift+9</MappedKeyString>
-          </MappedKeyAction>
+          <MappedKeyAction xsi:type="MappedKeyExecuteAction" />
         </Actions>
         <UseImages>true</UseImages>
         <Image>
@@ -20092,10 +20116,7 @@ Smash the target's mind with cold, interrutping spellcasting and preventing any 
       </MenuButton>
       <MenuButton>
         <Actions>
-          <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-            <KeyMapString>ISB42 - Combat Broadcast</KeyMapString>
-            <MappedKeyString>Shift+0</MappedKeyString>
-          </MappedKeyAction>
+          <MappedKeyAction xsi:type="MappedKeyExecuteAction" />
         </Actions>
         <UseImages>true</UseImages>
         <Image>
@@ -20110,10 +20131,7 @@ Smash the target's mind with cold, interrutping spellcasting and preventing any 
       </MenuButton>
       <MenuButton>
         <Actions>
-          <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-            <KeyMapString>ISB42 - Combat Broadcast</KeyMapString>
-            <MappedKeyString>Shift+-</MappedKeyString>
-          </MappedKeyAction>
+          <MappedKeyAction xsi:type="MappedKeyExecuteAction" />
         </Actions>
         <UseImages>true</UseImages>
         <Image>
@@ -20128,10 +20146,7 @@ Smash the target's mind with cold, interrutping spellcasting and preventing any 
       </MenuButton>
       <MenuButton>
         <Actions>
-          <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-            <KeyMapString>ISB42 - Combat Broadcast</KeyMapString>
-            <MappedKeyString>Shift+=</MappedKeyString>
-          </MappedKeyAction>
+          <MappedKeyAction xsi:type="MappedKeyExecuteAction" />
         </Actions>
         <UseImages>true</UseImages>
         <Image>
@@ -20152,10 +20167,7 @@ Smash the target's mind with cold, interrutping spellcasting and preventing any 
     <Buttons>
       <MenuButton>
         <Actions>
-          <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-            <KeyMapString>ISB42 - Combat Broadcast</KeyMapString>
-            <MappedKeyString>Ctrl+1</MappedKeyString>
-          </MappedKeyAction>
+          <MappedKeyAction xsi:type="MappedKeyExecuteAction" />
         </Actions>
         <UseImages>true</UseImages>
         <Image>
@@ -20170,10 +20182,7 @@ Smash the target's mind with cold, interrutping spellcasting and preventing any 
       </MenuButton>
       <MenuButton>
         <Actions>
-          <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-            <KeyMapString>ISB42 - Combat Broadcast</KeyMapString>
-            <MappedKeyString>Ctrl+2</MappedKeyString>
-          </MappedKeyAction>
+          <MappedKeyAction xsi:type="MappedKeyExecuteAction" />
         </Actions>
         <UseImages>true</UseImages>
         <Image>
@@ -20188,10 +20197,7 @@ Smash the target's mind with cold, interrutping spellcasting and preventing any 
       </MenuButton>
       <MenuButton>
         <Actions>
-          <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-            <KeyMapString>ISB42 - Combat Broadcast</KeyMapString>
-            <MappedKeyString>Ctrl+3</MappedKeyString>
-          </MappedKeyAction>
+          <MappedKeyAction xsi:type="MappedKeyExecuteAction" />
         </Actions>
         <UseImages>true</UseImages>
         <Image>
@@ -20206,10 +20212,7 @@ Smash the target's mind with cold, interrutping spellcasting and preventing any 
       </MenuButton>
       <MenuButton>
         <Actions>
-          <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-            <KeyMapString>ISB42 - Combat Broadcast</KeyMapString>
-            <MappedKeyString>Ctrl+4</MappedKeyString>
-          </MappedKeyAction>
+          <MappedKeyAction xsi:type="MappedKeyExecuteAction" />
         </Actions>
         <UseImages>true</UseImages>
         <Image>
@@ -20224,10 +20227,7 @@ Smash the target's mind with cold, interrutping spellcasting and preventing any 
       </MenuButton>
       <MenuButton>
         <Actions>
-          <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-            <KeyMapString>ISB42 - Combat Broadcast</KeyMapString>
-            <MappedKeyString>Ctrl+5</MappedKeyString>
-          </MappedKeyAction>
+          <MappedKeyAction xsi:type="MappedKeyExecuteAction" />
         </Actions>
         <UseImages>true</UseImages>
         <Image>
@@ -20242,10 +20242,7 @@ Smash the target's mind with cold, interrutping spellcasting and preventing any 
       </MenuButton>
       <MenuButton>
         <Actions>
-          <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-            <KeyMapString>ISB42 - Combat Broadcast</KeyMapString>
-            <MappedKeyString>Ctrl+6</MappedKeyString>
-          </MappedKeyAction>
+          <MappedKeyAction xsi:type="MappedKeyExecuteAction" />
         </Actions>
         <UseImages>true</UseImages>
         <Image>
@@ -20260,10 +20257,7 @@ Smash the target's mind with cold, interrutping spellcasting and preventing any 
       </MenuButton>
       <MenuButton>
         <Actions>
-          <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-            <KeyMapString>ISB42 - Combat Broadcast</KeyMapString>
-            <MappedKeyString>Ctrl+7</MappedKeyString>
-          </MappedKeyAction>
+          <MappedKeyAction xsi:type="MappedKeyExecuteAction" />
         </Actions>
         <UseImages>true</UseImages>
         <Image>
@@ -20278,10 +20272,7 @@ Smash the target's mind with cold, interrutping spellcasting and preventing any 
       </MenuButton>
       <MenuButton>
         <Actions>
-          <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-            <KeyMapString>ISB42 - Combat Broadcast</KeyMapString>
-            <MappedKeyString>Ctrl+8</MappedKeyString>
-          </MappedKeyAction>
+          <MappedKeyAction xsi:type="MappedKeyExecuteAction" />
         </Actions>
         <UseImages>true</UseImages>
         <Image>
@@ -20296,10 +20287,7 @@ Smash the target's mind with cold, interrutping spellcasting and preventing any 
       </MenuButton>
       <MenuButton>
         <Actions>
-          <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-            <KeyMapString>ISB42 - Combat Broadcast</KeyMapString>
-            <MappedKeyString>Ctrl+9</MappedKeyString>
-          </MappedKeyAction>
+          <MappedKeyAction xsi:type="MappedKeyExecuteAction" />
         </Actions>
         <UseImages>true</UseImages>
         <Image>
@@ -20314,10 +20302,7 @@ Smash the target's mind with cold, interrutping spellcasting and preventing any 
       </MenuButton>
       <MenuButton>
         <Actions>
-          <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-            <KeyMapString>ISB42 - Combat Broadcast</KeyMapString>
-            <MappedKeyString>Ctrl+0</MappedKeyString>
-          </MappedKeyAction>
+          <MappedKeyAction xsi:type="MappedKeyExecuteAction" />
         </Actions>
         <UseImages>true</UseImages>
         <Image>
@@ -20332,10 +20317,7 @@ Smash the target's mind with cold, interrutping spellcasting and preventing any 
       </MenuButton>
       <MenuButton>
         <Actions>
-          <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-            <KeyMapString>ISB42 - Combat Broadcast</KeyMapString>
-            <MappedKeyString>Ctrl+-</MappedKeyString>
-          </MappedKeyAction>
+          <MappedKeyAction xsi:type="MappedKeyExecuteAction" />
         </Actions>
         <UseImages>true</UseImages>
         <Image>
@@ -20350,10 +20332,7 @@ Smash the target's mind with cold, interrutping spellcasting and preventing any 
       </MenuButton>
       <MenuButton>
         <Actions>
-          <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-            <KeyMapString>ISB42 - Combat Broadcast</KeyMapString>
-            <MappedKeyString>Ctrl+=</MappedKeyString>
-          </MappedKeyAction>
+          <MappedKeyAction xsi:type="MappedKeyExecuteAction" />
         </Actions>
         <UseImages>true</UseImages>
         <Image>
@@ -20374,10 +20353,7 @@ Smash the target's mind with cold, interrutping spellcasting and preventing any 
     <Buttons>
       <MenuButton>
         <Actions>
-          <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-            <KeyMapString>ISB42 - Combat Broadcast</KeyMapString>
-            <MappedKeyString>Alt+1</MappedKeyString>
-          </MappedKeyAction>
+          <MappedKeyAction xsi:type="MappedKeyExecuteAction" />
         </Actions>
         <UseImages>true</UseImages>
         <Image>
@@ -20392,10 +20368,7 @@ Smash the target's mind with cold, interrutping spellcasting and preventing any 
       </MenuButton>
       <MenuButton>
         <Actions>
-          <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-            <KeyMapString>ISB42 - Combat Broadcast</KeyMapString>
-            <MappedKeyString>Alt+2</MappedKeyString>
-          </MappedKeyAction>
+          <MappedKeyAction xsi:type="MappedKeyExecuteAction" />
         </Actions>
         <UseImages>true</UseImages>
         <Image>
@@ -20410,10 +20383,7 @@ Smash the target's mind with cold, interrutping spellcasting and preventing any 
       </MenuButton>
       <MenuButton>
         <Actions>
-          <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-            <KeyMapString>ISB42 - Combat Broadcast</KeyMapString>
-            <MappedKeyString>Alt+3</MappedKeyString>
-          </MappedKeyAction>
+          <MappedKeyAction xsi:type="MappedKeyExecuteAction" />
         </Actions>
         <UseImages>true</UseImages>
         <Image>
@@ -20428,10 +20398,7 @@ Smash the target's mind with cold, interrutping spellcasting and preventing any 
       </MenuButton>
       <MenuButton>
         <Actions>
-          <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-            <KeyMapString>ISB42 - Combat Broadcast</KeyMapString>
-            <MappedKeyString>Alt+4</MappedKeyString>
-          </MappedKeyAction>
+          <MappedKeyAction xsi:type="MappedKeyExecuteAction" />
         </Actions>
         <UseImages>true</UseImages>
         <Image>
@@ -20446,10 +20413,7 @@ Smash the target's mind with cold, interrutping spellcasting and preventing any 
       </MenuButton>
       <MenuButton>
         <Actions>
-          <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-            <KeyMapString>ISB42 - Combat Broadcast</KeyMapString>
-            <MappedKeyString>Alt+5</MappedKeyString>
-          </MappedKeyAction>
+          <MappedKeyAction xsi:type="MappedKeyExecuteAction" />
         </Actions>
         <UseImages>true</UseImages>
         <Image>
@@ -20464,10 +20428,7 @@ Smash the target's mind with cold, interrutping spellcasting and preventing any 
       </MenuButton>
       <MenuButton>
         <Actions>
-          <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-            <KeyMapString>ISB42 - Combat Broadcast</KeyMapString>
-            <MappedKeyString>Alt+6</MappedKeyString>
-          </MappedKeyAction>
+          <MappedKeyAction xsi:type="MappedKeyExecuteAction" />
         </Actions>
         <UseImages>true</UseImages>
         <Image>
@@ -20482,10 +20443,7 @@ Smash the target's mind with cold, interrutping spellcasting and preventing any 
       </MenuButton>
       <MenuButton>
         <Actions>
-          <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-            <KeyMapString>ISB42 - Combat Broadcast</KeyMapString>
-            <MappedKeyString>Alt+7</MappedKeyString>
-          </MappedKeyAction>
+          <MappedKeyAction xsi:type="MappedKeyExecuteAction" />
         </Actions>
         <UseImages>true</UseImages>
         <Image>
@@ -20500,10 +20458,7 @@ Smash the target's mind with cold, interrutping spellcasting and preventing any 
       </MenuButton>
       <MenuButton>
         <Actions>
-          <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-            <KeyMapString>ISB42 - Combat Broadcast</KeyMapString>
-            <MappedKeyString>Alt+8</MappedKeyString>
-          </MappedKeyAction>
+          <MappedKeyAction xsi:type="MappedKeyExecuteAction" />
         </Actions>
         <UseImages>true</UseImages>
         <Image>
@@ -20518,10 +20473,7 @@ Smash the target's mind with cold, interrutping spellcasting and preventing any 
       </MenuButton>
       <MenuButton>
         <Actions>
-          <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-            <KeyMapString>ISB42 - Combat Broadcast</KeyMapString>
-            <MappedKeyString>Alt+9</MappedKeyString>
-          </MappedKeyAction>
+          <MappedKeyAction xsi:type="MappedKeyExecuteAction" />
         </Actions>
         <UseImages>true</UseImages>
         <Image>
@@ -20536,10 +20488,7 @@ Smash the target's mind with cold, interrutping spellcasting and preventing any 
       </MenuButton>
       <MenuButton>
         <Actions>
-          <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-            <KeyMapString>ISB42 - Combat Broadcast</KeyMapString>
-            <MappedKeyString>Alt+0</MappedKeyString>
-          </MappedKeyAction>
+          <MappedKeyAction xsi:type="MappedKeyExecuteAction" />
         </Actions>
         <UseImages>true</UseImages>
         <Image>
@@ -20554,10 +20503,7 @@ Smash the target's mind with cold, interrutping spellcasting and preventing any 
       </MenuButton>
       <MenuButton>
         <Actions>
-          <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-            <KeyMapString>ISB42 - Combat Broadcast</KeyMapString>
-            <MappedKeyString>Alt+-</MappedKeyString>
-          </MappedKeyAction>
+          <MappedKeyAction xsi:type="MappedKeyExecuteAction" />
         </Actions>
         <UseImages>true</UseImages>
         <Image>
@@ -20572,10 +20518,7 @@ Smash the target's mind with cold, interrutping spellcasting and preventing any 
       </MenuButton>
       <MenuButton>
         <Actions>
-          <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-            <KeyMapString>ISB42 - Combat Broadcast</KeyMapString>
-            <MappedKeyString>Alt+=</MappedKeyString>
-          </MappedKeyAction>
+          <MappedKeyAction xsi:type="MappedKeyExecuteAction" />
         </Actions>
         <UseImages>true</UseImages>
         <Image>
@@ -21077,11 +21020,13 @@ Smash the target's mind with cold, interrutping spellcasting and preventing any 
   <MenuTemplate>
     <Name>Standard</Name>
     <Description>Quick Setup Wizard 42 - Standard 12-button Menu Template</Description>
+    <Popup />
     <NumButtons>12</NumButtons>
+    <BackgroundImage />
     <BackgroundColor>
       <Alpha>0</Alpha>
     </BackgroundColor>
-    <Alpha>0.25</Alpha>
+    <Alpha>0.247058824</Alpha>
     <Border>0</Border>
     <BorderColor>
       <Alpha>0</Alpha>
@@ -21094,6 +21039,9 @@ Smash the target's mind with cold, interrutping spellcasting and preventing any 
       <Width>40</Width>
       <Height>40</Height>
     </buttonSize>
+    <buttonImage />
+    <buttonImageHover />
+    <buttonImagePressed />
     <buttonBackgroundColor>
       <Alpha>0</Alpha>
     </buttonBackgroundColor>
@@ -21109,6 +21057,8 @@ Smash the target's mind with cold, interrutping spellcasting and preventing any 
     <buttonFontBold>1</buttonFontBold>
     <buttonFontSize>12</buttonFontSize>
     <buttonFontName>Arial</buttonFontName>
+    <XML_FileName />
+    <XML_Element />
     <Grid_buttonMargin>
       <Width>2</Width>
       <Height>2</Height>
@@ -21116,6 +21066,53 @@ Smash the target's mind with cold, interrutping spellcasting and preventing any 
     <Grid_Size>
       <Width>12</Width>
       <Height>1</Height>
+    </Grid_Size>
+  </MenuTemplate>
+  <MenuTemplate>
+    <Name>ATG Manager</Name>
+    <Type>XML</Type>
+    <Popup />
+    <BackgroundImage />
+    <BackgroundColor />
+    <BorderColor>
+      <Red>128</Red>
+      <Green>128</Green>
+      <Blue>128</Blue>
+    </BorderColor>
+    <frameSize>
+      <Width>2</Width>
+      <Height>2</Height>
+    </frameSize>
+    <buttonSize>
+      <Width>64</Width>
+      <Height>20</Height>
+    </buttonSize>
+    <buttonImage />
+    <buttonImageHover />
+    <buttonImagePressed />
+    <buttonBackgroundColor />
+    <buttonBorderColor>
+      <Red>255</Red>
+      <Green>255</Green>
+      <Blue>255</Blue>
+    </buttonBorderColor>
+    <buttonFontColor>
+      <Red>255</Red>
+      <Green>255</Green>
+      <Blue>255</Blue>
+    </buttonFontColor>
+    <buttonFontBold>0</buttonFontBold>
+    <buttonFontSize>12</buttonFontSize>
+    <buttonFontName>Tahoma</buttonFontName>
+    <XML_FileName>C:\Users\chris\OneDrive\Documents\WoW\ISBoxer\ATG Manager.menu.template.xml</XML_FileName>
+    <XML_Element>ATG Manager</XML_Element>
+    <Grid_buttonMargin>
+      <Width>2</Width>
+      <Height>2</Height>
+    </Grid_buttonMargin>
+    <Grid_Size>
+      <Width>0</Width>
+      <Height>0</Height>
     </Grid_Size>
   </MenuTemplate>
   <Menu>
@@ -21165,5 +21162,11 @@ Smash the target's mind with cold, interrutping spellcasting and preventing any 
     <BindSoft>true</BindSoft>
     <X>100</X>
     <Y>200</Y>
+  </Menu>
+  <Menu>
+    <Name>ATG Manager</Name>
+    <Template>ATG Manager</Template>
+    <ButtonLayout />
+    <HotkeyLayout />
   </Menu>
 </ISBoxerToolkitProfile>
