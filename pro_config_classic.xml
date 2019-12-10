@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ISBoxerToolkitProfile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="42" VersionMinor="0" BuildDate="12/9/2019 9:37:19 PM">
+<ISBoxerToolkitProfile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="42" VersionMinor="0" BuildDate="12/10/2019 12:44:47 AM">
   <CharacterSet>
     <ExecuteOnLoad />
     <Name>Blaumeux - Mixed</Name>
@@ -10226,52 +10226,6 @@ See http://isboxer.com/wiki/WoW:Interact_with_Target.</Description>
           </Step>
         </Steps>
       </MappedKey>
-      <MappedKey>
-        <Name>Switch to Slot 1</Name>
-        <Combo>
-          <Combo>Alt+F1</Combo>
-          <Modifiers>Alt</Modifiers>
-          <Key>
-            <Key>F1</Key>
-            <Code>59</Code>
-          </Key>
-        </Combo>
-        <Steps>
-          <Step>
-            <Actions>
-              <MappedKeyAction xsi:type="WindowStateAction">
-                <Target>1</Target>
-                <RegionType>Foreground</RegionType>
-                <Action>Auto</Action>
-                <DeactivateOthers>true</DeactivateOthers>
-              </MappedKeyAction>
-            </Actions>
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
-        <Name>Switch to Slot 2</Name>
-        <Combo>
-          <Combo>Alt+F2</Combo>
-          <Modifiers>Alt</Modifiers>
-          <Key>
-            <Key>F2</Key>
-            <Code>60</Code>
-          </Key>
-        </Combo>
-        <Steps>
-          <Step>
-            <Actions>
-              <MappedKeyAction xsi:type="WindowStateAction">
-                <Target>2</Target>
-                <RegionType>Foreground</RegionType>
-                <Action>Auto</Action>
-                <DeactivateOthers>true</DeactivateOthers>
-              </MappedKeyAction>
-            </Actions>
-          </Step>
-        </Steps>
-      </MappedKey>
     </Mappings>
   </KeyMap>
   <KeyMap>
@@ -19488,7 +19442,20 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
         <Name>Initiate Combat</Name>
         <Steps>
           <Step>
-            <Actions />
+            <Actions>
+              <MappedKeyAction xsi:type="TimerPoolAction">
+                <TimerPool>Flame Shock CD</TimerPool>
+                <Action>Reset</Action>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyStepAction">
+                <MappedKey>
+                  <KeyMapString>Shaman - Enhancement</KeyMapString>
+                  <MappedKeyString>DPS Rotation</MappedKeyString>
+                </MappedKey>
+                <Action>Set</Action>
+                <Value>1</Value>
+              </MappedKeyAction>
+            </Actions>
           </Step>
         </Steps>
       </MappedKey>
@@ -21973,6 +21940,7 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
     <RowHeight>315</RowHeight>
     <ColumnWidth>64</ColumnWidth>
     <BackgroundColor />
+    <CellBorder>0</CellBorder>
     <CellBorder_Color>
       <Red>255</Red>
       <Green>255</Green>
@@ -22022,6 +21990,7 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
     <RowHeight>315</RowHeight>
     <ColumnWidth>64</ColumnWidth>
     <BackgroundColor />
+    <CellBorder>0</CellBorder>
     <CellBorder_Color>
       <Red>255</Red>
       <Green>255</Green>
@@ -22085,6 +22054,7 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
     <RowHeight>315</RowHeight>
     <ColumnWidth>64</ColumnWidth>
     <BackgroundColor />
+    <CellBorder>0</CellBorder>
     <CellBorder_Color>
       <Red>255</Red>
       <Green>255</Green>
@@ -22134,6 +22104,7 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
     <RowHeight>315</RowHeight>
     <ColumnWidth>64</ColumnWidth>
     <BackgroundColor />
+    <CellBorder>0</CellBorder>
     <CellBorder_Color>
       <Red>255</Red>
       <Green>255</Green>
@@ -22196,6 +22167,7 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
     <Y>200</Y>
     <RowHeight>250</RowHeight>
     <BackgroundColor />
+    <CellBorder>0</CellBorder>
     <CellBorder_Color>
       <Red>255</Red>
       <Green>255</Green>
@@ -22244,6 +22216,7 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
     <Y>200</Y>
     <RowHeight>250</RowHeight>
     <BackgroundColor />
+    <CellBorder>0</CellBorder>
     <CellBorder_Color>
       <Red>255</Red>
       <Green>255</Green>
@@ -23831,61 +23804,6 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
       </MenuButton>
     </Buttons>
   </MenuButtonSet>
-  <MenuButtonSet>
-    <Name>Character Swap</Name>
-    <Buttons>
-      <MenuButton>
-        <Actions>
-          <MappedKeyAction xsi:type="PopupTextAction">
-            <Text>FOO BAR!</Text>
-          </MappedKeyAction>
-        </Actions>
-        <Text>{SLOT1}</Text>
-        <DisplayText>is1</DisplayText>
-        <FontColor />
-        <FontBold>0</FontBold>
-        <FontSize>12</FontSize>
-        <FontName>Arial</FontName>
-      </MenuButton>
-      <MenuButton>
-        <Actions />
-        <Text>Character 2</Text>
-        <DisplayText>is2</DisplayText>
-      </MenuButton>
-      <MenuButton>
-        <Actions />
-        <Text>{SLOT3}</Text>
-      </MenuButton>
-      <MenuButton>
-        <Actions />
-        <Text>{SLOT4}</Text>
-      </MenuButton>
-      <MenuButton>
-        <Actions />
-        <Text>{SLOT5}</Text>
-      </MenuButton>
-      <MenuButton>
-        <Actions />
-        <Text>{SLOT6}</Text>
-      </MenuButton>
-      <MenuButton>
-        <Actions />
-        <Text>{SLOT7}</Text>
-      </MenuButton>
-      <MenuButton>
-        <Actions />
-        <Text>{SLOT8}</Text>
-      </MenuButton>
-      <MenuButton>
-        <Actions />
-        <Text>{SLOT9}</Text>
-      </MenuButton>
-      <MenuButton>
-        <Actions />
-        <Text>{SLOT10}</Text>
-      </MenuButton>
-    </Buttons>
-  </MenuButtonSet>
   <MenuHotkeySet>
     <Name>Standard</Name>
     <Description>Quick Setup Wizard 42 - Standard 12-button Menu Hotkeys</Description>
@@ -24701,7 +24619,7 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
   <Menu>
     <Name>Character Swap</Name>
     <Template>Character Swap</Template>
-    <ButtonLayout>Character Swap</ButtonLayout>
+    <ButtonLayout />
     <HotkeyLayout />
     <X>300</X>
     <Y>300</Y>
