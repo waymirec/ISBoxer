@@ -1,0 +1,1371 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ISUI>
+  <Window name='ControlPanel'>
+    <Title>Control Panel</Title>
+    <X>920</X>
+    <Y>0</Y>
+    <Width>1600</Width>
+    <Height>60</Height>
+    <BackgroundColor>00000000</BackgroundColor>
+    <Border />
+    <StorePosition>1</StorePosition>
+    <Children>
+      <frame name='main'>
+        <Texture />
+        <BackgroundColor />
+        <Width>100%</Width>
+        <Height>100%</Height>
+        <OnMouseExit>
+          <![CDATA[
+            ISBoxerUI:PopupText["Exited Window"]
+            This.FindChild["is1"].FindChild["is1_atg_toggles"]:Hide
+            This.FindChild["is2"].FindChild["is2_atg_toggles"]:Hide
+            This.FindChild["is3"].FindChild["is3_atg_toggles"]:Hide
+            This.FindChild["is4"].FindChild["is4_atg_toggles"]:Hide
+            This.FindChild["is5"].FindChild["is5_atg_toggles"]:Hide
+            This.FindChild["is6"].FindChild["is6_atg_toggles"]:Hide
+            This.FindChild["is7"].FindChild["is7_atg_toggles"]:Hide
+            This.FindChild["is8"].FindChild["is8_atg_toggles"]:Hide
+            This.FindChild["is9"].FindChild["is9_atg_toggles"]:Hide
+            This.FindChild["is10"].FindChild["is10_atg_toggles"]:Hide
+          ]]>
+        </OnMouseExit>
+        <Children>
+          <button name='slot_viewer'>
+            <X>0</X>
+            <Y>0</Y>
+            <Width>30</Width>
+            <Height>30</Height>
+            <Text>*</Text>
+            <OnLeftDown>
+              <![CDATA[
+                keymapper -rememberholdmappedkey "ISB42 - Video FX Layout" "View All Slots" "ISB42_Video_FX_Layout_View_All_Slots" "self"
+                return
+              ]]>
+            </OnLeftDown>
+            <OnLeftClick>
+              <![CDATA[
+                keymapper -rememberreleasemappedkey "ISB42_Video_FX_Layout_View_All_Slots"
+              ]]>
+            </OnLeftClick>
+          </button>
+          <frame name='is1'>
+            <X>31</X>
+            <Y>0</Y>
+            <Width>150</Width>
+            <Height>60</Height>
+            <BackgroundColor>00000000</BackgroundColor>
+            <OnMouseEnter>
+              <![CDATA[
+                This.FindChild["is1_atg_toggles"]:Show
+                This.Parent.FindChild["is2"].FindChild["is2_atg_toggles"]:Hide
+                This.Parent.FindChild["is3"].FindChild["is3_atg_toggles"]:Hide
+                This.Parent.FindChild["is4"].FindChild["is4_atg_toggles"]:Hide
+                This.Parent.FindChild["is5"].FindChild["is5_atg_toggles"]:Hide
+                This.Parent.FindChild["is6"].FindChild["is6_atg_toggles"]:Hide
+                This.Parent.FindChild["is7"].FindChild["is7_atg_toggles"]:Hide
+                This.Parent.FindChild["is8"].FindChild["is8_atg_toggles"]:Hide
+                This.Parent.FindChild["is9"].FindChild["is9_atg_toggles"]:Hide
+                This.Parent.FindChild["is10"].FindChild["is10_atg_toggles"]:Hide
+              ]]>
+            </OnMouseEnter>
+            <OnMouseExit>
+              <![CDATA[
+                /* This.FindChild[is1_atg_toggles]:Hide */
+              ]]>
+            </OnMouseExit>
+            <Children>
+              <button name='is1_main'>
+                <X>0</X>
+                <Y>0</Y>
+                <Width>150</Width>
+                <Height>30</Height>
+                <Text>1: ${ISBoxerSlot1}</Text>
+                <OnLeftClick>
+                  <![CDATA[
+                    uplink focus is1
+                  ]]>
+                </OnLeftClick>
+                <OnRightDown>
+                  <![CDATA[
+                    keymapper -rememberholdmappedkey "ISB42 - Video FX Layout" "Toggle View Slot 1" "ISB42_Video_FX_Layout_Toggle_View_Slot_1" "self"
+                	  return
+                  ]]>
+                </OnRightDown>
+                <OnRightClick>
+                  <![CDATA[
+                    keymapper -rememberreleasemappedkey "ISB42_Video_FX_Layout_Toggle_View_Slot_1"
+                  ]]>
+                </OnRightClick>
+              </button>
+              <frame name='is1_atg_toggles'>
+                <X>0</X>
+                <Y>30</Y>
+                <Visible>0</Visible>
+                <Width>94</Width>
+                <Height>30</Height>
+                <BackgroundColor>00000000</BackgroundColor>
+                <Children>
+                  <button name='is1_combat'>
+                    <X>0</X>
+                    <Y>0</Y>
+                    <Width>30</Width>
+                    <Height>30</Height>
+                    <Texture />
+                    <BackgroundColor>3300FF00</BackgroundColor>
+                    <Text>C</Text>
+                    <OnLeftClick>
+                      <![CDATA[
+                        if ${This.BackgroundColor}==855703296
+                        {
+                          relay "is1" "uplink relaygroup -leave \"Combat\""
+                          This:SetBackgroundColor[66111111]
+                          ISBoxerUI:PopupText["${ISBoxerSlot1} has left Combat"]
+                        }
+                        else
+                        {
+                          relay "is1" uplink "relaygroup -join \"Combat\""
+                          This:SetBackgroundColor[3300FF00]
+                          ISBoxerUI:PopupText["${ISBoxerSlot1} has joined Combat"]
+                        }
+                      ]]>
+                    </OnLeftClick>
+                  </button>
+                  <button name='is1_follow'>
+                    <X>32</X>
+                    <Y>0</Y>
+                    <Width>30</Width>
+                    <Height>30</Height>
+                    <Texture />
+                    <BackgroundColor>3300FF00</BackgroundColor>
+                    <Text>F</Text>
+                    <OnLeftClick>
+                      <![CDATA[
+                        if ${This.BackgroundColor}==855703296
+                        {
+                          relay "is1" "uplink relaygroup -leave \"Follower\""
+                          This:SetBackgroundColor[66111111]
+                          ISBoxerUI:PopupText["${ISBoxerSlot1} has left Follower"]
+                        }
+                        else
+                        {
+                          relay "is1" uplink "relaygroup -join \"Follower\""
+                          This:SetBackgroundColor[3300FF00]
+                          ISBoxerUI:PopupText["${ISBoxerSlot1} has joined Follower"]
+                        }
+                      ]]>
+                    </OnLeftClick>
+                  </button>
+                  <button name='is1_assist'>
+                    <X>64</X>
+                    <Y>0</Y>
+                    <Width>30</Width>
+                    <Height>30</Height>
+                    <Texture />
+                    <BackgroundColor>3300FF00</BackgroundColor>
+                    <Text>A</Text>
+                    <OnLeftClick>
+                      <![CDATA[
+                        if ${This.BackgroundColor}==855703296
+                        {
+                          relay "is1" "uplink relaygroup -leave \"Assist\""
+                          This:SetBackgroundColor[66111111]
+                          ISBoxerUI:PopupText["${ISBoxerSlot1} has left Assist"]
+                        }
+                        else
+                        {
+                          relay "is1" uplink "relaygroup -join \"Assist\""
+                          This:SetBackgroundColor[3300FF00]
+                          ISBoxerUI:PopupText["${ISBoxerSlot1} has joined Assist"]
+                        }
+                      ]]>
+                    </OnLeftClick>
+                  </button>
+                </Children>
+              </frame>
+            </Children>
+          </frame>
+          <frame name="is2">
+            <X>183</X>
+            <Y>0</Y>
+            <Width>150</Width>
+            <Height>60</Height>
+            <BackgroundColor>00000000</BackgroundColor>
+            <OnMouseEnter>
+              <![CDATA[
+                This.FindChild["is2_atg_toggles"]:Show
+                This.Parent.FindChild["is1"].FindChild["is1_atg_toggles"]:Hide
+                This.Parent.FindChild["is3"].FindChild["is3_atg_toggles"]:Hide
+                This.Parent.FindChild["is4"].FindChild["is4_atg_toggles"]:Hide
+                This.Parent.FindChild["is5"].FindChild["is5_atg_toggles"]:Hide
+                This.Parent.FindChild["is6"].FindChild["is6_atg_toggles"]:Hide
+                This.Parent.FindChild["is7"].FindChild["is7_atg_toggles"]:Hide
+                This.Parent.FindChild["is8"].FindChild["is8_atg_toggles"]:Hide
+                This.Parent.FindChild["is9"].FindChild["is9_atg_toggles"]:Hide
+                This.Parent.FindChild["is10"].FindChild["is10_atg_toggles"]:Hide
+              ]]>
+            </OnMouseEnter>
+            <Children>
+              <button name='is2_main'>
+                <X>0</X>
+                <Y>0</Y>
+                <Width>150</Width>
+                <Height>30</Height>
+                <Text>2: ${ISBoxerSlot2}</Text>
+                <OnLeftClick>
+                  <![CDATA[
+                    uplink focus is2
+                  ]]>
+                </OnLeftClick>
+                <OnRightDown>
+                  <![CDATA[
+                    keymapper -rememberholdmappedkey "ISB42 - Video FX Layout" "Toggle View Slot 2" "ISB42_Video_FX_Layout_Toggle_View_Slot_2" "self"
+                	  return
+                  ]]>
+                </OnRightDown>
+                <OnRightClick>
+                  <![CDATA[
+                    keymapper -rememberreleasemappedkey "ISB42_Video_FX_Layout_Toggle_View_Slot_2"
+                  ]]>
+                </OnRightClick>
+              </button>
+              <frame name='is2_atg_toggles'>
+                <X>0</X>
+                <Y>30</Y>
+                <Visible>0</Visible>
+                <Width>94</Width>
+                <Height>30</Height>
+                <BackgroundColor>00000000</BackgroundColor>
+                <Children>
+                  <button name='is2_combat'>
+                    <X>0</X>
+                    <Y>0</Y>
+                    <Width>32</Width>
+                    <Height>32</Height>
+                    <Texture />
+                    <BackgroundColor>3300FF00</BackgroundColor>
+                    <Text>C</Text>
+                    <OnLeftClick>
+                      <![CDATA[
+                        if ${This.BackgroundColor}==855703296
+                        {
+                          relay "is2" "uplink relaygroup -leave \"Combat\""
+                          This:SetBackgroundColor[66111111]
+                          ISBoxerUI:PopupText["${ISBoxerSlot2} has left Combat"]
+                        }
+                        else
+                        {
+                          relay "is2" uplink "relaygroup -join \"Combat\""
+                          This:SetBackgroundColor[3300FF00]
+                          ISBoxerUI:PopupText["${ISBoxerSlot2} has joined Combat"]
+                        }
+                      ]]>
+                    </OnLeftClick>
+                  </button>
+                  <button name='is2_follow'>
+                    <X>32</X>
+                    <Y>0</Y>
+                    <Width>32</Width>
+                    <Height>32</Height>
+                    <Texture />
+                    <BackgroundColor>3300FF00</BackgroundColor>
+                    <Text>F</Text>
+                    <OnLeftClick>
+                      <![CDATA[
+                        if ${This.BackgroundColor}==855703296
+                        {
+                          relay "is2" "uplink relaygroup -leave \"Follower\""
+                          This:SetBackgroundColor[66111111]
+                          ISBoxerUI:PopupText["${ISBoxerSlot2} has left Follower"]
+                        }
+                        else
+                        {
+                          relay "is2" uplink "relaygroup -join \"Follower\""
+                          This:SetBackgroundColor[3300FF00]
+                          ISBoxerUI:PopupText["${ISBoxerSlot2} has joined Follower"]
+                        }
+                      ]]>
+                    </OnLeftClick>
+                  </button>
+                  <button name='is2_assist'>
+                    <X>64</X>
+                    <Y>0</Y>
+                    <Width>32</Width>
+                    <Height>32</Height>
+                    <Texture />
+                    <BackgroundColor>3300FF00</BackgroundColor>
+                    <Text>A</Text>
+                    <OnLeftClick>
+                      <![CDATA[
+                        if ${This.BackgroundColor}==855703296
+                        {
+                          relay "is2" "uplink relaygroup -leave \"Assist\""
+                          This:SetBackgroundColor[66111111]
+                          ISBoxerUI:PopupText["${ISBoxerSlot2} has left Assist"]
+                        }
+                        else
+                        {
+                          relay "is2" uplink "relaygroup -join \"Assist\""
+                          This:SetBackgroundColor[3300FF00]
+                          ISBoxerUI:PopupText["${ISBoxerSlot2} has joined Assist"]
+                        }
+                      ]]>
+                    </OnLeftClick>
+                  </button>
+                </Children>
+              </frame>
+            </Children>
+          </frame>
+          <frame name="is3">
+            <X>335</X>
+            <Y>0</Y>
+            <Width>150</Width>
+            <Height>60</Height>
+            <BackgroundColor>00000000</BackgroundColor>
+            <OnMouseEnter>
+              <![CDATA[
+                This.FindChild["is3_atg_toggles"]:Show
+                This.Parent.FindChild["is1"].FindChild["is1_atg_toggles"]:Hide
+                This.Parent.FindChild["is2"].FindChild["is2_atg_toggles"]:Hide
+                This.Parent.FindChild["is4"].FindChild["is4_atg_toggles"]:Hide
+                This.Parent.FindChild["is5"].FindChild["is5_atg_toggles"]:Hide
+                This.Parent.FindChild["is6"].FindChild["is6_atg_toggles"]:Hide
+                This.Parent.FindChild["is7"].FindChild["is7_atg_toggles"]:Hide
+                This.Parent.FindChild["is8"].FindChild["is8_atg_toggles"]:Hide
+                This.Parent.FindChild["is9"].FindChild["is9_atg_toggles"]:Hide
+                This.Parent.FindChild["is10"].FindChild["is10_atg_toggles"]:Hide
+              ]]>
+            </OnMouseEnter>
+            <Children>
+              <button name='is3_main'>
+                <X>0</X>
+                <Y>0</Y>
+                <Width>150</Width>
+                <Height>30</Height>
+                <Text>3: ${ISBoxerSlot3}</Text>
+                <OnLeftClick>
+                  <![CDATA[
+                    uplink focus is3
+                  ]]>
+                </OnLeftClick>
+                <OnRightDown>
+                  <![CDATA[
+                    keymapper -rememberholdmappedkey "ISB42 - Video FX Layout" "Toggle View Slot 3" "ISB42_Video_FX_Layout_Toggle_View_Slot_3" "self"
+                	  return
+                  ]]>
+                </OnRightDown>
+                <OnRightClick>
+                  <![CDATA[
+                    keymapper -rememberreleasemappedkey "ISB42_Video_FX_Layout_Toggle_View_Slot_3"
+                  ]]>
+                </OnRightClick>
+              </button>
+              <frame name='is3_atg_toggles'>
+                <X>0</X>
+                <Y>30</Y>
+                <Visible>0</Visible>
+                <Width>94</Width>
+                <Height>30</Height>
+                <BackgroundColor>00000000</BackgroundColor>
+                <Children>
+                  <button name='is3_combat'>
+                    <X>0</X>
+                    <Y>0</Y>
+                    <Width>32</Width>
+                    <Height>32</Height>
+                    <Texture />
+                    <BackgroundColor>3300FF00</BackgroundColor>
+                    <Text>C</Text>
+                    <OnLeftClick>
+                      <![CDATA[
+                        if ${This.BackgroundColor}==855703296
+                        {
+                          relay "is3" "uplink relaygroup -leave \"Combat\""
+                          This:SetBackgroundColor[66111111]
+                          ISBoxerUI:PopupText["${ISBoxerSlot3} has left Combat"]
+                        }
+                        else
+                        {
+                          relay "is3" uplink "relaygroup -join \"Combat\""
+                          This:SetBackgroundColor[3300FF00]
+                          ISBoxerUI:PopupText["${ISBoxerSlot3} has joined Combat"]
+                        }
+                      ]]>
+                    </OnLeftClick>
+                  </button>
+                  <button name='is3_follow'>
+                    <X>32</X>
+                    <Y>0</Y>
+                    <Width>32</Width>
+                    <Height>32</Height>
+                    <Texture />
+                    <BackgroundColor>3300FF00</BackgroundColor>
+                    <Text>F</Text>
+                    <OnLeftClick>
+                      <![CDATA[
+                        if ${This.BackgroundColor}==855703296
+                        {
+                          relay "is3" "uplink relaygroup -leave \"Follower\""
+                          This:SetBackgroundColor[66111111]
+                          ISBoxerUI:PopupText["${ISBoxerSlot3} has left Follower"]
+                        }
+                        else
+                        {
+                          relay "is3" uplink "relaygroup -join \"Follower\""
+                          This:SetBackgroundColor[3300FF00]
+                          ISBoxerUI:PopupText["${ISBoxerSlot3} has joined Follower"]
+                        }
+                      ]]>
+                    </OnLeftClick>
+                  </button>
+                  <button name='is3_assist'>
+                    <X>64</X>
+                    <Y>0</Y>
+                    <Width>32</Width>
+                    <Height>32</Height>
+                    <Texture />
+                    <BackgroundColor>3300FF00</BackgroundColor>
+                    <Text>A</Text>
+                    <OnLeftClick>
+                      <![CDATA[
+                        if ${This.BackgroundColor}==855703296
+                        {
+                          relay "is3" "uplink relaygroup -leave \"Assist\""
+                          This:SetBackgroundColor[66111111]
+                          ISBoxerUI:PopupText["${ISBoxerSlot3} has left Assist"]
+                        }
+                        else
+                        {
+                          relay "is3" uplink "relaygroup -join \"Assist\""
+                          This:SetBackgroundColor[3300FF00]
+                          ISBoxerUI:PopupText["${ISBoxerSlot3} has joined Assist"]
+                        }
+                      ]]>
+                    </OnLeftClick>
+                  </button>
+                </Children>
+              </frame>
+            </Children>
+          </frame>
+          <frame name="is4">
+            <X>487</X>
+            <Y>0</Y>
+            <Width>150</Width>
+            <Height>60</Height>
+            <BackgroundColor>00000000</BackgroundColor>
+            <OnMouseEnter>
+              <![CDATA[
+                This.FindChild["is4_atg_toggles"]:Show
+                This.Parent.FindChild["is1"].FindChild["is1_atg_toggles"]:Hide
+                This.Parent.FindChild["is2"].FindChild["is2_atg_toggles"]:Hide
+                This.Parent.FindChild["is3"].FindChild["is3_atg_toggles"]:Hide
+                This.Parent.FindChild["is5"].FindChild["is5_atg_toggles"]:Hide
+                This.Parent.FindChild["is6"].FindChild["is6_atg_toggles"]:Hide
+                This.Parent.FindChild["is7"].FindChild["is7_atg_toggles"]:Hide
+                This.Parent.FindChild["is8"].FindChild["is8_atg_toggles"]:Hide
+                This.Parent.FindChild["is9"].FindChild["is9_atg_toggles"]:Hide
+                This.Parent.FindChild["is10"].FindChild["is10_atg_toggles"]:Hide
+              ]]>
+            </OnMouseEnter>
+            <Children>
+              <button name='is4_main'>
+                <X>0</X>
+                <Y>0</Y>
+                <Width>150</Width>
+                <Height>30</Height>
+                <Text>4: ${ISBoxerSlot4}</Text>
+                <OnLeftClick>
+                  <![CDATA[
+                    uplink focus is4
+                  ]]>
+                </OnLeftClick>
+                <OnRightDown>
+                  <![CDATA[
+                    keymapper -rememberholdmappedkey "ISB42 - Video FX Layout" "Toggle View Slot 4" "ISB42_Video_FX_Layout_Toggle_View_Slot_4" "self"
+                	  return
+                  ]]>
+                </OnRightDown>
+                <OnRightClick>
+                  <![CDATA[
+                    keymapper -rememberreleasemappedkey "ISB42_Video_FX_Layout_Toggle_View_Slot_4"
+                  ]]>
+                </OnRightClick>
+              </button>
+              <frame name='is4_atg_toggles'>
+                <X>0</X>
+                <Y>30</Y>
+                <Visible>0</Visible>
+                <Width>94</Width>
+                <Height>30</Height>
+                <BackgroundColor>00000000</BackgroundColor>
+                <Children>
+                  <button name='is4_combat'>
+                    <X>0</X>
+                    <Y>0</Y>
+                    <Width>32</Width>
+                    <Height>32</Height>
+                    <Texture />
+                    <BackgroundColor>3300FF00</BackgroundColor>
+                    <Text>C</Text>
+                    <OnLeftClick>
+                      <![CDATA[
+                        if ${This.BackgroundColor}==855703296
+                        {
+                          relay "is4" "uplink relaygroup -leave \"Combat\""
+                          This:SetBackgroundColor[66111111]
+                          ISBoxerUI:PopupText["${ISBoxerSlot4} has left Combat"]
+                        }
+                        else
+                        {
+                          relay "is4" uplink "relaygroup -join \"Combat\""
+                          This:SetBackgroundColor[3300FF00]
+                          ISBoxerUI:PopupText["${ISBoxerSlot4} has joined Combat"]
+                        }
+                      ]]>
+                    </OnLeftClick>
+                  </button>
+                  <button name='is4_follow'>
+                    <X>32</X>
+                    <Y>0</Y>
+                    <Width>32</Width>
+                    <Height>32</Height>
+                    <Texture />
+                    <BackgroundColor>3300FF00</BackgroundColor>
+                    <Text>F</Text>
+                    <OnLeftClick>
+                      <![CDATA[
+                        if ${This.BackgroundColor}==855703296
+                        {
+                          relay "is4" "uplink relaygroup -leave \"Follower\""
+                          This:SetBackgroundColor[66111111]
+                          ISBoxerUI:PopupText["${ISBoxerSlot4} has left Follower"]
+                        }
+                        else
+                        {
+                          relay "is4" uplink "relaygroup -join \"Follower\""
+                          This:SetBackgroundColor[3300FF00]
+                          ISBoxerUI:PopupText["${ISBoxerSlot4} has joined Follower"]
+                        }
+                      ]]>
+                    </OnLeftClick>
+                  </button>
+                  <button name='is4_assist'>
+                    <X>64</X>
+                    <Y>0</Y>
+                    <Width>32</Width>
+                    <Height>32</Height>
+                    <Texture />
+                    <BackgroundColor>3300FF00</BackgroundColor>
+                    <Text>A</Text>
+                    <OnLeftClick>
+                      <![CDATA[
+                        if ${This.BackgroundColor}==855703296
+                        {
+                          relay "is4" "uplink relaygroup -leave \"Assist\""
+                          This:SetBackgroundColor[66111111]
+                          ISBoxerUI:PopupText["${ISBoxerSlot4} has left Assist"]
+                        }
+                        else
+                        {
+                          relay "is4" uplink "relaygroup -join \"Assist\""
+                          This:SetBackgroundColor[3300FF00]
+                          ISBoxerUI:PopupText["${ISBoxerSlot4} has joined Assist"]
+                        }
+                      ]]>
+                    </OnLeftClick>
+                  </button>
+                </Children>
+              </frame>
+            </Children>
+          </frame>
+          <frame name="is5">
+            <X>639</X>
+            <Y>0</Y>
+            <Width>150</Width>
+            <Height>60</Height>
+            <BackgroundColor>00000000</BackgroundColor>
+            <OnMouseEnter>
+              <![CDATA[
+                This.FindChild["is5_atg_toggles"]:Show
+                This.Parent.FindChild["is1"].FindChild["is1_atg_toggles"]:Hide
+                This.Parent.FindChild["is2"].FindChild["is2_atg_toggles"]:Hide
+                This.Parent.FindChild["is3"].FindChild["is3_atg_toggles"]:Hide
+                This.Parent.FindChild["is4"].FindChild["is4_atg_toggles"]:Hide
+                This.Parent.FindChild["is6"].FindChild["is6_atg_toggles"]:Hide
+                This.Parent.FindChild["is7"].FindChild["is7_atg_toggles"]:Hide
+                This.Parent.FindChild["is8"].FindChild["is8_atg_toggles"]:Hide
+                This.Parent.FindChild["is9"].FindChild["is9_atg_toggles"]:Hide
+                This.Parent.FindChild["is10"].FindChild["is10_atg_toggles"]:Hide
+              ]]>
+            </OnMouseEnter>
+            <Children>
+              <button name='is5_main'>
+                <X>0</X>
+                <Y>0</Y>
+                <Width>150</Width>
+                <Height>30</Height>
+                <Text>5: ${ISBoxerSlot5}</Text>
+                <OnLeftClick>
+                  <![CDATA[
+                    uplink focus is5
+                  ]]>
+                </OnLeftClick>
+                <OnRightDown>
+                  <![CDATA[
+                    keymapper -rememberholdmappedkey "ISB42 - Video FX Layout" "Toggle View Slot 5" "ISB42_Video_FX_Layout_Toggle_View_Slot_5" "self"
+                	  return
+                  ]]>
+                </OnRightDown>
+                <OnRightClick>
+                  <![CDATA[
+                    keymapper -rememberreleasemappedkey "ISB42_Video_FX_Layout_Toggle_View_Slot_5"
+                  ]]>
+                </OnRightClick>
+              </button>
+              <frame name='is5_atg_toggles'>
+                <X>0</X>
+                <Y>30</Y>
+                <Visible>0</Visible>
+                <Width>94</Width>
+                <Height>30</Height>
+                <BackgroundColor>00000000</BackgroundColor>
+                <Children>
+                  <button name='is5_combat'>
+                    <X>0</X>
+                    <Y>0</Y>
+                    <Width>32</Width>
+                    <Height>32</Height>
+                    <Texture />
+                    <BackgroundColor>3300FF00</BackgroundColor>
+                    <Text>C</Text>
+                    <OnLeftClick>
+                      <![CDATA[
+                        if ${This.BackgroundColor}==855703296
+                        {
+                          relay "is5" "uplink relaygroup -leave \"Combat\""
+                          This:SetBackgroundColor[66111111]
+                          ISBoxerUI:PopupText["${ISBoxerSlot5} has left Combat"]
+                        }
+                        else
+                        {
+                          relay "is5" uplink "relaygroup -join \"Combat\""
+                          This:SetBackgroundColor[3300FF00]
+                          ISBoxerUI:PopupText["${ISBoxerSlot5} has joined Combat"]
+                        }
+                      ]]>
+                    </OnLeftClick>
+                  </button>
+                  <button name='is5_follow'>
+                    <X>32</X>
+                    <Y>0</Y>
+                    <Width>32</Width>
+                    <Height>32</Height>
+                    <Texture />
+                    <BackgroundColor>3300FF00</BackgroundColor>
+                    <Text>F</Text>
+                    <OnLeftClick>
+                      <![CDATA[
+                        if ${This.BackgroundColor}==855703296
+                        {
+                          relay "is5" "uplink relaygroup -leave \"Follower\""
+                          This:SetBackgroundColor[66111111]
+                          ISBoxerUI:PopupText["${ISBoxerSlot5} has left Follower"]
+                        }
+                        else
+                        {
+                          relay "is5" uplink "relaygroup -join \"Follower\""
+                          This:SetBackgroundColor[3300FF00]
+                          ISBoxerUI:PopupText["${ISBoxerSlot5} has joined Follower"]
+                        }
+                      ]]>
+                    </OnLeftClick>
+                  </button>
+                  <button name='is5_assist'>
+                    <X>64</X>
+                    <Y>0</Y>
+                    <Width>32</Width>
+                    <Height>32</Height>
+                    <Texture />
+                    <BackgroundColor>3300FF00</BackgroundColor>
+                    <Text>A</Text>
+                    <OnLeftClick>
+                      <![CDATA[
+                        if ${This.BackgroundColor}==855703296
+                        {
+                          relay "is5" "uplink relaygroup -leave \"Assist\""
+                          This:SetBackgroundColor[66111111]
+                          ISBoxerUI:PopupText["${ISBoxerSlot5} has left Assist"]
+                        }
+                        else
+                        {
+                          relay "is5" uplink "relaygroup -join \"Assist\""
+                          This:SetBackgroundColor[3300FF00]
+                          ISBoxerUI:PopupText["${ISBoxerSlot5} has joined Assist"]
+                        }
+                      ]]>
+                    </OnLeftClick>
+                  </button>
+                </Children>
+              </frame>
+            </Children>
+          </frame>
+          <frame name="is6">
+            <X>791</X>
+            <Y>0</Y>
+            <Width>150</Width>
+            <Height>60</Height>
+            <BackgroundColor>00000000</BackgroundColor>
+            <OnMouseEnter>
+              <![CDATA[
+                This.FindChild["is6_atg_toggles"]:Show
+                This.Parent.FindChild["is1"].FindChild["is1_atg_toggles"]:Hide
+                This.Parent.FindChild["is2"].FindChild["is2_atg_toggles"]:Hide
+                This.Parent.FindChild["is3"].FindChild["is3_atg_toggles"]:Hide
+                This.Parent.FindChild["is4"].FindChild["is4_atg_toggles"]:Hide
+                This.Parent.FindChild["is5"].FindChild["is5_atg_toggles"]:Hide
+                This.Parent.FindChild["is7"].FindChild["is7_atg_toggles"]:Hide
+                This.Parent.FindChild["is8"].FindChild["is8_atg_toggles"]:Hide
+                This.Parent.FindChild["is9"].FindChild["is9_atg_toggles"]:Hide
+                This.Parent.FindChild["is10"].FindChild["is10_atg_toggles"]:Hide
+              ]]>
+            </OnMouseEnter>
+            <Children>
+              <button name='is6_main'>
+                <X>0</X>
+                <Y>0</Y>
+                <Width>150</Width>
+                <Height>30</Height>
+                <Text>6: ${ISBoxerSlot6}</Text>
+                <OnLeftClick>
+                  <![CDATA[
+                    uplink focus is6
+                  ]]>
+                </OnLeftClick>
+                <OnRightDown>
+                  <![CDATA[
+                    keymapper -rememberholdmappedkey "ISB42 - Video FX Layout" "Toggle View Slot 6" "ISB42_Video_FX_Layout_Toggle_View_Slot_6" "self"
+                	  return
+                  ]]>
+                </OnRightDown>
+                <OnRightClick>
+                  <![CDATA[
+                    keymapper -rememberreleasemappedkey "ISB42_Video_FX_Layout_Toggle_View_Slot_6"
+                  ]]>
+                </OnRightClick>
+              </button>
+              <frame name='is6_atg_toggles'>
+                <X>0</X>
+                <Y>30</Y>
+                <Visible>0</Visible>
+                <Width>94</Width>
+                <Height>30</Height>
+                <BackgroundColor>00000000</BackgroundColor>
+                <Children>
+                  <button name='is6_combat'>
+                    <X>0</X>
+                    <Y>0</Y>
+                    <Width>32</Width>
+                    <Height>32</Height>
+                    <Texture />
+                    <BackgroundColor>3300FF00</BackgroundColor>
+                    <Text>C</Text>
+                    <OnLeftClick>
+                      <![CDATA[
+                        if ${This.BackgroundColor}==855703296
+                        {
+                          relay "is6" "uplink relaygroup -leave \"Combat\""
+                          This:SetBackgroundColor[66111111]
+                          ISBoxerUI:PopupText["${ISBoxerSlot6} has left Combat"]
+                        }
+                        else
+                        {
+                          relay "is6" uplink "relaygroup -join \"Combat\""
+                          This:SetBackgroundColor[3300FF00]
+                          ISBoxerUI:PopupText["${ISBoxerSlot6} has joined Combat"]
+                        }
+                      ]]>
+                    </OnLeftClick>
+                  </button>
+                  <button name='is6_follow'>
+                    <X>32</X>
+                    <Y>0</Y>
+                    <Width>32</Width>
+                    <Height>32</Height>
+                    <Texture />
+                    <BackgroundColor>3300FF00</BackgroundColor>
+                    <Text>F</Text>
+                    <OnLeftClick>
+                      <![CDATA[
+                        if ${This.BackgroundColor}==855703296
+                        {
+                          relay "is6" "uplink relaygroup -leave \"Follower\""
+                          This:SetBackgroundColor[66111111]
+                          ISBoxerUI:PopupText["${ISBoxerSlot6} has left Follower"]
+                        }
+                        else
+                        {
+                          relay "is6" uplink "relaygroup -join \"Follower\""
+                          This:SetBackgroundColor[3300FF00]
+                          ISBoxerUI:PopupText["${ISBoxerSlot6} has joined Follower"]
+                        }
+                      ]]>
+                    </OnLeftClick>
+                  </button>
+                  <button name='is6_assist'>
+                    <X>64</X>
+                    <Y>0</Y>
+                    <Width>32</Width>
+                    <Height>32</Height>
+                    <Texture />
+                    <BackgroundColor>3300FF00</BackgroundColor>
+                    <Text>A</Text>
+                    <OnLeftClick>
+                      <![CDATA[
+                        if ${This.BackgroundColor}==855703296
+                        {
+                          relay "is6" "uplink relaygroup -leave \"Assist\""
+                          This:SetBackgroundColor[66111111]
+                          ISBoxerUI:PopupText["${ISBoxerSlot6} has left Assist"]
+                        }
+                        else
+                        {
+                          relay "is6" uplink "relaygroup -join \"Assist\""
+                          This:SetBackgroundColor[3300FF00]
+                          ISBoxerUI:PopupText["${ISBoxerSlot6} has joined Assist"]
+                        }
+                      ]]>
+                    </OnLeftClick>
+                  </button>
+                </Children>
+              </frame>
+            </Children>
+          </frame>
+          <frame name="is7">
+            <X>943</X>
+            <Y>0</Y>
+            <Width>150</Width>
+            <Height>60</Height>
+            <BackgroundColor>00000000</BackgroundColor>
+            <OnMouseEnter>
+              <![CDATA[
+                This.FindChild["is7_atg_toggles"]:Show
+                This.Parent.FindChild["is1"].FindChild["is1_atg_toggles"]:Hide
+                This.Parent.FindChild["is2"].FindChild["is2_atg_toggles"]:Hide
+                This.Parent.FindChild["is3"].FindChild["is3_atg_toggles"]:Hide
+                This.Parent.FindChild["is4"].FindChild["is4_atg_toggles"]:Hide
+                This.Parent.FindChild["is5"].FindChild["is5_atg_toggles"]:Hide
+                This.Parent.FindChild["is6"].FindChild["is6_atg_toggles"]:Hide
+                This.Parent.FindChild["is8"].FindChild["is8_atg_toggles"]:Hide
+                This.Parent.FindChild["is9"].FindChild["is9_atg_toggles"]:Hide
+                This.Parent.FindChild["is10"].FindChild["is10_atg_toggles"]:Hide
+              ]]>
+            </OnMouseEnter>
+            <Children>
+              <button name='is7_main'>
+                <X>0</X>
+                <Y>0</Y>
+                <Width>150</Width>
+                <Height>30</Height>
+                <Text>7: ${ISBoxerSlot7}</Text>
+                <OnLeftClick>
+                  <![CDATA[
+                    uplink focus is7
+                  ]]>
+                </OnLeftClick>
+                <OnRightDown>
+                  <![CDATA[
+                    keymapper -rememberholdmappedkey "ISB42 - Video FX Layout" "Toggle View Slot 7" "ISB42_Video_FX_Layout_Toggle_View_Slot_7" "self"
+                	  return
+                  ]]>
+                </OnRightDown>
+                <OnRightClick>
+                  <![CDATA[
+                    keymapper -rememberreleasemappedkey "ISB42_Video_FX_Layout_Toggle_View_Slot_7"
+                  ]]>
+                </OnRightClick>
+              </button>
+              <frame name='is7_atg_toggles'>
+                <X>0</X>
+                <Y>30</Y>
+                <Visible>0</Visible>
+                <Width>94</Width>
+                <Height>30</Height>
+                <BackgroundColor>00000000</BackgroundColor>
+                <Children>
+                  <button name='is7_combat'>
+                    <X>0</X>
+                    <Y>0</Y>
+                    <Width>32</Width>
+                    <Height>32</Height>
+                    <Texture />
+                    <BackgroundColor>3300FF00</BackgroundColor>
+                    <Text>C</Text>
+                    <OnLeftClick>
+                      <![CDATA[
+                        if ${This.BackgroundColor}==855703296
+                        {
+                          relay "is7" "uplink relaygroup -leave \"Combat\""
+                          This:SetBackgroundColor[66111111]
+                          ISBoxerUI:PopupText["${ISBoxerSlot7} has left Combat"]
+                        }
+                        else
+                        {
+                          relay "is7" uplink "relaygroup -join \"Combat\""
+                          This:SetBackgroundColor[3300FF00]
+                          ISBoxerUI:PopupText["${ISBoxerSlot7} has joined Combat"]
+                        }
+                      ]]>
+                    </OnLeftClick>
+                  </button>
+                  <button name='is7_follow'>
+                    <X>32</X>
+                    <Y>0</Y>
+                    <Width>32</Width>
+                    <Height>32</Height>
+                    <Texture />
+                    <BackgroundColor>3300FF00</BackgroundColor>
+                    <Text>F</Text>
+                    <OnLeftClick>
+                      <![CDATA[
+                        if ${This.BackgroundColor}==855703296
+                        {
+                          relay "is7" "uplink relaygroup -leave \"Follower\""
+                          This:SetBackgroundColor[66111111]
+                          ISBoxerUI:PopupText["${ISBoxerSlot7} has left Follower"]
+                        }
+                        else
+                        {
+                          relay "is7" uplink "relaygroup -join \"Follower\""
+                          This:SetBackgroundColor[3300FF00]
+                          ISBoxerUI:PopupText["${ISBoxerSlot7} has joined Follower"]
+                        }
+                      ]]>
+                    </OnLeftClick>
+                  </button>
+                  <button name='is7_assist'>
+                    <X>64</X>
+                    <Y>0</Y>
+                    <Width>32</Width>
+                    <Height>32</Height>
+                    <Texture />
+                    <BackgroundColor>3300FF00</BackgroundColor>
+                    <Text>A</Text>
+                    <OnLeftClick>
+                      <![CDATA[
+                        if ${This.BackgroundColor}==855703296
+                        {
+                          relay "is7" "uplink relaygroup -leave \"Assist\""
+                          This:SetBackgroundColor[66111111]
+                          ISBoxerUI:PopupText["${ISBoxerSlot7} has left Assist"]
+                        }
+                        else
+                        {
+                          relay "is7" uplink "relaygroup -join \"Assist\""
+                          This:SetBackgroundColor[3300FF00]
+                          ISBoxerUI:PopupText["${ISBoxerSlot7} has joined Assist"]
+                        }
+                      ]]>
+                    </OnLeftClick>
+                  </button>
+                </Children>
+              </frame>
+            </Children>
+          </frame>
+          <frame name="is8">
+            <X>1095</X>
+            <Y>0</Y>
+            <Width>150</Width>
+            <Height>60</Height>
+            <BackgroundColor>00000000</BackgroundColor>
+            <OnMouseEnter>
+              <![CDATA[
+                This.FindChild["is8_atg_toggles"]:Show
+                This.Parent.FindChild["is1"].FindChild["is1_atg_toggles"]:Hide
+                This.Parent.FindChild["is2"].FindChild["is2_atg_toggles"]:Hide
+                This.Parent.FindChild["is3"].FindChild["is3_atg_toggles"]:Hide
+                This.Parent.FindChild["is4"].FindChild["is4_atg_toggles"]:Hide
+                This.Parent.FindChild["is5"].FindChild["is5_atg_toggles"]:Hide
+                This.Parent.FindChild["is6"].FindChild["is6_atg_toggles"]:Hide
+                This.Parent.FindChild["is7"].FindChild["is7_atg_toggles"]:Hide
+                This.Parent.FindChild["is9"].FindChild["is9_atg_toggles"]:Hide
+                This.Parent.FindChild["is10"].FindChild["is10_atg_toggles"]:Hide
+              ]]>
+            </OnMouseEnter>
+            <Children>
+              <button name='is8_main'>
+                <X>0</X>
+                <Y>0</Y>
+                <Width>150</Width>
+                <Height>30</Height>
+                <Text>8: ${ISBoxerSlot8}</Text>
+                <OnLeftClick>
+                  <![CDATA[
+                    uplink focus is8
+                  ]]>
+                </OnLeftClick>
+                <OnRightDown>
+                  <![CDATA[
+                    keymapper -rememberholdmappedkey "ISB42 - Video FX Layout" "Toggle View Slot 8" "ISB42_Video_FX_Layout_Toggle_View_Slot_8" "self"
+                	  return
+                  ]]>
+                </OnRightDown>
+                <OnRightClick>
+                  <![CDATA[
+                    keymapper -rememberreleasemappedkey "ISB42_Video_FX_Layout_Toggle_View_Slot_8"
+                  ]]>
+                </OnRightClick>
+              </button>
+              <frame name='is8_atg_toggles'>
+                <X>0</X>
+                <Y>30</Y>
+                <Visible>0</Visible>
+                <Width>94</Width>
+                <Height>30</Height>
+                <BackgroundColor>00000000</BackgroundColor>
+                <Children>
+                  <button name='is8_combat'>
+                    <X>0</X>
+                    <Y>0</Y>
+                    <Width>32</Width>
+                    <Height>32</Height>
+                    <Texture />
+                    <BackgroundColor>3300FF00</BackgroundColor>
+                    <Text>C</Text>
+                    <OnLeftClick>
+                      <![CDATA[
+                        if ${This.BackgroundColor}==855703296
+                        {
+                          relay "is8" "uplink relaygroup -leave \"Combat\""
+                          This:SetBackgroundColor[66111111]
+                          ISBoxerUI:PopupText["${ISBoxerSlot8} has left Combat"]
+                        }
+                        else
+                        {
+                          relay "is8" "uplink relaygroup -join \"Combat\""
+                          This:SetBackgroundColor[3300FF00]
+                          ISBoxerUI:PopupText["${ISBoxerSlot8} has joined Combat"]
+                        }
+                      ]]>
+                    </OnLeftClick>
+                  </button>
+                  <button name='is8_follow'>
+                    <X>32</X>
+                    <Y>0</Y>
+                    <Width>32</Width>
+                    <Height>32</Height>
+                    <Texture />
+                    <BackgroundColor>3300FF00</BackgroundColor>
+                    <Text>F</Text>
+                    <OnLeftClick>
+                      <![CDATA[
+                        if ${This.BackgroundColor}==855703296
+                        {
+                          relay "is8" "uplink relaygroup -leave \"Follower\""
+                          This:SetBackgroundColor[66111111]
+                          ISBoxerUI:PopupText["${ISBoxerSlot8} has left Follower"]
+                        }
+                        else
+                        {
+                          relay "is8" "uplink relaygroup -join \"Follower\""
+                          This:SetBackgroundColor[3300FF00]
+                          ISBoxerUI:PopupText["${ISBoxerSlot8} has joined Follower"]
+                        }
+                      ]]>
+                    </OnLeftClick>
+                  </button>
+                  <button name='is8_assist'>
+                    <X>64</X>
+                    <Y>0</Y>
+                    <Width>32</Width>
+                    <Height>32</Height>
+                    <Texture />
+                    <BackgroundColor>3300FF00</BackgroundColor>
+                    <Text>A</Text>
+                    <OnLeftClick>
+                      <![CDATA[
+                        if ${This.BackgroundColor}==855703296
+                        {
+                          relay "is8" "uplink relaygroup -leave \"Assist\""
+                          This:SetBackgroundColor[66111111]
+                          ISBoxerUI:PopupText["${ISBoxerSlot8} has left Assist"]
+                        }
+                        else
+                        {
+                          relay "is8" "uplink relaygroup -join \"Assist\""
+                          This:SetBackgroundColor[3300FF00]
+                          ISBoxerUI:PopupText["${ISBoxerSlot8} has joined Assist"]
+                        }
+                      ]]>
+                    </OnLeftClick>
+                  </button>
+                </Children>
+              </frame>
+            </Children>
+          </frame>
+          <frame name="is9">
+            <X>1247</X>
+            <Y>0</Y>
+            <Width>150</Width>
+            <Height>60</Height>
+            <BackgroundColor>00000000</BackgroundColor>
+            <OnMouseEnter>
+              <![CDATA[
+                This.FindChild["is9_atg_toggles"]:Show
+                This.Parent.FindChild["is1"].FindChild["is1_atg_toggles"]:Hide
+                This.Parent.FindChild["is2"].FindChild["is2_atg_toggles"]:Hide
+                This.Parent.FindChild["is3"].FindChild["is3_atg_toggles"]:Hide
+                This.Parent.FindChild["is4"].FindChild["is4_atg_toggles"]:Hide
+                This.Parent.FindChild["is5"].FindChild["is5_atg_toggles"]:Hide
+                This.Parent.FindChild["is6"].FindChild["is6_atg_toggles"]:Hide
+                This.Parent.FindChild["is7"].FindChild["is7_atg_toggles"]:Hide
+                This.Parent.FindChild["is8"].FindChild["is8_atg_toggles"]:Hide
+                This.Parent.FindChild["is10"].FindChild["is10_atg_toggles"]:Hide
+              ]]>
+            </OnMouseEnter>
+            <Children>
+              <button name='is9_main'>
+                <X>0</X>
+                <Y>0</Y>
+                <Width>150</Width>
+                <Height>30</Height>
+                <Text>9: ${ISBoxerSlot9}</Text>
+                <OnLeftClick>
+                  <![CDATA[
+                    uplink focus is9
+                  ]]>
+                </OnLeftClick>
+                <OnRightDown>
+                  <![CDATA[
+                    keymapper -rememberholdmappedkey "ISB42 - Video FX Layout" "Toggle View Slot 9" "ISB42_Video_FX_Layout_Toggle_View_Slot_9" "self"
+                	  return
+                  ]]>
+                </OnRightDown>
+                <OnRightClick>
+                  <![CDATA[
+                    keymapper -rememberreleasemappedkey "ISB42_Video_FX_Layout_Toggle_View_Slot_9"
+                  ]]>
+                </OnRightClick>
+              </button>
+              <frame name='is9_atg_toggles'>
+                <X>0</X>
+                <Y>30</Y>
+                <Visible>0</Visible>
+                <Width>94</Width>
+                <Height>30</Height>
+                <BackgroundColor>00000000</BackgroundColor>
+                <Children>
+                  <button name='is9_combat'>
+                    <X>0</X>
+                    <Y>0</Y>
+                    <Width>32</Width>
+                    <Height>32</Height>
+                    <Texture />
+                    <BackgroundColor>3300FF00</BackgroundColor>
+                    <Text>C</Text>
+                    <OnLeftClick>
+                      <![CDATA[
+                        if ${This.BackgroundColor}==855703296
+                        {
+                          relay "is9" "uplink relaygroup -leave \"Combat\""
+                          This:SetBackgroundColor[66111111]
+                          ISBoxerUI:PopupText["${ISBoxerSlot9} has left Combat"]
+                        }
+                        else
+                        {
+                          relay "is9" uplink "relaygroup -join \"Combat\""
+                          This:SetBackgroundColor[3300FF00]
+                          ISBoxerUI:PopupText["${ISBoxerSlot9} has joined Combat"]
+                        }
+                      ]]>
+                    </OnLeftClick>
+                  </button>
+                  <button name='is9_follow'>
+                    <X>32</X>
+                    <Y>0</Y>
+                    <Width>32</Width>
+                    <Height>32</Height>
+                    <Texture />
+                    <BackgroundColor>3300FF00</BackgroundColor>
+                    <Text>F</Text>
+                    <OnLeftClick>
+                      <![CDATA[
+                        if ${This.BackgroundColor}==855703296
+                        {
+                          relay "is9" "uplink relaygroup -leave \"Follower\""
+                          This:SetBackgroundColor[66111111]
+                          ISBoxerUI:PopupText["${ISBoxerSlot9} has left Follower"]
+                        }
+                        else
+                        {
+                          relay "is9" uplink "relaygroup -join \"Follower\""
+                          This:SetBackgroundColor[3300FF00]
+                          ISBoxerUI:PopupText["${ISBoxerSlot9} has joined Follower"]
+                        }
+                      ]]>
+                    </OnLeftClick>
+                  </button>
+                  <button name='is9_assist'>
+                    <X>64</X>
+                    <Y>0</Y>
+                    <Width>32</Width>
+                    <Height>32</Height>
+                    <Texture />
+                    <BackgroundColor>3300FF00</BackgroundColor>
+                    <Text>A</Text>
+                    <OnLeftClick>
+                      <![CDATA[
+                        if ${This.BackgroundColor}==855703296
+                        {
+                          relay "is9" "uplink relaygroup -leave \"Assist\""
+                          This:SetBackgroundColor[66111111]
+                          ISBoxerUI:PopupText["${ISBoxerSlot9} has left Assist"]
+                        }
+                        else
+                        {
+                          relay "is9" uplink "relaygroup -join \"Assist\""
+                          This:SetBackgroundColor[3300FF00]
+                          ISBoxerUI:PopupText["${ISBoxerSlot9} has joined Assist"]
+                        }
+                      ]]>
+                    </OnLeftClick>
+                  </button>
+                </Children>
+              </frame>
+            </Children>
+          </frame>
+          <frame name="is10">
+            <X>1399</X>
+            <Y>0</Y>
+            <Width>150</Width>
+            <Height>60</Height>
+            <BackgroundColor>00000000</BackgroundColor>
+            <OnMouseEnter>
+              <![CDATA[
+                This.FindChild["is10_atg_toggles"]:Show
+                This.Parent.FindChild["is1"].FindChild["is1_atg_toggles"]:Hide
+                This.Parent.FindChild["is2"].FindChild["is2_atg_toggles"]:Hide
+                This.Parent.FindChild["is3"].FindChild["is3_atg_toggles"]:Hide
+                This.Parent.FindChild["is4"].FindChild["is4_atg_toggles"]:Hide
+                This.Parent.FindChild["is5"].FindChild["is5_atg_toggles"]:Hide
+                This.Parent.FindChild["is6"].FindChild["is6_atg_toggles"]:Hide
+                This.Parent.FindChild["is7"].FindChild["is7_atg_toggles"]:Hide
+                This.Parent.FindChild["is8"].FindChild["is8_atg_toggles"]:Hide
+                This.Parent.FindChild["is9"].FindChild["is9_atg_toggles"]:Hide
+              ]]>
+            </OnMouseEnter>
+            <Children>
+              <button name='is10_main'>
+                <X>0</X>
+                <Y>0</Y>
+                <Width>150</Width>
+                <Height>30</Height>
+                <Text>10: ${ISBoxerSlot10}</Text>
+                <OnLeftClick>
+                  <![CDATA[
+                    uplink focus is10
+                  ]]>
+                </OnLeftClick>
+                <OnRightDown>
+                  <![CDATA[
+                    keymapper -rememberholdmappedkey "ISB42 - Video FX Layout" "Toggle View Slot 10" "ISB42_Video_FX_Layout_Toggle_View_Slot_10" "self"
+                	  return
+                  ]]>
+                </OnRightDown>
+                <OnRightClick>
+                  <![CDATA[
+                    keymapper -rememberreleasemappedkey "ISB42_Video_FX_Layout_Toggle_View_Slot_10"
+                  ]]>
+                </OnRightClick>
+              </button>
+              <frame name='is10_atg_toggles'>
+                <X>0</X>
+                <Y>30</Y>
+                <Visible>0</Visible>
+                <Width>94</Width>
+                <Height>30</Height>
+                <BackgroundColor>00000000</BackgroundColor>
+                <Children>
+                  <button name='is10_combat'>
+                    <X>0</X>
+                    <Y>0</Y>
+                    <Width>32</Width>
+                    <Height>32</Height>
+                    <Texture />
+                    <BackgroundColor>3300FF00</BackgroundColor>
+                    <Text>C</Text>
+                    <OnLeftClick>
+                      <![CDATA[
+                        if ${This.BackgroundColor}==855703296
+                        {
+                          relay "is10" "uplink relaygroup -leave \"Combat\""
+                          This:SetBackgroundColor[66111111]
+                          ISBoxerUI:PopupText["${ISBoxerSlot10} has left Combat"]
+                        }
+                        else
+                        {
+                          relay "is10" uplink "relaygroup -join \"Combat\""
+                          This:SetBackgroundColor[3300FF00]
+                          ISBoxerUI:PopupText["${ISBoxerSlot10} has joined Combat"]
+                        }
+                      ]]>
+                    </OnLeftClick>
+                  </button>
+                  <button name='is10_follow'>
+                    <X>32</X>
+                    <Y>0</Y>
+                    <Width>32</Width>
+                    <Height>32</Height>
+                    <Texture />
+                    <BackgroundColor>3300FF00</BackgroundColor>
+                    <Text>F</Text>
+                    <OnLeftClick>
+                      <![CDATA[
+                        if ${This.BackgroundColor}==855703296
+                        {
+                          relay "is10" "uplink relaygroup -leave \"Follower\""
+                          This:SetBackgroundColor[66111111]
+                          ISBoxerUI:PopupText["${ISBoxerSlot10} has left Follower"]
+                        }
+                        else
+                        {
+                          relay "is10" uplink "relaygroup -join \"Follower\""
+                          This:SetBackgroundColor[3300FF00]
+                          ISBoxerUI:PopupText["${ISBoxerSlot10} has joined Follower"]
+                        }
+                      ]]>
+                    </OnLeftClick>
+                  </button>
+                  <button name='is10_assist'>
+                    <X>64</X>
+                    <Y>0</Y>
+                    <Width>32</Width>
+                    <Height>32</Height>
+                    <Texture />
+                    <BackgroundColor>3300FF00</BackgroundColor>
+                    <Text>A</Text>
+                    <OnLeftClick>
+                      <![CDATA[
+                        if ${This.BackgroundColor}==855703296
+                        {
+                          relay "is10" "uplink relaygroup -leave \"Assist\""
+                          This:SetBackgroundColor[66111111]
+                          ISBoxerUI:PopupText["${ISBoxerSlot10} has left Assist"]
+                        }
+                        else
+                        {
+                          relay "is10" uplink "relaygroup -join \"Assist\""
+                          This:SetBackgroundColor[3300FF00]
+                          ISBoxerUI:PopupText["${ISBoxerSlot10} has joined Assist"]
+                        }
+                      ]]>
+                    </OnLeftClick>
+                  </button>
+                </Children>
+              </frame>
+            </Children>
+          </frame>
+        </Children>
+      </frame>
+    </Children>
+  </Window>
+</ISUI>
