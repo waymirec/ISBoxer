@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ISBoxerToolkitProfile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="42" VersionMinor="0" BuildDate="12/12/2019 6:18:59 PM">
+<ISBoxerToolkitProfile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="42" VersionMinor="0" BuildDate="12/13/2019 1:36:16 PM">
   <CharacterSet>
     <ExecuteOnLoad />
     <Name>Blaumeux - Mixed</Name>
@@ -1143,10 +1143,12 @@
       <string>ISB42 - WoW</string>
       <string>ISB42 - Initialization</string>
       <string>ISB42 - Initialization [Virtualized]</string>
+      <string>ATG Toggles</string>
       <string>ISB42 - Healing - Primary</string>
       <string>ISB42 - Healing - Secondary</string>
       <string>ISB42 - Healing - Tertiary</string>
       <string>ISB42 - Healing [Virtualized]</string>
+      <string>ISB42 - Crowd Control</string>
     </KeyMapStrings>
     <KeyMapWhiteOrBlackListType>Ignore</KeyMapWhiteOrBlackListType>
     <KeyMapWhiteOrBlackList />
@@ -1315,8 +1317,6 @@
   <Character>
     <ExecuteOnLoad>
       <Target />
-      <KeyMapString>ISB42 - Always On</KeyMapString>
-      <MappedKeyString>Activate Control Panel</MappedKeyString>
     </ExecuteOnLoad>
     <Name>DxNothing VFX2</Name>
     <AccountName />
@@ -1830,16 +1830,24 @@
       <string>Group 1</string>
     </RelayGroupStrings>
     <KeyMapStrings>
-      <string>ISB42 - Toggles</string>
-      <string>ISB42 - Video FX Layout</string>
-      <string>ISB42 - Initialization</string>
-      <string>ISB42 - Initialization [Virtualized]</string>
       <string>Warrior - Base</string>
       <string>Warrior - Arms</string>
     </KeyMapStrings>
     <KeyMapWhiteOrBlackListType>Ignore</KeyMapWhiteOrBlackListType>
     <KeyMapWhiteOrBlackList />
-    <ClickBarStrings />
+    <ClickBarStrings>
+      <string>Control Panel</string>
+      <string>Slot 1 ATG</string>
+      <string>Slot 2 ATG</string>
+      <string>Slot 3 ATG</string>
+      <string>Slot 4 ATG</string>
+      <string>Slot 5 ATG</string>
+      <string>Slot 6 ATG</string>
+      <string>Slot 7 ATG</string>
+      <string>Slot 8 ATG</string>
+      <string>Slot 9 ATG</string>
+      <string>Slot 10 ATG</string>
+    </ClickBarStrings>
     <MenuInstances />
     <VirtualFileTargets>
       <VirtualFileTarget>
@@ -7754,342 +7762,103 @@ See http://isboxer.com/wiki/WoW:Interact_with_Target.</Description>
         </Steps>
       </MappedKey>
       <MappedKey>
-        <Name>Toggle Slot 1 Menu</Name>
+        <Name>Toggle ATG Bars</Name>
         <Steps>
           <Step>
             <Actions>
-              <MappedKeyAction xsi:type="MenuStateAction">
-                <Menu />
-                <ActionType>Load</ActionType>
+              <MappedKeyAction xsi:type="ClickBarStateAction">
+                <Target>all</Target>
+                <ClickBar>
+                  <ClickBarString>Slot 1 ATG</ClickBarString>
+                </ClickBar>
+                <Value>Toggle</Value>
+                <ClickBarSet />
               </MappedKeyAction>
-              <MappedKeyAction xsi:type="MenuStateAction">
-                <Menu />
-                <ActionType>Unload</ActionType>
+              <MappedKeyAction xsi:type="ClickBarStateAction">
+                <Target>all</Target>
+                <ClickBar>
+                  <ClickBarString>Slot 2 ATG</ClickBarString>
+                </ClickBar>
+                <Value>Toggle</Value>
+                <ClickBarSet />
               </MappedKeyAction>
-              <MappedKeyAction xsi:type="MappedKeyStepAction">
-                <MappedKey>
-                  <KeyMapString>ISB42 - Toggles</KeyMapString>
-                  <MappedKeyString>Toggle Slot 2 Menu</MappedKeyString>
-                </MappedKey>
-                <Action>Set</Action>
-                <Value>1</Value>
+              <MappedKeyAction xsi:type="ClickBarStateAction">
+                <Target>all</Target>
+                <ClickBar>
+                  <ClickBarString>Slot 3 ATG</ClickBarString>
+                </ClickBar>
+                <Value>Toggle</Value>
+                <ClickBarSet />
               </MappedKeyAction>
-              <MappedKeyAction xsi:type="MenuStateAction">
-                <Menu />
-                <ActionType>Unload</ActionType>
+              <MappedKeyAction xsi:type="ClickBarStateAction">
+                <Target>all</Target>
+                <ClickBar>
+                  <ClickBarString>Slot 4 ATG</ClickBarString>
+                </ClickBar>
+                <Value>Toggle</Value>
+                <ClickBarSet />
               </MappedKeyAction>
-              <MappedKeyAction xsi:type="MappedKeyStepAction">
-                <MappedKey>
-                  <KeyMapString>ISB42 - Toggles</KeyMapString>
-                  <MappedKeyString>Toggle Slot 3 Menu</MappedKeyString>
-                </MappedKey>
-                <Action>Set</Action>
-                <Value>1</Value>
+              <MappedKeyAction xsi:type="ClickBarStateAction">
+                <Target>all</Target>
+                <ClickBar>
+                  <ClickBarString>Slot 5 ATG</ClickBarString>
+                </ClickBar>
+                <Value>Toggle</Value>
+                <ClickBarSet />
               </MappedKeyAction>
-              <MappedKeyAction xsi:type="MenuStateAction">
-                <Menu />
-                <ActionType>Unload</ActionType>
+              <MappedKeyAction xsi:type="ClickBarStateAction">
+                <Target>all</Target>
+                <ClickBar>
+                  <ClickBarString>Slot 6 ATG</ClickBarString>
+                </ClickBar>
+                <Value>Toggle</Value>
+                <ClickBarSet />
               </MappedKeyAction>
-              <MappedKeyAction xsi:type="MappedKeyStepAction">
-                <MappedKey>
-                  <KeyMapString>ISB42 - Toggles</KeyMapString>
-                  <MappedKeyString>Toggle Slot 4 Menu</MappedKeyString>
-                </MappedKey>
-                <Action>Set</Action>
-                <Value>1</Value>
+              <MappedKeyAction xsi:type="ClickBarStateAction">
+                <Target>all</Target>
+                <ClickBar>
+                  <ClickBarString>Slot 7 ATG</ClickBarString>
+                </ClickBar>
+                <Value>Toggle</Value>
+                <ClickBarSet />
               </MappedKeyAction>
-              <MappedKeyAction xsi:type="MenuStateAction">
-                <Menu />
-                <ActionType>Unload</ActionType>
+              <MappedKeyAction xsi:type="ClickBarStateAction">
+                <Target>all</Target>
+                <ClickBar>
+                  <ClickBarString>Slot 8 ATG</ClickBarString>
+                </ClickBar>
+                <Value>Toggle</Value>
+                <ClickBarSet />
               </MappedKeyAction>
-              <MappedKeyAction xsi:type="MappedKeyStepAction">
-                <MappedKey>
-                  <KeyMapString>ISB42 - Toggles</KeyMapString>
-                  <MappedKeyString>Toggle Slot 5 Menu</MappedKeyString>
-                </MappedKey>
-                <Action>Set</Action>
-                <Value>1</Value>
+              <MappedKeyAction xsi:type="ClickBarStateAction">
+                <Target>all</Target>
+                <ClickBar>
+                  <ClickBarString>Slot 9 ATG</ClickBarString>
+                </ClickBar>
+                <Value>Toggle</Value>
+                <ClickBarSet />
               </MappedKeyAction>
-              <MappedKeyAction xsi:type="MenuButtonAction">
-                <MenuButton />
-                <ButtonChanges>
-                  <Actions />
-                </ButtonChanges>
-              </MappedKeyAction>
-            </Actions>
-          </Step>
-          <Step>
-            <Actions>
-              <MappedKeyAction xsi:type="MenuStateAction">
-                <Menu />
-                <ActionType>Unload</ActionType>
+              <MappedKeyAction xsi:type="ClickBarStateAction">
+                <Target>all</Target>
+                <ClickBar>
+                  <ClickBarString>Slot 10 ATG</ClickBarString>
+                </ClickBar>
+                <Value>Toggle</Value>
+                <ClickBarSet />
               </MappedKeyAction>
             </Actions>
           </Step>
         </Steps>
       </MappedKey>
       <MappedKey>
-        <Name>Toggle Slot 2 Menu</Name>
+        <Name>Toggle Control Panel Menu</Name>
         <Steps>
           <Step>
             <Actions>
               <MappedKeyAction xsi:type="MenuStateAction">
-                <Menu />
-                <ActionType>Unload</ActionType>
-              </MappedKeyAction>
-              <MappedKeyAction xsi:type="MappedKeyStepAction">
-                <MappedKey>
-                  <KeyMapString>ISB42 - Toggles</KeyMapString>
-                  <MappedKeyString>Toggle Slot 1 Menu</MappedKeyString>
-                </MappedKey>
-                <Action>Set</Action>
-                <Value>1</Value>
-              </MappedKeyAction>
-              <MappedKeyAction xsi:type="MenuStateAction">
-                <Menu />
-                <ActionType>Load</ActionType>
-              </MappedKeyAction>
-              <MappedKeyAction xsi:type="MenuStateAction">
-                <Menu />
-                <ActionType>Unload</ActionType>
-              </MappedKeyAction>
-              <MappedKeyAction xsi:type="MappedKeyStepAction">
-                <MappedKey>
-                  <KeyMapString>ISB42 - Toggles</KeyMapString>
-                  <MappedKeyString>Toggle Slot 3 Menu</MappedKeyString>
-                </MappedKey>
-                <Action>Set</Action>
-                <Value>1</Value>
-              </MappedKeyAction>
-              <MappedKeyAction xsi:type="MenuStateAction">
-                <Menu />
-                <ActionType>Unload</ActionType>
-              </MappedKeyAction>
-              <MappedKeyAction xsi:type="MappedKeyStepAction">
-                <MappedKey>
-                  <KeyMapString>ISB42 - Toggles</KeyMapString>
-                  <MappedKeyString>Toggle Slot 4 Menu</MappedKeyString>
-                </MappedKey>
-                <Action>Set</Action>
-                <Value>1</Value>
-              </MappedKeyAction>
-              <MappedKeyAction xsi:type="MenuStateAction">
-                <Menu />
-                <ActionType>Unload</ActionType>
-              </MappedKeyAction>
-              <MappedKeyAction xsi:type="MappedKeyStepAction">
-                <MappedKey>
-                  <KeyMapString>ISB42 - Toggles</KeyMapString>
-                  <MappedKeyString>Toggle Slot 5 Menu</MappedKeyString>
-                </MappedKey>
-                <Action>Set</Action>
-                <Value>1</Value>
-              </MappedKeyAction>
-            </Actions>
-          </Step>
-          <Step>
-            <Actions>
-              <MappedKeyAction xsi:type="MenuStateAction">
-                <Menu />
-                <ActionType>Unload</ActionType>
-              </MappedKeyAction>
-            </Actions>
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
-        <Name>Toggle Slot 3 Menu</Name>
-        <Steps>
-          <Step>
-            <Actions>
-              <MappedKeyAction xsi:type="MenuStateAction">
-                <Menu />
-                <ActionType>Unload</ActionType>
-              </MappedKeyAction>
-              <MappedKeyAction xsi:type="MappedKeyStepAction">
-                <MappedKey>
-                  <KeyMapString>ISB42 - Toggles</KeyMapString>
-                  <MappedKeyString>Toggle Slot 1 Menu</MappedKeyString>
-                </MappedKey>
-                <Action>Set</Action>
-                <Value>1</Value>
-              </MappedKeyAction>
-              <MappedKeyAction xsi:type="MenuStateAction">
-                <Menu />
-                <ActionType>Unload</ActionType>
-              </MappedKeyAction>
-              <MappedKeyAction xsi:type="MappedKeyStepAction">
-                <MappedKey>
-                  <KeyMapString>ISB42 - Toggles</KeyMapString>
-                  <MappedKeyString>Toggle Slot 2 Menu</MappedKeyString>
-                </MappedKey>
-                <Action>Set</Action>
-                <Value>1</Value>
-              </MappedKeyAction>
-              <MappedKeyAction xsi:type="MenuStateAction">
-                <Menu />
-                <ActionType>Load</ActionType>
-              </MappedKeyAction>
-              <MappedKeyAction xsi:type="MenuStateAction">
-                <Menu />
-                <ActionType>Unload</ActionType>
-              </MappedKeyAction>
-              <MappedKeyAction xsi:type="MappedKeyStepAction">
-                <MappedKey>
-                  <KeyMapString>ISB42 - Toggles</KeyMapString>
-                  <MappedKeyString>Toggle Slot 4 Menu</MappedKeyString>
-                </MappedKey>
-                <Action>Set</Action>
-                <Value>1</Value>
-              </MappedKeyAction>
-              <MappedKeyAction xsi:type="MenuStateAction">
-                <Menu />
-                <ActionType>Unload</ActionType>
-              </MappedKeyAction>
-              <MappedKeyAction xsi:type="MappedKeyStepAction">
-                <MappedKey>
-                  <KeyMapString>ISB42 - Toggles</KeyMapString>
-                  <MappedKeyString>Toggle Slot 5 Menu</MappedKeyString>
-                </MappedKey>
-                <Action>Set</Action>
-                <Value>1</Value>
-              </MappedKeyAction>
-            </Actions>
-          </Step>
-          <Step>
-            <Actions>
-              <MappedKeyAction xsi:type="MenuStateAction">
-                <Menu />
-                <ActionType>Unload</ActionType>
-              </MappedKeyAction>
-            </Actions>
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
-        <Name>Toggle Slot 4 Menu</Name>
-        <Steps>
-          <Step>
-            <Actions>
-              <MappedKeyAction xsi:type="MenuStateAction">
-                <Menu />
-                <ActionType>Unload</ActionType>
-              </MappedKeyAction>
-              <MappedKeyAction xsi:type="MappedKeyStepAction">
-                <MappedKey>
-                  <KeyMapString>ISB42 - Toggles</KeyMapString>
-                  <MappedKeyString>Toggle Slot 1 Menu</MappedKeyString>
-                </MappedKey>
-                <Action>Set</Action>
-                <Value>1</Value>
-              </MappedKeyAction>
-              <MappedKeyAction xsi:type="MenuStateAction">
-                <Menu />
-                <ActionType>Unload</ActionType>
-              </MappedKeyAction>
-              <MappedKeyAction xsi:type="MappedKeyStepAction">
-                <MappedKey>
-                  <KeyMapString>ISB42 - Toggles</KeyMapString>
-                  <MappedKeyString>Toggle Slot 2 Menu</MappedKeyString>
-                </MappedKey>
-                <Action>Set</Action>
-                <Value>1</Value>
-              </MappedKeyAction>
-              <MappedKeyAction xsi:type="MenuStateAction">
-                <Menu />
-                <ActionType>Unload</ActionType>
-              </MappedKeyAction>
-              <MappedKeyAction xsi:type="MappedKeyStepAction">
-                <MappedKey>
-                  <KeyMapString>ISB42 - Toggles</KeyMapString>
-                  <MappedKeyString>Toggle Slot 3 Menu</MappedKeyString>
-                </MappedKey>
-                <Action>Set</Action>
-                <Value>1</Value>
-              </MappedKeyAction>
-              <MappedKeyAction xsi:type="MenuStateAction">
-                <Menu />
-                <ActionType>Load</ActionType>
-              </MappedKeyAction>
-              <MappedKeyAction xsi:type="MenuStateAction">
-                <Menu />
-                <ActionType>Unload</ActionType>
-              </MappedKeyAction>
-              <MappedKeyAction xsi:type="MappedKeyStepAction">
-                <MappedKey>
-                  <KeyMapString>ISB42 - Toggles</KeyMapString>
-                  <MappedKeyString>Toggle Slot 5 Menu</MappedKeyString>
-                </MappedKey>
-                <Action>Set</Action>
-                <Value>1</Value>
-              </MappedKeyAction>
-            </Actions>
-          </Step>
-          <Step>
-            <Actions>
-              <MappedKeyAction xsi:type="MenuStateAction">
-                <Menu />
-                <ActionType>Unload</ActionType>
-              </MappedKeyAction>
-            </Actions>
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
-        <Name>Toggle Slot 5 Menu</Name>
-        <Steps>
-          <Step>
-            <Actions>
-              <MappedKeyAction xsi:type="MenuStateAction">
-                <Menu />
-                <ActionType>Unload</ActionType>
-              </MappedKeyAction>
-              <MappedKeyAction xsi:type="MappedKeyStepAction">
-                <MappedKey>
-                  <KeyMapString>ISB42 - Toggles</KeyMapString>
-                  <MappedKeyString>Toggle Slot 1 Menu</MappedKeyString>
-                </MappedKey>
-                <Action>Set</Action>
-                <Value>1</Value>
-              </MappedKeyAction>
-              <MappedKeyAction xsi:type="MenuStateAction">
-                <Menu />
-                <ActionType>Unload</ActionType>
-              </MappedKeyAction>
-              <MappedKeyAction xsi:type="MappedKeyStepAction">
-                <MappedKey>
-                  <KeyMapString>ISB42 - Toggles</KeyMapString>
-                  <MappedKeyString>Toggle Slot 2 Menu</MappedKeyString>
-                </MappedKey>
-                <Action>Set</Action>
-                <Value>1</Value>
-              </MappedKeyAction>
-              <MappedKeyAction xsi:type="MenuStateAction">
-                <Menu />
-                <ActionType>Unload</ActionType>
-              </MappedKeyAction>
-              <MappedKeyAction xsi:type="MappedKeyStepAction">
-                <MappedKey>
-                  <KeyMapString>ISB42 - Toggles</KeyMapString>
-                  <MappedKeyString>Toggle Slot 3 Menu</MappedKeyString>
-                </MappedKey>
-                <Action>Set</Action>
-                <Value>1</Value>
-              </MappedKeyAction>
-              <MappedKeyAction xsi:type="MenuStateAction">
-                <Menu />
-                <ActionType>Unload</ActionType>
-              </MappedKeyAction>
-              <MappedKeyAction xsi:type="MappedKeyStepAction">
-                <MappedKey>
-                  <KeyMapString>ISB42 - Toggles</KeyMapString>
-                  <MappedKeyString>Toggle Slot 4 Menu</MappedKeyString>
-                </MappedKey>
-                <Action>Set</Action>
-                <Value>1</Value>
-              </MappedKeyAction>
-              <MappedKeyAction xsi:type="MenuStateAction">
-                <Menu />
+                <Menu>
+                  <MenuString>Control Panel Menu</MenuString>
+                </Menu>
                 <ActionType>Load</ActionType>
               </MappedKeyAction>
             </Actions>
@@ -8097,19 +7866,12 @@ See http://isboxer.com/wiki/WoW:Interact_with_Target.</Description>
           <Step>
             <Actions>
               <MappedKeyAction xsi:type="MenuStateAction">
-                <Menu />
+                <Menu>
+                  <MenuString>Control Panel Menu</MenuString>
+                </Menu>
                 <ActionType>Unload</ActionType>
               </MappedKeyAction>
             </Actions>
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
-        <Name>--------------------------------------------------------      </Name>
-        <ResetTimer>0</ResetTimer>
-        <Steps>
-          <Step>
-            <Actions />
           </Step>
         </Steps>
       </MappedKey>
@@ -9583,7 +9345,6 @@ See http://isboxer.com/wiki/WoW:Interact_with_Target.</Description>
               <MappedKeyAction xsi:type="VideoFeedsAction">
                 <Action>Remove</Action>
                 <Name>is6</Name>
-                <Target>v</Target>
                 <Rect>
                   <Location>
                     <X>1720</X>
@@ -9606,7 +9367,6 @@ See http://isboxer.com/wiki/WoW:Interact_with_Target.</Description>
               <MappedKeyAction xsi:type="VideoFeedsAction">
                 <Action>Remove</Action>
                 <Name>is7</Name>
-                <Target>v</Target>
                 <Rect>
                   <Location>
                     <X>2064</X>
@@ -9720,6 +9480,10 @@ See http://isboxer.com/wiki/WoW:Interact_with_Target.</Description>
         <Steps>
           <Step>
             <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>ISB42 - Video FX Layout</KeyMapString>
+                <MappedKeyString>Remove Slot Views</MappedKeyString>
+              </MappedKeyAction>
               <MappedKeyAction xsi:type="WindowFocusAction">
                 <Window>is1</Window>
                 <Computer />
@@ -9734,6 +9498,10 @@ See http://isboxer.com/wiki/WoW:Interact_with_Target.</Description>
         <Steps>
           <Step>
             <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>ISB42 - Video FX Layout</KeyMapString>
+                <MappedKeyString>Remove Slot Views</MappedKeyString>
+              </MappedKeyAction>
               <MappedKeyAction xsi:type="WindowFocusAction">
                 <Window>is2</Window>
                 <Computer />
@@ -9748,6 +9516,10 @@ See http://isboxer.com/wiki/WoW:Interact_with_Target.</Description>
         <Steps>
           <Step>
             <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>ISB42 - Video FX Layout</KeyMapString>
+                <MappedKeyString>Remove Slot Views</MappedKeyString>
+              </MappedKeyAction>
               <MappedKeyAction xsi:type="WindowFocusAction">
                 <Window>is3</Window>
                 <Computer />
@@ -9762,6 +9534,10 @@ See http://isboxer.com/wiki/WoW:Interact_with_Target.</Description>
         <Steps>
           <Step>
             <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>ISB42 - Video FX Layout</KeyMapString>
+                <MappedKeyString>Remove Slot Views</MappedKeyString>
+              </MappedKeyAction>
               <MappedKeyAction xsi:type="WindowFocusAction">
                 <Window>is4</Window>
                 <Computer />
@@ -9776,6 +9552,10 @@ See http://isboxer.com/wiki/WoW:Interact_with_Target.</Description>
         <Steps>
           <Step>
             <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>ISB42 - Video FX Layout</KeyMapString>
+                <MappedKeyString>Remove Slot Views</MappedKeyString>
+              </MappedKeyAction>
               <MappedKeyAction xsi:type="WindowFocusAction">
                 <Window>is5</Window>
                 <Computer />
@@ -9790,6 +9570,10 @@ See http://isboxer.com/wiki/WoW:Interact_with_Target.</Description>
         <Steps>
           <Step>
             <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>ISB42 - Video FX Layout</KeyMapString>
+                <MappedKeyString>Remove Slot Views</MappedKeyString>
+              </MappedKeyAction>
               <MappedKeyAction xsi:type="WindowFocusAction">
                 <Window>is6</Window>
                 <Computer />
@@ -9804,6 +9588,10 @@ See http://isboxer.com/wiki/WoW:Interact_with_Target.</Description>
         <Steps>
           <Step>
             <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>ISB42 - Video FX Layout</KeyMapString>
+                <MappedKeyString>Remove Slot Views</MappedKeyString>
+              </MappedKeyAction>
               <MappedKeyAction xsi:type="WindowFocusAction">
                 <Window>is7</Window>
                 <Computer />
@@ -9818,6 +9606,10 @@ See http://isboxer.com/wiki/WoW:Interact_with_Target.</Description>
         <Steps>
           <Step>
             <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>ISB42 - Video FX Layout</KeyMapString>
+                <MappedKeyString>Remove Slot Views</MappedKeyString>
+              </MappedKeyAction>
               <MappedKeyAction xsi:type="WindowFocusAction">
                 <Window>is8</Window>
                 <Computer />
@@ -9832,6 +9624,10 @@ See http://isboxer.com/wiki/WoW:Interact_with_Target.</Description>
         <Steps>
           <Step>
             <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>ISB42 - Video FX Layout</KeyMapString>
+                <MappedKeyString>Remove Slot Views</MappedKeyString>
+              </MappedKeyAction>
               <MappedKeyAction xsi:type="WindowFocusAction">
                 <Window>is9</Window>
                 <Computer />
@@ -9846,6 +9642,10 @@ See http://isboxer.com/wiki/WoW:Interact_with_Target.</Description>
         <Steps>
           <Step>
             <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>ISB42 - Video FX Layout</KeyMapString>
+                <MappedKeyString>Remove Slot Views</MappedKeyString>
+              </MappedKeyAction>
               <MappedKeyAction xsi:type="WindowFocusAction">
                 <Window>is10</Window>
                 <Computer />
@@ -10580,12 +10380,6 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
         <Steps>
           <Step>
             <Actions>
-              <MappedKeyAction xsi:type="PopupTextAction">
-                <Target>all</Target>
-                <Text>Initialized</Text>
-                <DurationMS>5000</DurationMS>
-                <FadeDurationMS>3000</FadeDurationMS>
-              </MappedKeyAction>
               <MappedKeyAction xsi:type="MappedKeyExecuteAction">
                 <KeyMapString>ISB42 - Action Target Group</KeyMapString>
                 <MappedKeyString>Setup Base</MappedKeyString>
@@ -10686,6 +10480,70 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
                 </ClickBar>
                 <ClickBarSet />
               </MappedKeyAction>
+              <MappedKeyAction xsi:type="ClickBarStateAction">
+                <ClickBar>
+                  <ClickBarString>Slot 2 ATG</ClickBarString>
+                </ClickBar>
+                <ClickBarSet />
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="ClickBarStateAction">
+                <ClickBar>
+                  <ClickBarString>Slot 3 ATG</ClickBarString>
+                </ClickBar>
+                <ClickBarSet />
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="ClickBarStateAction">
+                <ClickBar>
+                  <ClickBarString>Slot 4 ATG</ClickBarString>
+                </ClickBar>
+                <ClickBarSet />
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="ClickBarStateAction">
+                <ClickBar>
+                  <ClickBarString>Slot 5 ATG</ClickBarString>
+                </ClickBar>
+                <ClickBarSet />
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="ClickBarStateAction">
+                <ClickBar>
+                  <ClickBarString>Slot 6 ATG</ClickBarString>
+                </ClickBar>
+                <ClickBarSet />
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="ClickBarStateAction">
+                <ClickBar>
+                  <ClickBarString>Slot 7 ATG</ClickBarString>
+                </ClickBar>
+                <ClickBarSet />
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="ClickBarStateAction">
+                <ClickBar>
+                  <ClickBarString>Slot 8 ATG</ClickBarString>
+                </ClickBar>
+                <ClickBarSet />
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="ClickBarStateAction">
+                <ClickBar>
+                  <ClickBarString>Slot 9 ATG</ClickBarString>
+                </ClickBar>
+                <ClickBarSet />
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="ClickBarStateAction">
+                <ClickBar>
+                  <ClickBarString>Slot 10 ATG</ClickBarString>
+                </ClickBar>
+                <ClickBarSet />
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="ClickBarButtonAction">
+                <ClickBarButton>
+                  <ClickBarString>Control Panel</ClickBarString>
+                  <ClickBarButtonString>Slot{SLOT}</ClickBarButtonString>
+                </ClickBarButton>
+                <BackgroundColor>
+                  <Red>255</Red>
+                  <Alpha>204</Alpha>
+                </BackgroundColor>
+              </MappedKeyAction>
             </Actions>
           </Step>
         </Steps>
@@ -10706,66 +10564,198 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
     <Mappings />
   </KeyMap>
   <KeyMap>
+    <Name>__Control Panel__________________</Name>
+    <Mappings />
+  </KeyMap>
+  <KeyMap>
     <Name>ATG Toggles</Name>
     <Mappings>
       <MappedKey>
-        <Name>Toggle Combat</Name>
+        <Name>Slot 1 - Toggle Combat</Name>
         <Steps>
           <Step>
             <Actions>
               <MappedKeyAction xsi:type="TargetGroupAction">
+                <Target>1</Target>
                 <Action>Leave</Action>
                 <RelayGroupString>Combat</RelayGroupString>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="ClickBarButtonAction">
+                <Target>all</Target>
+                <ClickBarButton>
+                  <ClickBarString>Slot 1 ATG</ClickBarString>
+                  <ClickBarButtonString>Slot1_Combat</ClickBarButtonString>
+                </ClickBarButton>
+                <BackgroundColor>
+                  <Red>211</Red>
+                  <Green>211</Green>
+                  <Blue>211</Blue>
+                </BackgroundColor>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyStepAction">
+                <Target>all other</Target>
+                <MappedKey>
+                  <KeyMapString>ATG Toggles</KeyMapString>
+                  <MappedKeyString>Slot 1 - Toggle Combat</MappedKeyString>
+                </MappedKey>
+                <Action>Set</Action>
+                <Value>2</Value>
               </MappedKeyAction>
             </Actions>
           </Step>
           <Step>
             <Actions>
               <MappedKeyAction xsi:type="TargetGroupAction">
+                <Target>1</Target>
                 <Action>Join</Action>
                 <RelayGroupString>Combat</RelayGroupString>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="ClickBarButtonAction">
+                <Target>all</Target>
+                <ClickBarButton>
+                  <ClickBarString>Slot 1 ATG</ClickBarString>
+                  <ClickBarButtonString>Slot1_Combat</ClickBarButtonString>
+                </ClickBarButton>
+                <BackgroundColor>
+                  <Green>255</Green>
+                  <Alpha>119</Alpha>
+                </BackgroundColor>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyStepAction">
+                <Target>all other</Target>
+                <MappedKey>
+                  <KeyMapString>ATG Toggles</KeyMapString>
+                  <MappedKeyString>Slot 1 - Toggle Combat</MappedKeyString>
+                </MappedKey>
+                <Action>Set</Action>
+                <Value>1</Value>
               </MappedKeyAction>
             </Actions>
           </Step>
         </Steps>
       </MappedKey>
       <MappedKey>
-        <Name>Toggle Follower</Name>
+        <Name>Slot 1 - Toggle Follower</Name>
         <Steps>
           <Step>
             <Actions>
               <MappedKeyAction xsi:type="TargetGroupAction">
+                <Target>1</Target>
                 <Action>Leave</Action>
                 <RelayGroupString>Follower</RelayGroupString>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="ClickBarButtonAction">
+                <ClickBarButton>
+                  <ClickBarString>Slot 1 ATG</ClickBarString>
+                  <ClickBarButtonString>Slot1_Follower</ClickBarButtonString>
+                </ClickBarButton>
+                <BackgroundColor>
+                  <Red>211</Red>
+                  <Green>211</Green>
+                  <Blue>211</Blue>
+                </BackgroundColor>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyStepAction">
+                <Target>all other</Target>
+                <MappedKey>
+                  <KeyMapString>ATG Toggles</KeyMapString>
+                  <MappedKeyString>Slot 1 - Toggle Follower</MappedKeyString>
+                </MappedKey>
+                <Action>Set</Action>
+                <Value>2</Value>
               </MappedKeyAction>
             </Actions>
           </Step>
           <Step>
             <Actions>
               <MappedKeyAction xsi:type="TargetGroupAction">
+                <Target>1</Target>
                 <Action>Join</Action>
                 <RelayGroupString>Follower</RelayGroupString>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="ClickBarButtonAction">
+                <Target>all</Target>
+                <ClickBarButton>
+                  <ClickBarString>Slot 1 ATG</ClickBarString>
+                  <ClickBarButtonString>Slot1_Follower</ClickBarButtonString>
+                </ClickBarButton>
+                <BackgroundColor>
+                  <Green>255</Green>
+                  <Alpha>119</Alpha>
+                </BackgroundColor>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyStepAction">
+                <Target>all other</Target>
+                <MappedKey>
+                  <KeyMapString>ATG Toggles</KeyMapString>
+                  <MappedKeyString>Slot 1 - Toggle Follower</MappedKeyString>
+                </MappedKey>
+                <Action>Set</Action>
+                <Value>1</Value>
               </MappedKeyAction>
             </Actions>
           </Step>
         </Steps>
       </MappedKey>
       <MappedKey>
-        <Name>Toggle Assist</Name>
+        <Name>Slot 1 - Toggle Assist</Name>
         <Steps>
           <Step>
             <Actions>
               <MappedKeyAction xsi:type="TargetGroupAction">
+                <Target>1</Target>
                 <Action>Leave</Action>
                 <RelayGroupString>Assist</RelayGroupString>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="ClickBarButtonAction">
+                <Target>all</Target>
+                <ClickBarButton>
+                  <ClickBarString>Slot 1 ATG</ClickBarString>
+                  <ClickBarButtonString>Slot1_Assist</ClickBarButtonString>
+                </ClickBarButton>
+                <BackgroundColor>
+                  <Red>211</Red>
+                  <Green>211</Green>
+                  <Blue>211</Blue>
+                </BackgroundColor>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyStepAction">
+                <Target>all other</Target>
+                <MappedKey>
+                  <KeyMapString>ATG Toggles</KeyMapString>
+                  <MappedKeyString>Slot 1 - Toggle Assist</MappedKeyString>
+                </MappedKey>
+                <Action>Set</Action>
+                <Value>2</Value>
               </MappedKeyAction>
             </Actions>
           </Step>
           <Step>
             <Actions>
               <MappedKeyAction xsi:type="TargetGroupAction">
+                <Target>1</Target>
                 <Action>Join</Action>
                 <RelayGroupString>Assist</RelayGroupString>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="ClickBarButtonAction">
+                <Target>all</Target>
+                <ClickBarButton>
+                  <ClickBarString>Slot 1 ATG</ClickBarString>
+                  <ClickBarButtonString>Slot1_Assist</ClickBarButtonString>
+                </ClickBarButton>
+                <BackgroundColor>
+                  <Green>255</Green>
+                  <Alpha>119</Alpha>
+                </BackgroundColor>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyStepAction">
+                <Target>all other</Target>
+                <MappedKey>
+                  <KeyMapString>ATG Toggles</KeyMapString>
+                  <MappedKeyString>Slot 1 - Toggle Assist</MappedKeyString>
+                </MappedKey>
+                <Action>Set</Action>
+                <Value>1</Value>
               </MappedKeyAction>
             </Actions>
           </Step>
@@ -10780,7 +10770,7 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
         </Steps>
       </MappedKey>
       <MappedKey>
-        <Name>Slot 2 - Combat toggle</Name>
+        <Name>Slot 2 - Toggle Combat</Name>
         <Steps>
           <Step>
             <Actions>
@@ -10789,6 +10779,27 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
                 <Action>Leave</Action>
                 <RelayGroupString>Combat</RelayGroupString>
               </MappedKeyAction>
+              <MappedKeyAction xsi:type="ClickBarButtonAction">
+                <Target>all</Target>
+                <ClickBarButton>
+                  <ClickBarString>Slot 2 ATG</ClickBarString>
+                  <ClickBarButtonString>Slot1_Combat</ClickBarButtonString>
+                </ClickBarButton>
+                <BackgroundColor>
+                  <Red>211</Red>
+                  <Green>211</Green>
+                  <Blue>211</Blue>
+                </BackgroundColor>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyStepAction">
+                <Target>all other</Target>
+                <MappedKey>
+                  <KeyMapString>ATG Toggles</KeyMapString>
+                  <MappedKeyString>Slot 2 - Toggle Combat</MappedKeyString>
+                </MappedKey>
+                <Action>Set</Action>
+                <Value>2</Value>
+              </MappedKeyAction>
             </Actions>
           </Step>
           <Step>
@@ -10798,12 +10809,32 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
                 <Action>Join</Action>
                 <RelayGroupString>Combat</RelayGroupString>
               </MappedKeyAction>
+              <MappedKeyAction xsi:type="ClickBarButtonAction">
+                <Target>all</Target>
+                <ClickBarButton>
+                  <ClickBarString>Slot 2 ATG</ClickBarString>
+                  <ClickBarButtonString>Slot1_Combat</ClickBarButtonString>
+                </ClickBarButton>
+                <BackgroundColor>
+                  <Green>255</Green>
+                  <Alpha>119</Alpha>
+                </BackgroundColor>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyStepAction">
+                <Target>all other</Target>
+                <MappedKey>
+                  <KeyMapString>ATG Toggles</KeyMapString>
+                  <MappedKeyString>Slot 2 - Toggle Combat</MappedKeyString>
+                </MappedKey>
+                <Action>Set</Action>
+                <Value>1</Value>
+              </MappedKeyAction>
             </Actions>
           </Step>
         </Steps>
       </MappedKey>
       <MappedKey>
-        <Name>Slot 2 - Follower toggle</Name>
+        <Name>Slot 2 - Toggle Follower</Name>
         <Steps>
           <Step>
             <Actions>
@@ -10811,6 +10842,27 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
                 <Target>2</Target>
                 <Action>Leave</Action>
                 <RelayGroupString>Follower</RelayGroupString>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="ClickBarButtonAction">
+                <Target>all</Target>
+                <ClickBarButton>
+                  <ClickBarString>Slot 2 ATG</ClickBarString>
+                  <ClickBarButtonString>Slot1_Follower</ClickBarButtonString>
+                </ClickBarButton>
+                <BackgroundColor>
+                  <Red>211</Red>
+                  <Green>211</Green>
+                  <Blue>211</Blue>
+                </BackgroundColor>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyStepAction">
+                <Target>all other</Target>
+                <MappedKey>
+                  <KeyMapString>ATG Toggles</KeyMapString>
+                  <MappedKeyString>Slot 2 - Toggle Follower</MappedKeyString>
+                </MappedKey>
+                <Action>Set</Action>
+                <Value>2</Value>
               </MappedKeyAction>
             </Actions>
           </Step>
@@ -10821,12 +10873,32 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
                 <Action>Join</Action>
                 <RelayGroupString>Follower</RelayGroupString>
               </MappedKeyAction>
+              <MappedKeyAction xsi:type="ClickBarButtonAction">
+                <Target>all</Target>
+                <ClickBarButton>
+                  <ClickBarString>Slot 2 ATG</ClickBarString>
+                  <ClickBarButtonString>Slot1_Follower</ClickBarButtonString>
+                </ClickBarButton>
+                <BackgroundColor>
+                  <Green>255</Green>
+                  <Alpha>119</Alpha>
+                </BackgroundColor>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyStepAction">
+                <Target>all other</Target>
+                <MappedKey>
+                  <KeyMapString>ATG Toggles</KeyMapString>
+                  <MappedKeyString>Slot 2 - Toggle Follower</MappedKeyString>
+                </MappedKey>
+                <Action>Set</Action>
+                <Value>1</Value>
+              </MappedKeyAction>
             </Actions>
           </Step>
         </Steps>
       </MappedKey>
       <MappedKey>
-        <Name>Slot 2 - Assist toggle</Name>
+        <Name>Slot 2 - Toggle Assist</Name>
         <Steps>
           <Step>
             <Actions>
@@ -10834,6 +10906,27 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
                 <Target>2</Target>
                 <Action>Leave</Action>
                 <RelayGroupString>Assist</RelayGroupString>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="ClickBarButtonAction">
+                <Target>all</Target>
+                <ClickBarButton>
+                  <ClickBarString>Slot 2 ATG</ClickBarString>
+                  <ClickBarButtonString>Slot1_Assist</ClickBarButtonString>
+                </ClickBarButton>
+                <BackgroundColor>
+                  <Red>211</Red>
+                  <Green>211</Green>
+                  <Blue>211</Blue>
+                </BackgroundColor>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyStepAction">
+                <Target>all other</Target>
+                <MappedKey>
+                  <KeyMapString>ATG Toggles</KeyMapString>
+                  <MappedKeyString>Slot 2 - Toggle Assist</MappedKeyString>
+                </MappedKey>
+                <Action>Set</Action>
+                <Value>2</Value>
               </MappedKeyAction>
             </Actions>
           </Step>
@@ -10843,6 +10936,26 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
                 <Target>2</Target>
                 <Action>Join</Action>
                 <RelayGroupString>Assist</RelayGroupString>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="ClickBarButtonAction">
+                <Target>all</Target>
+                <ClickBarButton>
+                  <ClickBarString>Slot 2 ATG</ClickBarString>
+                  <ClickBarButtonString>Slot1_Assist</ClickBarButtonString>
+                </ClickBarButton>
+                <BackgroundColor>
+                  <Green>255</Green>
+                  <Alpha>119</Alpha>
+                </BackgroundColor>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyStepAction">
+                <Target>all other</Target>
+                <MappedKey>
+                  <KeyMapString>ATG Toggles</KeyMapString>
+                  <MappedKeyString>Slot 2 - Toggle Assist</MappedKeyString>
+                </MappedKey>
+                <Action>Set</Action>
+                <Value>1</Value>
               </MappedKeyAction>
             </Actions>
           </Step>
@@ -10857,7 +10970,7 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
         </Steps>
       </MappedKey>
       <MappedKey>
-        <Name>Slot 3 - Combat toggle</Name>
+        <Name>Slot 3 - Toggle Combat</Name>
         <Steps>
           <Step>
             <Actions>
@@ -10866,6 +10979,27 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
                 <Action>Leave</Action>
                 <RelayGroupString>Combat</RelayGroupString>
               </MappedKeyAction>
+              <MappedKeyAction xsi:type="ClickBarButtonAction">
+                <Target>all</Target>
+                <ClickBarButton>
+                  <ClickBarString>Slot 3 ATG</ClickBarString>
+                  <ClickBarButtonString>Slot1_Combat</ClickBarButtonString>
+                </ClickBarButton>
+                <BackgroundColor>
+                  <Red>211</Red>
+                  <Green>211</Green>
+                  <Blue>211</Blue>
+                </BackgroundColor>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyStepAction">
+                <Target>all other</Target>
+                <MappedKey>
+                  <KeyMapString>ATG Toggles</KeyMapString>
+                  <MappedKeyString>Slot 3 - Toggle Combat</MappedKeyString>
+                </MappedKey>
+                <Action>Set</Action>
+                <Value>2</Value>
+              </MappedKeyAction>
             </Actions>
           </Step>
           <Step>
@@ -10875,12 +11009,32 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
                 <Action>Join</Action>
                 <RelayGroupString>Combat</RelayGroupString>
               </MappedKeyAction>
+              <MappedKeyAction xsi:type="ClickBarButtonAction">
+                <Target>all</Target>
+                <ClickBarButton>
+                  <ClickBarString>Slot 3 ATG</ClickBarString>
+                  <ClickBarButtonString>Slot1_Combat</ClickBarButtonString>
+                </ClickBarButton>
+                <BackgroundColor>
+                  <Green>255</Green>
+                  <Alpha>119</Alpha>
+                </BackgroundColor>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyStepAction">
+                <Target>all other</Target>
+                <MappedKey>
+                  <KeyMapString>ATG Toggles</KeyMapString>
+                  <MappedKeyString>Slot 3 - Toggle Combat</MappedKeyString>
+                </MappedKey>
+                <Action>Set</Action>
+                <Value>1</Value>
+              </MappedKeyAction>
             </Actions>
           </Step>
         </Steps>
       </MappedKey>
       <MappedKey>
-        <Name>Slot 3 - Follower toggle</Name>
+        <Name>Slot 3 - Toggle Follower</Name>
         <Steps>
           <Step>
             <Actions>
@@ -10888,6 +11042,27 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
                 <Target>3</Target>
                 <Action>Leave</Action>
                 <RelayGroupString>Follower</RelayGroupString>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="ClickBarButtonAction">
+                <Target>all</Target>
+                <ClickBarButton>
+                  <ClickBarString>Slot 3 ATG</ClickBarString>
+                  <ClickBarButtonString>Slot1_Follower</ClickBarButtonString>
+                </ClickBarButton>
+                <BackgroundColor>
+                  <Red>211</Red>
+                  <Green>211</Green>
+                  <Blue>211</Blue>
+                </BackgroundColor>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyStepAction">
+                <Target>all other</Target>
+                <MappedKey>
+                  <KeyMapString>ATG Toggles</KeyMapString>
+                  <MappedKeyString>Slot 3 - Toggle Follower</MappedKeyString>
+                </MappedKey>
+                <Action>Set</Action>
+                <Value>2</Value>
               </MappedKeyAction>
             </Actions>
           </Step>
@@ -10898,12 +11073,32 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
                 <Action>Join</Action>
                 <RelayGroupString>Follower</RelayGroupString>
               </MappedKeyAction>
+              <MappedKeyAction xsi:type="ClickBarButtonAction">
+                <Target>all</Target>
+                <ClickBarButton>
+                  <ClickBarString>Slot 3 ATG</ClickBarString>
+                  <ClickBarButtonString>Slot1_Follower</ClickBarButtonString>
+                </ClickBarButton>
+                <BackgroundColor>
+                  <Green>255</Green>
+                  <Alpha>119</Alpha>
+                </BackgroundColor>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyStepAction">
+                <Target>all other</Target>
+                <MappedKey>
+                  <KeyMapString>ATG Toggles</KeyMapString>
+                  <MappedKeyString>Slot 3 - Toggle Follower</MappedKeyString>
+                </MappedKey>
+                <Action>Set</Action>
+                <Value>1</Value>
+              </MappedKeyAction>
             </Actions>
           </Step>
         </Steps>
       </MappedKey>
       <MappedKey>
-        <Name>Slot 3 - Assist toggle</Name>
+        <Name>Slot 3 - Toggle Assist</Name>
         <Steps>
           <Step>
             <Actions>
@@ -10911,6 +11106,27 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
                 <Target>3</Target>
                 <Action>Leave</Action>
                 <RelayGroupString>Assist</RelayGroupString>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="ClickBarButtonAction">
+                <Target>all</Target>
+                <ClickBarButton>
+                  <ClickBarString>Slot 3 ATG</ClickBarString>
+                  <ClickBarButtonString>Slot1_Assist</ClickBarButtonString>
+                </ClickBarButton>
+                <BackgroundColor>
+                  <Red>211</Red>
+                  <Green>211</Green>
+                  <Blue>211</Blue>
+                </BackgroundColor>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyStepAction">
+                <Target>all other</Target>
+                <MappedKey>
+                  <KeyMapString>ATG Toggles</KeyMapString>
+                  <MappedKeyString>Slot 3 - Toggle Assist</MappedKeyString>
+                </MappedKey>
+                <Action>Set</Action>
+                <Value>2</Value>
               </MappedKeyAction>
             </Actions>
           </Step>
@@ -10920,6 +11136,26 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
                 <Target>3</Target>
                 <Action>Join</Action>
                 <RelayGroupString>Assist</RelayGroupString>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="ClickBarButtonAction">
+                <Target>all</Target>
+                <ClickBarButton>
+                  <ClickBarString>Slot 3 ATG</ClickBarString>
+                  <ClickBarButtonString>Slot1_Assist</ClickBarButtonString>
+                </ClickBarButton>
+                <BackgroundColor>
+                  <Green>255</Green>
+                  <Alpha>119</Alpha>
+                </BackgroundColor>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyStepAction">
+                <Target>all other</Target>
+                <MappedKey>
+                  <KeyMapString>ATG Toggles</KeyMapString>
+                  <MappedKeyString>Slot 3 - Toggle Assist</MappedKeyString>
+                </MappedKey>
+                <Action>Set</Action>
+                <Value>1</Value>
               </MappedKeyAction>
             </Actions>
           </Step>
@@ -10934,7 +11170,7 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
         </Steps>
       </MappedKey>
       <MappedKey>
-        <Name>Slot 4 - Combat toggle</Name>
+        <Name>Slot 4 - Toggle Combat</Name>
         <Steps>
           <Step>
             <Actions>
@@ -10943,6 +11179,27 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
                 <Action>Leave</Action>
                 <RelayGroupString>Combat</RelayGroupString>
               </MappedKeyAction>
+              <MappedKeyAction xsi:type="ClickBarButtonAction">
+                <Target>all</Target>
+                <ClickBarButton>
+                  <ClickBarString>Slot 4 ATG</ClickBarString>
+                  <ClickBarButtonString>Slot1_Combat</ClickBarButtonString>
+                </ClickBarButton>
+                <BackgroundColor>
+                  <Red>211</Red>
+                  <Green>211</Green>
+                  <Blue>211</Blue>
+                </BackgroundColor>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyStepAction">
+                <Target>all other</Target>
+                <MappedKey>
+                  <KeyMapString>ATG Toggles</KeyMapString>
+                  <MappedKeyString>Slot 4 - Toggle Combat</MappedKeyString>
+                </MappedKey>
+                <Action>Set</Action>
+                <Value>2</Value>
+              </MappedKeyAction>
             </Actions>
           </Step>
           <Step>
@@ -10952,12 +11209,32 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
                 <Action>Join</Action>
                 <RelayGroupString>Combat</RelayGroupString>
               </MappedKeyAction>
+              <MappedKeyAction xsi:type="ClickBarButtonAction">
+                <Target>all</Target>
+                <ClickBarButton>
+                  <ClickBarString>Slot 4 ATG</ClickBarString>
+                  <ClickBarButtonString>Slot1_Combat</ClickBarButtonString>
+                </ClickBarButton>
+                <BackgroundColor>
+                  <Green>255</Green>
+                  <Alpha>119</Alpha>
+                </BackgroundColor>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyStepAction">
+                <Target>all other</Target>
+                <MappedKey>
+                  <KeyMapString>ATG Toggles</KeyMapString>
+                  <MappedKeyString>Slot 4 - Toggle Combat</MappedKeyString>
+                </MappedKey>
+                <Action>Set</Action>
+                <Value>1</Value>
+              </MappedKeyAction>
             </Actions>
           </Step>
         </Steps>
       </MappedKey>
       <MappedKey>
-        <Name>Slot 4 - Follower toggle</Name>
+        <Name>Slot 4 - Toggle Follower</Name>
         <Steps>
           <Step>
             <Actions>
@@ -10965,6 +11242,27 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
                 <Target>4</Target>
                 <Action>Leave</Action>
                 <RelayGroupString>Follower</RelayGroupString>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="ClickBarButtonAction">
+                <Target>all</Target>
+                <ClickBarButton>
+                  <ClickBarString>Slot 4 ATG</ClickBarString>
+                  <ClickBarButtonString>Slot1_Follower</ClickBarButtonString>
+                </ClickBarButton>
+                <BackgroundColor>
+                  <Red>211</Red>
+                  <Green>211</Green>
+                  <Blue>211</Blue>
+                </BackgroundColor>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyStepAction">
+                <Target>all other</Target>
+                <MappedKey>
+                  <KeyMapString>ATG Toggles</KeyMapString>
+                  <MappedKeyString>Slot 4 - Toggle Follower</MappedKeyString>
+                </MappedKey>
+                <Action>Set</Action>
+                <Value>2</Value>
               </MappedKeyAction>
             </Actions>
           </Step>
@@ -10975,12 +11273,32 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
                 <Action>Join</Action>
                 <RelayGroupString>Follower</RelayGroupString>
               </MappedKeyAction>
+              <MappedKeyAction xsi:type="ClickBarButtonAction">
+                <Target>all</Target>
+                <ClickBarButton>
+                  <ClickBarString>Slot 4 ATG</ClickBarString>
+                  <ClickBarButtonString>Slot1_Follower</ClickBarButtonString>
+                </ClickBarButton>
+                <BackgroundColor>
+                  <Green>255</Green>
+                  <Alpha>119</Alpha>
+                </BackgroundColor>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyStepAction">
+                <Target>all other</Target>
+                <MappedKey>
+                  <KeyMapString>ATG Toggles</KeyMapString>
+                  <MappedKeyString>Slot 4 - Toggle Follower</MappedKeyString>
+                </MappedKey>
+                <Action>Set</Action>
+                <Value>1</Value>
+              </MappedKeyAction>
             </Actions>
           </Step>
         </Steps>
       </MappedKey>
       <MappedKey>
-        <Name>Slot 4 - Assist toggle</Name>
+        <Name>Slot 4 - Toggle Assist</Name>
         <Steps>
           <Step>
             <Actions>
@@ -10988,6 +11306,27 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
                 <Target>4</Target>
                 <Action>Leave</Action>
                 <RelayGroupString>Assist</RelayGroupString>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="ClickBarButtonAction">
+                <Target>all</Target>
+                <ClickBarButton>
+                  <ClickBarString>Slot 4 ATG</ClickBarString>
+                  <ClickBarButtonString>Slot1_Assist</ClickBarButtonString>
+                </ClickBarButton>
+                <BackgroundColor>
+                  <Red>211</Red>
+                  <Green>211</Green>
+                  <Blue>211</Blue>
+                </BackgroundColor>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyStepAction">
+                <Target>all other</Target>
+                <MappedKey>
+                  <KeyMapString>ATG Toggles</KeyMapString>
+                  <MappedKeyString>Slot 4 - Toggle Assist</MappedKeyString>
+                </MappedKey>
+                <Action>Set</Action>
+                <Value>2</Value>
               </MappedKeyAction>
             </Actions>
           </Step>
@@ -10997,6 +11336,26 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
                 <Target>4</Target>
                 <Action>Join</Action>
                 <RelayGroupString>Assist</RelayGroupString>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="ClickBarButtonAction">
+                <Target>all</Target>
+                <ClickBarButton>
+                  <ClickBarString>Slot 4 ATG</ClickBarString>
+                  <ClickBarButtonString>Slot1_Assist</ClickBarButtonString>
+                </ClickBarButton>
+                <BackgroundColor>
+                  <Green>255</Green>
+                  <Alpha>119</Alpha>
+                </BackgroundColor>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyStepAction">
+                <Target>all other</Target>
+                <MappedKey>
+                  <KeyMapString>ATG Toggles</KeyMapString>
+                  <MappedKeyString>Slot 4 - Toggle Assist</MappedKeyString>
+                </MappedKey>
+                <Action>Set</Action>
+                <Value>1</Value>
               </MappedKeyAction>
             </Actions>
           </Step>
@@ -11011,7 +11370,7 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
         </Steps>
       </MappedKey>
       <MappedKey>
-        <Name>Slot 5 - Combat toggle</Name>
+        <Name>Slot 5 - Toggle Combat</Name>
         <Steps>
           <Step>
             <Actions>
@@ -11020,6 +11379,27 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
                 <Action>Leave</Action>
                 <RelayGroupString>Combat</RelayGroupString>
               </MappedKeyAction>
+              <MappedKeyAction xsi:type="ClickBarButtonAction">
+                <Target>all</Target>
+                <ClickBarButton>
+                  <ClickBarString>Slot 5 ATG</ClickBarString>
+                  <ClickBarButtonString>Slot1_Combat</ClickBarButtonString>
+                </ClickBarButton>
+                <BackgroundColor>
+                  <Red>211</Red>
+                  <Green>211</Green>
+                  <Blue>211</Blue>
+                </BackgroundColor>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyStepAction">
+                <Target>all other</Target>
+                <MappedKey>
+                  <KeyMapString>ATG Toggles</KeyMapString>
+                  <MappedKeyString>Slot 5 - Toggle Combat</MappedKeyString>
+                </MappedKey>
+                <Action>Set</Action>
+                <Value>2</Value>
+              </MappedKeyAction>
             </Actions>
           </Step>
           <Step>
@@ -11029,12 +11409,32 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
                 <Action>Join</Action>
                 <RelayGroupString>Combat</RelayGroupString>
               </MappedKeyAction>
+              <MappedKeyAction xsi:type="ClickBarButtonAction">
+                <Target>all</Target>
+                <ClickBarButton>
+                  <ClickBarString>Slot 5 ATG</ClickBarString>
+                  <ClickBarButtonString>Slot1_Combat</ClickBarButtonString>
+                </ClickBarButton>
+                <BackgroundColor>
+                  <Green>255</Green>
+                  <Alpha>119</Alpha>
+                </BackgroundColor>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyStepAction">
+                <Target>all other</Target>
+                <MappedKey>
+                  <KeyMapString>ATG Toggles</KeyMapString>
+                  <MappedKeyString>Slot 5 - Toggle Combat</MappedKeyString>
+                </MappedKey>
+                <Action>Set</Action>
+                <Value>1</Value>
+              </MappedKeyAction>
             </Actions>
           </Step>
         </Steps>
       </MappedKey>
       <MappedKey>
-        <Name>Slot 5 - Follower toggle</Name>
+        <Name>Slot 5 - Toggle Follower</Name>
         <Steps>
           <Step>
             <Actions>
@@ -11042,6 +11442,27 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
                 <Target>5</Target>
                 <Action>Leave</Action>
                 <RelayGroupString>Follower</RelayGroupString>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="ClickBarButtonAction">
+                <Target>all</Target>
+                <ClickBarButton>
+                  <ClickBarString>Slot 5 ATG</ClickBarString>
+                  <ClickBarButtonString>Slot1_Follower</ClickBarButtonString>
+                </ClickBarButton>
+                <BackgroundColor>
+                  <Red>211</Red>
+                  <Green>211</Green>
+                  <Blue>211</Blue>
+                </BackgroundColor>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyStepAction">
+                <Target>all other</Target>
+                <MappedKey>
+                  <KeyMapString>ATG Toggles</KeyMapString>
+                  <MappedKeyString>Slot 5 - Toggle Follower</MappedKeyString>
+                </MappedKey>
+                <Action>Set</Action>
+                <Value>2</Value>
               </MappedKeyAction>
             </Actions>
           </Step>
@@ -11052,12 +11473,32 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
                 <Action>Join</Action>
                 <RelayGroupString>Follower</RelayGroupString>
               </MappedKeyAction>
+              <MappedKeyAction xsi:type="ClickBarButtonAction">
+                <Target>all</Target>
+                <ClickBarButton>
+                  <ClickBarString>Slot 5 ATG</ClickBarString>
+                  <ClickBarButtonString>Slot1_Follower</ClickBarButtonString>
+                </ClickBarButton>
+                <BackgroundColor>
+                  <Green>255</Green>
+                  <Alpha>119</Alpha>
+                </BackgroundColor>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyStepAction">
+                <Target>all other</Target>
+                <MappedKey>
+                  <KeyMapString>ATG Toggles</KeyMapString>
+                  <MappedKeyString>Slot 5 - Toggle Follower</MappedKeyString>
+                </MappedKey>
+                <Action>Set</Action>
+                <Value>1</Value>
+              </MappedKeyAction>
             </Actions>
           </Step>
         </Steps>
       </MappedKey>
       <MappedKey>
-        <Name>Slot 5 - Assist toggle</Name>
+        <Name>Slot 5 - Toggle Assist</Name>
         <Steps>
           <Step>
             <Actions>
@@ -11065,6 +11506,27 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
                 <Target>5</Target>
                 <Action>Leave</Action>
                 <RelayGroupString>Assist</RelayGroupString>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="ClickBarButtonAction">
+                <Target>all</Target>
+                <ClickBarButton>
+                  <ClickBarString>Slot 5 ATG</ClickBarString>
+                  <ClickBarButtonString>Slot1_Assist</ClickBarButtonString>
+                </ClickBarButton>
+                <BackgroundColor>
+                  <Red>211</Red>
+                  <Green>211</Green>
+                  <Blue>211</Blue>
+                </BackgroundColor>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyStepAction">
+                <Target>all other</Target>
+                <MappedKey>
+                  <KeyMapString>ATG Toggles</KeyMapString>
+                  <MappedKeyString>Slot 5 - Toggle Assist</MappedKeyString>
+                </MappedKey>
+                <Action>Set</Action>
+                <Value>2</Value>
               </MappedKeyAction>
             </Actions>
           </Step>
@@ -11074,6 +11536,26 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
                 <Target>5</Target>
                 <Action>Join</Action>
                 <RelayGroupString>Assist</RelayGroupString>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="ClickBarButtonAction">
+                <Target>all</Target>
+                <ClickBarButton>
+                  <ClickBarString>Slot 5 ATG</ClickBarString>
+                  <ClickBarButtonString>Slot1_Assist</ClickBarButtonString>
+                </ClickBarButton>
+                <BackgroundColor>
+                  <Green>255</Green>
+                  <Alpha>119</Alpha>
+                </BackgroundColor>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyStepAction">
+                <Target>all other</Target>
+                <MappedKey>
+                  <KeyMapString>ATG Toggles</KeyMapString>
+                  <MappedKeyString>Slot 5 - Toggle Assist</MappedKeyString>
+                </MappedKey>
+                <Action>Set</Action>
+                <Value>1</Value>
               </MappedKeyAction>
             </Actions>
           </Step>
@@ -11088,7 +11570,7 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
         </Steps>
       </MappedKey>
       <MappedKey>
-        <Name>Slot 6 - Combat toggle</Name>
+        <Name>Slot 6 - Toggle Combat</Name>
         <Steps>
           <Step>
             <Actions>
@@ -11097,6 +11579,27 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
                 <Action>Leave</Action>
                 <RelayGroupString>Combat</RelayGroupString>
               </MappedKeyAction>
+              <MappedKeyAction xsi:type="ClickBarButtonAction">
+                <Target>all</Target>
+                <ClickBarButton>
+                  <ClickBarString>Slot 6 ATG</ClickBarString>
+                  <ClickBarButtonString>Slot1_Combat</ClickBarButtonString>
+                </ClickBarButton>
+                <BackgroundColor>
+                  <Red>211</Red>
+                  <Green>211</Green>
+                  <Blue>211</Blue>
+                </BackgroundColor>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyStepAction">
+                <Target>all other</Target>
+                <MappedKey>
+                  <KeyMapString>ATG Toggles</KeyMapString>
+                  <MappedKeyString>Slot 6 - Toggle Combat</MappedKeyString>
+                </MappedKey>
+                <Action>Set</Action>
+                <Value>2</Value>
+              </MappedKeyAction>
             </Actions>
           </Step>
           <Step>
@@ -11106,12 +11609,32 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
                 <Action>Join</Action>
                 <RelayGroupString>Combat</RelayGroupString>
               </MappedKeyAction>
+              <MappedKeyAction xsi:type="ClickBarButtonAction">
+                <Target>all</Target>
+                <ClickBarButton>
+                  <ClickBarString>Slot 6 ATG</ClickBarString>
+                  <ClickBarButtonString>Slot1_Combat</ClickBarButtonString>
+                </ClickBarButton>
+                <BackgroundColor>
+                  <Green>255</Green>
+                  <Alpha>119</Alpha>
+                </BackgroundColor>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyStepAction">
+                <Target>all other</Target>
+                <MappedKey>
+                  <KeyMapString>ATG Toggles</KeyMapString>
+                  <MappedKeyString>Slot 6 - Toggle Combat</MappedKeyString>
+                </MappedKey>
+                <Action>Set</Action>
+                <Value>1</Value>
+              </MappedKeyAction>
             </Actions>
           </Step>
         </Steps>
       </MappedKey>
       <MappedKey>
-        <Name>Slot 6 - Follower toggle</Name>
+        <Name>Slot 6 - Toggle Follower</Name>
         <Steps>
           <Step>
             <Actions>
@@ -11119,6 +11642,27 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
                 <Target>Character Slot:6</Target>
                 <Action>Leave</Action>
                 <RelayGroupString>Follower</RelayGroupString>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="ClickBarButtonAction">
+                <Target>all</Target>
+                <ClickBarButton>
+                  <ClickBarString>Slot 6 ATG</ClickBarString>
+                  <ClickBarButtonString>Slot1_Follower</ClickBarButtonString>
+                </ClickBarButton>
+                <BackgroundColor>
+                  <Red>211</Red>
+                  <Green>211</Green>
+                  <Blue>211</Blue>
+                </BackgroundColor>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyStepAction">
+                <Target>all other</Target>
+                <MappedKey>
+                  <KeyMapString>ATG Toggles</KeyMapString>
+                  <MappedKeyString>Slot 6 - Toggle Follower</MappedKeyString>
+                </MappedKey>
+                <Action>Set</Action>
+                <Value>2</Value>
               </MappedKeyAction>
             </Actions>
           </Step>
@@ -11129,12 +11673,32 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
                 <Action>Join</Action>
                 <RelayGroupString>Follower</RelayGroupString>
               </MappedKeyAction>
+              <MappedKeyAction xsi:type="ClickBarButtonAction">
+                <Target>all</Target>
+                <ClickBarButton>
+                  <ClickBarString>Slot 6 ATG</ClickBarString>
+                  <ClickBarButtonString>Slot1_Follower</ClickBarButtonString>
+                </ClickBarButton>
+                <BackgroundColor>
+                  <Green>255</Green>
+                  <Alpha>119</Alpha>
+                </BackgroundColor>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyStepAction">
+                <Target>all other</Target>
+                <MappedKey>
+                  <KeyMapString>ATG Toggles</KeyMapString>
+                  <MappedKeyString>Slot 6 - Toggle Follower</MappedKeyString>
+                </MappedKey>
+                <Action>Set</Action>
+                <Value>1</Value>
+              </MappedKeyAction>
             </Actions>
           </Step>
         </Steps>
       </MappedKey>
       <MappedKey>
-        <Name>Slot 6 - Assist toggle</Name>
+        <Name>Slot 6 - Toggle Assist</Name>
         <Steps>
           <Step>
             <Actions>
@@ -11142,6 +11706,27 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
                 <Target>6</Target>
                 <Action>Leave</Action>
                 <RelayGroupString>Assist</RelayGroupString>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="ClickBarButtonAction">
+                <Target>all</Target>
+                <ClickBarButton>
+                  <ClickBarString>Slot 6 ATG</ClickBarString>
+                  <ClickBarButtonString>Slot1_Assist</ClickBarButtonString>
+                </ClickBarButton>
+                <BackgroundColor>
+                  <Red>211</Red>
+                  <Green>211</Green>
+                  <Blue>211</Blue>
+                </BackgroundColor>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyStepAction">
+                <Target>all other</Target>
+                <MappedKey>
+                  <KeyMapString>ATG Toggles</KeyMapString>
+                  <MappedKeyString>Slot 6 - Toggle Assist</MappedKeyString>
+                </MappedKey>
+                <Action>Set</Action>
+                <Value>2</Value>
               </MappedKeyAction>
             </Actions>
           </Step>
@@ -11151,6 +11736,26 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
                 <Target>6</Target>
                 <Action>Join</Action>
                 <RelayGroupString>Assist</RelayGroupString>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="ClickBarButtonAction">
+                <Target>all</Target>
+                <ClickBarButton>
+                  <ClickBarString>Slot 6 ATG</ClickBarString>
+                  <ClickBarButtonString>Slot1_Assist</ClickBarButtonString>
+                </ClickBarButton>
+                <BackgroundColor>
+                  <Green>255</Green>
+                  <Alpha>119</Alpha>
+                </BackgroundColor>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyStepAction">
+                <Target>all other</Target>
+                <MappedKey>
+                  <KeyMapString>ATG Toggles</KeyMapString>
+                  <MappedKeyString>Slot 6 - Toggle Assist</MappedKeyString>
+                </MappedKey>
+                <Action>Set</Action>
+                <Value>1</Value>
               </MappedKeyAction>
             </Actions>
           </Step>
@@ -11165,7 +11770,7 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
         </Steps>
       </MappedKey>
       <MappedKey>
-        <Name>Slot 7 - Combat toggle</Name>
+        <Name>Slot 7 - Toggle Combat</Name>
         <Steps>
           <Step>
             <Actions>
@@ -11174,6 +11779,27 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
                 <Action>Leave</Action>
                 <RelayGroupString>Combat</RelayGroupString>
               </MappedKeyAction>
+              <MappedKeyAction xsi:type="ClickBarButtonAction">
+                <Target>all</Target>
+                <ClickBarButton>
+                  <ClickBarString>Slot 7 ATG</ClickBarString>
+                  <ClickBarButtonString>Slot1_Combat</ClickBarButtonString>
+                </ClickBarButton>
+                <BackgroundColor>
+                  <Red>211</Red>
+                  <Green>211</Green>
+                  <Blue>211</Blue>
+                </BackgroundColor>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyStepAction">
+                <Target>all other</Target>
+                <MappedKey>
+                  <KeyMapString>ATG Toggles</KeyMapString>
+                  <MappedKeyString>Slot 7 - Toggle Combat</MappedKeyString>
+                </MappedKey>
+                <Action>Set</Action>
+                <Value>2</Value>
+              </MappedKeyAction>
             </Actions>
           </Step>
           <Step>
@@ -11183,12 +11809,32 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
                 <Action>Join</Action>
                 <RelayGroupString>Combat</RelayGroupString>
               </MappedKeyAction>
+              <MappedKeyAction xsi:type="ClickBarButtonAction">
+                <Target>all</Target>
+                <ClickBarButton>
+                  <ClickBarString>Slot 7 ATG</ClickBarString>
+                  <ClickBarButtonString>Slot1_Combat</ClickBarButtonString>
+                </ClickBarButton>
+                <BackgroundColor>
+                  <Green>255</Green>
+                  <Alpha>119</Alpha>
+                </BackgroundColor>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyStepAction">
+                <Target>all other</Target>
+                <MappedKey>
+                  <KeyMapString>ATG Toggles</KeyMapString>
+                  <MappedKeyString>Slot 7 - Toggle Combat</MappedKeyString>
+                </MappedKey>
+                <Action>Set</Action>
+                <Value>1</Value>
+              </MappedKeyAction>
             </Actions>
           </Step>
         </Steps>
       </MappedKey>
       <MappedKey>
-        <Name>Slot 7 - Follower toggle</Name>
+        <Name>Slot 7 - Toggle Follower</Name>
         <Steps>
           <Step>
             <Actions>
@@ -11196,6 +11842,27 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
                 <Target>Character Slot:7</Target>
                 <Action>Leave</Action>
                 <RelayGroupString>Follower</RelayGroupString>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="ClickBarButtonAction">
+                <Target>all</Target>
+                <ClickBarButton>
+                  <ClickBarString>Slot 7 ATG</ClickBarString>
+                  <ClickBarButtonString>Slot1_Follower</ClickBarButtonString>
+                </ClickBarButton>
+                <BackgroundColor>
+                  <Red>211</Red>
+                  <Green>211</Green>
+                  <Blue>211</Blue>
+                </BackgroundColor>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyStepAction">
+                <Target>all other</Target>
+                <MappedKey>
+                  <KeyMapString>ATG Toggles</KeyMapString>
+                  <MappedKeyString>Slot 7 - Toggle Follower</MappedKeyString>
+                </MappedKey>
+                <Action>Set</Action>
+                <Value>2</Value>
               </MappedKeyAction>
             </Actions>
           </Step>
@@ -11206,12 +11873,32 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
                 <Action>Join</Action>
                 <RelayGroupString>Follower</RelayGroupString>
               </MappedKeyAction>
+              <MappedKeyAction xsi:type="ClickBarButtonAction">
+                <Target>all</Target>
+                <ClickBarButton>
+                  <ClickBarString>Slot 7 ATG</ClickBarString>
+                  <ClickBarButtonString>Slot1_Follower</ClickBarButtonString>
+                </ClickBarButton>
+                <BackgroundColor>
+                  <Green>255</Green>
+                  <Alpha>119</Alpha>
+                </BackgroundColor>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyStepAction">
+                <Target>all other</Target>
+                <MappedKey>
+                  <KeyMapString>ATG Toggles</KeyMapString>
+                  <MappedKeyString>Slot 7 - Toggle Follower</MappedKeyString>
+                </MappedKey>
+                <Action>Set</Action>
+                <Value>1</Value>
+              </MappedKeyAction>
             </Actions>
           </Step>
         </Steps>
       </MappedKey>
       <MappedKey>
-        <Name>Slot 7 - Assist toggle</Name>
+        <Name>Slot 7 - Toggle Assist</Name>
         <Steps>
           <Step>
             <Actions>
@@ -11219,6 +11906,27 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
                 <Target>7</Target>
                 <Action>Leave</Action>
                 <RelayGroupString>Assist</RelayGroupString>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="ClickBarButtonAction">
+                <Target>all</Target>
+                <ClickBarButton>
+                  <ClickBarString>Slot 7 ATG</ClickBarString>
+                  <ClickBarButtonString>Slot1_Assist</ClickBarButtonString>
+                </ClickBarButton>
+                <BackgroundColor>
+                  <Red>211</Red>
+                  <Green>211</Green>
+                  <Blue>211</Blue>
+                </BackgroundColor>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyStepAction">
+                <Target>all other</Target>
+                <MappedKey>
+                  <KeyMapString>ATG Toggles</KeyMapString>
+                  <MappedKeyString>Slot 7 - Toggle Assist</MappedKeyString>
+                </MappedKey>
+                <Action>Set</Action>
+                <Value>2</Value>
               </MappedKeyAction>
             </Actions>
           </Step>
@@ -11228,6 +11936,26 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
                 <Target>7</Target>
                 <Action>Join</Action>
                 <RelayGroupString>Assist</RelayGroupString>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="ClickBarButtonAction">
+                <Target>all</Target>
+                <ClickBarButton>
+                  <ClickBarString>Slot 7 ATG</ClickBarString>
+                  <ClickBarButtonString>Slot1_Assist</ClickBarButtonString>
+                </ClickBarButton>
+                <BackgroundColor>
+                  <Green>255</Green>
+                  <Alpha>119</Alpha>
+                </BackgroundColor>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyStepAction">
+                <Target>all other</Target>
+                <MappedKey>
+                  <KeyMapString>ATG Toggles</KeyMapString>
+                  <MappedKeyString>Slot 7 - Toggle Assist</MappedKeyString>
+                </MappedKey>
+                <Action>Set</Action>
+                <Value>1</Value>
               </MappedKeyAction>
             </Actions>
           </Step>
@@ -11242,30 +11970,79 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
         </Steps>
       </MappedKey>
       <MappedKey>
-        <Name>Slot 8 - Combat toggle</Name>
+        <Name>Slot 8 - Toggle Combat</Name>
         <Steps>
           <Step>
             <Actions>
+              <MappedKeyAction xsi:type="PopupTextAction">
+                <Text>left combat</Text>
+                <DurationMS>1000</DurationMS>
+              </MappedKeyAction>
               <MappedKeyAction xsi:type="TargetGroupAction">
-                <Target>Character Slot:8</Target>
+                <Target>8</Target>
                 <Action>Leave</Action>
                 <RelayGroupString>Combat</RelayGroupString>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="ClickBarButtonAction">
+                <Target>all</Target>
+                <ClickBarButton>
+                  <ClickBarString>Slot 8 ATG</ClickBarString>
+                  <ClickBarButtonString>Slot1_Combat</ClickBarButtonString>
+                </ClickBarButton>
+                <BackgroundColor>
+                  <Red>211</Red>
+                  <Green>211</Green>
+                  <Blue>211</Blue>
+                </BackgroundColor>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyStepAction">
+                <Target>all other</Target>
+                <MappedKey>
+                  <KeyMapString>ATG Toggles</KeyMapString>
+                  <MappedKeyString>Slot 8 - Toggle Combat</MappedKeyString>
+                </MappedKey>
+                <Action>Set</Action>
+                <Value>2</Value>
               </MappedKeyAction>
             </Actions>
           </Step>
           <Step>
             <Actions>
+              <MappedKeyAction xsi:type="PopupTextAction">
+                <Text>joined combat</Text>
+                <DurationMS>1000</DurationMS>
+              </MappedKeyAction>
               <MappedKeyAction xsi:type="TargetGroupAction">
-                <Target>Character Slot:8</Target>
+                <Target>8</Target>
                 <Action>Join</Action>
                 <RelayGroupString>Combat</RelayGroupString>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="ClickBarButtonAction">
+                <Target>all</Target>
+                <ClickBarButton>
+                  <ClickBarString>Slot 8 ATG</ClickBarString>
+                  <ClickBarButtonString>Slot1_Combat</ClickBarButtonString>
+                </ClickBarButton>
+                <BackgroundColor>
+                  <Green>255</Green>
+                  <Alpha>119</Alpha>
+                </BackgroundColor>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyStepAction">
+                <Target>all other</Target>
+                <MappedKey>
+                  <KeyMapString>ATG Toggles</KeyMapString>
+                  <MappedKeyString>Slot 8 - Toggle Combat</MappedKeyString>
+                </MappedKey>
+                <Action>Set</Action>
+                <Value>1</Value>
               </MappedKeyAction>
             </Actions>
           </Step>
         </Steps>
       </MappedKey>
       <MappedKey>
-        <Name>Slot 8 - Follower toggle</Name>
+        <Name>Slot 8 - Toggle Follower</Name>
         <Steps>
           <Step>
             <Actions>
@@ -11274,6 +12051,27 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
                 <Action>Leave</Action>
                 <RelayGroupString>Follower</RelayGroupString>
               </MappedKeyAction>
+              <MappedKeyAction xsi:type="ClickBarButtonAction">
+                <Target>all</Target>
+                <ClickBarButton>
+                  <ClickBarString>Slot 8 ATG</ClickBarString>
+                  <ClickBarButtonString>Slot1_Follower</ClickBarButtonString>
+                </ClickBarButton>
+                <BackgroundColor>
+                  <Red>211</Red>
+                  <Green>211</Green>
+                  <Blue>211</Blue>
+                </BackgroundColor>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyStepAction">
+                <Target>all other</Target>
+                <MappedKey>
+                  <KeyMapString>ATG Toggles</KeyMapString>
+                  <MappedKeyString>Slot 8 - Toggle Follower</MappedKeyString>
+                </MappedKey>
+                <Action>Set</Action>
+                <Value>2</Value>
+              </MappedKeyAction>
             </Actions>
           </Step>
           <Step>
@@ -11283,12 +12081,32 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
                 <Action>Join</Action>
                 <RelayGroupString>Follower</RelayGroupString>
               </MappedKeyAction>
+              <MappedKeyAction xsi:type="ClickBarButtonAction">
+                <Target>all</Target>
+                <ClickBarButton>
+                  <ClickBarString>Slot 8 ATG</ClickBarString>
+                  <ClickBarButtonString>Slot1_Follower</ClickBarButtonString>
+                </ClickBarButton>
+                <BackgroundColor>
+                  <Green>255</Green>
+                  <Alpha>119</Alpha>
+                </BackgroundColor>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyStepAction">
+                <Target>all other</Target>
+                <MappedKey>
+                  <KeyMapString>ATG Toggles</KeyMapString>
+                  <MappedKeyString>Slot 8 - Toggle Follower</MappedKeyString>
+                </MappedKey>
+                <Action>Set</Action>
+                <Value>1</Value>
+              </MappedKeyAction>
             </Actions>
           </Step>
         </Steps>
       </MappedKey>
       <MappedKey>
-        <Name>Slot 8 - Assist toggle</Name>
+        <Name>Slot 8 - Toggle Assist</Name>
         <Steps>
           <Step>
             <Actions>
@@ -11296,6 +12114,27 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
                 <Target>8</Target>
                 <Action>Leave</Action>
                 <RelayGroupString>Assist</RelayGroupString>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="ClickBarButtonAction">
+                <Target>all</Target>
+                <ClickBarButton>
+                  <ClickBarString>Slot 8 ATG</ClickBarString>
+                  <ClickBarButtonString>Slot1_Assist</ClickBarButtonString>
+                </ClickBarButton>
+                <BackgroundColor>
+                  <Red>211</Red>
+                  <Green>211</Green>
+                  <Blue>211</Blue>
+                </BackgroundColor>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyStepAction">
+                <Target>all other</Target>
+                <MappedKey>
+                  <KeyMapString>ATG Toggles</KeyMapString>
+                  <MappedKeyString>Slot 8 - Toggle Assist</MappedKeyString>
+                </MappedKey>
+                <Action>Set</Action>
+                <Value>2</Value>
               </MappedKeyAction>
             </Actions>
           </Step>
@@ -11305,6 +12144,26 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
                 <Target>8</Target>
                 <Action>Join</Action>
                 <RelayGroupString>Assist</RelayGroupString>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="ClickBarButtonAction">
+                <Target>all</Target>
+                <ClickBarButton>
+                  <ClickBarString>Slot 8 ATG</ClickBarString>
+                  <ClickBarButtonString>Slot1_Assist</ClickBarButtonString>
+                </ClickBarButton>
+                <BackgroundColor>
+                  <Green>255</Green>
+                  <Alpha>119</Alpha>
+                </BackgroundColor>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyStepAction">
+                <Target>all other</Target>
+                <MappedKey>
+                  <KeyMapString>ATG Toggles</KeyMapString>
+                  <MappedKeyString>Slot 8 - Toggle Assist</MappedKeyString>
+                </MappedKey>
+                <Action>Set</Action>
+                <Value>1</Value>
               </MappedKeyAction>
             </Actions>
           </Step>
@@ -11319,7 +12178,7 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
         </Steps>
       </MappedKey>
       <MappedKey>
-        <Name>Slot 9 - Combat toggle</Name>
+        <Name>Slot 9 - Toggle Combat</Name>
         <Steps>
           <Step>
             <Actions>
@@ -11328,6 +12187,27 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
                 <Action>Leave</Action>
                 <RelayGroupString>Combat</RelayGroupString>
               </MappedKeyAction>
+              <MappedKeyAction xsi:type="ClickBarButtonAction">
+                <Target>all</Target>
+                <ClickBarButton>
+                  <ClickBarString>Slot 9 ATG</ClickBarString>
+                  <ClickBarButtonString>Slot1_Combat</ClickBarButtonString>
+                </ClickBarButton>
+                <BackgroundColor>
+                  <Red>211</Red>
+                  <Green>211</Green>
+                  <Blue>211</Blue>
+                </BackgroundColor>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyStepAction">
+                <Target>all other</Target>
+                <MappedKey>
+                  <KeyMapString>ATG Toggles</KeyMapString>
+                  <MappedKeyString>Slot 9 - Toggle Combat</MappedKeyString>
+                </MappedKey>
+                <Action>Set</Action>
+                <Value>2</Value>
+              </MappedKeyAction>
             </Actions>
           </Step>
           <Step>
@@ -11337,12 +12217,32 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
                 <Action>Join</Action>
                 <RelayGroupString>Combat</RelayGroupString>
               </MappedKeyAction>
+              <MappedKeyAction xsi:type="ClickBarButtonAction">
+                <Target>all</Target>
+                <ClickBarButton>
+                  <ClickBarString>Slot 9 ATG</ClickBarString>
+                  <ClickBarButtonString>Slot1_Combat</ClickBarButtonString>
+                </ClickBarButton>
+                <BackgroundColor>
+                  <Green>255</Green>
+                  <Alpha>119</Alpha>
+                </BackgroundColor>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyStepAction">
+                <Target>all other</Target>
+                <MappedKey>
+                  <KeyMapString>ATG Toggles</KeyMapString>
+                  <MappedKeyString>Slot 9 - Toggle Combat</MappedKeyString>
+                </MappedKey>
+                <Action>Set</Action>
+                <Value>1</Value>
+              </MappedKeyAction>
             </Actions>
           </Step>
         </Steps>
       </MappedKey>
       <MappedKey>
-        <Name>Slot 9 - Follower toggle</Name>
+        <Name>Slot 9 - Toggle Follower</Name>
         <Steps>
           <Step>
             <Actions>
@@ -11350,6 +12250,27 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
                 <Target>Character Slot:9</Target>
                 <Action>Leave</Action>
                 <RelayGroupString>Follower</RelayGroupString>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="ClickBarButtonAction">
+                <Target>all</Target>
+                <ClickBarButton>
+                  <ClickBarString>Slot 9 ATG</ClickBarString>
+                  <ClickBarButtonString>Slot1_Follower</ClickBarButtonString>
+                </ClickBarButton>
+                <BackgroundColor>
+                  <Red>211</Red>
+                  <Green>211</Green>
+                  <Blue>211</Blue>
+                </BackgroundColor>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyStepAction">
+                <Target>all other</Target>
+                <MappedKey>
+                  <KeyMapString>ATG Toggles</KeyMapString>
+                  <MappedKeyString>Slot 9 - Toggle Follower</MappedKeyString>
+                </MappedKey>
+                <Action>Set</Action>
+                <Value>2</Value>
               </MappedKeyAction>
             </Actions>
           </Step>
@@ -11360,12 +12281,32 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
                 <Action>Join</Action>
                 <RelayGroupString>Follower</RelayGroupString>
               </MappedKeyAction>
+              <MappedKeyAction xsi:type="ClickBarButtonAction">
+                <Target>all</Target>
+                <ClickBarButton>
+                  <ClickBarString>Slot 9 ATG</ClickBarString>
+                  <ClickBarButtonString>Slot1_Follower</ClickBarButtonString>
+                </ClickBarButton>
+                <BackgroundColor>
+                  <Green>255</Green>
+                  <Alpha>119</Alpha>
+                </BackgroundColor>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyStepAction">
+                <Target>all other</Target>
+                <MappedKey>
+                  <KeyMapString>ATG Toggles</KeyMapString>
+                  <MappedKeyString>Slot 9 - Toggle Follower</MappedKeyString>
+                </MappedKey>
+                <Action>Set</Action>
+                <Value>1</Value>
+              </MappedKeyAction>
             </Actions>
           </Step>
         </Steps>
       </MappedKey>
       <MappedKey>
-        <Name>Slot 9 - Assist toggle</Name>
+        <Name>Slot 9 - Toggle Assist</Name>
         <Steps>
           <Step>
             <Actions>
@@ -11373,6 +12314,27 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
                 <Target>9</Target>
                 <Action>Leave</Action>
                 <RelayGroupString>Assist</RelayGroupString>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="ClickBarButtonAction">
+                <Target>all</Target>
+                <ClickBarButton>
+                  <ClickBarString>Slot 9 ATG</ClickBarString>
+                  <ClickBarButtonString>Slot1_Assist</ClickBarButtonString>
+                </ClickBarButton>
+                <BackgroundColor>
+                  <Red>211</Red>
+                  <Green>211</Green>
+                  <Blue>211</Blue>
+                </BackgroundColor>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyStepAction">
+                <Target>all other</Target>
+                <MappedKey>
+                  <KeyMapString>ATG Toggles</KeyMapString>
+                  <MappedKeyString>Slot 9 - Toggle Assist</MappedKeyString>
+                </MappedKey>
+                <Action>Set</Action>
+                <Value>2</Value>
               </MappedKeyAction>
             </Actions>
           </Step>
@@ -11382,6 +12344,26 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
                 <Target>9</Target>
                 <Action>Join</Action>
                 <RelayGroupString>Assist</RelayGroupString>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="ClickBarButtonAction">
+                <Target>all</Target>
+                <ClickBarButton>
+                  <ClickBarString>Slot 9 ATG</ClickBarString>
+                  <ClickBarButtonString>Slot1_Assist</ClickBarButtonString>
+                </ClickBarButton>
+                <BackgroundColor>
+                  <Green>255</Green>
+                  <Alpha>119</Alpha>
+                </BackgroundColor>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyStepAction">
+                <Target>all other</Target>
+                <MappedKey>
+                  <KeyMapString>ATG Toggles</KeyMapString>
+                  <MappedKeyString>Slot 9 - Toggle Assist</MappedKeyString>
+                </MappedKey>
+                <Action>Set</Action>
+                <Value>1</Value>
               </MappedKeyAction>
             </Actions>
           </Step>
@@ -11396,7 +12378,7 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
         </Steps>
       </MappedKey>
       <MappedKey>
-        <Name>Slot 10 - Combat toggle</Name>
+        <Name>Slot 10 - Toggle Combat</Name>
         <Steps>
           <Step>
             <Actions>
@@ -11405,6 +12387,27 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
                 <Action>Leave</Action>
                 <RelayGroupString>Combat</RelayGroupString>
               </MappedKeyAction>
+              <MappedKeyAction xsi:type="ClickBarButtonAction">
+                <Target>all</Target>
+                <ClickBarButton>
+                  <ClickBarString>Slot 10 ATG</ClickBarString>
+                  <ClickBarButtonString>Slot1_Combat</ClickBarButtonString>
+                </ClickBarButton>
+                <BackgroundColor>
+                  <Red>211</Red>
+                  <Green>211</Green>
+                  <Blue>211</Blue>
+                </BackgroundColor>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyStepAction">
+                <Target>all other</Target>
+                <MappedKey>
+                  <KeyMapString>ATG Toggles</KeyMapString>
+                  <MappedKeyString>Slot 10 - Toggle Combat</MappedKeyString>
+                </MappedKey>
+                <Action>Set</Action>
+                <Value>2</Value>
+              </MappedKeyAction>
             </Actions>
           </Step>
           <Step>
@@ -11414,12 +12417,32 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
                 <Action>Join</Action>
                 <RelayGroupString>Combat</RelayGroupString>
               </MappedKeyAction>
+              <MappedKeyAction xsi:type="ClickBarButtonAction">
+                <Target>all</Target>
+                <ClickBarButton>
+                  <ClickBarString>Slot 10 ATG</ClickBarString>
+                  <ClickBarButtonString>Slot1_Combat</ClickBarButtonString>
+                </ClickBarButton>
+                <BackgroundColor>
+                  <Green>255</Green>
+                  <Alpha>119</Alpha>
+                </BackgroundColor>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyStepAction">
+                <Target>all other</Target>
+                <MappedKey>
+                  <KeyMapString>ATG Toggles</KeyMapString>
+                  <MappedKeyString>Slot 10 - Toggle Combat</MappedKeyString>
+                </MappedKey>
+                <Action>Set</Action>
+                <Value>1</Value>
+              </MappedKeyAction>
             </Actions>
           </Step>
         </Steps>
       </MappedKey>
       <MappedKey>
-        <Name>Slot 10 - Follower toggle</Name>
+        <Name>Slot 10 - Toggle Follower</Name>
         <Steps>
           <Step>
             <Actions>
@@ -11427,6 +12450,27 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
                 <Target>Character Slot:10</Target>
                 <Action>Leave</Action>
                 <RelayGroupString>Follower</RelayGroupString>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="ClickBarButtonAction">
+                <Target>all</Target>
+                <ClickBarButton>
+                  <ClickBarString>Slot 10 ATG</ClickBarString>
+                  <ClickBarButtonString>Slot1_Follower</ClickBarButtonString>
+                </ClickBarButton>
+                <BackgroundColor>
+                  <Red>211</Red>
+                  <Green>211</Green>
+                  <Blue>211</Blue>
+                </BackgroundColor>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyStepAction">
+                <Target>all other</Target>
+                <MappedKey>
+                  <KeyMapString>ATG Toggles</KeyMapString>
+                  <MappedKeyString>Slot 10 - Toggle Follower</MappedKeyString>
+                </MappedKey>
+                <Action>Set</Action>
+                <Value>2</Value>
               </MappedKeyAction>
             </Actions>
           </Step>
@@ -11437,12 +12481,32 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
                 <Action>Join</Action>
                 <RelayGroupString>Follower</RelayGroupString>
               </MappedKeyAction>
+              <MappedKeyAction xsi:type="ClickBarButtonAction">
+                <Target>all</Target>
+                <ClickBarButton>
+                  <ClickBarString>Slot 10 ATG</ClickBarString>
+                  <ClickBarButtonString>Slot1_Follower</ClickBarButtonString>
+                </ClickBarButton>
+                <BackgroundColor>
+                  <Green>255</Green>
+                  <Alpha>119</Alpha>
+                </BackgroundColor>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyStepAction">
+                <Target>all other</Target>
+                <MappedKey>
+                  <KeyMapString>ATG Toggles</KeyMapString>
+                  <MappedKeyString>Slot 10 - Toggle Follower</MappedKeyString>
+                </MappedKey>
+                <Action>Set</Action>
+                <Value>1</Value>
+              </MappedKeyAction>
             </Actions>
           </Step>
         </Steps>
       </MappedKey>
       <MappedKey>
-        <Name>Slot 10 - Assist toggle</Name>
+        <Name>Slot 10 - Toggle Assist</Name>
         <Steps>
           <Step>
             <Actions>
@@ -11450,6 +12514,27 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
                 <Target>10</Target>
                 <Action>Leave</Action>
                 <RelayGroupString>Assist</RelayGroupString>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="ClickBarButtonAction">
+                <Target>all</Target>
+                <ClickBarButton>
+                  <ClickBarString>Slot 10 ATG</ClickBarString>
+                  <ClickBarButtonString>Slot1_Assist</ClickBarButtonString>
+                </ClickBarButton>
+                <BackgroundColor>
+                  <Red>211</Red>
+                  <Green>211</Green>
+                  <Blue>211</Blue>
+                </BackgroundColor>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyStepAction">
+                <Target>all other</Target>
+                <MappedKey>
+                  <KeyMapString>ATG Toggles</KeyMapString>
+                  <MappedKeyString>Slot 10 - Toggle Assist</MappedKeyString>
+                </MappedKey>
+                <Action>Set</Action>
+                <Value>2</Value>
               </MappedKeyAction>
             </Actions>
           </Step>
@@ -11459,6 +12544,26 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
                 <Target>10</Target>
                 <Action>Join</Action>
                 <RelayGroupString>Assist</RelayGroupString>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="ClickBarButtonAction">
+                <Target>all</Target>
+                <ClickBarButton>
+                  <ClickBarString>Slot 10 ATG</ClickBarString>
+                  <ClickBarButtonString>Slot1_Assist</ClickBarButtonString>
+                </ClickBarButton>
+                <BackgroundColor>
+                  <Green>255</Green>
+                  <Alpha>119</Alpha>
+                </BackgroundColor>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyStepAction">
+                <Target>all other</Target>
+                <MappedKey>
+                  <KeyMapString>ATG Toggles</KeyMapString>
+                  <MappedKeyString>Slot 10 - Toggle Assist</MappedKeyString>
+                </MappedKey>
+                <Action>Set</Action>
+                <Value>1</Value>
               </MappedKeyAction>
             </Actions>
           </Step>
@@ -21739,16 +22844,18 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
     <Buttons>
       <Button>
         <Enabled>false</Enabled>
-        <Name>Button1.1</Name>
+        <Name>Menu</Name>
         <BackgroundColor>
-          <Red>128</Red>
-          <Green>128</Green>
-          <Blue>128</Blue>
+          <Blue>255</Blue>
+          <Alpha>119</Alpha>
         </BackgroundColor>
         <ClickActions>
           <ClickAction>
             <LeftRight>Left</LeftRight>
-            <Action />
+            <Action>
+              <KeyMapString>ISB42 - Toggles</KeyMapString>
+              <MappedKeyString>Toggle Control Panel Menu</MappedKeyString>
+            </Action>
           </ClickAction>
         </ClickActions>
         <MouseOverAction>
@@ -21756,7 +22863,17 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
           <Action />
         </MouseOverAction>
         <Tooltip />
-        <Text />
+        <Text>Menu</Text>
+        <TextStyle>
+          <Face>Georgia</Face>
+          <Size>18</Size>
+          <Color>
+            <Red>255</Red>
+            <Green>255</Green>
+            <Blue>255</Blue>
+          </Color>
+          <Bold>true</Bold>
+        </TextStyle>
       </Button>
       <Button>
         <Enabled>false</Enabled>
@@ -22316,7 +23433,7 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
   </ClickBar>
   <ClickBar>
     <Name>Slot 1 ATG</Name>
-    <X>910</X>
+    <X>936</X>
     <Y>1367</Y>
     <RowHeight>25</RowHeight>
     <ColumnWidth>25</ColumnWidth>
@@ -22336,6 +23453,15 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
           <Green>255</Green>
           <Alpha>119</Alpha>
         </BackgroundColor>
+        <ClickActions>
+          <ClickAction>
+            <LeftRight>Left</LeftRight>
+            <Action>
+              <KeyMapString>ATG Toggles</KeyMapString>
+              <MappedKeyString>Slot 1 - Toggle Combat</MappedKeyString>
+            </Action>
+          </ClickAction>
+        </ClickActions>
         <MouseOverAction>
           <LeftRight>Left</LeftRight>
           <Action />
@@ -22356,6 +23482,15 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
           <Green>255</Green>
           <Alpha>119</Alpha>
         </BackgroundColor>
+        <ClickActions>
+          <ClickAction>
+            <LeftRight>Left</LeftRight>
+            <Action>
+              <KeyMapString>ATG Toggles</KeyMapString>
+              <MappedKeyString>Slot 1 - Toggle Follower</MappedKeyString>
+            </Action>
+          </ClickAction>
+        </ClickActions>
         <MouseOverAction>
           <LeftRight>Left</LeftRight>
           <Action />
@@ -22376,6 +23511,951 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
           <Green>255</Green>
           <Alpha>119</Alpha>
         </BackgroundColor>
+        <ClickActions>
+          <ClickAction>
+            <LeftRight>Left</LeftRight>
+            <Action>
+              <KeyMapString>ATG Toggles</KeyMapString>
+              <MappedKeyString>Slot 1 - Toggle Assist</MappedKeyString>
+            </Action>
+          </ClickAction>
+        </ClickActions>
+        <MouseOverAction>
+          <LeftRight>Left</LeftRight>
+          <Action />
+        </MouseOverAction>
+        <Tooltip />
+        <Text>A</Text>
+        <TextStyle>
+          <Face>Georgia</Face>
+          <Size>18</Size>
+          <Color />
+          <Bold>true</Bold>
+        </TextStyle>
+      </Button>
+    </Buttons>
+  </ClickBar>
+  <ClickBar>
+    <Name>Slot 2 ATG</Name>
+    <X>1092</X>
+    <Y>1367</Y>
+    <RowHeight>25</RowHeight>
+    <ColumnWidth>25</ColumnWidth>
+    <BackgroundColor />
+    <CellBorder_Color>
+      <Red>255</Red>
+      <Green>255</Green>
+      <Blue>255</Blue>
+    </CellBorder_Color>
+    <Rows>1</Rows>
+    <Columns>3</Columns>
+    <Buttons>
+      <Button>
+        <Enabled>false</Enabled>
+        <Name>Slot1_Combat</Name>
+        <BackgroundColor>
+          <Green>255</Green>
+          <Alpha>119</Alpha>
+        </BackgroundColor>
+        <ClickActions>
+          <ClickAction>
+            <LeftRight>Left</LeftRight>
+            <Action>
+              <KeyMapString>ATG Toggles</KeyMapString>
+              <MappedKeyString>Slot 2 - Toggle Combat</MappedKeyString>
+            </Action>
+          </ClickAction>
+        </ClickActions>
+        <MouseOverAction>
+          <LeftRight>Left</LeftRight>
+          <Action />
+        </MouseOverAction>
+        <Tooltip />
+        <Text>C</Text>
+        <TextStyle>
+          <Face>Georgia</Face>
+          <Size>18</Size>
+          <Color />
+          <Bold>true</Bold>
+        </TextStyle>
+      </Button>
+      <Button>
+        <Enabled>false</Enabled>
+        <Name>Slot1_Follower</Name>
+        <BackgroundColor>
+          <Green>255</Green>
+          <Alpha>119</Alpha>
+        </BackgroundColor>
+        <ClickActions>
+          <ClickAction>
+            <LeftRight>Left</LeftRight>
+            <Action>
+              <KeyMapString>ATG Toggles</KeyMapString>
+              <MappedKeyString>Slot 2 - Toggle Follower</MappedKeyString>
+            </Action>
+          </ClickAction>
+        </ClickActions>
+        <MouseOverAction>
+          <LeftRight>Left</LeftRight>
+          <Action />
+        </MouseOverAction>
+        <Tooltip />
+        <Text>F</Text>
+        <TextStyle>
+          <Face>Georgia</Face>
+          <Size>18</Size>
+          <Color />
+          <Bold>true</Bold>
+        </TextStyle>
+      </Button>
+      <Button>
+        <Enabled>false</Enabled>
+        <Name>Slot1_Assist</Name>
+        <BackgroundColor>
+          <Green>255</Green>
+          <Alpha>119</Alpha>
+        </BackgroundColor>
+        <ClickActions>
+          <ClickAction>
+            <LeftRight>Left</LeftRight>
+            <Action>
+              <KeyMapString>ATG Toggles</KeyMapString>
+              <MappedKeyString>Slot 2 - Toggle Assist</MappedKeyString>
+            </Action>
+          </ClickAction>
+        </ClickActions>
+        <MouseOverAction>
+          <LeftRight>Left</LeftRight>
+          <Action />
+        </MouseOverAction>
+        <Tooltip />
+        <Text>A</Text>
+        <TextStyle>
+          <Face>Georgia</Face>
+          <Size>18</Size>
+          <Color />
+          <Bold>true</Bold>
+        </TextStyle>
+      </Button>
+    </Buttons>
+  </ClickBar>
+  <ClickBar>
+    <Name>Slot 3 ATG</Name>
+    <X>1248</X>
+    <Y>1367</Y>
+    <RowHeight>25</RowHeight>
+    <ColumnWidth>25</ColumnWidth>
+    <BackgroundColor />
+    <CellBorder_Color>
+      <Red>255</Red>
+      <Green>255</Green>
+      <Blue>255</Blue>
+    </CellBorder_Color>
+    <Rows>1</Rows>
+    <Columns>3</Columns>
+    <Buttons>
+      <Button>
+        <Enabled>false</Enabled>
+        <Name>Slot1_Combat</Name>
+        <BackgroundColor>
+          <Green>255</Green>
+          <Alpha>119</Alpha>
+        </BackgroundColor>
+        <ClickActions>
+          <ClickAction>
+            <LeftRight>Left</LeftRight>
+            <Action>
+              <KeyMapString>ATG Toggles</KeyMapString>
+              <MappedKeyString>Slot 3 - Toggle Combat</MappedKeyString>
+            </Action>
+          </ClickAction>
+        </ClickActions>
+        <MouseOverAction>
+          <LeftRight>Left</LeftRight>
+          <Action />
+        </MouseOverAction>
+        <Tooltip />
+        <Text>C</Text>
+        <TextStyle>
+          <Face>Georgia</Face>
+          <Size>18</Size>
+          <Color />
+          <Bold>true</Bold>
+        </TextStyle>
+      </Button>
+      <Button>
+        <Enabled>false</Enabled>
+        <Name>Slot1_Follower</Name>
+        <BackgroundColor>
+          <Green>255</Green>
+          <Alpha>119</Alpha>
+        </BackgroundColor>
+        <ClickActions>
+          <ClickAction>
+            <LeftRight>Left</LeftRight>
+            <Action>
+              <KeyMapString>ATG Toggles</KeyMapString>
+              <MappedKeyString>Slot 3 - Toggle Follower</MappedKeyString>
+            </Action>
+          </ClickAction>
+        </ClickActions>
+        <MouseOverAction>
+          <LeftRight>Left</LeftRight>
+          <Action />
+        </MouseOverAction>
+        <Tooltip />
+        <Text>F</Text>
+        <TextStyle>
+          <Face>Georgia</Face>
+          <Size>18</Size>
+          <Color />
+          <Bold>true</Bold>
+        </TextStyle>
+      </Button>
+      <Button>
+        <Enabled>false</Enabled>
+        <Name>Slot1_Assist</Name>
+        <BackgroundColor>
+          <Green>255</Green>
+          <Alpha>119</Alpha>
+        </BackgroundColor>
+        <ClickActions>
+          <ClickAction>
+            <LeftRight>Left</LeftRight>
+            <Action>
+              <KeyMapString>ATG Toggles</KeyMapString>
+              <MappedKeyString>Slot 3 - Toggle Assist</MappedKeyString>
+            </Action>
+          </ClickAction>
+        </ClickActions>
+        <MouseOverAction>
+          <LeftRight>Left</LeftRight>
+          <Action />
+        </MouseOverAction>
+        <Tooltip />
+        <Text>A</Text>
+        <TextStyle>
+          <Face>Georgia</Face>
+          <Size>18</Size>
+          <Color />
+          <Bold>true</Bold>
+        </TextStyle>
+      </Button>
+    </Buttons>
+  </ClickBar>
+  <ClickBar>
+    <Name>Slot 4 ATG</Name>
+    <X>1404</X>
+    <Y>1367</Y>
+    <RowHeight>25</RowHeight>
+    <ColumnWidth>25</ColumnWidth>
+    <BackgroundColor />
+    <CellBorder_Color>
+      <Red>255</Red>
+      <Green>255</Green>
+      <Blue>255</Blue>
+    </CellBorder_Color>
+    <Rows>1</Rows>
+    <Columns>3</Columns>
+    <Buttons>
+      <Button>
+        <Enabled>false</Enabled>
+        <Name>Slot1_Combat</Name>
+        <BackgroundColor>
+          <Green>255</Green>
+          <Alpha>119</Alpha>
+        </BackgroundColor>
+        <ClickActions>
+          <ClickAction>
+            <LeftRight>Left</LeftRight>
+            <Action>
+              <KeyMapString>ATG Toggles</KeyMapString>
+              <MappedKeyString>Slot 4 - Toggle Combat</MappedKeyString>
+            </Action>
+          </ClickAction>
+        </ClickActions>
+        <MouseOverAction>
+          <LeftRight>Left</LeftRight>
+          <Action />
+        </MouseOverAction>
+        <Tooltip />
+        <Text>C</Text>
+        <TextStyle>
+          <Face>Georgia</Face>
+          <Size>18</Size>
+          <Color />
+          <Bold>true</Bold>
+        </TextStyle>
+      </Button>
+      <Button>
+        <Enabled>false</Enabled>
+        <Name>Slot1_Follower</Name>
+        <BackgroundColor>
+          <Green>255</Green>
+          <Alpha>119</Alpha>
+        </BackgroundColor>
+        <ClickActions>
+          <ClickAction>
+            <LeftRight>Left</LeftRight>
+            <Action>
+              <KeyMapString>ATG Toggles</KeyMapString>
+              <MappedKeyString>Slot 4 - Toggle Follower</MappedKeyString>
+            </Action>
+          </ClickAction>
+        </ClickActions>
+        <MouseOverAction>
+          <LeftRight>Left</LeftRight>
+          <Action />
+        </MouseOverAction>
+        <Tooltip />
+        <Text>F</Text>
+        <TextStyle>
+          <Face>Georgia</Face>
+          <Size>18</Size>
+          <Color />
+          <Bold>true</Bold>
+        </TextStyle>
+      </Button>
+      <Button>
+        <Enabled>false</Enabled>
+        <Name>Slot1_Assist</Name>
+        <BackgroundColor>
+          <Green>255</Green>
+          <Alpha>119</Alpha>
+        </BackgroundColor>
+        <ClickActions>
+          <ClickAction>
+            <LeftRight>Left</LeftRight>
+            <Action>
+              <KeyMapString>ATG Toggles</KeyMapString>
+              <MappedKeyString>Slot 4 - Toggle Assist</MappedKeyString>
+            </Action>
+          </ClickAction>
+        </ClickActions>
+        <MouseOverAction>
+          <LeftRight>Left</LeftRight>
+          <Action />
+        </MouseOverAction>
+        <Tooltip />
+        <Text>A</Text>
+        <TextStyle>
+          <Face>Georgia</Face>
+          <Size>18</Size>
+          <Color />
+          <Bold>true</Bold>
+        </TextStyle>
+      </Button>
+    </Buttons>
+  </ClickBar>
+  <ClickBar>
+    <Name>Slot 5 ATG</Name>
+    <X>1560</X>
+    <Y>1367</Y>
+    <RowHeight>25</RowHeight>
+    <ColumnWidth>25</ColumnWidth>
+    <BackgroundColor />
+    <CellBorder_Color>
+      <Red>255</Red>
+      <Green>255</Green>
+      <Blue>255</Blue>
+    </CellBorder_Color>
+    <Rows>1</Rows>
+    <Columns>3</Columns>
+    <Buttons>
+      <Button>
+        <Enabled>false</Enabled>
+        <Name>Slot1_Combat</Name>
+        <BackgroundColor>
+          <Green>255</Green>
+          <Alpha>119</Alpha>
+        </BackgroundColor>
+        <ClickActions>
+          <ClickAction>
+            <LeftRight>Left</LeftRight>
+            <Action>
+              <KeyMapString>ATG Toggles</KeyMapString>
+              <MappedKeyString>Slot 5 - Toggle Combat</MappedKeyString>
+            </Action>
+          </ClickAction>
+        </ClickActions>
+        <MouseOverAction>
+          <LeftRight>Left</LeftRight>
+          <Action />
+        </MouseOverAction>
+        <Tooltip />
+        <Text>C</Text>
+        <TextStyle>
+          <Face>Georgia</Face>
+          <Size>18</Size>
+          <Color />
+          <Bold>true</Bold>
+        </TextStyle>
+      </Button>
+      <Button>
+        <Enabled>false</Enabled>
+        <Name>Slot1_Follower</Name>
+        <BackgroundColor>
+          <Green>255</Green>
+          <Alpha>119</Alpha>
+        </BackgroundColor>
+        <ClickActions>
+          <ClickAction>
+            <LeftRight>Left</LeftRight>
+            <Action>
+              <KeyMapString>ATG Toggles</KeyMapString>
+              <MappedKeyString>Slot 5 - Toggle Follower</MappedKeyString>
+            </Action>
+          </ClickAction>
+        </ClickActions>
+        <MouseOverAction>
+          <LeftRight>Left</LeftRight>
+          <Action />
+        </MouseOverAction>
+        <Tooltip />
+        <Text>F</Text>
+        <TextStyle>
+          <Face>Georgia</Face>
+          <Size>18</Size>
+          <Color />
+          <Bold>true</Bold>
+        </TextStyle>
+      </Button>
+      <Button>
+        <Enabled>false</Enabled>
+        <Name>Slot1_Assist</Name>
+        <BackgroundColor>
+          <Green>255</Green>
+          <Alpha>119</Alpha>
+        </BackgroundColor>
+        <ClickActions>
+          <ClickAction>
+            <LeftRight>Left</LeftRight>
+            <Action>
+              <KeyMapString>ATG Toggles</KeyMapString>
+              <MappedKeyString>Slot 5 - Toggle Assist</MappedKeyString>
+            </Action>
+          </ClickAction>
+        </ClickActions>
+        <MouseOverAction>
+          <LeftRight>Left</LeftRight>
+          <Action />
+        </MouseOverAction>
+        <Tooltip />
+        <Text>A</Text>
+        <TextStyle>
+          <Face>Georgia</Face>
+          <Size>18</Size>
+          <Color />
+          <Bold>true</Bold>
+        </TextStyle>
+      </Button>
+    </Buttons>
+  </ClickBar>
+  <ClickBar>
+    <Name>Slot 6 ATG</Name>
+    <X>1716</X>
+    <Y>1367</Y>
+    <RowHeight>25</RowHeight>
+    <ColumnWidth>25</ColumnWidth>
+    <BackgroundColor />
+    <CellBorder_Color>
+      <Red>255</Red>
+      <Green>255</Green>
+      <Blue>255</Blue>
+    </CellBorder_Color>
+    <Rows>1</Rows>
+    <Columns>3</Columns>
+    <Buttons>
+      <Button>
+        <Enabled>false</Enabled>
+        <Name>Slot1_Combat</Name>
+        <BackgroundColor>
+          <Green>255</Green>
+          <Alpha>119</Alpha>
+        </BackgroundColor>
+        <ClickActions>
+          <ClickAction>
+            <LeftRight>Left</LeftRight>
+            <Action>
+              <KeyMapString>ATG Toggles</KeyMapString>
+              <MappedKeyString>Slot 6 - Toggle Combat</MappedKeyString>
+            </Action>
+          </ClickAction>
+        </ClickActions>
+        <MouseOverAction>
+          <LeftRight>Left</LeftRight>
+          <Action />
+        </MouseOverAction>
+        <Tooltip />
+        <Text>C</Text>
+        <TextStyle>
+          <Face>Georgia</Face>
+          <Size>18</Size>
+          <Color />
+          <Bold>true</Bold>
+        </TextStyle>
+      </Button>
+      <Button>
+        <Enabled>false</Enabled>
+        <Name>Slot1_Follower</Name>
+        <BackgroundColor>
+          <Green>255</Green>
+          <Alpha>119</Alpha>
+        </BackgroundColor>
+        <ClickActions>
+          <ClickAction>
+            <LeftRight>Left</LeftRight>
+            <Action>
+              <KeyMapString>ATG Toggles</KeyMapString>
+              <MappedKeyString>Slot 6 - Toggle Follower</MappedKeyString>
+            </Action>
+          </ClickAction>
+        </ClickActions>
+        <MouseOverAction>
+          <LeftRight>Left</LeftRight>
+          <Action />
+        </MouseOverAction>
+        <Tooltip />
+        <Text>F</Text>
+        <TextStyle>
+          <Face>Georgia</Face>
+          <Size>18</Size>
+          <Color />
+          <Bold>true</Bold>
+        </TextStyle>
+      </Button>
+      <Button>
+        <Enabled>false</Enabled>
+        <Name>Slot1_Assist</Name>
+        <BackgroundColor>
+          <Green>255</Green>
+          <Alpha>119</Alpha>
+        </BackgroundColor>
+        <ClickActions>
+          <ClickAction>
+            <LeftRight>Left</LeftRight>
+            <Action>
+              <KeyMapString>ATG Toggles</KeyMapString>
+              <MappedKeyString>Slot 6 - Toggle Assist</MappedKeyString>
+            </Action>
+          </ClickAction>
+        </ClickActions>
+        <MouseOverAction>
+          <LeftRight>Left</LeftRight>
+          <Action />
+        </MouseOverAction>
+        <Tooltip />
+        <Text>A</Text>
+        <TextStyle>
+          <Face>Georgia</Face>
+          <Size>18</Size>
+          <Color />
+          <Bold>true</Bold>
+        </TextStyle>
+      </Button>
+    </Buttons>
+  </ClickBar>
+  <ClickBar>
+    <Name>Slot 7 ATG</Name>
+    <X>1872</X>
+    <Y>1367</Y>
+    <RowHeight>25</RowHeight>
+    <ColumnWidth>25</ColumnWidth>
+    <BackgroundColor />
+    <CellBorder_Color>
+      <Red>255</Red>
+      <Green>255</Green>
+      <Blue>255</Blue>
+    </CellBorder_Color>
+    <Rows>1</Rows>
+    <Columns>3</Columns>
+    <Buttons>
+      <Button>
+        <Enabled>false</Enabled>
+        <Name>Slot1_Combat</Name>
+        <BackgroundColor>
+          <Green>255</Green>
+          <Alpha>119</Alpha>
+        </BackgroundColor>
+        <ClickActions>
+          <ClickAction>
+            <LeftRight>Left</LeftRight>
+            <Action>
+              <KeyMapString>ATG Toggles</KeyMapString>
+              <MappedKeyString>Slot 6 - Toggle Combat</MappedKeyString>
+            </Action>
+          </ClickAction>
+        </ClickActions>
+        <MouseOverAction>
+          <LeftRight>Left</LeftRight>
+          <Action />
+        </MouseOverAction>
+        <Tooltip />
+        <Text>C</Text>
+        <TextStyle>
+          <Face>Georgia</Face>
+          <Size>18</Size>
+          <Color />
+          <Bold>true</Bold>
+        </TextStyle>
+      </Button>
+      <Button>
+        <Enabled>false</Enabled>
+        <Name>Slot1_Follower</Name>
+        <BackgroundColor>
+          <Green>255</Green>
+          <Alpha>119</Alpha>
+        </BackgroundColor>
+        <ClickActions>
+          <ClickAction>
+            <LeftRight>Left</LeftRight>
+            <Action>
+              <KeyMapString>ATG Toggles</KeyMapString>
+              <MappedKeyString>Slot 6 - Toggle Follower</MappedKeyString>
+            </Action>
+          </ClickAction>
+        </ClickActions>
+        <MouseOverAction>
+          <LeftRight>Left</LeftRight>
+          <Action />
+        </MouseOverAction>
+        <Tooltip />
+        <Text>F</Text>
+        <TextStyle>
+          <Face>Georgia</Face>
+          <Size>18</Size>
+          <Color />
+          <Bold>true</Bold>
+        </TextStyle>
+      </Button>
+      <Button>
+        <Enabled>false</Enabled>
+        <Name>Slot1_Assist</Name>
+        <BackgroundColor>
+          <Green>255</Green>
+          <Alpha>119</Alpha>
+        </BackgroundColor>
+        <ClickActions>
+          <ClickAction>
+            <LeftRight>Left</LeftRight>
+            <Action>
+              <KeyMapString>ATG Toggles</KeyMapString>
+              <MappedKeyString>Slot 7 - Toggle Assist</MappedKeyString>
+            </Action>
+          </ClickAction>
+        </ClickActions>
+        <MouseOverAction>
+          <LeftRight>Left</LeftRight>
+          <Action />
+        </MouseOverAction>
+        <Tooltip />
+        <Text>A</Text>
+        <TextStyle>
+          <Face>Georgia</Face>
+          <Size>18</Size>
+          <Color />
+          <Bold>true</Bold>
+        </TextStyle>
+      </Button>
+    </Buttons>
+  </ClickBar>
+  <ClickBar>
+    <Name>Slot 8 ATG</Name>
+    <X>2028</X>
+    <Y>1367</Y>
+    <RowHeight>25</RowHeight>
+    <ColumnWidth>25</ColumnWidth>
+    <BackgroundColor />
+    <CellBorder_Color>
+      <Red>255</Red>
+      <Green>255</Green>
+      <Blue>255</Blue>
+    </CellBorder_Color>
+    <Rows>1</Rows>
+    <Columns>3</Columns>
+    <Buttons>
+      <Button>
+        <Enabled>false</Enabled>
+        <Name>Slot1_Combat</Name>
+        <BackgroundColor>
+          <Green>255</Green>
+          <Alpha>119</Alpha>
+        </BackgroundColor>
+        <ClickActions>
+          <ClickAction>
+            <LeftRight>Left</LeftRight>
+            <Action>
+              <KeyMapString>ATG Toggles</KeyMapString>
+              <MappedKeyString>Slot 8 - Toggle Combat</MappedKeyString>
+            </Action>
+          </ClickAction>
+        </ClickActions>
+        <MouseOverAction>
+          <LeftRight>Left</LeftRight>
+          <Action />
+        </MouseOverAction>
+        <Tooltip />
+        <Text>C</Text>
+        <TextStyle>
+          <Face>Georgia</Face>
+          <Size>18</Size>
+          <Color />
+          <Bold>true</Bold>
+        </TextStyle>
+      </Button>
+      <Button>
+        <Enabled>false</Enabled>
+        <Name>Slot1_Follower</Name>
+        <BackgroundColor>
+          <Green>255</Green>
+          <Alpha>119</Alpha>
+        </BackgroundColor>
+        <ClickActions>
+          <ClickAction>
+            <LeftRight>Left</LeftRight>
+            <Action>
+              <KeyMapString>ATG Toggles</KeyMapString>
+              <MappedKeyString>Slot 8 - Toggle Follower</MappedKeyString>
+            </Action>
+          </ClickAction>
+        </ClickActions>
+        <MouseOverAction>
+          <LeftRight>Left</LeftRight>
+          <Action />
+        </MouseOverAction>
+        <Tooltip />
+        <Text>F</Text>
+        <TextStyle>
+          <Face>Georgia</Face>
+          <Size>18</Size>
+          <Color />
+          <Bold>true</Bold>
+        </TextStyle>
+      </Button>
+      <Button>
+        <Enabled>false</Enabled>
+        <Name>Slot1_Assist</Name>
+        <BackgroundColor>
+          <Green>255</Green>
+          <Alpha>119</Alpha>
+        </BackgroundColor>
+        <ClickActions>
+          <ClickAction>
+            <LeftRight>Left</LeftRight>
+            <Action>
+              <KeyMapString>ATG Toggles</KeyMapString>
+              <MappedKeyString>Slot 8 - Toggle Assist</MappedKeyString>
+            </Action>
+          </ClickAction>
+        </ClickActions>
+        <MouseOverAction>
+          <LeftRight>Left</LeftRight>
+          <Action />
+        </MouseOverAction>
+        <Tooltip />
+        <Text>A</Text>
+        <TextStyle>
+          <Face>Georgia</Face>
+          <Size>18</Size>
+          <Color />
+          <Bold>true</Bold>
+        </TextStyle>
+      </Button>
+    </Buttons>
+  </ClickBar>
+  <ClickBar>
+    <Name>Slot 9 ATG</Name>
+    <X>2184</X>
+    <Y>1367</Y>
+    <RowHeight>25</RowHeight>
+    <ColumnWidth>25</ColumnWidth>
+    <BackgroundColor />
+    <CellBorder_Color>
+      <Red>255</Red>
+      <Green>255</Green>
+      <Blue>255</Blue>
+    </CellBorder_Color>
+    <Rows>1</Rows>
+    <Columns>3</Columns>
+    <Buttons>
+      <Button>
+        <Enabled>false</Enabled>
+        <Name>Slot1_Combat</Name>
+        <BackgroundColor>
+          <Green>255</Green>
+          <Alpha>119</Alpha>
+        </BackgroundColor>
+        <ClickActions>
+          <ClickAction>
+            <LeftRight>Left</LeftRight>
+            <Action>
+              <KeyMapString>ATG Toggles</KeyMapString>
+              <MappedKeyString>Slot 9 - Toggle Combat</MappedKeyString>
+            </Action>
+          </ClickAction>
+        </ClickActions>
+        <MouseOverAction>
+          <LeftRight>Left</LeftRight>
+          <Action />
+        </MouseOverAction>
+        <Tooltip />
+        <Text>C</Text>
+        <TextStyle>
+          <Face>Georgia</Face>
+          <Size>18</Size>
+          <Color />
+          <Bold>true</Bold>
+        </TextStyle>
+      </Button>
+      <Button>
+        <Enabled>false</Enabled>
+        <Name>Slot1_Follower</Name>
+        <BackgroundColor>
+          <Green>255</Green>
+          <Alpha>119</Alpha>
+        </BackgroundColor>
+        <ClickActions>
+          <ClickAction>
+            <LeftRight>Left</LeftRight>
+            <Action>
+              <KeyMapString>ATG Toggles</KeyMapString>
+              <MappedKeyString>Slot 9 - Toggle Follower</MappedKeyString>
+            </Action>
+          </ClickAction>
+        </ClickActions>
+        <MouseOverAction>
+          <LeftRight>Left</LeftRight>
+          <Action />
+        </MouseOverAction>
+        <Tooltip />
+        <Text>F</Text>
+        <TextStyle>
+          <Face>Georgia</Face>
+          <Size>18</Size>
+          <Color />
+          <Bold>true</Bold>
+        </TextStyle>
+      </Button>
+      <Button>
+        <Enabled>false</Enabled>
+        <Name>Slot1_Assist</Name>
+        <BackgroundColor>
+          <Green>255</Green>
+          <Alpha>119</Alpha>
+        </BackgroundColor>
+        <ClickActions>
+          <ClickAction>
+            <LeftRight>Left</LeftRight>
+            <Action>
+              <KeyMapString>ATG Toggles</KeyMapString>
+              <MappedKeyString>Slot 9 - Toggle Assist</MappedKeyString>
+            </Action>
+          </ClickAction>
+        </ClickActions>
+        <MouseOverAction>
+          <LeftRight>Left</LeftRight>
+          <Action />
+        </MouseOverAction>
+        <Tooltip />
+        <Text>A</Text>
+        <TextStyle>
+          <Face>Georgia</Face>
+          <Size>18</Size>
+          <Color />
+          <Bold>true</Bold>
+        </TextStyle>
+      </Button>
+    </Buttons>
+  </ClickBar>
+  <ClickBar>
+    <Name>Slot 10 ATG</Name>
+    <X>2340</X>
+    <Y>1367</Y>
+    <RowHeight>25</RowHeight>
+    <ColumnWidth>25</ColumnWidth>
+    <BackgroundColor />
+    <CellBorder_Color>
+      <Red>255</Red>
+      <Green>255</Green>
+      <Blue>255</Blue>
+    </CellBorder_Color>
+    <Rows>1</Rows>
+    <Columns>3</Columns>
+    <Buttons>
+      <Button>
+        <Enabled>false</Enabled>
+        <Name>Slot1_Combat</Name>
+        <BackgroundColor>
+          <Green>255</Green>
+          <Alpha>119</Alpha>
+        </BackgroundColor>
+        <ClickActions>
+          <ClickAction>
+            <LeftRight>Left</LeftRight>
+            <Action>
+              <KeyMapString>ATG Toggles</KeyMapString>
+              <MappedKeyString>Slot 10 - Toggle Combat</MappedKeyString>
+            </Action>
+          </ClickAction>
+        </ClickActions>
+        <MouseOverAction>
+          <LeftRight>Left</LeftRight>
+          <Action />
+        </MouseOverAction>
+        <Tooltip />
+        <Text>C</Text>
+        <TextStyle>
+          <Face>Georgia</Face>
+          <Size>18</Size>
+          <Color />
+          <Bold>true</Bold>
+        </TextStyle>
+      </Button>
+      <Button>
+        <Enabled>false</Enabled>
+        <Name>Slot1_Follower</Name>
+        <BackgroundColor>
+          <Green>255</Green>
+          <Alpha>119</Alpha>
+        </BackgroundColor>
+        <ClickActions>
+          <ClickAction>
+            <LeftRight>Left</LeftRight>
+            <Action>
+              <KeyMapString>ATG Toggles</KeyMapString>
+              <MappedKeyString>Slot 10 - Toggle Follower</MappedKeyString>
+            </Action>
+          </ClickAction>
+        </ClickActions>
+        <MouseOverAction>
+          <LeftRight>Left</LeftRight>
+          <Action />
+        </MouseOverAction>
+        <Tooltip />
+        <Text>F</Text>
+        <TextStyle>
+          <Face>Georgia</Face>
+          <Size>18</Size>
+          <Color />
+          <Bold>true</Bold>
+        </TextStyle>
+      </Button>
+      <Button>
+        <Enabled>false</Enabled>
+        <Name>Slot1_Assist</Name>
+        <BackgroundColor>
+          <Green>255</Green>
+          <Alpha>119</Alpha>
+        </BackgroundColor>
+        <ClickActions>
+          <ClickAction>
+            <LeftRight>Left</LeftRight>
+            <Action>
+              <KeyMapString>ATG Toggles</KeyMapString>
+              <MappedKeyString>Slot 10 - Toggle Assist</MappedKeyString>
+            </Action>
+          </ClickAction>
+        </ClickActions>
         <MouseOverAction>
           <LeftRight>Left</LeftRight>
           <Action />
@@ -23684,592 +25764,32 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
     </Buttons>
   </MenuButtonSet>
   <MenuButtonSet>
-    <Name>ATG Toggles - Slot 1</Name>
+    <Name>Control Panel Menu</Name>
     <Buttons>
       <MenuButton>
-        <Actions>
-          <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-            <Target>1</Target>
-            <KeyMapString>ATG Toggles</KeyMapString>
-            <MappedKeyString>Toggle Combat</MappedKeyString>
-          </MappedKeyAction>
-        </Actions>
-        <DisplayText>Combat toggle</DisplayText>
-        <UseImages>true</UseImages>
-        <Image>
-          <ImageString>petbattle_attack_grayscale_32x32.jpg</ImageString>
-        </Image>
-        <ImageHover />
-        <ImagePressed>
-          <ImageString>petbattle_attack_32x32.jpg</ImageString>
-        </ImagePressed>
+        <Actions />
+      </MenuButton>
+      <MenuButton>
+        <Actions />
+      </MenuButton>
+      <MenuButton>
+        <Actions />
+      </MenuButton>
+      <MenuButton>
+        <Actions />
+      </MenuButton>
+      <MenuButton>
+        <Actions />
       </MenuButton>
       <MenuButton>
         <Actions>
           <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-            <Target>1</Target>
-            <KeyMapString>ATG Toggles</KeyMapString>
-            <MappedKeyString>Toggle Follower</MappedKeyString>
+            <KeyMapString>ISB42 - Toggles</KeyMapString>
+            <MappedKeyString>Toggle ATG Bars</MappedKeyString>
           </MappedKeyAction>
         </Actions>
-        <DisplayText>Follow toggle</DisplayText>
-        <UseImages>true</UseImages>
-        <Image>
-          <ImageString>ability_rogue_sprint_grayscale_32x32.jpg</ImageString>
-        </Image>
-        <ImageHover />
-        <ImagePressed>
-          <ImageString>ability_rogue_sprint_32x32.jpg</ImageString>
-        </ImagePressed>
-      </MenuButton>
-      <MenuButton>
-        <Actions>
-          <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-            <Target>1</Target>
-            <KeyMapString>ATG Toggles</KeyMapString>
-            <MappedKeyString>Toggle Assist</MappedKeyString>
-          </MappedKeyAction>
-        </Actions>
-        <DisplayText>Assist toggle</DisplayText>
-        <UseImages>true</UseImages>
-        <Image>
-          <ImageString>ability_hunter_pet_assist_grayscale_32x32.jpg</ImageString>
-        </Image>
-        <ImageHover />
-        <ImagePressed>
-          <ImageString>ability_hunter_pet_assist_32x32.jpg</ImageString>
-        </ImagePressed>
-      </MenuButton>
-    </Buttons>
-  </MenuButtonSet>
-  <MenuButtonSet>
-    <Name>ATG Toggles - Slot 2</Name>
-    <Buttons>
-      <MenuButton>
-        <Actions>
-          <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-            <Target>2</Target>
-            <KeyMapString>ATG Toggles</KeyMapString>
-            <MappedKeyString>Toggle Combat</MappedKeyString>
-          </MappedKeyAction>
-        </Actions>
-        <DisplayText>Combat toggle</DisplayText>
-        <UseImages>true</UseImages>
-        <Image>
-          <ImageString>petbattle_attack_grayscale_32x32.jpg</ImageString>
-        </Image>
-        <ImageHover />
-        <ImagePressed>
-          <ImageString>petbattle_attack_32x32.jpg</ImageString>
-        </ImagePressed>
-      </MenuButton>
-      <MenuButton>
-        <Actions>
-          <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-            <Target>2</Target>
-            <KeyMapString>ATG Toggles</KeyMapString>
-            <MappedKeyString>Toggle Follower</MappedKeyString>
-          </MappedKeyAction>
-        </Actions>
-        <DisplayText>Follow toggle</DisplayText>
-        <UseImages>true</UseImages>
-        <Image>
-          <ImageString>ability_rogue_sprint_grayscale_32x32.jpg</ImageString>
-        </Image>
-        <ImageHover />
-        <ImagePressed>
-          <ImageString>ability_rogue_sprint_32x32.jpg</ImageString>
-        </ImagePressed>
-      </MenuButton>
-      <MenuButton>
-        <Actions>
-          <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-            <Target>2</Target>
-            <KeyMapString>ATG Toggles</KeyMapString>
-            <MappedKeyString>Toggle Assist</MappedKeyString>
-          </MappedKeyAction>
-        </Actions>
-        <DisplayText>Assist toggle</DisplayText>
-        <UseImages>true</UseImages>
-        <Image>
-          <ImageString>ability_hunter_pet_assist_grayscale_32x32.jpg</ImageString>
-        </Image>
-        <ImageHover />
-        <ImagePressed>
-          <ImageString>ability_hunter_pet_assist_32x32.jpg</ImageString>
-        </ImagePressed>
-      </MenuButton>
-    </Buttons>
-  </MenuButtonSet>
-  <MenuButtonSet>
-    <Name>ATG Toggles - Slot 3</Name>
-    <Buttons>
-      <MenuButton>
-        <Actions>
-          <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-            <Target>3</Target>
-            <KeyMapString>ATG Toggles</KeyMapString>
-            <MappedKeyString>Toggle Combat</MappedKeyString>
-          </MappedKeyAction>
-        </Actions>
-        <DisplayText>Combat toggle</DisplayText>
-        <UseImages>true</UseImages>
-        <Image>
-          <ImageString>petbattle_attack_grayscale_32x32.jpg</ImageString>
-        </Image>
-        <ImageHover />
-        <ImagePressed>
-          <ImageString>petbattle_attack_32x32.jpg</ImageString>
-        </ImagePressed>
-      </MenuButton>
-      <MenuButton>
-        <Actions>
-          <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-            <Target>3</Target>
-            <KeyMapString>ATG Toggles</KeyMapString>
-            <MappedKeyString>Toggle Follower</MappedKeyString>
-          </MappedKeyAction>
-        </Actions>
-        <DisplayText>Follow toggle</DisplayText>
-        <UseImages>true</UseImages>
-        <Image>
-          <ImageString>ability_rogue_sprint_grayscale_32x32.jpg</ImageString>
-        </Image>
-        <ImageHover />
-        <ImagePressed>
-          <ImageString>ability_rogue_sprint_32x32.jpg</ImageString>
-        </ImagePressed>
-      </MenuButton>
-      <MenuButton>
-        <Actions>
-          <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-            <Target>3</Target>
-            <KeyMapString>ATG Toggles</KeyMapString>
-            <MappedKeyString>Toggle Assist</MappedKeyString>
-          </MappedKeyAction>
-        </Actions>
-        <DisplayText>Assist toggle</DisplayText>
-        <UseImages>true</UseImages>
-        <Image>
-          <ImageString>ability_hunter_pet_assist_grayscale_32x32.jpg</ImageString>
-        </Image>
-        <ImageHover />
-        <ImagePressed>
-          <ImageString>ability_hunter_pet_assist_32x32.jpg</ImageString>
-        </ImagePressed>
-      </MenuButton>
-    </Buttons>
-  </MenuButtonSet>
-  <MenuButtonSet>
-    <Name>ATG Toggles - Slot 4</Name>
-    <Buttons>
-      <MenuButton>
-        <Actions>
-          <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-            <Target>4</Target>
-            <KeyMapString>ATG Toggles</KeyMapString>
-            <MappedKeyString>Toggle Combat</MappedKeyString>
-          </MappedKeyAction>
-        </Actions>
-        <DisplayText>Combat toggle</DisplayText>
-        <UseImages>true</UseImages>
-        <Image>
-          <ImageString>petbattle_attack_grayscale_32x32.jpg</ImageString>
-        </Image>
-        <ImageHover />
-        <ImagePressed>
-          <ImageString>petbattle_attack_32x32.jpg</ImageString>
-        </ImagePressed>
-      </MenuButton>
-      <MenuButton>
-        <Actions>
-          <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-            <Target>4</Target>
-            <KeyMapString>ATG Toggles</KeyMapString>
-            <MappedKeyString>Toggle Follower</MappedKeyString>
-          </MappedKeyAction>
-        </Actions>
-        <DisplayText>Follow toggle</DisplayText>
-        <UseImages>true</UseImages>
-        <Image>
-          <ImageString>ability_rogue_sprint_grayscale_32x32.jpg</ImageString>
-        </Image>
-        <ImageHover />
-        <ImagePressed>
-          <ImageString>ability_rogue_sprint_32x32.jpg</ImageString>
-        </ImagePressed>
-      </MenuButton>
-      <MenuButton>
-        <Actions>
-          <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-            <Target>4</Target>
-            <KeyMapString>ATG Toggles</KeyMapString>
-            <MappedKeyString>Toggle Assist</MappedKeyString>
-          </MappedKeyAction>
-        </Actions>
-        <DisplayText>Assist toggle</DisplayText>
-        <UseImages>true</UseImages>
-        <Image>
-          <ImageString>ability_hunter_pet_assist_grayscale_32x32.jpg</ImageString>
-        </Image>
-        <ImageHover />
-        <ImagePressed>
-          <ImageString>ability_hunter_pet_assist_32x32.jpg</ImageString>
-        </ImagePressed>
-      </MenuButton>
-    </Buttons>
-  </MenuButtonSet>
-  <MenuButtonSet>
-    <Name>ATG Toggles - Slot 5</Name>
-    <Buttons>
-      <MenuButton>
-        <Actions>
-          <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-            <Target>5</Target>
-            <KeyMapString>ATG Toggles</KeyMapString>
-            <MappedKeyString>Toggle Combat</MappedKeyString>
-          </MappedKeyAction>
-        </Actions>
-        <DisplayText>Combat toggle</DisplayText>
-        <UseImages>true</UseImages>
-        <Image>
-          <ImageString>petbattle_attack_grayscale_32x32.jpg</ImageString>
-        </Image>
-        <ImageHover />
-        <ImagePressed>
-          <ImageString>petbattle_attack_32x32.jpg</ImageString>
-        </ImagePressed>
-      </MenuButton>
-      <MenuButton>
-        <Actions>
-          <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-            <Target>5</Target>
-            <KeyMapString>ATG Toggles</KeyMapString>
-            <MappedKeyString>Toggle Follower</MappedKeyString>
-          </MappedKeyAction>
-        </Actions>
-        <DisplayText>Follow toggle</DisplayText>
-        <UseImages>true</UseImages>
-        <Image>
-          <ImageString>ability_rogue_sprint_grayscale_32x32.jpg</ImageString>
-        </Image>
-        <ImageHover />
-        <ImagePressed>
-          <ImageString>ability_rogue_sprint_32x32.jpg</ImageString>
-        </ImagePressed>
-      </MenuButton>
-      <MenuButton>
-        <Actions>
-          <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-            <Target>5</Target>
-            <KeyMapString>ATG Toggles</KeyMapString>
-            <MappedKeyString>Toggle Assist</MappedKeyString>
-          </MappedKeyAction>
-        </Actions>
-        <DisplayText>Assist toggle</DisplayText>
-        <UseImages>true</UseImages>
-        <Image>
-          <ImageString>ability_hunter_pet_assist_grayscale_32x32.jpg</ImageString>
-        </Image>
-        <ImageHover />
-        <ImagePressed>
-          <ImageString>ability_hunter_pet_assist_32x32.jpg</ImageString>
-        </ImagePressed>
-      </MenuButton>
-    </Buttons>
-  </MenuButtonSet>
-  <MenuButtonSet>
-    <Name>ATG Toggles - Slot 6</Name>
-    <Buttons>
-      <MenuButton>
-        <Actions>
-          <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-            <Target>6</Target>
-            <KeyMapString>ATG Toggles</KeyMapString>
-            <MappedKeyString>Toggle Combat</MappedKeyString>
-          </MappedKeyAction>
-        </Actions>
-        <DisplayText>Combat toggle</DisplayText>
-        <UseImages>true</UseImages>
-        <Image>
-          <ImageString>petbattle_attack_grayscale_32x32.jpg</ImageString>
-        </Image>
-        <ImageHover />
-        <ImagePressed>
-          <ImageString>petbattle_attack_32x32.jpg</ImageString>
-        </ImagePressed>
-      </MenuButton>
-      <MenuButton>
-        <Actions>
-          <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-            <Target>6</Target>
-            <KeyMapString>ATG Toggles</KeyMapString>
-            <MappedKeyString>Toggle Follower</MappedKeyString>
-          </MappedKeyAction>
-        </Actions>
-        <DisplayText>Follow toggle</DisplayText>
-        <UseImages>true</UseImages>
-        <Image>
-          <ImageString>ability_rogue_sprint_grayscale_32x32.jpg</ImageString>
-        </Image>
-        <ImageHover />
-        <ImagePressed>
-          <ImageString>ability_rogue_sprint_32x32.jpg</ImageString>
-        </ImagePressed>
-      </MenuButton>
-      <MenuButton>
-        <Actions>
-          <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-            <Target>6</Target>
-            <KeyMapString>ATG Toggles</KeyMapString>
-            <MappedKeyString>Toggle Assist</MappedKeyString>
-          </MappedKeyAction>
-        </Actions>
-        <DisplayText>Assist toggle</DisplayText>
-        <UseImages>true</UseImages>
-        <Image>
-          <ImageString>ability_hunter_pet_assist_grayscale_32x32.jpg</ImageString>
-        </Image>
-        <ImageHover />
-        <ImagePressed>
-          <ImageString>ability_hunter_pet_assist_32x32.jpg</ImageString>
-        </ImagePressed>
-      </MenuButton>
-    </Buttons>
-  </MenuButtonSet>
-  <MenuButtonSet>
-    <Name>ATG Toggles - Slot 7</Name>
-    <Buttons>
-      <MenuButton>
-        <Actions>
-          <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-            <Target>7</Target>
-            <KeyMapString>ATG Toggles</KeyMapString>
-            <MappedKeyString>Toggle Combat</MappedKeyString>
-          </MappedKeyAction>
-        </Actions>
-        <DisplayText>Combat toggle</DisplayText>
-        <UseImages>true</UseImages>
-        <Image>
-          <ImageString>petbattle_attack_grayscale_32x32.jpg</ImageString>
-        </Image>
-        <ImageHover />
-        <ImagePressed>
-          <ImageString>petbattle_attack_32x32.jpg</ImageString>
-        </ImagePressed>
-      </MenuButton>
-      <MenuButton>
-        <Actions>
-          <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-            <Target>7</Target>
-            <KeyMapString>ATG Toggles</KeyMapString>
-            <MappedKeyString>Toggle Follower</MappedKeyString>
-          </MappedKeyAction>
-        </Actions>
-        <DisplayText>Follow toggle</DisplayText>
-        <UseImages>true</UseImages>
-        <Image>
-          <ImageString>ability_rogue_sprint_grayscale_32x32.jpg</ImageString>
-        </Image>
-        <ImageHover />
-        <ImagePressed>
-          <ImageString>ability_rogue_sprint_32x32.jpg</ImageString>
-        </ImagePressed>
-      </MenuButton>
-      <MenuButton>
-        <Actions>
-          <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-            <Target>7</Target>
-            <KeyMapString>ATG Toggles</KeyMapString>
-            <MappedKeyString>Toggle Assist</MappedKeyString>
-          </MappedKeyAction>
-        </Actions>
-        <DisplayText>Assist toggle</DisplayText>
-        <UseImages>true</UseImages>
-        <Image>
-          <ImageString>ability_hunter_pet_assist_grayscale_32x32.jpg</ImageString>
-        </Image>
-        <ImageHover />
-        <ImagePressed>
-          <ImageString>ability_hunter_pet_assist_32x32.jpg</ImageString>
-        </ImagePressed>
-      </MenuButton>
-    </Buttons>
-  </MenuButtonSet>
-  <MenuButtonSet>
-    <Name>ATG Toggles - Slot 8</Name>
-    <Buttons>
-      <MenuButton>
-        <Actions>
-          <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-            <Target>8</Target>
-            <KeyMapString>ATG Toggles</KeyMapString>
-            <MappedKeyString>Toggle Combat</MappedKeyString>
-          </MappedKeyAction>
-        </Actions>
-        <DisplayText>Combat toggle</DisplayText>
-        <UseImages>true</UseImages>
-        <Image>
-          <ImageString>petbattle_attack_grayscale_32x32.jpg</ImageString>
-        </Image>
-        <ImageHover />
-        <ImagePressed>
-          <ImageString>petbattle_attack_32x32.jpg</ImageString>
-        </ImagePressed>
-      </MenuButton>
-      <MenuButton>
-        <Actions>
-          <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-            <Target>8</Target>
-            <KeyMapString>ATG Toggles</KeyMapString>
-            <MappedKeyString>Toggle Follower</MappedKeyString>
-          </MappedKeyAction>
-        </Actions>
-        <DisplayText>Follow toggle</DisplayText>
-        <UseImages>true</UseImages>
-        <Image>
-          <ImageString>ability_rogue_sprint_grayscale_32x32.jpg</ImageString>
-        </Image>
-        <ImageHover />
-        <ImagePressed>
-          <ImageString>ability_rogue_sprint_32x32.jpg</ImageString>
-        </ImagePressed>
-      </MenuButton>
-      <MenuButton>
-        <Actions>
-          <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-            <Target>8</Target>
-            <KeyMapString>ATG Toggles</KeyMapString>
-            <MappedKeyString>Toggle Assist</MappedKeyString>
-          </MappedKeyAction>
-        </Actions>
-        <DisplayText>Assist toggle</DisplayText>
-        <UseImages>true</UseImages>
-        <Image>
-          <ImageString>ability_hunter_pet_assist_grayscale_32x32.jpg</ImageString>
-        </Image>
-        <ImageHover />
-        <ImagePressed>
-          <ImageString>ability_hunter_pet_assist_32x32.jpg</ImageString>
-        </ImagePressed>
-      </MenuButton>
-    </Buttons>
-  </MenuButtonSet>
-  <MenuButtonSet>
-    <Name>ATG Toggles - Slot 9</Name>
-    <Buttons>
-      <MenuButton>
-        <Actions>
-          <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-            <Target>9</Target>
-            <KeyMapString>ATG Toggles</KeyMapString>
-            <MappedKeyString>Toggle Combat</MappedKeyString>
-          </MappedKeyAction>
-        </Actions>
-        <DisplayText>Combat toggle</DisplayText>
-        <UseImages>true</UseImages>
-        <Image>
-          <ImageString>petbattle_attack_grayscale_32x32.jpg</ImageString>
-        </Image>
-        <ImageHover />
-        <ImagePressed>
-          <ImageString>petbattle_attack_32x32.jpg</ImageString>
-        </ImagePressed>
-      </MenuButton>
-      <MenuButton>
-        <Actions>
-          <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-            <Target>9</Target>
-            <KeyMapString>ATG Toggles</KeyMapString>
-            <MappedKeyString>Toggle Follower</MappedKeyString>
-          </MappedKeyAction>
-        </Actions>
-        <DisplayText>Follow toggle</DisplayText>
-        <UseImages>true</UseImages>
-        <Image>
-          <ImageString>ability_rogue_sprint_grayscale_32x32.jpg</ImageString>
-        </Image>
-        <ImageHover />
-        <ImagePressed>
-          <ImageString>ability_rogue_sprint_32x32.jpg</ImageString>
-        </ImagePressed>
-      </MenuButton>
-      <MenuButton>
-        <Actions>
-          <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-            <Target>9</Target>
-            <KeyMapString>ATG Toggles</KeyMapString>
-            <MappedKeyString>Toggle Assist</MappedKeyString>
-          </MappedKeyAction>
-        </Actions>
-        <DisplayText>Assist toggle</DisplayText>
-        <UseImages>true</UseImages>
-        <Image>
-          <ImageString>ability_hunter_pet_assist_grayscale_32x32.jpg</ImageString>
-        </Image>
-        <ImageHover />
-        <ImagePressed>
-          <ImageString>ability_hunter_pet_assist_32x32.jpg</ImageString>
-        </ImagePressed>
-      </MenuButton>
-    </Buttons>
-  </MenuButtonSet>
-  <MenuButtonSet>
-    <Name>ATG Toggles - Slot 10</Name>
-    <Buttons>
-      <MenuButton>
-        <Actions>
-          <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-            <Target>10</Target>
-            <KeyMapString>ATG Toggles</KeyMapString>
-            <MappedKeyString>Toggle Combat</MappedKeyString>
-          </MappedKeyAction>
-        </Actions>
-        <DisplayText>Combat toggle</DisplayText>
-        <UseImages>true</UseImages>
-        <Image>
-          <ImageString>petbattle_attack_grayscale_32x32.jpg</ImageString>
-        </Image>
-        <ImageHover />
-        <ImagePressed>
-          <ImageString>petbattle_attack_32x32.jpg</ImageString>
-        </ImagePressed>
-      </MenuButton>
-      <MenuButton>
-        <Actions>
-          <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-            <Target>10</Target>
-            <KeyMapString>ATG Toggles</KeyMapString>
-            <MappedKeyString>Toggle Follower</MappedKeyString>
-          </MappedKeyAction>
-        </Actions>
-        <DisplayText>Follow toggle</DisplayText>
-        <UseImages>true</UseImages>
-        <Image>
-          <ImageString>ability_rogue_sprint_grayscale_32x32.jpg</ImageString>
-        </Image>
-        <ImageHover />
-        <ImagePressed>
-          <ImageString>ability_rogue_sprint_32x32.jpg</ImageString>
-        </ImagePressed>
-      </MenuButton>
-      <MenuButton>
-        <Actions>
-          <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-            <Target>10</Target>
-            <KeyMapString>ATG Toggles</KeyMapString>
-            <MappedKeyString>Toggle Assist</MappedKeyString>
-          </MappedKeyAction>
-        </Actions>
-        <DisplayText>Assist toggle</DisplayText>
-        <UseImages>true</UseImages>
-        <Image>
-          <ImageString>ability_hunter_pet_assist_grayscale_32x32.jpg</ImageString>
-        </Image>
-        <ImageHover />
-        <ImagePressed>
-          <ImageString>ability_hunter_pet_assist_32x32.jpg</ImageString>
-        </ImagePressed>
+        <Text>Toggle ATG Bars</Text>
+        <DisplayText>Toggle ATG Bars</DisplayText>
       </MenuButton>
     </Buttons>
   </MenuButtonSet>
@@ -24872,28 +26392,35 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
     </Grid_Size>
   </MenuTemplate>
   <MenuTemplate>
-    <Name>ATG Toggles</Name>
+    <Name>Control Panel Menu</Name>
     <Popup />
-    <NumButtons>3</NumButtons>
+    <NumButtons>6</NumButtons>
     <BackgroundImage />
-    <BackgroundColor />
+    <BackgroundColor>
+      <Alpha>0</Alpha>
+    </BackgroundColor>
     <BorderColor>
       <Red>128</Red>
       <Green>128</Green>
       <Blue>128</Blue>
     </BorderColor>
     <frameSize>
-      <Width>104</Width>
-      <Height>36</Height>
+      <Width>160</Width>
+      <Height>164</Height>
     </frameSize>
     <buttonSize>
-      <Width>32</Width>
-      <Height>32</Height>
+      <Width>156</Width>
+      <Height>25</Height>
     </buttonSize>
     <buttonImage />
     <buttonImageHover />
     <buttonImagePressed />
-    <buttonBackgroundColor />
+    <buttonBackgroundColor>
+      <Red>17</Red>
+      <Green>17</Green>
+      <Blue>17</Blue>
+      <Alpha>170</Alpha>
+    </buttonBackgroundColor>
     <buttonBorderColor>
       <Red>255</Red>
       <Green>255</Green>
@@ -24914,105 +26441,8 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
       <Height>2</Height>
     </Grid_buttonMargin>
     <Grid_Size>
-      <Width>3</Width>
-      <Height>1</Height>
-    </Grid_Size>
-  </MenuTemplate>
-  <MenuTemplate>
-    <Name>ATG Manager</Name>
-    <Type>XML</Type>
-    <Popup />
-    <BackgroundImage />
-    <BackgroundColor />
-    <BorderColor>
-      <Red>128</Red>
-      <Green>128</Green>
-      <Blue>128</Blue>
-    </BorderColor>
-    <frameSize>
-      <Width>2</Width>
-      <Height>2</Height>
-    </frameSize>
-    <buttonSize>
-      <Width>64</Width>
-      <Height>20</Height>
-    </buttonSize>
-    <buttonImage />
-    <buttonImageHover />
-    <buttonImagePressed />
-    <buttonBackgroundColor />
-    <buttonBorderColor>
-      <Red>255</Red>
-      <Green>255</Green>
-      <Blue>255</Blue>
-    </buttonBorderColor>
-    <buttonFontColor>
-      <Red>255</Red>
-      <Green>255</Green>
-      <Blue>255</Blue>
-    </buttonFontColor>
-    <buttonFontBold>0</buttonFontBold>
-    <buttonFontSize>12</buttonFontSize>
-    <buttonFontName>Tahoma</buttonFontName>
-    <XML_FileName>C:\Program Files (x86)\InnerSpace\Scripts\controlpanel.xml</XML_FileName>
-    <XML_Element>ATGManager</XML_Element>
-    <Grid_buttonMargin>
-      <Width>2</Width>
-      <Height>2</Height>
-    </Grid_buttonMargin>
-    <Grid_Size>
-      <Width>0</Width>
-      <Height>0</Height>
-    </Grid_Size>
-  </MenuTemplate>
-  <MenuTemplate>
-    <Name>Control Panel</Name>
-    <Popup />
-    <NumButtons>11</NumButtons>
-    <BackgroundImage />
-    <BackgroundColor />
-    <BorderColor>
-      <Red>128</Red>
-      <Green>128</Green>
-      <Blue>128</Blue>
-    </BorderColor>
-    <frameSize>
-      <Width>1784</Width>
-      <Height>44</Height>
-    </frameSize>
-    <buttonSize>
-      <Width>160</Width>
-      <Height>40</Height>
-    </buttonSize>
-    <buttonImage />
-    <buttonImageHover />
-    <buttonImagePressed />
-    <buttonBackgroundColor>
-      <Red>255</Red>
-      <Green>255</Green>
-      <Blue>255</Blue>
-      <Alpha>0</Alpha>
-    </buttonBackgroundColor>
-    <buttonBorderColor>
-      <Green>204</Green>
-    </buttonBorderColor>
-    <buttonFontColor>
-      <Red>255</Red>
-      <Green>255</Green>
-      <Blue>255</Blue>
-    </buttonFontColor>
-    <buttonFontBold>0</buttonFontBold>
-    <buttonFontSize>12</buttonFontSize>
-    <buttonFontName>Tahoma</buttonFontName>
-    <XML_FileName>C:\Program Files (x86)\InnerSpace\Scripts\controlpanel.xml</XML_FileName>
-    <XML_Element>ControlPanel</XML_Element>
-    <Grid_buttonMargin>
-      <Width>2</Width>
-      <Height>2</Height>
-    </Grid_buttonMargin>
-    <Grid_Size>
-      <Width>11</Width>
-      <Height>1</Height>
+      <Width>1</Width>
+      <Height>6</Height>
     </Grid_Size>
   </MenuTemplate>
   <Menu>
@@ -25066,29 +26496,10 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
     <Y>200</Y>
   </Menu>
   <Menu>
-    <Name>__ATG Toggles______________</Name>
-    <Template />
-    <ButtonLayout />
+    <Name>Control Panel Menu</Name>
+    <Template>Control Panel Menu</Template>
+    <ButtonLayout>Control Panel Menu</ButtonLayout>
     <HotkeyLayout />
-  </Menu>
-  <Menu>
-    <Name>ATG Toggles - Slot 1</Name>
-    <Template>ATG Toggles</Template>
-    <ButtonLayout />
-    <HotkeyLayout />
-  </Menu>
-  <Menu>
-    <Name>ATG Manager</Name>
-    <Template>ATG Manager</Template>
-    <ButtonLayout />
-    <HotkeyLayout />
-    <X>300</X>
-    <Y>300</Y>
-  </Menu>
-  <Menu>
-    <Name>Control Panel</Name>
-    <Template>Control Panel</Template>
-    <ButtonLayout />
-    <HotkeyLayout />
+    <Y>1240</Y>
   </Menu>
 </ISBoxerToolkitProfile>
