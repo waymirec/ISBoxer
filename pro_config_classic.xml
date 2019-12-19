@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ISBoxerToolkitProfile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="42" VersionMinor="0" BuildDate="12/16/2019 11:58:15 PM">
+<ISBoxerToolkitProfile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="42" VersionMinor="0" BuildDate="12/18/2019 11:28:27 PM">
   <CharacterSet>
     <ExecuteOnLoad />
     <Name>Blaumeux - Mixed</Name>
@@ -1796,10 +1796,7 @@
     </KeyMapStrings>
     <KeyMapWhiteOrBlackListType>BlackList</KeyMapWhiteOrBlackListType>
     <KeyMapWhiteOrBlackList />
-    <ClickBarStrings>
-      <string>Healing - Primary S1</string>
-      <string>Healing - Secondary S1</string>
-    </ClickBarStrings>
+    <ClickBarStrings />
     <VirtualFileTargets />
     <VirtualMappedKeys>
       <VirtualMappedKey>
@@ -7393,13 +7390,21 @@ See http://isboxer.com/wiki/WoW:Interact_with_Target.</Description>
             <Code>9</Code>
           </Key>
         </Combo>
+        <Mode>OnPressAndRelease</Mode>
         <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>ISB42 - Party</KeyMapString>
+                <MappedKeyString>Auto-Assist Me - Active Method</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
           <Step>
             <Stick>1</Stick>
             <Actions>
               <MappedKeyAction xsi:type="MappedKeyExecuteAction">
                 <Target>Interrupt</Target>
-                <RoundRobin>true</RoundRobin>
                 <KeyMapString>ISB42 - Virtual Combat</KeyMapString>
                 <MappedKeyString>Interrupt</MappedKeyString>
               </MappedKeyAction>
@@ -7626,6 +7631,7 @@ See http://isboxer.com/wiki/WoW:Interact_with_Target.</Description>
           <Step>
             <Actions>
               <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <Target>all</Target>
                 <KeyMapString>ISB42 - Virtual Combat</KeyMapString>
                 <MappedKeyString>Buffs - Self</MappedKeyString>
               </MappedKeyAction>
@@ -7981,6 +7987,37 @@ See http://isboxer.com/wiki/WoW:Interact_with_Target.</Description>
                 <Target>Healer - Primary</Target>
                 <KeyMapString>ISB42 - Virtual Combat</KeyMapString>
                 <MappedKeyString>Tilt Wheel Right [+AS]</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Heal Target</Name>
+        <Combo>
+          <Combo>Ctrl+Shift+O</Combo>
+          <Modifiers>Ctrl Shift</Modifiers>
+          <Key>
+            <Key>O</Key>
+            <Code>24</Code>
+          </Key>
+        </Combo>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>ISB42 - Party</KeyMapString>
+                <MappedKeyString>Auto-Assist Me - Active Method</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <Target>Healer</Target>
+                <KeyMapString>ISB42 - Virtual Combat</KeyMapString>
+                <MappedKeyString>Heal Target</MappedKeyString>
               </MappedKeyAction>
             </Actions>
           </Step>
@@ -10126,6 +10163,15 @@ See http://isboxer.com/wiki/WoW:Interact_with_Target.</Description>
                 </ClickBar>
                 <ClickBarSet />
               </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyStepAction">
+                <Target>all other</Target>
+                <MappedKey>
+                  <KeyMapString>ISB42 - Toggles</KeyMapString>
+                  <MappedKeyString>Toggle Team Grid</MappedKeyString>
+                </MappedKey>
+                <Action>Set</Action>
+                <Value>2</Value>
+              </MappedKeyAction>
               <MappedKeyAction xsi:type="PopupTextAction">
                 <Text>Team Grid ON!</Text>
                 <DurationMS>1000</DurationMS>
@@ -10144,6 +10190,14 @@ See http://isboxer.com/wiki/WoW:Interact_with_Target.</Description>
                 </ClickBar>
                 <Value>Off</Value>
                 <ClickBarSet />
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyStepAction">
+                <Target>all other</Target>
+                <MappedKey>
+                  <KeyMapString>ISB42 - Toggles</KeyMapString>
+                  <MappedKeyString>Toggle Team Grid</MappedKeyString>
+                </MappedKey>
+                <Action>Set</Action>
               </MappedKeyAction>
               <MappedKeyAction xsi:type="PopupTextAction">
                 <Text>Team Grid OFF!</Text>
@@ -13352,6 +13406,14 @@ See http://isboxer.com/wiki/WoW:Interact_with_Target.</Description>
       <MappedKey>
         <Name>Tilt Wheel Right [+AS]</Name>
         <Steps />
+      </MappedKey>
+      <MappedKey>
+        <Name>Heal Target</Name>
+        <Steps>
+          <Step>
+            <Actions />
+          </Step>
+        </Steps>
       </MappedKey>
     </Mappings>
   </KeyMap>
@@ -24498,6 +24560,8 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
         <Name>Buffs - Self</Name>
         <Steps>
           <Step>
+            <Stick>1</Stick>
+            <Stump>true</Stump>
             <Actions>
               <MappedKeyAction xsi:type="WoWMacroRefAction">
                 <UseCustomModifiers />
@@ -24853,6 +24917,22 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
       <MappedKey>
         <Name>Tilt Wheel Right [+AS]</Name>
         <Steps />
+      </MappedKey>
+      <MappedKey>
+        <Name>Heal Target</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <UseCustomModifiers />
+                <WoWMacro>
+                  <WoWMacroSetString>Shaman</WoWMacroSetString>
+                  <WoWMacroString>Healing Wave</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
       </MappedKey>
       <MappedKey>
         <Name>__Healing________________________________________________</Name>
@@ -25682,9 +25762,9 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
         <Steps>
           <Step>
             <Actions>
-              <MappedKeyAction xsi:type="TargetGroupAction">
-                <Action>Join</Action>
-                <RelayGroupString>Shaman</RelayGroupString>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Shaman - Base</KeyMapString>
+                <MappedKeyString>____ - Initialize</MappedKeyString>
               </MappedKeyAction>
               <MappedKeyAction xsi:type="MappedKeyExecuteAction">
                 <KeyMapString>ISB42 - Action Target Group</KeyMapString>
@@ -25984,6 +26064,22 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
                 <Value>Off</Value>
                 <KeyMapString>Shaman - Enhancement</KeyMapString>
                 <MappedKeyString>Totems</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Heal Target</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <UseCustomModifiers />
+                <WoWMacro>
+                  <WoWMacroSetString>Shaman</WoWMacroSetString>
+                  <WoWMacroString>Healing Wave</WoWMacroString>
+                </WoWMacro>
               </MappedKeyAction>
             </Actions>
           </Step>
@@ -26298,9 +26394,9 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
         <Steps>
           <Step>
             <Actions>
-              <MappedKeyAction xsi:type="TargetGroupAction">
-                <Action>Join</Action>
-                <RelayGroupString>Shaman</RelayGroupString>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Shaman - Base</KeyMapString>
+                <MappedKeyString>____ - Initialize</MappedKeyString>
               </MappedKeyAction>
               <MappedKeyAction xsi:type="MappedKeyExecuteAction">
                 <KeyMapString>ISB42 - Action Target Group</KeyMapString>
