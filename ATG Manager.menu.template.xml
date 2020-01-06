@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ISUI>
+  <Window name='ATGManager'>
+    <Title>ATG Manager</Title>
+    <X>200</X>
+    <Y>200</Y>
+    <Width>700</Width>
+    <Height>700</Height>
+    <Border />
+    <Children>
+      <frame name='f1'>
+        <Texture />
+        <BackgroundColor />
+        <Width>100%</Width>
+        <Height>100%</Height>
+        <Children>
+          <frame>
+            <text name='f1_text'>
+              <Text>${ISBoxerSlot1}</Text>
+              <Y>4</Y>
+              <Width>128</Width>
+              <Height>12</Height>
+              <Alignment>Right</Alignment>
+            </text>
+          </frame>
+          <frame>
+            <button name='follower'>
+              <X>135</X>
+              <Y>2</Y>
+              <Width>32</Width>
+              <Height>32</Height>
+              <Text>Follow</Text>
+              <Texture Filename='C:\Users\chris\OneDrive\Pictures 1\WoW\petbattle_attack_grayscale_32x32.jpg'></Texture>
+              <TexturePressed Filename='C:\Users\chris\OneDrive\Pictures 1\WoW\petbattle_attack_grayscale_32x32.jpg'></TexturePressed>
+              <TextureHover Filename='C:\Users\chris\OneDrive\Pictures 1\WoW\petbattle_attack_grayscale_32x32.jpg'></TextureHover>
+              <OnLeftClick>
+                <![CDATA[ ]]>
+              </OnLeftClick>
+            </button>
+          </frame>
+        </Children>
+      </frame>
+    </Children>
+  </Window>
+</ISUI>

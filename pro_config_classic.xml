@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ISBoxerToolkitProfile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="42" VersionMinor="0" BuildDate="1/2/2020 11:25:42 PM">
+<ISBoxerToolkitProfile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="42" VersionMinor="0" BuildDate="1/5/2020 8:14:26 PM">
   <CharacterSet>
     <ExecuteOnLoad />
     <Name>Blaumeux - Mixed</Name>
@@ -7248,6 +7248,126 @@ See http://isboxer.com/wiki/WoW:Interact_with_Target.</Description>
           </Step>
         </Steps>
       </MappedKey>
+      <MappedKey>
+        <Name>Fighting V</Name>
+        <Combo>
+          <Combo>Ctrl+Alt+V</Combo>
+          <Modifiers>Ctrl Alt</Modifiers>
+          <Key>
+            <Key>V</Key>
+            <Code>47</Code>
+          </Key>
+        </Combo>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="VariableKeystrokeAction">
+                <Name>Move Forward</Name>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <Target>(@other isboxer)#1</Target>
+                <KeyMapString>ISB42 - Base Hotkeys</KeyMapString>
+                <MappedKeyString>Forward-Left</MappedKeyString>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <Target>(@other isboxer)#2</Target>
+                <KeyMapString>ISB42 - Base Hotkeys</KeyMapString>
+                <MappedKeyString>Forward-Left</MappedKeyString>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <Target>(@other isboxer)#3</Target>
+                <KeyMapString>ISB42 - Base Hotkeys</KeyMapString>
+                <MappedKeyString>Forward-Left</MappedKeyString>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <Target>(@other isboxer)#4</Target>
+                <KeyMapString>ISB42 - Base Hotkeys</KeyMapString>
+                <MappedKeyString>Forward-Left</MappedKeyString>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <Target>(@other isboxer)#5</Target>
+                <KeyMapString>ISB42 - Base Hotkeys</KeyMapString>
+                <MappedKeyString>Forward-Left</MappedKeyString>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <Target>(@other isboxer)#6</Target>
+                <KeyMapString>ISB42 - Base Hotkeys</KeyMapString>
+                <MappedKeyString>Forward-Left</MappedKeyString>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <Target>(@other isboxer)#7</Target>
+                <KeyMapString>ISB42 - Base Hotkeys</KeyMapString>
+                <MappedKeyString>Forward-Left</MappedKeyString>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <Target>(@other isboxer)#8</Target>
+                <KeyMapString>ISB42 - Base Hotkeys</KeyMapString>
+                <MappedKeyString>Forward-Right</MappedKeyString>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <Target>(@other isboxer)#9</Target>
+                <KeyMapString>ISB42 - Base Hotkeys</KeyMapString>
+                <MappedKeyString>Forward-Right</MappedKeyString>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <Target>(@other isboxer)#10</Target>
+                <KeyMapString>ISB42 - Base Hotkeys</KeyMapString>
+                <MappedKeyString>Forward-Right</MappedKeyString>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <Target>(@other isboxer)#11</Target>
+                <KeyMapString>ISB42 - Base Hotkeys</KeyMapString>
+                <MappedKeyString>Forward-Right</MappedKeyString>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <Target>(@other isboxer)#12</Target>
+                <KeyMapString>ISB42 - Base Hotkeys</KeyMapString>
+                <MappedKeyString>Forward-Right</MappedKeyString>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <Target>(@other isboxer)#13</Target>
+                <KeyMapString>ISB42 - Base Hotkeys</KeyMapString>
+                <MappedKeyString>Forward-Right</MappedKeyString>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <Target>(@other isboxer)#14</Target>
+                <KeyMapString>ISB42 - Base Hotkeys</KeyMapString>
+                <MappedKeyString>Forward-Right</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Forward-Left</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="VariableKeystrokeAction">
+                <Name>Move Forward</Name>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="VariableKeystrokeAction">
+                <Name>Move Left</Name>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Forward-Right</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="VariableKeystrokeAction">
+                <Name>Move Forward</Name>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="VariableKeystrokeAction">
+                <Name>Move Right</Name>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
     </Mappings>
   </KeyMap>
   <KeyMap>
@@ -7745,7 +7865,7 @@ See http://isboxer.com/wiki/WoW:Interact_with_Target.</Description>
         </Steps>
       </MappedKey>
       <MappedKey>
-        <Name> </Name>
+        <Name />
         <Steps>
           <Step>
             <Actions />
@@ -13665,13 +13785,17 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
       <MappedKey>
         <Name>AOE DPS Rotation</Name>
         <Steps>
-          <Step />
+          <Step>
+            <Actions />
+          </Step>
         </Steps>
       </MappedKey>
       <MappedKey>
         <Name>--</Name>
         <Steps>
-          <Step />
+          <Step>
+            <Actions />
+          </Step>
         </Steps>
       </MappedKey>
       <MappedKey>
@@ -13691,13 +13815,17 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
       <MappedKey>
         <Name>AOE DPS Rotation 2</Name>
         <Steps>
-          <Step />
+          <Step>
+            <Actions />
+          </Step>
         </Steps>
       </MappedKey>
       <MappedKey>
         <Name>-- </Name>
         <Steps>
-          <Step />
+          <Step>
+            <Actions />
+          </Step>
         </Steps>
       </MappedKey>
       <MappedKey>
@@ -13717,7 +13845,9 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
       <MappedKey>
         <Name>AOE DPS Rotation 3</Name>
         <Steps>
-          <Step />
+          <Step>
+            <Actions />
+          </Step>
         </Steps>
       </MappedKey>
     </Mappings>
@@ -20924,6 +21054,42 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
           </Step>
         </Steps>
       </MappedKey>
+      <MappedKey>
+        <Name>Poison Cleansing</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <RoundRobin>true</RoundRobin>
+                <Target>Shaman&amp;(Group 1)</Target>
+                <UseCustomModifiers />
+                <WoWMacro>
+                  <WoWMacroSetString>Shaman</WoWMacroSetString>
+                  <WoWMacroString>Poison Cleansing Totem</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <RoundRobin>true</RoundRobin>
+                <Target>Shaman&amp;(Group 2)</Target>
+                <UseCustomModifiers />
+                <WoWMacro>
+                  <WoWMacroSetString>Shaman</WoWMacroSetString>
+                  <WoWMacroString>Poison Cleansing Totem</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <RoundRobin>true</RoundRobin>
+                <Target>Shaman&amp;(Group 3)</Target>
+                <UseCustomModifiers />
+                <WoWMacro>
+                  <WoWMacroSetString>Shaman</WoWMacroSetString>
+                  <WoWMacroString>Poison Cleansing Totem</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
     </Mappings>
   </KeyMap>
   <KeyMap>
@@ -25390,6 +25556,10 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
                 <KeyMapString>ISB42 - Action Target Group</KeyMapString>
                 <MappedKeyString>Healer Role - Join</MappedKeyString>
               </MappedKeyAction>
+              <MappedKeyAction xsi:type="TargetGroupAction">
+                <Action>Leave</Action>
+                <RelayGroupString>Combat</RelayGroupString>
+              </MappedKeyAction>
             </Actions>
           </Step>
         </Steps>
@@ -27359,7 +27529,7 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
     <Name>Shaman</Name>
     <WoWMacros>
       <WoWMacro>
-        <MacroCommands>/cast Lightning Bolt</MacroCommands>
+        <MacroCommands>/cast [nochanneling] Lightning Bolt</MacroCommands>
         <ColloquialName>Lightning Bolt</ColloquialName>
         <Combo>
           <Combo>Ctrl+Shift+A</Combo>
@@ -27454,7 +27624,7 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
         <AllowCustomModifiers />
       </WoWMacro>
       <WoWMacro>
-        <MacroCommands>/cast Flame Shock</MacroCommands>
+        <MacroCommands>/cast [nochanneling] Flame Shock</MacroCommands>
         <ColloquialName>Flame Shock</ColloquialName>
         <Combo>
           <Combo>Ctrl+Shift+H</Combo>
@@ -27545,7 +27715,7 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
         <AllowCustomModifiers />
       </WoWMacro>
       <WoWMacro>
-        <MacroCommands>/cast Frost Shock</MacroCommands>
+        <MacroCommands>/cast [nochanneling] Frost Shock</MacroCommands>
         <ColloquialName>Frost Shock</ColloquialName>
         <Combo>
           <Combo>Ctrl+Shift+O</Combo>
@@ -27607,6 +27777,45 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
           <Key>
             <Key>S</Key>
             <Code>31</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers />
+      </WoWMacro>
+      <WoWMacro>
+        <MacroCommands>/cast Cure Disease</MacroCommands>
+        <ColloquialName>Cure Disease</ColloquialName>
+        <Combo>
+          <Combo>Ctrl+Shift+T</Combo>
+          <Modifiers>Ctrl Shift</Modifiers>
+          <Key>
+            <Key>T</Key>
+            <Code>20</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers />
+      </WoWMacro>
+      <WoWMacro>
+        <MacroCommands>/cast Poison Cleansing Totem</MacroCommands>
+        <ColloquialName>Poison Cleansing Totem</ColloquialName>
+        <Combo>
+          <Combo>Ctrl+Shift+U</Combo>
+          <Modifiers>Ctrl Shift</Modifiers>
+          <Key>
+            <Key>U</Key>
+            <Code>22</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers />
+      </WoWMacro>
+      <WoWMacro>
+        <MacroCommands>/cast Water Breathing</MacroCommands>
+        <ColloquialName>Water Breathing</ColloquialName>
+        <Combo>
+          <Combo>Ctrl+Shift+V</Combo>
+          <Modifiers>Ctrl Shift</Modifiers>
+          <Key>
+            <Key>V</Key>
+            <Code>47</Code>
           </Key>
         </Combo>
         <AllowCustomModifiers />
@@ -31493,10 +31702,9 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
     <Name>Party Grid (15 man)</Name>
     <X>5</X>
     <Y>7</Y>
-    <RowHeight>70</RowHeight>
-    <ColumnWidth>190</ColumnWidth>
+    <RowHeight>60</RowHeight>
+    <ColumnWidth>132</ColumnWidth>
     <BackgroundColor />
-    <CellBorder>0</CellBorder>
     <CellBorder_Color />
     <Rows>5</Rows>
     <Columns>3</Columns>
@@ -31586,117 +31794,6 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
             <LeftRight>Left</LeftRight>
             <Action>
               <KeyMapString>Team Grid</KeyMapString>
-              <MappedKeyString>Slot 8 - Left Click</MappedKeyString>
-            </Action>
-          </ClickAction>
-          <ClickAction>
-            <LeftRight>Left</LeftRight>
-            <Modifiers>Ctrl</Modifiers>
-            <Action>
-              <KeyMapString>Team Grid</KeyMapString>
-              <MappedKeyString>Target Slot 8</MappedKeyString>
-            </Action>
-          </ClickAction>
-          <ClickAction>
-            <LeftRight>Right</LeftRight>
-            <Action>
-              <KeyMapString>Team Grid</KeyMapString>
-              <MappedKeyString>Slot 8 - Right Click</MappedKeyString>
-            </Action>
-          </ClickAction>
-        </ClickActions>
-        <MouseOverAction>
-          <LeftRight>Left</LeftRight>
-          <Action />
-        </MouseOverAction>
-        <Tooltip />
-        <Text />
-      </Button>
-      <Button>
-        <Enabled>false</Enabled>
-        <Name>Slot 2</Name>
-        <BackgroundColor>
-          <Alpha>1</Alpha>
-        </BackgroundColor>
-        <ClickActions>
-          <ClickAction>
-            <LeftRight>Left</LeftRight>
-            <Action>
-              <KeyMapString>Team Grid</KeyMapString>
-              <MappedKeyString>Slot 13 - Left Click</MappedKeyString>
-            </Action>
-          </ClickAction>
-          <ClickAction>
-            <LeftRight>Left</LeftRight>
-            <Modifiers>Ctrl</Modifiers>
-            <Action>
-              <KeyMapString>Team Grid</KeyMapString>
-              <MappedKeyString>Target Slot 13</MappedKeyString>
-            </Action>
-          </ClickAction>
-          <ClickAction>
-            <LeftRight>Right</LeftRight>
-            <Action>
-              <KeyMapString>Team Grid</KeyMapString>
-              <MappedKeyString>Slot 13 - Right Click</MappedKeyString>
-            </Action>
-          </ClickAction>
-        </ClickActions>
-        <MouseOverAction>
-          <LeftRight>Left</LeftRight>
-          <Action />
-        </MouseOverAction>
-        <Tooltip />
-        <Text />
-      </Button>
-      <Button>
-        <Enabled>false</Enabled>
-        <Name>Button 2,2</Name>
-        <BackgroundColor>
-          <Alpha>1</Alpha>
-        </BackgroundColor>
-        <ClickActions>
-          <ClickAction>
-            <LeftRight>Left</LeftRight>
-            <Action>
-              <KeyMapString>Team Grid</KeyMapString>
-              <MappedKeyString>Slot 14 - Left Click</MappedKeyString>
-            </Action>
-          </ClickAction>
-          <ClickAction>
-            <LeftRight>Left</LeftRight>
-            <Modifiers>Ctrl</Modifiers>
-            <Action>
-              <KeyMapString>Team Grid</KeyMapString>
-              <MappedKeyString>Target Slot 14</MappedKeyString>
-            </Action>
-          </ClickAction>
-          <ClickAction>
-            <LeftRight>Right</LeftRight>
-            <Action>
-              <KeyMapString>Team Grid</KeyMapString>
-              <MappedKeyString>Slot 14 - Right Click</MappedKeyString>
-            </Action>
-          </ClickAction>
-        </ClickActions>
-        <MouseOverAction>
-          <LeftRight>Left</LeftRight>
-          <Action />
-        </MouseOverAction>
-        <Tooltip />
-        <Text />
-      </Button>
-      <Button>
-        <Enabled>false</Enabled>
-        <Name>Button 2,3</Name>
-        <BackgroundColor>
-          <Alpha>1</Alpha>
-        </BackgroundColor>
-        <ClickActions>
-          <ClickAction>
-            <LeftRight>Left</LeftRight>
-            <Action>
-              <KeyMapString>Team Grid</KeyMapString>
               <MappedKeyString>Slot 7 - Left Click</MappedKeyString>
             </Action>
           </ClickAction>
@@ -31725,7 +31822,7 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
       </Button>
       <Button>
         <Enabled>false</Enabled>
-        <Name>Slot 3</Name>
+        <Name>Slot 2</Name>
         <BackgroundColor>
           <Alpha>1</Alpha>
         </BackgroundColor>
@@ -31762,6 +31859,117 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
       </Button>
       <Button>
         <Enabled>false</Enabled>
+        <Name>Button 2,2</Name>
+        <BackgroundColor>
+          <Alpha>1</Alpha>
+        </BackgroundColor>
+        <ClickActions>
+          <ClickAction>
+            <LeftRight>Left</LeftRight>
+            <Action>
+              <KeyMapString>Team Grid</KeyMapString>
+              <MappedKeyString>Slot 4 - Left Click</MappedKeyString>
+            </Action>
+          </ClickAction>
+          <ClickAction>
+            <LeftRight>Left</LeftRight>
+            <Modifiers>Ctrl</Modifiers>
+            <Action>
+              <KeyMapString>Team Grid</KeyMapString>
+              <MappedKeyString>Target Slot 4</MappedKeyString>
+            </Action>
+          </ClickAction>
+          <ClickAction>
+            <LeftRight>Right</LeftRight>
+            <Action>
+              <KeyMapString>Team Grid</KeyMapString>
+              <MappedKeyString>Slot 4 - Right Click</MappedKeyString>
+            </Action>
+          </ClickAction>
+        </ClickActions>
+        <MouseOverAction>
+          <LeftRight>Left</LeftRight>
+          <Action />
+        </MouseOverAction>
+        <Tooltip />
+        <Text />
+      </Button>
+      <Button>
+        <Enabled>false</Enabled>
+        <Name>Button 2,3</Name>
+        <BackgroundColor>
+          <Alpha>1</Alpha>
+        </BackgroundColor>
+        <ClickActions>
+          <ClickAction>
+            <LeftRight>Left</LeftRight>
+            <Action>
+              <KeyMapString>Team Grid</KeyMapString>
+              <MappedKeyString>Slot 8 - Left Click</MappedKeyString>
+            </Action>
+          </ClickAction>
+          <ClickAction>
+            <LeftRight>Left</LeftRight>
+            <Modifiers>Ctrl</Modifiers>
+            <Action>
+              <KeyMapString>Team Grid</KeyMapString>
+              <MappedKeyString>Target Slot 8</MappedKeyString>
+            </Action>
+          </ClickAction>
+          <ClickAction>
+            <LeftRight>Right</LeftRight>
+            <Action>
+              <KeyMapString>Team Grid</KeyMapString>
+              <MappedKeyString>Slot 8 - Right Click</MappedKeyString>
+            </Action>
+          </ClickAction>
+        </ClickActions>
+        <MouseOverAction>
+          <LeftRight>Left</LeftRight>
+          <Action />
+        </MouseOverAction>
+        <Tooltip />
+        <Text />
+      </Button>
+      <Button>
+        <Enabled>false</Enabled>
+        <Name>Slot 3</Name>
+        <BackgroundColor>
+          <Alpha>1</Alpha>
+        </BackgroundColor>
+        <ClickActions>
+          <ClickAction>
+            <LeftRight>Left</LeftRight>
+            <Action>
+              <KeyMapString>Team Grid</KeyMapString>
+              <MappedKeyString>Slot 5 - Left Click</MappedKeyString>
+            </Action>
+          </ClickAction>
+          <ClickAction>
+            <LeftRight>Left</LeftRight>
+            <Modifiers>Ctrl</Modifiers>
+            <Action>
+              <KeyMapString>Team Grid</KeyMapString>
+              <MappedKeyString>Target Slot 5</MappedKeyString>
+            </Action>
+          </ClickAction>
+          <ClickAction>
+            <LeftRight>Right</LeftRight>
+            <Action>
+              <KeyMapString>Team Grid</KeyMapString>
+              <MappedKeyString>Slot 5 - Right Click</MappedKeyString>
+            </Action>
+          </ClickAction>
+        </ClickActions>
+        <MouseOverAction>
+          <LeftRight>Left</LeftRight>
+          <Action />
+        </MouseOverAction>
+        <Tooltip />
+        <Text />
+      </Button>
+      <Button>
+        <Enabled>false</Enabled>
         <Name>Button 3,2</Name>
         <BackgroundColor>
           <Alpha>1</Alpha>
@@ -31771,7 +31979,7 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
             <LeftRight>Left</LeftRight>
             <Action>
               <KeyMapString>Team Grid</KeyMapString>
-              <MappedKeyString>Slot 11 - Left Click</MappedKeyString>
+              <MappedKeyString>Slot 6 - Left Click</MappedKeyString>
             </Action>
           </ClickAction>
           <ClickAction>
@@ -31779,14 +31987,14 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
             <Modifiers>Ctrl</Modifiers>
             <Action>
               <KeyMapString>Team Grid</KeyMapString>
-              <MappedKeyString>Target Slot 11</MappedKeyString>
+              <MappedKeyString>Target Slot 6</MappedKeyString>
             </Action>
           </ClickAction>
           <ClickAction>
             <LeftRight>Right</LeftRight>
             <Action>
               <KeyMapString>Team Grid</KeyMapString>
-              <MappedKeyString>Slot 11 - Right Click</MappedKeyString>
+              <MappedKeyString>Slot 6 - Right Click</MappedKeyString>
             </Action>
           </ClickAction>
         </ClickActions>
@@ -31882,7 +32090,7 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
             <LeftRight>Left</LeftRight>
             <Action>
               <KeyMapString>Team Grid</KeyMapString>
-              <MappedKeyString>Slot 4 - Left Click</MappedKeyString>
+              <MappedKeyString>Slot 11 - Left Click</MappedKeyString>
             </Action>
           </ClickAction>
           <ClickAction>
@@ -31890,14 +32098,14 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
             <Modifiers>Ctrl</Modifiers>
             <Action>
               <KeyMapString>Team Grid</KeyMapString>
-              <MappedKeyString>Target Slot 4</MappedKeyString>
+              <MappedKeyString>Target Slot 11</MappedKeyString>
             </Action>
           </ClickAction>
           <ClickAction>
             <LeftRight>Right</LeftRight>
             <Action>
               <KeyMapString>Team Grid</KeyMapString>
-              <MappedKeyString>Slot 4 - Right Click</MappedKeyString>
+              <MappedKeyString>Slot 11 - Right Click</MappedKeyString>
             </Action>
           </ClickAction>
         </ClickActions>
@@ -31911,117 +32119,6 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
       <Button>
         <Enabled>false</Enabled>
         <Name>Button 4,3</Name>
-        <BackgroundColor>
-          <Alpha>1</Alpha>
-        </BackgroundColor>
-        <ClickActions>
-          <ClickAction>
-            <LeftRight>Left</LeftRight>
-            <Action>
-              <KeyMapString>Team Grid</KeyMapString>
-              <MappedKeyString>Slot 15 - Left Click</MappedKeyString>
-            </Action>
-          </ClickAction>
-          <ClickAction>
-            <LeftRight>Left</LeftRight>
-            <Modifiers>Ctrl</Modifiers>
-            <Action>
-              <KeyMapString>Team Grid</KeyMapString>
-              <MappedKeyString>Target Slot 15</MappedKeyString>
-            </Action>
-          </ClickAction>
-          <ClickAction>
-            <LeftRight>Right</LeftRight>
-            <Action>
-              <KeyMapString>Team Grid</KeyMapString>
-              <MappedKeyString>Slot 15 - Right Click</MappedKeyString>
-            </Action>
-          </ClickAction>
-        </ClickActions>
-        <MouseOverAction>
-          <LeftRight>Left</LeftRight>
-          <Action />
-        </MouseOverAction>
-        <Tooltip />
-        <Text />
-      </Button>
-      <Button>
-        <Enabled>false</Enabled>
-        <Name>Button 5,1</Name>
-        <BackgroundColor>
-          <Alpha>1</Alpha>
-        </BackgroundColor>
-        <ClickActions>
-          <ClickAction>
-            <LeftRight>Left</LeftRight>
-            <Action>
-              <KeyMapString>Team Grid</KeyMapString>
-              <MappedKeyString>Slot 5 - Left Click</MappedKeyString>
-            </Action>
-          </ClickAction>
-          <ClickAction>
-            <LeftRight>Left</LeftRight>
-            <Modifiers>Ctrl</Modifiers>
-            <Action>
-              <KeyMapString>Team Grid</KeyMapString>
-              <MappedKeyString>Target Slot 5</MappedKeyString>
-            </Action>
-          </ClickAction>
-          <ClickAction>
-            <LeftRight>Right</LeftRight>
-            <Action>
-              <KeyMapString>Team Grid</KeyMapString>
-              <MappedKeyString>Slot 5 - Right Click</MappedKeyString>
-            </Action>
-          </ClickAction>
-        </ClickActions>
-        <MouseOverAction>
-          <LeftRight>Left</LeftRight>
-          <Action />
-        </MouseOverAction>
-        <Tooltip />
-        <Text />
-      </Button>
-      <Button>
-        <Enabled>false</Enabled>
-        <Name>Button 5,2</Name>
-        <BackgroundColor>
-          <Alpha>1</Alpha>
-        </BackgroundColor>
-        <ClickActions>
-          <ClickAction>
-            <LeftRight>Left</LeftRight>
-            <Action>
-              <KeyMapString>Team Grid</KeyMapString>
-              <MappedKeyString>Slot 6 - Left Click</MappedKeyString>
-            </Action>
-          </ClickAction>
-          <ClickAction>
-            <LeftRight>Left</LeftRight>
-            <Modifiers>Ctrl</Modifiers>
-            <Action>
-              <KeyMapString>Team Grid</KeyMapString>
-              <MappedKeyString>Target Slot 6</MappedKeyString>
-            </Action>
-          </ClickAction>
-          <ClickAction>
-            <LeftRight>Right</LeftRight>
-            <Action>
-              <KeyMapString>Team Grid</KeyMapString>
-              <MappedKeyString>Slot 6 - Right Click</MappedKeyString>
-            </Action>
-          </ClickAction>
-        </ClickActions>
-        <MouseOverAction>
-          <LeftRight>Left</LeftRight>
-          <Action />
-        </MouseOverAction>
-        <Tooltip />
-        <Text />
-      </Button>
-      <Button>
-        <Enabled>false</Enabled>
-        <Name>Button 5,3</Name>
         <BackgroundColor>
           <Alpha>1</Alpha>
         </BackgroundColor>
@@ -32046,6 +32143,117 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
             <Action>
               <KeyMapString>Team Grid</KeyMapString>
               <MappedKeyString>Slot 12 - Right Click</MappedKeyString>
+            </Action>
+          </ClickAction>
+        </ClickActions>
+        <MouseOverAction>
+          <LeftRight>Left</LeftRight>
+          <Action />
+        </MouseOverAction>
+        <Tooltip />
+        <Text />
+      </Button>
+      <Button>
+        <Enabled>false</Enabled>
+        <Name>Button 5,1</Name>
+        <BackgroundColor>
+          <Alpha>1</Alpha>
+        </BackgroundColor>
+        <ClickActions>
+          <ClickAction>
+            <LeftRight>Left</LeftRight>
+            <Action>
+              <KeyMapString>Team Grid</KeyMapString>
+              <MappedKeyString>Slot 13 - Left Click</MappedKeyString>
+            </Action>
+          </ClickAction>
+          <ClickAction>
+            <LeftRight>Left</LeftRight>
+            <Modifiers>Ctrl</Modifiers>
+            <Action>
+              <KeyMapString>Team Grid</KeyMapString>
+              <MappedKeyString>Target Slot 13</MappedKeyString>
+            </Action>
+          </ClickAction>
+          <ClickAction>
+            <LeftRight>Right</LeftRight>
+            <Action>
+              <KeyMapString>Team Grid</KeyMapString>
+              <MappedKeyString>Slot 13 - Right Click</MappedKeyString>
+            </Action>
+          </ClickAction>
+        </ClickActions>
+        <MouseOverAction>
+          <LeftRight>Left</LeftRight>
+          <Action />
+        </MouseOverAction>
+        <Tooltip />
+        <Text />
+      </Button>
+      <Button>
+        <Enabled>false</Enabled>
+        <Name>Button 5,2</Name>
+        <BackgroundColor>
+          <Alpha>1</Alpha>
+        </BackgroundColor>
+        <ClickActions>
+          <ClickAction>
+            <LeftRight>Left</LeftRight>
+            <Action>
+              <KeyMapString>Team Grid</KeyMapString>
+              <MappedKeyString>Slot 14 - Left Click</MappedKeyString>
+            </Action>
+          </ClickAction>
+          <ClickAction>
+            <LeftRight>Left</LeftRight>
+            <Modifiers>Ctrl</Modifiers>
+            <Action>
+              <KeyMapString>Team Grid</KeyMapString>
+              <MappedKeyString>Target Slot 14</MappedKeyString>
+            </Action>
+          </ClickAction>
+          <ClickAction>
+            <LeftRight>Right</LeftRight>
+            <Action>
+              <KeyMapString>Team Grid</KeyMapString>
+              <MappedKeyString>Slot 14 - Right Click</MappedKeyString>
+            </Action>
+          </ClickAction>
+        </ClickActions>
+        <MouseOverAction>
+          <LeftRight>Left</LeftRight>
+          <Action />
+        </MouseOverAction>
+        <Tooltip />
+        <Text />
+      </Button>
+      <Button>
+        <Enabled>false</Enabled>
+        <Name>Button 5,3</Name>
+        <BackgroundColor>
+          <Alpha>1</Alpha>
+        </BackgroundColor>
+        <ClickActions>
+          <ClickAction>
+            <LeftRight>Left</LeftRight>
+            <Action>
+              <KeyMapString>Team Grid</KeyMapString>
+              <MappedKeyString>Slot 15 - Left Click</MappedKeyString>
+            </Action>
+          </ClickAction>
+          <ClickAction>
+            <LeftRight>Left</LeftRight>
+            <Modifiers>Ctrl</Modifiers>
+            <Action>
+              <KeyMapString>Team Grid</KeyMapString>
+              <MappedKeyString>Target Slot 15</MappedKeyString>
+            </Action>
+          </ClickAction>
+          <ClickAction>
+            <LeftRight>Right</LeftRight>
+            <Action>
+              <KeyMapString>Team Grid</KeyMapString>
+              <MappedKeyString>Slot 15 - Right Click</MappedKeyString>
             </Action>
           </ClickAction>
         </ClickActions>
@@ -32708,7 +32916,7 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
       <Blue>255</Blue>
     </CellBorder_Color>
     <Rows>1</Rows>
-    <Columns>5</Columns>
+    <Columns>6</Columns>
     <Buttons>
       <Button>
         <Enabled>false</Enabled>
@@ -32815,6 +33023,29 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
             <Action>
               <KeyMapString>Totems</KeyMapString>
               <MappedKeyString>Strength of Earth</MappedKeyString>
+            </Action>
+          </ClickAction>
+        </ClickActions>
+        <MouseOverAction>
+          <LeftRight>Left</LeftRight>
+          <Action />
+        </MouseOverAction>
+        <Tooltip />
+        <Text />
+      </Button>
+      <Button>
+        <Enabled>false</Enabled>
+        <Name>Button 1,6</Name>
+        <BackgroundColor />
+        <BackgroundImage>
+          <ImageString>spell_nature_poisoncleansingtotem_42x42.jpg</ImageString>
+        </BackgroundImage>
+        <ClickActions>
+          <ClickAction>
+            <LeftRight>Left</LeftRight>
+            <Action>
+              <KeyMapString>Totems</KeyMapString>
+              <MappedKeyString>Poison Cleansing</MappedKeyString>
             </Action>
           </ClickAction>
         </ClickActions>
