@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ISBoxerToolkitProfile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="42" VersionMinor="0" BuildDate="1/5/2020 8:14:26 PM">
+<ISBoxerToolkitProfile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="42" VersionMinor="0" BuildDate="1/8/2020 6:33:56 PM">
   <CharacterSet>
     <ExecuteOnLoad />
     <Name>Blaumeux - Mixed</Name>
@@ -1834,11 +1834,13 @@
       <string>Team Grid</string>
       <string>Active Group Toggle</string>
       <string>Totems</string>
+      <string>Utility</string>
     </KeyMapStrings>
     <KeyMapWhiteOrBlackListType>BlackList</KeyMapWhiteOrBlackListType>
     <KeyMapWhiteOrBlackList />
     <ClickBarStrings>
       <string>Raid Grid (10 man)</string>
+      <string>Utility</string>
       <string>Totems Clickbar</string>
     </ClickBarStrings>
     <VirtualFileTargets />
@@ -4157,7 +4159,7 @@
           <KeyMapString>ISB42 - Healing [Virtualized]</KeyMapString>
         </FromMappedKey>
         <ToMappedKey>
-          <KeyMapString>Shaman - Base</KeyMapString>
+          <KeyMapString>Shaman - Base - Healing</KeyMapString>
         </ToMappedKey>
       </VirtualMappedKey>
     </VirtualMappedKeys>
@@ -19420,17 +19422,8 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
           <Step>
             <Actions>
               <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-                <Target>Healer - Primary</Target>
-                <RoundRobin>true</RoundRobin>
-                <KeyMapString>ISB42 - Healing [Virtualized]</KeyMapString>
-                <MappedKeyString>Left Click [+A]</MappedKeyString>
-              </MappedKeyAction>
-              <MappedKeyAction xsi:type="WoWMacroRefAction">
-                <UseCustomModifiers />
-                <WoWMacro>
-                  <WoWMacroSetString>General</WoWMacroSetString>
-                  <WoWMacroString>Target Last Target</WoWMacroString>
-                </WoWMacro>
+                <KeyMapString>Team Grid</KeyMapString>
+                <MappedKeyString>DoLeftClick</MappedKeyString>
               </MappedKeyAction>
             </Actions>
           </Step>
@@ -19452,17 +19445,8 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
           <Step>
             <Actions>
               <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-                <Target>Healer - Primary</Target>
-                <RoundRobin>true</RoundRobin>
-                <KeyMapString>ISB42 - Healing [Virtualized]</KeyMapString>
-                <MappedKeyString>Left Click [+A]</MappedKeyString>
-              </MappedKeyAction>
-              <MappedKeyAction xsi:type="WoWMacroRefAction">
-                <UseCustomModifiers />
-                <WoWMacro>
-                  <WoWMacroSetString>General</WoWMacroSetString>
-                  <WoWMacroString>Target Last Target</WoWMacroString>
-                </WoWMacro>
+                <KeyMapString>Team Grid</KeyMapString>
+                <MappedKeyString>DoLeftClick</MappedKeyString>
               </MappedKeyAction>
             </Actions>
           </Step>
@@ -19484,17 +19468,8 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
           <Step>
             <Actions>
               <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-                <Target>Healer - Primary</Target>
-                <RoundRobin>true</RoundRobin>
-                <KeyMapString>ISB42 - Healing [Virtualized]</KeyMapString>
-                <MappedKeyString>Left Click [+A]</MappedKeyString>
-              </MappedKeyAction>
-              <MappedKeyAction xsi:type="WoWMacroRefAction">
-                <UseCustomModifiers />
-                <WoWMacro>
-                  <WoWMacroSetString>General</WoWMacroSetString>
-                  <WoWMacroString>Target Last Target</WoWMacroString>
-                </WoWMacro>
+                <KeyMapString>Team Grid</KeyMapString>
+                <MappedKeyString>DoLeftClick</MappedKeyString>
               </MappedKeyAction>
             </Actions>
           </Step>
@@ -19516,17 +19491,8 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
           <Step>
             <Actions>
               <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-                <Target>Healer - Primary</Target>
-                <RoundRobin>true</RoundRobin>
-                <KeyMapString>ISB42 - Healing [Virtualized]</KeyMapString>
-                <MappedKeyString>Left Click [+A]</MappedKeyString>
-              </MappedKeyAction>
-              <MappedKeyAction xsi:type="WoWMacroRefAction">
-                <UseCustomModifiers />
-                <WoWMacro>
-                  <WoWMacroSetString>General</WoWMacroSetString>
-                  <WoWMacroString>Target Last Target</WoWMacroString>
-                </WoWMacro>
+                <KeyMapString>Team Grid</KeyMapString>
+                <MappedKeyString>DoLeftClick</MappedKeyString>
               </MappedKeyAction>
             </Actions>
           </Step>
@@ -19548,17 +19514,8 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
           <Step>
             <Actions>
               <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-                <Target>Healer - Primary</Target>
-                <RoundRobin>true</RoundRobin>
-                <KeyMapString>ISB42 - Healing [Virtualized]</KeyMapString>
-                <MappedKeyString>Left Click [+A]</MappedKeyString>
-              </MappedKeyAction>
-              <MappedKeyAction xsi:type="WoWMacroRefAction">
-                <UseCustomModifiers />
-                <WoWMacro>
-                  <WoWMacroSetString>General</WoWMacroSetString>
-                  <WoWMacroString>Target Last Target</WoWMacroString>
-                </WoWMacro>
+                <KeyMapString>Team Grid</KeyMapString>
+                <MappedKeyString>DoLeftClick</MappedKeyString>
               </MappedKeyAction>
             </Actions>
           </Step>
@@ -19580,17 +19537,8 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
           <Step>
             <Actions>
               <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-                <Target>Healer - Primary</Target>
-                <RoundRobin>true</RoundRobin>
-                <KeyMapString>ISB42 - Healing [Virtualized]</KeyMapString>
-                <MappedKeyString>Left Click [+A]</MappedKeyString>
-              </MappedKeyAction>
-              <MappedKeyAction xsi:type="WoWMacroRefAction">
-                <UseCustomModifiers />
-                <WoWMacro>
-                  <WoWMacroSetString>General</WoWMacroSetString>
-                  <WoWMacroString>Target Last Target</WoWMacroString>
-                </WoWMacro>
+                <KeyMapString>Team Grid</KeyMapString>
+                <MappedKeyString>DoLeftClick</MappedKeyString>
               </MappedKeyAction>
             </Actions>
           </Step>
@@ -19612,17 +19560,8 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
           <Step>
             <Actions>
               <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-                <Target>Healer - Primary</Target>
-                <RoundRobin>true</RoundRobin>
-                <KeyMapString>ISB42 - Healing [Virtualized]</KeyMapString>
-                <MappedKeyString>Left Click [+A]</MappedKeyString>
-              </MappedKeyAction>
-              <MappedKeyAction xsi:type="WoWMacroRefAction">
-                <UseCustomModifiers />
-                <WoWMacro>
-                  <WoWMacroSetString>General</WoWMacroSetString>
-                  <WoWMacroString>Target Last Target</WoWMacroString>
-                </WoWMacro>
+                <KeyMapString>Team Grid</KeyMapString>
+                <MappedKeyString>DoLeftClick</MappedKeyString>
               </MappedKeyAction>
             </Actions>
           </Step>
@@ -19644,17 +19583,8 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
           <Step>
             <Actions>
               <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-                <Target>Healer - Primary</Target>
-                <RoundRobin>true</RoundRobin>
-                <KeyMapString>ISB42 - Healing [Virtualized]</KeyMapString>
-                <MappedKeyString>Left Click [+A]</MappedKeyString>
-              </MappedKeyAction>
-              <MappedKeyAction xsi:type="WoWMacroRefAction">
-                <UseCustomModifiers />
-                <WoWMacro>
-                  <WoWMacroSetString>General</WoWMacroSetString>
-                  <WoWMacroString>Target Last Target</WoWMacroString>
-                </WoWMacro>
+                <KeyMapString>Team Grid</KeyMapString>
+                <MappedKeyString>DoLeftClick</MappedKeyString>
               </MappedKeyAction>
             </Actions>
           </Step>
@@ -19676,17 +19606,8 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
           <Step>
             <Actions>
               <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-                <Target>Healer - Primary</Target>
-                <RoundRobin>true</RoundRobin>
-                <KeyMapString>ISB42 - Healing [Virtualized]</KeyMapString>
-                <MappedKeyString>Left Click [+A]</MappedKeyString>
-              </MappedKeyAction>
-              <MappedKeyAction xsi:type="WoWMacroRefAction">
-                <UseCustomModifiers />
-                <WoWMacro>
-                  <WoWMacroSetString>General</WoWMacroSetString>
-                  <WoWMacroString>Target Last Target</WoWMacroString>
-                </WoWMacro>
+                <KeyMapString>Team Grid</KeyMapString>
+                <MappedKeyString>DoLeftClick</MappedKeyString>
               </MappedKeyAction>
             </Actions>
           </Step>
@@ -19708,17 +19629,8 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
           <Step>
             <Actions>
               <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-                <Target>Healer - Primary</Target>
-                <RoundRobin>true</RoundRobin>
-                <KeyMapString>ISB42 - Healing [Virtualized]</KeyMapString>
-                <MappedKeyString>Left Click [+A]</MappedKeyString>
-              </MappedKeyAction>
-              <MappedKeyAction xsi:type="WoWMacroRefAction">
-                <UseCustomModifiers />
-                <WoWMacro>
-                  <WoWMacroSetString>General</WoWMacroSetString>
-                  <WoWMacroString>Target Last Target</WoWMacroString>
-                </WoWMacro>
+                <KeyMapString>Team Grid</KeyMapString>
+                <MappedKeyString>DoLeftClick</MappedKeyString>
               </MappedKeyAction>
             </Actions>
           </Step>
@@ -19740,17 +19652,8 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
           <Step>
             <Actions>
               <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-                <Target>Healer - Primary</Target>
-                <RoundRobin>true</RoundRobin>
-                <KeyMapString>ISB42 - Healing [Virtualized]</KeyMapString>
-                <MappedKeyString>Left Click [+A]</MappedKeyString>
-              </MappedKeyAction>
-              <MappedKeyAction xsi:type="WoWMacroRefAction">
-                <UseCustomModifiers />
-                <WoWMacro>
-                  <WoWMacroSetString>General</WoWMacroSetString>
-                  <WoWMacroString>Target Last Target</WoWMacroString>
-                </WoWMacro>
+                <KeyMapString>Team Grid</KeyMapString>
+                <MappedKeyString>DoLeftClick</MappedKeyString>
               </MappedKeyAction>
             </Actions>
           </Step>
@@ -19772,17 +19675,8 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
           <Step>
             <Actions>
               <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-                <Target>Healer - Primary</Target>
-                <RoundRobin>true</RoundRobin>
-                <KeyMapString>ISB42 - Healing [Virtualized]</KeyMapString>
-                <MappedKeyString>Left Click [+A]</MappedKeyString>
-              </MappedKeyAction>
-              <MappedKeyAction xsi:type="WoWMacroRefAction">
-                <UseCustomModifiers />
-                <WoWMacro>
-                  <WoWMacroSetString>General</WoWMacroSetString>
-                  <WoWMacroString>Target Last Target</WoWMacroString>
-                </WoWMacro>
+                <KeyMapString>Team Grid</KeyMapString>
+                <MappedKeyString>DoLeftClick</MappedKeyString>
               </MappedKeyAction>
             </Actions>
           </Step>
@@ -19804,17 +19698,8 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
           <Step>
             <Actions>
               <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-                <Target>Healer - Primary</Target>
-                <RoundRobin>true</RoundRobin>
-                <KeyMapString>ISB42 - Healing [Virtualized]</KeyMapString>
-                <MappedKeyString>Left Click [+A]</MappedKeyString>
-              </MappedKeyAction>
-              <MappedKeyAction xsi:type="WoWMacroRefAction">
-                <UseCustomModifiers />
-                <WoWMacro>
-                  <WoWMacroSetString>General</WoWMacroSetString>
-                  <WoWMacroString>Target Last Target</WoWMacroString>
-                </WoWMacro>
+                <KeyMapString>Team Grid</KeyMapString>
+                <MappedKeyString>DoLeftClick</MappedKeyString>
               </MappedKeyAction>
             </Actions>
           </Step>
@@ -19836,17 +19721,8 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
           <Step>
             <Actions>
               <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-                <Target>Healer - Primary</Target>
-                <RoundRobin>true</RoundRobin>
-                <KeyMapString>ISB42 - Healing [Virtualized]</KeyMapString>
-                <MappedKeyString>Left Click [+A]</MappedKeyString>
-              </MappedKeyAction>
-              <MappedKeyAction xsi:type="WoWMacroRefAction">
-                <UseCustomModifiers />
-                <WoWMacro>
-                  <WoWMacroSetString>General</WoWMacroSetString>
-                  <WoWMacroString>Target Last Target</WoWMacroString>
-                </WoWMacro>
+                <KeyMapString>Team Grid</KeyMapString>
+                <MappedKeyString>DoLeftClick</MappedKeyString>
               </MappedKeyAction>
             </Actions>
           </Step>
@@ -19868,17 +19744,8 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
           <Step>
             <Actions>
               <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-                <Target>Healer - Primary</Target>
-                <RoundRobin>true</RoundRobin>
-                <KeyMapString>ISB42 - Healing [Virtualized]</KeyMapString>
-                <MappedKeyString>Left Click [+A]</MappedKeyString>
-              </MappedKeyAction>
-              <MappedKeyAction xsi:type="WoWMacroRefAction">
-                <UseCustomModifiers />
-                <WoWMacro>
-                  <WoWMacroSetString>General</WoWMacroSetString>
-                  <WoWMacroString>Target Last Target</WoWMacroString>
-                </WoWMacro>
+                <KeyMapString>Team Grid</KeyMapString>
+                <MappedKeyString>DoLeftClick</MappedKeyString>
               </MappedKeyAction>
             </Actions>
           </Step>
@@ -19908,17 +19775,8 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
           <Step>
             <Actions>
               <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-                <Target>Healer - Primary</Target>
-                <RoundRobin>true</RoundRobin>
-                <KeyMapString>ISB42 - Healing [Virtualized]</KeyMapString>
-                <MappedKeyString>Right Click [+A]</MappedKeyString>
-              </MappedKeyAction>
-              <MappedKeyAction xsi:type="WoWMacroRefAction">
-                <UseCustomModifiers />
-                <WoWMacro>
-                  <WoWMacroSetString>General</WoWMacroSetString>
-                  <WoWMacroString>Target Last Target</WoWMacroString>
-                </WoWMacro>
+                <KeyMapString>Team Grid</KeyMapString>
+                <MappedKeyString>DoRightClick</MappedKeyString>
               </MappedKeyAction>
             </Actions>
           </Step>
@@ -19940,17 +19798,8 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
           <Step>
             <Actions>
               <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-                <Target>Healer - Primary</Target>
-                <RoundRobin>true</RoundRobin>
-                <KeyMapString>ISB42 - Healing [Virtualized]</KeyMapString>
-                <MappedKeyString>Right Click [+A]</MappedKeyString>
-              </MappedKeyAction>
-              <MappedKeyAction xsi:type="WoWMacroRefAction">
-                <UseCustomModifiers />
-                <WoWMacro>
-                  <WoWMacroSetString>General</WoWMacroSetString>
-                  <WoWMacroString>Target Last Target</WoWMacroString>
-                </WoWMacro>
+                <KeyMapString>Team Grid</KeyMapString>
+                <MappedKeyString>DoRightClick</MappedKeyString>
               </MappedKeyAction>
             </Actions>
           </Step>
@@ -19972,17 +19821,8 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
           <Step>
             <Actions>
               <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-                <Target>Healer - Primary</Target>
-                <RoundRobin>true</RoundRobin>
-                <KeyMapString>ISB42 - Healing [Virtualized]</KeyMapString>
-                <MappedKeyString>Right Click [+A]</MappedKeyString>
-              </MappedKeyAction>
-              <MappedKeyAction xsi:type="WoWMacroRefAction">
-                <UseCustomModifiers />
-                <WoWMacro>
-                  <WoWMacroSetString>General</WoWMacroSetString>
-                  <WoWMacroString>Target Last Target</WoWMacroString>
-                </WoWMacro>
+                <KeyMapString>Team Grid</KeyMapString>
+                <MappedKeyString>DoRightClick</MappedKeyString>
               </MappedKeyAction>
             </Actions>
           </Step>
@@ -20004,17 +19844,8 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
           <Step>
             <Actions>
               <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-                <Target>Healer - Primary</Target>
-                <RoundRobin>true</RoundRobin>
-                <KeyMapString>ISB42 - Healing [Virtualized]</KeyMapString>
-                <MappedKeyString>Right Click [+A]</MappedKeyString>
-              </MappedKeyAction>
-              <MappedKeyAction xsi:type="WoWMacroRefAction">
-                <UseCustomModifiers />
-                <WoWMacro>
-                  <WoWMacroSetString>General</WoWMacroSetString>
-                  <WoWMacroString>Target Last Target</WoWMacroString>
-                </WoWMacro>
+                <KeyMapString>Team Grid</KeyMapString>
+                <MappedKeyString>DoRightClick</MappedKeyString>
               </MappedKeyAction>
             </Actions>
           </Step>
@@ -20036,17 +19867,8 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
           <Step>
             <Actions>
               <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-                <Target>Healer - Primary</Target>
-                <RoundRobin>true</RoundRobin>
-                <KeyMapString>ISB42 - Healing [Virtualized]</KeyMapString>
-                <MappedKeyString>Right Click [+A]</MappedKeyString>
-              </MappedKeyAction>
-              <MappedKeyAction xsi:type="WoWMacroRefAction">
-                <UseCustomModifiers />
-                <WoWMacro>
-                  <WoWMacroSetString>General</WoWMacroSetString>
-                  <WoWMacroString>Target Last Target</WoWMacroString>
-                </WoWMacro>
+                <KeyMapString>Team Grid</KeyMapString>
+                <MappedKeyString>DoRightClick</MappedKeyString>
               </MappedKeyAction>
             </Actions>
           </Step>
@@ -20068,17 +19890,8 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
           <Step>
             <Actions>
               <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-                <Target>Healer - Primary</Target>
-                <RoundRobin>true</RoundRobin>
-                <KeyMapString>ISB42 - Healing [Virtualized]</KeyMapString>
-                <MappedKeyString>Right Click [+A]</MappedKeyString>
-              </MappedKeyAction>
-              <MappedKeyAction xsi:type="WoWMacroRefAction">
-                <UseCustomModifiers />
-                <WoWMacro>
-                  <WoWMacroSetString>General</WoWMacroSetString>
-                  <WoWMacroString>Target Last Target</WoWMacroString>
-                </WoWMacro>
+                <KeyMapString>Team Grid</KeyMapString>
+                <MappedKeyString>DoRightClick</MappedKeyString>
               </MappedKeyAction>
             </Actions>
           </Step>
@@ -20100,17 +19913,8 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
           <Step>
             <Actions>
               <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-                <Target>Healer - Primary</Target>
-                <RoundRobin>true</RoundRobin>
-                <KeyMapString>ISB42 - Healing [Virtualized]</KeyMapString>
-                <MappedKeyString>Right Click [+A]</MappedKeyString>
-              </MappedKeyAction>
-              <MappedKeyAction xsi:type="WoWMacroRefAction">
-                <UseCustomModifiers />
-                <WoWMacro>
-                  <WoWMacroSetString>General</WoWMacroSetString>
-                  <WoWMacroString>Target Last Target</WoWMacroString>
-                </WoWMacro>
+                <KeyMapString>Team Grid</KeyMapString>
+                <MappedKeyString>DoRightClick</MappedKeyString>
               </MappedKeyAction>
             </Actions>
           </Step>
@@ -20132,17 +19936,8 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
           <Step>
             <Actions>
               <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-                <Target>Healer - Primary</Target>
-                <RoundRobin>true</RoundRobin>
-                <KeyMapString>ISB42 - Healing [Virtualized]</KeyMapString>
-                <MappedKeyString>Right Click [+A]</MappedKeyString>
-              </MappedKeyAction>
-              <MappedKeyAction xsi:type="WoWMacroRefAction">
-                <UseCustomModifiers />
-                <WoWMacro>
-                  <WoWMacroSetString>General</WoWMacroSetString>
-                  <WoWMacroString>Target Last Target</WoWMacroString>
-                </WoWMacro>
+                <KeyMapString>Team Grid</KeyMapString>
+                <MappedKeyString>DoRightClick</MappedKeyString>
               </MappedKeyAction>
             </Actions>
           </Step>
@@ -20164,17 +19959,8 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
           <Step>
             <Actions>
               <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-                <Target>Healer - Primary</Target>
-                <RoundRobin>true</RoundRobin>
-                <KeyMapString>ISB42 - Healing [Virtualized]</KeyMapString>
-                <MappedKeyString>Right Click [+A]</MappedKeyString>
-              </MappedKeyAction>
-              <MappedKeyAction xsi:type="WoWMacroRefAction">
-                <UseCustomModifiers />
-                <WoWMacro>
-                  <WoWMacroSetString>General</WoWMacroSetString>
-                  <WoWMacroString>Target Last Target</WoWMacroString>
-                </WoWMacro>
+                <KeyMapString>Team Grid</KeyMapString>
+                <MappedKeyString>DoRightClick</MappedKeyString>
               </MappedKeyAction>
             </Actions>
           </Step>
@@ -20196,17 +19982,8 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
           <Step>
             <Actions>
               <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-                <Target>Healer - Primary</Target>
-                <RoundRobin>true</RoundRobin>
-                <KeyMapString>ISB42 - Healing [Virtualized]</KeyMapString>
-                <MappedKeyString>Right Click [+A]</MappedKeyString>
-              </MappedKeyAction>
-              <MappedKeyAction xsi:type="WoWMacroRefAction">
-                <UseCustomModifiers />
-                <WoWMacro>
-                  <WoWMacroSetString>General</WoWMacroSetString>
-                  <WoWMacroString>Target Last Target</WoWMacroString>
-                </WoWMacro>
+                <KeyMapString>Team Grid</KeyMapString>
+                <MappedKeyString>DoRightClick</MappedKeyString>
               </MappedKeyAction>
             </Actions>
           </Step>
@@ -20228,17 +20005,8 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
           <Step>
             <Actions>
               <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-                <Target>Healer - Primary</Target>
-                <RoundRobin>true</RoundRobin>
-                <KeyMapString>ISB42 - Healing [Virtualized]</KeyMapString>
-                <MappedKeyString>Right Click [+A]</MappedKeyString>
-              </MappedKeyAction>
-              <MappedKeyAction xsi:type="WoWMacroRefAction">
-                <UseCustomModifiers />
-                <WoWMacro>
-                  <WoWMacroSetString>General</WoWMacroSetString>
-                  <WoWMacroString>Target Last Target</WoWMacroString>
-                </WoWMacro>
+                <KeyMapString>Team Grid</KeyMapString>
+                <MappedKeyString>DoRightClick</MappedKeyString>
               </MappedKeyAction>
             </Actions>
           </Step>
@@ -20260,17 +20028,8 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
           <Step>
             <Actions>
               <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-                <Target>Healer - Primary</Target>
-                <RoundRobin>true</RoundRobin>
-                <KeyMapString>ISB42 - Healing [Virtualized]</KeyMapString>
-                <MappedKeyString>Right Click [+A]</MappedKeyString>
-              </MappedKeyAction>
-              <MappedKeyAction xsi:type="WoWMacroRefAction">
-                <UseCustomModifiers />
-                <WoWMacro>
-                  <WoWMacroSetString>General</WoWMacroSetString>
-                  <WoWMacroString>Target Last Target</WoWMacroString>
-                </WoWMacro>
+                <KeyMapString>Team Grid</KeyMapString>
+                <MappedKeyString>DoRightClick</MappedKeyString>
               </MappedKeyAction>
             </Actions>
           </Step>
@@ -20292,17 +20051,8 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
           <Step>
             <Actions>
               <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-                <Target>Healer - Primary</Target>
-                <RoundRobin>true</RoundRobin>
-                <KeyMapString>ISB42 - Healing [Virtualized]</KeyMapString>
-                <MappedKeyString>Right Click [+A]</MappedKeyString>
-              </MappedKeyAction>
-              <MappedKeyAction xsi:type="WoWMacroRefAction">
-                <UseCustomModifiers />
-                <WoWMacro>
-                  <WoWMacroSetString>General</WoWMacroSetString>
-                  <WoWMacroString>Target Last Target</WoWMacroString>
-                </WoWMacro>
+                <KeyMapString>Team Grid</KeyMapString>
+                <MappedKeyString>DoRightClick</MappedKeyString>
               </MappedKeyAction>
             </Actions>
           </Step>
@@ -20324,17 +20074,8 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
           <Step>
             <Actions>
               <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-                <Target>Healer - Primary</Target>
-                <RoundRobin>true</RoundRobin>
-                <KeyMapString>ISB42 - Healing [Virtualized]</KeyMapString>
-                <MappedKeyString>Right Click [+A]</MappedKeyString>
-              </MappedKeyAction>
-              <MappedKeyAction xsi:type="WoWMacroRefAction">
-                <UseCustomModifiers />
-                <WoWMacro>
-                  <WoWMacroSetString>General</WoWMacroSetString>
-                  <WoWMacroString>Target Last Target</WoWMacroString>
-                </WoWMacro>
+                <KeyMapString>Team Grid</KeyMapString>
+                <MappedKeyString>DoRightClick</MappedKeyString>
               </MappedKeyAction>
             </Actions>
           </Step>
@@ -20356,17 +20097,8 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
           <Step>
             <Actions>
               <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-                <Target>Healer - Primary</Target>
-                <RoundRobin>true</RoundRobin>
-                <KeyMapString>ISB42 - Healing [Virtualized]</KeyMapString>
-                <MappedKeyString>Right Click [+A]</MappedKeyString>
-              </MappedKeyAction>
-              <MappedKeyAction xsi:type="WoWMacroRefAction">
-                <UseCustomModifiers />
-                <WoWMacro>
-                  <WoWMacroSetString>General</WoWMacroSetString>
-                  <WoWMacroString>Target Last Target</WoWMacroString>
-                </WoWMacro>
+                <KeyMapString>Team Grid</KeyMapString>
+                <MappedKeyString>DoRightClick</MappedKeyString>
               </MappedKeyAction>
             </Actions>
           </Step>
@@ -20653,6 +20385,58 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
                 <WoWMacro>
                   <WoWMacroSetString>Quick Setup 42</WoWMacroSetString>
                   <WoWMacroString>/targetexact {FTL}</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>------------------------------------  </Name>
+        <Steps>
+          <Step>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>DoLeftClick</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <Target>Healer - Primary</Target>
+                <RoundRobin>true</RoundRobin>
+                <KeyMapString>ISB42 - Healing [Virtualized]</KeyMapString>
+                <MappedKeyString>Left Click [+A]</MappedKeyString>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <UseCustomModifiers />
+                <WoWMacro>
+                  <WoWMacroSetString>General</WoWMacroSetString>
+                  <WoWMacroString>Target Last Target</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>DoRightClick</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <Target>Healer - Primary</Target>
+                <RoundRobin>true</RoundRobin>
+                <KeyMapString>ISB42 - Healing [Virtualized]</KeyMapString>
+                <MappedKeyString>Right Click [+A]</MappedKeyString>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <UseCustomModifiers />
+                <WoWMacro>
+                  <WoWMacroSetString>General</WoWMacroSetString>
+                  <WoWMacroString>Target Last Target</WoWMacroString>
                 </WoWMacro>
               </MappedKeyAction>
             </Actions>
@@ -21084,6 +20868,127 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
                 <WoWMacro>
                   <WoWMacroSetString>Shaman</WoWMacroSetString>
                   <WoWMacroString>Poison Cleansing Totem</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+    </Mappings>
+  </KeyMap>
+  <KeyMap>
+    <Name>Utility</Name>
+    <Mappings>
+      <MappedKey>
+        <Name>Blood Fury</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <Target>Shaman</Target>
+                <UseCustomModifiers />
+                <WoWMacro>
+                  <WoWMacroSetString>Shaman</WoWMacroSetString>
+                  <WoWMacroString>Blood Fury</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Battle Shout</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <RoundRobin>true</RoundRobin>
+                <Target>Warrior&amp;(Group 1)</Target>
+                <UseCustomModifiers />
+                <WoWMacro>
+                  <WoWMacroSetString>Warrior</WoWMacroSetString>
+                  <WoWMacroString>Battle Shout</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <RoundRobin>true</RoundRobin>
+                <Target>Warrior&amp;(Group 2)</Target>
+                <UseCustomModifiers />
+                <WoWMacro>
+                  <WoWMacroSetString>Warrior</WoWMacroSetString>
+                  <WoWMacroString>Battle Shout</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <RoundRobin>true</RoundRobin>
+                <Target>Warrior&amp;(Group 3)</Target>
+                <UseCustomModifiers />
+                <WoWMacro>
+                  <WoWMacroSetString>Warrior</WoWMacroSetString>
+                  <WoWMacroString>Battle Shout</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Demoralizing Shout</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <RoundRobin>true</RoundRobin>
+                <Target>Warrior</Target>
+                <UseCustomModifiers />
+                <WoWMacro>
+                  <WoWMacroSetString>Warrior</WoWMacroSetString>
+                  <WoWMacroString>Demoralizing Shout</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Intimidating Shout</Name>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <Target>Warrior</Target>
+                <RoundRobin>true</RoundRobin>
+                <KeyMapString>Utility</KeyMapString>
+                <MappedKeyString>Do Intimidating Shout</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>--------------------------------------------------------</Name>
+        <Steps />
+      </MappedKey>
+      <MappedKey>
+        <Name>Do Intimidating Shout</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>ISB42 - Party</KeyMapString>
+                <MappedKeyString>Assist Me (Target Slot)</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <RoundRobin>true</RoundRobin>
+                <UseCustomModifiers />
+                <WoWMacro>
+                  <WoWMacroSetString>Warrior</WoWMacroSetString>
+                  <WoWMacroString>Intimidating Shout</WoWMacroString>
                 </WoWMacro>
               </MappedKeyAction>
             </Actions>
@@ -27820,6 +27725,32 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
         </Combo>
         <AllowCustomModifiers />
       </WoWMacro>
+      <WoWMacro>
+        <MacroCommands>/cast Frost Resistance Totem</MacroCommands>
+        <ColloquialName>Frost Resistance Totem</ColloquialName>
+        <Combo>
+          <Combo>Ctrl+Shift+W</Combo>
+          <Modifiers>Ctrl Shift</Modifiers>
+          <Key>
+            <Key>W</Key>
+            <Code>17</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers />
+      </WoWMacro>
+      <WoWMacro>
+        <MacroCommands>/cast Blood Fury</MacroCommands>
+        <ColloquialName>Blood Fury</ColloquialName>
+        <Combo>
+          <Combo>Ctrl+Shift+X</Combo>
+          <Modifiers>Ctrl Shift</Modifiers>
+          <Key>
+            <Key>X</Key>
+            <Code>45</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers />
+      </WoWMacro>
     </WoWMacros>
   </WoWMacroSet>
   <ActionTimerPool>
@@ -31738,6 +31669,14 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
               <MappedKeyString>Slot 1 - Right Click</MappedKeyString>
             </Action>
           </ClickAction>
+          <ClickAction>
+            <LeftRight>Left</LeftRight>
+            <Modifiers>Shift</Modifiers>
+            <Action>
+              <KeyMapString>ISB42 - Video FX Layout</KeyMapString>
+              <MappedKeyString>Swap to Slot 1</MappedKeyString>
+            </Action>
+          </ClickAction>
         </ClickActions>
         <MouseOverAction>
           <LeftRight>Left</LeftRight>
@@ -31775,41 +31714,12 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
               <MappedKeyString>Slot 3 - Right Click</MappedKeyString>
             </Action>
           </ClickAction>
-        </ClickActions>
-        <MouseOverAction>
-          <LeftRight>Left</LeftRight>
-          <Action />
-        </MouseOverAction>
-        <Tooltip />
-        <Text />
-      </Button>
-      <Button>
-        <Enabled>false</Enabled>
-        <Name>Button 1,3</Name>
-        <BackgroundColor>
-          <Alpha>1</Alpha>
-        </BackgroundColor>
-        <ClickActions>
           <ClickAction>
             <LeftRight>Left</LeftRight>
+            <Modifiers>Shift</Modifiers>
             <Action>
-              <KeyMapString>Team Grid</KeyMapString>
-              <MappedKeyString>Slot 7 - Left Click</MappedKeyString>
-            </Action>
-          </ClickAction>
-          <ClickAction>
-            <LeftRight>Left</LeftRight>
-            <Modifiers>Ctrl</Modifiers>
-            <Action>
-              <KeyMapString>Team Grid</KeyMapString>
-              <MappedKeyString>Target Slot 7</MappedKeyString>
-            </Action>
-          </ClickAction>
-          <ClickAction>
-            <LeftRight>Right</LeftRight>
-            <Action>
-              <KeyMapString>Team Grid</KeyMapString>
-              <MappedKeyString>Slot 7 - Right Click</MappedKeyString>
+              <KeyMapString>ISB42 - Video FX Layout</KeyMapString>
+              <MappedKeyString>Swap to Slot 3</MappedKeyString>
             </Action>
           </ClickAction>
         </ClickActions>
@@ -31822,81 +31732,7 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
       </Button>
       <Button>
         <Enabled>false</Enabled>
-        <Name>Slot 2</Name>
-        <BackgroundColor>
-          <Alpha>1</Alpha>
-        </BackgroundColor>
-        <ClickActions>
-          <ClickAction>
-            <LeftRight>Left</LeftRight>
-            <Action>
-              <KeyMapString>Team Grid</KeyMapString>
-              <MappedKeyString>Slot 2 - Left Click</MappedKeyString>
-            </Action>
-          </ClickAction>
-          <ClickAction>
-            <LeftRight>Left</LeftRight>
-            <Modifiers>Ctrl</Modifiers>
-            <Action>
-              <KeyMapString>Team Grid</KeyMapString>
-              <MappedKeyString>Target Slot 2</MappedKeyString>
-            </Action>
-          </ClickAction>
-          <ClickAction>
-            <LeftRight>Right</LeftRight>
-            <Action>
-              <KeyMapString>Team Grid</KeyMapString>
-              <MappedKeyString>Slot 2 - Right Click</MappedKeyString>
-            </Action>
-          </ClickAction>
-        </ClickActions>
-        <MouseOverAction>
-          <LeftRight>Left</LeftRight>
-          <Action />
-        </MouseOverAction>
-        <Tooltip />
-        <Text />
-      </Button>
-      <Button>
-        <Enabled>false</Enabled>
-        <Name>Button 2,2</Name>
-        <BackgroundColor>
-          <Alpha>1</Alpha>
-        </BackgroundColor>
-        <ClickActions>
-          <ClickAction>
-            <LeftRight>Left</LeftRight>
-            <Action>
-              <KeyMapString>Team Grid</KeyMapString>
-              <MappedKeyString>Slot 4 - Left Click</MappedKeyString>
-            </Action>
-          </ClickAction>
-          <ClickAction>
-            <LeftRight>Left</LeftRight>
-            <Modifiers>Ctrl</Modifiers>
-            <Action>
-              <KeyMapString>Team Grid</KeyMapString>
-              <MappedKeyString>Target Slot 4</MappedKeyString>
-            </Action>
-          </ClickAction>
-          <ClickAction>
-            <LeftRight>Right</LeftRight>
-            <Action>
-              <KeyMapString>Team Grid</KeyMapString>
-              <MappedKeyString>Slot 4 - Right Click</MappedKeyString>
-            </Action>
-          </ClickAction>
-        </ClickActions>
-        <MouseOverAction>
-          <LeftRight>Left</LeftRight>
-          <Action />
-        </MouseOverAction>
-        <Tooltip />
-        <Text />
-      </Button>
-      <Button>
-        <Enabled>false</Enabled>
-        <Name>Button 2,3</Name>
+        <Name>Button 1,3</Name>
         <BackgroundColor>
           <Alpha>1</Alpha>
         </BackgroundColor>
@@ -31923,6 +31759,149 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
               <MappedKeyString>Slot 8 - Right Click</MappedKeyString>
             </Action>
           </ClickAction>
+          <ClickAction>
+            <LeftRight>Left</LeftRight>
+            <Modifiers>Shift</Modifiers>
+            <Action>
+              <KeyMapString>ISB42 - Video FX Layout</KeyMapString>
+              <MappedKeyString>Swap to Slot 8</MappedKeyString>
+            </Action>
+          </ClickAction>
+        </ClickActions>
+        <MouseOverAction>
+          <LeftRight>Left</LeftRight>
+          <Action />
+        </MouseOverAction>
+        <Tooltip />
+        <Text />
+      </Button>
+      <Button>
+        <Enabled>false</Enabled>
+        <Name>Slot 2</Name>
+        <BackgroundColor>
+          <Alpha>1</Alpha>
+        </BackgroundColor>
+        <ClickActions>
+          <ClickAction>
+            <LeftRight>Left</LeftRight>
+            <Action>
+              <KeyMapString>Team Grid</KeyMapString>
+              <MappedKeyString>Slot 13 - Left Click</MappedKeyString>
+            </Action>
+          </ClickAction>
+          <ClickAction>
+            <LeftRight>Left</LeftRight>
+            <Modifiers>Ctrl</Modifiers>
+            <Action>
+              <KeyMapString>Team Grid</KeyMapString>
+              <MappedKeyString>Target Slot 13</MappedKeyString>
+            </Action>
+          </ClickAction>
+          <ClickAction>
+            <LeftRight>Right</LeftRight>
+            <Action>
+              <KeyMapString>Team Grid</KeyMapString>
+              <MappedKeyString>Slot 13 - Right Click</MappedKeyString>
+            </Action>
+          </ClickAction>
+          <ClickAction>
+            <LeftRight>Left</LeftRight>
+            <Modifiers>Shift</Modifiers>
+            <Action>
+              <KeyMapString>ISB42 - Video FX Layout</KeyMapString>
+              <MappedKeyString>Swap to Slot 13</MappedKeyString>
+            </Action>
+          </ClickAction>
+        </ClickActions>
+        <MouseOverAction>
+          <LeftRight>Left</LeftRight>
+          <Action />
+        </MouseOverAction>
+        <Tooltip />
+        <Text />
+      </Button>
+      <Button>
+        <Enabled>false</Enabled>
+        <Name>Button 2,2</Name>
+        <BackgroundColor>
+          <Alpha>1</Alpha>
+        </BackgroundColor>
+        <ClickActions>
+          <ClickAction>
+            <LeftRight>Left</LeftRight>
+            <Action>
+              <KeyMapString>Team Grid</KeyMapString>
+              <MappedKeyString>Slot 14 - Left Click</MappedKeyString>
+            </Action>
+          </ClickAction>
+          <ClickAction>
+            <LeftRight>Left</LeftRight>
+            <Modifiers>Ctrl</Modifiers>
+            <Action>
+              <KeyMapString>Team Grid</KeyMapString>
+              <MappedKeyString>Target Slot 14</MappedKeyString>
+            </Action>
+          </ClickAction>
+          <ClickAction>
+            <LeftRight>Right</LeftRight>
+            <Action>
+              <KeyMapString>Team Grid</KeyMapString>
+              <MappedKeyString>Slot 14 - Right Click</MappedKeyString>
+            </Action>
+          </ClickAction>
+          <ClickAction>
+            <LeftRight>Left</LeftRight>
+            <Modifiers>Shift</Modifiers>
+            <Action>
+              <KeyMapString>ISB42 - Video FX Layout</KeyMapString>
+              <MappedKeyString>Swap to Slot 14</MappedKeyString>
+            </Action>
+          </ClickAction>
+        </ClickActions>
+        <MouseOverAction>
+          <LeftRight>Left</LeftRight>
+          <Action />
+        </MouseOverAction>
+        <Tooltip />
+        <Text />
+      </Button>
+      <Button>
+        <Enabled>false</Enabled>
+        <Name>Button 2,3</Name>
+        <BackgroundColor>
+          <Alpha>1</Alpha>
+        </BackgroundColor>
+        <ClickActions>
+          <ClickAction>
+            <LeftRight>Left</LeftRight>
+            <Action>
+              <KeyMapString>Team Grid</KeyMapString>
+              <MappedKeyString>Slot 7 - Left Click</MappedKeyString>
+            </Action>
+          </ClickAction>
+          <ClickAction>
+            <LeftRight>Left</LeftRight>
+            <Modifiers>Ctrl</Modifiers>
+            <Action>
+              <KeyMapString>Team Grid</KeyMapString>
+              <MappedKeyString>Target Slot 7</MappedKeyString>
+            </Action>
+          </ClickAction>
+          <ClickAction>
+            <LeftRight>Right</LeftRight>
+            <Action>
+              <KeyMapString>Team Grid</KeyMapString>
+              <MappedKeyString>Slot 7 - Right Click</MappedKeyString>
+            </Action>
+          </ClickAction>
+          <ClickAction>
+            <LeftRight>Left</LeftRight>
+            <Modifiers>Shift</Modifiers>
+            <Action>
+              <KeyMapString>ISB42 - Video FX Layout</KeyMapString>
+              <MappedKeyString>Swap to Slot 7</MappedKeyString>
+            </Action>
+          </ClickAction>
         </ClickActions>
         <MouseOverAction>
           <LeftRight>Left</LeftRight>
@@ -31942,7 +31921,7 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
             <LeftRight>Left</LeftRight>
             <Action>
               <KeyMapString>Team Grid</KeyMapString>
-              <MappedKeyString>Slot 5 - Left Click</MappedKeyString>
+              <MappedKeyString>Slot 2 - Left Click</MappedKeyString>
             </Action>
           </ClickAction>
           <ClickAction>
@@ -31950,14 +31929,22 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
             <Modifiers>Ctrl</Modifiers>
             <Action>
               <KeyMapString>Team Grid</KeyMapString>
-              <MappedKeyString>Target Slot 5</MappedKeyString>
+              <MappedKeyString>Target Slot 2</MappedKeyString>
             </Action>
           </ClickAction>
           <ClickAction>
             <LeftRight>Right</LeftRight>
             <Action>
               <KeyMapString>Team Grid</KeyMapString>
-              <MappedKeyString>Slot 5 - Right Click</MappedKeyString>
+              <MappedKeyString>Slot 2 - Right Click</MappedKeyString>
+            </Action>
+          </ClickAction>
+          <ClickAction>
+            <LeftRight>Left</LeftRight>
+            <Modifiers>Shift</Modifiers>
+            <Action>
+              <KeyMapString>ISB42 - Video FX Layout</KeyMapString>
+              <MappedKeyString>Swap to Slot 2</MappedKeyString>
             </Action>
           </ClickAction>
         </ClickActions>
@@ -31979,7 +31966,7 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
             <LeftRight>Left</LeftRight>
             <Action>
               <KeyMapString>Team Grid</KeyMapString>
-              <MappedKeyString>Slot 6 - Left Click</MappedKeyString>
+              <MappedKeyString>Slot 11 - Left Click</MappedKeyString>
             </Action>
           </ClickAction>
           <ClickAction>
@@ -31987,14 +31974,22 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
             <Modifiers>Ctrl</Modifiers>
             <Action>
               <KeyMapString>Team Grid</KeyMapString>
-              <MappedKeyString>Target Slot 6</MappedKeyString>
+              <MappedKeyString>Target Slot 11</MappedKeyString>
             </Action>
           </ClickAction>
           <ClickAction>
             <LeftRight>Right</LeftRight>
             <Action>
               <KeyMapString>Team Grid</KeyMapString>
-              <MappedKeyString>Slot 6 - Right Click</MappedKeyString>
+              <MappedKeyString>Slot 11 - Right Click</MappedKeyString>
+            </Action>
+          </ClickAction>
+          <ClickAction>
+            <LeftRight>Left</LeftRight>
+            <Modifiers>Shift</Modifiers>
+            <Action>
+              <KeyMapString>ISB42 - Video FX Layout</KeyMapString>
+              <MappedKeyString>Swap to Slot 11</MappedKeyString>
             </Action>
           </ClickAction>
         </ClickActions>
@@ -32034,6 +32029,14 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
               <MappedKeyString>Slot 9 - Right Click</MappedKeyString>
             </Action>
           </ClickAction>
+          <ClickAction>
+            <LeftRight>Left</LeftRight>
+            <Modifiers>Shift</Modifiers>
+            <Action>
+              <KeyMapString>ISB42 - Video FX Layout</KeyMapString>
+              <MappedKeyString>Swap to Slot 9</MappedKeyString>
+            </Action>
+          </ClickAction>
         </ClickActions>
         <MouseOverAction>
           <LeftRight>Left</LeftRight>
@@ -32071,6 +32074,14 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
               <MappedKeyString>Slot 10 - Right Click</MappedKeyString>
             </Action>
           </ClickAction>
+          <ClickAction>
+            <LeftRight>Left</LeftRight>
+            <Modifiers>Shift</Modifiers>
+            <Action>
+              <KeyMapString>ISB42 - Video FX Layout</KeyMapString>
+              <MappedKeyString>Swap to Slot 10</MappedKeyString>
+            </Action>
+          </ClickAction>
         </ClickActions>
         <MouseOverAction>
           <LeftRight>Left</LeftRight>
@@ -32090,7 +32101,7 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
             <LeftRight>Left</LeftRight>
             <Action>
               <KeyMapString>Team Grid</KeyMapString>
-              <MappedKeyString>Slot 11 - Left Click</MappedKeyString>
+              <MappedKeyString>Slot 4 - Left Click</MappedKeyString>
             </Action>
           </ClickAction>
           <ClickAction>
@@ -32098,14 +32109,22 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
             <Modifiers>Ctrl</Modifiers>
             <Action>
               <KeyMapString>Team Grid</KeyMapString>
-              <MappedKeyString>Target Slot 11</MappedKeyString>
+              <MappedKeyString>Target Slot 4</MappedKeyString>
             </Action>
           </ClickAction>
           <ClickAction>
             <LeftRight>Right</LeftRight>
             <Action>
               <KeyMapString>Team Grid</KeyMapString>
-              <MappedKeyString>Slot 11 - Right Click</MappedKeyString>
+              <MappedKeyString>Slot 4 - Right Click</MappedKeyString>
+            </Action>
+          </ClickAction>
+          <ClickAction>
+            <LeftRight>Left</LeftRight>
+            <Modifiers>Shift</Modifiers>
+            <Action>
+              <KeyMapString>ISB42 - Video FX Layout</KeyMapString>
+              <MappedKeyString>Swap to Slot 4</MappedKeyString>
             </Action>
           </ClickAction>
         </ClickActions>
@@ -32119,6 +32138,141 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
       <Button>
         <Enabled>false</Enabled>
         <Name>Button 4,3</Name>
+        <BackgroundColor>
+          <Alpha>1</Alpha>
+        </BackgroundColor>
+        <ClickActions>
+          <ClickAction>
+            <LeftRight>Left</LeftRight>
+            <Action>
+              <KeyMapString>Team Grid</KeyMapString>
+              <MappedKeyString>Slot 15 - Left Click</MappedKeyString>
+            </Action>
+          </ClickAction>
+          <ClickAction>
+            <LeftRight>Left</LeftRight>
+            <Modifiers>Ctrl</Modifiers>
+            <Action>
+              <KeyMapString>Team Grid</KeyMapString>
+              <MappedKeyString>Target Slot 15</MappedKeyString>
+            </Action>
+          </ClickAction>
+          <ClickAction>
+            <LeftRight>Right</LeftRight>
+            <Action>
+              <KeyMapString>Team Grid</KeyMapString>
+              <MappedKeyString>Slot 15 - Right Click</MappedKeyString>
+            </Action>
+          </ClickAction>
+          <ClickAction>
+            <LeftRight>Left</LeftRight>
+            <Modifiers>Shift</Modifiers>
+            <Action>
+              <KeyMapString>ISB42 - Video FX Layout</KeyMapString>
+              <MappedKeyString>Swap to Slot 15</MappedKeyString>
+            </Action>
+          </ClickAction>
+        </ClickActions>
+        <MouseOverAction>
+          <LeftRight>Left</LeftRight>
+          <Action />
+        </MouseOverAction>
+        <Tooltip />
+        <Text />
+      </Button>
+      <Button>
+        <Enabled>false</Enabled>
+        <Name>Button 5,1</Name>
+        <BackgroundColor>
+          <Alpha>1</Alpha>
+        </BackgroundColor>
+        <ClickActions>
+          <ClickAction>
+            <LeftRight>Left</LeftRight>
+            <Action>
+              <KeyMapString>Team Grid</KeyMapString>
+              <MappedKeyString>Slot 5 - Left Click</MappedKeyString>
+            </Action>
+          </ClickAction>
+          <ClickAction>
+            <LeftRight>Left</LeftRight>
+            <Modifiers>Ctrl</Modifiers>
+            <Action>
+              <KeyMapString>Team Grid</KeyMapString>
+              <MappedKeyString>Target Slot 5</MappedKeyString>
+            </Action>
+          </ClickAction>
+          <ClickAction>
+            <LeftRight>Right</LeftRight>
+            <Action>
+              <KeyMapString>Team Grid</KeyMapString>
+              <MappedKeyString>Slot 5 - Right Click</MappedKeyString>
+            </Action>
+          </ClickAction>
+          <ClickAction>
+            <LeftRight>Left</LeftRight>
+            <Modifiers>Shift</Modifiers>
+            <Action>
+              <KeyMapString>ISB42 - Video FX Layout</KeyMapString>
+              <MappedKeyString>Swap to Slot 5</MappedKeyString>
+            </Action>
+          </ClickAction>
+        </ClickActions>
+        <MouseOverAction>
+          <LeftRight>Left</LeftRight>
+          <Action />
+        </MouseOverAction>
+        <Tooltip />
+        <Text />
+      </Button>
+      <Button>
+        <Enabled>false</Enabled>
+        <Name>Button 5,2</Name>
+        <BackgroundColor>
+          <Alpha>1</Alpha>
+        </BackgroundColor>
+        <ClickActions>
+          <ClickAction>
+            <LeftRight>Left</LeftRight>
+            <Action>
+              <KeyMapString>Team Grid</KeyMapString>
+              <MappedKeyString>Slot 6 - Left Click</MappedKeyString>
+            </Action>
+          </ClickAction>
+          <ClickAction>
+            <LeftRight>Left</LeftRight>
+            <Modifiers>Ctrl</Modifiers>
+            <Action>
+              <KeyMapString>Team Grid</KeyMapString>
+              <MappedKeyString>Target Slot 6</MappedKeyString>
+            </Action>
+          </ClickAction>
+          <ClickAction>
+            <LeftRight>Right</LeftRight>
+            <Action>
+              <KeyMapString>Team Grid</KeyMapString>
+              <MappedKeyString>Slot 6 - Right Click</MappedKeyString>
+            </Action>
+          </ClickAction>
+          <ClickAction>
+            <LeftRight>Left</LeftRight>
+            <Modifiers>Shift</Modifiers>
+            <Action>
+              <KeyMapString>ISB42 - Video FX Layout</KeyMapString>
+              <MappedKeyString>Swap to Slot 6</MappedKeyString>
+            </Action>
+          </ClickAction>
+        </ClickActions>
+        <MouseOverAction>
+          <LeftRight>Left</LeftRight>
+          <Action />
+        </MouseOverAction>
+        <Tooltip />
+        <Text />
+      </Button>
+      <Button>
+        <Enabled>false</Enabled>
+        <Name>Button 5,3</Name>
         <BackgroundColor>
           <Alpha>1</Alpha>
         </BackgroundColor>
@@ -32145,115 +32299,12 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
               <MappedKeyString>Slot 12 - Right Click</MappedKeyString>
             </Action>
           </ClickAction>
-        </ClickActions>
-        <MouseOverAction>
-          <LeftRight>Left</LeftRight>
-          <Action />
-        </MouseOverAction>
-        <Tooltip />
-        <Text />
-      </Button>
-      <Button>
-        <Enabled>false</Enabled>
-        <Name>Button 5,1</Name>
-        <BackgroundColor>
-          <Alpha>1</Alpha>
-        </BackgroundColor>
-        <ClickActions>
           <ClickAction>
             <LeftRight>Left</LeftRight>
+            <Modifiers>Shift</Modifiers>
             <Action>
-              <KeyMapString>Team Grid</KeyMapString>
-              <MappedKeyString>Slot 13 - Left Click</MappedKeyString>
-            </Action>
-          </ClickAction>
-          <ClickAction>
-            <LeftRight>Left</LeftRight>
-            <Modifiers>Ctrl</Modifiers>
-            <Action>
-              <KeyMapString>Team Grid</KeyMapString>
-              <MappedKeyString>Target Slot 13</MappedKeyString>
-            </Action>
-          </ClickAction>
-          <ClickAction>
-            <LeftRight>Right</LeftRight>
-            <Action>
-              <KeyMapString>Team Grid</KeyMapString>
-              <MappedKeyString>Slot 13 - Right Click</MappedKeyString>
-            </Action>
-          </ClickAction>
-        </ClickActions>
-        <MouseOverAction>
-          <LeftRight>Left</LeftRight>
-          <Action />
-        </MouseOverAction>
-        <Tooltip />
-        <Text />
-      </Button>
-      <Button>
-        <Enabled>false</Enabled>
-        <Name>Button 5,2</Name>
-        <BackgroundColor>
-          <Alpha>1</Alpha>
-        </BackgroundColor>
-        <ClickActions>
-          <ClickAction>
-            <LeftRight>Left</LeftRight>
-            <Action>
-              <KeyMapString>Team Grid</KeyMapString>
-              <MappedKeyString>Slot 14 - Left Click</MappedKeyString>
-            </Action>
-          </ClickAction>
-          <ClickAction>
-            <LeftRight>Left</LeftRight>
-            <Modifiers>Ctrl</Modifiers>
-            <Action>
-              <KeyMapString>Team Grid</KeyMapString>
-              <MappedKeyString>Target Slot 14</MappedKeyString>
-            </Action>
-          </ClickAction>
-          <ClickAction>
-            <LeftRight>Right</LeftRight>
-            <Action>
-              <KeyMapString>Team Grid</KeyMapString>
-              <MappedKeyString>Slot 14 - Right Click</MappedKeyString>
-            </Action>
-          </ClickAction>
-        </ClickActions>
-        <MouseOverAction>
-          <LeftRight>Left</LeftRight>
-          <Action />
-        </MouseOverAction>
-        <Tooltip />
-        <Text />
-      </Button>
-      <Button>
-        <Enabled>false</Enabled>
-        <Name>Button 5,3</Name>
-        <BackgroundColor>
-          <Alpha>1</Alpha>
-        </BackgroundColor>
-        <ClickActions>
-          <ClickAction>
-            <LeftRight>Left</LeftRight>
-            <Action>
-              <KeyMapString>Team Grid</KeyMapString>
-              <MappedKeyString>Slot 15 - Left Click</MappedKeyString>
-            </Action>
-          </ClickAction>
-          <ClickAction>
-            <LeftRight>Left</LeftRight>
-            <Modifiers>Ctrl</Modifiers>
-            <Action>
-              <KeyMapString>Team Grid</KeyMapString>
-              <MappedKeyString>Target Slot 15</MappedKeyString>
-            </Action>
-          </ClickAction>
-          <ClickAction>
-            <LeftRight>Right</LeftRight>
-            <Action>
-              <KeyMapString>Team Grid</KeyMapString>
-              <MappedKeyString>Slot 15 - Right Click</MappedKeyString>
+              <KeyMapString>ISB42 - Video FX Layout</KeyMapString>
+              <MappedKeyString>Swap to Slot 12</MappedKeyString>
             </Action>
           </ClickAction>
         </ClickActions>
@@ -32364,7 +32415,13 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
     </CellBorder_Color>
     <Rows>1</Rows>
     <Columns>1</Columns>
-    <Buttons />
+    <Buttons>
+      <Button>
+        <Enabled>false</Enabled>
+        <Name>Button 1,1</Name>
+        <BackgroundColor />
+      </Button>
+    </Buttons>
   </ClickBar>
   <ClickBar>
     <Name>-- </Name>
@@ -33046,6 +33103,115 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
             <Action>
               <KeyMapString>Totems</KeyMapString>
               <MappedKeyString>Poison Cleansing</MappedKeyString>
+            </Action>
+          </ClickAction>
+        </ClickActions>
+        <MouseOverAction>
+          <LeftRight>Left</LeftRight>
+          <Action />
+        </MouseOverAction>
+        <Tooltip />
+        <Text />
+      </Button>
+    </Buttons>
+  </ClickBar>
+  <ClickBar>
+    <Name>Utility Clickbar</Name>
+    <X>0</X>
+    <Y>0</Y>
+    <RowHeight>42</RowHeight>
+    <ColumnWidth>42</ColumnWidth>
+    <BackgroundColor />
+    <CellBorder_Color>
+      <Red>255</Red>
+      <Green>255</Green>
+      <Blue>255</Blue>
+    </CellBorder_Color>
+    <Rows>1</Rows>
+    <Columns>4</Columns>
+    <Buttons>
+      <Button>
+        <Enabled>false</Enabled>
+        <Name>Intimidating Shout</Name>
+        <BackgroundColor />
+        <BackgroundImage>
+          <ImageString>ability_warrior_intimidating_shout_42x42.jpg</ImageString>
+        </BackgroundImage>
+        <ClickActions>
+          <ClickAction>
+            <LeftRight>Left</LeftRight>
+            <Action>
+              <KeyMapString>Utility</KeyMapString>
+              <MappedKeyString>Intimidating Shout</MappedKeyString>
+            </Action>
+          </ClickAction>
+        </ClickActions>
+        <MouseOverAction>
+          <LeftRight>Left</LeftRight>
+          <Action />
+        </MouseOverAction>
+        <Tooltip />
+        <Text />
+      </Button>
+      <Button>
+        <Enabled>false</Enabled>
+        <Name>Demoralizing Shout</Name>
+        <BackgroundColor />
+        <BackgroundImage>
+          <ImageString>ability_warrior_warcry_42x42.jpg</ImageString>
+        </BackgroundImage>
+        <ClickActions>
+          <ClickAction>
+            <LeftRight>Left</LeftRight>
+            <Action>
+              <KeyMapString>Utility</KeyMapString>
+              <MappedKeyString>Demoralizing Shout</MappedKeyString>
+            </Action>
+          </ClickAction>
+        </ClickActions>
+        <MouseOverAction>
+          <LeftRight>Left</LeftRight>
+          <Action />
+        </MouseOverAction>
+        <Tooltip />
+        <Text />
+      </Button>
+      <Button>
+        <Enabled>false</Enabled>
+        <Name>Battle Shout</Name>
+        <BackgroundColor />
+        <BackgroundImage>
+          <ImageString>ability_warrior_battleshout_42x42.jpg</ImageString>
+        </BackgroundImage>
+        <ClickActions>
+          <ClickAction>
+            <LeftRight>Left</LeftRight>
+            <Action>
+              <KeyMapString>Utility</KeyMapString>
+              <MappedKeyString>Battle Shout</MappedKeyString>
+            </Action>
+          </ClickAction>
+        </ClickActions>
+        <MouseOverAction>
+          <LeftRight>Left</LeftRight>
+          <Action />
+        </MouseOverAction>
+        <Tooltip />
+        <Text />
+      </Button>
+      <Button>
+        <Enabled>false</Enabled>
+        <Name>Blood Fury</Name>
+        <BackgroundColor />
+        <BackgroundImage>
+          <ImageString>warrior_talent_icon_furyintheblood_42x42.jpg</ImageString>
+        </BackgroundImage>
+        <ClickActions>
+          <ClickAction>
+            <LeftRight>Left</LeftRight>
+            <Action>
+              <KeyMapString>Utility</KeyMapString>
+              <MappedKeyString>Blood Fury</MappedKeyString>
             </Action>
           </ClickAction>
         </ClickActions>
