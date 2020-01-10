@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ISBoxerToolkitProfile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="42" VersionMinor="0" BuildDate="1/8/2020 6:33:56 PM">
+<ISBoxerToolkitProfile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="42" VersionMinor="0" BuildDate="1/9/2020 10:51:18 PM">
   <CharacterSet>
     <ExecuteOnLoad />
     <Name>Blaumeux - Mixed</Name>
@@ -9825,13 +9825,13 @@ See http://isboxer.com/wiki/WoW:Interact_with_Target.</Description>
         <Name>Toggle ATG Bars</Name>
         <Steps>
           <Step>
+            <Name>Toggle On</Name>
             <Actions>
               <MappedKeyAction xsi:type="ClickBarStateAction">
                 <Target>all</Target>
                 <ClickBar>
                   <ClickBarString>Slot 1 ATG</ClickBarString>
                 </ClickBar>
-                <Value>Toggle</Value>
                 <ClickBarSet />
               </MappedKeyAction>
               <MappedKeyAction xsi:type="ClickBarStateAction">
@@ -9839,7 +9839,6 @@ See http://isboxer.com/wiki/WoW:Interact_with_Target.</Description>
                 <ClickBar>
                   <ClickBarString>Slot 2 ATG</ClickBarString>
                 </ClickBar>
-                <Value>Toggle</Value>
                 <ClickBarSet />
               </MappedKeyAction>
               <MappedKeyAction xsi:type="ClickBarStateAction">
@@ -9847,7 +9846,6 @@ See http://isboxer.com/wiki/WoW:Interact_with_Target.</Description>
                 <ClickBar>
                   <ClickBarString>Slot 3 ATG</ClickBarString>
                 </ClickBar>
-                <Value>Toggle</Value>
                 <ClickBarSet />
               </MappedKeyAction>
               <MappedKeyAction xsi:type="ClickBarStateAction">
@@ -9855,7 +9853,6 @@ See http://isboxer.com/wiki/WoW:Interact_with_Target.</Description>
                 <ClickBar>
                   <ClickBarString>Slot 4 ATG</ClickBarString>
                 </ClickBar>
-                <Value>Toggle</Value>
                 <ClickBarSet />
               </MappedKeyAction>
               <MappedKeyAction xsi:type="ClickBarStateAction">
@@ -9863,7 +9860,6 @@ See http://isboxer.com/wiki/WoW:Interact_with_Target.</Description>
                 <ClickBar>
                   <ClickBarString>Slot 5 ATG</ClickBarString>
                 </ClickBar>
-                <Value>Toggle</Value>
                 <ClickBarSet />
               </MappedKeyAction>
               <MappedKeyAction xsi:type="ClickBarStateAction">
@@ -9871,7 +9867,6 @@ See http://isboxer.com/wiki/WoW:Interact_with_Target.</Description>
                 <ClickBar>
                   <ClickBarString>Slot 6 ATG</ClickBarString>
                 </ClickBar>
-                <Value>Toggle</Value>
                 <ClickBarSet />
               </MappedKeyAction>
               <MappedKeyAction xsi:type="ClickBarStateAction">
@@ -9879,7 +9874,6 @@ See http://isboxer.com/wiki/WoW:Interact_with_Target.</Description>
                 <ClickBar>
                   <ClickBarString>Slot 7 ATG</ClickBarString>
                 </ClickBar>
-                <Value>Toggle</Value>
                 <ClickBarSet />
               </MappedKeyAction>
               <MappedKeyAction xsi:type="ClickBarStateAction">
@@ -9887,7 +9881,6 @@ See http://isboxer.com/wiki/WoW:Interact_with_Target.</Description>
                 <ClickBar>
                   <ClickBarString>Slot 8 ATG</ClickBarString>
                 </ClickBar>
-                <Value>Toggle</Value>
                 <ClickBarSet />
               </MappedKeyAction>
               <MappedKeyAction xsi:type="ClickBarStateAction">
@@ -9895,7 +9888,6 @@ See http://isboxer.com/wiki/WoW:Interact_with_Target.</Description>
                 <ClickBar>
                   <ClickBarString>Slot 9 ATG</ClickBarString>
                 </ClickBar>
-                <Value>Toggle</Value>
                 <ClickBarSet />
               </MappedKeyAction>
               <MappedKeyAction xsi:type="ClickBarStateAction">
@@ -9903,7 +9895,6 @@ See http://isboxer.com/wiki/WoW:Interact_with_Target.</Description>
                 <ClickBar>
                   <ClickBarString>Slot 10 ATG</ClickBarString>
                 </ClickBar>
-                <Value>Toggle</Value>
                 <ClickBarSet />
               </MappedKeyAction>
               <MappedKeyAction xsi:type="ClickBarStateAction">
@@ -9911,7 +9902,6 @@ See http://isboxer.com/wiki/WoW:Interact_with_Target.</Description>
                 <ClickBar>
                   <ClickBarString>Slot 11 ATG</ClickBarString>
                 </ClickBar>
-                <Value>Toggle</Value>
                 <ClickBarSet />
               </MappedKeyAction>
               <MappedKeyAction xsi:type="ClickBarStateAction">
@@ -9919,7 +9909,6 @@ See http://isboxer.com/wiki/WoW:Interact_with_Target.</Description>
                 <ClickBar>
                   <ClickBarString>Slot 12 ATG</ClickBarString>
                 </ClickBar>
-                <Value>Toggle</Value>
                 <ClickBarSet />
               </MappedKeyAction>
               <MappedKeyAction xsi:type="ClickBarStateAction">
@@ -9927,7 +9916,6 @@ See http://isboxer.com/wiki/WoW:Interact_with_Target.</Description>
                 <ClickBar>
                   <ClickBarString>Slot 13 ATG</ClickBarString>
                 </ClickBar>
-                <Value>Toggle</Value>
                 <ClickBarSet />
               </MappedKeyAction>
               <MappedKeyAction xsi:type="ClickBarStateAction">
@@ -9935,7 +9923,6 @@ See http://isboxer.com/wiki/WoW:Interact_with_Target.</Description>
                 <ClickBar>
                   <ClickBarString>Slot 14 ATG</ClickBarString>
                 </ClickBar>
-                <Value>Toggle</Value>
                 <ClickBarSet />
               </MappedKeyAction>
               <MappedKeyAction xsi:type="ClickBarStateAction">
@@ -9943,8 +9930,150 @@ See http://isboxer.com/wiki/WoW:Interact_with_Target.</Description>
                 <ClickBar>
                   <ClickBarString>Slot 15 ATG</ClickBarString>
                 </ClickBar>
-                <Value>Toggle</Value>
                 <ClickBarSet />
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyStepAction">
+                <Target>all other</Target>
+                <MappedKey>
+                  <KeyMapString>ISB42 - Toggles</KeyMapString>
+                  <MappedKeyString>Toggle ATG Bars</MappedKeyString>
+                </MappedKey>
+                <Action>Set</Action>
+                <Value>2</Value>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+          <Step>
+            <Name>Toggle Off</Name>
+            <Actions>
+              <MappedKeyAction xsi:type="ClickBarStateAction">
+                <Target>all</Target>
+                <ClickBar>
+                  <ClickBarString>Slot 1 ATG</ClickBarString>
+                </ClickBar>
+                <Value>Off</Value>
+                <ClickBarSet />
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="ClickBarStateAction">
+                <Target>all</Target>
+                <ClickBar>
+                  <ClickBarString>Slot 2 ATG</ClickBarString>
+                </ClickBar>
+                <Value>Off</Value>
+                <ClickBarSet />
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="ClickBarStateAction">
+                <Target>all</Target>
+                <ClickBar>
+                  <ClickBarString>Slot 3 ATG</ClickBarString>
+                </ClickBar>
+                <Value>Off</Value>
+                <ClickBarSet />
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="ClickBarStateAction">
+                <Target>all</Target>
+                <ClickBar>
+                  <ClickBarString>Slot 4 ATG</ClickBarString>
+                </ClickBar>
+                <Value>Off</Value>
+                <ClickBarSet />
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="ClickBarStateAction">
+                <Target>all</Target>
+                <ClickBar>
+                  <ClickBarString>Slot 5 ATG</ClickBarString>
+                </ClickBar>
+                <Value>Off</Value>
+                <ClickBarSet />
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="ClickBarStateAction">
+                <Target>all</Target>
+                <ClickBar>
+                  <ClickBarString>Slot 6 ATG</ClickBarString>
+                </ClickBar>
+                <Value>Off</Value>
+                <ClickBarSet />
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="ClickBarStateAction">
+                <Target>all</Target>
+                <ClickBar>
+                  <ClickBarString>Slot 7 ATG</ClickBarString>
+                </ClickBar>
+                <Value>Off</Value>
+                <ClickBarSet />
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="ClickBarStateAction">
+                <Target>all</Target>
+                <ClickBar>
+                  <ClickBarString>Slot 8 ATG</ClickBarString>
+                </ClickBar>
+                <Value>Off</Value>
+                <ClickBarSet />
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="ClickBarStateAction">
+                <Target>all</Target>
+                <ClickBar>
+                  <ClickBarString>Slot 9 ATG</ClickBarString>
+                </ClickBar>
+                <Value>Off</Value>
+                <ClickBarSet />
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="ClickBarStateAction">
+                <Target>all</Target>
+                <ClickBar>
+                  <ClickBarString>Slot 10 ATG</ClickBarString>
+                </ClickBar>
+                <Value>Off</Value>
+                <ClickBarSet />
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="ClickBarStateAction">
+                <Target>all</Target>
+                <ClickBar>
+                  <ClickBarString>Slot 11 ATG</ClickBarString>
+                </ClickBar>
+                <Value>Off</Value>
+                <ClickBarSet />
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="ClickBarStateAction">
+                <Target>all</Target>
+                <ClickBar>
+                  <ClickBarString>Slot 12 ATG</ClickBarString>
+                </ClickBar>
+                <Value>Off</Value>
+                <ClickBarSet />
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="ClickBarStateAction">
+                <Target>all</Target>
+                <ClickBar>
+                  <ClickBarString>Slot 13 ATG</ClickBarString>
+                </ClickBar>
+                <Value>Off</Value>
+                <ClickBarSet />
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="ClickBarStateAction">
+                <Target>all</Target>
+                <ClickBar>
+                  <ClickBarString>Slot 14 ATG</ClickBarString>
+                </ClickBar>
+                <Value>Off</Value>
+                <ClickBarSet />
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="ClickBarStateAction">
+                <Target>all</Target>
+                <ClickBar>
+                  <ClickBarString>Slot 15 ATG</ClickBarString>
+                </ClickBar>
+                <Value>Off</Value>
+                <ClickBarSet />
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyStepAction">
+                <Target>all other</Target>
+                <MappedKey>
+                  <KeyMapString>ISB42 - Toggles</KeyMapString>
+                  <MappedKeyString>Toggle ATG Bars</MappedKeyString>
+                </MappedKey>
+                <Action>Set</Action>
+                <Value>1</Value>
               </MappedKeyAction>
             </Actions>
           </Step>
@@ -14444,6 +14573,13 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
                 <Target>all</Target>
                 <ClickBar>
                   <ClickBarString>Totems Clickbar</ClickBarString>
+                </ClickBar>
+                <ClickBarSet />
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="ClickBarStateAction">
+                <Target>all</Target>
+                <ClickBar>
+                  <ClickBarString>Utility Clickbar</ClickBarString>
                 </ClickBar>
                 <ClickBarSet />
               </MappedKeyAction>
@@ -25703,7 +25839,7 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
               <MappedKeyAction xsi:type="MappedKeyStepStateAction">
                 <ActionTimer>
                   <PoolName>Flame Shock CD</PoolName>
-                  <Seconds>12</Seconds>
+                  <Seconds>6</Seconds>
                   <Enabled>true</Enabled>
                 </ActionTimer>
                 <Target>self</Target>
