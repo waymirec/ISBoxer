@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ISBoxerToolkitProfile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="42" VersionMinor="0" BuildDate="1/9/2020 7:58:54 PM">
+<ISBoxerToolkitProfile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="42" VersionMinor="0" BuildDate="1/10/2020 2:20:36 PM">
   <CharacterSet>
     <ExecuteOnLoad>
       <KeyMapString>Initialization</KeyMapString>
@@ -1541,7 +1541,7 @@
           </WorkingArea>
           <Primary>true</Primary>
           <DeviceName>\\.\DISPLAY1</DeviceName>
-          <DPIScale>100</DPIScale>
+          <DPIScale>200</DPIScale>
         </UserScreen>
       </AllScreens>
       <Name>&lt;Window Layout-specified&gt;</Name>
@@ -1633,7 +1633,7 @@
           </WorkingArea>
           <Primary>true</Primary>
           <DeviceName>\\.\DISPLAY1</DeviceName>
-          <DPIScale>100</DPIScale>
+          <DPIScale>200</DPIScale>
         </UserScreen>
       </AllScreens>
       <Name>&lt;Window Layout-specified&gt;</Name>
@@ -1743,7 +1743,7 @@
           </WorkingArea>
           <Primary>true</Primary>
           <DeviceName>\\.\DISPLAY1</DeviceName>
-          <DPIScale>100</DPIScale>
+          <DPIScale>200</DPIScale>
         </UserScreen>
       </AllScreens>
       <Name>&lt;Window Layout-specified&gt;</Name>
@@ -1873,7 +1873,7 @@
           </WorkingArea>
           <Primary>true</Primary>
           <DeviceName>\\.\DISPLAY1</DeviceName>
-          <DPIScale>100</DPIScale>
+          <DPIScale>200</DPIScale>
         </UserScreen>
       </AllScreens>
       <Name>&lt;Window Layout-specified&gt;</Name>
@@ -2013,7 +2013,7 @@
           </WorkingArea>
           <Primary>true</Primary>
           <DeviceName>\\.\DISPLAY6</DeviceName>
-          <DPIScale>100</DPIScale>
+          <DPIScale>200</DPIScale>
         </UserScreen>
       </AllScreens>
       <Name>&lt;Window Layout-specified&gt;</Name>
@@ -2143,7 +2143,7 @@
           </WorkingArea>
           <Primary>true</Primary>
           <DeviceName>\\.\DISPLAY6</DeviceName>
-          <DPIScale>100</DPIScale>
+          <DPIScale>200</DPIScale>
         </UserScreen>
       </AllScreens>
       <Name>&lt;Window Layout-specified&gt;</Name>
@@ -10553,8 +10553,8 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
           <Step>
             <Actions>
               <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-                <KeyMapString>Control Panel</KeyMapString>
-                <MappedKeyString />
+                <KeyMapString>Control Panel - Menu</KeyMapString>
+                <MappedKeyString>Toggle Menu</MappedKeyString>
               </MappedKeyAction>
             </Actions>
           </Step>
@@ -10967,7 +10967,32 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
   </KeyMap>
   <KeyMap>
     <Name>Control Panel - Menu</Name>
-    <Mappings />
+    <Mappings>
+      <MappedKey>
+        <Name>Toggle Menu</Name>
+        <Steps>
+          <Step />
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>------------------------------------------</Name>
+        <Steps>
+          <Step />
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Show Menu</Name>
+        <Steps>
+          <Step />
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Hide Menu</Name>
+        <Steps>
+          <Step />
+        </Steps>
+      </MappedKey>
+    </Mappings>
   </KeyMap>
   <KeyMap>
     <Name>---------------------------------------    </Name>
@@ -11412,1862 +11437,6 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
     <Mappings />
   </KeyMap>
   <KeyMap>
-    <Name>Paladin - Base</Name>
-    <Mappings>
-      <MappedKey>
-        <Name>__Initialization_____________________________________</Name>
-        <Steps>
-          <Step>
-            <Actions />
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
-        <Name>____ - Initialize</Name>
-        <Steps>
-          <Step>
-            <Actions>
-              <MappedKeyAction xsi:type="TargetGroupAction">
-                <Action>Join</Action>
-                <RelayGroupString>Paladin</RelayGroupString>
-              </MappedKeyAction>
-            </Actions>
-          </Step>
-        </Steps>
-      </MappedKey>
-    </Mappings>
-  </KeyMap>
-  <KeyMap>
-    <Name>Paladin - Holy</Name>
-    <Mappings>
-      <MappedKey>
-        <Name>Initiate Combat</Name>
-        <Steps>
-          <Step>
-            <Actions />
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
-        <Name>DPS Rotation</Name>
-        <Steps>
-          <Step>
-            <Actions />
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
-        <Name>AOE DPS Rotation</Name>
-        <Steps>
-          <Step>
-            <Actions />
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
-        <Name>__Initialization_____________________________________</Name>
-        <Steps>
-          <Step>
-            <Actions />
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
-        <Name>____ - Initialize</Name>
-        <Steps>
-          <Step>
-            <Actions>
-              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-                <KeyMapString>Paladin - Base</KeyMapString>
-                <MappedKeyString>____ - Initialize</MappedKeyString>
-              </MappedKeyAction>
-              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-                <KeyMapString>ISB42 - Action Target Group</KeyMapString>
-                <MappedKeyString>Ranged - Join</MappedKeyString>
-              </MappedKeyAction>
-              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-                <KeyMapString>ISB42 - Action Target Group</KeyMapString>
-                <MappedKeyString>Healer - Primary - Join</MappedKeyString>
-              </MappedKeyAction>
-            </Actions>
-          </Step>
-        </Steps>
-      </MappedKey>
-    </Mappings>
-  </KeyMap>
-  <KeyMap>
-    <Name>Paladin - Protection</Name>
-    <Mappings>
-      <MappedKey>
-        <Name>Initiate Combat</Name>
-        <Steps>
-          <Step>
-            <Actions />
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
-        <Name>DPS Rotation</Name>
-        <Steps>
-          <Step>
-            <Actions />
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
-        <Name>AOE DPS Rotation</Name>
-        <Steps>
-          <Step>
-            <Actions />
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
-        <Name>__Initialization_____________________________________</Name>
-        <Steps>
-          <Step>
-            <Actions />
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
-        <Name>____ - Initialize</Name>
-        <Steps>
-          <Step>
-            <Actions>
-              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-                <KeyMapString>Paladin - Base</KeyMapString>
-                <MappedKeyString>____ - Initialize</MappedKeyString>
-              </MappedKeyAction>
-              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-                <KeyMapString>ISB42 - Action Target Group</KeyMapString>
-                <MappedKeyString>Melee - Join</MappedKeyString>
-              </MappedKeyAction>
-              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-                <KeyMapString>ISB42 - Action Target Group</KeyMapString>
-                <MappedKeyString>Interrupt - Join</MappedKeyString>
-              </MappedKeyAction>
-              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-                <KeyMapString>ISB42 - Action Target Group</KeyMapString>
-                <MappedKeyString>Stun - Join</MappedKeyString>
-              </MappedKeyAction>
-            </Actions>
-          </Step>
-        </Steps>
-      </MappedKey>
-    </Mappings>
-  </KeyMap>
-  <KeyMap>
-    <Name>Paladin - Retribution</Name>
-    <Mappings>
-      <MappedKey>
-        <Name>Initiate Combat</Name>
-        <Steps>
-          <Step>
-            <Actions />
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
-        <Name>DPS Rotation</Name>
-        <Steps>
-          <Step>
-            <Actions>
-              <MappedKeyAction xsi:type="WoWMacroRefAction">
-                <UseCustomModifiers />
-                <WoWMacro>
-                  <WoWMacroSetString>Paladin</WoWMacroSetString>
-                  <WoWMacroString>Consecration</WoWMacroString>
-                </WoWMacro>
-              </MappedKeyAction>
-              <MappedKeyAction xsi:type="MappedKeyStepStateAction">
-                <ActionTimer>
-                  <PoolName>Consecration CD</PoolName>
-                  <Seconds>5.5</Seconds>
-                  <Enabled>true</Enabled>
-                </ActionTimer>
-                <Target>self</Target>
-                <MappedKey>
-                  <KeyMapString>Paladin - Retribution</KeyMapString>
-                  <MappedKeyString>DPS Rotation</MappedKeyString>
-                </MappedKey>
-                <Enable>1</Enable>
-              </MappedKeyAction>
-              <MappedKeyAction xsi:type="MappedKeyStepStateAction">
-                <Target>self</Target>
-                <MappedKey>
-                  <KeyMapString>Paladin - Retribution</KeyMapString>
-                  <MappedKeyString>DPS Rotation</MappedKeyString>
-                </MappedKey>
-                <Enable>0</Enable>
-              </MappedKeyAction>
-            </Actions>
-          </Step>
-          <Step>
-            <Actions>
-              <MappedKeyAction xsi:type="WoWMacroRefAction">
-                <UseCustomModifiers />
-                <WoWMacro>
-                  <WoWMacroSetString>Paladin</WoWMacroSetString>
-                  <WoWMacroString>Crusader Strike</WoWMacroString>
-                </WoWMacro>
-              </MappedKeyAction>
-              <MappedKeyAction xsi:type="MappedKeyStepAction">
-                <MappedKey>
-                  <KeyMapString>Paladin - Retribution</KeyMapString>
-                  <MappedKeyString>DPS Rotation</MappedKeyString>
-                </MappedKey>
-                <Action>Set</Action>
-              </MappedKeyAction>
-              <MappedKeyAction xsi:type="MappedKeyStepStateAction">
-                <ActionTimer>
-                  <PoolName>Crusader Strike CD</PoolName>
-                  <Seconds>5.5</Seconds>
-                  <Enabled>true</Enabled>
-                </ActionTimer>
-                <Target>self</Target>
-                <MappedKey>
-                  <KeyMapString>Paladin - Retribution</KeyMapString>
-                  <MappedKeyString>DPS Rotation</MappedKeyString>
-                </MappedKey>
-                <Enable>1</Enable>
-              </MappedKeyAction>
-              <MappedKeyAction xsi:type="MappedKeyStepStateAction">
-                <Target>self</Target>
-                <MappedKey>
-                  <KeyMapString>Paladin - Retribution</KeyMapString>
-                  <MappedKeyString>DPS Rotation</MappedKeyString>
-                </MappedKey>
-                <Enable>0</Enable>
-              </MappedKeyAction>
-            </Actions>
-          </Step>
-          <Step>
-            <Actions>
-              <MappedKeyAction xsi:type="WoWMacroRefAction">
-                <UseCustomModifiers />
-                <WoWMacro>
-                  <WoWMacroSetString>Paladin</WoWMacroSetString>
-                  <WoWMacroString>Judgement</WoWMacroString>
-                </WoWMacro>
-              </MappedKeyAction>
-              <MappedKeyAction xsi:type="MappedKeyStepAction">
-                <MappedKey>
-                  <KeyMapString>Paladin - Retribution</KeyMapString>
-                  <MappedKeyString>DPS Rotation</MappedKeyString>
-                </MappedKey>
-                <Action>Set</Action>
-              </MappedKeyAction>
-              <MappedKeyAction xsi:type="MappedKeyStepStateAction">
-                <ActionTimer>
-                  <PoolName>Judgement CD</PoolName>
-                  <Seconds>11</Seconds>
-                  <Enabled>true</Enabled>
-                </ActionTimer>
-                <Target>self</Target>
-                <MappedKey>
-                  <KeyMapString>Paladin - Retribution</KeyMapString>
-                  <MappedKeyString>DPS Rotation</MappedKeyString>
-                </MappedKey>
-                <Enable>1</Enable>
-              </MappedKeyAction>
-              <MappedKeyAction xsi:type="MappedKeyStepStateAction">
-                <Target>self</Target>
-                <MappedKey>
-                  <KeyMapString>Paladin - Retribution</KeyMapString>
-                  <MappedKeyString>DPS Rotation</MappedKeyString>
-                </MappedKey>
-                <Enable>0</Enable>
-              </MappedKeyAction>
-            </Actions>
-          </Step>
-          <Step>
-            <Actions>
-              <MappedKeyAction xsi:type="WoWMacroRefAction">
-                <UseCustomModifiers />
-                <WoWMacro>
-                  <WoWMacroSetString>Paladin</WoWMacroSetString>
-                  <WoWMacroString>Blade of Justice</WoWMacroString>
-                </WoWMacro>
-              </MappedKeyAction>
-              <MappedKeyAction xsi:type="MappedKeyStepAction">
-                <MappedKey>
-                  <KeyMapString>Paladin - Retribution</KeyMapString>
-                  <MappedKeyString>DPS Rotation</MappedKeyString>
-                </MappedKey>
-                <Action>Set</Action>
-              </MappedKeyAction>
-              <MappedKeyAction xsi:type="MappedKeyStepStateAction">
-                <ActionTimer>
-                  <PoolName>Blade of Justice CD</PoolName>
-                  <Seconds>10</Seconds>
-                  <Enabled>true</Enabled>
-                </ActionTimer>
-                <Target>self</Target>
-                <MappedKey>
-                  <KeyMapString>Paladin - Retribution</KeyMapString>
-                  <MappedKeyString>DPS Rotation</MappedKeyString>
-                </MappedKey>
-                <Enable>1</Enable>
-              </MappedKeyAction>
-              <MappedKeyAction xsi:type="MappedKeyStepStateAction">
-                <Target>self</Target>
-                <MappedKey>
-                  <KeyMapString>Paladin - Retribution</KeyMapString>
-                  <MappedKeyString>DPS Rotation</MappedKeyString>
-                </MappedKey>
-                <Enable>0</Enable>
-              </MappedKeyAction>
-            </Actions>
-          </Step>
-          <Step>
-            <Actions>
-              <MappedKeyAction xsi:type="WoWMacroRefAction">
-                <UseCustomModifiers />
-                <WoWMacro>
-                  <WoWMacroSetString>Paladin</WoWMacroSetString>
-                  <WoWMacroString>Crusader Strike</WoWMacroString>
-                </WoWMacro>
-              </MappedKeyAction>
-              <MappedKeyAction xsi:type="MappedKeyStepAction">
-                <MappedKey>
-                  <KeyMapString>Paladin - Retribution</KeyMapString>
-                  <MappedKeyString>DPS Rotation</MappedKeyString>
-                </MappedKey>
-                <Action>Set</Action>
-              </MappedKeyAction>
-              <MappedKeyAction xsi:type="MappedKeyStepStateAction">
-                <ActionTimer>
-                  <PoolName>Crusader Strike CD</PoolName>
-                  <Seconds>5.5</Seconds>
-                  <Enabled>true</Enabled>
-                </ActionTimer>
-                <Target>self</Target>
-                <MappedKey>
-                  <KeyMapString>Paladin - Retribution</KeyMapString>
-                  <MappedKeyString>DPS Rotation</MappedKeyString>
-                </MappedKey>
-                <Enable>1</Enable>
-              </MappedKeyAction>
-              <MappedKeyAction xsi:type="MappedKeyStepStateAction">
-                <Target>self</Target>
-                <MappedKey>
-                  <KeyMapString>Paladin - Retribution</KeyMapString>
-                  <MappedKeyString>DPS Rotation</MappedKeyString>
-                </MappedKey>
-                <Enable>0</Enable>
-              </MappedKeyAction>
-            </Actions>
-          </Step>
-          <Step>
-            <Actions>
-              <MappedKeyAction xsi:type="WoWMacroRefAction">
-                <UseCustomModifiers />
-                <WoWMacro>
-                  <WoWMacroSetString>Paladin</WoWMacroSetString>
-                  <WoWMacroString>Avenging Wrath</WoWMacroString>
-                </WoWMacro>
-              </MappedKeyAction>
-              <MappedKeyAction xsi:type="MappedKeyStepAction">
-                <MappedKey>
-                  <KeyMapString>Paladin - Retribution</KeyMapString>
-                  <MappedKeyString>DPS Rotation</MappedKeyString>
-                </MappedKey>
-                <Action>Set</Action>
-              </MappedKeyAction>
-              <MappedKeyAction xsi:type="MappedKeyStepStateAction">
-                <ActionTimer>
-                  <PoolName>Avenging Wrath CD</PoolName>
-                  <Seconds>120</Seconds>
-                  <Enabled>true</Enabled>
-                </ActionTimer>
-                <Target>self</Target>
-                <MappedKey>
-                  <KeyMapString>Paladin - Retribution</KeyMapString>
-                  <MappedKeyString>DPS Rotation</MappedKeyString>
-                </MappedKey>
-                <Enable>1</Enable>
-              </MappedKeyAction>
-              <MappedKeyAction xsi:type="MappedKeyStepStateAction">
-                <Target>self</Target>
-                <MappedKey>
-                  <KeyMapString>Paladin - Retribution</KeyMapString>
-                  <MappedKeyString>DPS Rotation</MappedKeyString>
-                </MappedKey>
-                <Enable>0</Enable>
-              </MappedKeyAction>
-            </Actions>
-          </Step>
-          <Step>
-            <Actions>
-              <MappedKeyAction xsi:type="WoWMacroRefAction">
-                <UseCustomModifiers />
-                <WoWMacro>
-                  <WoWMacroSetString>Paladin</WoWMacroSetString>
-                  <WoWMacroString>Templars Verdict</WoWMacroString>
-                </WoWMacro>
-              </MappedKeyAction>
-              <MappedKeyAction xsi:type="MappedKeyStepAction">
-                <MappedKey>
-                  <KeyMapString>Paladin - Retribution</KeyMapString>
-                  <MappedKeyString>DPS Rotation</MappedKeyString>
-                </MappedKey>
-                <Action>Set</Action>
-              </MappedKeyAction>
-              <MappedKeyAction xsi:type="MappedKeyStepStateAction">
-                <ActionTimer>
-                  <PoolName>Global CD</PoolName>
-                  <Seconds>1.5</Seconds>
-                  <Enabled>true</Enabled>
-                </ActionTimer>
-                <Target>self</Target>
-                <MappedKey>
-                  <KeyMapString>Paladin - Retribution</KeyMapString>
-                  <MappedKeyString>DPS Rotation</MappedKeyString>
-                </MappedKey>
-                <Enable>1</Enable>
-              </MappedKeyAction>
-              <MappedKeyAction xsi:type="MappedKeyStepStateAction">
-                <Target>self</Target>
-                <MappedKey>
-                  <KeyMapString>Paladin - Retribution</KeyMapString>
-                  <MappedKeyString>DPS Rotation</MappedKeyString>
-                </MappedKey>
-                <Enable>0</Enable>
-              </MappedKeyAction>
-            </Actions>
-          </Step>
-          <Step>
-            <Actions>
-              <MappedKeyAction xsi:type="WoWMacroRefAction">
-                <UseCustomModifiers />
-                <WoWMacro>
-                  <WoWMacroSetString>Paladin</WoWMacroSetString>
-                  <WoWMacroString>Templars Verdict</WoWMacroString>
-                </WoWMacro>
-              </MappedKeyAction>
-              <MappedKeyAction xsi:type="MappedKeyStepStateAction">
-                <ActionTimer>
-                  <PoolName>Global CD</PoolName>
-                  <Seconds>1.5</Seconds>
-                  <Enabled>true</Enabled>
-                </ActionTimer>
-                <Target>self</Target>
-                <MappedKey>
-                  <KeyMapString>Paladin - Retribution</KeyMapString>
-                  <MappedKeyString>DPS Rotation</MappedKeyString>
-                </MappedKey>
-                <Enable>1</Enable>
-              </MappedKeyAction>
-              <MappedKeyAction xsi:type="MappedKeyStepStateAction">
-                <Target>self</Target>
-                <MappedKey>
-                  <KeyMapString>Paladin - Retribution</KeyMapString>
-                  <MappedKeyString>DPS Rotation</MappedKeyString>
-                </MappedKey>
-                <Enable>0</Enable>
-              </MappedKeyAction>
-            </Actions>
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
-        <Name>AOE DPS Rotation</Name>
-        <Steps>
-          <Step>
-            <Actions>
-              <MappedKeyAction xsi:type="WoWMacroRefAction">
-                <UseCustomModifiers />
-                <WoWMacro>
-                  <WoWMacroSetString>Paladin</WoWMacroSetString>
-                  <WoWMacroString>Consecration</WoWMacroString>
-                </WoWMacro>
-              </MappedKeyAction>
-              <MappedKeyAction xsi:type="MappedKeyStepStateAction">
-                <ActionTimer>
-                  <PoolName>Consecration CD</PoolName>
-                  <Seconds>5.5</Seconds>
-                  <Enabled>true</Enabled>
-                </ActionTimer>
-                <Target>self</Target>
-                <MappedKey>
-                  <KeyMapString>Paladin - Retribution</KeyMapString>
-                  <MappedKeyString>DPS Rotation</MappedKeyString>
-                </MappedKey>
-                <Enable>1</Enable>
-              </MappedKeyAction>
-              <MappedKeyAction xsi:type="MappedKeyStepStateAction">
-                <Target>self</Target>
-                <MappedKey>
-                  <KeyMapString>Paladin - Retribution</KeyMapString>
-                  <MappedKeyString>DPS Rotation</MappedKeyString>
-                </MappedKey>
-                <Enable>0</Enable>
-              </MappedKeyAction>
-            </Actions>
-          </Step>
-          <Step>
-            <Actions>
-              <MappedKeyAction xsi:type="WoWMacroRefAction">
-                <UseCustomModifiers />
-                <WoWMacro>
-                  <WoWMacroSetString>Paladin</WoWMacroSetString>
-                  <WoWMacroString>Crusader Strike</WoWMacroString>
-                </WoWMacro>
-              </MappedKeyAction>
-              <MappedKeyAction xsi:type="MappedKeyStepStateAction">
-                <ActionTimer>
-                  <PoolName>Crusader Strike CD</PoolName>
-                  <Seconds>5.5</Seconds>
-                  <Enabled>true</Enabled>
-                </ActionTimer>
-                <Target>self</Target>
-                <MappedKey>
-                  <KeyMapString>Paladin - Retribution</KeyMapString>
-                  <MappedKeyString>DPS Rotation</MappedKeyString>
-                </MappedKey>
-                <Enable>1</Enable>
-              </MappedKeyAction>
-              <MappedKeyAction xsi:type="MappedKeyStepStateAction">
-                <Target>self</Target>
-                <MappedKey>
-                  <KeyMapString>Paladin - Retribution</KeyMapString>
-                  <MappedKeyString>DPS Rotation</MappedKeyString>
-                </MappedKey>
-                <Enable>0</Enable>
-              </MappedKeyAction>
-            </Actions>
-          </Step>
-          <Step>
-            <Actions>
-              <MappedKeyAction xsi:type="WoWMacroRefAction">
-                <UseCustomModifiers />
-                <WoWMacro>
-                  <WoWMacroSetString>Paladin</WoWMacroSetString>
-                  <WoWMacroString>Judgement</WoWMacroString>
-                </WoWMacro>
-              </MappedKeyAction>
-              <MappedKeyAction xsi:type="MappedKeyStepStateAction">
-                <ActionTimer>
-                  <PoolName>Judgement CD</PoolName>
-                  <Seconds>11</Seconds>
-                  <Enabled>true</Enabled>
-                </ActionTimer>
-                <Target>self</Target>
-                <MappedKey>
-                  <KeyMapString>Paladin - Retribution</KeyMapString>
-                  <MappedKeyString>DPS Rotation</MappedKeyString>
-                </MappedKey>
-                <Enable>1</Enable>
-              </MappedKeyAction>
-              <MappedKeyAction xsi:type="MappedKeyStepStateAction">
-                <Target>self</Target>
-                <MappedKey>
-                  <KeyMapString>Paladin - Retribution</KeyMapString>
-                  <MappedKeyString>DPS Rotation</MappedKeyString>
-                </MappedKey>
-                <Enable>0</Enable>
-              </MappedKeyAction>
-            </Actions>
-          </Step>
-          <Step>
-            <Actions>
-              <MappedKeyAction xsi:type="WoWMacroRefAction">
-                <UseCustomModifiers />
-                <WoWMacro>
-                  <WoWMacroSetString>Paladin</WoWMacroSetString>
-                  <WoWMacroString>Blade of Justice</WoWMacroString>
-                </WoWMacro>
-              </MappedKeyAction>
-              <MappedKeyAction xsi:type="MappedKeyStepStateAction">
-                <ActionTimer>
-                  <PoolName>Blade of Justice CD</PoolName>
-                  <Seconds>10</Seconds>
-                  <Enabled>true</Enabled>
-                </ActionTimer>
-                <Target>self</Target>
-                <MappedKey>
-                  <KeyMapString>Paladin - Retribution</KeyMapString>
-                  <MappedKeyString>DPS Rotation</MappedKeyString>
-                </MappedKey>
-                <Enable>1</Enable>
-              </MappedKeyAction>
-              <MappedKeyAction xsi:type="MappedKeyStepStateAction">
-                <Target>self</Target>
-                <MappedKey>
-                  <KeyMapString>Paladin - Retribution</KeyMapString>
-                  <MappedKeyString>DPS Rotation</MappedKeyString>
-                </MappedKey>
-                <Enable>0</Enable>
-              </MappedKeyAction>
-            </Actions>
-          </Step>
-          <Step>
-            <Actions>
-              <MappedKeyAction xsi:type="WoWMacroRefAction">
-                <UseCustomModifiers />
-                <WoWMacro>
-                  <WoWMacroSetString>Paladin</WoWMacroSetString>
-                  <WoWMacroString>Crusader Strike</WoWMacroString>
-                </WoWMacro>
-              </MappedKeyAction>
-              <MappedKeyAction xsi:type="MappedKeyStepStateAction">
-                <ActionTimer>
-                  <PoolName>Crusader Strike CD</PoolName>
-                  <Seconds>5.5</Seconds>
-                  <Enabled>true</Enabled>
-                </ActionTimer>
-                <Target>self</Target>
-                <MappedKey>
-                  <KeyMapString>Paladin - Retribution</KeyMapString>
-                  <MappedKeyString>DPS Rotation</MappedKeyString>
-                </MappedKey>
-                <Enable>1</Enable>
-              </MappedKeyAction>
-              <MappedKeyAction xsi:type="MappedKeyStepStateAction">
-                <Target>self</Target>
-                <MappedKey>
-                  <KeyMapString>Paladin - Retribution</KeyMapString>
-                  <MappedKeyString>DPS Rotation</MappedKeyString>
-                </MappedKey>
-                <Enable>0</Enable>
-              </MappedKeyAction>
-            </Actions>
-          </Step>
-          <Step>
-            <Actions>
-              <MappedKeyAction xsi:type="WoWMacroRefAction">
-                <UseCustomModifiers />
-                <WoWMacro>
-                  <WoWMacroSetString>Paladin</WoWMacroSetString>
-                  <WoWMacroString>Avenging Wrath</WoWMacroString>
-                </WoWMacro>
-              </MappedKeyAction>
-              <MappedKeyAction xsi:type="MappedKeyStepStateAction">
-                <ActionTimer>
-                  <PoolName>Avenging Wrath CD</PoolName>
-                  <Seconds>120</Seconds>
-                  <Enabled>true</Enabled>
-                </ActionTimer>
-                <Target>self</Target>
-                <MappedKey>
-                  <KeyMapString>Paladin - Retribution</KeyMapString>
-                  <MappedKeyString>DPS Rotation</MappedKeyString>
-                </MappedKey>
-                <Enable>1</Enable>
-              </MappedKeyAction>
-              <MappedKeyAction xsi:type="MappedKeyStepStateAction">
-                <Target>self</Target>
-                <MappedKey>
-                  <KeyMapString>Paladin - Retribution</KeyMapString>
-                  <MappedKeyString>DPS Rotation</MappedKeyString>
-                </MappedKey>
-                <Enable>0</Enable>
-              </MappedKeyAction>
-            </Actions>
-          </Step>
-          <Step>
-            <Actions>
-              <MappedKeyAction xsi:type="WoWMacroRefAction">
-                <UseCustomModifiers />
-                <WoWMacro>
-                  <WoWMacroSetString>Paladin</WoWMacroSetString>
-                  <WoWMacroString>Divine Storm</WoWMacroString>
-                </WoWMacro>
-              </MappedKeyAction>
-              <MappedKeyAction xsi:type="MappedKeyStepStateAction">
-                <ActionTimer>
-                  <PoolName>Global CD</PoolName>
-                  <Seconds>1.5</Seconds>
-                  <Enabled>true</Enabled>
-                </ActionTimer>
-                <Target>self</Target>
-                <MappedKey>
-                  <KeyMapString>Paladin - Retribution</KeyMapString>
-                  <MappedKeyString>AOE DPS Rotation</MappedKeyString>
-                </MappedKey>
-                <Enable>1</Enable>
-              </MappedKeyAction>
-              <MappedKeyAction xsi:type="MappedKeyStepStateAction">
-                <Target>self</Target>
-                <MappedKey>
-                  <KeyMapString>Paladin - Retribution</KeyMapString>
-                  <MappedKeyString>DPS Rotation</MappedKeyString>
-                </MappedKey>
-                <Enable>0</Enable>
-              </MappedKeyAction>
-            </Actions>
-          </Step>
-          <Step>
-            <Actions>
-              <MappedKeyAction xsi:type="WoWMacroRefAction">
-                <UseCustomModifiers />
-                <WoWMacro>
-                  <WoWMacroSetString>Paladin</WoWMacroSetString>
-                  <WoWMacroString>Divine Storm</WoWMacroString>
-                </WoWMacro>
-              </MappedKeyAction>
-              <MappedKeyAction xsi:type="MappedKeyStepStateAction">
-                <ActionTimer>
-                  <PoolName>Global CD</PoolName>
-                  <Seconds>1.5</Seconds>
-                  <Enabled>true</Enabled>
-                </ActionTimer>
-                <Target>self</Target>
-                <MappedKey>
-                  <KeyMapString>Paladin - Retribution</KeyMapString>
-                  <MappedKeyString>DPS Rotation</MappedKeyString>
-                </MappedKey>
-                <Enable>1</Enable>
-              </MappedKeyAction>
-              <MappedKeyAction xsi:type="MappedKeyStepStateAction">
-                <Target>self</Target>
-                <MappedKey>
-                  <KeyMapString>Paladin - Retribution</KeyMapString>
-                  <MappedKeyString>DPS Rotation</MappedKeyString>
-                </MappedKey>
-                <Enable>0</Enable>
-              </MappedKeyAction>
-            </Actions>
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
-        <Name>Ground-Target AOE (Damage)</Name>
-        <Steps>
-          <Step>
-            <Actions />
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
-        <Name>Ground-Target AOE (Healing)</Name>
-        <Steps>
-          <Step>
-            <Actions />
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
-        <Name>Interrupt</Name>
-        <Steps>
-          <Step>
-            <Actions>
-              <MappedKeyAction xsi:type="WoWMacroRefAction">
-                <UseCustomModifiers />
-                <WoWMacro>
-                  <WoWMacroSetString>Paladin</WoWMacroSetString>
-                  <WoWMacroString>Rebuke</WoWMacroString>
-                </WoWMacro>
-              </MappedKeyAction>
-            </Actions>
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
-        <Name>Stun</Name>
-        <Steps>
-          <Step>
-            <Actions>
-              <MappedKeyAction xsi:type="WoWMacroRefAction">
-                <UseCustomModifiers />
-                <WoWMacro>
-                  <WoWMacroSetString>Paladin</WoWMacroSetString>
-                  <WoWMacroString>Hammer of Justice</WoWMacroString>
-                </WoWMacro>
-              </MappedKeyAction>
-            </Actions>
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
-        <Name>__Healing__________________</Name>
-        <Steps>
-          <Step>
-            <Actions />
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
-        <Name>Left Click</Name>
-        <Steps>
-          <Step>
-            <Actions>
-              <MappedKeyAction xsi:type="WoWMacroRefAction">
-                <UseCustomModifiers />
-                <WoWMacro>
-                  <WoWMacroSetString>Paladin</WoWMacroSetString>
-                  <WoWMacroString>Flash of Light (Mouseover)</WoWMacroString>
-                </WoWMacro>
-              </MappedKeyAction>
-            </Actions>
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
-        <Name>Left Click [+A]</Name>
-        <Steps />
-      </MappedKey>
-      <MappedKey>
-        <Name>Left Click [+C]</Name>
-        <Steps />
-      </MappedKey>
-      <MappedKey>
-        <Name>Left Click [+S]</Name>
-        <Steps />
-      </MappedKey>
-      <MappedKey>
-        <Name>Left Click [+AS]</Name>
-        <Steps />
-      </MappedKey>
-      <MappedKey>
-        <Name>----------------------------------------------------</Name>
-        <Steps>
-          <Step>
-            <Actions />
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
-        <Name>Right Click</Name>
-        <Steps />
-      </MappedKey>
-      <MappedKey>
-        <Name>Right Click [+A]</Name>
-        <Steps />
-      </MappedKey>
-      <MappedKey>
-        <Name>Right Click [+C]</Name>
-        <Steps />
-      </MappedKey>
-      <MappedKey>
-        <Name>Right Click [+S]</Name>
-        <Steps />
-      </MappedKey>
-      <MappedKey>
-        <Name>Right Click [+AS]</Name>
-        <Steps />
-      </MappedKey>
-      <MappedKey>
-        <Name>---------------------------------------------------- </Name>
-        <Steps>
-          <Step>
-            <Actions />
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
-        <Name>Middle Click</Name>
-        <Steps />
-      </MappedKey>
-      <MappedKey>
-        <Name>Middle Click [+A]</Name>
-        <Steps />
-      </MappedKey>
-      <MappedKey>
-        <Name>Middle Click [+C]</Name>
-        <Steps />
-      </MappedKey>
-      <MappedKey>
-        <Name>Middle Click [+S]</Name>
-        <Steps />
-      </MappedKey>
-      <MappedKey>
-        <Name>Middle Click [+AS]</Name>
-        <Steps />
-      </MappedKey>
-      <MappedKey>
-        <Name>----------------------------------------------------  </Name>
-        <Steps>
-          <Step>
-            <Actions />
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
-        <Name>Wheel Up</Name>
-        <Steps />
-      </MappedKey>
-      <MappedKey>
-        <Name>Wheel Up [+A]</Name>
-        <Steps />
-      </MappedKey>
-      <MappedKey>
-        <Name>Wheel Up [+C]</Name>
-        <Steps />
-      </MappedKey>
-      <MappedKey>
-        <Name>Wheel Up [+S]</Name>
-        <Steps />
-      </MappedKey>
-      <MappedKey>
-        <Name>Wheel Up [+AS]</Name>
-        <Steps />
-      </MappedKey>
-      <MappedKey>
-        <Name>----------------------------------------------------   </Name>
-        <Steps>
-          <Step>
-            <Actions />
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
-        <Name>Wheel Down</Name>
-        <Steps />
-      </MappedKey>
-      <MappedKey>
-        <Name>Wheel Down [+A]</Name>
-        <Steps />
-      </MappedKey>
-      <MappedKey>
-        <Name>Wheel Down [+C]</Name>
-        <Steps />
-      </MappedKey>
-      <MappedKey>
-        <Name>Wheel Down [+S]</Name>
-        <Steps />
-      </MappedKey>
-      <MappedKey>
-        <Name>Wheel Down [+AS]</Name>
-        <Steps />
-      </MappedKey>
-      <MappedKey>
-        <Name>----------------------------------------------------    </Name>
-        <Steps>
-          <Step>
-            <Actions />
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
-        <Name>Tilt Wheel Left</Name>
-        <Steps>
-          <Step>
-            <Actions>
-              <MappedKeyAction xsi:type="WoWMacroRefAction">
-                <UseCustomModifiers />
-                <WoWMacro>
-                  <WoWMacroSetString>Paladin</WoWMacroSetString>
-                  <WoWMacroString>Flash of Light (Tank)</WoWMacroString>
-                </WoWMacro>
-              </MappedKeyAction>
-            </Actions>
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
-        <Name>Tilt Wheel Left [+A]</Name>
-        <Steps />
-      </MappedKey>
-      <MappedKey>
-        <Name>Tilt Wheel Left [+C]</Name>
-        <Steps />
-      </MappedKey>
-      <MappedKey>
-        <Name>Tilt Wheel Left [+S]</Name>
-        <Steps />
-      </MappedKey>
-      <MappedKey>
-        <Name>Tilt Wheel Left [+AS]</Name>
-        <Steps />
-      </MappedKey>
-      <MappedKey>
-        <Name>----------------------------------------------------     </Name>
-        <Steps>
-          <Step>
-            <Actions />
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
-        <Name>Tilt Wheel Right</Name>
-        <Steps>
-          <Step>
-            <Actions>
-              <MappedKeyAction xsi:type="WoWMacroRefAction">
-                <UseCustomModifiers />
-                <WoWMacro>
-                  <WoWMacroSetString>Paladin</WoWMacroSetString>
-                  <WoWMacroString>Flash of Light (Tank)</WoWMacroString>
-                </WoWMacro>
-              </MappedKeyAction>
-            </Actions>
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
-        <Name>Tilt Wheel Right [+A]</Name>
-        <Steps />
-      </MappedKey>
-      <MappedKey>
-        <Name>Tilt Wheel Right [+C]</Name>
-        <Steps />
-      </MappedKey>
-      <MappedKey>
-        <Name>Tilt Wheel Right [+S]</Name>
-        <Steps />
-      </MappedKey>
-      <MappedKey>
-        <Name>Tilt Wheel Right [+AS]</Name>
-        <Steps />
-      </MappedKey>
-      <MappedKey>
-        <Name>__Initialization_____________________________________</Name>
-        <Steps>
-          <Step>
-            <Actions />
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
-        <Name>____ - Initialize</Name>
-        <Steps>
-          <Step>
-            <Actions>
-              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-                <KeyMapString>Paladin - Base</KeyMapString>
-                <MappedKeyString>____ - Initialize</MappedKeyString>
-              </MappedKeyAction>
-              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-                <KeyMapString>ISB42 - Action Target Group</KeyMapString>
-                <MappedKeyString>Melee - Join</MappedKeyString>
-              </MappedKeyAction>
-              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-                <KeyMapString>ISB42 - Action Target Group</KeyMapString>
-                <MappedKeyString>Healer - Tertiary - Join</MappedKeyString>
-              </MappedKeyAction>
-              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-                <KeyMapString>ISB42 - Action Target Group</KeyMapString>
-                <MappedKeyString>Interrupt - Join</MappedKeyString>
-              </MappedKeyAction>
-              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-                <KeyMapString>ISB42 - Action Target Group</KeyMapString>
-                <MappedKeyString>Stun - Join</MappedKeyString>
-              </MappedKeyAction>
-            </Actions>
-          </Step>
-        </Steps>
-      </MappedKey>
-    </Mappings>
-  </KeyMap>
-  <KeyMap>
-    <Name>--     </Name>
-    <Mappings />
-  </KeyMap>
-  <KeyMap>
-    <Name>Warrior - Base</Name>
-    <Mappings>
-      <MappedKey>
-        <Name>__Initialization_____________________________________</Name>
-        <Steps>
-          <Step>
-            <Actions />
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
-        <Name>____ - Initialize</Name>
-        <Steps>
-          <Step>
-            <Actions>
-              <MappedKeyAction xsi:type="TargetGroupAction">
-                <Action>Join</Action>
-                <RelayGroupString>Warrior</RelayGroupString>
-              </MappedKeyAction>
-              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-                <MappedKeyString />
-              </MappedKeyAction>
-            </Actions>
-          </Step>
-        </Steps>
-      </MappedKey>
-    </Mappings>
-  </KeyMap>
-  <KeyMap>
-    <Name>Warrior - Arms</Name>
-    <Mappings>
-      <MappedKey>
-        <Name>Initiate Combat</Name>
-        <Steps>
-          <Step>
-            <Actions>
-              <MappedKeyAction xsi:type="MappedKeyStepAction">
-                <MappedKey>
-                  <KeyMapString>Warrior - Arms</KeyMapString>
-                  <MappedKeyString>DPS Rotation</MappedKeyString>
-                </MappedKey>
-                <Action>Set</Action>
-              </MappedKeyAction>
-            </Actions>
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
-        <Name>DPS Rotation</Name>
-        <ResetTimer>1.5</ResetTimer>
-        <Steps>
-          <Step>
-            <Actions>
-              <MappedKeyAction xsi:type="WoWMacroRefAction">
-                <UseCustomModifiers />
-                <WoWMacro>
-                  <WoWMacroSetString>Warrior</WoWMacroSetString>
-                  <WoWMacroString>Charge</WoWMacroString>
-                </WoWMacro>
-              </MappedKeyAction>
-              <MappedKeyAction xsi:type="WoWMacroRefAction">
-                <UseCustomModifiers />
-                <WoWMacro>
-                  <WoWMacroSetString>General</WoWMacroSetString>
-                  <WoWMacroString>Attack</WoWMacroString>
-                </WoWMacro>
-              </MappedKeyAction>
-            </Actions>
-          </Step>
-          <Step>
-            <Actions>
-              <MappedKeyAction xsi:type="WoWMacroRefAction">
-                <UseCustomModifiers />
-                <WoWMacro>
-                  <WoWMacroSetString>Warrior</WoWMacroSetString>
-                  <WoWMacroString>Rend</WoWMacroString>
-                </WoWMacro>
-              </MappedKeyAction>
-              <MappedKeyAction xsi:type="MappedKeyStepStateAction">
-                <ActionTimer>
-                  <PoolName>Rend CD</PoolName>
-                  <Seconds>15</Seconds>
-                  <Enabled>true</Enabled>
-                </ActionTimer>
-                <Target>self</Target>
-                <MappedKey>
-                  <KeyMapString>Warrior - Arms</KeyMapString>
-                  <MappedKeyString>DPS Rotation</MappedKeyString>
-                </MappedKey>
-                <Enable>1</Enable>
-              </MappedKeyAction>
-              <MappedKeyAction xsi:type="MappedKeyStepStateAction">
-                <Target>self</Target>
-                <MappedKey>
-                  <KeyMapString>Warrior - Arms</KeyMapString>
-                  <MappedKeyString>DPS Rotation</MappedKeyString>
-                </MappedKey>
-                <Enable>0</Enable>
-              </MappedKeyAction>
-            </Actions>
-          </Step>
-          <Step>
-            <Actions>
-              <MappedKeyAction xsi:type="WoWMacroRefAction">
-                <UseCustomModifiers />
-                <WoWMacro>
-                  <WoWMacroSetString>Warrior</WoWMacroSetString>
-                  <WoWMacroString>Hamstring</WoWMacroString>
-                </WoWMacro>
-              </MappedKeyAction>
-            </Actions>
-          </Step>
-          <Step>
-            <Actions>
-              <MappedKeyAction xsi:type="WoWMacroRefAction">
-                <UseCustomModifiers />
-                <WoWMacro>
-                  <WoWMacroSetString>Warrior</WoWMacroSetString>
-                  <WoWMacroString>Bloodrage</WoWMacroString>
-                </WoWMacro>
-              </MappedKeyAction>
-              <MappedKeyAction xsi:type="MappedKeyStepStateAction">
-                <ActionTimer>
-                  <PoolName>Bloodrage CD</PoolName>
-                  <Seconds>60</Seconds>
-                  <Enabled>true</Enabled>
-                </ActionTimer>
-                <Target>self</Target>
-                <MappedKey>
-                  <KeyMapString>Warrior - Arms</KeyMapString>
-                  <MappedKeyString>DPS Rotation</MappedKeyString>
-                </MappedKey>
-                <Enable>1</Enable>
-              </MappedKeyAction>
-              <MappedKeyAction xsi:type="MappedKeyStepStateAction">
-                <Target>self</Target>
-                <MappedKey>
-                  <KeyMapString>Warrior - Arms</KeyMapString>
-                  <MappedKeyString>DPS Rotation</MappedKeyString>
-                </MappedKey>
-                <Enable>0</Enable>
-              </MappedKeyAction>
-            </Actions>
-          </Step>
-          <Step>
-            <Disabled>true</Disabled>
-            <Actions>
-              <MappedKeyAction xsi:type="WoWMacroRefAction">
-                <UseCustomModifiers />
-                <WoWMacro>
-                  <WoWMacroSetString>Warrior</WoWMacroSetString>
-                  <WoWMacroString>Sunder Armor</WoWMacroString>
-                </WoWMacro>
-              </MappedKeyAction>
-              <MappedKeyAction xsi:type="MappedKeyStepStateAction">
-                <ActionTimer>
-                  <PoolName>Sunder Armor CD</PoolName>
-                  <Seconds>30</Seconds>
-                  <Enabled>true</Enabled>
-                </ActionTimer>
-                <Target>self</Target>
-                <MappedKey>
-                  <KeyMapString>Warrior - Arms</KeyMapString>
-                  <MappedKeyString>DPS Rotation</MappedKeyString>
-                </MappedKey>
-                <Enable>1</Enable>
-              </MappedKeyAction>
-              <MappedKeyAction xsi:type="MappedKeyStepStateAction">
-                <Target>self</Target>
-                <MappedKey>
-                  <KeyMapString>Warrior - Arms</KeyMapString>
-                  <MappedKeyString>DPS Rotation</MappedKeyString>
-                </MappedKey>
-                <Enable>0</Enable>
-              </MappedKeyAction>
-            </Actions>
-          </Step>
-          <Step>
-            <Actions>
-              <MappedKeyAction xsi:type="WoWMacroRefAction">
-                <UseCustomModifiers />
-                <WoWMacro>
-                  <WoWMacroSetString>Warrior</WoWMacroSetString>
-                  <WoWMacroString>Battle Shout</WoWMacroString>
-                </WoWMacro>
-              </MappedKeyAction>
-              <MappedKeyAction xsi:type="MappedKeyStepStateAction">
-                <ActionTimer>
-                  <PoolName>Battle Shout CD</PoolName>
-                  <Seconds>120</Seconds>
-                  <Enabled>true</Enabled>
-                </ActionTimer>
-                <Target>self</Target>
-                <MappedKey>
-                  <KeyMapString>Warrior - Arms</KeyMapString>
-                  <MappedKeyString>DPS Rotation</MappedKeyString>
-                </MappedKey>
-                <Enable>1</Enable>
-              </MappedKeyAction>
-              <MappedKeyAction xsi:type="MappedKeyStepStateAction">
-                <Target>self</Target>
-                <MappedKey>
-                  <KeyMapString>Warrior - Arms</KeyMapString>
-                  <MappedKeyString>DPS Rotation</MappedKeyString>
-                </MappedKey>
-                <Enable>0</Enable>
-              </MappedKeyAction>
-            </Actions>
-          </Step>
-          <Step>
-            <Actions>
-              <MappedKeyAction xsi:type="WoWMacroRefAction">
-                <UseCustomModifiers />
-                <WoWMacro>
-                  <WoWMacroSetString>Warrior</WoWMacroSetString>
-                  <WoWMacroString>Overpower</WoWMacroString>
-                </WoWMacro>
-              </MappedKeyAction>
-              <MappedKeyAction xsi:type="WoWMacroRefAction">
-                <UseCustomModifiers />
-                <WoWMacro>
-                  <WoWMacroSetString>Warrior</WoWMacroSetString>
-                  <WoWMacroString>Heroic Strike</WoWMacroString>
-                </WoWMacro>
-              </MappedKeyAction>
-            </Actions>
-          </Step>
-          <Step>
-            <Actions>
-              <MappedKeyAction xsi:type="WoWMacroRefAction">
-                <UseCustomModifiers />
-                <WoWMacro>
-                  <WoWMacroSetString>Warrior</WoWMacroSetString>
-                  <WoWMacroString>Heroic Strike</WoWMacroString>
-                </WoWMacro>
-              </MappedKeyAction>
-            </Actions>
-          </Step>
-          <Step>
-            <Actions>
-              <MappedKeyAction xsi:type="WoWMacroRefAction">
-                <UseCustomModifiers />
-                <WoWMacro>
-                  <WoWMacroSetString>Warrior</WoWMacroSetString>
-                  <WoWMacroString>Thunder Clap</WoWMacroString>
-                </WoWMacro>
-              </MappedKeyAction>
-              <MappedKeyAction xsi:type="MappedKeyStepStateAction">
-                <ActionTimer>
-                  <PoolName>Thunder Clap CD</PoolName>
-                  <Seconds>15</Seconds>
-                  <Enabled>true</Enabled>
-                </ActionTimer>
-                <Target>self</Target>
-                <MappedKey>
-                  <KeyMapString>Warrior - Arms</KeyMapString>
-                  <MappedKeyString>DPS Rotation</MappedKeyString>
-                </MappedKey>
-                <Enable>1</Enable>
-              </MappedKeyAction>
-              <MappedKeyAction xsi:type="MappedKeyStepStateAction">
-                <Target>self</Target>
-                <MappedKey>
-                  <KeyMapString>Warrior - Arms</KeyMapString>
-                  <MappedKeyString>DPS Rotation</MappedKeyString>
-                </MappedKey>
-                <Enable>0</Enable>
-              </MappedKeyAction>
-            </Actions>
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
-        <Name>AOE DPS Rotation</Name>
-        <Steps>
-          <Step>
-            <Actions>
-              <MappedKeyAction xsi:type="WoWMacroRefAction">
-                <UseCustomModifiers />
-                <WoWMacro>
-                  <WoWMacroSetString>Warrior</WoWMacroSetString>
-                  <WoWMacroString>Cleave</WoWMacroString>
-                </WoWMacro>
-              </MappedKeyAction>
-            </Actions>
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
-        <Name>Taunt</Name>
-        <Steps>
-          <Step>
-            <Actions>
-              <MappedKeyAction xsi:type="WoWMacroRefAction">
-                <UseCustomModifiers />
-                <WoWMacro>
-                  <WoWMacroSetString>Warrior</WoWMacroSetString>
-                  <WoWMacroString>Taunt</WoWMacroString>
-                </WoWMacro>
-              </MappedKeyAction>
-            </Actions>
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
-        <Name>Interrupt</Name>
-        <Steps>
-          <Step>
-            <Actions>
-              <MappedKeyAction xsi:type="WoWMacroRefAction">
-                <UseCustomModifiers />
-                <WoWMacro>
-                  <WoWMacroSetString>Warrior</WoWMacroSetString>
-                  <WoWMacroString>Pummel</WoWMacroString>
-                </WoWMacro>
-              </MappedKeyAction>
-            </Actions>
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
-        <Name>Stun</Name>
-        <Steps>
-          <Step>
-            <Actions />
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
-        <Name>Root</Name>
-        <Steps>
-          <Step>
-            <Actions />
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
-        <Name>Snare</Name>
-        <Steps>
-          <Step>
-            <Actions>
-              <MappedKeyAction xsi:type="WoWMacroRefAction">
-                <UseCustomModifiers />
-                <WoWMacro>
-                  <WoWMacroSetString>Warrior</WoWMacroSetString>
-                  <WoWMacroString>Hamstring</WoWMacroString>
-                </WoWMacro>
-              </MappedKeyAction>
-            </Actions>
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
-        <Name>__Initialization_____________________________________</Name>
-        <Steps>
-          <Step>
-            <Actions />
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
-        <Name>____ - Initialize</Name>
-        <Steps>
-          <Step>
-            <Actions>
-              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-                <KeyMapString>Warrior - Base</KeyMapString>
-                <MappedKeyString>____ - Initialize</MappedKeyString>
-              </MappedKeyAction>
-              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-                <KeyMapString>ISB42 - Action Target Group</KeyMapString>
-                <MappedKeyString>Pull - Join</MappedKeyString>
-              </MappedKeyAction>
-            </Actions>
-          </Step>
-        </Steps>
-      </MappedKey>
-    </Mappings>
-  </KeyMap>
-  <KeyMap>
-    <Name>Warrior - Fury</Name>
-    <Mappings>
-      <MappedKey>
-        <Name>Initiate Combat</Name>
-        <Steps>
-          <Step>
-            <Actions>
-              <MappedKeyAction xsi:type="WoWMacroRefAction">
-                <UseCustomModifiers />
-                <WoWMacro>
-                  <WoWMacroSetString>Warrior</WoWMacroSetString>
-                  <WoWMacroString>Charge</WoWMacroString>
-                </WoWMacro>
-              </MappedKeyAction>
-            </Actions>
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
-        <Name>DPS Rotation</Name>
-        <Steps>
-          <Step>
-            <Actions>
-              <MappedKeyAction xsi:type="WoWMacroRefAction">
-                <UseCustomModifiers />
-                <WoWMacro>
-                  <WoWMacroSetString>Warrior</WoWMacroSetString>
-                  <WoWMacroString>Charge</WoWMacroString>
-                </WoWMacro>
-              </MappedKeyAction>
-              <MappedKeyAction xsi:type="WoWMacroRefAction">
-                <UseCustomModifiers />
-                <WoWMacro>
-                  <WoWMacroSetString>General</WoWMacroSetString>
-                  <WoWMacroString>Attack</WoWMacroString>
-                </WoWMacro>
-              </MappedKeyAction>
-            </Actions>
-          </Step>
-          <Step>
-            <Actions>
-              <MappedKeyAction xsi:type="WoWMacroRefAction">
-                <UseCustomModifiers />
-                <WoWMacro>
-                  <WoWMacroSetString>Warrior</WoWMacroSetString>
-                  <WoWMacroString>Rend</WoWMacroString>
-                </WoWMacro>
-              </MappedKeyAction>
-              <MappedKeyAction xsi:type="MappedKeyStepStateAction">
-                <ActionTimer>
-                  <PoolName>Rend CD</PoolName>
-                  <Seconds>15</Seconds>
-                  <Enabled>true</Enabled>
-                </ActionTimer>
-                <Target>self</Target>
-                <MappedKey>
-                  <KeyMapString>Warrior - Arms</KeyMapString>
-                  <MappedKeyString>DPS Rotation</MappedKeyString>
-                </MappedKey>
-                <Enable>1</Enable>
-              </MappedKeyAction>
-              <MappedKeyAction xsi:type="MappedKeyStepStateAction">
-                <Target>self</Target>
-                <MappedKey>
-                  <KeyMapString>Warrior - Arms</KeyMapString>
-                  <MappedKeyString>DPS Rotation</MappedKeyString>
-                </MappedKey>
-                <Enable>0</Enable>
-              </MappedKeyAction>
-            </Actions>
-          </Step>
-          <Step>
-            <Actions>
-              <MappedKeyAction xsi:type="WoWMacroRefAction">
-                <UseCustomModifiers />
-                <WoWMacro>
-                  <WoWMacroSetString>Warrior</WoWMacroSetString>
-                  <WoWMacroString>Hamstring</WoWMacroString>
-                </WoWMacro>
-              </MappedKeyAction>
-            </Actions>
-          </Step>
-          <Step>
-            <Actions>
-              <MappedKeyAction xsi:type="WoWMacroRefAction">
-                <UseCustomModifiers />
-                <WoWMacro>
-                  <WoWMacroSetString>Warrior</WoWMacroSetString>
-                  <WoWMacroString>Bloodrage</WoWMacroString>
-                </WoWMacro>
-              </MappedKeyAction>
-              <MappedKeyAction xsi:type="MappedKeyStepStateAction">
-                <ActionTimer>
-                  <PoolName>Bloodrage CD</PoolName>
-                  <Seconds>60</Seconds>
-                  <Enabled>true</Enabled>
-                </ActionTimer>
-                <Target>self</Target>
-                <MappedKey>
-                  <KeyMapString>Warrior - Arms</KeyMapString>
-                  <MappedKeyString>DPS Rotation</MappedKeyString>
-                </MappedKey>
-                <Enable>1</Enable>
-              </MappedKeyAction>
-              <MappedKeyAction xsi:type="MappedKeyStepStateAction">
-                <Target>self</Target>
-                <MappedKey>
-                  <KeyMapString>Warrior - Arms</KeyMapString>
-                  <MappedKeyString>DPS Rotation</MappedKeyString>
-                </MappedKey>
-                <Enable>0</Enable>
-              </MappedKeyAction>
-            </Actions>
-          </Step>
-          <Step>
-            <Disabled>true</Disabled>
-            <Actions>
-              <MappedKeyAction xsi:type="WoWMacroRefAction">
-                <UseCustomModifiers />
-                <WoWMacro>
-                  <WoWMacroSetString>Warrior</WoWMacroSetString>
-                  <WoWMacroString>Sunder Armor</WoWMacroString>
-                </WoWMacro>
-              </MappedKeyAction>
-              <MappedKeyAction xsi:type="MappedKeyStepStateAction">
-                <ActionTimer>
-                  <PoolName>Sunder Armor CD</PoolName>
-                  <Seconds>30</Seconds>
-                  <Enabled>true</Enabled>
-                </ActionTimer>
-                <Target>self</Target>
-                <MappedKey>
-                  <KeyMapString>Warrior - Arms</KeyMapString>
-                  <MappedKeyString>DPS Rotation</MappedKeyString>
-                </MappedKey>
-                <Enable>1</Enable>
-              </MappedKeyAction>
-              <MappedKeyAction xsi:type="MappedKeyStepStateAction">
-                <Target>self</Target>
-                <MappedKey>
-                  <KeyMapString>Warrior - Arms</KeyMapString>
-                  <MappedKeyString>DPS Rotation</MappedKeyString>
-                </MappedKey>
-                <Enable>0</Enable>
-              </MappedKeyAction>
-            </Actions>
-          </Step>
-          <Step>
-            <Actions>
-              <MappedKeyAction xsi:type="WoWMacroRefAction">
-                <UseCustomModifiers />
-                <WoWMacro>
-                  <WoWMacroSetString>Warrior</WoWMacroSetString>
-                  <WoWMacroString>Battle Shout</WoWMacroString>
-                </WoWMacro>
-              </MappedKeyAction>
-              <MappedKeyAction xsi:type="MappedKeyStepStateAction">
-                <ActionTimer>
-                  <PoolName>Battle Shout CD</PoolName>
-                  <Seconds>120</Seconds>
-                  <Enabled>true</Enabled>
-                </ActionTimer>
-                <Target>self</Target>
-                <MappedKey>
-                  <KeyMapString>Warrior - Arms</KeyMapString>
-                  <MappedKeyString>DPS Rotation</MappedKeyString>
-                </MappedKey>
-                <Enable>1</Enable>
-              </MappedKeyAction>
-              <MappedKeyAction xsi:type="MappedKeyStepStateAction">
-                <Target>self</Target>
-                <MappedKey>
-                  <KeyMapString>Warrior - Arms</KeyMapString>
-                  <MappedKeyString>DPS Rotation</MappedKeyString>
-                </MappedKey>
-                <Enable>0</Enable>
-              </MappedKeyAction>
-            </Actions>
-          </Step>
-          <Step>
-            <Actions>
-              <MappedKeyAction xsi:type="WoWMacroRefAction">
-                <UseCustomModifiers />
-                <WoWMacro>
-                  <WoWMacroSetString>Warrior</WoWMacroSetString>
-                  <WoWMacroString>Overpower</WoWMacroString>
-                </WoWMacro>
-              </MappedKeyAction>
-              <MappedKeyAction xsi:type="WoWMacroRefAction">
-                <UseCustomModifiers />
-                <WoWMacro>
-                  <WoWMacroSetString>Warrior</WoWMacroSetString>
-                  <WoWMacroString>Heroic Strike</WoWMacroString>
-                </WoWMacro>
-              </MappedKeyAction>
-            </Actions>
-          </Step>
-          <Step>
-            <Actions>
-              <MappedKeyAction xsi:type="WoWMacroRefAction">
-                <UseCustomModifiers />
-                <WoWMacro>
-                  <WoWMacroSetString>Warrior</WoWMacroSetString>
-                  <WoWMacroString>Heroic Strike</WoWMacroString>
-                </WoWMacro>
-              </MappedKeyAction>
-            </Actions>
-          </Step>
-          <Step>
-            <Actions>
-              <MappedKeyAction xsi:type="WoWMacroRefAction">
-                <UseCustomModifiers />
-                <WoWMacro>
-                  <WoWMacroSetString>Warrior</WoWMacroSetString>
-                  <WoWMacroString>Thunder Clap</WoWMacroString>
-                </WoWMacro>
-              </MappedKeyAction>
-              <MappedKeyAction xsi:type="MappedKeyStepStateAction">
-                <ActionTimer>
-                  <PoolName>Thunder Clap CD</PoolName>
-                  <Seconds>15</Seconds>
-                  <Enabled>true</Enabled>
-                </ActionTimer>
-                <Target>self</Target>
-                <MappedKey>
-                  <KeyMapString>Warrior - Arms</KeyMapString>
-                  <MappedKeyString>DPS Rotation</MappedKeyString>
-                </MappedKey>
-                <Enable>1</Enable>
-              </MappedKeyAction>
-              <MappedKeyAction xsi:type="MappedKeyStepStateAction">
-                <Target>self</Target>
-                <MappedKey>
-                  <KeyMapString>Warrior - Arms</KeyMapString>
-                  <MappedKeyString>DPS Rotation</MappedKeyString>
-                </MappedKey>
-                <Enable>0</Enable>
-              </MappedKeyAction>
-            </Actions>
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
-        <Name>AOE DPS Rotation</Name>
-        <Steps>
-          <Step>
-            <Actions>
-              <MappedKeyAction xsi:type="WoWMacroRefAction">
-                <UseCustomModifiers />
-                <WoWMacro>
-                  <WoWMacroSetString>Warrior</WoWMacroSetString>
-                  <WoWMacroString>Cleave</WoWMacroString>
-                </WoWMacro>
-              </MappedKeyAction>
-            </Actions>
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
-        <Name>Taunt</Name>
-        <Steps>
-          <Step>
-            <Actions />
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
-        <Name>Interrupt</Name>
-        <Steps>
-          <Step>
-            <Actions />
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
-        <Name>Stun</Name>
-        <Steps>
-          <Step>
-            <Actions />
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
-        <Name>Root</Name>
-        <Steps>
-          <Step>
-            <Actions />
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
-        <Name>Snare</Name>
-        <Steps>
-          <Step>
-            <Actions>
-              <MappedKeyAction xsi:type="WoWMacroRefAction">
-                <UseCustomModifiers />
-                <WoWMacro>
-                  <WoWMacroSetString>Warrior</WoWMacroSetString>
-                  <WoWMacroString>Hamstring</WoWMacroString>
-                </WoWMacro>
-              </MappedKeyAction>
-            </Actions>
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
-        <Name>__Initialization_____________________________________</Name>
-        <Steps>
-          <Step>
-            <Actions />
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
-        <Name>____ - Initialize</Name>
-        <Steps>
-          <Step>
-            <Actions>
-              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-                <KeyMapString>Warrior - Base</KeyMapString>
-                <MappedKeyString>____ - Initialize</MappedKeyString>
-              </MappedKeyAction>
-            </Actions>
-          </Step>
-        </Steps>
-      </MappedKey>
-    </Mappings>
-  </KeyMap>
-  <KeyMap>
-    <Name>Warrior - Protection</Name>
-    <Mappings>
-      <MappedKey>
-        <Name>Initiate Combat</Name>
-        <Steps>
-          <Step>
-            <Actions>
-              <MappedKeyAction xsi:type="WoWMacroRefAction">
-                <UseCustomModifiers />
-                <WoWMacro>
-                  <WoWMacroSetString>Warrior</WoWMacroSetString>
-                  <WoWMacroString>Charge</WoWMacroString>
-                </WoWMacro>
-              </MappedKeyAction>
-            </Actions>
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
-        <Name>DPS Rotation</Name>
-        <Steps>
-          <Step>
-            <Actions />
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
-        <Name>AOE DPS Rotation</Name>
-        <Steps>
-          <Step>
-            <Actions />
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
-        <Name>Taunt</Name>
-        <Steps>
-          <Step>
-            <Actions />
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
-        <Name>Interrupt</Name>
-        <Steps>
-          <Step>
-            <Actions />
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
-        <Name>Stun</Name>
-        <Steps>
-          <Step>
-            <Actions />
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
-        <Name>Root</Name>
-        <Steps>
-          <Step>
-            <Actions />
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
-        <Name>Snare</Name>
-        <Steps>
-          <Step>
-            <Actions />
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
-        <Name>__Initialization_____________________________________</Name>
-        <Steps>
-          <Step>
-            <Actions />
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
-        <Name>____ - Initialize</Name>
-        <Steps>
-          <Step>
-            <Actions>
-              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-                <KeyMapString>Warrior - Base</KeyMapString>
-                <MappedKeyString>____ - Initialize</MappedKeyString>
-              </MappedKeyAction>
-              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-                <KeyMapString>ISB42 - Action Target Group</KeyMapString>
-                <MappedKeyString>Interrupt - Join</MappedKeyString>
-              </MappedKeyAction>
-            </Actions>
-          </Step>
-        </Steps>
-      </MappedKey>
-    </Mappings>
-  </KeyMap>
-  <KeyMap>
     <Name>Warrior - Initialization</Name>
     <Mappings>
       <MappedKey>
@@ -13702,7 +11871,7 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
     </Mappings>
   </KeyMap>
   <KeyMap>
-    <Name> </Name>
+    <Name />
     <Mappings />
   </KeyMap>
   <KeyMap>
@@ -14114,7 +12283,7 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
     </Mappings>
   </KeyMap>
   <KeyMap>
-    <Name>  </Name>
+    <Name />
     <Mappings />
   </KeyMap>
   <KeyMap>
@@ -14834,7 +13003,7 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
     </Mappings>
   </KeyMap>
   <KeyMap>
-    <Name>   </Name>
+    <Name />
     <Mappings />
   </KeyMap>
   <KeyMap>
@@ -15124,7 +13293,7 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
     </Mappings>
   </KeyMap>
   <KeyMap>
-    <Name>    </Name>
+    <Name />
     <Mappings />
   </KeyMap>
   <KeyMap>
@@ -15572,7 +13741,7 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
     </Mappings>
   </KeyMap>
   <KeyMap>
-    <Name>     </Name>
+    <Name />
     <Mappings />
   </KeyMap>
   <KeyMap>
@@ -15712,7 +13881,7 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
     </Mappings>
   </KeyMap>
   <KeyMap>
-    <Name>      </Name>
+    <Name />
     <Mappings />
   </KeyMap>
   <KeyMap>
@@ -16315,7 +14484,7 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
     </Mappings>
   </KeyMap>
   <KeyMap>
-    <Name>       </Name>
+    <Name />
     <Mappings />
   </KeyMap>
   <KeyMap>
@@ -16756,7 +14925,7 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
     </Mappings>
   </KeyMap>
   <KeyMap>
-    <Name>        </Name>
+    <Name />
     <Mappings />
   </KeyMap>
   <KeyMap>
@@ -17165,6 +15334,894 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
             </Actions>
           </Step>
         </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Single-Target</Name>
+        <Steps>
+          <Step>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>AoE</Name>
+        <Steps>
+          <Step>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+    </Mappings>
+  </KeyMap>
+  <KeyMap>
+    <Name>--         </Name>
+    <Mappings />
+  </KeyMap>
+  <KeyMap>
+    <Name>Paladin - Initialization</Name>
+    <Mappings>
+      <MappedKey>
+        <Name>Initialize</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="TargetGroupAction">
+                <Action>Join</Action>
+                <RelayGroupString>Priest</RelayGroupString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+    </Mappings>
+  </KeyMap>
+  <KeyMap>
+    <Name>Paladin - Holy - Initialization</Name>
+    <Mappings>
+      <MappedKey>
+        <Name>Initialize</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Priest - Initialization</KeyMapString>
+                <MappedKeyString>Initialize</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+    </Mappings>
+  </KeyMap>
+  <KeyMap>
+    <Name>Paladin - Holy - Combat</Name>
+    <Mappings>
+      <MappedKey>
+        <Name>Pull</Name>
+        <Steps>
+          <Step>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Taunt</Name>
+        <Steps>
+          <Step>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Interrupt</Name>
+        <Steps>
+          <Step>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Interrupt (Ranged)</Name>
+        <Steps />
+      </MappedKey>
+      <MappedKey>
+        <Name>Stun</Name>
+        <Steps>
+          <Step>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Stun (Ranged)</Name>
+        <Steps>
+          <Step>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Root</Name>
+        <Steps>
+          <Step>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Root (Ranged)</Name>
+        <Steps>
+          <Step>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Snare</Name>
+        <Steps />
+      </MappedKey>
+      <MappedKey>
+        <Name>Snare (Ranged)</Name>
+        <Steps>
+          <Step>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Crowd Control</Name>
+        <Steps>
+          <Step>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>DoT</Name>
+        <Steps>
+          <Step>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Resurrect</Name>
+        <Steps />
+      </MappedKey>
+    </Mappings>
+  </KeyMap>
+  <KeyMap>
+    <Name>Paladin - Holy - DPS Rotation</Name>
+    <Mappings>
+      <MappedKey>
+        <Name>Reset</Name>
+        <Steps />
+      </MappedKey>
+      <MappedKey>
+        <Name>Single-Target</Name>
+        <Steps />
+      </MappedKey>
+      <MappedKey>
+        <Name>AoE</Name>
+        <Steps>
+          <Step>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+    </Mappings>
+  </KeyMap>
+  <KeyMap>
+    <Name>Paladin - Holy - Healing</Name>
+    <Mappings>
+      <MappedKey>
+        <Name>Single-Target - Large Heal [Targeted]</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <UseCustomModifiers />
+                <WoWMacro>
+                  <WoWMacroSetString>Priest</WoWMacroSetString>
+                  <WoWMacroString>Heal</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Single-Target - Large Heal [Mouseover]</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <UseCustomModifiers />
+                <WoWMacro>
+                  <WoWMacroSetString>Priest</WoWMacroSetString>
+                  <WoWMacroString>Heal (Mouseover)</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>--</Name>
+        <Steps>
+          <Step>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Single-Target - Small Heal [Targeted]</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <UseCustomModifiers />
+                <WoWMacro>
+                  <WoWMacroSetString>Priest</WoWMacroSetString>
+                  <WoWMacroString>Lesser Heal</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Single-Target - Small Heal [Mouseover]</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <UseCustomModifiers />
+                <WoWMacro>
+                  <WoWMacroSetString>Priest</WoWMacroSetString>
+                  <WoWMacroString>Lesser Heal (Mouseover)</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>-- </Name>
+        <Steps>
+          <Step>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Multi-Target - Heal [Targeted]</Name>
+        <Steps>
+          <Step>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Multi-Target - Heal [Mouseover]</Name>
+        <Steps>
+          <Step>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>--  </Name>
+        <Steps>
+          <Step>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>HoT [Targeted]</Name>
+        <Steps>
+          <Step>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>HoT [Mouseover]</Name>
+        <Steps>
+          <Step>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+    </Mappings>
+  </KeyMap>
+  <KeyMap>
+    <Name>Paladin - Holy - Healing Rotation</Name>
+    <Mappings>
+      <MappedKey>
+        <Name>Reset</Name>
+        <Steps />
+      </MappedKey>
+      <MappedKey>
+        <Name>Single-Target</Name>
+        <Steps>
+          <Step>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>AoE</Name>
+        <Steps>
+          <Step>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+    </Mappings>
+  </KeyMap>
+  <KeyMap>
+    <Name> </Name>
+    <Mappings />
+  </KeyMap>
+  <KeyMap>
+    <Name>Paladin - Protection - Initialization</Name>
+    <Mappings>
+      <MappedKey>
+        <Name>Initialize</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Priest - Initialization</KeyMapString>
+                <MappedKeyString>Initialize</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+    </Mappings>
+  </KeyMap>
+  <KeyMap>
+    <Name>Paladin - Protection - Combat</Name>
+    <Mappings>
+      <MappedKey>
+        <Name>Pull</Name>
+        <Steps>
+          <Step>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Taunt</Name>
+        <Steps>
+          <Step>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Interrupt</Name>
+        <Steps>
+          <Step>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Interrupt (Ranged)</Name>
+        <Steps />
+      </MappedKey>
+      <MappedKey>
+        <Name>Stun</Name>
+        <Steps>
+          <Step>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Stun (Ranged)</Name>
+        <Steps>
+          <Step>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Root</Name>
+        <Steps>
+          <Step>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Root (Ranged)</Name>
+        <Steps>
+          <Step>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Snare</Name>
+        <Steps />
+      </MappedKey>
+      <MappedKey>
+        <Name>Snare (Ranged)</Name>
+        <Steps>
+          <Step>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Crowd Control</Name>
+        <Steps>
+          <Step>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>DoT</Name>
+        <Steps>
+          <Step>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Resurrect</Name>
+        <Steps />
+      </MappedKey>
+    </Mappings>
+  </KeyMap>
+  <KeyMap>
+    <Name>Paladin - Protection - DPS Rotation</Name>
+    <Mappings>
+      <MappedKey>
+        <Name>Reset</Name>
+        <Steps />
+      </MappedKey>
+      <MappedKey>
+        <Name>Single-Target</Name>
+        <Steps />
+      </MappedKey>
+      <MappedKey>
+        <Name>AoE</Name>
+        <Steps>
+          <Step>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+    </Mappings>
+  </KeyMap>
+  <KeyMap>
+    <Name>Paladin - Protection - Healing</Name>
+    <Mappings>
+      <MappedKey>
+        <Name>Single-Target - Large Heal [Targeted]</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <UseCustomModifiers />
+                <WoWMacro>
+                  <WoWMacroSetString>Priest</WoWMacroSetString>
+                  <WoWMacroString>Heal</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Single-Target - Large Heal [Mouseover]</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <UseCustomModifiers />
+                <WoWMacro>
+                  <WoWMacroSetString>Priest</WoWMacroSetString>
+                  <WoWMacroString>Heal (Mouseover)</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>--</Name>
+        <Steps>
+          <Step>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Single-Target - Small Heal [Targeted]</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <UseCustomModifiers />
+                <WoWMacro>
+                  <WoWMacroSetString>Priest</WoWMacroSetString>
+                  <WoWMacroString>Lesser Heal</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Single-Target - Small Heal [Mouseover]</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <UseCustomModifiers />
+                <WoWMacro>
+                  <WoWMacroSetString>Priest</WoWMacroSetString>
+                  <WoWMacroString>Lesser Heal (Mouseover)</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>-- </Name>
+        <Steps>
+          <Step>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Multi-Target - Heal [Targeted]</Name>
+        <Steps>
+          <Step>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Multi-Target - Heal [Mouseover]</Name>
+        <Steps>
+          <Step>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>--  </Name>
+        <Steps>
+          <Step>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>HoT [Targeted]</Name>
+        <Steps>
+          <Step>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>HoT [Mouseover]</Name>
+        <Steps>
+          <Step>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+    </Mappings>
+  </KeyMap>
+  <KeyMap>
+    <Name>Paladin - Protection - Healing Rotation</Name>
+    <Mappings>
+      <MappedKey>
+        <Name>Reset</Name>
+        <Steps />
+      </MappedKey>
+      <MappedKey>
+        <Name>Single-Target</Name>
+        <Steps>
+          <Step>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>AoE</Name>
+        <Steps>
+          <Step>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+    </Mappings>
+  </KeyMap>
+  <KeyMap>
+    <Name>  </Name>
+    <Mappings />
+  </KeyMap>
+  <KeyMap>
+    <Name>Paladin - Retribution - Initialization</Name>
+    <Mappings>
+      <MappedKey>
+        <Name>Initialize</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Priest - Initialization</KeyMapString>
+                <MappedKeyString>Initialize</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+    </Mappings>
+  </KeyMap>
+  <KeyMap>
+    <Name>Paladin - Retribution - Combat</Name>
+    <Mappings>
+      <MappedKey>
+        <Name>Pull</Name>
+        <Steps>
+          <Step>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Taunt</Name>
+        <Steps>
+          <Step>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Interrupt</Name>
+        <Steps>
+          <Step>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Interrupt (Ranged)</Name>
+        <Steps />
+      </MappedKey>
+      <MappedKey>
+        <Name>Stun</Name>
+        <Steps>
+          <Step>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Stun (Ranged)</Name>
+        <Steps>
+          <Step>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Root</Name>
+        <Steps>
+          <Step>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Root (Ranged)</Name>
+        <Steps>
+          <Step>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Snare</Name>
+        <Steps />
+      </MappedKey>
+      <MappedKey>
+        <Name>Snare (Ranged)</Name>
+        <Steps>
+          <Step>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Crowd Control</Name>
+        <Steps>
+          <Step>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>DoT</Name>
+        <Steps>
+          <Step>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Resurrect</Name>
+        <Steps />
+      </MappedKey>
+    </Mappings>
+  </KeyMap>
+  <KeyMap>
+    <Name>Paladin - Retribution - DPS Rotation</Name>
+    <Mappings>
+      <MappedKey>
+        <Name>Reset</Name>
+        <Steps />
+      </MappedKey>
+      <MappedKey>
+        <Name>Single-Target</Name>
+        <Steps />
+      </MappedKey>
+      <MappedKey>
+        <Name>AoE</Name>
+        <Steps>
+          <Step>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+    </Mappings>
+  </KeyMap>
+  <KeyMap>
+    <Name>Paladin - Retribution - Healing</Name>
+    <Mappings>
+      <MappedKey>
+        <Name>Single-Target - Large Heal [Targeted]</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <UseCustomModifiers />
+                <WoWMacro>
+                  <WoWMacroSetString>Priest</WoWMacroSetString>
+                  <WoWMacroString>Heal</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Single-Target - Large Heal [Mouseover]</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <UseCustomModifiers />
+                <WoWMacro>
+                  <WoWMacroSetString>Priest</WoWMacroSetString>
+                  <WoWMacroString>Heal (Mouseover)</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>--</Name>
+        <Steps>
+          <Step>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Single-Target - Small Heal [Targeted]</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <UseCustomModifiers />
+                <WoWMacro>
+                  <WoWMacroSetString>Priest</WoWMacroSetString>
+                  <WoWMacroString>Lesser Heal</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Single-Target - Small Heal [Mouseover]</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <UseCustomModifiers />
+                <WoWMacro>
+                  <WoWMacroSetString>Priest</WoWMacroSetString>
+                  <WoWMacroString>Lesser Heal (Mouseover)</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>-- </Name>
+        <Steps>
+          <Step>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Multi-Target - Heal [Targeted]</Name>
+        <Steps>
+          <Step>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Multi-Target - Heal [Mouseover]</Name>
+        <Steps>
+          <Step>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>--  </Name>
+        <Steps>
+          <Step>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>HoT [Targeted]</Name>
+        <Steps>
+          <Step>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>HoT [Mouseover]</Name>
+        <Steps>
+          <Step>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+    </Mappings>
+  </KeyMap>
+  <KeyMap>
+    <Name>Paladin - Retribution - Healing Rotation</Name>
+    <Mappings>
+      <MappedKey>
+        <Name>Reset</Name>
+        <Steps />
       </MappedKey>
       <MappedKey>
         <Name>Single-Target</Name>
@@ -19227,7 +18284,15 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
           <Blue>255</Blue>
           <Alpha>119</Alpha>
         </BackgroundColor>
-        <ClickActions />
+        <ClickActions>
+          <ClickAction>
+            <LeftRight>Left</LeftRight>
+            <Action>
+              <KeyMapString>Control Panel</KeyMapString>
+              <MappedKeyString>Menu Button - Left Click</MappedKeyString>
+            </Action>
+          </ClickAction>
+        </ClickActions>
         <MouseOverAction>
           <LeftRight>Left</LeftRight>
           <Action />
@@ -20080,10 +19145,7 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
     <Buttons>
       <MenuButton>
         <Actions>
-          <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-            <KeyMapString>ISB42 - Combat Broadcast</KeyMapString>
-            <MappedKeyString>1</MappedKeyString>
-          </MappedKeyAction>
+          <MappedKeyAction xsi:type="MappedKeyExecuteAction" />
         </Actions>
         <UseImages>true</UseImages>
         <Image>
@@ -20098,10 +19160,7 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
       </MenuButton>
       <MenuButton>
         <Actions>
-          <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-            <KeyMapString>ISB42 - Combat Broadcast</KeyMapString>
-            <MappedKeyString>2</MappedKeyString>
-          </MappedKeyAction>
+          <MappedKeyAction xsi:type="MappedKeyExecuteAction" />
         </Actions>
         <UseImages>true</UseImages>
         <Image>
@@ -20116,10 +19175,7 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
       </MenuButton>
       <MenuButton>
         <Actions>
-          <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-            <KeyMapString>ISB42 - Combat Broadcast</KeyMapString>
-            <MappedKeyString>3</MappedKeyString>
-          </MappedKeyAction>
+          <MappedKeyAction xsi:type="MappedKeyExecuteAction" />
         </Actions>
         <UseImages>true</UseImages>
         <Image>
@@ -20134,10 +19190,7 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
       </MenuButton>
       <MenuButton>
         <Actions>
-          <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-            <KeyMapString>ISB42 - Combat Broadcast</KeyMapString>
-            <MappedKeyString>4</MappedKeyString>
-          </MappedKeyAction>
+          <MappedKeyAction xsi:type="MappedKeyExecuteAction" />
         </Actions>
         <UseImages>true</UseImages>
         <Image>
@@ -20152,10 +19205,7 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
       </MenuButton>
       <MenuButton>
         <Actions>
-          <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-            <KeyMapString>ISB42 - Combat Broadcast</KeyMapString>
-            <MappedKeyString>5</MappedKeyString>
-          </MappedKeyAction>
+          <MappedKeyAction xsi:type="MappedKeyExecuteAction" />
         </Actions>
         <UseImages>true</UseImages>
         <Image>
@@ -20170,10 +19220,7 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
       </MenuButton>
       <MenuButton>
         <Actions>
-          <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-            <KeyMapString>ISB42 - Combat Broadcast</KeyMapString>
-            <MappedKeyString>6</MappedKeyString>
-          </MappedKeyAction>
+          <MappedKeyAction xsi:type="MappedKeyExecuteAction" />
         </Actions>
         <UseImages>true</UseImages>
         <Image>
@@ -20188,10 +19235,7 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
       </MenuButton>
       <MenuButton>
         <Actions>
-          <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-            <KeyMapString>ISB42 - Combat Broadcast</KeyMapString>
-            <MappedKeyString>7</MappedKeyString>
-          </MappedKeyAction>
+          <MappedKeyAction xsi:type="MappedKeyExecuteAction" />
         </Actions>
         <UseImages>true</UseImages>
         <Image>
@@ -20206,10 +19250,7 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
       </MenuButton>
       <MenuButton>
         <Actions>
-          <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-            <KeyMapString>ISB42 - Combat Broadcast</KeyMapString>
-            <MappedKeyString>8</MappedKeyString>
-          </MappedKeyAction>
+          <MappedKeyAction xsi:type="MappedKeyExecuteAction" />
         </Actions>
         <UseImages>true</UseImages>
         <Image>
@@ -20224,10 +19265,7 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
       </MenuButton>
       <MenuButton>
         <Actions>
-          <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-            <KeyMapString>ISB42 - Combat Broadcast</KeyMapString>
-            <MappedKeyString>9</MappedKeyString>
-          </MappedKeyAction>
+          <MappedKeyAction xsi:type="MappedKeyExecuteAction" />
         </Actions>
         <UseImages>true</UseImages>
         <Image>
@@ -20242,10 +19280,7 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
       </MenuButton>
       <MenuButton>
         <Actions>
-          <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-            <KeyMapString>ISB42 - Combat Broadcast</KeyMapString>
-            <MappedKeyString>0</MappedKeyString>
-          </MappedKeyAction>
+          <MappedKeyAction xsi:type="MappedKeyExecuteAction" />
         </Actions>
         <UseImages>true</UseImages>
         <Image>
@@ -20260,10 +19295,7 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
       </MenuButton>
       <MenuButton>
         <Actions>
-          <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-            <KeyMapString>ISB42 - Combat Broadcast</KeyMapString>
-            <MappedKeyString>-</MappedKeyString>
-          </MappedKeyAction>
+          <MappedKeyAction xsi:type="MappedKeyExecuteAction" />
         </Actions>
         <UseImages>true</UseImages>
         <Image>
@@ -20278,10 +19310,7 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
       </MenuButton>
       <MenuButton>
         <Actions>
-          <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-            <KeyMapString>ISB42 - Combat Broadcast</KeyMapString>
-            <MappedKeyString>=</MappedKeyString>
-          </MappedKeyAction>
+          <MappedKeyAction xsi:type="MappedKeyExecuteAction" />
         </Actions>
         <UseImages>true</UseImages>
         <Image>
@@ -20302,10 +19331,7 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
     <Buttons>
       <MenuButton>
         <Actions>
-          <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-            <KeyMapString>ISB42 - Combat Broadcast</KeyMapString>
-            <MappedKeyString>Shift+1</MappedKeyString>
-          </MappedKeyAction>
+          <MappedKeyAction xsi:type="MappedKeyExecuteAction" />
         </Actions>
         <UseImages>true</UseImages>
         <Image>
@@ -20320,10 +19346,7 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
       </MenuButton>
       <MenuButton>
         <Actions>
-          <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-            <KeyMapString>ISB42 - Combat Broadcast</KeyMapString>
-            <MappedKeyString>Shift+2</MappedKeyString>
-          </MappedKeyAction>
+          <MappedKeyAction xsi:type="MappedKeyExecuteAction" />
         </Actions>
         <UseImages>true</UseImages>
         <Image>
@@ -20338,10 +19361,7 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
       </MenuButton>
       <MenuButton>
         <Actions>
-          <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-            <KeyMapString>ISB42 - Combat Broadcast</KeyMapString>
-            <MappedKeyString>Shift+3</MappedKeyString>
-          </MappedKeyAction>
+          <MappedKeyAction xsi:type="MappedKeyExecuteAction" />
         </Actions>
         <UseImages>true</UseImages>
         <Image>
@@ -20356,10 +19376,7 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
       </MenuButton>
       <MenuButton>
         <Actions>
-          <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-            <KeyMapString>ISB42 - Combat Broadcast</KeyMapString>
-            <MappedKeyString>Shift+4</MappedKeyString>
-          </MappedKeyAction>
+          <MappedKeyAction xsi:type="MappedKeyExecuteAction" />
         </Actions>
         <UseImages>true</UseImages>
         <Image>
@@ -20374,10 +19391,7 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
       </MenuButton>
       <MenuButton>
         <Actions>
-          <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-            <KeyMapString>ISB42 - Combat Broadcast</KeyMapString>
-            <MappedKeyString>Shift+5</MappedKeyString>
-          </MappedKeyAction>
+          <MappedKeyAction xsi:type="MappedKeyExecuteAction" />
         </Actions>
         <UseImages>true</UseImages>
         <Image>
@@ -20392,10 +19406,7 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
       </MenuButton>
       <MenuButton>
         <Actions>
-          <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-            <KeyMapString>ISB42 - Combat Broadcast</KeyMapString>
-            <MappedKeyString>Shift+6</MappedKeyString>
-          </MappedKeyAction>
+          <MappedKeyAction xsi:type="MappedKeyExecuteAction" />
         </Actions>
         <UseImages>true</UseImages>
         <Image>
@@ -20410,10 +19421,7 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
       </MenuButton>
       <MenuButton>
         <Actions>
-          <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-            <KeyMapString>ISB42 - Combat Broadcast</KeyMapString>
-            <MappedKeyString>Shift+7</MappedKeyString>
-          </MappedKeyAction>
+          <MappedKeyAction xsi:type="MappedKeyExecuteAction" />
         </Actions>
         <UseImages>true</UseImages>
         <Image>
@@ -20428,10 +19436,7 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
       </MenuButton>
       <MenuButton>
         <Actions>
-          <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-            <KeyMapString>ISB42 - Combat Broadcast</KeyMapString>
-            <MappedKeyString>Shift+8</MappedKeyString>
-          </MappedKeyAction>
+          <MappedKeyAction xsi:type="MappedKeyExecuteAction" />
         </Actions>
         <UseImages>true</UseImages>
         <Image>
@@ -20446,10 +19451,7 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
       </MenuButton>
       <MenuButton>
         <Actions>
-          <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-            <KeyMapString>ISB42 - Combat Broadcast</KeyMapString>
-            <MappedKeyString>Shift+9</MappedKeyString>
-          </MappedKeyAction>
+          <MappedKeyAction xsi:type="MappedKeyExecuteAction" />
         </Actions>
         <UseImages>true</UseImages>
         <Image>
@@ -20464,10 +19466,7 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
       </MenuButton>
       <MenuButton>
         <Actions>
-          <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-            <KeyMapString>ISB42 - Combat Broadcast</KeyMapString>
-            <MappedKeyString>Shift+0</MappedKeyString>
-          </MappedKeyAction>
+          <MappedKeyAction xsi:type="MappedKeyExecuteAction" />
         </Actions>
         <UseImages>true</UseImages>
         <Image>
@@ -20482,10 +19481,7 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
       </MenuButton>
       <MenuButton>
         <Actions>
-          <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-            <KeyMapString>ISB42 - Combat Broadcast</KeyMapString>
-            <MappedKeyString>Shift+-</MappedKeyString>
-          </MappedKeyAction>
+          <MappedKeyAction xsi:type="MappedKeyExecuteAction" />
         </Actions>
         <UseImages>true</UseImages>
         <Image>
@@ -20500,10 +19496,7 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
       </MenuButton>
       <MenuButton>
         <Actions>
-          <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-            <KeyMapString>ISB42 - Combat Broadcast</KeyMapString>
-            <MappedKeyString>Shift+=</MappedKeyString>
-          </MappedKeyAction>
+          <MappedKeyAction xsi:type="MappedKeyExecuteAction" />
         </Actions>
         <UseImages>true</UseImages>
         <Image>
@@ -20524,10 +19517,7 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
     <Buttons>
       <MenuButton>
         <Actions>
-          <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-            <KeyMapString>ISB42 - Combat Broadcast</KeyMapString>
-            <MappedKeyString>Ctrl+1</MappedKeyString>
-          </MappedKeyAction>
+          <MappedKeyAction xsi:type="MappedKeyExecuteAction" />
         </Actions>
         <UseImages>true</UseImages>
         <Image>
@@ -20542,10 +19532,7 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
       </MenuButton>
       <MenuButton>
         <Actions>
-          <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-            <KeyMapString>ISB42 - Combat Broadcast</KeyMapString>
-            <MappedKeyString>Ctrl+2</MappedKeyString>
-          </MappedKeyAction>
+          <MappedKeyAction xsi:type="MappedKeyExecuteAction" />
         </Actions>
         <UseImages>true</UseImages>
         <Image>
@@ -20560,10 +19547,7 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
       </MenuButton>
       <MenuButton>
         <Actions>
-          <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-            <KeyMapString>ISB42 - Combat Broadcast</KeyMapString>
-            <MappedKeyString>Ctrl+3</MappedKeyString>
-          </MappedKeyAction>
+          <MappedKeyAction xsi:type="MappedKeyExecuteAction" />
         </Actions>
         <UseImages>true</UseImages>
         <Image>
@@ -20578,10 +19562,7 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
       </MenuButton>
       <MenuButton>
         <Actions>
-          <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-            <KeyMapString>ISB42 - Combat Broadcast</KeyMapString>
-            <MappedKeyString>Ctrl+4</MappedKeyString>
-          </MappedKeyAction>
+          <MappedKeyAction xsi:type="MappedKeyExecuteAction" />
         </Actions>
         <UseImages>true</UseImages>
         <Image>
@@ -20596,10 +19577,7 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
       </MenuButton>
       <MenuButton>
         <Actions>
-          <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-            <KeyMapString>ISB42 - Combat Broadcast</KeyMapString>
-            <MappedKeyString>Ctrl+5</MappedKeyString>
-          </MappedKeyAction>
+          <MappedKeyAction xsi:type="MappedKeyExecuteAction" />
         </Actions>
         <UseImages>true</UseImages>
         <Image>
@@ -20614,10 +19592,7 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
       </MenuButton>
       <MenuButton>
         <Actions>
-          <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-            <KeyMapString>ISB42 - Combat Broadcast</KeyMapString>
-            <MappedKeyString>Ctrl+6</MappedKeyString>
-          </MappedKeyAction>
+          <MappedKeyAction xsi:type="MappedKeyExecuteAction" />
         </Actions>
         <UseImages>true</UseImages>
         <Image>
@@ -20632,10 +19607,7 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
       </MenuButton>
       <MenuButton>
         <Actions>
-          <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-            <KeyMapString>ISB42 - Combat Broadcast</KeyMapString>
-            <MappedKeyString>Ctrl+7</MappedKeyString>
-          </MappedKeyAction>
+          <MappedKeyAction xsi:type="MappedKeyExecuteAction" />
         </Actions>
         <UseImages>true</UseImages>
         <Image>
@@ -20650,10 +19622,7 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
       </MenuButton>
       <MenuButton>
         <Actions>
-          <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-            <KeyMapString>ISB42 - Combat Broadcast</KeyMapString>
-            <MappedKeyString>Ctrl+8</MappedKeyString>
-          </MappedKeyAction>
+          <MappedKeyAction xsi:type="MappedKeyExecuteAction" />
         </Actions>
         <UseImages>true</UseImages>
         <Image>
@@ -20668,10 +19637,7 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
       </MenuButton>
       <MenuButton>
         <Actions>
-          <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-            <KeyMapString>ISB42 - Combat Broadcast</KeyMapString>
-            <MappedKeyString>Ctrl+9</MappedKeyString>
-          </MappedKeyAction>
+          <MappedKeyAction xsi:type="MappedKeyExecuteAction" />
         </Actions>
         <UseImages>true</UseImages>
         <Image>
@@ -20686,10 +19652,7 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
       </MenuButton>
       <MenuButton>
         <Actions>
-          <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-            <KeyMapString>ISB42 - Combat Broadcast</KeyMapString>
-            <MappedKeyString>Ctrl+0</MappedKeyString>
-          </MappedKeyAction>
+          <MappedKeyAction xsi:type="MappedKeyExecuteAction" />
         </Actions>
         <UseImages>true</UseImages>
         <Image>
@@ -20704,10 +19667,7 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
       </MenuButton>
       <MenuButton>
         <Actions>
-          <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-            <KeyMapString>ISB42 - Combat Broadcast</KeyMapString>
-            <MappedKeyString>Ctrl+-</MappedKeyString>
-          </MappedKeyAction>
+          <MappedKeyAction xsi:type="MappedKeyExecuteAction" />
         </Actions>
         <UseImages>true</UseImages>
         <Image>
@@ -20722,10 +19682,7 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
       </MenuButton>
       <MenuButton>
         <Actions>
-          <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-            <KeyMapString>ISB42 - Combat Broadcast</KeyMapString>
-            <MappedKeyString>Ctrl+=</MappedKeyString>
-          </MappedKeyAction>
+          <MappedKeyAction xsi:type="MappedKeyExecuteAction" />
         </Actions>
         <UseImages>true</UseImages>
         <Image>
@@ -20746,10 +19703,7 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
     <Buttons>
       <MenuButton>
         <Actions>
-          <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-            <KeyMapString>ISB42 - Combat Broadcast</KeyMapString>
-            <MappedKeyString>Alt+1</MappedKeyString>
-          </MappedKeyAction>
+          <MappedKeyAction xsi:type="MappedKeyExecuteAction" />
         </Actions>
         <UseImages>true</UseImages>
         <Image>
@@ -20764,10 +19718,7 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
       </MenuButton>
       <MenuButton>
         <Actions>
-          <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-            <KeyMapString>ISB42 - Combat Broadcast</KeyMapString>
-            <MappedKeyString>Alt+2</MappedKeyString>
-          </MappedKeyAction>
+          <MappedKeyAction xsi:type="MappedKeyExecuteAction" />
         </Actions>
         <UseImages>true</UseImages>
         <Image>
@@ -20782,10 +19733,7 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
       </MenuButton>
       <MenuButton>
         <Actions>
-          <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-            <KeyMapString>ISB42 - Combat Broadcast</KeyMapString>
-            <MappedKeyString>Alt+3</MappedKeyString>
-          </MappedKeyAction>
+          <MappedKeyAction xsi:type="MappedKeyExecuteAction" />
         </Actions>
         <UseImages>true</UseImages>
         <Image>
@@ -20800,10 +19748,7 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
       </MenuButton>
       <MenuButton>
         <Actions>
-          <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-            <KeyMapString>ISB42 - Combat Broadcast</KeyMapString>
-            <MappedKeyString>Alt+4</MappedKeyString>
-          </MappedKeyAction>
+          <MappedKeyAction xsi:type="MappedKeyExecuteAction" />
         </Actions>
         <UseImages>true</UseImages>
         <Image>
@@ -20818,10 +19763,7 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
       </MenuButton>
       <MenuButton>
         <Actions>
-          <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-            <KeyMapString>ISB42 - Combat Broadcast</KeyMapString>
-            <MappedKeyString>Alt+5</MappedKeyString>
-          </MappedKeyAction>
+          <MappedKeyAction xsi:type="MappedKeyExecuteAction" />
         </Actions>
         <UseImages>true</UseImages>
         <Image>
@@ -20836,10 +19778,7 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
       </MenuButton>
       <MenuButton>
         <Actions>
-          <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-            <KeyMapString>ISB42 - Combat Broadcast</KeyMapString>
-            <MappedKeyString>Alt+6</MappedKeyString>
-          </MappedKeyAction>
+          <MappedKeyAction xsi:type="MappedKeyExecuteAction" />
         </Actions>
         <UseImages>true</UseImages>
         <Image>
@@ -20854,10 +19793,7 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
       </MenuButton>
       <MenuButton>
         <Actions>
-          <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-            <KeyMapString>ISB42 - Combat Broadcast</KeyMapString>
-            <MappedKeyString>Alt+7</MappedKeyString>
-          </MappedKeyAction>
+          <MappedKeyAction xsi:type="MappedKeyExecuteAction" />
         </Actions>
         <UseImages>true</UseImages>
         <Image>
@@ -20872,10 +19808,7 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
       </MenuButton>
       <MenuButton>
         <Actions>
-          <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-            <KeyMapString>ISB42 - Combat Broadcast</KeyMapString>
-            <MappedKeyString>Alt+8</MappedKeyString>
-          </MappedKeyAction>
+          <MappedKeyAction xsi:type="MappedKeyExecuteAction" />
         </Actions>
         <UseImages>true</UseImages>
         <Image>
@@ -20890,10 +19823,7 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
       </MenuButton>
       <MenuButton>
         <Actions>
-          <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-            <KeyMapString>ISB42 - Combat Broadcast</KeyMapString>
-            <MappedKeyString>Alt+9</MappedKeyString>
-          </MappedKeyAction>
+          <MappedKeyAction xsi:type="MappedKeyExecuteAction" />
         </Actions>
         <UseImages>true</UseImages>
         <Image>
@@ -20908,10 +19838,7 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
       </MenuButton>
       <MenuButton>
         <Actions>
-          <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-            <KeyMapString>ISB42 - Combat Broadcast</KeyMapString>
-            <MappedKeyString>Alt+0</MappedKeyString>
-          </MappedKeyAction>
+          <MappedKeyAction xsi:type="MappedKeyExecuteAction" />
         </Actions>
         <UseImages>true</UseImages>
         <Image>
@@ -20926,10 +19853,7 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
       </MenuButton>
       <MenuButton>
         <Actions>
-          <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-            <KeyMapString>ISB42 - Combat Broadcast</KeyMapString>
-            <MappedKeyString>Alt+-</MappedKeyString>
-          </MappedKeyAction>
+          <MappedKeyAction xsi:type="MappedKeyExecuteAction" />
         </Actions>
         <UseImages>true</UseImages>
         <Image>
@@ -20944,10 +19868,7 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
       </MenuButton>
       <MenuButton>
         <Actions>
-          <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-            <KeyMapString>ISB42 - Combat Broadcast</KeyMapString>
-            <MappedKeyString>Alt+=</MappedKeyString>
-          </MappedKeyAction>
+          <MappedKeyAction xsi:type="MappedKeyExecuteAction" />
         </Actions>
         <UseImages>true</UseImages>
         <Image>
@@ -20959,6 +19880,29 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
         <ImagePressed>
           <ImageString>#FF606060</ImageString>
         </ImagePressed>
+      </MenuButton>
+    </Buttons>
+  </MenuButtonSet>
+  <MenuButtonSet>
+    <Name>Control Panel Menu</Name>
+    <Buttons>
+      <MenuButton>
+        <Actions />
+      </MenuButton>
+      <MenuButton>
+        <Actions />
+      </MenuButton>
+      <MenuButton>
+        <Actions />
+      </MenuButton>
+      <MenuButton>
+        <Actions />
+      </MenuButton>
+      <MenuButton>
+        <Actions />
+      </MenuButton>
+      <MenuButton>
+        <Actions />
       </MenuButton>
     </Buttons>
   </MenuButtonSet>
@@ -21490,6 +20434,55 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
       <Height>1</Height>
     </Grid_Size>
   </MenuTemplate>
+  <MenuTemplate>
+    <Name>Control Panel Menu</Name>
+    <Popup>
+      <Value>true</Value>
+    </Popup>
+    <NumButtons>6</NumButtons>
+    <BackgroundImage />
+    <BackgroundColor />
+    <BorderColor>
+      <Red>128</Red>
+      <Green>128</Green>
+      <Blue>128</Blue>
+    </BorderColor>
+    <frameSize>
+      <Width>160</Width>
+      <Height>164</Height>
+    </frameSize>
+    <buttonSize>
+      <Width>156</Width>
+      <Height>25</Height>
+    </buttonSize>
+    <buttonImage />
+    <buttonImageHover />
+    <buttonImagePressed />
+    <buttonBackgroundColor />
+    <buttonBorderColor>
+      <Red>255</Red>
+      <Green>255</Green>
+      <Blue>255</Blue>
+    </buttonBorderColor>
+    <buttonFontColor>
+      <Red>255</Red>
+      <Green>255</Green>
+      <Blue>255</Blue>
+    </buttonFontColor>
+    <buttonFontBold>0</buttonFontBold>
+    <buttonFontSize>12</buttonFontSize>
+    <buttonFontName>Tahoma</buttonFontName>
+    <XML_FileName />
+    <XML_Element />
+    <Grid_buttonMargin>
+      <Width>2</Width>
+      <Height>2</Height>
+    </Grid_buttonMargin>
+    <Grid_Size>
+      <Width>1</Width>
+      <Height>6</Height>
+    </Grid_Size>
+  </MenuTemplate>
   <Menu>
     <Name>ISB42 - Formations</Name>
     <Template>Formations</Template>
@@ -21537,5 +20530,12 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
     <BindSoft>true</BindSoft>
     <X>100</X>
     <Y>200</Y>
+  </Menu>
+  <Menu>
+    <Name>Control Panel Menu</Name>
+    <Template>Control Panel Menu</Template>
+    <ButtonLayout>Control Panel Menu</ButtonLayout>
+    <HotkeyLayout />
+    <Y>1240</Y>
   </Menu>
 </ISBoxerToolkitProfile>
