@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ISBoxerToolkitProfile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="42" VersionMinor="0" BuildDate="1/10/2020 2:20:36 PM">
+<ISBoxerToolkitProfile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="42" VersionMinor="0" BuildDate="1/10/2020 8:01:24 PM">
   <CharacterSet>
     <ExecuteOnLoad>
       <KeyMapString>Initialization</KeyMapString>
@@ -97,7 +97,7 @@
         <EffectType>None</EffectType>
         <WindowTitle />
         <FTLModifiers>
-          <FTLModifierEnum>LAlt</FTLModifierEnum>
+          <FTLModifierEnum>RCtrl</FTLModifierEnum>
         </FTLModifiers>
         <CPUCores>
           <unsignedInt>1</unsignedInt>
@@ -127,6 +127,7 @@
         <WindowTitle />
         <FTLModifiers>
           <FTLModifierEnum>RShift</FTLModifierEnum>
+          <FTLModifierEnum>RCtrl</FTLModifierEnum>
         </FTLModifiers>
         <CPUCores>
           <unsignedInt>1</unsignedInt>
@@ -155,7 +156,8 @@
         <EffectType>None</EffectType>
         <WindowTitle />
         <FTLModifiers>
-          <FTLModifierEnum>RCtrl</FTLModifierEnum>
+          <FTLModifierEnum>RAlt</FTLModifierEnum>
+          <FTLModifierEnum>LShift</FTLModifierEnum>
         </FTLModifiers>
         <CPUCores>
           <unsignedInt>1</unsignedInt>
@@ -185,7 +187,7 @@
         <EffectType>None</EffectType>
         <WindowTitle />
         <FTLModifiers>
-          <FTLModifierEnum>RAlt</FTLModifierEnum>
+          <FTLModifierEnum>LAlt</FTLModifierEnum>
         </FTLModifiers>
         <CPUCores>
           <unsignedInt>1</unsignedInt>
@@ -215,8 +217,7 @@
         <EffectType>None</EffectType>
         <WindowTitle />
         <FTLModifiers>
-          <FTLModifierEnum>LShift</FTLModifierEnum>
-          <FTLModifierEnum>LCtrl</FTLModifierEnum>
+          <FTLModifierEnum>RShift</FTLModifierEnum>
         </FTLModifiers>
         <CPUCores>
           <unsignedInt>1</unsignedInt>
@@ -246,8 +247,7 @@
         <EffectType>None</EffectType>
         <WindowTitle />
         <FTLModifiers>
-          <FTLModifierEnum>LAlt</FTLModifierEnum>
-          <FTLModifierEnum>LShift</FTLModifierEnum>
+          <FTLModifierEnum>RAlt</FTLModifierEnum>
         </FTLModifiers>
         <CPUCores>
           <unsignedInt>1</unsignedInt>
@@ -277,8 +277,8 @@
         <EffectType>None</EffectType>
         <WindowTitle />
         <FTLModifiers>
-          <FTLModifierEnum>LAlt</FTLModifierEnum>
-          <FTLModifierEnum>LCtrl</FTLModifierEnum>
+          <FTLModifierEnum>RAlt</FTLModifierEnum>
+          <FTLModifierEnum>RShift</FTLModifierEnum>
         </FTLModifiers>
         <CPUCores>
           <unsignedInt>1</unsignedInt>
@@ -308,7 +308,7 @@
         <EffectType>None</EffectType>
         <WindowTitle />
         <FTLModifiers>
-          <FTLModifierEnum>RShift</FTLModifierEnum>
+          <FTLModifierEnum>LShift</FTLModifierEnum>
           <FTLModifierEnum>RCtrl</FTLModifierEnum>
         </FTLModifiers>
         <CPUCores>
@@ -339,8 +339,8 @@
         <EffectType>None</EffectType>
         <WindowTitle />
         <FTLModifiers>
-          <FTLModifierEnum>RAlt</FTLModifierEnum>
-          <FTLModifierEnum>RShift</FTLModifierEnum>
+          <FTLModifierEnum>LShift</FTLModifierEnum>
+          <FTLModifierEnum>LCtrl</FTLModifierEnum>
         </FTLModifiers>
         <CPUCores>
           <unsignedInt>1</unsignedInt>
@@ -370,8 +370,8 @@
         <EffectType>None</EffectType>
         <WindowTitle />
         <FTLModifiers>
-          <FTLModifierEnum>RAlt</FTLModifierEnum>
-          <FTLModifierEnum>RCtrl</FTLModifierEnum>
+          <FTLModifierEnum>LAlt</FTLModifierEnum>
+          <FTLModifierEnum>LShift</FTLModifierEnum>
         </FTLModifiers>
         <CPUCores>
           <unsignedInt>1</unsignedInt>
@@ -401,8 +401,8 @@
         <EffectType>None</EffectType>
         <WindowTitle />
         <FTLModifiers>
-          <FTLModifierEnum>RAlt</FTLModifierEnum>
-          <FTLModifierEnum>LShift</FTLModifierEnum>
+          <FTLModifierEnum>LAlt</FTLModifierEnum>
+          <FTLModifierEnum>LCtrl</FTLModifierEnum>
         </FTLModifiers>
         <CPUCores>
           <unsignedInt>1</unsignedInt>
@@ -432,7 +432,7 @@
         <EffectType>None</EffectType>
         <WindowTitle />
         <FTLModifiers>
-          <FTLModifierEnum>LShift</FTLModifierEnum>
+          <FTLModifierEnum>RAlt</FTLModifierEnum>
           <FTLModifierEnum>RCtrl</FTLModifierEnum>
         </FTLModifiers>
         <CPUCores>
@@ -463,6 +463,7 @@
         <EffectType>None</EffectType>
         <WindowTitle />
         <FTLModifiers>
+          <FTLModifierEnum>RAlt</FTLModifierEnum>
           <FTLModifierEnum>LCtrl</FTLModifierEnum>
         </FTLModifiers>
         <CPUCores>
@@ -481,7 +482,6 @@
     <LockForeground>false</LockForeground>
     <RepeaterProfile>Default</RepeaterProfile>
     <KeyMapStrings>
-      <string>ISB42 - Virtual Combat</string>
       <string>ISB42 - Always On</string>
       <string>ISB42 - Base Hotkeys</string>
       <string>ISB42 - Toggles</string>
@@ -497,6 +497,8 @@
       <string>DPS Rotation - Active Group [Virtualized]</string>
       <string>Healing</string>
       <string>Healing [Virtualized]</string>
+      <string>Healing Rotation</string>
+      <string>Healing Rotation [Virtualized]</string>
       <string>Slot View</string>
       <string>Slot Swap</string>
       <string>Slot Swap [Virtualized]</string>
@@ -644,7 +646,12 @@
       <string>Warrior</string>
       <string>Group 1</string>
     </RelayGroupStrings>
-    <KeyMapStrings />
+    <KeyMapStrings>
+      <string>Warrior - Initialization</string>
+      <string>Warrior - Arms - Initialization</string>
+      <string>Warrior - Arms - Combat</string>
+      <string>Warrior - Arms - DPS Rotation</string>
+    </KeyMapStrings>
     <KeyMapWhiteOrBlackListType>Ignore</KeyMapWhiteOrBlackListType>
     <KeyMapWhiteOrBlackList />
     <ClickBarStrings />
@@ -672,10 +679,12 @@
     <VirtualMappedKeys>
       <VirtualMappedKey>
         <FromMappedKey>
-          <KeyMapString>ISB42 - Virtual Combat</KeyMapString>
+          <KeyMapString>Initialization</KeyMapString>
+          <MappedKeyString>Initialize - Class</MappedKeyString>
         </FromMappedKey>
         <ToMappedKey>
-          <KeyMapString>Warrior - Arms</KeyMapString>
+          <KeyMapString>Warrior - Arms - Initialization</KeyMapString>
+          <MappedKeyString>Initialize</MappedKeyString>
         </ToMappedKey>
       </VirtualMappedKey>
     </VirtualMappedKeys>
@@ -695,7 +704,12 @@
       <string>Warrior</string>
       <string>Group 1</string>
     </RelayGroupStrings>
-    <KeyMapStrings />
+    <KeyMapStrings>
+      <string>Warrior - Initialization</string>
+      <string>Warrior - Arms - Initialization</string>
+      <string>Warrior - Arms - Combat</string>
+      <string>Warrior - Arms - DPS Rotation</string>
+    </KeyMapStrings>
     <KeyMapWhiteOrBlackListType>Ignore</KeyMapWhiteOrBlackListType>
     <KeyMapWhiteOrBlackList />
     <ClickBarStrings />
@@ -723,10 +737,12 @@
     <VirtualMappedKeys>
       <VirtualMappedKey>
         <FromMappedKey>
-          <KeyMapString>ISB42 - Virtual Combat</KeyMapString>
+          <KeyMapString>Initialization</KeyMapString>
+          <MappedKeyString>Initialize - Class</MappedKeyString>
         </FromMappedKey>
         <ToMappedKey>
-          <KeyMapString>Warrior - Arms</KeyMapString>
+          <KeyMapString>Warrior - Arms - Initialization</KeyMapString>
+          <MappedKeyString>Initialize</MappedKeyString>
         </ToMappedKey>
       </VirtualMappedKey>
     </VirtualMappedKeys>
@@ -746,7 +762,12 @@
       <string>Warrior</string>
       <string>Group 2</string>
     </RelayGroupStrings>
-    <KeyMapStrings />
+    <KeyMapStrings>
+      <string>Warrior - Initialization</string>
+      <string>Warrior - Arms - Initialization</string>
+      <string>Warrior - Arms - Combat</string>
+      <string>Warrior - Arms - DPS Rotation</string>
+    </KeyMapStrings>
     <KeyMapWhiteOrBlackListType>Ignore</KeyMapWhiteOrBlackListType>
     <KeyMapWhiteOrBlackList />
     <ClickBarStrings />
@@ -774,10 +795,12 @@
     <VirtualMappedKeys>
       <VirtualMappedKey>
         <FromMappedKey>
-          <KeyMapString>ISB42 - Virtual Combat</KeyMapString>
+          <KeyMapString>Initialization</KeyMapString>
+          <MappedKeyString>Initialize - Class</MappedKeyString>
         </FromMappedKey>
         <ToMappedKey>
-          <KeyMapString>Warrior - Arms</KeyMapString>
+          <KeyMapString>Warrior - Initialization</KeyMapString>
+          <MappedKeyString>Initialize</MappedKeyString>
         </ToMappedKey>
       </VirtualMappedKey>
     </VirtualMappedKeys>
@@ -797,7 +820,12 @@
       <string>Warrior</string>
       <string>Group 2</string>
     </RelayGroupStrings>
-    <KeyMapStrings />
+    <KeyMapStrings>
+      <string>Warrior - Initialization</string>
+      <string>Warrior - Arms - Initialization</string>
+      <string>Warrior - Arms - Combat</string>
+      <string>Warrior - Arms - DPS Rotation</string>
+    </KeyMapStrings>
     <KeyMapWhiteOrBlackListType>Ignore</KeyMapWhiteOrBlackListType>
     <KeyMapWhiteOrBlackList />
     <ClickBarStrings />
@@ -825,10 +853,12 @@
     <VirtualMappedKeys>
       <VirtualMappedKey>
         <FromMappedKey>
-          <KeyMapString>ISB42 - Virtual Combat</KeyMapString>
+          <KeyMapString>Initialization</KeyMapString>
+          <MappedKeyString>Initialize - Class</MappedKeyString>
         </FromMappedKey>
         <ToMappedKey>
-          <KeyMapString>Warrior - Arms</KeyMapString>
+          <KeyMapString>Warrior - Arms - Initialization</KeyMapString>
+          <MappedKeyString>Initialize</MappedKeyString>
         </ToMappedKey>
       </VirtualMappedKey>
     </VirtualMappedKeys>
@@ -848,7 +878,12 @@
       <string>Warrior</string>
       <string>Group 1</string>
     </RelayGroupStrings>
-    <KeyMapStrings />
+    <KeyMapStrings>
+      <string>Warrior - Initialization</string>
+      <string>Warrior - Fury - Initialization</string>
+      <string>Warrior - Fury - Combat</string>
+      <string>Warrior - Fury - DPS Rotation</string>
+    </KeyMapStrings>
     <KeyMapWhiteOrBlackListType>Ignore</KeyMapWhiteOrBlackListType>
     <KeyMapWhiteOrBlackList />
     <ClickBarStrings />
@@ -876,10 +911,12 @@
     <VirtualMappedKeys>
       <VirtualMappedKey>
         <FromMappedKey>
-          <KeyMapString>ISB42 - Virtual Combat</KeyMapString>
+          <KeyMapString>Initialization</KeyMapString>
+          <MappedKeyString>Initialize - Class</MappedKeyString>
         </FromMappedKey>
         <ToMappedKey>
-          <KeyMapString>Warrior - Arms</KeyMapString>
+          <KeyMapString>Warrior - Fury - Initialization</KeyMapString>
+          <MappedKeyString>Initialize</MappedKeyString>
         </ToMappedKey>
       </VirtualMappedKey>
     </VirtualMappedKeys>
@@ -899,7 +936,12 @@
       <string>Warrior</string>
       <string>Group 2</string>
     </RelayGroupStrings>
-    <KeyMapStrings />
+    <KeyMapStrings>
+      <string>Warrior - Initialization</string>
+      <string>Warrior - Fury - Initialization</string>
+      <string>Warrior - Fury - Combat</string>
+      <string>Warrior - Fury - DPS Rotation</string>
+    </KeyMapStrings>
     <KeyMapWhiteOrBlackListType>Ignore</KeyMapWhiteOrBlackListType>
     <KeyMapWhiteOrBlackList />
     <ClickBarStrings />
@@ -927,18 +969,12 @@
     <VirtualMappedKeys>
       <VirtualMappedKey>
         <FromMappedKey>
-          <KeyMapString>ISB42 - Initialization [Virtualized]</KeyMapString>
+          <KeyMapString>Initialization</KeyMapString>
+          <MappedKeyString>Initialize - Class</MappedKeyString>
         </FromMappedKey>
         <ToMappedKey>
-          <KeyMapString>Warrior - Arms</KeyMapString>
-        </ToMappedKey>
-      </VirtualMappedKey>
-      <VirtualMappedKey>
-        <FromMappedKey>
-          <KeyMapString>ISB42 - Virtual Combat</KeyMapString>
-        </FromMappedKey>
-        <ToMappedKey>
-          <KeyMapString>Warrior - Arms</KeyMapString>
+          <KeyMapString>Warrior - Fury - Initialization</KeyMapString>
+          <MappedKeyString>Initialize</MappedKeyString>
         </ToMappedKey>
       </VirtualMappedKey>
     </VirtualMappedKeys>
@@ -958,7 +994,12 @@
       <string>Warrior</string>
       <string>Group 3</string>
     </RelayGroupStrings>
-    <KeyMapStrings />
+    <KeyMapStrings>
+      <string>Warrior - Initialization</string>
+      <string>Warrior - Arms - Initialization</string>
+      <string>Warrior - Arms - Combat</string>
+      <string>Warrior - Arms - DPS Rotation</string>
+    </KeyMapStrings>
     <KeyMapWhiteOrBlackListType>Ignore</KeyMapWhiteOrBlackListType>
     <KeyMapWhiteOrBlackList />
     <ClickBarStrings />
@@ -986,18 +1027,12 @@
     <VirtualMappedKeys>
       <VirtualMappedKey>
         <FromMappedKey>
-          <KeyMapString>ISB42 - Initialization [Virtualized]</KeyMapString>
+          <KeyMapString>Initialization</KeyMapString>
+          <MappedKeyString>Initialize - Class</MappedKeyString>
         </FromMappedKey>
         <ToMappedKey>
-          <KeyMapString>Warrior - Arms</KeyMapString>
-        </ToMappedKey>
-      </VirtualMappedKey>
-      <VirtualMappedKey>
-        <FromMappedKey>
-          <KeyMapString>ISB42 - Virtual Combat</KeyMapString>
-        </FromMappedKey>
-        <ToMappedKey>
-          <KeyMapString>Warrior - Arms</KeyMapString>
+          <KeyMapString>Warrior - Arms - Initialization</KeyMapString>
+          <MappedKeyString>Initialize</MappedKeyString>
         </ToMappedKey>
       </VirtualMappedKey>
     </VirtualMappedKeys>
@@ -1017,7 +1052,12 @@
       <string>Warrior</string>
       <string>Group 3</string>
     </RelayGroupStrings>
-    <KeyMapStrings />
+    <KeyMapStrings>
+      <string>Warrior - Initialization</string>
+      <string>Warrior - Arms - Initialization</string>
+      <string>Warrior - Arms - Combat</string>
+      <string>Warrior - Arms - DPS Rotation</string>
+    </KeyMapStrings>
     <KeyMapWhiteOrBlackListType>Ignore</KeyMapWhiteOrBlackListType>
     <KeyMapWhiteOrBlackList />
     <ClickBarStrings />
@@ -1045,18 +1085,12 @@
     <VirtualMappedKeys>
       <VirtualMappedKey>
         <FromMappedKey>
-          <KeyMapString>ISB42 - Initialization [Virtualized]</KeyMapString>
+          <KeyMapString>Initialization</KeyMapString>
+          <MappedKeyString>Initialize - Class</MappedKeyString>
         </FromMappedKey>
         <ToMappedKey>
-          <KeyMapString>Warrior - Arms</KeyMapString>
-        </ToMappedKey>
-      </VirtualMappedKey>
-      <VirtualMappedKey>
-        <FromMappedKey>
-          <KeyMapString>ISB42 - Virtual Combat</KeyMapString>
-        </FromMappedKey>
-        <ToMappedKey>
-          <KeyMapString>Warrior - Arms</KeyMapString>
+          <KeyMapString>Warrior - Arms - Initialization</KeyMapString>
+          <MappedKeyString>Initialize</MappedKeyString>
         </ToMappedKey>
       </VirtualMappedKey>
     </VirtualMappedKeys>
@@ -1076,7 +1110,12 @@
       <string>Warrior</string>
       <string>Group 3</string>
     </RelayGroupStrings>
-    <KeyMapStrings />
+    <KeyMapStrings>
+      <string>Warrior - Initialization</string>
+      <string>Warrior - Fury - Initialization</string>
+      <string>Warrior - Fury - Combat</string>
+      <string>Warrior - Fury - DPS Rotation</string>
+    </KeyMapStrings>
     <KeyMapWhiteOrBlackListType>Ignore</KeyMapWhiteOrBlackListType>
     <KeyMapWhiteOrBlackList />
     <ClickBarStrings />
@@ -1104,10 +1143,12 @@
     <VirtualMappedKeys>
       <VirtualMappedKey>
         <FromMappedKey>
-          <KeyMapString>ISB42 - Virtual Combat</KeyMapString>
+          <KeyMapString>Initialization</KeyMapString>
+          <MappedKeyString>Initialize - Class</MappedKeyString>
         </FromMappedKey>
         <ToMappedKey>
-          <KeyMapString>Warrior - Arms</KeyMapString>
+          <KeyMapString>Warrior - Fury - Initialization</KeyMapString>
+          <MappedKeyString>Initialize</MappedKeyString>
         </ToMappedKey>
       </VirtualMappedKey>
     </VirtualMappedKeys>
@@ -1127,7 +1168,14 @@
       <string>Shaman</string>
       <string>Group 1</string>
     </RelayGroupStrings>
-    <KeyMapStrings />
+    <KeyMapStrings>
+      <string>Shaman - Initialization</string>
+      <string>Shaman - Enhancement - Initialization</string>
+      <string>Shaman - Enhancement - Combat</string>
+      <string>Shaman - Enhancement - DPS Rotation</string>
+      <string>Shaman - Enhancement - Healing</string>
+      <string>Shaman - Enhancement - Healing Rotation</string>
+    </KeyMapStrings>
     <KeyMapWhiteOrBlackListType>Ignore</KeyMapWhiteOrBlackListType>
     <KeyMapWhiteOrBlackList />
     <ClickBarStrings />
@@ -1155,26 +1203,12 @@
     <VirtualMappedKeys>
       <VirtualMappedKey>
         <FromMappedKey>
-          <KeyMapString>ISB42 - Initialization [Virtualized]</KeyMapString>
+          <KeyMapString>Initialization</KeyMapString>
+          <MappedKeyString>Initialize - Class</MappedKeyString>
         </FromMappedKey>
         <ToMappedKey>
-          <KeyMapString>Shaman - Enhancement</KeyMapString>
-        </ToMappedKey>
-      </VirtualMappedKey>
-      <VirtualMappedKey>
-        <FromMappedKey>
-          <KeyMapString>ISB42 - Virtual Combat</KeyMapString>
-        </FromMappedKey>
-        <ToMappedKey>
-          <KeyMapString>Shaman - Enhancement</KeyMapString>
-        </ToMappedKey>
-      </VirtualMappedKey>
-      <VirtualMappedKey>
-        <FromMappedKey>
-          <KeyMapString>ISB42 - Healing [Virtualized]</KeyMapString>
-        </FromMappedKey>
-        <ToMappedKey>
-          <KeyMapString>Shaman - Base - Healing</KeyMapString>
+          <KeyMapString>Shaman - Enhancement - Initialization</KeyMapString>
+          <MappedKeyString>Initialize</MappedKeyString>
         </ToMappedKey>
       </VirtualMappedKey>
     </VirtualMappedKeys>
@@ -1194,7 +1228,14 @@
       <string>Shaman</string>
       <string>Group 2</string>
     </RelayGroupStrings>
-    <KeyMapStrings />
+    <KeyMapStrings>
+      <string>Shaman - Initialization</string>
+      <string>Shaman - Enhancement - Initialization</string>
+      <string>Shaman - Enhancement - Combat</string>
+      <string>Shaman - Enhancement - DPS Rotation</string>
+      <string>Shaman - Enhancement - Healing</string>
+      <string>Shaman - Enhancement - Healing Rotation</string>
+    </KeyMapStrings>
     <KeyMapWhiteOrBlackListType>Ignore</KeyMapWhiteOrBlackListType>
     <KeyMapWhiteOrBlackList />
     <ClickBarStrings />
@@ -1222,26 +1263,12 @@
     <VirtualMappedKeys>
       <VirtualMappedKey>
         <FromMappedKey>
-          <KeyMapString>ISB42 - Initialization [Virtualized]</KeyMapString>
+          <KeyMapString>Initialization</KeyMapString>
+          <MappedKeyString>Initialize - Class</MappedKeyString>
         </FromMappedKey>
         <ToMappedKey>
-          <KeyMapString>Shaman - Enhancement</KeyMapString>
-        </ToMappedKey>
-      </VirtualMappedKey>
-      <VirtualMappedKey>
-        <FromMappedKey>
-          <KeyMapString>ISB42 - Virtual Combat</KeyMapString>
-        </FromMappedKey>
-        <ToMappedKey>
-          <KeyMapString>Shaman - Enhancement</KeyMapString>
-        </ToMappedKey>
-      </VirtualMappedKey>
-      <VirtualMappedKey>
-        <FromMappedKey>
-          <KeyMapString>ISB42 - Healing [Virtualized]</KeyMapString>
-        </FromMappedKey>
-        <ToMappedKey>
-          <KeyMapString>Shaman - Base - Healing</KeyMapString>
+          <KeyMapString>Shaman - Enhancement - Initialization</KeyMapString>
+          <MappedKeyString>Initialize</MappedKeyString>
         </ToMappedKey>
       </VirtualMappedKey>
     </VirtualMappedKeys>
@@ -1261,7 +1288,14 @@
       <string>Shaman</string>
       <string>Group 3</string>
     </RelayGroupStrings>
-    <KeyMapStrings />
+    <KeyMapStrings>
+      <string>Shaman - Initialization</string>
+      <string>Shaman - Enhancement - Initialization</string>
+      <string>Shaman - Enhancement - Combat</string>
+      <string>Shaman - Enhancement - DPS Rotation</string>
+      <string>Shaman - Enhancement - Healing</string>
+      <string>Shaman - Enhancement - Healing Rotation</string>
+    </KeyMapStrings>
     <KeyMapWhiteOrBlackListType>Ignore</KeyMapWhiteOrBlackListType>
     <KeyMapWhiteOrBlackList />
     <ClickBarStrings />
@@ -1289,26 +1323,12 @@
     <VirtualMappedKeys>
       <VirtualMappedKey>
         <FromMappedKey>
-          <KeyMapString>ISB42 - Initialization [Virtualized]</KeyMapString>
+          <KeyMapString>Initialization</KeyMapString>
+          <MappedKeyString>Initialize - Class</MappedKeyString>
         </FromMappedKey>
         <ToMappedKey>
-          <KeyMapString>Shaman - Enhancement</KeyMapString>
-        </ToMappedKey>
-      </VirtualMappedKey>
-      <VirtualMappedKey>
-        <FromMappedKey>
-          <KeyMapString>ISB42 - Virtual Combat</KeyMapString>
-        </FromMappedKey>
-        <ToMappedKey>
-          <KeyMapString>Shaman - Enhancement</KeyMapString>
-        </ToMappedKey>
-      </VirtualMappedKey>
-      <VirtualMappedKey>
-        <FromMappedKey>
-          <KeyMapString>ISB42 - Healing [Virtualized]</KeyMapString>
-        </FromMappedKey>
-        <ToMappedKey>
-          <KeyMapString>Shaman - Base - Healing</KeyMapString>
+          <KeyMapString>Shaman - Enhancement - Initialization</KeyMapString>
+          <MappedKeyString>Initialize</MappedKeyString>
         </ToMappedKey>
       </VirtualMappedKey>
     </VirtualMappedKeys>
@@ -1328,7 +1348,14 @@
       <string>Shaman</string>
       <string>Group 1</string>
     </RelayGroupStrings>
-    <KeyMapStrings />
+    <KeyMapStrings>
+      <string>Shaman - Initialization</string>
+      <string>Shaman - Restoration - Initialization</string>
+      <string>Shaman - Restoration - Combat</string>
+      <string>Shaman - Restoration - DPS Rotation</string>
+      <string>Shaman - Restoration - Healing</string>
+      <string>Shaman - Restoration - Healing Rotation</string>
+    </KeyMapStrings>
     <KeyMapWhiteOrBlackListType>Ignore</KeyMapWhiteOrBlackListType>
     <KeyMapWhiteOrBlackList />
     <ClickBarStrings />
@@ -1356,26 +1383,12 @@
     <VirtualMappedKeys>
       <VirtualMappedKey>
         <FromMappedKey>
-          <KeyMapString>ISB42 - Initialization [Virtualized]</KeyMapString>
+          <KeyMapString>Initialization</KeyMapString>
+          <MappedKeyString>Initialize - Class</MappedKeyString>
         </FromMappedKey>
         <ToMappedKey>
-          <KeyMapString>Shaman - Restoration</KeyMapString>
-        </ToMappedKey>
-      </VirtualMappedKey>
-      <VirtualMappedKey>
-        <FromMappedKey>
-          <KeyMapString>ISB42 - Virtual Combat</KeyMapString>
-        </FromMappedKey>
-        <ToMappedKey>
-          <KeyMapString>Shaman - Restoration</KeyMapString>
-        </ToMappedKey>
-      </VirtualMappedKey>
-      <VirtualMappedKey>
-        <FromMappedKey>
-          <KeyMapString>ISB42 - Healing [Virtualized]</KeyMapString>
-        </FromMappedKey>
-        <ToMappedKey>
-          <KeyMapString>Shaman - Base - Healing</KeyMapString>
+          <KeyMapString>Shaman - Restoration - Initialization</KeyMapString>
+          <MappedKeyString>Initialize</MappedKeyString>
         </ToMappedKey>
       </VirtualMappedKey>
     </VirtualMappedKeys>
@@ -1395,7 +1408,14 @@
       <string>Shaman</string>
       <string>Group 2</string>
     </RelayGroupStrings>
-    <KeyMapStrings />
+    <KeyMapStrings>
+      <string>Shaman - Initialization</string>
+      <string>Shaman - Restoration - Initialization</string>
+      <string>Shaman - Restoration - Combat</string>
+      <string>Shaman - Restoration - DPS Rotation</string>
+      <string>Shaman - Restoration - Healing</string>
+      <string>Shaman - Restoration - Healing Rotation</string>
+    </KeyMapStrings>
     <KeyMapWhiteOrBlackListType>Ignore</KeyMapWhiteOrBlackListType>
     <KeyMapWhiteOrBlackList />
     <ClickBarStrings />
@@ -1423,26 +1443,12 @@
     <VirtualMappedKeys>
       <VirtualMappedKey>
         <FromMappedKey>
-          <KeyMapString>ISB42 - Initialization [Virtualized]</KeyMapString>
+          <KeyMapString>Initialization</KeyMapString>
+          <MappedKeyString>Initialize</MappedKeyString>
         </FromMappedKey>
         <ToMappedKey>
-          <KeyMapString>Shaman - Restoration</KeyMapString>
-        </ToMappedKey>
-      </VirtualMappedKey>
-      <VirtualMappedKey>
-        <FromMappedKey>
-          <KeyMapString>ISB42 - Virtual Combat</KeyMapString>
-        </FromMappedKey>
-        <ToMappedKey>
-          <KeyMapString>Shaman - Restoration</KeyMapString>
-        </ToMappedKey>
-      </VirtualMappedKey>
-      <VirtualMappedKey>
-        <FromMappedKey>
-          <KeyMapString>ISB42 - Healing [Virtualized]</KeyMapString>
-        </FromMappedKey>
-        <ToMappedKey>
-          <KeyMapString>Shaman - Base</KeyMapString>
+          <KeyMapString>Shaman - Restoration - Initialization</KeyMapString>
+          <MappedKeyString>Initialize</MappedKeyString>
         </ToMappedKey>
       </VirtualMappedKey>
     </VirtualMappedKeys>
@@ -1462,7 +1468,14 @@
       <string>Shaman</string>
       <string>Group 3</string>
     </RelayGroupStrings>
-    <KeyMapStrings />
+    <KeyMapStrings>
+      <string>Shaman - Initialization</string>
+      <string>Shaman - Restoration - Initialization</string>
+      <string>Shaman - Restoration - Combat</string>
+      <string>Shaman - Restoration - DPS Rotation</string>
+      <string>Shaman - Restoration - Healing</string>
+      <string>Shaman - Restoration - Healing Rotation</string>
+    </KeyMapStrings>
     <KeyMapWhiteOrBlackListType>Ignore</KeyMapWhiteOrBlackListType>
     <KeyMapWhiteOrBlackList />
     <ClickBarStrings />
@@ -1490,26 +1503,12 @@
     <VirtualMappedKeys>
       <VirtualMappedKey>
         <FromMappedKey>
-          <KeyMapString>ISB42 - Initialization [Virtualized]</KeyMapString>
+          <KeyMapString>Initialization</KeyMapString>
+          <MappedKeyString>Initialize - Class</MappedKeyString>
         </FromMappedKey>
         <ToMappedKey>
-          <KeyMapString>Shaman - Restoration</KeyMapString>
-        </ToMappedKey>
-      </VirtualMappedKey>
-      <VirtualMappedKey>
-        <FromMappedKey>
-          <KeyMapString>ISB42 - Virtual Combat</KeyMapString>
-        </FromMappedKey>
-        <ToMappedKey>
-          <KeyMapString>Shaman - Restoration</KeyMapString>
-        </ToMappedKey>
-      </VirtualMappedKey>
-      <VirtualMappedKey>
-        <FromMappedKey>
-          <KeyMapString>ISB42 - Healing [Virtualized]</KeyMapString>
-        </FromMappedKey>
-        <ToMappedKey>
-          <KeyMapString>Shaman - Base - Healing</KeyMapString>
+          <KeyMapString>Shaman - Restoration - Initialization</KeyMapString>
+          <MappedKeyString>Initialize</MappedKeyString>
         </ToMappedKey>
       </VirtualMappedKey>
     </VirtualMappedKeys>
@@ -1541,7 +1540,7 @@
           </WorkingArea>
           <Primary>true</Primary>
           <DeviceName>\\.\DISPLAY1</DeviceName>
-          <DPIScale>200</DPIScale>
+          <DPIScale>100</DPIScale>
         </UserScreen>
       </AllScreens>
       <Name>&lt;Window Layout-specified&gt;</Name>
@@ -1633,7 +1632,7 @@
           </WorkingArea>
           <Primary>true</Primary>
           <DeviceName>\\.\DISPLAY1</DeviceName>
-          <DPIScale>200</DPIScale>
+          <DPIScale>100</DPIScale>
         </UserScreen>
       </AllScreens>
       <Name>&lt;Window Layout-specified&gt;</Name>
@@ -1743,7 +1742,7 @@
           </WorkingArea>
           <Primary>true</Primary>
           <DeviceName>\\.\DISPLAY1</DeviceName>
-          <DPIScale>200</DPIScale>
+          <DPIScale>100</DPIScale>
         </UserScreen>
       </AllScreens>
       <Name>&lt;Window Layout-specified&gt;</Name>
@@ -1873,7 +1872,7 @@
           </WorkingArea>
           <Primary>true</Primary>
           <DeviceName>\\.\DISPLAY1</DeviceName>
-          <DPIScale>200</DPIScale>
+          <DPIScale>100</DPIScale>
         </UserScreen>
       </AllScreens>
       <Name>&lt;Window Layout-specified&gt;</Name>
@@ -2013,7 +2012,7 @@
           </WorkingArea>
           <Primary>true</Primary>
           <DeviceName>\\.\DISPLAY6</DeviceName>
-          <DPIScale>200</DPIScale>
+          <DPIScale>100</DPIScale>
         </UserScreen>
       </AllScreens>
       <Name>&lt;Window Layout-specified&gt;</Name>
@@ -2143,7 +2142,7 @@
           </WorkingArea>
           <Primary>true</Primary>
           <DeviceName>\\.\DISPLAY6</DeviceName>
-          <DPIScale>200</DPIScale>
+          <DPIScale>100</DPIScale>
         </UserScreen>
       </AllScreens>
       <Name>&lt;Window Layout-specified&gt;</Name>
@@ -2441,107 +2440,6 @@
   <RelayGroup>
     <Name>Group 3</Name>
   </RelayGroup>
-  <KeyMap>
-    <Name>ISB42 - Virtual Combat</Name>
-    <Mappings>
-      <MappedKey>
-        <Name>DPS Rotation</Name>
-        <Steps>
-          <Step>
-            <Actions />
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
-        <Name>AOE DPS Rotation</Name>
-        <Steps>
-          <Step>
-            <Actions />
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
-        <Name>PVP DPS Rotation</Name>
-        <Steps>
-          <Step>
-            <Actions />
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
-        <Name>PVP AOE DPS Rotation</Name>
-        <Steps>
-          <Step>
-            <Actions />
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
-        <Name>Activate Proc</Name>
-        <Steps>
-          <Step>
-            <Actions />
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
-        <Name>Interrupt</Name>
-        <Steps>
-          <Step>
-            <Actions />
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
-        <Name>Stun</Name>
-        <Steps>
-          <Step>
-            <Actions />
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
-        <Name>Ground AOE</Name>
-        <Steps>
-          <Step>
-            <Actions />
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
-        <Name>Cooldowns</Name>
-        <Steps>
-          <Step>
-            <Actions />
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
-        <Name>Panic</Name>
-        <Steps>
-          <Step>
-            <Actions />
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
-        <Name>Taunt</Name>
-        <Steps>
-          <Step>
-            <Actions />
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
-        <Name>Pull</Name>
-        <Steps>
-          <Step>
-            <Actions />
-          </Step>
-        </Steps>
-      </MappedKey>
-    </Mappings>
-  </KeyMap>
   <KeyMap>
     <Name>ISB42 - Always On</Name>
     <Description>This Key Map is to contain only Hotkeys that should never be toggled OFF. By default, this includes overall control mechanisms, such as toggling Broadcasting Mode, or toggling other Hotkeys.</Description>
@@ -3912,6 +3810,314 @@ See http://isboxer.com/wiki/WoW:Interact_with_Target.</Description>
               <MappedKeyAction xsi:type="MappedKeyExecuteAction">
                 <KeyMapString>ISB42 - Toggles</KeyMapString>
                 <MappedKeyString>Activate Repeat - Active Method</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Ranged Break Follow</Name>
+        <Combo>
+          <Combo>Ctrl+Alt+T</Combo>
+          <Modifiers>Ctrl Alt</Modifiers>
+          <Key>
+            <Key>T</Key>
+            <Code>20</Code>
+          </Key>
+        </Combo>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="VariableKeystrokeAction">
+                <Target>other Ranged</Target>
+                <Name>Move Forward</Name>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>15 Man Squad Formation</Name>
+        <Combo>
+          <Combo>Ctrl+Alt+S</Combo>
+          <Modifiers>Ctrl Alt</Modifiers>
+          <Key>
+            <Key>S</Key>
+            <Code>31</Code>
+          </Key>
+        </Combo>
+        <Hold>
+          <Value>true</Value>
+        </Hold>
+        <UseFTLModifiers>
+          <Value>true</Value>
+        </UseFTLModifiers>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="VariableKeystrokeAction">
+                <Target>(@other isboxer&amp;~dxnothing)#1</Target>
+                <Name>Move Left</Name>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="VariableKeystrokeAction">
+                <Target>(@other isboxer&amp;~dxnothing)#2</Target>
+                <Name>Move Left</Name>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="VariableKeystrokeAction">
+                <Target>(@other isboxer&amp;~dxnothing)#3</Target>
+                <Name>Move Left</Name>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="VariableKeystrokeAction">
+                <Target>(@other isboxer&amp;~dxnothing)#4</Target>
+                <Name>Move Left</Name>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="VariableKeystrokeAction">
+                <Target>(@other isboxer&amp;~dxnothing)#5</Target>
+                <Name>Move Left</Name>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="VariableKeystrokeAction">
+                <Target>(@other isboxer&amp;~dxnothing)#6</Target>
+                <Name>Move Left</Name>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="VariableKeystrokeAction">
+                <Target>(@other isboxer&amp;~dxnothing)#9</Target>
+                <Name>Move Right</Name>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="VariableKeystrokeAction">
+                <Target>(@other isboxer&amp;~dxnothing)#10</Target>
+                <Name>Move Right</Name>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="VariableKeystrokeAction">
+                <Target>(@other isboxer&amp;~dxnothing)#11</Target>
+                <Name>Move Right</Name>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="VariableKeystrokeAction">
+                <Target>(@other isboxer&amp;~dxnothing)#12</Target>
+                <Name>Move Right</Name>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="VariableKeystrokeAction">
+                <Target>(@other isboxer&amp;~dxnothing)#13</Target>
+                <Name>Move Right</Name>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="VariableKeystrokeAction">
+                <Target>(@other isboxer&amp;~dxnothing)#14</Target>
+                <Name>Move Right</Name>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="VariableKeystrokeAction">
+                <Target>(@other isboxer&amp;~dxnothing)#1</Target>
+                <Name>Move Left</Name>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="VariableKeystrokeAction">
+                <Target>(@other isboxer&amp;~dxnothing)#2</Target>
+                <Name>Move Left</Name>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="VariableKeystrokeAction">
+                <Target>(@other isboxer&amp;~dxnothing)#3</Target>
+                <Name>Move Left</Name>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="VariableKeystrokeAction">
+                <Target>(@other isboxer&amp;~dxnothing)#12</Target>
+                <Name>Move Right</Name>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="VariableKeystrokeAction">
+                <Target>(@other isboxer&amp;~dxnothing)#13</Target>
+                <Name>Move Right</Name>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="VariableKeystrokeAction">
+                <Target>(@other isboxer&amp;~dxnothing)#14</Target>
+                <Name>Move Right</Name>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="VariableKeystrokeAction">
+                <Target>(@other isboxer&amp;~dxnothing)#1</Target>
+                <Name>Move Forward</Name>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="VariableKeystrokeAction">
+                <Target>(@other isboxer&amp;~dxnothing)#2</Target>
+                <Name>Move Forward</Name>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="VariableKeystrokeAction">
+                <Target>(@other isboxer&amp;~dxnothing)#4</Target>
+                <Name>Move Forward</Name>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="VariableKeystrokeAction">
+                <Target>(@other isboxer&amp;~dxnothing)#5</Target>
+                <Name>Move Forward</Name>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="VariableKeystrokeAction">
+                <Target>(@other isboxer&amp;~dxnothing)#7</Target>
+                <Name>Move Forward</Name>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="VariableKeystrokeAction">
+                <Target>(@other isboxer&amp;~dxnothing)#8</Target>
+                <Name>Move Forward</Name>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="VariableKeystrokeAction">
+                <Target>(@other isboxer&amp;~dxnothing)#9</Target>
+                <Name>Move Forward</Name>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="VariableKeystrokeAction">
+                <Target>(@other isboxer&amp;~dxnothing)#10</Target>
+                <Name>Move Forward</Name>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="VariableKeystrokeAction">
+                <Target>(@other isboxer&amp;~dxnothing)#12</Target>
+                <Name>Move Forward</Name>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="VariableKeystrokeAction">
+                <Target>(@other isboxer&amp;~dxnothing)#13</Target>
+                <Name>Move Forward</Name>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="VariableKeystrokeAction">
+                <Target>(@other isboxer&amp;~dxnothing)#1</Target>
+                <Name>Move Forward</Name>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="VariableKeystrokeAction">
+                <Target>(@other isboxer&amp;~dxnothing)#4</Target>
+                <Name>Move Forward</Name>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="VariableKeystrokeAction">
+                <Target>(@other isboxer&amp;~dxnothing)#7</Target>
+                <Name>Move Forward</Name>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="VariableKeystrokeAction">
+                <Target>(@other isboxer&amp;~dxnothing)#9</Target>
+                <Name>Move Forward</Name>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="VariableKeystrokeAction">
+                <Target>(@other isboxer&amp;~dxnothing)#12</Target>
+                <Name>Move Forward</Name>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Forward-Left</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="VariableKeystrokeAction">
+                <Name>Move Forward</Name>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="VariableKeystrokeAction">
+                <Name>Move Left</Name>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Forward-Right</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="VariableKeystrokeAction">
+                <Name>Move Forward</Name>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="VariableKeystrokeAction">
+                <Name>Move Right</Name>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Fighting V</Name>
+        <Combo>
+          <Combo>Ctrl+Alt+V</Combo>
+          <Modifiers>Ctrl Alt</Modifiers>
+          <Key>
+            <Key>V</Key>
+            <Code>47</Code>
+          </Key>
+        </Combo>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="VariableKeystrokeAction">
+                <Name>Move Forward</Name>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <Target>(@other isboxer)#1</Target>
+                <KeyMapString>ISB42 - Base Hotkeys</KeyMapString>
+                <MappedKeyString>Forward-Left</MappedKeyString>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <Target>(@other isboxer)#2</Target>
+                <KeyMapString>ISB42 - Base Hotkeys</KeyMapString>
+                <MappedKeyString>Forward-Left</MappedKeyString>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <Target>(@other isboxer)#3</Target>
+                <KeyMapString>ISB42 - Base Hotkeys</KeyMapString>
+                <MappedKeyString>Forward-Left</MappedKeyString>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <Target>(@other isboxer)#4</Target>
+                <KeyMapString>ISB42 - Base Hotkeys</KeyMapString>
+                <MappedKeyString>Forward-Left</MappedKeyString>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <Target>(@other isboxer)#5</Target>
+                <KeyMapString>ISB42 - Base Hotkeys</KeyMapString>
+                <MappedKeyString>Forward-Left</MappedKeyString>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <Target>(@other isboxer)#6</Target>
+                <KeyMapString>ISB42 - Base Hotkeys</KeyMapString>
+                <MappedKeyString>Forward-Left</MappedKeyString>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <Target>(@other isboxer)#7</Target>
+                <KeyMapString>ISB42 - Base Hotkeys</KeyMapString>
+                <MappedKeyString>Forward-Left</MappedKeyString>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <Target>(@other isboxer)#8</Target>
+                <KeyMapString>ISB42 - Base Hotkeys</KeyMapString>
+                <MappedKeyString>Forward-Right</MappedKeyString>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <Target>(@other isboxer)#9</Target>
+                <KeyMapString>ISB42 - Base Hotkeys</KeyMapString>
+                <MappedKeyString>Forward-Right</MappedKeyString>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <Target>(@other isboxer)#10</Target>
+                <KeyMapString>ISB42 - Base Hotkeys</KeyMapString>
+                <MappedKeyString>Forward-Right</MappedKeyString>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <Target>(@other isboxer)#11</Target>
+                <KeyMapString>ISB42 - Base Hotkeys</KeyMapString>
+                <MappedKeyString>Forward-Right</MappedKeyString>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <Target>(@other isboxer)#12</Target>
+                <KeyMapString>ISB42 - Base Hotkeys</KeyMapString>
+                <MappedKeyString>Forward-Right</MappedKeyString>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <Target>(@other isboxer)#13</Target>
+                <KeyMapString>ISB42 - Base Hotkeys</KeyMapString>
+                <MappedKeyString>Forward-Right</MappedKeyString>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <Target>(@other isboxer)#14</Target>
+                <KeyMapString>ISB42 - Base Hotkeys</KeyMapString>
+                <MappedKeyString>Forward-Right</MappedKeyString>
               </MappedKeyAction>
             </Actions>
           </Step>
@@ -5867,7 +6073,6 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
             <Actions>
               <MappedKeyAction xsi:type="MappedKeyExecuteAction">
                 <Target>all</Target>
-                <KeyMapString>ISB42 - Virtual Combat</KeyMapString>
                 <MappedKeyString>DPS Rotation</MappedKeyString>
               </MappedKeyAction>
             </Actions>
@@ -5881,7 +6086,6 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
             <Actions>
               <MappedKeyAction xsi:type="MappedKeyExecuteAction">
                 <Target>all</Target>
-                <KeyMapString>ISB42 - Virtual Combat</KeyMapString>
                 <MappedKeyString>AOE DPS Rotation</MappedKeyString>
               </MappedKeyAction>
             </Actions>
@@ -5895,7 +6099,6 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
             <Actions>
               <MappedKeyAction xsi:type="MappedKeyExecuteAction">
                 <Target>all</Target>
-                <KeyMapString>ISB42 - Virtual Combat</KeyMapString>
                 <MappedKeyString>PVP DPS Rotation</MappedKeyString>
               </MappedKeyAction>
             </Actions>
@@ -5909,7 +6112,6 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
             <Actions>
               <MappedKeyAction xsi:type="MappedKeyExecuteAction">
                 <Target>all</Target>
-                <KeyMapString>ISB42 - Virtual Combat</KeyMapString>
                 <MappedKeyString>PVP AOE DPS Rotation</MappedKeyString>
               </MappedKeyAction>
             </Actions>
@@ -5923,7 +6125,6 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
             <Actions>
               <MappedKeyAction xsi:type="MappedKeyExecuteAction">
                 <Target>all</Target>
-                <KeyMapString>ISB42 - Virtual Combat</KeyMapString>
                 <MappedKeyString>Activate Proc</MappedKeyString>
               </MappedKeyAction>
             </Actions>
@@ -5937,7 +6138,6 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
             <Actions>
               <MappedKeyAction xsi:type="MappedKeyExecuteAction">
                 <Target>all</Target>
-                <KeyMapString>ISB42 - Virtual Combat</KeyMapString>
                 <MappedKeyString>Interrupt</MappedKeyString>
               </MappedKeyAction>
             </Actions>
@@ -5951,7 +6151,6 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
             <Actions>
               <MappedKeyAction xsi:type="MappedKeyExecuteAction">
                 <Target>all</Target>
-                <KeyMapString>ISB42 - Virtual Combat</KeyMapString>
                 <MappedKeyString>Stun</MappedKeyString>
               </MappedKeyAction>
             </Actions>
@@ -5965,7 +6164,6 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
             <Actions>
               <MappedKeyAction xsi:type="MappedKeyExecuteAction">
                 <Target>all</Target>
-                <KeyMapString>ISB42 - Virtual Combat</KeyMapString>
                 <MappedKeyString>Ground AOE</MappedKeyString>
               </MappedKeyAction>
             </Actions>
@@ -5979,7 +6177,6 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
             <Actions>
               <MappedKeyAction xsi:type="MappedKeyExecuteAction">
                 <Target>all</Target>
-                <KeyMapString>ISB42 - Virtual Combat</KeyMapString>
                 <MappedKeyString>Cooldowns</MappedKeyString>
               </MappedKeyAction>
             </Actions>
@@ -5993,7 +6190,6 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
             <Actions>
               <MappedKeyAction xsi:type="MappedKeyExecuteAction">
                 <Target>all</Target>
-                <KeyMapString>ISB42 - Virtual Combat</KeyMapString>
                 <MappedKeyString>Panic</MappedKeyString>
               </MappedKeyAction>
             </Actions>
@@ -6007,7 +6203,6 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
             <Actions>
               <MappedKeyAction xsi:type="MappedKeyExecuteAction">
                 <Target>all</Target>
-                <KeyMapString>ISB42 - Virtual Combat</KeyMapString>
                 <MappedKeyString>Taunt</MappedKeyString>
               </MappedKeyAction>
             </Actions>
@@ -6021,7 +6216,6 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
             <Actions>
               <MappedKeyAction xsi:type="MappedKeyExecuteAction">
                 <Target>all</Target>
-                <KeyMapString>ISB42 - Virtual Combat</KeyMapString>
                 <MappedKeyString>Pull</MappedKeyString>
               </MappedKeyAction>
             </Actions>
@@ -6038,7 +6232,45 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
     <Name>Combat</Name>
     <Mappings>
       <MappedKey>
+        <Name>Combat Opener</Name>
+        <Combo>
+          <Combo>Alt+1</Combo>
+          <Modifiers>Alt</Modifiers>
+          <Key>
+            <Key>1</Key>
+            <Code>2</Code>
+          </Key>
+        </Combo>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>ISB42 - Party</KeyMapString>
+                <MappedKeyString>Assist Me  - Pull (Target Slot)</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Combat [Virtualized]</KeyMapString>
+                <MappedKeyString>Combat Opener</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
         <Name>Pull</Name>
+        <Combo>
+          <Combo>Alt+2</Combo>
+          <Modifiers>Alt</Modifiers>
+          <Key>
+            <Key>2</Key>
+            <Code>3</Code>
+          </Key>
+        </Combo>
         <Mode>OnPressAndRelease</Mode>
         <Steps>
           <Step>
@@ -6062,6 +6294,14 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
       </MappedKey>
       <MappedKey>
         <Name>Taunt</Name>
+        <Combo>
+          <Combo>Alt+3</Combo>
+          <Modifiers>Alt</Modifiers>
+          <Key>
+            <Key>3</Key>
+            <Code>4</Code>
+          </Key>
+        </Combo>
         <Mode>OnPressAndRelease</Mode>
         <Steps>
           <Step>
@@ -6085,6 +6325,14 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
       </MappedKey>
       <MappedKey>
         <Name>Interrupt</Name>
+        <Combo>
+          <Combo>Alt+4</Combo>
+          <Modifiers>Alt</Modifiers>
+          <Key>
+            <Key>4</Key>
+            <Code>5</Code>
+          </Key>
+        </Combo>
         <Mode>OnPressAndRelease</Mode>
         <Steps>
           <Step>
@@ -6108,6 +6356,14 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
       </MappedKey>
       <MappedKey>
         <Name>Interrupt (Ranged)</Name>
+        <Combo>
+          <Combo>Alt+5</Combo>
+          <Modifiers>Alt</Modifiers>
+          <Key>
+            <Key>5</Key>
+            <Code>6</Code>
+          </Key>
+        </Combo>
         <Mode>OnPressAndRelease</Mode>
         <Steps>
           <Step>
@@ -6132,6 +6388,14 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
       </MappedKey>
       <MappedKey>
         <Name>Stun</Name>
+        <Combo>
+          <Combo>Alt+6</Combo>
+          <Modifiers>Alt</Modifiers>
+          <Key>
+            <Key>6</Key>
+            <Code>7</Code>
+          </Key>
+        </Combo>
         <Mode>OnPressAndRelease</Mode>
         <Steps>
           <Step>
@@ -6156,6 +6420,14 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
       </MappedKey>
       <MappedKey>
         <Name>Stun (Ranged)</Name>
+        <Combo>
+          <Combo>Alt+7</Combo>
+          <Modifiers>Alt</Modifiers>
+          <Key>
+            <Key>7</Key>
+            <Code>8</Code>
+          </Key>
+        </Combo>
         <Mode>OnPressAndRelease</Mode>
         <Steps>
           <Step>
@@ -6180,6 +6452,14 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
       </MappedKey>
       <MappedKey>
         <Name>Root</Name>
+        <Combo>
+          <Combo>Alt+8</Combo>
+          <Modifiers>Alt</Modifiers>
+          <Key>
+            <Key>8</Key>
+            <Code>9</Code>
+          </Key>
+        </Combo>
         <Mode>OnPressAndRelease</Mode>
         <Steps>
           <Step>
@@ -6204,6 +6484,14 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
       </MappedKey>
       <MappedKey>
         <Name>Root (Ranged)</Name>
+        <Combo>
+          <Combo>Alt+9</Combo>
+          <Modifiers>Alt</Modifiers>
+          <Key>
+            <Key>9</Key>
+            <Code>10</Code>
+          </Key>
+        </Combo>
         <Mode>OnPressAndRelease</Mode>
         <Steps>
           <Step>
@@ -6228,6 +6516,14 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
       </MappedKey>
       <MappedKey>
         <Name>Snare</Name>
+        <Combo>
+          <Combo>Alt+0</Combo>
+          <Modifiers>Alt</Modifiers>
+          <Key>
+            <Key>0</Key>
+            <Code>11</Code>
+          </Key>
+        </Combo>
         <Mode>OnPressAndRelease</Mode>
         <Steps>
           <Step>
@@ -6252,6 +6548,14 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
       </MappedKey>
       <MappedKey>
         <Name>Snare (Ranged)</Name>
+        <Combo>
+          <Combo>Alt+-</Combo>
+          <Modifiers>Alt</Modifiers>
+          <Key>
+            <Key>-</Key>
+            <Code>12</Code>
+          </Key>
+        </Combo>
         <Mode>OnPressAndRelease</Mode>
         <Steps>
           <Step>
@@ -6276,6 +6580,14 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
       </MappedKey>
       <MappedKey>
         <Name>Crowd Control</Name>
+        <Combo>
+          <Combo>Alt+=</Combo>
+          <Modifiers>Alt</Modifiers>
+          <Key>
+            <Key>=</Key>
+            <Code>13</Code>
+          </Key>
+        </Combo>
         <Mode>OnPressAndRelease</Mode>
         <Steps>
           <Step>
@@ -6339,6 +6651,12 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
   <KeyMap>
     <Name>Combat [Virtualized]</Name>
     <Mappings>
+      <MappedKey>
+        <Name>Combat Opener</Name>
+        <Steps>
+          <Step />
+        </Steps>
+      </MappedKey>
       <MappedKey>
         <Name>Pull</Name>
         <Steps>
@@ -6462,6 +6780,14 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
     <Mappings>
       <MappedKey>
         <Name>Reset</Name>
+        <Combo>
+          <Combo>Ctrl+1</Combo>
+          <Modifiers>Ctrl</Modifiers>
+          <Key>
+            <Key>1</Key>
+            <Code>2</Code>
+          </Key>
+        </Combo>
         <Steps>
           <Step>
             <Actions>
@@ -6475,6 +6801,14 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
       </MappedKey>
       <MappedKey>
         <Name>Single-Target</Name>
+        <Combo>
+          <Combo>Ctrl+2</Combo>
+          <Modifiers>Ctrl</Modifiers>
+          <Key>
+            <Key>2</Key>
+            <Code>3</Code>
+          </Key>
+        </Combo>
         <Mode>OnPressAndRelease</Mode>
         <Steps>
           <Step>
@@ -6497,6 +6831,14 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
       </MappedKey>
       <MappedKey>
         <Name>AoE</Name>
+        <Combo>
+          <Combo>Ctrl+3</Combo>
+          <Modifiers>Ctrl</Modifiers>
+          <Key>
+            <Key>3</Key>
+            <Code>4</Code>
+          </Key>
+        </Combo>
         <Steps>
           <Step>
             <Actions>
@@ -6552,6 +6894,14 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
     <Mappings>
       <MappedKey>
         <Name>Single-Target</Name>
+        <Combo>
+          <Combo>Ctrl+-</Combo>
+          <Modifiers>Ctrl</Modifiers>
+          <Key>
+            <Key>-</Key>
+            <Code>12</Code>
+          </Key>
+        </Combo>
         <Mode>OnPressAndRelease</Mode>
         <Steps>
           <Step>
@@ -6574,6 +6924,14 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
       </MappedKey>
       <MappedKey>
         <Name>AoE</Name>
+        <Combo>
+          <Combo>Ctrl+=</Combo>
+          <Modifiers>Ctrl</Modifiers>
+          <Key>
+            <Key>=</Key>
+            <Code>13</Code>
+          </Key>
+        </Combo>
         <Steps>
           <Step>
             <Actions>
@@ -10971,25 +11329,33 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
       <MappedKey>
         <Name>Toggle Menu</Name>
         <Steps>
-          <Step />
+          <Step>
+            <Actions />
+          </Step>
         </Steps>
       </MappedKey>
       <MappedKey>
         <Name>------------------------------------------</Name>
         <Steps>
-          <Step />
+          <Step>
+            <Actions />
+          </Step>
         </Steps>
       </MappedKey>
       <MappedKey>
         <Name>Show Menu</Name>
         <Steps>
-          <Step />
+          <Step>
+            <Actions />
+          </Step>
         </Steps>
       </MappedKey>
       <MappedKey>
         <Name>Hide Menu</Name>
         <Steps>
-          <Step />
+          <Step>
+            <Actions />
+          </Step>
         </Steps>
       </MappedKey>
     </Mappings>
@@ -11006,9 +11372,50 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
         <Steps>
           <Step>
             <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Mage - Initialization</KeyMapString>
+                <MappedKeyString>Setup Mapped Key Virtualization</MappedKeyString>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Mage - Initialization</KeyMapString>
+                <MappedKeyString>Setup Target Groups</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Setup Mapped Key Virtualization</Name>
+        <Steps>
+          <Step>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Setup Target Groups</Name>
+        <Steps>
+          <Step>
+            <Actions>
               <MappedKeyAction xsi:type="TargetGroupAction">
                 <Action>Join</Action>
-                <RelayGroupString>Warlock</RelayGroupString>
+                <RelayGroupString>Mage</RelayGroupString>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="TargetGroupAction">
+                <Action>Join</Action>
+                <RelayGroupString>Combat</RelayGroupString>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Action Target Group Manager</KeyMapString>
+                <MappedKeyString>Ranged - Join</MappedKeyString>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Action Target Group Manager</KeyMapString>
+                <MappedKeyString>Crowd Control 1 - Join</MappedKeyString>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Action Target Group Manager</KeyMapString>
+                <MappedKeyString>DPS Role - Join</MappedKeyString>
               </MappedKeyAction>
             </Actions>
           </Step>
@@ -11028,7 +11435,48 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
                 <KeyMapString>Mage - Initialization</KeyMapString>
                 <MappedKeyString>Initialize</MappedKeyString>
               </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Mage - Arcane - Initialization</KeyMapString>
+                <MappedKeyString>Setup Mapped Key Virtualization</MappedKeyString>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Mage - Arcane - Initialization</KeyMapString>
+                <MappedKeyString>Setup Target Groups</MappedKeyString>
+              </MappedKeyAction>
             </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Setup Mapped Key Virtualization</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyRewriteAction">
+                <FromMappedKey>
+                  <KeyMapString>Combat [Virtualized]</KeyMapString>
+                </FromMappedKey>
+                <ToMappedKey>
+                  <KeyMapString>Mage - Arcane - Combat</KeyMapString>
+                </ToMappedKey>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyRewriteAction">
+                <FromMappedKey>
+                  <KeyMapString>DPS Rotation [Virtualized]</KeyMapString>
+                </FromMappedKey>
+                <ToMappedKey>
+                  <KeyMapString>Mage - Arcane - DPS Rotation</KeyMapString>
+                </ToMappedKey>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Setup Target Groups</Name>
+        <Steps>
+          <Step>
+            <Actions />
           </Step>
         </Steps>
       </MappedKey>
@@ -11037,6 +11485,14 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
   <KeyMap>
     <Name>Mage - Arcane - Combat</Name>
     <Mappings>
+      <MappedKey>
+        <Name>Combat Opener</Name>
+        <Steps>
+          <Step>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
       <MappedKey>
         <Name>Pull</Name>
         <Steps>
@@ -11168,7 +11624,48 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
                 <KeyMapString>Mage - Initialization</KeyMapString>
                 <MappedKeyString>Initialize</MappedKeyString>
               </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Mage - Fire - Initialization</KeyMapString>
+                <MappedKeyString>Setup Mapped Key Virtualization</MappedKeyString>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Mage - Fire - Initialization</KeyMapString>
+                <MappedKeyString>Setup Target Groups</MappedKeyString>
+              </MappedKeyAction>
             </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Setup Mapped Key Virtualization</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyRewriteAction">
+                <FromMappedKey>
+                  <KeyMapString>Combat [Virtualized]</KeyMapString>
+                </FromMappedKey>
+                <ToMappedKey>
+                  <KeyMapString>Mage - Fire - Combat</KeyMapString>
+                </ToMappedKey>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyRewriteAction">
+                <FromMappedKey>
+                  <KeyMapString>DPS Rotation [Virtualized]</KeyMapString>
+                </FromMappedKey>
+                <ToMappedKey>
+                  <KeyMapString>Mage - Fire - DPS Rotation</KeyMapString>
+                </ToMappedKey>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Setup Target Groups</Name>
+        <Steps>
+          <Step>
+            <Actions />
           </Step>
         </Steps>
       </MappedKey>
@@ -11177,6 +11674,14 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
   <KeyMap>
     <Name>Mage - Fire - Combat</Name>
     <Mappings>
+      <MappedKey>
+        <Name>Combat Opener</Name>
+        <Steps>
+          <Step>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
       <MappedKey>
         <Name>Pull</Name>
         <Steps>
@@ -11308,25 +11813,45 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
                 <KeyMapString>Mage - Initialization</KeyMapString>
                 <MappedKeyString>Initialize</MappedKeyString>
               </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Mage - Frost - Initialization</KeyMapString>
+                <MappedKeyString>Setup Mapped Key Virtualization</MappedKeyString>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Mage - Frost - Initialization</KeyMapString>
+                <MappedKeyString>Setup Target Groups</MappedKeyString>
+              </MappedKeyAction>
             </Actions>
           </Step>
         </Steps>
       </MappedKey>
-    </Mappings>
-  </KeyMap>
-  <KeyMap>
-    <Name>Mage - Frost - DPS Rotation</Name>
-    <Mappings>
       <MappedKey>
-        <Name>Reset</Name>
-        <Steps />
+        <Name>Setup Mapped Key Virtualization</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyRewriteAction">
+                <FromMappedKey>
+                  <KeyMapString>Combat [Virtualized]</KeyMapString>
+                </FromMappedKey>
+                <ToMappedKey>
+                  <KeyMapString>Mage - Frost - Combat</KeyMapString>
+                </ToMappedKey>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyRewriteAction">
+                <FromMappedKey>
+                  <KeyMapString>DPS Rotation [Virtualized]</KeyMapString>
+                </FromMappedKey>
+                <ToMappedKey>
+                  <KeyMapString>Mage - Frost - DPS Rotation</KeyMapString>
+                </ToMappedKey>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
       </MappedKey>
       <MappedKey>
-        <Name>Single-Target</Name>
-        <Steps />
-      </MappedKey>
-      <MappedKey>
-        <Name>AoE</Name>
+        <Name>Setup Target Groups</Name>
         <Steps>
           <Step>
             <Actions />
@@ -11338,6 +11863,14 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
   <KeyMap>
     <Name>Mage - Frost - Combat</Name>
     <Mappings>
+      <MappedKey>
+        <Name>Combat Opener</Name>
+        <Steps>
+          <Step>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
       <MappedKey>
         <Name>Pull</Name>
         <Steps>
@@ -11433,6 +11966,27 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
     </Mappings>
   </KeyMap>
   <KeyMap>
+    <Name>Mage - Frost - DPS Rotation</Name>
+    <Mappings>
+      <MappedKey>
+        <Name>Reset</Name>
+        <Steps />
+      </MappedKey>
+      <MappedKey>
+        <Name>Single-Target</Name>
+        <Steps />
+      </MappedKey>
+      <MappedKey>
+        <Name>AoE</Name>
+        <Steps>
+          <Step>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+    </Mappings>
+  </KeyMap>
+  <KeyMap>
     <Name>--    </Name>
     <Mappings />
   </KeyMap>
@@ -11444,13 +11998,38 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
         <Steps>
           <Step>
             <Actions>
-              <MappedKeyAction xsi:type="TargetGroupAction">
-                <Action>Join</Action>
-                <RelayGroupString>Combat</RelayGroupString>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Warrior - Initialization</KeyMapString>
+                <MappedKeyString>Setup Mapped Key Virtualization</MappedKeyString>
               </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Warrior - Initialization</KeyMapString>
+                <MappedKeyString>Setup Target Groups</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Setup Mapped Key Virtualization</Name>
+        <Steps>
+          <Step>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Setup Target Groups</Name>
+        <Steps>
+          <Step>
+            <Actions>
               <MappedKeyAction xsi:type="TargetGroupAction">
                 <Action>Join</Action>
                 <RelayGroupString>Warrior</RelayGroupString>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="TargetGroupAction">
+                <Action>Join</Action>
+                <RelayGroupString>Combat</RelayGroupString>
               </MappedKeyAction>
               <MappedKeyAction xsi:type="MappedKeyExecuteAction">
                 <KeyMapString>Action Target Group Manager</KeyMapString>
@@ -11474,7 +12053,48 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
                 <KeyMapString>Warrior - Initialization</KeyMapString>
                 <MappedKeyString>Initialize</MappedKeyString>
               </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Warrior - Arms - Initialization</KeyMapString>
+                <MappedKeyString>Setup Mapped Key Virtualization</MappedKeyString>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Warrior - Arms - Initialization</KeyMapString>
+                <MappedKeyString>Setup Target Groups</MappedKeyString>
+              </MappedKeyAction>
             </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Setup Mapped Key Virtualization</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyRewriteAction">
+                <FromMappedKey>
+                  <KeyMapString>Combat [Virtualized]</KeyMapString>
+                </FromMappedKey>
+                <ToMappedKey>
+                  <KeyMapString>Warrior - Arms - Combat</KeyMapString>
+                </ToMappedKey>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyRewriteAction">
+                <FromMappedKey>
+                  <KeyMapString>DPS Rotation [Virtualized]</KeyMapString>
+                </FromMappedKey>
+                <ToMappedKey>
+                  <KeyMapString>Warrior - Arms - DPS Rotation</KeyMapString>
+                </ToMappedKey>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Setup Target Groups</Name>
+        <Steps>
+          <Step>
+            <Actions />
           </Step>
         </Steps>
       </MappedKey>
@@ -11483,6 +12103,22 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
   <KeyMap>
     <Name>Warrior - Arms - Combat</Name>
     <Mappings>
+      <MappedKey>
+        <Name>Combat Opener</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <UseCustomModifiers />
+                <WoWMacro>
+                  <WoWMacroSetString>Warrior</WoWMacroSetString>
+                  <WoWMacroString>Charge</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
       <MappedKey>
         <Name>Pull</Name>
         <Steps>
@@ -11886,7 +12522,48 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
                 <KeyMapString>Warrior - Initialization</KeyMapString>
                 <MappedKeyString>Initialize</MappedKeyString>
               </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Warrior - Fury - Initialization</KeyMapString>
+                <MappedKeyString>Setup Mapped Key Virtualization</MappedKeyString>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Warrior - Fury - Initialization</KeyMapString>
+                <MappedKeyString>Setup Target Groups</MappedKeyString>
+              </MappedKeyAction>
             </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Setup Mapped Key Virtualization</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyRewriteAction">
+                <FromMappedKey>
+                  <KeyMapString>Combat [Virtualized]</KeyMapString>
+                </FromMappedKey>
+                <ToMappedKey>
+                  <KeyMapString>Warrior - Fury - Combat</KeyMapString>
+                </ToMappedKey>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyRewriteAction">
+                <FromMappedKey>
+                  <KeyMapString>DPS Rotation [Virtualized]</KeyMapString>
+                </FromMappedKey>
+                <ToMappedKey>
+                  <KeyMapString>Warrior - Fury - DPS Rotation</KeyMapString>
+                </ToMappedKey>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Setup Target Groups</Name>
+        <Steps>
+          <Step>
+            <Actions />
           </Step>
         </Steps>
       </MappedKey>
@@ -11895,6 +12572,22 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
   <KeyMap>
     <Name>Warrior - Fury - Combat</Name>
     <Mappings>
+      <MappedKey>
+        <Name>Combat Opener</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <UseCustomModifiers />
+                <WoWMacro>
+                  <WoWMacroSetString>Warrior</WoWMacroSetString>
+                  <WoWMacroString>Charge</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
       <MappedKey>
         <Name>Pull</Name>
         <Steps>
@@ -12298,7 +12991,48 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
                 <KeyMapString>Warrior - Initialization</KeyMapString>
                 <MappedKeyString>Initialize</MappedKeyString>
               </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Warrior - Protection - Initialization</KeyMapString>
+                <MappedKeyString>Setup Mapped Key Virtualization</MappedKeyString>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Warrior - Protection - Initialization</KeyMapString>
+                <MappedKeyString>Setup Target Groups</MappedKeyString>
+              </MappedKeyAction>
             </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Setup Mapped Key Virtualization</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyRewriteAction">
+                <FromMappedKey>
+                  <KeyMapString>Combat [Virtualized]</KeyMapString>
+                </FromMappedKey>
+                <ToMappedKey>
+                  <KeyMapString>Warrior - Protection - Combat</KeyMapString>
+                </ToMappedKey>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyRewriteAction">
+                <FromMappedKey>
+                  <KeyMapString>DPS Rotation [Virtualized]</KeyMapString>
+                </FromMappedKey>
+                <ToMappedKey>
+                  <KeyMapString>Warrior - Protection - DPS Rotation</KeyMapString>
+                </ToMappedKey>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Setup Target Groups</Name>
+        <Steps>
+          <Step>
+            <Actions />
           </Step>
         </Steps>
       </MappedKey>
@@ -12307,6 +13041,22 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
   <KeyMap>
     <Name>Warrior - Protection - Combat</Name>
     <Mappings>
+      <MappedKey>
+        <Name>Combat Opener</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <UseCustomModifiers />
+                <WoWMacro>
+                  <WoWMacroSetString>Warrior</WoWMacroSetString>
+                  <WoWMacroString>Charge</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
       <MappedKey>
         <Name>Pull</Name>
         <Steps>
@@ -12738,6 +13488,14 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
     <Name>Priest - Discipline - Combat</Name>
     <Mappings>
       <MappedKey>
+        <Name>Combat Opener</Name>
+        <Steps>
+          <Step>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
         <Name>Pull</Name>
         <Steps>
           <Step>
@@ -13028,6 +13786,14 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
     <Name>Priest - Holy - Combat</Name>
     <Mappings>
       <MappedKey>
+        <Name>Combat Opener</Name>
+        <Steps>
+          <Step>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
         <Name>Pull</Name>
         <Steps>
           <Step>
@@ -13317,6 +14083,14 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
   <KeyMap>
     <Name>Priest - Shadow - Combat</Name>
     <Mappings>
+      <MappedKey>
+        <Name>Combat Opener</Name>
+        <Steps>
+          <Step>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
       <MappedKey>
         <Name>Pull</Name>
         <Steps>
@@ -13626,6 +14400,14 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
     <Name>Warlock - Affliction - Combat</Name>
     <Mappings>
       <MappedKey>
+        <Name>Combat Opener</Name>
+        <Steps>
+          <Step>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
         <Name>Pull</Name>
         <Steps>
           <Step>
@@ -13766,6 +14548,14 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
     <Name>Warlock - Demonology - Combat</Name>
     <Mappings>
       <MappedKey>
+        <Name>Combat Opener</Name>
+        <Steps>
+          <Step>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
         <Name>Pull</Name>
         <Steps>
           <Step>
@@ -13905,6 +14695,14 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
   <KeyMap>
     <Name>Warlock - Destruction - Combat</Name>
     <Mappings>
+      <MappedKey>
+        <Name>Combat Opener</Name>
+        <Steps>
+          <Step>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
       <MappedKey>
         <Name>Pull</Name>
         <Steps>
@@ -14058,6 +14856,64 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
                 <KeyMapString>Shaman - Initialization</KeyMapString>
                 <MappedKeyString>Initialize</MappedKeyString>
               </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Shaman - Elemental - Initialization</KeyMapString>
+                <MappedKeyString>Setup Mapped Key Virtualization</MappedKeyString>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Shaman - Elemental - Initialization</KeyMapString>
+                <MappedKeyString>Setup Target Groups</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Setup Mapped Key Virtualization</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyRewriteAction">
+                <FromMappedKey>
+                  <KeyMapString>Combat [Virtualized]</KeyMapString>
+                </FromMappedKey>
+                <ToMappedKey>
+                  <KeyMapString>Shaman - Elemental - Combat</KeyMapString>
+                </ToMappedKey>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyRewriteAction">
+                <FromMappedKey>
+                  <KeyMapString>DPS Rotation [Virtualized]</KeyMapString>
+                </FromMappedKey>
+                <ToMappedKey>
+                  <KeyMapString>Shaman - Elemental - DPS Rotation</KeyMapString>
+                </ToMappedKey>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyRewriteAction">
+                <FromMappedKey>
+                  <KeyMapString>Healing [Virtualized]</KeyMapString>
+                </FromMappedKey>
+                <ToMappedKey>
+                  <KeyMapString>Shaman - Elemental - Healing</KeyMapString>
+                </ToMappedKey>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyRewriteAction">
+                <FromMappedKey>
+                  <KeyMapString>Healing Rotation [Virtualized]</KeyMapString>
+                </FromMappedKey>
+                <ToMappedKey>
+                  <KeyMapString>Shaman - Elemental - Healing Rotation</KeyMapString>
+                </ToMappedKey>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Setup Target Groups</Name>
+        <Steps>
+          <Step>
+            <Actions>
               <MappedKeyAction xsi:type="TargetGroupAction">
                 <Action>Join</Action>
                 <RelayGroupString>Purge</RelayGroupString>
@@ -14091,6 +14947,14 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
   <KeyMap>
     <Name>Shaman - Elemental - Combat</Name>
     <Mappings>
+      <MappedKey>
+        <Name>Combat Opener</Name>
+        <Steps>
+          <Step>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
       <MappedKey>
         <Name>Pull</Name>
         <Steps>
@@ -14500,6 +15364,64 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
                 <MappedKeyString>Initialize</MappedKeyString>
               </MappedKeyAction>
               <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Shaman - Enhancement - Initialization</KeyMapString>
+                <MappedKeyString>Setup Mapped Key Virtualization</MappedKeyString>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Shaman - Enhancement - Initialization</KeyMapString>
+                <MappedKeyString>Setup Target Groups</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Setup Mapped Key Virtualization</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyRewriteAction">
+                <FromMappedKey>
+                  <KeyMapString>Combat [Virtualized]</KeyMapString>
+                </FromMappedKey>
+                <ToMappedKey>
+                  <KeyMapString>Shaman - Enhancement - Combat</KeyMapString>
+                </ToMappedKey>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyRewriteAction">
+                <FromMappedKey>
+                  <KeyMapString>DPS Rotation [Virtualized]</KeyMapString>
+                </FromMappedKey>
+                <ToMappedKey>
+                  <KeyMapString>Shaman - Enhancement - DPS Rotation</KeyMapString>
+                </ToMappedKey>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyRewriteAction">
+                <FromMappedKey>
+                  <KeyMapString>Healing [Virtualized]</KeyMapString>
+                </FromMappedKey>
+                <ToMappedKey>
+                  <KeyMapString>Shaman - Enhancement - Healing</KeyMapString>
+                </ToMappedKey>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyRewriteAction">
+                <FromMappedKey>
+                  <KeyMapString>Healing Rotation [Virtualized]</KeyMapString>
+                </FromMappedKey>
+                <ToMappedKey>
+                  <KeyMapString>Shaman - Enhancement - Healing Rotation</KeyMapString>
+                </ToMappedKey>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Setup Target Groups</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
                 <KeyMapString>Action Target Group Manager</KeyMapString>
                 <MappedKeyString>Ranged - Join</MappedKeyString>
               </MappedKeyAction>
@@ -14532,6 +15454,14 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
   <KeyMap>
     <Name>Shaman - Enhancement - Combat</Name>
     <Mappings>
+      <MappedKey>
+        <Name>Combat Opener</Name>
+        <Steps>
+          <Step>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
       <MappedKey>
         <Name>Pull</Name>
         <Steps>
@@ -14941,6 +15871,64 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
                 <MappedKeyString>Initialize</MappedKeyString>
               </MappedKeyAction>
               <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Shaman - Restoration - Initialization</KeyMapString>
+                <MappedKeyString>Setup Mapped Key Virtualization</MappedKeyString>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Shaman - Restoration - Initialization</KeyMapString>
+                <MappedKeyString>Setup Target Groups</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Setup Mapped Key Virtualization</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyRewriteAction">
+                <FromMappedKey>
+                  <KeyMapString>Combat [Virtualized]</KeyMapString>
+                </FromMappedKey>
+                <ToMappedKey>
+                  <KeyMapString>Shaman - Restoration - Combat</KeyMapString>
+                </ToMappedKey>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyRewriteAction">
+                <FromMappedKey>
+                  <KeyMapString>DPS Rotation [Virtualized]</KeyMapString>
+                </FromMappedKey>
+                <ToMappedKey>
+                  <KeyMapString>Shaman - Restoration - DPS Rotation</KeyMapString>
+                </ToMappedKey>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyRewriteAction">
+                <FromMappedKey>
+                  <KeyMapString>Healing [Virtualized]</KeyMapString>
+                </FromMappedKey>
+                <ToMappedKey>
+                  <KeyMapString>Shaman - Restoration - Healing</KeyMapString>
+                </ToMappedKey>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyRewriteAction">
+                <FromMappedKey>
+                  <KeyMapString>Healing Rotation [Virtualized]</KeyMapString>
+                </FromMappedKey>
+                <ToMappedKey>
+                  <KeyMapString>Shaman - Restoration - Healing Rotation</KeyMapString>
+                </ToMappedKey>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Setup Target Groups</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
                 <KeyMapString>Action Target Group Manager</KeyMapString>
                 <MappedKeyString>Ranged - Join</MappedKeyString>
               </MappedKeyAction>
@@ -14961,6 +15949,14 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
   <KeyMap>
     <Name>Shaman - Restoration - Combat</Name>
     <Mappings>
+      <MappedKey>
+        <Name>Combat Opener</Name>
+        <Steps>
+          <Step>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
       <MappedKey>
         <Name>Pull</Name>
         <Steps>
@@ -15397,6 +16393,14 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
     <Name>Paladin - Holy - Combat</Name>
     <Mappings>
       <MappedKey>
+        <Name>Combat Opener</Name>
+        <Steps>
+          <Step>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
         <Name>Pull</Name>
         <Steps>
           <Step>
@@ -15662,7 +16666,7 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
     </Mappings>
   </KeyMap>
   <KeyMap>
-    <Name> </Name>
+    <Name />
     <Mappings />
   </KeyMap>
   <KeyMap>
@@ -15686,6 +16690,14 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
   <KeyMap>
     <Name>Paladin - Protection - Combat</Name>
     <Mappings>
+      <MappedKey>
+        <Name>Combat Opener</Name>
+        <Steps>
+          <Step>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
       <MappedKey>
         <Name>Pull</Name>
         <Steps>
@@ -15952,7 +16964,7 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
     </Mappings>
   </KeyMap>
   <KeyMap>
-    <Name>  </Name>
+    <Name />
     <Mappings />
   </KeyMap>
   <KeyMap>
@@ -15976,6 +16988,14 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
   <KeyMap>
     <Name>Paladin - Retribution - Combat</Name>
     <Mappings>
+      <MappedKey>
+        <Name>Combat Opener</Name>
+        <Steps>
+          <Step>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
       <MappedKey>
         <Name>Pull</Name>
         <Steps>
@@ -16272,6 +17292,13 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
         <MacroCommands>/focus {FTL}</MacroCommands>
         <Name>FTLFocus</Name>
         <ColloquialName>/focus {FTL}</ColloquialName>
+        <Combo>
+          <Combo>NONE</Combo>
+          <Key>
+            <Key>NONE</Key>
+            <Code>0</Code>
+          </Key>
+        </Combo>
         <AllowCustomModifiers>
           <LAlt>true</LAlt>
           <RAlt>true</RAlt>

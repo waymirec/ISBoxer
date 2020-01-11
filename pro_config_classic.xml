@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ISBoxerToolkitProfile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="42" VersionMinor="0" BuildDate="1/9/2020 10:51:18 PM">
+<ISBoxerToolkitProfile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="42" VersionMinor="0" BuildDate="1/11/2020 12:20:00 AM">
   <CharacterSet>
     <ExecuteOnLoad />
     <Name>Blaumeux - Mixed</Name>
@@ -6840,7 +6840,6 @@ See http://isboxer.com/wiki/WoW:Interact_with_Target.</Description>
       </MappedKey>
       <MappedKey>
         <Name>Hold to Control 5</Name>
-        <Combo />
         <Mode>OnPressAndRelease</Mode>
         <Steps>
           <Step>
@@ -20868,30 +20867,20 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
       </MappedKey>
       <MappedKey>
         <Name>Fire Nova</Name>
+        <Combo>
+          <Combo>Ctrl+Shift+Alt+S</Combo>
+          <Modifiers>Ctrl Shift Alt</Modifiers>
+          <Key>
+            <Key>S</Key>
+            <Code>31</Code>
+          </Key>
+        </Combo>
         <Steps>
           <Step>
             <Actions>
               <MappedKeyAction xsi:type="WoWMacroRefAction">
                 <RoundRobin>true</RoundRobin>
-                <Target>Shaman&amp;(Group 1)</Target>
-                <UseCustomModifiers />
-                <WoWMacro>
-                  <WoWMacroSetString>Shaman</WoWMacroSetString>
-                  <WoWMacroString>Fire Nova Totem</WoWMacroString>
-                </WoWMacro>
-              </MappedKeyAction>
-              <MappedKeyAction xsi:type="WoWMacroRefAction">
-                <RoundRobin>true</RoundRobin>
-                <Target>Shaman&amp;(Group 2)</Target>
-                <UseCustomModifiers />
-                <WoWMacro>
-                  <WoWMacroSetString>Shaman</WoWMacroSetString>
-                  <WoWMacroString>Fire Nova Totem</WoWMacroString>
-                </WoWMacro>
-              </MappedKeyAction>
-              <MappedKeyAction xsi:type="WoWMacroRefAction">
-                <RoundRobin>true</RoundRobin>
-                <Target>Shaman&amp;(Group 2)</Target>
+                <Target>Shaman</Target>
                 <UseCustomModifiers />
                 <WoWMacro>
                   <WoWMacroSetString>Shaman</WoWMacroSetString>
@@ -32556,6 +32545,7 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
         <Enabled>false</Enabled>
         <Name>Button 1,1</Name>
         <BackgroundColor />
+        <ClickActions />
       </Button>
     </Buttons>
   </ClickBar>
