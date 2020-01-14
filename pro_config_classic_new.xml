@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ISBoxerToolkitProfile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="42" VersionMinor="0" BuildDate="1/10/2020 8:01:24 PM">
+<ISBoxerToolkitProfile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="42" VersionMinor="0" BuildDate="1/13/2020 4:25:57 PM">
   <CharacterSet>
     <ExecuteOnLoad>
       <KeyMapString>Initialization</KeyMapString>
@@ -1540,7 +1540,7 @@
           </WorkingArea>
           <Primary>true</Primary>
           <DeviceName>\\.\DISPLAY1</DeviceName>
-          <DPIScale>100</DPIScale>
+          <DPIScale>200</DPIScale>
         </UserScreen>
       </AllScreens>
       <Name>&lt;Window Layout-specified&gt;</Name>
@@ -1632,7 +1632,7 @@
           </WorkingArea>
           <Primary>true</Primary>
           <DeviceName>\\.\DISPLAY1</DeviceName>
-          <DPIScale>100</DPIScale>
+          <DPIScale>200</DPIScale>
         </UserScreen>
       </AllScreens>
       <Name>&lt;Window Layout-specified&gt;</Name>
@@ -1742,7 +1742,7 @@
           </WorkingArea>
           <Primary>true</Primary>
           <DeviceName>\\.\DISPLAY1</DeviceName>
-          <DPIScale>100</DPIScale>
+          <DPIScale>200</DPIScale>
         </UserScreen>
       </AllScreens>
       <Name>&lt;Window Layout-specified&gt;</Name>
@@ -1872,7 +1872,7 @@
           </WorkingArea>
           <Primary>true</Primary>
           <DeviceName>\\.\DISPLAY1</DeviceName>
-          <DPIScale>100</DPIScale>
+          <DPIScale>200</DPIScale>
         </UserScreen>
       </AllScreens>
       <Name>&lt;Window Layout-specified&gt;</Name>
@@ -2012,7 +2012,7 @@
           </WorkingArea>
           <Primary>true</Primary>
           <DeviceName>\\.\DISPLAY6</DeviceName>
-          <DPIScale>100</DPIScale>
+          <DPIScale>200</DPIScale>
         </UserScreen>
       </AllScreens>
       <Name>&lt;Window Layout-specified&gt;</Name>
@@ -2142,7 +2142,7 @@
           </WorkingArea>
           <Primary>true</Primary>
           <DeviceName>\\.\DISPLAY6</DeviceName>
-          <DPIScale>100</DPIScale>
+          <DPIScale>200</DPIScale>
         </UserScreen>
       </AllScreens>
       <Name>&lt;Window Layout-specified&gt;</Name>
@@ -6654,7 +6654,9 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
       <MappedKey>
         <Name>Combat Opener</Name>
         <Steps>
-          <Step />
+          <Step>
+            <Actions />
+          </Step>
         </Steps>
       </MappedKey>
       <MappedKey>
@@ -11352,6 +11354,2571 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
       </MappedKey>
       <MappedKey>
         <Name>Hide Menu</Name>
+        <Steps>
+          <Step>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+    </Mappings>
+  </KeyMap>
+  <KeyMap>
+    <Name>Targeting</Name>
+    <Mappings>
+      <MappedKey>
+        <Name>Target Slot 1</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <UseCustomModifiers>
+                  <LShift>true</LShift>
+                </UseCustomModifiers>
+                <WoWMacro>
+                  <WoWMacroSetString>Quick Setup 42</WoWMacroSetString>
+                  <WoWMacroString>/targetexact {FTL}</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Target Slot 2</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <UseCustomModifiers>
+                  <LCtrl>true</LCtrl>
+                </UseCustomModifiers>
+                <WoWMacro>
+                  <WoWMacroSetString>Quick Setup 42</WoWMacroSetString>
+                  <WoWMacroString>/targetexact {FTL}</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Target Slot 3</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <UseCustomModifiers>
+                  <RCtrl>true</RCtrl>
+                </UseCustomModifiers>
+                <WoWMacro>
+                  <WoWMacroSetString>Quick Setup 42</WoWMacroSetString>
+                  <WoWMacroString>/targetexact {FTL}</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Target Slot 4</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <UseCustomModifiers>
+                  <RShift>true</RShift>
+                  <RCtrl>true</RCtrl>
+                </UseCustomModifiers>
+                <WoWMacro>
+                  <WoWMacroSetString>Quick Setup 42</WoWMacroSetString>
+                  <WoWMacroString>/targetexact {FTL}</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Target Slot 5</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <UseCustomModifiers>
+                  <RAlt>true</RAlt>
+                  <LShift>true</LShift>
+                </UseCustomModifiers>
+                <WoWMacro>
+                  <WoWMacroSetString>Quick Setup 42</WoWMacroSetString>
+                  <WoWMacroString>/targetexact {FTL}</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Target Slot 6</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <UseCustomModifiers>
+                  <LAlt>true</LAlt>
+                </UseCustomModifiers>
+                <WoWMacro>
+                  <WoWMacroSetString>Quick Setup 42</WoWMacroSetString>
+                  <WoWMacroString>/targetexact {FTL}</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Target Slot 7</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <UseCustomModifiers>
+                  <RShift>true</RShift>
+                </UseCustomModifiers>
+                <WoWMacro>
+                  <WoWMacroSetString>Quick Setup 42</WoWMacroSetString>
+                  <WoWMacroString>/targetexact {FTL}</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Target Slot 8</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <UseCustomModifiers>
+                  <RAlt>true</RAlt>
+                </UseCustomModifiers>
+                <WoWMacro>
+                  <WoWMacroSetString>Quick Setup 42</WoWMacroSetString>
+                  <WoWMacroString>/targetexact {FTL}</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Target Slot 9</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <UseCustomModifiers>
+                  <RAlt>true</RAlt>
+                  <RShift>true</RShift>
+                </UseCustomModifiers>
+                <WoWMacro>
+                  <WoWMacroSetString>Quick Setup 42</WoWMacroSetString>
+                  <WoWMacroString>/targetexact {FTL}</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Target Slot 10</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <UseCustomModifiers>
+                  <LShift>true</LShift>
+                  <RCtrl>true</RCtrl>
+                </UseCustomModifiers>
+                <WoWMacro>
+                  <WoWMacroSetString>Quick Setup 42</WoWMacroSetString>
+                  <WoWMacroString>/targetexact {FTL}</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Target Slot 11</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <UseCustomModifiers>
+                  <LShift>true</LShift>
+                  <LCtrl>true</LCtrl>
+                </UseCustomModifiers>
+                <WoWMacro>
+                  <WoWMacroSetString>Quick Setup 42</WoWMacroSetString>
+                  <WoWMacroString>/targetexact {FTL}</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Target Slot 12</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <UseCustomModifiers>
+                  <LAlt>true</LAlt>
+                  <LShift>true</LShift>
+                </UseCustomModifiers>
+                <WoWMacro>
+                  <WoWMacroSetString>Quick Setup 42</WoWMacroSetString>
+                  <WoWMacroString>/targetexact {FTL}</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Target Slot 13</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <UseCustomModifiers>
+                  <LAlt>true</LAlt>
+                  <LCtrl>true</LCtrl>
+                </UseCustomModifiers>
+                <WoWMacro>
+                  <WoWMacroSetString>Quick Setup 42</WoWMacroSetString>
+                  <WoWMacroString>/targetexact {FTL}</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Target Slot 14</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <UseCustomModifiers>
+                  <RAlt>true</RAlt>
+                  <RCtrl>true</RCtrl>
+                </UseCustomModifiers>
+                <WoWMacro>
+                  <WoWMacroSetString>Quick Setup 42</WoWMacroSetString>
+                  <WoWMacroString>/targetexact {FTL}</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Target Slot 15</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <UseCustomModifiers>
+                  <RAlt>true</RAlt>
+                  <RCtrl>true</RCtrl>
+                </UseCustomModifiers>
+                <WoWMacro>
+                  <WoWMacroSetString>Quick Setup 42</WoWMacroSetString>
+                  <WoWMacroString>/targetexact {FTL}</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+    </Mappings>
+  </KeyMap>
+  <KeyMap>
+    <Name>Team Grid (15-Slot)</Name>
+    <Mappings>
+      <MappedKey>
+        <Name>Button 1.1 - Left Click</Name>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Team Grid (15-Slot) [Virtualized]</KeyMapString>
+                <MappedKeyString>Button 1.1 - Target</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Team Grid (15-Slot)</KeyMapString>
+                <MappedKeyString>DoButtonLeftClick</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 1.1 - Left Click [+A]</Name>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Team Grid (15-Slot) [Virtualized]</KeyMapString>
+                <MappedKeyString>Button 1.1 - Target</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 1.1 - Left Click [+C]</Name>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Team Grid (15-Slot) [Virtualized]</KeyMapString>
+                <MappedKeyString>Button 1.1 - Target</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 1.1 - Left Click [+S]</Name>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Team Grid (15-Slot) [Virtualized]</KeyMapString>
+                <MappedKeyString>Button 1.1 - Target</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name> </Name>
+        <Steps>
+          <Step />
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 1.1 - Right Click</Name>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Team Grid (15-Slot) [Virtualized]</KeyMapString>
+                <MappedKeyString>Button 1.1 - Target</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Team Grid (15-Slot)</KeyMapString>
+                <MappedKeyString>DoButtonRightClick</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 1.1 - Right Click [+A]</Name>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Team Grid (15-Slot) [Virtualized]</KeyMapString>
+                <MappedKeyString>Button 1.1 - Target</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 1.1 - Right Click [+C]</Name>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Team Grid (15-Slot) [Virtualized]</KeyMapString>
+                <MappedKeyString>Button 1.1 - Target</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 1.1 - Right Click [+S]</Name>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Team Grid (15-Slot) [Virtualized]</KeyMapString>
+                <MappedKeyString>Button 1.1 - Target</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>--</Name>
+        <Steps>
+          <Step />
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 1.2 - Left Click</Name>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Team Grid (15-Slot) [Virtualized]</KeyMapString>
+                <MappedKeyString>Button 1.2 - Target</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Team Grid (15-Slot)</KeyMapString>
+                <MappedKeyString>DoButtonLeftClick</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 1.2 - Left Click [+A]</Name>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Team Grid (15-Slot) [Virtualized]</KeyMapString>
+                <MappedKeyString>Button 1.2 - Target</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 1.2 - Left Click [+C]</Name>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Team Grid (15-Slot) [Virtualized]</KeyMapString>
+                <MappedKeyString>Button 1.2 - Target</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 1.2 - Left Click [+S]</Name>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Team Grid (15-Slot) [Virtualized]</KeyMapString>
+                <MappedKeyString>Button 1.2 - Target</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>  </Name>
+        <Steps>
+          <Step />
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 1.2 - Right Click</Name>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Team Grid (15-Slot) [Virtualized]</KeyMapString>
+                <MappedKeyString>Button 1.2 - Target</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Team Grid (15-Slot)</KeyMapString>
+                <MappedKeyString>DoButtonRightClick</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 1.2 - Right Click [+A]</Name>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Team Grid (15-Slot) [Virtualized]</KeyMapString>
+                <MappedKeyString>Button 1.2 - Target</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 1.2 - Right Click [+C]</Name>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Team Grid (15-Slot) [Virtualized]</KeyMapString>
+                <MappedKeyString>Button 1.2 - Target</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 1.2 - Right Click [+S]</Name>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Team Grid (15-Slot) [Virtualized]</KeyMapString>
+                <MappedKeyString>Button 1.2 - Target</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>-- </Name>
+        <Steps>
+          <Step />
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 1.3 - Left Click</Name>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Team Grid (15-Slot) [Virtualized]</KeyMapString>
+                <MappedKeyString>Button 1.3 - Target</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Team Grid (15-Slot)</KeyMapString>
+                <MappedKeyString>DoButtonLeftClick</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 1.3 - Left Click [+A]</Name>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Team Grid (15-Slot) [Virtualized]</KeyMapString>
+                <MappedKeyString>Button 1.3 - Target</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 1.3 - Left Click [+C]</Name>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Team Grid (15-Slot) [Virtualized]</KeyMapString>
+                <MappedKeyString>Button 1.3 - Target</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 1.3 - Left Click [+S]</Name>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Team Grid (15-Slot) [Virtualized]</KeyMapString>
+                <MappedKeyString>Button 1.3 - Target</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>   </Name>
+        <Steps>
+          <Step />
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 1.3 - Right Click</Name>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Team Grid (15-Slot) [Virtualized]</KeyMapString>
+                <MappedKeyString>Button 1.3 - Target</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Team Grid (15-Slot)</KeyMapString>
+                <MappedKeyString>DoButtonRightClick</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 1.3 - Right Click [+A]</Name>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Team Grid (15-Slot) [Virtualized]</KeyMapString>
+                <MappedKeyString>Button 1.3 - Target</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 1.3 - Right Click [+C]</Name>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Team Grid (15-Slot) [Virtualized]</KeyMapString>
+                <MappedKeyString>Button 1.3 - Target</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 1.3 - Right Click [+S]</Name>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Team Grid (15-Slot) [Virtualized]</KeyMapString>
+                <MappedKeyString>Button 1.3 - Target</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>--  </Name>
+        <Steps>
+          <Step />
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 2.1 - Left Click</Name>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Team Grid (15-Slot) [Virtualized]</KeyMapString>
+                <MappedKeyString>Button 2.1 - Target</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Team Grid (15-Slot)</KeyMapString>
+                <MappedKeyString>DoButtonLeftClick</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 2.1 - Left Click [+A]</Name>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Team Grid (15-Slot) [Virtualized]</KeyMapString>
+                <MappedKeyString>Button 2.1 - Target</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 2.1 - Left Click [+C]</Name>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Team Grid (15-Slot) [Virtualized]</KeyMapString>
+                <MappedKeyString>Button 2.1 - Target</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 2.1 - Left Click [+S]</Name>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Team Grid (15-Slot) [Virtualized]</KeyMapString>
+                <MappedKeyString>Button 2.1 - Target</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>    </Name>
+        <Steps>
+          <Step />
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 2.1 - Right Click</Name>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Team Grid (15-Slot) [Virtualized]</KeyMapString>
+                <MappedKeyString>Button 2.1 - Target</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Team Grid (15-Slot)</KeyMapString>
+                <MappedKeyString>DoButtonRightClick</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 2.1 - Right Click [+A]</Name>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Team Grid (15-Slot) [Virtualized]</KeyMapString>
+                <MappedKeyString>Button 2.1 - Target</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 2.1 - Right Click [+C]</Name>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Team Grid (15-Slot) [Virtualized]</KeyMapString>
+                <MappedKeyString>Button 2.1 - Target</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 2.1 - Right Click [+S]</Name>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Team Grid (15-Slot) [Virtualized]</KeyMapString>
+                <MappedKeyString>Button 2.1 - Target</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>--   </Name>
+        <Steps>
+          <Step />
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 2.2 - Left Click</Name>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Team Grid (15-Slot) [Virtualized]</KeyMapString>
+                <MappedKeyString>Button 2.2 - Target</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Team Grid (15-Slot)</KeyMapString>
+                <MappedKeyString>DoButtonLeftClick</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 2.2 - Left Click [+A]</Name>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Team Grid (15-Slot) [Virtualized]</KeyMapString>
+                <MappedKeyString>Button 2.2 - Target</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 2.2 - Left Click [+C]</Name>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Team Grid (15-Slot) [Virtualized]</KeyMapString>
+                <MappedKeyString>Button 2.2 - Target</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 2.2 - Left Click [+S]</Name>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Team Grid (15-Slot) [Virtualized]</KeyMapString>
+                <MappedKeyString>Button 2.2 - Target</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>     </Name>
+        <Steps>
+          <Step />
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 2.2 - Right Click</Name>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Team Grid (15-Slot) [Virtualized]</KeyMapString>
+                <MappedKeyString>Button 2.2 - Target</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Team Grid (15-Slot)</KeyMapString>
+                <MappedKeyString>DoButtonRightClick</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 2.2 - Right Click [+A]</Name>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Team Grid (15-Slot) [Virtualized]</KeyMapString>
+                <MappedKeyString>Button 2.2 - Target</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 2.2 - Right Click [+C]</Name>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Team Grid (15-Slot) [Virtualized]</KeyMapString>
+                <MappedKeyString>Button 2.2 - Target</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 2.2 - Right Click [+S]</Name>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Team Grid (15-Slot) [Virtualized]</KeyMapString>
+                <MappedKeyString>Button 2.2 - Target</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>--    </Name>
+        <Steps>
+          <Step />
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 2.3 - Left Click</Name>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Team Grid (15-Slot) [Virtualized]</KeyMapString>
+                <MappedKeyString>Button 2.3 - Target</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Team Grid (15-Slot)</KeyMapString>
+                <MappedKeyString>DoButtonLeftClick</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 2.3 - Left Click [+A]</Name>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Team Grid (15-Slot) [Virtualized]</KeyMapString>
+                <MappedKeyString>Button 2.3 - Target</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 2.3 - Left Click [+C]</Name>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Team Grid (15-Slot) [Virtualized]</KeyMapString>
+                <MappedKeyString>Button 2.3 - Target</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 2.3 - Left Click [+S]</Name>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Team Grid (15-Slot) [Virtualized]</KeyMapString>
+                <MappedKeyString>Button 2.3 - Target</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>      </Name>
+        <Steps>
+          <Step />
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 2.3 - Right Click</Name>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Team Grid (15-Slot) [Virtualized]</KeyMapString>
+                <MappedKeyString>Button 2.3 - Target</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Team Grid (15-Slot)</KeyMapString>
+                <MappedKeyString>DoButtonRightClick</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 2.3 - Right Click [+A]</Name>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Team Grid (15-Slot) [Virtualized]</KeyMapString>
+                <MappedKeyString>Button 2.3 - Target</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 2.3 - Right Click [+C]</Name>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps />
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 2.3 - Right Click [+S]</Name>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Team Grid (15-Slot) [Virtualized]</KeyMapString>
+                <MappedKeyString>Button 2.3 - Target</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>--     </Name>
+        <Steps>
+          <Step />
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 3.1 - Left Click</Name>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Team Grid (15-Slot) [Virtualized]</KeyMapString>
+                <MappedKeyString>Button 3.1 - Target</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Team Grid (15-Slot)</KeyMapString>
+                <MappedKeyString>DoButtonLeftClick</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 3.1 - Left Click [+A]</Name>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Team Grid (15-Slot) [Virtualized]</KeyMapString>
+                <MappedKeyString>Button 3.1 - Target</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 3.1 - Left Click [+C]</Name>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Team Grid (15-Slot) [Virtualized]</KeyMapString>
+                <MappedKeyString>Button 3.1 - Target</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 3.1 - Left Click [+S]</Name>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Team Grid (15-Slot) [Virtualized]</KeyMapString>
+                <MappedKeyString>Button 3.1 - Target</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>       </Name>
+        <Steps>
+          <Step />
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 3.1 - Right Click</Name>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Team Grid (15-Slot) [Virtualized]</KeyMapString>
+                <MappedKeyString>Button 3.1 - Target</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Team Grid (15-Slot)</KeyMapString>
+                <MappedKeyString>DoButtonRightClick</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 3.1 - Right Click [+A]</Name>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Team Grid (15-Slot) [Virtualized]</KeyMapString>
+                <MappedKeyString>Button 3.1 - Target</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 3.1 - Right Click [+C]</Name>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Team Grid (15-Slot) [Virtualized]</KeyMapString>
+                <MappedKeyString>Button 3.1 - Target</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 3.1 - Right Click [+S]</Name>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Team Grid (15-Slot) [Virtualized]</KeyMapString>
+                <MappedKeyString>Button 3.1 - Target</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>--      </Name>
+        <Steps>
+          <Step />
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 3.2 - Left Click</Name>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Team Grid (15-Slot) [Virtualized]</KeyMapString>
+                <MappedKeyString>Button 3.2 - Target</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Team Grid (15-Slot)</KeyMapString>
+                <MappedKeyString>DoButtonLeftClick</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 3.2 - Left Click [+A]</Name>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Team Grid (15-Slot) [Virtualized]</KeyMapString>
+                <MappedKeyString>Button 3.2 - Target</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 3.2 - Left Click [+C]</Name>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Team Grid (15-Slot) [Virtualized]</KeyMapString>
+                <MappedKeyString>Button 3.2 - Target</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 3.2 - Left Click [+S]</Name>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Team Grid (15-Slot) [Virtualized]</KeyMapString>
+                <MappedKeyString>Button 3.2 - Target</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>        </Name>
+        <Steps>
+          <Step />
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 3.2 - Right Click</Name>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Team Grid (15-Slot) [Virtualized]</KeyMapString>
+                <MappedKeyString>Button 3.2 - Target</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Team Grid (15-Slot)</KeyMapString>
+                <MappedKeyString>DoButtonRightClick</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 3.2 - Right Click [+A]</Name>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Team Grid (15-Slot) [Virtualized]</KeyMapString>
+                <MappedKeyString>Button 3.2 - Target</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 3.2 - Right Click [+C]</Name>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Team Grid (15-Slot) [Virtualized]</KeyMapString>
+                <MappedKeyString>Button 3.2 - Target</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 3.2 - Right Click [+S]</Name>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Team Grid (15-Slot) [Virtualized]</KeyMapString>
+                <MappedKeyString>Button 3.2 - Target</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>--       </Name>
+        <Steps>
+          <Step />
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 3.3 - Left Click</Name>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Team Grid (15-Slot) [Virtualized]</KeyMapString>
+                <MappedKeyString>Button 3.3 - Target</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Team Grid (15-Slot)</KeyMapString>
+                <MappedKeyString>DoButtonLeftClick</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 3.3 - Left Click [+A]</Name>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Team Grid (15-Slot) [Virtualized]</KeyMapString>
+                <MappedKeyString>Button 3.3 - Target</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 3.3 - Left Click [+C]</Name>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Team Grid (15-Slot) [Virtualized]</KeyMapString>
+                <MappedKeyString>Button 3.3 - Target</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 3.3 - Left Click [+S]</Name>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Team Grid (15-Slot) [Virtualized]</KeyMapString>
+                <MappedKeyString>Button 3.3 - Target</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>         </Name>
+        <Steps>
+          <Step />
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 3.3 - Right Click</Name>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Team Grid (15-Slot) [Virtualized]</KeyMapString>
+                <MappedKeyString>Button 3.3 - Target</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Team Grid (15-Slot)</KeyMapString>
+                <MappedKeyString>DoButtonRightClick</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 3.3 - Right Click [+A]</Name>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Team Grid (15-Slot) [Virtualized]</KeyMapString>
+                <MappedKeyString>Button 3.3 - Target</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 3.3 - Right Click [+C]</Name>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Team Grid (15-Slot) [Virtualized]</KeyMapString>
+                <MappedKeyString>Button 3.3 - Target</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 3.3 - Right Click [+S]</Name>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Team Grid (15-Slot) [Virtualized]</KeyMapString>
+                <MappedKeyString>Button 3.3 - Target</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>--        </Name>
+        <Steps>
+          <Step />
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 4.1 - Left Click</Name>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Team Grid (15-Slot) [Virtualized]</KeyMapString>
+                <MappedKeyString>Button 4.1 - Target</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Team Grid (15-Slot)</KeyMapString>
+                <MappedKeyString>DoButtonLeftClick</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 4.1 - Left Click [+A]</Name>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Team Grid (15-Slot) [Virtualized]</KeyMapString>
+                <MappedKeyString>Button 4.1 - Target</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 4.1 - Left Click [+C]</Name>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Team Grid (15-Slot) [Virtualized]</KeyMapString>
+                <MappedKeyString>Button 4.1 - Target</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 4.1 - Left Click [+S]</Name>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Team Grid (15-Slot) [Virtualized]</KeyMapString>
+                <MappedKeyString>Button 4.1 - Target</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>          </Name>
+        <Steps>
+          <Step />
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 4.1 - Right Click</Name>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Team Grid (15-Slot) [Virtualized]</KeyMapString>
+                <MappedKeyString>Button 4.1 - Target</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Team Grid (15-Slot)</KeyMapString>
+                <MappedKeyString>DoButtonRightClick</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 4.1 - Right Click [+A]</Name>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Team Grid (15-Slot) [Virtualized]</KeyMapString>
+                <MappedKeyString>Button 4.1 - Target</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 4.1 - Right Click [+C]</Name>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Team Grid (15-Slot) [Virtualized]</KeyMapString>
+                <MappedKeyString>Button 4.1 - Target</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 4.1 - Right Click [+S]</Name>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Team Grid (15-Slot) [Virtualized]</KeyMapString>
+                <MappedKeyString>Button 4.1 - Target</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>--         </Name>
+        <Steps>
+          <Step />
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 4.2 - Left Click</Name>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Team Grid (15-Slot) [Virtualized]</KeyMapString>
+                <MappedKeyString>Button 4.2 - Target</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Team Grid (15-Slot)</KeyMapString>
+                <MappedKeyString>DoButtonLeftClick</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 4.2 - Left Click [+A]</Name>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Team Grid (15-Slot) [Virtualized]</KeyMapString>
+                <MappedKeyString>Button 4.2 - Target</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 4.2 - Left Click [+C]</Name>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Team Grid (15-Slot) [Virtualized]</KeyMapString>
+                <MappedKeyString>Button 4.2 - Target</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 4.2 - Left Click [+S]</Name>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Team Grid (15-Slot) [Virtualized]</KeyMapString>
+                <MappedKeyString>Button 4.2 - Target</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>           </Name>
+        <Steps>
+          <Step />
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 4.2 - Right Click</Name>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Team Grid (15-Slot) [Virtualized]</KeyMapString>
+                <MappedKeyString>Button 4.2 - Target</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Team Grid (15-Slot)</KeyMapString>
+                <MappedKeyString>DoButtonRightClick</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 4.2 - Right Click [+A]</Name>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Team Grid (15-Slot) [Virtualized]</KeyMapString>
+                <MappedKeyString>Button 4.2 - Target</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 4.2 - Right Click [+C]</Name>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Team Grid (15-Slot) [Virtualized]</KeyMapString>
+                <MappedKeyString>Button 4.2 - Target</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 4.2 - Right Click [+S]</Name>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Team Grid (15-Slot) [Virtualized]</KeyMapString>
+                <MappedKeyString>Button 4.2 - Target</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>--          </Name>
+        <Steps>
+          <Step />
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 4.3 - Left Click</Name>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Team Grid (15-Slot) [Virtualized]</KeyMapString>
+                <MappedKeyString>Button 4.3 - Target</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Team Grid (15-Slot)</KeyMapString>
+                <MappedKeyString>DoButtonLeftClick</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 4.3 - Left Click [+A]</Name>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Team Grid (15-Slot) [Virtualized]</KeyMapString>
+                <MappedKeyString>Button 4.3 - Target</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 4.3 - Left Click [+C]</Name>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Team Grid (15-Slot) [Virtualized]</KeyMapString>
+                <MappedKeyString>Button 4.3 - Target</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 4.3 - Left Click [+S]</Name>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Team Grid (15-Slot) [Virtualized]</KeyMapString>
+                <MappedKeyString>Button 4.3 - Target</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>            </Name>
+        <Steps>
+          <Step />
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 4.3 - Right Click</Name>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Team Grid (15-Slot) [Virtualized]</KeyMapString>
+                <MappedKeyString>Button 4.3 - Target</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Team Grid (15-Slot)</KeyMapString>
+                <MappedKeyString>DoButtonRightClick</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 4.3 - Right Click [+A]</Name>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Team Grid (15-Slot) [Virtualized]</KeyMapString>
+                <MappedKeyString>Button 4.3 - Target</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 4.3 - Right Click [+C]</Name>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Team Grid (15-Slot) [Virtualized]</KeyMapString>
+                <MappedKeyString>Button 4.3 - Target</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 4.3 - Right Click [+S]</Name>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Team Grid (15-Slot) [Virtualized]</KeyMapString>
+                <MappedKeyString>Button 4.3 - Target</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>--           </Name>
+        <Steps>
+          <Step />
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 5.1 - Left Click</Name>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Team Grid (15-Slot) [Virtualized]</KeyMapString>
+                <MappedKeyString>Button 5.1 - Target</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Team Grid (15-Slot)</KeyMapString>
+                <MappedKeyString>DoButtonLeftClick</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 5.1 - Left Click [+A]</Name>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Team Grid (15-Slot) [Virtualized]</KeyMapString>
+                <MappedKeyString>Button 5.1 - Target</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 5.1 - Left Click [+C]</Name>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Team Grid (15-Slot) [Virtualized]</KeyMapString>
+                <MappedKeyString>Button 5.1 - Target</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 5.1 - Left Click [+S]</Name>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Team Grid (15-Slot) [Virtualized]</KeyMapString>
+                <MappedKeyString>Button 5.1 - Target</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>             </Name>
+        <Steps>
+          <Step />
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 5.1 - Right Click</Name>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Team Grid (15-Slot) [Virtualized]</KeyMapString>
+                <MappedKeyString>Button 5.1 - Target</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Team Grid (15-Slot)</KeyMapString>
+                <MappedKeyString>DoButtonRightClick</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 5.1 - Right Click [+A]</Name>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Team Grid (15-Slot) [Virtualized]</KeyMapString>
+                <MappedKeyString>Button 5.1 - Target</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 5.1 - Right Click [+C]</Name>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Team Grid (15-Slot) [Virtualized]</KeyMapString>
+                <MappedKeyString>Button 5.1 - Target</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 5.1 - Right Click [+S]</Name>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Team Grid (15-Slot) [Virtualized]</KeyMapString>
+                <MappedKeyString>Button 5.1 - Target</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>--            </Name>
+        <Steps>
+          <Step />
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 5.2 - Left Click</Name>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Team Grid (15-Slot) [Virtualized]</KeyMapString>
+                <MappedKeyString>Button 5.2 - Target</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Team Grid (15-Slot)</KeyMapString>
+                <MappedKeyString>DoButtonLeftClick</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 5.2 - Left Click [+A]</Name>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Team Grid (15-Slot) [Virtualized]</KeyMapString>
+                <MappedKeyString>Button 5.2 - Target</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 5.2 - Left Click [+C]</Name>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Team Grid (15-Slot) [Virtualized]</KeyMapString>
+                <MappedKeyString>Button 5.2 - Target</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 5.2 - Left Click [+S]</Name>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Team Grid (15-Slot) [Virtualized]</KeyMapString>
+                <MappedKeyString>Button 5.2 - Target</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>              </Name>
+        <Steps>
+          <Step />
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 5.2 - Right Click</Name>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Team Grid (15-Slot) [Virtualized]</KeyMapString>
+                <MappedKeyString>Button 5.2 - Target</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Team Grid (15-Slot)</KeyMapString>
+                <MappedKeyString>DoButtonRightClick</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 5.2 - Right Click [+A]</Name>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Team Grid (15-Slot) [Virtualized]</KeyMapString>
+                <MappedKeyString>Button 5.2 - Target</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 5.2 - Right Click [+C]</Name>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Team Grid (15-Slot) [Virtualized]</KeyMapString>
+                <MappedKeyString>Button 5.2 - Target</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 5.2 - Right Click [+S]</Name>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Team Grid (15-Slot) [Virtualized]</KeyMapString>
+                <MappedKeyString>Button 5.2 - Target</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>--             </Name>
+        <Steps>
+          <Step />
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 5.3 - Left Click</Name>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Team Grid (15-Slot) [Virtualized]</KeyMapString>
+                <MappedKeyString>Button 5.3 - Target</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Team Grid (15-Slot)</KeyMapString>
+                <MappedKeyString>DoButtonLeftClick</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 5.3 - Left Click [+A]</Name>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Team Grid (15-Slot) [Virtualized]</KeyMapString>
+                <MappedKeyString>Button 5.3 - Target</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 5.3 - Left Click [+C]</Name>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Team Grid (15-Slot) [Virtualized]</KeyMapString>
+                <MappedKeyString>Button 5.3 - Target</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 5.3 - Left Click [+S]</Name>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Team Grid (15-Slot) [Virtualized]</KeyMapString>
+                <MappedKeyString>Button 5.3 - Target</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>               </Name>
+        <Steps>
+          <Step />
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 5.3- Right Click</Name>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Team Grid (15-Slot) [Virtualized]</KeyMapString>
+                <MappedKeyString>Button 5.3 - Target</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Team Grid (15-Slot)</KeyMapString>
+                <MappedKeyString>DoButtonRightClick</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 5.3 - Right Click [+A]</Name>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Team Grid (15-Slot) [Virtualized]</KeyMapString>
+                <MappedKeyString>Button 5.3 - Target</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 5.3 - Right Click [+C]</Name>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Team Grid (15-Slot) [Virtualized]</KeyMapString>
+                <MappedKeyString>Button 5.3 - Target</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 5.3 - Right Click [+S]</Name>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Team Grid (15-Slot) [Virtualized]</KeyMapString>
+                <MappedKeyString>Button 5.3 - Target</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>-------------------------------------------------------</Name>
+        <Steps>
+          <Step />
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>DoButtonLeftClick</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <Target>Healer - Primary</Target>
+                <RoundRobin>true</RoundRobin>
+                <KeyMapString>Healing [Virtualized]</KeyMapString>
+                <MappedKeyString>Single-Target - Large Heal [Targeted]</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>DoButtonControlLeftClick</Name>
+        <Steps>
+          <Step />
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>DoButtonRightClick</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <Target>Healer - Primary</Target>
+                <RoundRobin>true</RoundRobin>
+                <KeyMapString>Healing [Virtualized]</KeyMapString>
+                <MappedKeyString>Single-Target - Small Heal [Targeted]</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+    </Mappings>
+  </KeyMap>
+  <KeyMap>
+    <Name>Team Grid (15-Slot) [Virtualized]</Name>
+    <Mappings>
+      <MappedKey>
+        <Name>Button 1.1 - Target</Name>
+        <Steps>
+          <Step>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 1.2 - Target</Name>
+        <Steps>
+          <Step>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 1.3 - Target</Name>
+        <Steps>
+          <Step>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name> </Name>
+        <Steps>
+          <Step />
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 2.1 - Target</Name>
+        <Steps>
+          <Step>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 2.2 - Target</Name>
+        <Steps>
+          <Step>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 2.3 - Target</Name>
+        <Steps>
+          <Step>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>  </Name>
+        <Steps>
+          <Step />
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 3.1 - Target</Name>
+        <Steps>
+          <Step>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 3.2 - Target</Name>
+        <Steps>
+          <Step>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 3.3 - Target</Name>
+        <Steps>
+          <Step>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>   </Name>
+        <Steps>
+          <Step />
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 4.1 - Target</Name>
+        <Steps>
+          <Step>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 4.2 - Target</Name>
+        <Steps>
+          <Step>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 4.3 - Target</Name>
+        <Steps>
+          <Step>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>    </Name>
+        <Steps>
+          <Step />
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 5.1 - Target</Name>
+        <Steps>
+          <Step>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 5.2 - Target</Name>
+        <Steps>
+          <Step>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 5.3 - Target</Name>
         <Steps>
           <Step>
             <Actions />
