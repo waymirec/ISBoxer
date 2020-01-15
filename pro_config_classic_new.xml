@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ISBoxerToolkitProfile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="42" VersionMinor="0" BuildDate="1/13/2020 4:25:57 PM">
+<ISBoxerToolkitProfile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="42" VersionMinor="0" BuildDate="1/14/2020 4:56:14 PM">
   <CharacterSet>
     <ExecuteOnLoad>
       <KeyMapString>Initialization</KeyMapString>
@@ -1172,7 +1172,7 @@
       <string>Shaman - Initialization</string>
       <string>Shaman - Enhancement - Initialization</string>
       <string>Shaman - Enhancement - Combat</string>
-      <string>Shaman - Enhancement - DPS Rotation</string>
+      <string>Shaman - Enhancement - DPS Rotation (Melee)</string>
       <string>Shaman - Enhancement - Healing</string>
       <string>Shaman - Enhancement - Healing Rotation</string>
     </KeyMapStrings>
@@ -1232,7 +1232,7 @@
       <string>Shaman - Initialization</string>
       <string>Shaman - Enhancement - Initialization</string>
       <string>Shaman - Enhancement - Combat</string>
-      <string>Shaman - Enhancement - DPS Rotation</string>
+      <string>Shaman - Enhancement - DPS Rotation (Melee)</string>
       <string>Shaman - Enhancement - Healing</string>
       <string>Shaman - Enhancement - Healing Rotation</string>
     </KeyMapStrings>
@@ -1292,7 +1292,7 @@
       <string>Shaman - Initialization</string>
       <string>Shaman - Enhancement - Initialization</string>
       <string>Shaman - Enhancement - Combat</string>
-      <string>Shaman - Enhancement - DPS Rotation</string>
+      <string>Shaman - Enhancement - DPS Rotation (Melee)</string>
       <string>Shaman - Enhancement - Healing</string>
       <string>Shaman - Enhancement - Healing Rotation</string>
     </KeyMapStrings>
@@ -2408,13 +2408,13 @@
     <Name>------------------------------    </Name>
   </RelayGroup>
   <RelayGroup>
-    <Name>Party 1</Name>
+    <Name>Group 1</Name>
   </RelayGroup>
   <RelayGroup>
-    <Name>Party 2</Name>
+    <Name>Group 2</Name>
   </RelayGroup>
   <RelayGroup>
-    <Name>Party 3</Name>
+    <Name>Group 3</Name>
   </RelayGroup>
   <RelayGroup>
     <Name>------------------------------     </Name>
@@ -2430,15 +2430,6 @@
   </RelayGroup>
   <RelayGroup>
     <Name>Crowd Control 2</Name>
-  </RelayGroup>
-  <RelayGroup>
-    <Name>Group 1</Name>
-  </RelayGroup>
-  <RelayGroup>
-    <Name>Group 2</Name>
-  </RelayGroup>
-  <RelayGroup>
-    <Name>Group 3</Name>
   </RelayGroup>
   <KeyMap>
     <Name>ISB42 - Always On</Name>
@@ -10405,17 +10396,123 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
         </Steps>
       </MappedKey>
       <MappedKey>
+        <Name>Assist - Join</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="TargetGroupAction">
+                <Action>Join</Action>
+                <RelayGroupString>Assist</RelayGroupString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Assist - Leave</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="TargetGroupAction">
+                <Action>Leave</Action>
+                <RelayGroupString>Assist</RelayGroupString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name />
+        <Steps>
+          <Step>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Combat - Join</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="TargetGroupAction">
+                <Action>Join</Action>
+                <RelayGroupString>Combat</RelayGroupString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Combat - Leave</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="TargetGroupAction">
+                <Action>Leave</Action>
+                <RelayGroupString>Combat</RelayGroupString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name> </Name>
+        <Steps>
+          <Step>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Follower - Join</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="TargetGroupAction">
+                <Action>Join</Action>
+                <RelayGroupString>Follower</RelayGroupString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Follower - Leave</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="TargetGroupAction">
+                <Action>Leave</Action>
+                <RelayGroupString>Follower</RelayGroupString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>-----------------------------------------------  </Name>
+        <Steps>
+          <Step>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
         <Name>Healer - Primary - Join</Name>
         <Steps>
           <Step>
             <Actions>
               <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-                <KeyMapString>ISB42 - Action Target Group</KeyMapString>
+                <KeyMapString>Action Target Group Manager</KeyMapString>
                 <MappedKeyString>Healer - Leave</MappedKeyString>
               </MappedKeyAction>
               <MappedKeyAction xsi:type="TargetGroupAction">
                 <Action>Join</Action>
                 <RelayGroupString>Healer - Primary</RelayGroupString>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="TargetGroupAction">
+                <Action>Join</Action>
+                <RelayGroupString>Healer</RelayGroupString>
               </MappedKeyAction>
             </Actions>
           </Step>
@@ -10427,29 +10524,16 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
           <Step>
             <Actions>
               <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-                <KeyMapString>ISB42 - Action Target Group</KeyMapString>
+                <KeyMapString>Action Target Group Manager</KeyMapString>
                 <MappedKeyString>Healer - Leave</MappedKeyString>
               </MappedKeyAction>
               <MappedKeyAction xsi:type="TargetGroupAction">
                 <Action>Join</Action>
                 <RelayGroupString>Healer - Secondary</RelayGroupString>
               </MappedKeyAction>
-            </Actions>
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
-        <Name>Healer - Tertiary - Join</Name>
-        <Steps>
-          <Step>
-            <Actions>
-              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-                <KeyMapString>ISB42 - Action Target Group</KeyMapString>
-                <MappedKeyString>Healer - Leave</MappedKeyString>
-              </MappedKeyAction>
               <MappedKeyAction xsi:type="TargetGroupAction">
                 <Action>Join</Action>
-                <RelayGroupString>Healer - Tertiary</RelayGroupString>
+                <RelayGroupString>Healer</RelayGroupString>
               </MappedKeyAction>
             </Actions>
           </Step>
@@ -10470,14 +10554,14 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
               </MappedKeyAction>
               <MappedKeyAction xsi:type="TargetGroupAction">
                 <Action>Leave</Action>
-                <RelayGroupString>Healer - Tertiary</RelayGroupString>
+                <RelayGroupString>Healer</RelayGroupString>
               </MappedKeyAction>
             </Actions>
           </Step>
         </Steps>
       </MappedKey>
       <MappedKey>
-        <Name>-----------------------------------------------</Name>
+        <Name>  </Name>
         <Steps>
           <Step>
             <Actions />
@@ -10515,7 +10599,7 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
         </Steps>
       </MappedKey>
       <MappedKey>
-        <Name>----------------------------------------------- </Name>
+        <Name>   </Name>
         <Steps>
           <Step>
             <Actions />
@@ -10553,7 +10637,133 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
         </Steps>
       </MappedKey>
       <MappedKey>
-        <Name>-----------------------------------------------  </Name>
+        <Name>-----------------------------------------------   </Name>
+        <Steps>
+          <Step>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>DPS Role - Join</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="TargetGroupAction">
+                <Action>Join</Action>
+                <RelayGroupString>DPS</RelayGroupString>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="TargetGroupAction">
+                <Action>Leave</Action>
+                <RelayGroupString>Tank</RelayGroupString>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="TargetGroupAction">
+                <Action>Leave</Action>
+                <RelayGroupString>Healer</RelayGroupString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>DPS Role - Leave</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="TargetGroupAction">
+                <Action>Leave</Action>
+                <RelayGroupString>DPS</RelayGroupString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>    </Name>
+        <Steps>
+          <Step>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Tank Role - Join</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="TargetGroupAction">
+                <Action>Leave</Action>
+                <RelayGroupString>DPS</RelayGroupString>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="TargetGroupAction">
+                <Action>Join</Action>
+                <RelayGroupString>Tank</RelayGroupString>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="TargetGroupAction">
+                <Action>Leave</Action>
+                <RelayGroupString>Healer</RelayGroupString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Tank Role - Leave</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="TargetGroupAction">
+                <Action>Leave</Action>
+                <RelayGroupString>Tank</RelayGroupString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>     </Name>
+        <Steps>
+          <Step>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Healer Role - Join</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="TargetGroupAction">
+                <Action>Leave</Action>
+                <RelayGroupString>DPS</RelayGroupString>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="TargetGroupAction">
+                <Action>Leave</Action>
+                <RelayGroupString>Tank</RelayGroupString>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="TargetGroupAction">
+                <Action>Join</Action>
+                <RelayGroupString>Healer</RelayGroupString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Healer Role - Leave</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="TargetGroupAction">
+                <Action>Leave</Action>
+                <RelayGroupString>Healer</RelayGroupString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>-----------------------------------------------    </Name>
         <Steps>
           <Step>
             <Actions />
@@ -10587,7 +10797,177 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
         </Steps>
       </MappedKey>
       <MappedKey>
-        <Name>-----------------------------------------------   </Name>
+        <Name>      </Name>
+        <Steps>
+          <Step>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Pull - Join</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="TargetGroupAction">
+                <Action>Join</Action>
+                <RelayGroupString>Pull</RelayGroupString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Pull - Leave</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="TargetGroupAction">
+                <Action>Join</Action>
+                <RelayGroupString>Pull</RelayGroupString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>       </Name>
+        <Steps>
+          <Step>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Purge - Join</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="TargetGroupAction">
+                <Action>Join</Action>
+                <RelayGroupString>Stun</RelayGroupString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Purge - Leave</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="TargetGroupAction">
+                <Action>Leave</Action>
+                <RelayGroupString>Stun</RelayGroupString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>        </Name>
+        <Steps>
+          <Step>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Resurrect - Join</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="TargetGroupAction">
+                <Action>Join</Action>
+                <RelayGroupString>Stun</RelayGroupString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Resurrect - Leave</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="TargetGroupAction">
+                <Action>Leave</Action>
+                <RelayGroupString>Stun</RelayGroupString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>         </Name>
+        <Steps>
+          <Step>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Root - Join</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="TargetGroupAction">
+                <Action>Join</Action>
+                <RelayGroupString>Stun</RelayGroupString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Root - Leave</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="TargetGroupAction">
+                <Action>Leave</Action>
+                <RelayGroupString>Stun</RelayGroupString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>          </Name>
+        <Steps>
+          <Step>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Snare - Join</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="TargetGroupAction">
+                <Action>Join</Action>
+                <RelayGroupString>Stun</RelayGroupString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Snare - Leave</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="TargetGroupAction">
+                <Action>Leave</Action>
+                <RelayGroupString>Stun</RelayGroupString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>           </Name>
         <Steps>
           <Step>
             <Actions />
@@ -10621,7 +11001,41 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
         </Steps>
       </MappedKey>
       <MappedKey>
-        <Name>-----------------------------------------------    </Name>
+        <Name>            </Name>
+        <Steps>
+          <Step>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Taunt - Join</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="TargetGroupAction">
+                <Action>Join</Action>
+                <RelayGroupString>Stun</RelayGroupString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Taunt - Leave</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="TargetGroupAction">
+                <Action>Leave</Action>
+                <RelayGroupString>Stun</RelayGroupString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>-----------------------------------------------      </Name>
         <Steps>
           <Step>
             <Actions />
@@ -10672,40 +11086,6 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
         </Steps>
       </MappedKey>
       <MappedKey>
-        <Name>-----------------------------------------------      </Name>
-        <Steps>
-          <Step>
-            <Actions />
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
-        <Name>Pull - Join</Name>
-        <Steps>
-          <Step>
-            <Actions>
-              <MappedKeyAction xsi:type="TargetGroupAction">
-                <Action>Join</Action>
-                <RelayGroupString>Pull</RelayGroupString>
-              </MappedKeyAction>
-            </Actions>
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
-        <Name>Pull - Leave</Name>
-        <Steps>
-          <Step>
-            <Actions>
-              <MappedKeyAction xsi:type="TargetGroupAction">
-                <Action>Join</Action>
-                <RelayGroupString>Pull</RelayGroupString>
-              </MappedKeyAction>
-            </Actions>
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
         <Name>-----------------------------------------------       </Name>
         <Steps>
           <Step>
@@ -10714,110 +11094,72 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
         </Steps>
       </MappedKey>
       <MappedKey>
-        <Name>DPS Role - Join</Name>
+        <Name>Group 1 - Join</Name>
         <Steps>
           <Step>
             <Actions>
-              <MappedKeyAction xsi:type="TargetGroupAction">
-                <Action>Join</Action>
-                <RelayGroupString>DPS</RelayGroupString>
-              </MappedKeyAction>
-              <MappedKeyAction xsi:type="TargetGroupAction">
-                <Action>Leave</Action>
-                <RelayGroupString>Tank</RelayGroupString>
-              </MappedKeyAction>
-              <MappedKeyAction xsi:type="TargetGroupAction">
-                <Action>Leave</Action>
-                <RelayGroupString>Healer</RelayGroupString>
-              </MappedKeyAction>
-            </Actions>
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
-        <Name>DPS Role - Leave</Name>
-        <Steps>
-          <Step>
-            <Actions>
-              <MappedKeyAction xsi:type="TargetGroupAction">
-                <Action>Leave</Action>
-                <RelayGroupString>DPS</RelayGroupString>
-              </MappedKeyAction>
-            </Actions>
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
-        <Name />
-        <Steps>
-          <Step>
-            <Actions />
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
-        <Name>Tank Role - Join</Name>
-        <Steps>
-          <Step>
-            <Actions>
-              <MappedKeyAction xsi:type="TargetGroupAction">
-                <Action>Leave</Action>
-                <RelayGroupString>DPS</RelayGroupString>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Action Target Group Manager</KeyMapString>
+                <MappedKeyString>Group - Leave</MappedKeyString>
               </MappedKeyAction>
               <MappedKeyAction xsi:type="TargetGroupAction">
                 <Action>Join</Action>
-                <RelayGroupString>Tank</RelayGroupString>
-              </MappedKeyAction>
-              <MappedKeyAction xsi:type="TargetGroupAction">
-                <Action>Leave</Action>
-                <RelayGroupString>Healer</RelayGroupString>
+                <RelayGroupString>Group 1</RelayGroupString>
               </MappedKeyAction>
             </Actions>
           </Step>
         </Steps>
       </MappedKey>
       <MappedKey>
-        <Name>Tank Role - Leave</Name>
+        <Name>Group 2 - Join</Name>
         <Steps>
           <Step>
             <Actions>
-              <MappedKeyAction xsi:type="TargetGroupAction">
-                <Action>Leave</Action>
-                <RelayGroupString>Tank</RelayGroupString>
-              </MappedKeyAction>
-            </Actions>
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
-        <Name>Healer Role - Join</Name>
-        <Steps>
-          <Step>
-            <Actions>
-              <MappedKeyAction xsi:type="TargetGroupAction">
-                <Action>Leave</Action>
-                <RelayGroupString>DPS</RelayGroupString>
-              </MappedKeyAction>
-              <MappedKeyAction xsi:type="TargetGroupAction">
-                <Action>Leave</Action>
-                <RelayGroupString>Tank</RelayGroupString>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Action Target Group Manager</KeyMapString>
+                <MappedKeyString>Group - Leave</MappedKeyString>
               </MappedKeyAction>
               <MappedKeyAction xsi:type="TargetGroupAction">
                 <Action>Join</Action>
-                <RelayGroupString>Healer</RelayGroupString>
+                <RelayGroupString>Group 2</RelayGroupString>
               </MappedKeyAction>
             </Actions>
           </Step>
         </Steps>
       </MappedKey>
       <MappedKey>
-        <Name>Healer Role - Leave</Name>
+        <Name>Group 3 - Join</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Action Target Group Manager</KeyMapString>
+                <MappedKeyString>Group - Leave</MappedKeyString>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="TargetGroupAction">
+                <Action>Join</Action>
+                <RelayGroupString>Group 3</RelayGroupString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Group - Leave</Name>
         <Steps>
           <Step>
             <Actions>
               <MappedKeyAction xsi:type="TargetGroupAction">
                 <Action>Leave</Action>
-                <RelayGroupString>Healer</RelayGroupString>
+                <RelayGroupString>Group 1</RelayGroupString>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="TargetGroupAction">
+                <Action>Leave</Action>
+                <RelayGroupString>Group 2</RelayGroupString>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="TargetGroupAction">
+                <Action>Leave</Action>
+                <RelayGroupString>Group 3</RelayGroupString>
               </MappedKeyAction>
             </Actions>
           </Step>
@@ -11706,17 +12048,19 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
           <Step>
             <Actions>
               <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-                <KeyMapString>Team Grid (15-Slot) [Virtualized]</KeyMapString>
-                <MappedKeyString>Button 1.1 - Target</MappedKeyString>
+                <KeyMapString>Slot Swap</KeyMapString>
+                <MappedKeyString>Slot 1 - Swap</MappedKeyString>
               </MappedKeyAction>
             </Actions>
           </Step>
         </Steps>
       </MappedKey>
       <MappedKey>
-        <Name> </Name>
+        <Name />
         <Steps>
-          <Step />
+          <Step>
+            <Actions />
+          </Step>
         </Steps>
       </MappedKey>
       <MappedKey>
@@ -11781,12 +12125,22 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
               </MappedKeyAction>
             </Actions>
           </Step>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Team Grid (15-Slot)</KeyMapString>
+                <MappedKeyString>DoButtonShiftRightClick</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
         </Steps>
       </MappedKey>
       <MappedKey>
         <Name>--</Name>
         <Steps>
-          <Step />
+          <Step>
+            <Actions />
+          </Step>
         </Steps>
       </MappedKey>
       <MappedKey>
@@ -11846,17 +12200,19 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
           <Step>
             <Actions>
               <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-                <KeyMapString>Team Grid (15-Slot) [Virtualized]</KeyMapString>
-                <MappedKeyString>Button 1.2 - Target</MappedKeyString>
+                <KeyMapString>Slot Swap</KeyMapString>
+                <MappedKeyString>Slot 3 - Swap</MappedKeyString>
               </MappedKeyAction>
             </Actions>
           </Step>
         </Steps>
       </MappedKey>
       <MappedKey>
-        <Name>  </Name>
+        <Name> </Name>
         <Steps>
-          <Step />
+          <Step>
+            <Actions />
+          </Step>
         </Steps>
       </MappedKey>
       <MappedKey>
@@ -11921,12 +12277,22 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
               </MappedKeyAction>
             </Actions>
           </Step>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Team Grid (15-Slot)</KeyMapString>
+                <MappedKeyString>DoButtonShiftRightClick</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
         </Steps>
       </MappedKey>
       <MappedKey>
         <Name>-- </Name>
         <Steps>
-          <Step />
+          <Step>
+            <Actions />
+          </Step>
         </Steps>
       </MappedKey>
       <MappedKey>
@@ -11986,17 +12352,19 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
           <Step>
             <Actions>
               <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-                <KeyMapString>Team Grid (15-Slot) [Virtualized]</KeyMapString>
-                <MappedKeyString>Button 1.3 - Target</MappedKeyString>
+                <KeyMapString>Slot Swap</KeyMapString>
+                <MappedKeyString>Slot 8 - Swap</MappedKeyString>
               </MappedKeyAction>
             </Actions>
           </Step>
         </Steps>
       </MappedKey>
       <MappedKey>
-        <Name>   </Name>
+        <Name>  </Name>
         <Steps>
-          <Step />
+          <Step>
+            <Actions />
+          </Step>
         </Steps>
       </MappedKey>
       <MappedKey>
@@ -12061,12 +12429,22 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
               </MappedKeyAction>
             </Actions>
           </Step>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Team Grid (15-Slot)</KeyMapString>
+                <MappedKeyString>DoButtonShiftRightClick</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
         </Steps>
       </MappedKey>
       <MappedKey>
         <Name>--  </Name>
         <Steps>
-          <Step />
+          <Step>
+            <Actions />
+          </Step>
         </Steps>
       </MappedKey>
       <MappedKey>
@@ -12126,17 +12504,19 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
           <Step>
             <Actions>
               <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-                <KeyMapString>Team Grid (15-Slot) [Virtualized]</KeyMapString>
-                <MappedKeyString>Button 2.1 - Target</MappedKeyString>
+                <KeyMapString>Slot Swap</KeyMapString>
+                <MappedKeyString>Slot 13 - Swap</MappedKeyString>
               </MappedKeyAction>
             </Actions>
           </Step>
         </Steps>
       </MappedKey>
       <MappedKey>
-        <Name>    </Name>
+        <Name>   </Name>
         <Steps>
-          <Step />
+          <Step>
+            <Actions />
+          </Step>
         </Steps>
       </MappedKey>
       <MappedKey>
@@ -12201,12 +12581,22 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
               </MappedKeyAction>
             </Actions>
           </Step>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Team Grid (15-Slot)</KeyMapString>
+                <MappedKeyString>DoButtonShiftRightClick</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
         </Steps>
       </MappedKey>
       <MappedKey>
         <Name>--   </Name>
         <Steps>
-          <Step />
+          <Step>
+            <Actions />
+          </Step>
         </Steps>
       </MappedKey>
       <MappedKey>
@@ -12266,17 +12656,19 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
           <Step>
             <Actions>
               <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-                <KeyMapString>Team Grid (15-Slot) [Virtualized]</KeyMapString>
-                <MappedKeyString>Button 2.2 - Target</MappedKeyString>
+                <KeyMapString>Slot Swap</KeyMapString>
+                <MappedKeyString>Slot 14 - Swap</MappedKeyString>
               </MappedKeyAction>
             </Actions>
           </Step>
         </Steps>
       </MappedKey>
       <MappedKey>
-        <Name>     </Name>
+        <Name>    </Name>
         <Steps>
-          <Step />
+          <Step>
+            <Actions />
+          </Step>
         </Steps>
       </MappedKey>
       <MappedKey>
@@ -12341,12 +12733,22 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
               </MappedKeyAction>
             </Actions>
           </Step>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Team Grid (15-Slot)</KeyMapString>
+                <MappedKeyString>DoButtonShiftRightClick</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
         </Steps>
       </MappedKey>
       <MappedKey>
         <Name>--    </Name>
         <Steps>
-          <Step />
+          <Step>
+            <Actions />
+          </Step>
         </Steps>
       </MappedKey>
       <MappedKey>
@@ -12406,17 +12808,19 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
           <Step>
             <Actions>
               <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-                <KeyMapString>Team Grid (15-Slot) [Virtualized]</KeyMapString>
-                <MappedKeyString>Button 2.3 - Target</MappedKeyString>
+                <KeyMapString>Slot Swap</KeyMapString>
+                <MappedKeyString>Slot 7 - Swap</MappedKeyString>
               </MappedKeyAction>
             </Actions>
           </Step>
         </Steps>
       </MappedKey>
       <MappedKey>
-        <Name>      </Name>
+        <Name>     </Name>
         <Steps>
-          <Step />
+          <Step>
+            <Actions />
+          </Step>
         </Steps>
       </MappedKey>
       <MappedKey>
@@ -12472,12 +12876,22 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
               </MappedKeyAction>
             </Actions>
           </Step>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Team Grid (15-Slot)</KeyMapString>
+                <MappedKeyString>DoButtonShiftRightClick</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
         </Steps>
       </MappedKey>
       <MappedKey>
         <Name>--     </Name>
         <Steps>
-          <Step />
+          <Step>
+            <Actions />
+          </Step>
         </Steps>
       </MappedKey>
       <MappedKey>
@@ -12537,17 +12951,19 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
           <Step>
             <Actions>
               <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-                <KeyMapString>Team Grid (15-Slot) [Virtualized]</KeyMapString>
-                <MappedKeyString>Button 3.1 - Target</MappedKeyString>
+                <KeyMapString>Slot Swap</KeyMapString>
+                <MappedKeyString>Slot 2 - Swap</MappedKeyString>
               </MappedKeyAction>
             </Actions>
           </Step>
         </Steps>
       </MappedKey>
       <MappedKey>
-        <Name>       </Name>
+        <Name>      </Name>
         <Steps>
-          <Step />
+          <Step>
+            <Actions />
+          </Step>
         </Steps>
       </MappedKey>
       <MappedKey>
@@ -12612,12 +13028,22 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
               </MappedKeyAction>
             </Actions>
           </Step>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Team Grid (15-Slot)</KeyMapString>
+                <MappedKeyString>DoButtonShiftRightClick</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
         </Steps>
       </MappedKey>
       <MappedKey>
         <Name>--      </Name>
         <Steps>
-          <Step />
+          <Step>
+            <Actions />
+          </Step>
         </Steps>
       </MappedKey>
       <MappedKey>
@@ -12677,8 +13103,8 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
           <Step>
             <Actions>
               <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-                <KeyMapString>Team Grid (15-Slot) [Virtualized]</KeyMapString>
-                <MappedKeyString>Button 3.2 - Target</MappedKeyString>
+                <KeyMapString>Slot Swap</KeyMapString>
+                <MappedKeyString>Slot 11 - Swap</MappedKeyString>
               </MappedKeyAction>
             </Actions>
           </Step>
@@ -12752,12 +13178,22 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
               </MappedKeyAction>
             </Actions>
           </Step>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Team Grid (15-Slot)</KeyMapString>
+                <MappedKeyString>DoButtonShiftRightClick</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
         </Steps>
       </MappedKey>
       <MappedKey>
         <Name>--       </Name>
         <Steps>
-          <Step />
+          <Step>
+            <Actions />
+          </Step>
         </Steps>
       </MappedKey>
       <MappedKey>
@@ -12817,15 +13253,15 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
           <Step>
             <Actions>
               <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-                <KeyMapString>Team Grid (15-Slot) [Virtualized]</KeyMapString>
-                <MappedKeyString>Button 3.3 - Target</MappedKeyString>
+                <KeyMapString>Slot Swap</KeyMapString>
+                <MappedKeyString>Slot 9 - Swap</MappedKeyString>
               </MappedKeyAction>
             </Actions>
           </Step>
         </Steps>
       </MappedKey>
       <MappedKey>
-        <Name>         </Name>
+        <Name>          </Name>
         <Steps>
           <Step />
         </Steps>
@@ -12892,12 +13328,22 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
               </MappedKeyAction>
             </Actions>
           </Step>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Team Grid (15-Slot)</KeyMapString>
+                <MappedKeyString>DoButtonShiftRightClick</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
         </Steps>
       </MappedKey>
       <MappedKey>
         <Name>--        </Name>
         <Steps>
-          <Step />
+          <Step>
+            <Actions />
+          </Step>
         </Steps>
       </MappedKey>
       <MappedKey>
@@ -12957,15 +13403,15 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
           <Step>
             <Actions>
               <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-                <KeyMapString>Team Grid (15-Slot) [Virtualized]</KeyMapString>
-                <MappedKeyString>Button 4.1 - Target</MappedKeyString>
+                <KeyMapString>Slot Swap</KeyMapString>
+                <MappedKeyString>Slot 10 - Swap</MappedKeyString>
               </MappedKeyAction>
             </Actions>
           </Step>
         </Steps>
       </MappedKey>
       <MappedKey>
-        <Name>          </Name>
+        <Name>            </Name>
         <Steps>
           <Step />
         </Steps>
@@ -13032,12 +13478,22 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
               </MappedKeyAction>
             </Actions>
           </Step>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Team Grid (15-Slot)</KeyMapString>
+                <MappedKeyString>DoButtonShiftRightClick</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
         </Steps>
       </MappedKey>
       <MappedKey>
         <Name>--         </Name>
         <Steps>
-          <Step />
+          <Step>
+            <Actions />
+          </Step>
         </Steps>
       </MappedKey>
       <MappedKey>
@@ -13097,15 +13553,15 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
           <Step>
             <Actions>
               <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-                <KeyMapString>Team Grid (15-Slot) [Virtualized]</KeyMapString>
-                <MappedKeyString>Button 4.2 - Target</MappedKeyString>
+                <KeyMapString>Slot Swap</KeyMapString>
+                <MappedKeyString>Slot 4 - Swap</MappedKeyString>
               </MappedKeyAction>
             </Actions>
           </Step>
         </Steps>
       </MappedKey>
       <MappedKey>
-        <Name>           </Name>
+        <Name>              </Name>
         <Steps>
           <Step />
         </Steps>
@@ -13172,12 +13628,22 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
               </MappedKeyAction>
             </Actions>
           </Step>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Team Grid (15-Slot)</KeyMapString>
+                <MappedKeyString>DoButtonShiftRightClick</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
         </Steps>
       </MappedKey>
       <MappedKey>
         <Name>--          </Name>
         <Steps>
-          <Step />
+          <Step>
+            <Actions />
+          </Step>
         </Steps>
       </MappedKey>
       <MappedKey>
@@ -13237,15 +13703,15 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
           <Step>
             <Actions>
               <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-                <KeyMapString>Team Grid (15-Slot) [Virtualized]</KeyMapString>
-                <MappedKeyString>Button 4.3 - Target</MappedKeyString>
+                <KeyMapString>Slot Swap</KeyMapString>
+                <MappedKeyString>Slot 15 - Swap</MappedKeyString>
               </MappedKeyAction>
             </Actions>
           </Step>
         </Steps>
       </MappedKey>
       <MappedKey>
-        <Name>            </Name>
+        <Name>                </Name>
         <Steps>
           <Step />
         </Steps>
@@ -13312,12 +13778,22 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
               </MappedKeyAction>
             </Actions>
           </Step>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Team Grid (15-Slot)</KeyMapString>
+                <MappedKeyString>DoButtonShiftRightClick</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
         </Steps>
       </MappedKey>
       <MappedKey>
         <Name>--           </Name>
         <Steps>
-          <Step />
+          <Step>
+            <Actions />
+          </Step>
         </Steps>
       </MappedKey>
       <MappedKey>
@@ -13377,15 +13853,15 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
           <Step>
             <Actions>
               <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-                <KeyMapString>Team Grid (15-Slot) [Virtualized]</KeyMapString>
-                <MappedKeyString>Button 5.1 - Target</MappedKeyString>
+                <KeyMapString>Slot Swap</KeyMapString>
+                <MappedKeyString>Slot 5 - Swap</MappedKeyString>
               </MappedKeyAction>
             </Actions>
           </Step>
         </Steps>
       </MappedKey>
       <MappedKey>
-        <Name>             </Name>
+        <Name>                  </Name>
         <Steps>
           <Step />
         </Steps>
@@ -13452,12 +13928,22 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
               </MappedKeyAction>
             </Actions>
           </Step>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Team Grid (15-Slot)</KeyMapString>
+                <MappedKeyString>DoButtonShiftRightClick</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
         </Steps>
       </MappedKey>
       <MappedKey>
         <Name>--            </Name>
         <Steps>
-          <Step />
+          <Step>
+            <Actions />
+          </Step>
         </Steps>
       </MappedKey>
       <MappedKey>
@@ -13517,15 +14003,15 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
           <Step>
             <Actions>
               <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-                <KeyMapString>Team Grid (15-Slot) [Virtualized]</KeyMapString>
-                <MappedKeyString>Button 5.2 - Target</MappedKeyString>
+                <KeyMapString>Slot Swap</KeyMapString>
+                <MappedKeyString>Slot 6 - Swap</MappedKeyString>
               </MappedKeyAction>
             </Actions>
           </Step>
         </Steps>
       </MappedKey>
       <MappedKey>
-        <Name>              </Name>
+        <Name>                    </Name>
         <Steps>
           <Step />
         </Steps>
@@ -13592,12 +14078,22 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
               </MappedKeyAction>
             </Actions>
           </Step>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Team Grid (15-Slot)</KeyMapString>
+                <MappedKeyString>DoButtonShiftRightClick</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
         </Steps>
       </MappedKey>
       <MappedKey>
         <Name>--             </Name>
         <Steps>
-          <Step />
+          <Step>
+            <Actions />
+          </Step>
         </Steps>
       </MappedKey>
       <MappedKey>
@@ -13657,21 +14153,21 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
           <Step>
             <Actions>
               <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-                <KeyMapString>Team Grid (15-Slot) [Virtualized]</KeyMapString>
-                <MappedKeyString>Button 5.3 - Target</MappedKeyString>
+                <KeyMapString>Slot Swap</KeyMapString>
+                <MappedKeyString>Slot 12 - Swap</MappedKeyString>
               </MappedKeyAction>
             </Actions>
           </Step>
         </Steps>
       </MappedKey>
       <MappedKey>
-        <Name>               </Name>
+        <Name>                      </Name>
         <Steps>
           <Step />
         </Steps>
       </MappedKey>
       <MappedKey>
-        <Name>Button 5.3- Right Click</Name>
+        <Name>Button 5.3 - Right Click</Name>
         <Mode>OnPressAndRelease</Mode>
         <Steps>
           <Step>
@@ -13732,12 +14228,22 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
               </MappedKeyAction>
             </Actions>
           </Step>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Team Grid (15-Slot)</KeyMapString>
+                <MappedKeyString>DoButtonShiftRightClick</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
         </Steps>
       </MappedKey>
       <MappedKey>
-        <Name>-------------------------------------------------------</Name>
+        <Name>------------------------------------------------------- </Name>
         <Steps>
-          <Step />
+          <Step>
+            <Actions />
+          </Step>
         </Steps>
       </MappedKey>
       <MappedKey>
@@ -13758,7 +14264,9 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
       <MappedKey>
         <Name>DoButtonControlLeftClick</Name>
         <Steps>
-          <Step />
+          <Step>
+            <Actions />
+          </Step>
         </Steps>
       </MappedKey>
       <MappedKey>
@@ -13771,6 +14279,19 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
                 <RoundRobin>true</RoundRobin>
                 <KeyMapString>Healing [Virtualized]</KeyMapString>
                 <MappedKeyString>Single-Target - Small Heal [Targeted]</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>DoButtonShiftRightClick</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Combat</KeyMapString>
+                <MappedKeyString>Resurrect</MappedKeyString>
               </MappedKeyAction>
             </Actions>
           </Step>
@@ -13806,9 +14327,11 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
         </Steps>
       </MappedKey>
       <MappedKey>
-        <Name> </Name>
+        <Name />
         <Steps>
-          <Step />
+          <Step>
+            <Actions />
+          </Step>
         </Steps>
       </MappedKey>
       <MappedKey>
@@ -13836,9 +14359,11 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
         </Steps>
       </MappedKey>
       <MappedKey>
-        <Name>  </Name>
+        <Name> </Name>
         <Steps>
-          <Step />
+          <Step>
+            <Actions />
+          </Step>
         </Steps>
       </MappedKey>
       <MappedKey>
@@ -13866,9 +14391,11 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
         </Steps>
       </MappedKey>
       <MappedKey>
-        <Name>   </Name>
+        <Name>  </Name>
         <Steps>
-          <Step />
+          <Step>
+            <Actions />
+          </Step>
         </Steps>
       </MappedKey>
       <MappedKey>
@@ -13896,9 +14423,11 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
         </Steps>
       </MappedKey>
       <MappedKey>
-        <Name>    </Name>
+        <Name>   </Name>
         <Steps>
-          <Step />
+          <Step>
+            <Actions />
+          </Step>
         </Steps>
       </MappedKey>
       <MappedKey>
@@ -13922,6 +14451,526 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
         <Steps>
           <Step>
             <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+    </Mappings>
+  </KeyMap>
+  <KeyMap>
+    <Name>Party Grid (15-Slot)</Name>
+    <Mappings>
+      <MappedKey>
+        <Name>Setup</Name>
+        <Steps>
+          <Step>
+            <Name>Setup</Name>
+            <Actions>
+              <MappedKeyAction xsi:type="VideoFeedsAction">
+                <Action>Add</Action>
+                <Name>Party 1</Name>
+                <Target>(Group1)#1</Target>
+                <IsSource>true</IsSource>
+                <Rect>
+                  <Location>
+                    <X>0</X>
+                    <Y>0</Y>
+                  </Location>
+                  <Size>
+                    <Width>0</Width>
+                    <Height>0</Height>
+                  </Size>
+                  <X>0</X>
+                  <Y>0</Y>
+                  <Width>0</Width>
+                  <Height>0</Height>
+                </Rect>
+                <MappedKey />
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="VideoFeedsAction">
+                <Action>Add</Action>
+                <Name>Party 2</Name>
+                <Target>(Group 2)#1</Target>
+                <IsSource>true</IsSource>
+                <Rect>
+                  <Location>
+                    <X>0</X>
+                    <Y>0</Y>
+                  </Location>
+                  <Size>
+                    <Width>0</Width>
+                    <Height>0</Height>
+                  </Size>
+                  <X>0</X>
+                  <Y>0</Y>
+                  <Width>0</Width>
+                  <Height>0</Height>
+                </Rect>
+                <MappedKey />
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="VideoFeedsAction">
+                <Action>Add</Action>
+                <Name>Party 3</Name>
+                <Target>(Group 3)#1</Target>
+                <IsSource>true</IsSource>
+                <Rect>
+                  <Location>
+                    <X>0</X>
+                    <Y>0</Y>
+                  </Location>
+                  <Size>
+                    <Width>0</Width>
+                    <Height>0</Height>
+                  </Size>
+                  <X>0</X>
+                  <Y>0</Y>
+                  <Width>0</Width>
+                  <Height>0</Height>
+                </Rect>
+                <MappedKey />
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="VideoFeedsAction">
+                <Action>Add</Action>
+                <Name>Party 1</Name>
+                <Target>~(Group 1)</Target>
+                <Rect>
+                  <Location>
+                    <X>0</X>
+                    <Y>0</Y>
+                  </Location>
+                  <Size>
+                    <Width>0</Width>
+                    <Height>0</Height>
+                  </Size>
+                  <X>0</X>
+                  <Y>0</Y>
+                  <Width>0</Width>
+                  <Height>0</Height>
+                </Rect>
+                <MappedKey />
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="VideoFeedsAction">
+                <Action>Add</Action>
+                <Name>Party 2</Name>
+                <Target>~(Group 2)</Target>
+                <Rect>
+                  <Location>
+                    <X>0</X>
+                    <Y>0</Y>
+                  </Location>
+                  <Size>
+                    <Width>0</Width>
+                    <Height>0</Height>
+                  </Size>
+                  <X>0</X>
+                  <Y>0</Y>
+                  <Width>0</Width>
+                  <Height>0</Height>
+                </Rect>
+                <MappedKey />
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="VideoFeedsAction">
+                <Action>Add</Action>
+                <Name>Party 3</Name>
+                <Target>~(Group 3)</Target>
+                <Rect>
+                  <Location>
+                    <X>0</X>
+                    <Y>0</Y>
+                  </Location>
+                  <Size>
+                    <Width>0</Width>
+                    <Height>0</Height>
+                  </Size>
+                  <X>0</X>
+                  <Y>0</Y>
+                  <Width>0</Width>
+                  <Height>0</Height>
+                </Rect>
+                <MappedKey />
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyRewriteAction">
+                <FromMappedKey>
+                  <KeyMapString>Team Grid (15-Slot) [Virtualized]</KeyMapString>
+                  <MappedKeyString />
+                </FromMappedKey>
+                <ToMappedKey>
+                  <KeyMapString>Party Grid (15-Slot)</KeyMapString>
+                  <MappedKeyString />
+                </ToMappedKey>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Teardown</Name>
+        <Steps>
+          <Step>
+            <Name>Teardown</Name>
+            <Actions>
+              <MappedKeyAction xsi:type="VideoFeedsAction">
+                <Action>Remove</Action>
+                <Name>Party 1</Name>
+                <Target>all</Target>
+                <IsSource>true</IsSource>
+                <Rect>
+                  <Location>
+                    <X>0</X>
+                    <Y>0</Y>
+                  </Location>
+                  <Size>
+                    <Width>0</Width>
+                    <Height>0</Height>
+                  </Size>
+                  <X>0</X>
+                  <Y>0</Y>
+                  <Width>0</Width>
+                  <Height>0</Height>
+                </Rect>
+                <MappedKey />
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="VideoFeedsAction">
+                <Action>Remove</Action>
+                <Name>Party 2</Name>
+                <Target>all</Target>
+                <IsSource>true</IsSource>
+                <Rect>
+                  <Location>
+                    <X>0</X>
+                    <Y>0</Y>
+                  </Location>
+                  <Size>
+                    <Width>0</Width>
+                    <Height>0</Height>
+                  </Size>
+                  <X>0</X>
+                  <Y>0</Y>
+                  <Width>0</Width>
+                  <Height>0</Height>
+                </Rect>
+                <MappedKey />
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="VideoFeedsAction">
+                <Action>Remove</Action>
+                <Name>Party 3</Name>
+                <Target>all</Target>
+                <IsSource>true</IsSource>
+                <Rect>
+                  <Location>
+                    <X>0</X>
+                    <Y>0</Y>
+                  </Location>
+                  <Size>
+                    <Width>0</Width>
+                    <Height>0</Height>
+                  </Size>
+                  <X>0</X>
+                  <Y>0</Y>
+                  <Width>0</Width>
+                  <Height>0</Height>
+                </Rect>
+                <MappedKey />
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="VideoFeedsAction">
+                <Action>Remove</Action>
+                <Name>Party 1</Name>
+                <Target>all</Target>
+                <Rect>
+                  <Location>
+                    <X>0</X>
+                    <Y>0</Y>
+                  </Location>
+                  <Size>
+                    <Width>0</Width>
+                    <Height>0</Height>
+                  </Size>
+                  <X>0</X>
+                  <Y>0</Y>
+                  <Width>0</Width>
+                  <Height>0</Height>
+                </Rect>
+                <MappedKey />
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="VideoFeedsAction">
+                <Action>Remove</Action>
+                <Name>Party 2</Name>
+                <Target>all</Target>
+                <Rect>
+                  <Location>
+                    <X>0</X>
+                    <Y>0</Y>
+                  </Location>
+                  <Size>
+                    <Width>0</Width>
+                    <Height>0</Height>
+                  </Size>
+                  <X>0</X>
+                  <Y>0</Y>
+                  <Width>0</Width>
+                  <Height>0</Height>
+                </Rect>
+                <MappedKey />
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="VideoFeedsAction">
+                <Action>Remove</Action>
+                <Name>Party 3</Name>
+                <Target>all</Target>
+                <Rect>
+                  <Location>
+                    <X>0</X>
+                    <Y>0</Y>
+                  </Location>
+                  <Size>
+                    <Width>0</Width>
+                    <Height>0</Height>
+                  </Size>
+                  <X>0</X>
+                  <Y>0</Y>
+                  <Width>0</Width>
+                  <Height>0</Height>
+                </Rect>
+                <MappedKey />
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyRewriteAction">
+                <FromMappedKey>
+                  <KeyMapString>Team Grid (15-Slot) [Virtualized]</KeyMapString>
+                </FromMappedKey>
+                <ToMappedKey />
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>----------------------------------------</Name>
+        <Steps>
+          <Step />
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 1.1 - Target</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Targeting</KeyMapString>
+                <MappedKeyString>Target Slot 1</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 1.2 - Target</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Targeting</KeyMapString>
+                <MappedKeyString>Target Slot 3</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 1.3 - Target</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Targeting</KeyMapString>
+                <MappedKeyString>Target Slot 8</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name />
+        <Steps>
+          <Step>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 2.1 - Target</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Targeting</KeyMapString>
+                <MappedKeyString>Target Slot 13</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 2.2 - Target</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Targeting</KeyMapString>
+                <MappedKeyString>Target Slot 14</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 2.3 - Target</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Targeting</KeyMapString>
+                <MappedKeyString>Target Slot 7</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name> </Name>
+        <Steps>
+          <Step>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 3.1 - Target</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Targeting</KeyMapString>
+                <MappedKeyString>Target Slot 2</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 3.2 - Target</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Targeting</KeyMapString>
+                <MappedKeyString>Target Slot 11</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 3.3 - Target</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Targeting</KeyMapString>
+                <MappedKeyString>Target Slot 9</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>  </Name>
+        <Steps>
+          <Step>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 4.1 - Target</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Targeting</KeyMapString>
+                <MappedKeyString>Target Slot 10</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 4.2 - Target</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Targeting</KeyMapString>
+                <MappedKeyString>Target Slot 4</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 4.3 - Target</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Targeting</KeyMapString>
+                <MappedKeyString>Target Slot 15</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>   </Name>
+        <Steps>
+          <Step>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 5.1 - Target</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Targeting</KeyMapString>
+                <MappedKeyString>Target Slot 5</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 5.2 - Target</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Targeting</KeyMapString>
+                <MappedKeyString>Target Slot 6</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Button 5.3 - Target</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Targeting</KeyMapString>
+                <MappedKeyString>Target Slot 12</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
           </Step>
         </Steps>
       </MappedKey>
@@ -14594,13 +15643,13 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
                 <Action>Join</Action>
                 <RelayGroupString>Warrior</RelayGroupString>
               </MappedKeyAction>
-              <MappedKeyAction xsi:type="TargetGroupAction">
-                <Action>Join</Action>
-                <RelayGroupString>Combat</RelayGroupString>
-              </MappedKeyAction>
               <MappedKeyAction xsi:type="MappedKeyExecuteAction">
                 <KeyMapString>Action Target Group Manager</KeyMapString>
                 <MappedKeyString>Melee - Join</MappedKeyString>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Action Target Group Manager</KeyMapString>
+                <MappedKeyString>Combat - Join</MappedKeyString>
               </MappedKeyAction>
             </Actions>
           </Step>
@@ -14661,7 +15710,12 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
         <Name>Setup Target Groups</Name>
         <Steps>
           <Step>
-            <Actions />
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Action Target Group Manager</KeyMapString>
+                <MappedKeyString>DPS Role - Join</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
           </Step>
         </Steps>
       </MappedKey>
@@ -15130,7 +16184,12 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
         <Name>Setup Target Groups</Name>
         <Steps>
           <Step>
-            <Actions />
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Action Target Group Manager</KeyMapString>
+                <MappedKeyString>DPS Role - Join</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
           </Step>
         </Steps>
       </MappedKey>
@@ -15599,7 +16658,12 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
         <Name>Setup Target Groups</Name>
         <Steps>
           <Step>
-            <Actions />
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Action Target Group Manager</KeyMapString>
+                <MappedKeyString>Tank Role - Join</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
           </Step>
         </Steps>
       </MappedKey>
@@ -17481,17 +18545,13 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
         <Steps>
           <Step>
             <Actions>
-              <MappedKeyAction xsi:type="TargetGroupAction">
-                <Action>Join</Action>
-                <RelayGroupString>Purge</RelayGroupString>
-              </MappedKeyAction>
-              <MappedKeyAction xsi:type="TargetGroupAction">
-                <Action>Join</Action>
-                <RelayGroupString>Interrupt</RelayGroupString>
-              </MappedKeyAction>
               <MappedKeyAction xsi:type="MappedKeyExecuteAction">
                 <KeyMapString>Action Target Group Manager</KeyMapString>
                 <MappedKeyString>Ranged - Join</MappedKeyString>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Action Target Group Manager</KeyMapString>
+                <MappedKeyString>Combat - Join</MappedKeyString>
               </MappedKeyAction>
               <MappedKeyAction xsi:type="MappedKeyExecuteAction">
                 <KeyMapString>Action Target Group Manager</KeyMapString>
@@ -17499,11 +18559,15 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
               </MappedKeyAction>
               <MappedKeyAction xsi:type="MappedKeyExecuteAction">
                 <KeyMapString>Action Target Group Manager</KeyMapString>
-                <MappedKeyString>Healer - Secondary - Join</MappedKeyString>
+                <MappedKeyString>Purge - Join</MappedKeyString>
               </MappedKeyAction>
-              <MappedKeyAction xsi:type="TargetGroupAction">
-                <Action>Join</Action>
-                <RelayGroupString>Combat</RelayGroupString>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Action Target Group Manager</KeyMapString>
+                <MappedKeyString>Interrupt - Join</MappedKeyString>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Action Target Group Manager</KeyMapString>
+                <MappedKeyString>Healer - Secondary - Join</MappedKeyString>
               </MappedKeyAction>
             </Actions>
           </Step>
@@ -17665,7 +18729,7 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
             <Actions>
               <MappedKeyAction xsi:type="MappedKeyStepAction">
                 <MappedKey>
-                  <KeyMapString>Shaman - Enhancement - DPS Rotation</KeyMapString>
+                  <KeyMapString>Shaman - Enhancement - DPS Rotation (Melee)</KeyMapString>
                   <MappedKeyString>Single-Target</MappedKeyString>
                 </MappedKey>
                 <Action>Set</Action>
@@ -17673,7 +18737,7 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
               </MappedKeyAction>
               <MappedKeyAction xsi:type="MappedKeyStepAction">
                 <MappedKey>
-                  <KeyMapString>Shaman - Enhancement - DPS Rotation</KeyMapString>
+                  <KeyMapString>Shaman - Enhancement - DPS Rotation (Melee)</KeyMapString>
                   <MappedKeyString>AoE</MappedKeyString>
                 </MappedKey>
                 <Action>Set</Action>
@@ -17947,20 +19011,16 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
         <Steps>
           <Step>
             <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Shaman - Enhancement - Initialization</KeyMapString>
+                <MappedKeyString>Setup DPS - Melee</MappedKeyString>
+              </MappedKeyAction>
               <MappedKeyAction xsi:type="MappedKeyRewriteAction">
                 <FromMappedKey>
                   <KeyMapString>Combat [Virtualized]</KeyMapString>
                 </FromMappedKey>
                 <ToMappedKey>
                   <KeyMapString>Shaman - Enhancement - Combat</KeyMapString>
-                </ToMappedKey>
-              </MappedKeyAction>
-              <MappedKeyAction xsi:type="MappedKeyRewriteAction">
-                <FromMappedKey>
-                  <KeyMapString>DPS Rotation [Virtualized]</KeyMapString>
-                </FromMappedKey>
-                <ToMappedKey>
-                  <KeyMapString>Shaman - Enhancement - DPS Rotation</KeyMapString>
                 </ToMappedKey>
               </MappedKeyAction>
               <MappedKeyAction xsi:type="MappedKeyRewriteAction">
@@ -17990,27 +19050,69 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
             <Actions>
               <MappedKeyAction xsi:type="MappedKeyExecuteAction">
                 <KeyMapString>Action Target Group Manager</KeyMapString>
-                <MappedKeyString>Ranged - Join</MappedKeyString>
+                <MappedKeyString>Combat - Join</MappedKeyString>
               </MappedKeyAction>
               <MappedKeyAction xsi:type="MappedKeyExecuteAction">
                 <KeyMapString>Action Target Group Manager</KeyMapString>
                 <MappedKeyString>DPS Role - Join</MappedKeyString>
               </MappedKeyAction>
-              <MappedKeyAction xsi:type="TargetGroupAction">
-                <Action>Join</Action>
-                <RelayGroupString>Healer - Secondary</RelayGroupString>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Action Target Group Manager</KeyMapString>
+                <MappedKeyString>Purge - Join</MappedKeyString>
               </MappedKeyAction>
-              <MappedKeyAction xsi:type="TargetGroupAction">
-                <Action>Join</Action>
-                <RelayGroupString>Purge</RelayGroupString>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Action Target Group Manager</KeyMapString>
+                <MappedKeyString>Interrupt - Join</MappedKeyString>
               </MappedKeyAction>
-              <MappedKeyAction xsi:type="TargetGroupAction">
-                <Action>Join</Action>
-                <RelayGroupString>Interrupt</RelayGroupString>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Action Target Group Manager</KeyMapString>
+                <MappedKeyString>Healer - Secondary - Join</MappedKeyString>
               </MappedKeyAction>
-              <MappedKeyAction xsi:type="TargetGroupAction">
-                <Action>Join</Action>
-                <RelayGroupString>Combat</RelayGroupString>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Shaman - Enhancement - Initialization</KeyMapString>
+                <MappedKeyString>Setup DPS - Melee</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Setup DPS - Melee</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyRewriteAction">
+                <FromMappedKey>
+                  <KeyMapString>DPS Rotation [Virtualized]</KeyMapString>
+                </FromMappedKey>
+                <ToMappedKey>
+                  <KeyMapString>Shaman - Enhancement - DPS Rotation (Melee)</KeyMapString>
+                </ToMappedKey>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Action Target Group Manager</KeyMapString>
+                <MappedKeyString>Melee - Join</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Setup DPS - Ranged</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyRewriteAction">
+                <FromMappedKey>
+                  <KeyMapString>DPS Rotation [Virtualized]</KeyMapString>
+                </FromMappedKey>
+                <ToMappedKey>
+                  <KeyMapString>Shaman - Enhancement - DPS Rotation (Ranged)</KeyMapString>
+                </ToMappedKey>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Action Target Group Manager</KeyMapString>
+                <MappedKeyString>Ranged - Join</MappedKeyString>
               </MappedKeyAction>
             </Actions>
           </Step>
@@ -18162,7 +19264,7 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
     </Mappings>
   </KeyMap>
   <KeyMap>
-    <Name>Shaman - Enhancement - DPS Rotation</Name>
+    <Name>Shaman - Enhancement - DPS Rotation (Melee)</Name>
     <Mappings>
       <MappedKey>
         <Name>Reset</Name>
@@ -18172,7 +19274,7 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
             <Actions>
               <MappedKeyAction xsi:type="MappedKeyStepAction">
                 <MappedKey>
-                  <KeyMapString>Shaman - Enhancement - DPS Rotation</KeyMapString>
+                  <KeyMapString>Shaman - Enhancement - DPS Rotation (Melee)</KeyMapString>
                   <MappedKeyString>Single-Target</MappedKeyString>
                 </MappedKey>
                 <Action>Set</Action>
@@ -18180,7 +19282,63 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
               </MappedKeyAction>
               <MappedKeyAction xsi:type="MappedKeyStepAction">
                 <MappedKey>
-                  <KeyMapString>Shaman - Enhancement - DPS Rotation</KeyMapString>
+                  <KeyMapString>Shaman - Enhancement - DPS Rotation (Melee)</KeyMapString>
+                  <MappedKeyString>AoE</MappedKeyString>
+                </MappedKey>
+                <Action>Set</Action>
+                <Value>1</Value>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Single-Target</Name>
+        <Steps>
+          <Step>
+            <Name>Attack</Name>
+            <Actions>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <UseCustomModifiers />
+                <WoWMacro>
+                  <WoWMacroSetString>General</WoWMacroSetString>
+                  <WoWMacroString>Attack</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>AoE</Name>
+        <Steps>
+          <Step>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+    </Mappings>
+  </KeyMap>
+  <KeyMap>
+    <Name>Shaman - Enhancement - DPS Rotation (Ranged)</Name>
+    <Mappings>
+      <MappedKey>
+        <Name>Reset</Name>
+        <Steps>
+          <Step>
+            <Name>Reset Single-Target and AoE to Step 1</Name>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyStepAction">
+                <MappedKey>
+                  <KeyMapString>Shaman - Enhancement - DPS Rotation (Melee)</KeyMapString>
+                  <MappedKeyString>Single-Target</MappedKeyString>
+                </MappedKey>
+                <Action>Set</Action>
+                <Value>1</Value>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyStepAction">
+                <MappedKey>
+                  <KeyMapString>Shaman - Enhancement - DPS Rotation (Melee)</KeyMapString>
                   <MappedKeyString>AoE</MappedKeyString>
                 </MappedKey>
                 <Action>Set</Action>
@@ -18210,18 +19368,12 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
                   <Enabled>true</Enabled>
                 </ActionTimer>
                 <Target>self</Target>
-                <MappedKey>
-                  <KeyMapString>Shaman - Enhancement</KeyMapString>
-                  <MappedKeyString>DPS Rotation</MappedKeyString>
-                </MappedKey>
+                <MappedKey />
                 <Enable>1</Enable>
               </MappedKeyAction>
               <MappedKeyAction xsi:type="MappedKeyStepStateAction">
                 <Target>self</Target>
-                <MappedKey>
-                  <KeyMapString>Shaman - Enhancement</KeyMapString>
-                  <MappedKeyString>DPS Rotation</MappedKeyString>
-                </MappedKey>
+                <MappedKey />
                 <Enable>0</Enable>
               </MappedKeyAction>
             </Actions>
@@ -18501,11 +19653,11 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
               </MappedKeyAction>
               <MappedKeyAction xsi:type="MappedKeyExecuteAction">
                 <KeyMapString>Action Target Group Manager</KeyMapString>
-                <MappedKeyString>Healer Role - Join</MappedKeyString>
+                <MappedKeyString>Healer - Primary - Join</MappedKeyString>
               </MappedKeyAction>
-              <MappedKeyAction xsi:type="TargetGroupAction">
-                <Action>Join</Action>
-                <RelayGroupString>Healer - Primary</RelayGroupString>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Action Target Group Manager</KeyMapString>
+                <MappedKeyString>Healer Role - Join</MappedKeyString>
               </MappedKeyAction>
             </Actions>
           </Step>
@@ -18667,7 +19819,7 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
             <Actions>
               <MappedKeyAction xsi:type="MappedKeyStepAction">
                 <MappedKey>
-                  <KeyMapString>Shaman - Enhancement - DPS Rotation</KeyMapString>
+                  <KeyMapString>Shaman - Enhancement - DPS Rotation (Melee)</KeyMapString>
                   <MappedKeyString>Single-Target</MappedKeyString>
                 </MappedKey>
                 <Action>Set</Action>
@@ -18675,7 +19827,7 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
               </MappedKeyAction>
               <MappedKeyAction xsi:type="MappedKeyStepAction">
                 <MappedKey>
-                  <KeyMapString>Shaman - Enhancement - DPS Rotation</KeyMapString>
+                  <KeyMapString>Shaman - Enhancement - DPS Rotation (Melee)</KeyMapString>
                   <MappedKeyString>AoE</MappedKeyString>
                 </MappedKey>
                 <Action>Set</Action>
