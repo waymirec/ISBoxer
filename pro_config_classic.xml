@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ISBoxerToolkitProfile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="42" VersionMinor="0" BuildDate="1/13/2020 11:50:31 PM">
+<ISBoxerToolkitProfile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="42" VersionMinor="0" BuildDate="1/16/2020 8:51:19 AM">
   <CharacterSet>
     <ExecuteOnLoad />
     <Name>Blaumeux - Mixed</Name>
@@ -6258,8 +6258,8 @@ The Star formation aligns your characters in all four directions around the lead
 
 This can be used to break auto-follow (some games do not provide a more convenient method), just set a Hotkey and, if needed, change the key it sends to the other windows in step 1.</Description>
         <Combo>
-          <Combo>Shift+Alt+A</Combo>
-          <Modifiers>Shift Alt</Modifiers>
+          <Combo>Ctrl+Shift+Alt+A</Combo>
+          <Modifiers>Ctrl Shift Alt</Modifiers>
           <Key>
             <Key>A</Key>
             <Code>30</Code>
@@ -6286,8 +6286,8 @@ This can be used to break auto-follow (some games do not provide a more convenie
 
 This can be used to break auto-follow (some games do not provide a more convenient method), just set a Hotkey and, if needed, change the key it sends to the other windows in step 1.</Description>
         <Combo>
-          <Combo>Shift+Alt+D</Combo>
-          <Modifiers>Shift Alt</Modifiers>
+          <Combo>Ctrl+Shift+Alt+D</Combo>
+          <Modifiers>Ctrl Shift Alt</Modifiers>
           <Key>
             <Key>D</Key>
             <Code>32</Code>
@@ -6314,8 +6314,8 @@ This can be used to break auto-follow (some games do not provide a more convenie
 
 This can be used to break auto-follow (some games do not provide a more convenient method), just set a Hotkey and, if needed, change the key it sends to the other windows in step 1.</Description>
         <Combo>
-          <Combo>Shift+Alt+W</Combo>
-          <Modifiers>Shift Alt</Modifiers>
+          <Combo>Ctrl+Shift+Alt+W</Combo>
+          <Modifiers>Ctrl Shift Alt</Modifiers>
           <Key>
             <Key>W</Key>
             <Code>17</Code>
@@ -6342,8 +6342,8 @@ This can be used to break auto-follow (some games do not provide a more convenie
 
 This can be used to break auto-follow (some games do not provide a more convenient method), just set a Hotkey and, if needed, change the key it sends to the other windows in step 1.</Description>
         <Combo>
-          <Combo>Shift+Alt+S</Combo>
-          <Modifiers>Shift Alt</Modifiers>
+          <Combo>Ctrl+Shift+Alt+S</Combo>
+          <Modifiers>Ctrl Shift Alt</Modifiers>
           <Key>
             <Key>S</Key>
             <Code>31</Code>
@@ -6370,8 +6370,8 @@ This can be used to break auto-follow (some games do not provide a more convenie
 
 This can be used to break auto-follow (some games do not provide a more convenient method), just set a Hotkey and, if needed, change the key it sends to the other windows in step 1.</Description>
         <Combo>
-          <Combo>Shift+Alt+Q</Combo>
-          <Modifiers>Shift Alt</Modifiers>
+          <Combo>Ctrl+Shift+Alt+Q</Combo>
+          <Modifiers>Ctrl Shift Alt</Modifiers>
           <Key>
             <Key>Q</Key>
             <Code>16</Code>
@@ -6398,8 +6398,8 @@ This can be used to break auto-follow (some games do not provide a more convenie
 
 This can be used to break auto-follow (some games do not provide a more convenient method), just set a Hotkey and, if needed, change the key it sends to the other windows in step 1.</Description>
         <Combo>
-          <Combo>Shift+Alt+E</Combo>
-          <Modifiers>Shift Alt</Modifiers>
+          <Combo>Ctrl+Shift+Alt+E</Combo>
+          <Modifiers>Ctrl Shift Alt</Modifiers>
           <Key>
             <Key>E</Key>
             <Code>18</Code>
@@ -6426,8 +6426,8 @@ This can be used to break auto-follow (some games do not provide a more convenie
 
 This can be used to break auto-follow (some games do not provide a more convenient method), just set a Hotkey and, if needed, change the key it sends to the other windows in step 1.</Description>
         <Combo>
-          <Combo>Shift+Alt+Space</Combo>
-          <Modifiers>Shift Alt</Modifiers>
+          <Combo>Ctrl+Shift+Alt+Space</Combo>
+          <Modifiers>Ctrl Shift Alt</Modifiers>
           <Key>
             <Key>Space</Key>
             <Code>57</Code>
@@ -20398,7 +20398,7 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
           <Step>
             <Actions>
               <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-                <Target>Healer - Primary</Target>
+                <Target>Resurrect</Target>
                 <KeyMapString>Team Grid</KeyMapString>
                 <MappedKeyString>Target Slot 1</MappedKeyString>
               </MappedKeyAction>
@@ -20421,7 +20421,7 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
           <Step>
             <Actions>
               <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-                <Target>Healer - Primary</Target>
+                <Target>Resurrect</Target>
                 <KeyMapString>Team Grid</KeyMapString>
                 <MappedKeyString>Target Slot 2</MappedKeyString>
               </MappedKeyAction>
@@ -20444,7 +20444,7 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
           <Step>
             <Actions>
               <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-                <Target>Healer - Primary</Target>
+                <Target>Resurrect</Target>
                 <KeyMapString>Team Grid</KeyMapString>
                 <MappedKeyString>Target Slot 3</MappedKeyString>
               </MappedKeyAction>
@@ -20467,7 +20467,7 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
           <Step>
             <Actions>
               <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-                <Target>Healer - Primary</Target>
+                <Target>Resurrect</Target>
                 <KeyMapString>Team Grid</KeyMapString>
                 <MappedKeyString>Target Slot 4</MappedKeyString>
               </MappedKeyAction>
@@ -20490,7 +20490,7 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
           <Step>
             <Actions>
               <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-                <Target>Healer - Primary</Target>
+                <Target>Resurrect</Target>
                 <KeyMapString>Team Grid</KeyMapString>
                 <MappedKeyString>Target Slot 5</MappedKeyString>
               </MappedKeyAction>
@@ -20513,7 +20513,7 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
           <Step>
             <Actions>
               <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-                <Target>Healer - Primary</Target>
+                <Target>Resurrect</Target>
                 <KeyMapString>Team Grid</KeyMapString>
                 <MappedKeyString>Target Slot 6</MappedKeyString>
               </MappedKeyAction>
@@ -20536,7 +20536,7 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
           <Step>
             <Actions>
               <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-                <Target>Healer - Primary</Target>
+                <Target>Resurrect</Target>
                 <KeyMapString>Team Grid</KeyMapString>
                 <MappedKeyString>Target Slot 7</MappedKeyString>
               </MappedKeyAction>
@@ -20559,7 +20559,7 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
           <Step>
             <Actions>
               <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-                <Target>Healer - Primary</Target>
+                <Target>Resurrect</Target>
                 <KeyMapString>Team Grid</KeyMapString>
                 <MappedKeyString>Target Slot 8</MappedKeyString>
               </MappedKeyAction>
@@ -20582,7 +20582,7 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
           <Step>
             <Actions>
               <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-                <Target>Healer - Primary</Target>
+                <Target>Resurrect</Target>
                 <KeyMapString>Team Grid</KeyMapString>
                 <MappedKeyString>Target Slot 9</MappedKeyString>
               </MappedKeyAction>
@@ -20605,7 +20605,7 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
           <Step>
             <Actions>
               <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-                <Target>Healer - Primary</Target>
+                <Target>Resurrect</Target>
                 <KeyMapString>Team Grid</KeyMapString>
                 <MappedKeyString>Target Slot 10</MappedKeyString>
               </MappedKeyAction>
@@ -20628,7 +20628,7 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
           <Step>
             <Actions>
               <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-                <Target>Healer - Primary</Target>
+                <Target>Resurrect</Target>
                 <KeyMapString>Team Grid</KeyMapString>
                 <MappedKeyString>Target Slot 11</MappedKeyString>
               </MappedKeyAction>
@@ -20651,7 +20651,7 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
           <Step>
             <Actions>
               <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-                <Target>Healer - Primary</Target>
+                <Target>Resurrect</Target>
                 <KeyMapString>Team Grid</KeyMapString>
                 <MappedKeyString>Target Slot 12</MappedKeyString>
               </MappedKeyAction>
@@ -20674,7 +20674,7 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
           <Step>
             <Actions>
               <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-                <Target>Healer - Primary</Target>
+                <Target>Resurrect</Target>
                 <KeyMapString>Team Grid</KeyMapString>
                 <MappedKeyString>Target Slot 13</MappedKeyString>
               </MappedKeyAction>
@@ -20697,7 +20697,7 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
           <Step>
             <Actions>
               <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-                <Target>Healer - Primary</Target>
+                <Target>Resurrect</Target>
                 <KeyMapString>Team Grid</KeyMapString>
                 <MappedKeyString>Target Slot 14</MappedKeyString>
               </MappedKeyAction>
@@ -20720,7 +20720,7 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
           <Step>
             <Actions>
               <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-                <Target>Healer - Primary</Target>
+                <Target>Resurrect</Target>
                 <KeyMapString>Team Grid</KeyMapString>
                 <MappedKeyString>Target Slot 15</MappedKeyString>
               </MappedKeyAction>
@@ -21571,6 +21571,24 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
           </Step>
         </Steps>
       </MappedKey>
+      <MappedKey>
+        <Name>Magma Totem</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <RoundRobin>true</RoundRobin>
+                <Target>Shaman</Target>
+                <UseCustomModifiers />
+                <WoWMacro>
+                  <WoWMacroSetString>Shaman</WoWMacroSetString>
+                  <WoWMacroString>Magma Totem</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
     </Mappings>
   </KeyMap>
   <KeyMap>
@@ -21707,7 +21725,7 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
           <Step>
             <Actions>
               <MappedKeyAction xsi:type="WoWMacroRefAction">
-                <Target>Shaman&amp;(~Healer)</Target>
+                <Target>Shaman&amp;~Healer</Target>
                 <UseCustomModifiers />
                 <WoWMacro>
                   <WoWMacroSetString>Shaman</WoWMacroSetString>
@@ -26621,7 +26639,7 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
                 <UseCustomModifiers />
                 <WoWMacro>
                   <WoWMacroSetString>Shaman</WoWMacroSetString>
-                  <WoWMacroString>Frostbrand Weapon</WoWMacroString>
+                  <WoWMacroString>Rockbiter Weapon</WoWMacroString>
                 </WoWMacro>
               </MappedKeyAction>
             </Actions>
@@ -28575,6 +28593,45 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
         </Combo>
         <AllowCustomModifiers />
       </WoWMacro>
+      <WoWMacro>
+        <MacroCommands>/cast Searing Totem</MacroCommands>
+        <ColloquialName>Searing Totem</ColloquialName>
+        <Combo>
+          <Combo>Ctrl+Shift+Alt+A</Combo>
+          <Modifiers>Ctrl Shift Alt</Modifiers>
+          <Key>
+            <Key>A</Key>
+            <Code>30</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers />
+      </WoWMacro>
+      <WoWMacro>
+        <MacroCommands>/cast Magma Totem</MacroCommands>
+        <ColloquialName>Magma Totem</ColloquialName>
+        <Combo>
+          <Combo>Ctrl+Shift+Alt+B</Combo>
+          <Modifiers>Ctrl Shift Alt</Modifiers>
+          <Key>
+            <Key>B</Key>
+            <Code>48</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers />
+      </WoWMacro>
+      <WoWMacro>
+        <MacroCommands>/cast Mana Sprinig Totem</MacroCommands>
+        <ColloquialName>Mana Spring Totem</ColloquialName>
+        <Combo>
+          <Combo>Ctrl+Shift+Alt+C</Combo>
+          <Modifiers>Ctrl Shift Alt</Modifiers>
+          <Key>
+            <Key>C</Key>
+            <Code>46</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers />
+      </WoWMacro>
     </WoWMacros>
   </WoWMacroSet>
   <ActionTimerPool>
@@ -29104,6 +29161,14 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
               <MappedKeyString>Swap to Slot 1</MappedKeyString>
             </Action>
           </ClickAction>
+          <ClickAction>
+            <LeftRight>Left</LeftRight>
+            <Modifiers>Ctrl</Modifiers>
+            <Action>
+              <KeyMapString>Team Grid</KeyMapString>
+              <MappedKeyString>Target Slot 1</MappedKeyString>
+            </Action>
+          </ClickAction>
         </ClickActions>
         <MouseOverAction>
           <LeftRight>Left</LeftRight>
@@ -29138,6 +29203,14 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
             <Action>
               <KeyMapString>ISB42 - Video FX Layout</KeyMapString>
               <MappedKeyString>Swap to Slot 2</MappedKeyString>
+            </Action>
+          </ClickAction>
+          <ClickAction>
+            <LeftRight>Left</LeftRight>
+            <Modifiers>Ctrl</Modifiers>
+            <Action>
+              <KeyMapString>Team Grid</KeyMapString>
+              <MappedKeyString>Target Slot 2</MappedKeyString>
             </Action>
           </ClickAction>
         </ClickActions>
@@ -29176,6 +29249,14 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
               <MappedKeyString>Swap to Slot 3</MappedKeyString>
             </Action>
           </ClickAction>
+          <ClickAction>
+            <LeftRight>Left</LeftRight>
+            <Modifiers>Ctrl</Modifiers>
+            <Action>
+              <KeyMapString>Team Grid</KeyMapString>
+              <MappedKeyString>Target Slot 3</MappedKeyString>
+            </Action>
+          </ClickAction>
         </ClickActions>
         <MouseOverAction>
           <LeftRight>Left</LeftRight>
@@ -29210,6 +29291,14 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
             <Action>
               <KeyMapString>ISB42 - Video FX Layout</KeyMapString>
               <MappedKeyString>Swap to Slot 4</MappedKeyString>
+            </Action>
+          </ClickAction>
+          <ClickAction>
+            <LeftRight>Left</LeftRight>
+            <Modifiers>Ctrl</Modifiers>
+            <Action>
+              <KeyMapString>Team Grid</KeyMapString>
+              <MappedKeyString>Target Slot 4</MappedKeyString>
             </Action>
           </ClickAction>
         </ClickActions>
@@ -29248,6 +29337,14 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
               <MappedKeyString>Swap to Slot 5</MappedKeyString>
             </Action>
           </ClickAction>
+          <ClickAction>
+            <LeftRight>Left</LeftRight>
+            <Modifiers>Ctrl</Modifiers>
+            <Action>
+              <KeyMapString>Team Grid</KeyMapString>
+              <MappedKeyString>Target Slot 5</MappedKeyString>
+            </Action>
+          </ClickAction>
         </ClickActions>
         <MouseOverAction>
           <LeftRight>Left</LeftRight>
@@ -29282,6 +29379,14 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
             <Action>
               <KeyMapString>ISB42 - Video FX Layout</KeyMapString>
               <MappedKeyString>Swap to Slot 6</MappedKeyString>
+            </Action>
+          </ClickAction>
+          <ClickAction>
+            <LeftRight>Left</LeftRight>
+            <Modifiers>Ctrl</Modifiers>
+            <Action>
+              <KeyMapString>Team Grid</KeyMapString>
+              <MappedKeyString>Target Slot 6</MappedKeyString>
             </Action>
           </ClickAction>
         </ClickActions>
@@ -29320,6 +29425,14 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
               <MappedKeyString>Swap to Slot 7</MappedKeyString>
             </Action>
           </ClickAction>
+          <ClickAction>
+            <LeftRight>Left</LeftRight>
+            <Modifiers>Ctrl</Modifiers>
+            <Action>
+              <KeyMapString>Team Grid</KeyMapString>
+              <MappedKeyString>Target Slot 7</MappedKeyString>
+            </Action>
+          </ClickAction>
         </ClickActions>
         <MouseOverAction>
           <LeftRight>Left</LeftRight>
@@ -29354,6 +29467,14 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
             <Action>
               <KeyMapString>ISB42 - Video FX Layout</KeyMapString>
               <MappedKeyString>Swap to Slot 8</MappedKeyString>
+            </Action>
+          </ClickAction>
+          <ClickAction>
+            <LeftRight>Left</LeftRight>
+            <Modifiers>Ctrl</Modifiers>
+            <Action>
+              <KeyMapString>Team Grid</KeyMapString>
+              <MappedKeyString>Target Slot 8</MappedKeyString>
             </Action>
           </ClickAction>
         </ClickActions>
@@ -29392,6 +29513,14 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
               <MappedKeyString>Swap to Slot 9</MappedKeyString>
             </Action>
           </ClickAction>
+          <ClickAction>
+            <LeftRight>Left</LeftRight>
+            <Modifiers>Ctrl</Modifiers>
+            <Action>
+              <KeyMapString>Team Grid</KeyMapString>
+              <MappedKeyString>Target Slot 9</MappedKeyString>
+            </Action>
+          </ClickAction>
         </ClickActions>
         <MouseOverAction>
           <LeftRight>Left</LeftRight>
@@ -29426,6 +29555,14 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
             <Action>
               <KeyMapString>ISB42 - Video FX Layout</KeyMapString>
               <MappedKeyString>Swap to Slot 10</MappedKeyString>
+            </Action>
+          </ClickAction>
+          <ClickAction>
+            <LeftRight>Left</LeftRight>
+            <Modifiers>Ctrl</Modifiers>
+            <Action>
+              <KeyMapString>Team Grid</KeyMapString>
+              <MappedKeyString>Target Slot 10</MappedKeyString>
             </Action>
           </ClickAction>
         </ClickActions>
@@ -29464,6 +29601,14 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
               <MappedKeyString>Toggle View Slot 11</MappedKeyString>
             </Action>
           </ClickAction>
+          <ClickAction>
+            <LeftRight>Left</LeftRight>
+            <Modifiers>Ctrl</Modifiers>
+            <Action>
+              <KeyMapString>Team Grid</KeyMapString>
+              <MappedKeyString>Target Slot 11</MappedKeyString>
+            </Action>
+          </ClickAction>
         </ClickActions>
         <MouseOverAction>
           <LeftRight>Left</LeftRight>
@@ -29498,6 +29643,14 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
             <Action>
               <KeyMapString>ISB42 - Video FX Layout</KeyMapString>
               <MappedKeyString>Toggle View Slot 12</MappedKeyString>
+            </Action>
+          </ClickAction>
+          <ClickAction>
+            <LeftRight>Left</LeftRight>
+            <Modifiers>Ctrl</Modifiers>
+            <Action>
+              <KeyMapString>Team Grid</KeyMapString>
+              <MappedKeyString>Target Slot 12</MappedKeyString>
             </Action>
           </ClickAction>
         </ClickActions>
@@ -29536,6 +29689,14 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
               <MappedKeyString>Toggle View Slot 13</MappedKeyString>
             </Action>
           </ClickAction>
+          <ClickAction>
+            <LeftRight>Left</LeftRight>
+            <Modifiers>Ctrl</Modifiers>
+            <Action>
+              <KeyMapString>Team Grid</KeyMapString>
+              <MappedKeyString>Slot 13 - Right Click [+S]</MappedKeyString>
+            </Action>
+          </ClickAction>
         </ClickActions>
         <MouseOverAction>
           <LeftRight>Left</LeftRight>
@@ -29572,6 +29733,14 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
               <MappedKeyString>Toggle View Slot 14</MappedKeyString>
             </Action>
           </ClickAction>
+          <ClickAction>
+            <LeftRight>Left</LeftRight>
+            <Modifiers>Ctrl</Modifiers>
+            <Action>
+              <KeyMapString>Team Grid</KeyMapString>
+              <MappedKeyString>Target Slot 14</MappedKeyString>
+            </Action>
+          </ClickAction>
         </ClickActions>
         <MouseOverAction>
           <LeftRight>Left</LeftRight>
@@ -29606,6 +29775,14 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
             <Action>
               <KeyMapString>ISB42 - Video FX Layout</KeyMapString>
               <MappedKeyString>Toggle View Slot 15</MappedKeyString>
+            </Action>
+          </ClickAction>
+          <ClickAction>
+            <LeftRight>Left</LeftRight>
+            <Modifiers>Ctrl</Modifiers>
+            <Action>
+              <KeyMapString>Team Grid</KeyMapString>
+              <MappedKeyString>Target Slot 15</MappedKeyString>
             </Action>
           </ClickAction>
         </ClickActions>
@@ -33971,14 +34148,14 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
         <Name>Fire Nova Totem</Name>
         <BackgroundColor />
         <BackgroundImage>
-          <ImageString>spell_fire_sealoffire_42x42.jpg</ImageString>
+          <ImageString>spell_nature_magmatotem.jpg</ImageString>
         </BackgroundImage>
         <ClickActions>
           <ClickAction>
             <LeftRight>Left</LeftRight>
             <Action>
               <KeyMapString>Totems</KeyMapString>
-              <MappedKeyString>Fire Nova</MappedKeyString>
+              <MappedKeyString>Magma Totem</MappedKeyString>
             </Action>
           </ClickAction>
         </ClickActions>
@@ -34142,7 +34319,14 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
           <Action />
         </MouseOverAction>
         <Tooltip />
-        <Text />
+        <Text>R</Text>
+        <TextStyle>
+          <Face>Georgia</Face>
+          <Color>
+            <Red>255</Red>
+          </Color>
+          <Bold>true</Bold>
+        </TextStyle>
       </Button>
       <Button>
         <Enabled>false</Enabled>
