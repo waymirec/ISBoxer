@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ISBoxerToolkitProfile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="42" VersionMinor="0" BuildDate="1/16/2020 11:43:10 PM">
+<ISBoxerToolkitProfile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="42" VersionMinor="0" BuildDate="1/17/2020 4:13:46 PM">
   <CharacterSet>
     <ExecuteOnLoad>
       <KeyMapString>Initialization</KeyMapString>
@@ -578,32 +578,20 @@
       </VirtualMappedKey>
       <VirtualMappedKey>
         <FromMappedKey>
-          <KeyMapString>ISB42 - Party</KeyMapString>
-          <MappedKeyString>Auto-Assist Me - Active Method</MappedKeyString>
+          <KeyMapString>Assist &amp; Follow [Virtualized]</KeyMapString>
         </FromMappedKey>
         <ToMappedKey>
-          <KeyMapString>ISB42 - Party</KeyMapString>
-          <MappedKeyString>Assist Me - Active Method</MappedKeyString>
+          <KeyMapString>Assist &amp; Follow - WoW</KeyMapString>
         </ToMappedKey>
       </VirtualMappedKey>
       <VirtualMappedKey>
         <FromMappedKey>
-          <KeyMapString>ISB42 - Party</KeyMapString>
-          <MappedKeyString>Assist Me - Active Method</MappedKeyString>
+          <KeyMapString>Assist &amp; Follow [Virtualized]</KeyMapString>
+          <MappedKeyString>Auto-Assist Me</MappedKeyString>
         </FromMappedKey>
         <ToMappedKey>
-          <KeyMapString>ISB42 - Party</KeyMapString>
-          <MappedKeyString>Assist Me (WoW Macro)</MappedKeyString>
-        </ToMappedKey>
-      </VirtualMappedKey>
-      <VirtualMappedKey>
-        <FromMappedKey>
-          <KeyMapString>ISB42 - Party</KeyMapString>
-          <MappedKeyString>Follow Me - Active Method</MappedKeyString>
-        </FromMappedKey>
-        <ToMappedKey>
-          <KeyMapString>ISB42 - Party</KeyMapString>
-          <MappedKeyString>Follow Me (WoW Macro)</MappedKeyString>
+          <KeyMapString>Assist &amp; Follow</KeyMapString>
+          <MappedKeyString>Assist Me</MappedKeyString>
         </ToMappedKey>
       </VirtualMappedKey>
       <VirtualMappedKey>
@@ -1276,8 +1264,6 @@
     <SubAccountName>Wow4</SubAccountName>
     <ServerName>Faerlina</ServerName>
     <ActualName>Mákdûr</ActualName>
-    <Game>World of Warcraft</Game>
-    <GameProfile>World of Warcraft Classic Client</GameProfile>
     <KnownGame>WoW</KnownGame>
     <RelayGroupStrings />
     <KeyMapStrings>
@@ -1524,7 +1510,7 @@
           </WorkingArea>
           <Primary>true</Primary>
           <DeviceName>\\.\DISPLAY1</DeviceName>
-          <DPIScale>100</DPIScale>
+          <DPIScale>200</DPIScale>
         </UserScreen>
       </AllScreens>
       <Name>&lt;Window Layout-specified&gt;</Name>
@@ -1616,7 +1602,7 @@
           </WorkingArea>
           <Primary>true</Primary>
           <DeviceName>\\.\DISPLAY1</DeviceName>
-          <DPIScale>100</DPIScale>
+          <DPIScale>200</DPIScale>
         </UserScreen>
       </AllScreens>
       <Name>&lt;Window Layout-specified&gt;</Name>
@@ -1726,7 +1712,7 @@
           </WorkingArea>
           <Primary>true</Primary>
           <DeviceName>\\.\DISPLAY1</DeviceName>
-          <DPIScale>100</DPIScale>
+          <DPIScale>200</DPIScale>
         </UserScreen>
       </AllScreens>
       <Name>&lt;Window Layout-specified&gt;</Name>
@@ -1856,7 +1842,7 @@
           </WorkingArea>
           <Primary>true</Primary>
           <DeviceName>\\.\DISPLAY1</DeviceName>
-          <DPIScale>100</DPIScale>
+          <DPIScale>200</DPIScale>
         </UserScreen>
       </AllScreens>
       <Name>&lt;Window Layout-specified&gt;</Name>
@@ -1996,7 +1982,7 @@
           </WorkingArea>
           <Primary>true</Primary>
           <DeviceName>\\.\DISPLAY6</DeviceName>
-          <DPIScale>100</DPIScale>
+          <DPIScale>200</DPIScale>
         </UserScreen>
       </AllScreens>
       <Name>&lt;Window Layout-specified&gt;</Name>
@@ -2126,7 +2112,7 @@
           </WorkingArea>
           <Primary>true</Primary>
           <DeviceName>\\.\DISPLAY6</DeviceName>
-          <DPIScale>100</DPIScale>
+          <DPIScale>200</DPIScale>
         </UserScreen>
       </AllScreens>
       <Name>&lt;Window Layout-specified&gt;</Name>
@@ -2692,72 +2678,6 @@
     <Description>This Key Map contains general use Hotkeys, which can be toggled by default by Activate Maps (Shift+Alt+M). Most of the default Mapped Keys use Do Mapped Key Action to perform behaviors from another Key Map.</Description>
     <Mappings>
       <MappedKey>
-        <Name>Follow Me</Name>
-        <Combo>
-          <Combo>Alt+F</Combo>
-          <Modifiers>Alt</Modifiers>
-          <Key>
-            <Key>F</Key>
-            <Code>33</Code>
-          </Key>
-        </Combo>
-        <Hold>
-          <Value>true</Value>
-        </Hold>
-        <Steps>
-          <Step>
-            <Actions>
-              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-                <KeyMapString>ISB42 - Party</KeyMapString>
-                <MappedKeyString>Follow Me - Active Method</MappedKeyString>
-              </MappedKeyAction>
-            </Actions>
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
-        <Name>Follow Me - Melee</Name>
-        <Combo>
-          <Combo>Ctrl+F</Combo>
-          <Modifiers>Ctrl</Modifiers>
-          <Key>
-            <Key>F</Key>
-            <Code>33</Code>
-          </Key>
-        </Combo>
-        <Steps>
-          <Step>
-            <Actions>
-              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-                <KeyMapString>ISB42 - Party</KeyMapString>
-                <MappedKeyString>Follow Me - Melee (Target Slot)</MappedKeyString>
-              </MappedKeyAction>
-            </Actions>
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
-        <Name>Follow Me - Ranged</Name>
-        <Combo>
-          <Combo>Alt+F</Combo>
-          <Modifiers>Alt</Modifiers>
-          <Key>
-            <Key>F</Key>
-            <Code>33</Code>
-          </Key>
-        </Combo>
-        <Steps>
-          <Step>
-            <Actions>
-              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-                <KeyMapString>ISB42 - Party</KeyMapString>
-                <MappedKeyString>Assist Me  - Ranged (Target Slot)</MappedKeyString>
-              </MappedKeyAction>
-            </Actions>
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
         <Name>Break Follow - Melee</Name>
         <Combo>
           <Combo>Ctrl+G</Combo>
@@ -2794,86 +2714,6 @@
               <MappedKeyAction xsi:type="VariableKeystrokeAction">
                 <Target>other Ranged</Target>
                 <Name>Move Backward</Name>
-              </MappedKeyAction>
-            </Actions>
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
-        <Name>--</Name>
-        <Steps>
-          <Step>
-            <Actions />
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
-        <Name>Assist Me</Name>
-        <Combo>
-          <Combo>Alt+A</Combo>
-          <Modifiers>Alt</Modifiers>
-          <Key>
-            <Key>A</Key>
-            <Code>30</Code>
-          </Key>
-        </Combo>
-        <Hold>
-          <Value>true</Value>
-        </Hold>
-        <Steps>
-          <Step>
-            <Actions>
-              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-                <KeyMapString>ISB42 - Party</KeyMapString>
-                <MappedKeyString>Assist Me - Active Method</MappedKeyString>
-              </MappedKeyAction>
-            </Actions>
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
-        <Name>Assist Me - Melee</Name>
-        <Combo>
-          <Combo>Ctrl+A</Combo>
-          <Modifiers>Ctrl</Modifiers>
-          <Key>
-            <Key>A</Key>
-            <Code>30</Code>
-          </Key>
-        </Combo>
-        <Hold>
-          <Value>true</Value>
-        </Hold>
-        <Steps>
-          <Step>
-            <Actions>
-              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-                <KeyMapString>ISB42 - Party</KeyMapString>
-                <MappedKeyString>Assist Me  - Melee (Target Slot)</MappedKeyString>
-              </MappedKeyAction>
-            </Actions>
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
-        <Name>Assist Me - Ranged</Name>
-        <Combo>
-          <Combo>Shift+A</Combo>
-          <Modifiers>Shift</Modifiers>
-          <Key>
-            <Key>A</Key>
-            <Code>30</Code>
-          </Key>
-        </Combo>
-        <Hold>
-          <Value>true</Value>
-        </Hold>
-        <Steps>
-          <Step>
-            <Actions>
-              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-                <KeyMapString>ISB42 - Party</KeyMapString>
-                <MappedKeyString>Assist Me  - Melee (Target Slot)</MappedKeyString>
               </MappedKeyAction>
             </Actions>
           </Step>
@@ -3999,126 +3839,6 @@ See http://isboxer.com/wiki/WoW:Interact_with_Target.</Description>
         </Steps>
       </MappedKey>
       <MappedKey>
-        <Name>Forward-Left</Name>
-        <Steps>
-          <Step>
-            <Actions>
-              <MappedKeyAction xsi:type="VariableKeystrokeAction">
-                <Name>Move Forward</Name>
-              </MappedKeyAction>
-              <MappedKeyAction xsi:type="VariableKeystrokeAction">
-                <Name>Move Left</Name>
-              </MappedKeyAction>
-            </Actions>
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
-        <Name>Forward-Right</Name>
-        <Steps>
-          <Step>
-            <Actions>
-              <MappedKeyAction xsi:type="VariableKeystrokeAction">
-                <Name>Move Forward</Name>
-              </MappedKeyAction>
-              <MappedKeyAction xsi:type="VariableKeystrokeAction">
-                <Name>Move Right</Name>
-              </MappedKeyAction>
-            </Actions>
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
-        <Name>Fighting V</Name>
-        <Combo>
-          <Combo>Ctrl+Alt+V</Combo>
-          <Modifiers>Ctrl Alt</Modifiers>
-          <Key>
-            <Key>V</Key>
-            <Code>47</Code>
-          </Key>
-        </Combo>
-        <Steps>
-          <Step>
-            <Actions>
-              <MappedKeyAction xsi:type="VariableKeystrokeAction">
-                <Name>Move Forward</Name>
-              </MappedKeyAction>
-              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-                <Target>(@other isboxer)#1</Target>
-                <KeyMapString>ISB42 - Base Hotkeys</KeyMapString>
-                <MappedKeyString>Forward-Left</MappedKeyString>
-              </MappedKeyAction>
-              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-                <Target>(@other isboxer)#2</Target>
-                <KeyMapString>ISB42 - Base Hotkeys</KeyMapString>
-                <MappedKeyString>Forward-Left</MappedKeyString>
-              </MappedKeyAction>
-              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-                <Target>(@other isboxer)#3</Target>
-                <KeyMapString>ISB42 - Base Hotkeys</KeyMapString>
-                <MappedKeyString>Forward-Left</MappedKeyString>
-              </MappedKeyAction>
-              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-                <Target>(@other isboxer)#4</Target>
-                <KeyMapString>ISB42 - Base Hotkeys</KeyMapString>
-                <MappedKeyString>Forward-Left</MappedKeyString>
-              </MappedKeyAction>
-              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-                <Target>(@other isboxer)#5</Target>
-                <KeyMapString>ISB42 - Base Hotkeys</KeyMapString>
-                <MappedKeyString>Forward-Left</MappedKeyString>
-              </MappedKeyAction>
-              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-                <Target>(@other isboxer)#6</Target>
-                <KeyMapString>ISB42 - Base Hotkeys</KeyMapString>
-                <MappedKeyString>Forward-Left</MappedKeyString>
-              </MappedKeyAction>
-              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-                <Target>(@other isboxer)#7</Target>
-                <KeyMapString>ISB42 - Base Hotkeys</KeyMapString>
-                <MappedKeyString>Forward-Left</MappedKeyString>
-              </MappedKeyAction>
-              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-                <Target>(@other isboxer)#8</Target>
-                <KeyMapString>ISB42 - Base Hotkeys</KeyMapString>
-                <MappedKeyString>Forward-Right</MappedKeyString>
-              </MappedKeyAction>
-              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-                <Target>(@other isboxer)#9</Target>
-                <KeyMapString>ISB42 - Base Hotkeys</KeyMapString>
-                <MappedKeyString>Forward-Right</MappedKeyString>
-              </MappedKeyAction>
-              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-                <Target>(@other isboxer)#10</Target>
-                <KeyMapString>ISB42 - Base Hotkeys</KeyMapString>
-                <MappedKeyString>Forward-Right</MappedKeyString>
-              </MappedKeyAction>
-              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-                <Target>(@other isboxer)#11</Target>
-                <KeyMapString>ISB42 - Base Hotkeys</KeyMapString>
-                <MappedKeyString>Forward-Right</MappedKeyString>
-              </MappedKeyAction>
-              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-                <Target>(@other isboxer)#12</Target>
-                <KeyMapString>ISB42 - Base Hotkeys</KeyMapString>
-                <MappedKeyString>Forward-Right</MappedKeyString>
-              </MappedKeyAction>
-              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-                <Target>(@other isboxer)#13</Target>
-                <KeyMapString>ISB42 - Base Hotkeys</KeyMapString>
-                <MappedKeyString>Forward-Right</MappedKeyString>
-              </MappedKeyAction>
-              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-                <Target>(@other isboxer)#14</Target>
-                <KeyMapString>ISB42 - Base Hotkeys</KeyMapString>
-                <MappedKeyString>Forward-Right</MappedKeyString>
-              </MappedKeyAction>
-            </Actions>
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
         <Name>Circle Formation Run</Name>
         <Description>Circular Formation</Description>
         <Combo>
@@ -4679,6 +4399,43 @@ See http://isboxer.com/wiki/WoW:Interact_with_Target.</Description>
           </Step>
         </Steps>
       </MappedKey>
+      <MappedKey>
+        <Name>Toggle Auto-Assist</Name>
+        <Steps>
+          <Step>
+            <Name>Enable</Name>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyRewriteAction">
+                <FromMappedKey>
+                  <KeyMapString>Auto-Assist</KeyMapString>
+                </FromMappedKey>
+                <ToMappedKey>
+                  <KeyMapString>Assist &amp; Follow</KeyMapString>
+                </ToMappedKey>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="PopupTextAction">
+                <Text>Auto-Assist ENABLED</Text>
+                <DurationMS>1000</DurationMS>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+          <Step>
+            <Name>Disable</Name>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyRewriteAction">
+                <FromMappedKey>
+                  <KeyMapString>Auto-Assist</KeyMapString>
+                </FromMappedKey>
+                <ToMappedKey />
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="PopupTextAction">
+                <Text>Auto-Assist DISABLED</Text>
+                <DurationMS>1000</DurationMS>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
     </Mappings>
   </KeyMap>
   <KeyMap>
@@ -4689,70 +4446,6 @@ Contains different methods of Follow and Assist. Some games will only work with 
 
 The Active Methods are set up in your Character Set under Virtual Mapped Keys!</Description>
     <Mappings>
-      <MappedKey>
-        <Name>Follow Me - Active Method</Name>
-        <Steps>
-          <Step>
-            <Actions>
-              <MappedKeyAction xsi:type="PopupTextAction">
-                <Text>Follow Me: No Follow Method Active!</Text>
-                <DurationMS>1500</DurationMS>
-                <FadeDurationMS>1500</FadeDurationMS>
-                <Green>0</Green>
-                <Blue>0</Blue>
-              </MappedKeyAction>
-            </Actions>
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
-        <Name>--------------------------------------------------</Name>
-        <Steps>
-          <Step>
-            <Actions />
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
-        <Name>Follow Me (WoW Macro)</Name>
-        <Hold>
-          <Value>true</Value>
-        </Hold>
-        <Steps>
-          <Step>
-            <Actions>
-              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-                <KeyMapString>ISB42 - WoW</KeyMapString>
-                <MappedKeyString>Follow Me</MappedKeyString>
-              </MappedKeyAction>
-            </Actions>
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
-        <Name>Follow Me (Target Slot)</Name>
-        <ResetTimer>2</ResetTimer>
-        <ResetType>FromFirstAdvance</ResetType>
-        <Mode>OnPressAndRelease</Mode>
-        <Steps>
-          <Step>
-            <Actions>
-              <MappedKeyAction xsi:type="VariableKeystrokeAction">
-                <Target>other Follower</Target>
-                <Name>Target Slot {SLOT}</Name>
-              </MappedKeyAction>
-            </Actions>
-          </Step>
-          <Step>
-            <Actions>
-              <MappedKeyAction xsi:type="VariableKeystrokeAction">
-                <Target>other Follower</Target>
-                <Name>Follow Target</Name>
-              </MappedKeyAction>
-            </Actions>
-          </Step>
-        </Steps>
-      </MappedKey>
       <MappedKey>
         <Name>Follow Leader (Target Party Leader)</Name>
         <ResetTimer>2</ResetTimer>
@@ -4827,83 +4520,11 @@ The Active Methods are set up in your Character Set under Virtual Mapped Keys!</
         </Steps>
       </MappedKey>
       <MappedKey>
-        <Name>====================================</Name>
-        <Steps>
-          <Step>
-            <Actions />
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
-        <Name>Assist Me - Active Method</Name>
-        <Steps>
-          <Step>
-            <Actions>
-              <MappedKeyAction xsi:type="PopupTextAction">
-                <Text>Assist Me: No Assist Method Active!</Text>
-                <DurationMS>1500</DurationMS>
-                <FadeDurationMS>1500</FadeDurationMS>
-                <Green>0</Green>
-                <Blue>0</Blue>
-              </MappedKeyAction>
-            </Actions>
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
-        <Name>Auto-Assist Me - Active Method</Name>
-        <Steps>
-          <Step>
-            <Actions />
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
         <Name>---------------------------------------------------</Name>
         <ResetTimer>0</ResetTimer>
         <Steps>
           <Step>
             <Actions />
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
-        <Name>Assist Me (WoW Macro)</Name>
-        <Hold>
-          <Value>true</Value>
-        </Hold>
-        <Steps>
-          <Step>
-            <Actions>
-              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-                <KeyMapString>ISB42 - WoW</KeyMapString>
-                <MappedKeyString>Assist Me</MappedKeyString>
-              </MappedKeyAction>
-            </Actions>
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
-        <Name>Assist Me (Target Slot)</Name>
-        <ResetTimer>2</ResetTimer>
-        <ResetType>FromFirstAdvance</ResetType>
-        <Mode>OnPressAndRelease</Mode>
-        <Steps>
-          <Step>
-            <Actions>
-              <MappedKeyAction xsi:type="VariableKeystrokeAction">
-                <Target>all other</Target>
-                <Name>Target Slot {SLOT}</Name>
-              </MappedKeyAction>
-            </Actions>
-          </Step>
-          <Step>
-            <Actions>
-              <MappedKeyAction xsi:type="VariableKeystrokeAction">
-                <Target>all other</Target>
-                <Name>Assist Target</Name>
-              </MappedKeyAction>
-            </Actions>
           </Step>
         </Steps>
       </MappedKey>
@@ -5185,530 +4806,6 @@ See http://isboxer.com/wiki/WoW:Interact_with_Target.</Description>
         </Steps>
       </MappedKey>
       <MappedKey>
-        <Name>Follow Me - Combat (Target Slot)</Name>
-        <ResetTimer>2</ResetTimer>
-        <ResetType>FromFirstAdvance</ResetType>
-        <Mode>OnPressAndRelease</Mode>
-        <Steps>
-          <Step>
-            <Actions>
-              <MappedKeyAction xsi:type="VariableKeystrokeAction">
-                <Target>Active&amp;Follower&amp;(other Combat)</Target>
-                <Name>Target Slot {SLOT}</Name>
-              </MappedKeyAction>
-            </Actions>
-          </Step>
-          <Step>
-            <Actions>
-              <MappedKeyAction xsi:type="VariableKeystrokeAction">
-                <Target>Active&amp;Follower&amp;(other Combat)</Target>
-                <Name>Follow Target</Name>
-              </MappedKeyAction>
-            </Actions>
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
-        <Name>Follow Me - Melee (Target Slot)</Name>
-        <ResetTimer>2</ResetTimer>
-        <ResetType>FromFirstAdvance</ResetType>
-        <Mode>OnPressAndRelease</Mode>
-        <Steps>
-          <Step>
-            <Actions>
-              <MappedKeyAction xsi:type="VariableKeystrokeAction">
-                <Target>Active&amp;Follower&amp;(other Melee)</Target>
-                <Name>Target Slot {SLOT}</Name>
-              </MappedKeyAction>
-            </Actions>
-          </Step>
-          <Step>
-            <Actions>
-              <MappedKeyAction xsi:type="VariableKeystrokeAction">
-                <Target>Active&amp;Follower&amp;(other Melee)</Target>
-                <Name>Follow Target</Name>
-              </MappedKeyAction>
-            </Actions>
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
-        <Name>Follow Me - Ranged (Target Slot)</Name>
-        <ResetTimer>2</ResetTimer>
-        <ResetType>FromFirstAdvance</ResetType>
-        <Mode>OnPressAndRelease</Mode>
-        <Steps>
-          <Step>
-            <Actions>
-              <MappedKeyAction xsi:type="VariableKeystrokeAction">
-                <Target>Active&amp;Follower&amp;(other Ranged)</Target>
-                <Name>Target Slot {SLOT}</Name>
-              </MappedKeyAction>
-            </Actions>
-          </Step>
-          <Step>
-            <Actions>
-              <MappedKeyAction xsi:type="VariableKeystrokeAction">
-                <Target>Active&amp;Follower&amp;(other Ranged)</Target>
-                <Name>Follow Target</Name>
-              </MappedKeyAction>
-            </Actions>
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
-        <Name>Follow Me - Healer (Target Slot)</Name>
-        <ResetTimer>2</ResetTimer>
-        <ResetType>FromFirstAdvance</ResetType>
-        <Mode>OnPressAndRelease</Mode>
-        <Steps>
-          <Step>
-            <Actions>
-              <MappedKeyAction xsi:type="VariableKeystrokeAction">
-                <Target>Active&amp;Follower&amp;(other Healer)</Target>
-                <Name>Target Slot {SLOT}</Name>
-              </MappedKeyAction>
-            </Actions>
-          </Step>
-          <Step>
-            <Actions>
-              <MappedKeyAction xsi:type="VariableKeystrokeAction">
-                <Target>Active&amp;Follower&amp;(other Healer)</Target>
-                <Name>Follow Target</Name>
-              </MappedKeyAction>
-            </Actions>
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
-        <Name>--</Name>
-        <Steps>
-          <Step>
-            <Actions />
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
-        <Name>Assist Me  - Combat (Target Slot)</Name>
-        <ResetTimer>2</ResetTimer>
-        <ResetType>FromFirstAdvance</ResetType>
-        <Mode>OnPressAndRelease</Mode>
-        <Steps>
-          <Step>
-            <Actions>
-              <MappedKeyAction xsi:type="VariableKeystrokeAction">
-                <Target>Active&amp;Assist&amp;(other Combat)</Target>
-                <Name>Target Slot {SLOT}</Name>
-              </MappedKeyAction>
-            </Actions>
-          </Step>
-          <Step>
-            <Actions>
-              <MappedKeyAction xsi:type="VariableKeystrokeAction">
-                <Target>Active&amp;Assist&amp;(other Combat)</Target>
-                <Name>Assist Target</Name>
-              </MappedKeyAction>
-            </Actions>
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
-        <Name>Assist Me  - Melee (Target Slot)</Name>
-        <ResetTimer>2</ResetTimer>
-        <ResetType>FromFirstAdvance</ResetType>
-        <Mode>OnPressAndRelease</Mode>
-        <Steps>
-          <Step>
-            <Actions>
-              <MappedKeyAction xsi:type="VariableKeystrokeAction">
-                <Target>Active&amp;Assist&amp;(other Melee)</Target>
-                <Name>Target Slot {SLOT}</Name>
-              </MappedKeyAction>
-              <MappedKeyAction xsi:type="VariableKeystrokeAction">
-                <Target>Active&amp;Assist&amp;(other Melee)</Target>
-                <Name>Assist Target</Name>
-              </MappedKeyAction>
-            </Actions>
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
-        <Name>Assist Me  - Melee (FTL)</Name>
-        <ResetTimer>2</ResetTimer>
-        <ResetType>FromFirstAdvance</ResetType>
-        <Mode>OnPressAndRelease</Mode>
-        <Steps>
-          <Step>
-            <Actions>
-              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-                <KeyMapString>ISB42 - WoW</KeyMapString>
-                <MappedKeyString>Assist Me (Melee)</MappedKeyString>
-              </MappedKeyAction>
-            </Actions>
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
-        <Name>Assist Me  - Ranged (Target Slot)</Name>
-        <ResetTimer>2</ResetTimer>
-        <ResetType>FromFirstAdvance</ResetType>
-        <Mode>OnPressAndRelease</Mode>
-        <Steps>
-          <Step>
-            <Actions>
-              <MappedKeyAction xsi:type="VariableKeystrokeAction">
-                <Target>Active&amp;Assist&amp;(other Ranged)</Target>
-                <Name>Target Slot {SLOT}</Name>
-              </MappedKeyAction>
-            </Actions>
-          </Step>
-          <Step>
-            <Actions>
-              <MappedKeyAction xsi:type="VariableKeystrokeAction">
-                <Target>Active&amp;Assist&amp;(other Ranged)</Target>
-                <Name>Assist Target</Name>
-              </MappedKeyAction>
-            </Actions>
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
-        <Name>Assist Me  - Healer (Target Slot)</Name>
-        <ResetTimer>2</ResetTimer>
-        <ResetType>FromFirstAdvance</ResetType>
-        <Mode>OnPressAndRelease</Mode>
-        <Steps>
-          <Step>
-            <Actions>
-              <MappedKeyAction xsi:type="VariableKeystrokeAction">
-                <Target>Active&amp;Assist&amp;(other Healer)</Target>
-                <Name>Target Slot {SLOT}</Name>
-              </MappedKeyAction>
-            </Actions>
-          </Step>
-          <Step>
-            <Actions>
-              <MappedKeyAction xsi:type="VariableKeystrokeAction">
-                <Target>Active&amp;Assist&amp;(other Healer)</Target>
-                <Name>Assist Target</Name>
-              </MappedKeyAction>
-            </Actions>
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
-        <Name>Assist Me  - DPS (Target Slot)</Name>
-        <ResetTimer>2</ResetTimer>
-        <ResetType>FromFirstAdvance</ResetType>
-        <Mode>OnPressAndRelease</Mode>
-        <Steps>
-          <Step>
-            <Actions>
-              <MappedKeyAction xsi:type="VariableKeystrokeAction">
-                <Target>Active&amp;Assist&amp;(other DPS)</Target>
-                <Name>Target Slot {SLOT}</Name>
-              </MappedKeyAction>
-            </Actions>
-          </Step>
-          <Step>
-            <Actions>
-              <MappedKeyAction xsi:type="VariableKeystrokeAction">
-                <Target>Active&amp;Assist&amp;(other DPS)</Target>
-                <Name>Assist Target</Name>
-              </MappedKeyAction>
-            </Actions>
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
-        <Name>Assist Me  - Pull (Target Slot)</Name>
-        <ResetTimer>2</ResetTimer>
-        <ResetType>FromFirstAdvance</ResetType>
-        <Mode>OnPressAndRelease</Mode>
-        <Steps>
-          <Step>
-            <Actions>
-              <MappedKeyAction xsi:type="VariableKeystrokeAction">
-                <Target>Active&amp;Assist&amp;(other Pull)</Target>
-                <Name>Target Slot {SLOT}</Name>
-              </MappedKeyAction>
-            </Actions>
-          </Step>
-          <Step>
-            <Actions>
-              <MappedKeyAction xsi:type="VariableKeystrokeAction">
-                <Target>Active&amp;Assist&amp;(other Pull)</Target>
-                <Name>Assist Target</Name>
-              </MappedKeyAction>
-            </Actions>
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
-        <Name>Assist Me  - Taunt (Target Slot)</Name>
-        <ResetTimer>2</ResetTimer>
-        <ResetType>FromFirstAdvance</ResetType>
-        <Mode>OnPressAndRelease</Mode>
-        <Steps>
-          <Step>
-            <Actions>
-              <MappedKeyAction xsi:type="VariableKeystrokeAction">
-                <Target>Active&amp;Assist&amp;(other Taunt)</Target>
-                <Name>Target Slot {SLOT}</Name>
-              </MappedKeyAction>
-            </Actions>
-          </Step>
-          <Step>
-            <Actions>
-              <MappedKeyAction xsi:type="VariableKeystrokeAction">
-                <Target>Active&amp;Assist&amp;(other Taunt)</Target>
-                <Name>Assist Target</Name>
-              </MappedKeyAction>
-            </Actions>
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
-        <Name>Assist Me  - Interrupt (Target Slot)</Name>
-        <ResetTimer>2</ResetTimer>
-        <ResetType>FromFirstAdvance</ResetType>
-        <Mode>OnPressAndRelease</Mode>
-        <Steps>
-          <Step>
-            <Actions>
-              <MappedKeyAction xsi:type="VariableKeystrokeAction">
-                <Target>Active&amp;Assist&amp;(other Interrupt)</Target>
-                <Name>Target Slot {SLOT}</Name>
-              </MappedKeyAction>
-            </Actions>
-          </Step>
-          <Step>
-            <Actions>
-              <MappedKeyAction xsi:type="VariableKeystrokeAction">
-                <Target>Active&amp;Assist&amp;(other Interrupt)</Target>
-                <Name>Assist Target</Name>
-              </MappedKeyAction>
-            </Actions>
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
-        <Name>Assist Me  - Interrupt - Ranged (Target Slot)</Name>
-        <ResetTimer>2</ResetTimer>
-        <ResetType>FromFirstAdvance</ResetType>
-        <Mode>OnPressAndRelease</Mode>
-        <Steps>
-          <Step>
-            <Actions>
-              <MappedKeyAction xsi:type="VariableKeystrokeAction">
-                <Target>Active&amp;Assist&amp;Ranged&amp;(other Interrupt)</Target>
-                <Name>Target Slot {SLOT}</Name>
-              </MappedKeyAction>
-            </Actions>
-          </Step>
-          <Step>
-            <Actions>
-              <MappedKeyAction xsi:type="VariableKeystrokeAction">
-                <Target>Active&amp;Assist&amp;Ranged&amp;(other Interrupt)</Target>
-                <Name>Assist Target</Name>
-              </MappedKeyAction>
-            </Actions>
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
-        <Name>Assist Me  - Stun (Target Slot)</Name>
-        <ResetTimer>2</ResetTimer>
-        <ResetType>FromFirstAdvance</ResetType>
-        <Mode>OnPressAndRelease</Mode>
-        <Steps>
-          <Step>
-            <Actions>
-              <MappedKeyAction xsi:type="VariableKeystrokeAction">
-                <Target>Active&amp;Assist&amp;(other Stun)</Target>
-                <Name>Target Slot {SLOT}</Name>
-              </MappedKeyAction>
-            </Actions>
-          </Step>
-          <Step>
-            <Actions>
-              <MappedKeyAction xsi:type="VariableKeystrokeAction">
-                <Target>Active&amp;Assist&amp;(other Stun)</Target>
-                <Name>Assist Target</Name>
-              </MappedKeyAction>
-            </Actions>
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
-        <Name>Assist Me  - Stun - Ranged (Target Slot)</Name>
-        <ResetTimer>2</ResetTimer>
-        <ResetType>FromFirstAdvance</ResetType>
-        <Mode>OnPressAndRelease</Mode>
-        <Steps>
-          <Step>
-            <Actions>
-              <MappedKeyAction xsi:type="VariableKeystrokeAction">
-                <Target>Active&amp;Assist&amp;Ranged&amp;(other Stun)</Target>
-                <Name>Target Slot {SLOT}</Name>
-              </MappedKeyAction>
-            </Actions>
-          </Step>
-          <Step>
-            <Actions>
-              <MappedKeyAction xsi:type="VariableKeystrokeAction">
-                <Target>Active&amp;Assist&amp;Ranged&amp;(other Stun)</Target>
-                <Name>Assist Target</Name>
-              </MappedKeyAction>
-            </Actions>
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
-        <Name>Assist Me  - Root (Target Slot)</Name>
-        <ResetTimer>2</ResetTimer>
-        <ResetType>FromFirstAdvance</ResetType>
-        <Mode>OnPressAndRelease</Mode>
-        <Steps>
-          <Step>
-            <Actions>
-              <MappedKeyAction xsi:type="VariableKeystrokeAction">
-                <Target>Active&amp;Assist&amp;(other Root)</Target>
-                <Name>Target Slot {SLOT}</Name>
-              </MappedKeyAction>
-            </Actions>
-          </Step>
-          <Step>
-            <Actions>
-              <MappedKeyAction xsi:type="VariableKeystrokeAction">
-                <Target>Active&amp;Assist&amp;(other Root)</Target>
-                <Name>Assist Target</Name>
-              </MappedKeyAction>
-            </Actions>
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
-        <Name>Assist Me  - Root - Ranged (Target Slot)</Name>
-        <ResetTimer>2</ResetTimer>
-        <ResetType>FromFirstAdvance</ResetType>
-        <Mode>OnPressAndRelease</Mode>
-        <Steps>
-          <Step>
-            <Actions>
-              <MappedKeyAction xsi:type="VariableKeystrokeAction">
-                <Target>Active&amp;Assist&amp;Ranged&amp;(other Root)</Target>
-                <Name>Target Slot {SLOT}</Name>
-              </MappedKeyAction>
-            </Actions>
-          </Step>
-          <Step>
-            <Actions>
-              <MappedKeyAction xsi:type="VariableKeystrokeAction">
-                <Target>Active&amp;Assist&amp;Ranged&amp;(other Root)</Target>
-                <Name>Assist Target</Name>
-              </MappedKeyAction>
-            </Actions>
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
-        <Name>Assist Me  - Snare (Target Slot)</Name>
-        <ResetTimer>2</ResetTimer>
-        <ResetType>FromFirstAdvance</ResetType>
-        <Mode>OnPressAndRelease</Mode>
-        <Steps>
-          <Step>
-            <Actions>
-              <MappedKeyAction xsi:type="VariableKeystrokeAction">
-                <Target>Active&amp;Assist&amp;(other Snare)</Target>
-                <Name>Target Slot {SLOT}</Name>
-              </MappedKeyAction>
-            </Actions>
-          </Step>
-          <Step>
-            <Actions>
-              <MappedKeyAction xsi:type="VariableKeystrokeAction">
-                <Target>Active&amp;Assist&amp;(other Snare)</Target>
-                <Name>Assist Target</Name>
-              </MappedKeyAction>
-            </Actions>
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
-        <Name>Assist Me  - Snare - Ranged (Target Slot)</Name>
-        <ResetTimer>2</ResetTimer>
-        <ResetType>FromFirstAdvance</ResetType>
-        <Mode>OnPressAndRelease</Mode>
-        <Steps>
-          <Step>
-            <Actions>
-              <MappedKeyAction xsi:type="VariableKeystrokeAction">
-                <Target>Active&amp;Assist&amp;Ranged&amp;(other Snare)</Target>
-                <Name>Target Slot {SLOT}</Name>
-              </MappedKeyAction>
-            </Actions>
-          </Step>
-          <Step>
-            <Actions>
-              <MappedKeyAction xsi:type="VariableKeystrokeAction">
-                <Target>Active&amp;Assist&amp;Ranged&amp;(other Snare)</Target>
-                <Name>Assist Target</Name>
-              </MappedKeyAction>
-            </Actions>
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
-        <Name>Assist Me  - Crowd Control (Target Slot)</Name>
-        <ResetTimer>2</ResetTimer>
-        <ResetType>FromFirstAdvance</ResetType>
-        <Mode>OnPressAndRelease</Mode>
-        <Steps>
-          <Step>
-            <Actions>
-              <MappedKeyAction xsi:type="VariableKeystrokeAction">
-                <Target>Active&amp;Assist&amp;(other Crowd Control)</Target>
-                <Name>Target Slot {SLOT}</Name>
-              </MappedKeyAction>
-            </Actions>
-          </Step>
-          <Step>
-            <Actions>
-              <MappedKeyAction xsi:type="VariableKeystrokeAction">
-                <Target>Active&amp;Assist&amp;(other Crowd Control)</Target>
-                <Name>Assist Target</Name>
-              </MappedKeyAction>
-            </Actions>
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
-        <Name>-- </Name>
-        <Steps>
-          <Step>
-            <Actions />
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
-        <Name>Auto-Assist Me - DPS - Active Method</Name>
-        <Steps>
-          <Step>
-            <Actions />
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
-        <Name>--  </Name>
-        <Steps>
-          <Step>
-            <Actions />
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
         <Name>Interact with Target - Combat</Name>
         <Description>Interact with Target will help you interact with NPCs (e.g. merchants, quest givers and enemies) and, when combined with Click to Move, can be used to keep melees on target.
 See http://isboxer.com/wiki/WoW:Interact_with_Target.</Description>
@@ -5765,7 +4862,7 @@ See http://isboxer.com/wiki/WoW:Interact_with_Target.</Description>
               </MappedKeyAction>
               <MappedKeyAction xsi:type="MappedKeyExecuteAction">
                 <KeyMapString>ISB42 - Party</KeyMapString>
-                <MappedKeyString>Assist Me  - Melee (FTL)</MappedKeyString>
+                <MappedKeyString>Assist Me  - Melee (WoW)</MappedKeyString>
               </MappedKeyAction>
               <MappedKeyAction xsi:type="VariableKeystrokeAction">
                 <Target>Active&amp;(other Melee)</Target>
@@ -6133,20 +5230,10 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
         </Steps>
       </MappedKey>
       <MappedKey>
-        <Name>Follow Me</Name>
+        <Name>--</Name>
         <Steps>
           <Step>
-            <Actions>
-              <MappedKeyAction xsi:type="WoWMacroRefAction">
-                <UseFTLModifiers>true</UseFTLModifiers>
-                <Target>other Follower</Target>
-                <UseCustomModifiers />
-                <WoWMacro>
-                  <WoWMacroSetString>Quick Setup 42</WoWMacroSetString>
-                  <WoWMacroString>/follow {FTL}</WoWMacroString>
-                </WoWMacro>
-              </MappedKeyAction>
-            </Actions>
+            <Actions />
           </Step>
         </Steps>
       </MappedKey>
@@ -6157,7 +5244,25 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
             <Actions>
               <MappedKeyAction xsi:type="WoWMacroRefAction">
                 <UseFTLModifiers>true</UseFTLModifiers>
-                <Target>all other</Target>
+                <Target>Active&amp;(other Assist)</Target>
+                <UseCustomModifiers />
+                <WoWMacro>
+                  <WoWMacroSetString>Quick Setup 42</WoWMacroSetString>
+                  <WoWMacroString>/assist {FTL}</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Assist Me (Combat)</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <UseFTLModifiers>true</UseFTLModifiers>
+                <Target>Active&amp;Assist&amp;(other Combat)</Target>
                 <UseCustomModifiers />
                 <WoWMacro>
                   <WoWMacroSetString>Quick Setup 42</WoWMacroSetString>
@@ -6175,7 +5280,7 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
             <Actions>
               <MappedKeyAction xsi:type="WoWMacroRefAction">
                 <UseFTLModifiers>true</UseFTLModifiers>
-                <Target>Active&amp;(other Melee)</Target>
+                <Target>Active&amp;Assist&amp;(other Melee)</Target>
                 <UseCustomModifiers />
                 <WoWMacro>
                   <WoWMacroSetString>Quick Setup 42</WoWMacroSetString>
@@ -6193,11 +5298,523 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
             <Actions>
               <MappedKeyAction xsi:type="WoWMacroRefAction">
                 <UseFTLModifiers>true</UseFTLModifiers>
-                <Target>Active&amp;(other Ranged)</Target>
+                <Target>Active&amp;Assist&amp;(other Ranged)</Target>
                 <UseCustomModifiers />
                 <WoWMacro>
                   <WoWMacroSetString>Quick Setup 42</WoWMacroSetString>
                   <WoWMacroString>/assist {FTL}</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Assist Me (Healer)</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <UseFTLModifiers>true</UseFTLModifiers>
+                <Target>Active&amp;Assist&amp;(other Healer)</Target>
+                <UseCustomModifiers />
+                <WoWMacro>
+                  <WoWMacroSetString>Quick Setup 42</WoWMacroSetString>
+                  <WoWMacroString>/assist {FTL}</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Assist Me (DPS)</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <UseFTLModifiers>true</UseFTLModifiers>
+                <Target>Active&amp;Assist&amp;(other DPS)</Target>
+                <UseCustomModifiers />
+                <WoWMacro>
+                  <WoWMacroSetString>Quick Setup 42</WoWMacroSetString>
+                  <WoWMacroString>/assist {FTL}</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Assist Me (Tank)</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <UseFTLModifiers>true</UseFTLModifiers>
+                <Target>Active&amp;Assist&amp;(other Tank)</Target>
+                <UseCustomModifiers />
+                <WoWMacro>
+                  <WoWMacroSetString>Quick Setup 42</WoWMacroSetString>
+                  <WoWMacroString>/assist {FTL}</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Assist Me (Pull)</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <UseFTLModifiers>true</UseFTLModifiers>
+                <Target>Active&amp;Assist&amp;(other Pull)</Target>
+                <UseCustomModifiers />
+                <WoWMacro>
+                  <WoWMacroSetString>Quick Setup 42</WoWMacroSetString>
+                  <WoWMacroString>/assist {FTL}</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Assist Me (Taunt)</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <UseFTLModifiers>true</UseFTLModifiers>
+                <Target>Active&amp;Assist&amp;(other Taunt)</Target>
+                <UseCustomModifiers />
+                <WoWMacro>
+                  <WoWMacroSetString>Quick Setup 42</WoWMacroSetString>
+                  <WoWMacroString>/assist {FTL}</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Assist Me (Interrupt)</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <UseFTLModifiers>true</UseFTLModifiers>
+                <Target>Active&amp;Assist&amp;(other Interrupt)</Target>
+                <UseCustomModifiers />
+                <WoWMacro>
+                  <WoWMacroSetString>Quick Setup 42</WoWMacroSetString>
+                  <WoWMacroString>/assist {FTL}</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Assist Me (Stun)</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <UseFTLModifiers>true</UseFTLModifiers>
+                <Target>Active&amp;Assist&amp;(other Stun)</Target>
+                <UseCustomModifiers />
+                <WoWMacro>
+                  <WoWMacroSetString>Quick Setup 42</WoWMacroSetString>
+                  <WoWMacroString>/assist {FTL}</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Assist Me (Root)</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <UseFTLModifiers>true</UseFTLModifiers>
+                <Target>Active&amp;Assist&amp;(other Root)</Target>
+                <UseCustomModifiers />
+                <WoWMacro>
+                  <WoWMacroSetString>Quick Setup 42</WoWMacroSetString>
+                  <WoWMacroString>/assist {FTL}</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Assist Me (Snare)</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <UseFTLModifiers>true</UseFTLModifiers>
+                <Target>Active&amp;Assist&amp;(other Snare)</Target>
+                <UseCustomModifiers />
+                <WoWMacro>
+                  <WoWMacroSetString>Quick Setup 42</WoWMacroSetString>
+                  <WoWMacroString>/assist {FTL}</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Assist Me (Group 1)</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <UseFTLModifiers>true</UseFTLModifiers>
+                <Target>Active&amp;Assist&amp;(other Group 1)</Target>
+                <UseCustomModifiers />
+                <WoWMacro>
+                  <WoWMacroSetString>Quick Setup 42</WoWMacroSetString>
+                  <WoWMacroString>/assist {FTL}</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Assist Me (Group 2)</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <UseFTLModifiers>true</UseFTLModifiers>
+                <Target>Active&amp;Assist&amp;(other Group 2)</Target>
+                <UseCustomModifiers />
+                <WoWMacro>
+                  <WoWMacroSetString>Quick Setup 42</WoWMacroSetString>
+                  <WoWMacroString>/assist {FTL}</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Assist Me (Group 3)</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <UseFTLModifiers>true</UseFTLModifiers>
+                <Target>Active&amp;Assist&amp;(other Group 3)</Target>
+                <UseCustomModifiers />
+                <WoWMacro>
+                  <WoWMacroSetString>Quick Setup 42</WoWMacroSetString>
+                  <WoWMacroString>/assist {FTL}</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>-- </Name>
+        <Steps>
+          <Step>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Follow Me</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <UseFTLModifiers>true</UseFTLModifiers>
+                <Target>Active&amp;(other Follower)</Target>
+                <UseCustomModifiers />
+                <WoWMacro>
+                  <WoWMacroSetString>Quick Setup 42</WoWMacroSetString>
+                  <WoWMacroString>/follow {FTL}</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Follow Me (Combat)</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <UseFTLModifiers>true</UseFTLModifiers>
+                <Target>Active&amp;Follower&amp;(other Combat)</Target>
+                <UseCustomModifiers />
+                <WoWMacro>
+                  <WoWMacroSetString>Quick Setup 42</WoWMacroSetString>
+                  <WoWMacroString>/follow {FTL}</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Follow Me (Melee)</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <UseFTLModifiers>true</UseFTLModifiers>
+                <Target>Active&amp;Follower&amp;(other Melee)</Target>
+                <UseCustomModifiers />
+                <WoWMacro>
+                  <WoWMacroSetString>Quick Setup 42</WoWMacroSetString>
+                  <WoWMacroString>/follow {FTL}</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Follow Me (Ranged)</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <UseFTLModifiers>true</UseFTLModifiers>
+                <Target>Active&amp;Follower&amp;(other Ranged)</Target>
+                <UseCustomModifiers />
+                <WoWMacro>
+                  <WoWMacroSetString>Quick Setup 42</WoWMacroSetString>
+                  <WoWMacroString>/follow {FTL}</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Follow Me (Healer)</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <UseFTLModifiers>true</UseFTLModifiers>
+                <Target>Active&amp;Follower&amp;(other Healer)</Target>
+                <UseCustomModifiers />
+                <WoWMacro>
+                  <WoWMacroSetString>Quick Setup 42</WoWMacroSetString>
+                  <WoWMacroString>/follow {FTL}</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Follow Me (DPS)</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <UseFTLModifiers>true</UseFTLModifiers>
+                <Target>Active&amp;Follower&amp;(other DPS)</Target>
+                <UseCustomModifiers />
+                <WoWMacro>
+                  <WoWMacroSetString>Quick Setup 42</WoWMacroSetString>
+                  <WoWMacroString>/follow {FTL}</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Follow Me (Tank)</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <UseFTLModifiers>true</UseFTLModifiers>
+                <Target>Active&amp;Follower&amp;(other Tank)</Target>
+                <UseCustomModifiers />
+                <WoWMacro>
+                  <WoWMacroSetString>Quick Setup 42</WoWMacroSetString>
+                  <WoWMacroString>/follow {FTL}</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Follow Me (Pull)</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <UseFTLModifiers>true</UseFTLModifiers>
+                <Target>Active&amp;Follower&amp;(other Pull)</Target>
+                <UseCustomModifiers />
+                <WoWMacro>
+                  <WoWMacroSetString>Quick Setup 42</WoWMacroSetString>
+                  <WoWMacroString>/follow {FTL}</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Follow Me (Taunt)</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <UseFTLModifiers>true</UseFTLModifiers>
+                <Target>Active&amp;Follower&amp;(other Taunt)</Target>
+                <UseCustomModifiers />
+                <WoWMacro>
+                  <WoWMacroSetString>Quick Setup 42</WoWMacroSetString>
+                  <WoWMacroString>/follow {FTL}</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Follow Me (Interrupt)</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <UseFTLModifiers>true</UseFTLModifiers>
+                <Target>Active&amp;Follower&amp;(other Interrupt)</Target>
+                <UseCustomModifiers />
+                <WoWMacro>
+                  <WoWMacroSetString>Quick Setup 42</WoWMacroSetString>
+                  <WoWMacroString>/follow {FTL}</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Follow Me (Stun)</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <UseFTLModifiers>true</UseFTLModifiers>
+                <Target>Active&amp;Follower&amp;(other Stun)</Target>
+                <UseCustomModifiers />
+                <WoWMacro>
+                  <WoWMacroSetString>Quick Setup 42</WoWMacroSetString>
+                  <WoWMacroString>/follow {FTL}</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Follow Me (Root)</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <UseFTLModifiers>true</UseFTLModifiers>
+                <Target>Active&amp;Follower&amp;(other Root)</Target>
+                <UseCustomModifiers />
+                <WoWMacro>
+                  <WoWMacroSetString>Quick Setup 42</WoWMacroSetString>
+                  <WoWMacroString>/follow {FTL}</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Follow Me (Snare)</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <UseFTLModifiers>true</UseFTLModifiers>
+                <Target>Active&amp;Follower&amp;(other Snare)</Target>
+                <UseCustomModifiers />
+                <WoWMacro>
+                  <WoWMacroSetString>Quick Setup 42</WoWMacroSetString>
+                  <WoWMacroString>/follow {FTL}</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Follow Me (Group 1)</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <UseFTLModifiers>true</UseFTLModifiers>
+                <Target>Active&amp;Follower&amp;(other Group 1)</Target>
+                <UseCustomModifiers />
+                <WoWMacro>
+                  <WoWMacroSetString>Quick Setup 42</WoWMacroSetString>
+                  <WoWMacroString>/follow {FTL}</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Follow Me (Group 2)</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <UseFTLModifiers>true</UseFTLModifiers>
+                <Target>Active&amp;Follower&amp;(other Group 2)</Target>
+                <UseCustomModifiers />
+                <WoWMacro>
+                  <WoWMacroSetString>Quick Setup 42</WoWMacroSetString>
+                  <WoWMacroString>/follow {FTL}</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Follow Me (Group 3)</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <UseFTLModifiers>true</UseFTLModifiers>
+                <Target>Active&amp;Follower&amp;(other Group 3)</Target>
+                <UseCustomModifiers />
+                <WoWMacro>
+                  <WoWMacroSetString>Quick Setup 42</WoWMacroSetString>
+                  <WoWMacroString>/follow {FTL}</WoWMacroString>
                 </WoWMacro>
               </MappedKeyAction>
             </Actions>
@@ -6225,6 +5842,2315 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
     <Mappings />
   </KeyMap>
   <KeyMap>
+    <Name>Assist &amp; Follow</Name>
+    <Mappings>
+      <MappedKey>
+        <Name>Follow Me</Name>
+        <Combo>
+          <Combo>Alt+F</Combo>
+          <Modifiers>Alt</Modifiers>
+          <Key>
+            <Key>F</Key>
+            <Code>33</Code>
+          </Key>
+        </Combo>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Assist &amp; Follow [Virtualized]</KeyMapString>
+                <MappedKeyString>Follow Me</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Follow Me - Combat</Name>
+        <ResetTimer>2</ResetTimer>
+        <ResetType>FromFirstAdvance</ResetType>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Assist &amp; Follow [Virtualized]</KeyMapString>
+                <MappedKeyString>Follow Me - Combat</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Follow Me - Melee</Name>
+        <Combo>
+          <Combo>Ctrl+F</Combo>
+          <Modifiers>Ctrl</Modifiers>
+          <Key>
+            <Key>F</Key>
+            <Code>33</Code>
+          </Key>
+        </Combo>
+        <ResetTimer>2</ResetTimer>
+        <ResetType>FromFirstAdvance</ResetType>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Assist &amp; Follow [Virtualized]</KeyMapString>
+                <MappedKeyString>Follow Me - Melee</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Follow Me - Ranged</Name>
+        <ResetTimer>2</ResetTimer>
+        <ResetType>FromFirstAdvance</ResetType>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Assist &amp; Follow [Virtualized]</KeyMapString>
+                <MappedKeyString>Follow Me - Ranged</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Follow Me - Healer</Name>
+        <ResetTimer>2</ResetTimer>
+        <ResetType>FromFirstAdvance</ResetType>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Assist &amp; Follow [Virtualized]</KeyMapString>
+                <MappedKeyString>Follow Me - Healer</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Follow Me - DPS</Name>
+        <ResetTimer>2</ResetTimer>
+        <ResetType>FromFirstAdvance</ResetType>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Assist &amp; Follow [Virtualized]</KeyMapString>
+                <MappedKeyString>Follow Me - DPS</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Follow Me - Tank</Name>
+        <ResetTimer>2</ResetTimer>
+        <ResetType>FromFirstAdvance</ResetType>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Assist &amp; Follow [Virtualized]</KeyMapString>
+                <MappedKeyString>Follow Me - Tank</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Follow Me - Pull</Name>
+        <ResetTimer>2</ResetTimer>
+        <ResetType>FromFirstAdvance</ResetType>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Assist &amp; Follow [Virtualized]</KeyMapString>
+                <MappedKeyString>Follow Me - Pull</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Follow Me - Taunt</Name>
+        <ResetTimer>2</ResetTimer>
+        <ResetType>FromFirstAdvance</ResetType>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Assist &amp; Follow [Virtualized]</KeyMapString>
+                <MappedKeyString>Follow Me - Taunt</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Follow Me - Interrupt</Name>
+        <ResetTimer>2</ResetTimer>
+        <ResetType>FromFirstAdvance</ResetType>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Assist &amp; Follow [Virtualized]</KeyMapString>
+                <MappedKeyString>Follow Me - Interrupt</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Follow Me - Stun</Name>
+        <ResetTimer>2</ResetTimer>
+        <ResetType>FromFirstAdvance</ResetType>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Assist &amp; Follow [Virtualized]</KeyMapString>
+                <MappedKeyString>Follow Me - Stun</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Follow Me - Root</Name>
+        <ResetTimer>2</ResetTimer>
+        <ResetType>FromFirstAdvance</ResetType>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Assist &amp; Follow [Virtualized]</KeyMapString>
+                <MappedKeyString>Follow Me - Root</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Follow Me - Snare</Name>
+        <ResetTimer>2</ResetTimer>
+        <ResetType>FromFirstAdvance</ResetType>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Assist &amp; Follow [Virtualized]</KeyMapString>
+                <MappedKeyString>Follow Me - Snare</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Follow Me - Group 1</Name>
+        <ResetTimer>2</ResetTimer>
+        <ResetType>FromFirstAdvance</ResetType>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Assist &amp; Follow [Virtualized]</KeyMapString>
+                <MappedKeyString>Follow Me - Group 1</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Follow Me - Group 2</Name>
+        <ResetTimer>2</ResetTimer>
+        <ResetType>FromFirstAdvance</ResetType>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Assist &amp; Follow [Virtualized]</KeyMapString>
+                <MappedKeyString>Follow Me - Group 2</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Follow Me - Group 3</Name>
+        <ResetTimer>2</ResetTimer>
+        <ResetType>FromFirstAdvance</ResetType>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Assist &amp; Follow [Virtualized]</KeyMapString>
+                <MappedKeyString>Follow Me - Group 3</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>--</Name>
+        <Steps>
+          <Step>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Assist Me</Name>
+        <Combo>
+          <Combo>Alt+A</Combo>
+          <Modifiers>Alt</Modifiers>
+          <Key>
+            <Key>A</Key>
+            <Code>30</Code>
+          </Key>
+        </Combo>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Assist &amp; Follow [Virtualized]</KeyMapString>
+                <MappedKeyString>Assist Me</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Assist Me  - Combat</Name>
+        <ResetTimer>2</ResetTimer>
+        <ResetType>FromFirstAdvance</ResetType>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Assist &amp; Follow [Virtualized]</KeyMapString>
+                <MappedKeyString>Assist Me  - Combat</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Assist Me  - Melee</Name>
+        <Combo>
+          <Combo>Ctrl+A</Combo>
+          <Modifiers>Ctrl</Modifiers>
+          <Key>
+            <Key>A</Key>
+            <Code>30</Code>
+          </Key>
+        </Combo>
+        <ResetTimer>2</ResetTimer>
+        <ResetType>FromFirstAdvance</ResetType>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Assist &amp; Follow [Virtualized]</KeyMapString>
+                <MappedKeyString>Assist Me  - Melee</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Assist Me  - Ranged</Name>
+        <ResetTimer>2</ResetTimer>
+        <ResetType>FromFirstAdvance</ResetType>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Assist &amp; Follow [Virtualized]</KeyMapString>
+                <MappedKeyString>Assist Me  - Ranged</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Assist Me  - Healer</Name>
+        <ResetTimer>2</ResetTimer>
+        <ResetType>FromFirstAdvance</ResetType>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Assist &amp; Follow [Virtualized]</KeyMapString>
+                <MappedKeyString>Assist Me  - Healer</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Assist Me  - DPS</Name>
+        <ResetTimer>2</ResetTimer>
+        <ResetType>FromFirstAdvance</ResetType>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Assist &amp; Follow [Virtualized]</KeyMapString>
+                <MappedKeyString>Assist Me  - DPS</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Assist Me  - Tank</Name>
+        <ResetTimer>2</ResetTimer>
+        <ResetType>FromFirstAdvance</ResetType>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Assist &amp; Follow [Virtualized]</KeyMapString>
+                <MappedKeyString>Assist Me  - Tank</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Assist Me  - Pull</Name>
+        <ResetTimer>2</ResetTimer>
+        <ResetType>FromFirstAdvance</ResetType>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Assist &amp; Follow [Virtualized]</KeyMapString>
+                <MappedKeyString>Assist Me  - Pull</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Assist Me  - Taunt</Name>
+        <ResetTimer>2</ResetTimer>
+        <ResetType>FromFirstAdvance</ResetType>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Assist &amp; Follow [Virtualized]</KeyMapString>
+                <MappedKeyString>Assist Me  - Taunt</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Assist Me  - Interrupt</Name>
+        <ResetTimer>2</ResetTimer>
+        <ResetType>FromFirstAdvance</ResetType>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Assist &amp; Follow [Virtualized]</KeyMapString>
+                <MappedKeyString>Assist Me  - Interrupt</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Assist Me  - Stun</Name>
+        <ResetTimer>2</ResetTimer>
+        <ResetType>FromFirstAdvance</ResetType>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Assist &amp; Follow [Virtualized]</KeyMapString>
+                <MappedKeyString>Assist Me  - Stun</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Assist Me  - Root</Name>
+        <ResetTimer>2</ResetTimer>
+        <ResetType>FromFirstAdvance</ResetType>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Assist &amp; Follow [Virtualized]</KeyMapString>
+                <MappedKeyString>Assist Me  - Root</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Assist Me  - Snare</Name>
+        <ResetTimer>2</ResetTimer>
+        <ResetType>FromFirstAdvance</ResetType>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Assist &amp; Follow [Virtualized]</KeyMapString>
+                <MappedKeyString>Assist Me  - Snare</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Assist Me  - Group 1</Name>
+        <ResetTimer>2</ResetTimer>
+        <ResetType>FromFirstAdvance</ResetType>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Assist &amp; Follow [Virtualized]</KeyMapString>
+                <MappedKeyString>Assist Me  - Group 1</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Assist Me  - Group 2</Name>
+        <ResetTimer>2</ResetTimer>
+        <ResetType>FromFirstAdvance</ResetType>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Assist &amp; Follow [Virtualized]</KeyMapString>
+                <MappedKeyString>Assist Me  - Group 2</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Assist Me  - Group 3</Name>
+        <ResetTimer>2</ResetTimer>
+        <ResetType>FromFirstAdvance</ResetType>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Assist &amp; Follow [Virtualized]</KeyMapString>
+                <MappedKeyString>Assist Me  - Group 3</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Assist Me  - Crowd Control</Name>
+        <ResetTimer>2</ResetTimer>
+        <ResetType>FromFirstAdvance</ResetType>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps />
+      </MappedKey>
+      <MappedKey>
+        <Name>Assist Me - Resurrect</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Assist &amp; Follow [Virtualized]</KeyMapString>
+                <MappedKeyString>Assist Me - Resurrect</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+    </Mappings>
+  </KeyMap>
+  <KeyMap>
+    <Name>Assist &amp; Follow [Virtualized]</Name>
+    <Mappings>
+      <MappedKey>
+        <Name>Follow Me</Name>
+        <Steps>
+          <Step>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Follow Me - Combat</Name>
+        <ResetTimer>2</ResetTimer>
+        <ResetType>FromFirstAdvance</ResetType>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps />
+      </MappedKey>
+      <MappedKey>
+        <Name>Follow Me - Melee</Name>
+        <ResetTimer>2</ResetTimer>
+        <ResetType>FromFirstAdvance</ResetType>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps />
+      </MappedKey>
+      <MappedKey>
+        <Name>Follow Me - Ranged</Name>
+        <ResetTimer>2</ResetTimer>
+        <ResetType>FromFirstAdvance</ResetType>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps />
+      </MappedKey>
+      <MappedKey>
+        <Name>Follow Me - Healer</Name>
+        <ResetTimer>2</ResetTimer>
+        <ResetType>FromFirstAdvance</ResetType>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps />
+      </MappedKey>
+      <MappedKey>
+        <Name>Follow Me - DPS</Name>
+        <ResetTimer>2</ResetTimer>
+        <ResetType>FromFirstAdvance</ResetType>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps />
+      </MappedKey>
+      <MappedKey>
+        <Name>Follow Me - Tank</Name>
+        <ResetTimer>2</ResetTimer>
+        <ResetType>FromFirstAdvance</ResetType>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps />
+      </MappedKey>
+      <MappedKey>
+        <Name>Follow Me - Pull</Name>
+        <ResetTimer>2</ResetTimer>
+        <ResetType>FromFirstAdvance</ResetType>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps />
+      </MappedKey>
+      <MappedKey>
+        <Name>Follow Me - Taunt</Name>
+        <ResetTimer>2</ResetTimer>
+        <ResetType>FromFirstAdvance</ResetType>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps />
+      </MappedKey>
+      <MappedKey>
+        <Name>Follow Me - Interrupt</Name>
+        <ResetTimer>2</ResetTimer>
+        <ResetType>FromFirstAdvance</ResetType>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps />
+      </MappedKey>
+      <MappedKey>
+        <Name>Follow Me - Stun</Name>
+        <ResetTimer>2</ResetTimer>
+        <ResetType>FromFirstAdvance</ResetType>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps />
+      </MappedKey>
+      <MappedKey>
+        <Name>Follow Me - Root</Name>
+        <ResetTimer>2</ResetTimer>
+        <ResetType>FromFirstAdvance</ResetType>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps />
+      </MappedKey>
+      <MappedKey>
+        <Name>Follow Me - Snare</Name>
+        <ResetTimer>2</ResetTimer>
+        <ResetType>FromFirstAdvance</ResetType>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps />
+      </MappedKey>
+      <MappedKey>
+        <Name>Follow Me - Group 1</Name>
+        <ResetTimer>2</ResetTimer>
+        <ResetType>FromFirstAdvance</ResetType>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps />
+      </MappedKey>
+      <MappedKey>
+        <Name>Follow Me - Group 2</Name>
+        <ResetTimer>2</ResetTimer>
+        <ResetType>FromFirstAdvance</ResetType>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps />
+      </MappedKey>
+      <MappedKey>
+        <Name>Follow Me - Group 3</Name>
+        <ResetTimer>2</ResetTimer>
+        <ResetType>FromFirstAdvance</ResetType>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps />
+      </MappedKey>
+      <MappedKey>
+        <Name>--</Name>
+        <Steps>
+          <Step>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Assist Me</Name>
+        <Steps>
+          <Step>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Assist Me  - Combat</Name>
+        <ResetTimer>2</ResetTimer>
+        <ResetType>FromFirstAdvance</ResetType>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps />
+      </MappedKey>
+      <MappedKey>
+        <Name>Assist Me  - Melee</Name>
+        <ResetTimer>2</ResetTimer>
+        <ResetType>FromFirstAdvance</ResetType>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps />
+      </MappedKey>
+      <MappedKey>
+        <Name>Assist Me  - Ranged</Name>
+        <ResetTimer>2</ResetTimer>
+        <ResetType>FromFirstAdvance</ResetType>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps />
+      </MappedKey>
+      <MappedKey>
+        <Name>Assist Me  - Healer</Name>
+        <ResetTimer>2</ResetTimer>
+        <ResetType>FromFirstAdvance</ResetType>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps />
+      </MappedKey>
+      <MappedKey>
+        <Name>Assist Me  - DPS</Name>
+        <ResetTimer>2</ResetTimer>
+        <ResetType>FromFirstAdvance</ResetType>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps />
+      </MappedKey>
+      <MappedKey>
+        <Name>Assist Me  - Tank</Name>
+        <ResetTimer>2</ResetTimer>
+        <ResetType>FromFirstAdvance</ResetType>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps />
+      </MappedKey>
+      <MappedKey>
+        <Name>Assist Me  - Pull</Name>
+        <ResetTimer>2</ResetTimer>
+        <ResetType>FromFirstAdvance</ResetType>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps />
+      </MappedKey>
+      <MappedKey>
+        <Name>Assist Me  - Taunt</Name>
+        <ResetTimer>2</ResetTimer>
+        <ResetType>FromFirstAdvance</ResetType>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps />
+      </MappedKey>
+      <MappedKey>
+        <Name>Assist Me  - Interrupt</Name>
+        <ResetTimer>2</ResetTimer>
+        <ResetType>FromFirstAdvance</ResetType>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps />
+      </MappedKey>
+      <MappedKey>
+        <Name>Assist Me  - Stun</Name>
+        <ResetTimer>2</ResetTimer>
+        <ResetType>FromFirstAdvance</ResetType>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps />
+      </MappedKey>
+      <MappedKey>
+        <Name>Assist Me  - Root</Name>
+        <ResetTimer>2</ResetTimer>
+        <ResetType>FromFirstAdvance</ResetType>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps />
+      </MappedKey>
+      <MappedKey>
+        <Name>Assist Me  - Snare</Name>
+        <ResetTimer>2</ResetTimer>
+        <ResetType>FromFirstAdvance</ResetType>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps />
+      </MappedKey>
+      <MappedKey>
+        <Name>Assist Me  - Group 1</Name>
+        <ResetTimer>2</ResetTimer>
+        <ResetType>FromFirstAdvance</ResetType>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps />
+      </MappedKey>
+      <MappedKey>
+        <Name>Assist Me  - Group 2</Name>
+        <ResetTimer>2</ResetTimer>
+        <ResetType>FromFirstAdvance</ResetType>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps />
+      </MappedKey>
+      <MappedKey>
+        <Name>Assist Me  - Group 3</Name>
+        <ResetTimer>2</ResetTimer>
+        <ResetType>FromFirstAdvance</ResetType>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps />
+      </MappedKey>
+      <MappedKey>
+        <Name>Assist Me  - Crowd Control</Name>
+        <ResetTimer>2</ResetTimer>
+        <ResetType>FromFirstAdvance</ResetType>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps />
+      </MappedKey>
+      <MappedKey>
+        <Name>Assist Me - Resurrect</Name>
+        <Steps>
+          <Step>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+    </Mappings>
+  </KeyMap>
+  <KeyMap>
+    <Name>Assist &amp; Follow - Target Slot</Name>
+    <Mappings>
+      <MappedKey>
+        <Name>Follow Me</Name>
+        <ResetTimer>2</ResetTimer>
+        <ResetType>FromFirstAdvance</ResetType>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="VariableKeystrokeAction">
+                <Target>other Follower</Target>
+                <Name>Target Slot {SLOT}</Name>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="VariableKeystrokeAction">
+                <Target>other Follower</Target>
+                <Name>Follow Target</Name>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Follow Me - Combat</Name>
+        <ResetTimer>2</ResetTimer>
+        <ResetType>FromFirstAdvance</ResetType>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="VariableKeystrokeAction">
+                <Target>Active&amp;Follower&amp;(other Combat)</Target>
+                <Name>Target Slot {SLOT}</Name>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="VariableKeystrokeAction">
+                <Target>Active&amp;Follower&amp;(other Combat)</Target>
+                <Name>Follow Target</Name>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Follow Me - Melee</Name>
+        <ResetTimer>2</ResetTimer>
+        <ResetType>FromFirstAdvance</ResetType>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="VariableKeystrokeAction">
+                <Target>Active&amp;Follower&amp;(other Melee)</Target>
+                <Name>Target Slot {SLOT}</Name>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="VariableKeystrokeAction">
+                <Target>Active&amp;Follower&amp;(other Melee)</Target>
+                <Name>Follow Target</Name>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Follow Me - Ranged</Name>
+        <ResetTimer>2</ResetTimer>
+        <ResetType>FromFirstAdvance</ResetType>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="VariableKeystrokeAction">
+                <Target>Active&amp;Follower&amp;(other Ranged)</Target>
+                <Name>Target Slot {SLOT}</Name>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="VariableKeystrokeAction">
+                <Target>Active&amp;Follower&amp;(other Ranged)</Target>
+                <Name>Follow Target</Name>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Follow Me - Healer</Name>
+        <ResetTimer>2</ResetTimer>
+        <ResetType>FromFirstAdvance</ResetType>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="VariableKeystrokeAction">
+                <Target>Active&amp;Follower&amp;(other Healer)</Target>
+                <Name>Target Slot {SLOT}</Name>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="VariableKeystrokeAction">
+                <Target>Active&amp;Follower&amp;(other Healer)</Target>
+                <Name>Follow Target</Name>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Follow Me - DPS</Name>
+        <ResetTimer>2</ResetTimer>
+        <ResetType>FromFirstAdvance</ResetType>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="VariableKeystrokeAction">
+                <Target>Active&amp;Follower&amp;(other DPS)</Target>
+                <Name>Target Slot {SLOT}</Name>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="VariableKeystrokeAction">
+                <Target>Active&amp;Follower&amp;(other DPS)</Target>
+                <Name>Follow Target</Name>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Follow Me - Tank</Name>
+        <ResetTimer>2</ResetTimer>
+        <ResetType>FromFirstAdvance</ResetType>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="VariableKeystrokeAction">
+                <Target>Active&amp;Follower&amp;(other Tank)</Target>
+                <Name>Target Slot {SLOT}</Name>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="VariableKeystrokeAction">
+                <Target>Active&amp;Follower&amp;(other Tank)</Target>
+                <Name>Follow Target</Name>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Follow Me - Pull</Name>
+        <ResetTimer>2</ResetTimer>
+        <ResetType>FromFirstAdvance</ResetType>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="VariableKeystrokeAction">
+                <Target>Active&amp;Follower&amp;(other Pull)</Target>
+                <Name>Target Slot {SLOT}</Name>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="VariableKeystrokeAction">
+                <Target>Active&amp;Follower&amp;(other Pull)</Target>
+                <Name>Follow Target</Name>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Follow Me - Taunt</Name>
+        <ResetTimer>2</ResetTimer>
+        <ResetType>FromFirstAdvance</ResetType>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="VariableKeystrokeAction">
+                <Target>Active&amp;Follower&amp;(other Taunt)</Target>
+                <Name>Target Slot {SLOT}</Name>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="VariableKeystrokeAction">
+                <Target>Active&amp;Follower&amp;(other Taunt)</Target>
+                <Name>Follow Target</Name>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Follow Me - Interrupt</Name>
+        <ResetTimer>2</ResetTimer>
+        <ResetType>FromFirstAdvance</ResetType>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="VariableKeystrokeAction">
+                <Target>Active&amp;Follower&amp;(other Interrupt)</Target>
+                <Name>Target Slot {SLOT}</Name>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="VariableKeystrokeAction">
+                <Target>Active&amp;Follower&amp;(other Interrupt)</Target>
+                <Name>Follow Target</Name>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Follow Me - Stun</Name>
+        <ResetTimer>2</ResetTimer>
+        <ResetType>FromFirstAdvance</ResetType>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="VariableKeystrokeAction">
+                <Target>Active&amp;Follower&amp;(other Stun)</Target>
+                <Name>Target Slot {SLOT}</Name>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="VariableKeystrokeAction">
+                <Target>Active&amp;Follower&amp;(other Stun)</Target>
+                <Name>Follow Target</Name>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Follow Me - Root</Name>
+        <ResetTimer>2</ResetTimer>
+        <ResetType>FromFirstAdvance</ResetType>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="VariableKeystrokeAction">
+                <Target>Active&amp;Follower&amp;(other Root)</Target>
+                <Name>Target Slot {SLOT}</Name>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="VariableKeystrokeAction">
+                <Target>Active&amp;Follower&amp;(other Root)</Target>
+                <Name>Follow Target</Name>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Follow Me - Snare</Name>
+        <ResetTimer>2</ResetTimer>
+        <ResetType>FromFirstAdvance</ResetType>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="VariableKeystrokeAction">
+                <Target>Active&amp;Follower&amp;(other Snare)</Target>
+                <Name>Target Slot {SLOT}</Name>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="VariableKeystrokeAction">
+                <Target>Active&amp;Follower&amp;(other Snare)</Target>
+                <Name>Follow Target</Name>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Follow Me - Group 1</Name>
+        <ResetTimer>2</ResetTimer>
+        <ResetType>FromFirstAdvance</ResetType>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="VariableKeystrokeAction">
+                <Target>Active&amp;Follower&amp;(other Group 1)</Target>
+                <Name>Target Slot {SLOT}</Name>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="VariableKeystrokeAction">
+                <Target>Active&amp;Follower&amp;(other Group 1)</Target>
+                <Name>Follow Target</Name>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Follow Me - Group 2</Name>
+        <ResetTimer>2</ResetTimer>
+        <ResetType>FromFirstAdvance</ResetType>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="VariableKeystrokeAction">
+                <Target>Active&amp;Follower&amp;(other Group 2)</Target>
+                <Name>Target Slot {SLOT}</Name>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="VariableKeystrokeAction">
+                <Target>Active&amp;Follower&amp;(other Group 2)</Target>
+                <Name>Follow Target</Name>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Follow Me - Group 3</Name>
+        <ResetTimer>2</ResetTimer>
+        <ResetType>FromFirstAdvance</ResetType>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="VariableKeystrokeAction">
+                <Target>Active&amp;Follower&amp;(other Group 3)</Target>
+                <Name>Target Slot {SLOT}</Name>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="VariableKeystrokeAction">
+                <Target>Active&amp;Follower&amp;(other Group 3)</Target>
+                <Name>Follow Target</Name>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>--</Name>
+        <Steps>
+          <Step>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Assist Me</Name>
+        <ResetTimer>2</ResetTimer>
+        <ResetType>FromFirstAdvance</ResetType>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="VariableKeystrokeAction">
+                <Target>all other</Target>
+                <Name>Target Slot {SLOT}</Name>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="VariableKeystrokeAction">
+                <Target>all other</Target>
+                <Name>Assist Target</Name>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Assist Me  - Combat</Name>
+        <ResetTimer>2</ResetTimer>
+        <ResetType>FromFirstAdvance</ResetType>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="VariableKeystrokeAction">
+                <Target>Active&amp;Assist&amp;(other Combat)</Target>
+                <Name>Target Slot {SLOT}</Name>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="VariableKeystrokeAction">
+                <Target>Active&amp;Assist&amp;(other Combat)</Target>
+                <Name>Assist Target</Name>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Assist Me  - Melee</Name>
+        <ResetTimer>2</ResetTimer>
+        <ResetType>FromFirstAdvance</ResetType>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="VariableKeystrokeAction">
+                <Target>Active&amp;Assist&amp;(other Melee)</Target>
+                <Name>Target Slot {SLOT}</Name>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="VariableKeystrokeAction">
+                <Target>Active&amp;Assist&amp;(other Melee)</Target>
+                <Name>Assist Target</Name>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Assist Me  - Ranged</Name>
+        <ResetTimer>2</ResetTimer>
+        <ResetType>FromFirstAdvance</ResetType>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="VariableKeystrokeAction">
+                <Target>Active&amp;Assist&amp;(other Ranged)</Target>
+                <Name>Target Slot {SLOT}</Name>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="VariableKeystrokeAction">
+                <Target>Active&amp;Assist&amp;(other Ranged)</Target>
+                <Name>Assist Target</Name>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Assist Me  - Healer</Name>
+        <ResetTimer>2</ResetTimer>
+        <ResetType>FromFirstAdvance</ResetType>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="VariableKeystrokeAction">
+                <Target>Active&amp;Assist&amp;(other Healer)</Target>
+                <Name>Target Slot {SLOT}</Name>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="VariableKeystrokeAction">
+                <Target>Active&amp;Assist&amp;(other Healer)</Target>
+                <Name>Assist Target</Name>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Assist Me  - DPS</Name>
+        <ResetTimer>2</ResetTimer>
+        <ResetType>FromFirstAdvance</ResetType>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="VariableKeystrokeAction">
+                <Target>Active&amp;Assist&amp;(other DPS)</Target>
+                <Name>Target Slot {SLOT}</Name>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="VariableKeystrokeAction">
+                <Target>Active&amp;Assist&amp;(other DPS)</Target>
+                <Name>Assist Target</Name>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Assist Me  - Tank</Name>
+        <ResetTimer>2</ResetTimer>
+        <ResetType>FromFirstAdvance</ResetType>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="VariableKeystrokeAction">
+                <Target>Active&amp;Assist&amp;(other Tank)</Target>
+                <Name>Target Slot {SLOT}</Name>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="VariableKeystrokeAction">
+                <Target>Active&amp;Assist&amp;(other Tank)</Target>
+                <Name>Assist Target</Name>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Assist Me  - Pull</Name>
+        <ResetTimer>2</ResetTimer>
+        <ResetType>FromFirstAdvance</ResetType>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="VariableKeystrokeAction">
+                <Target>Active&amp;Assist&amp;(other Pull)</Target>
+                <Name>Target Slot {SLOT}</Name>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="VariableKeystrokeAction">
+                <Target>Active&amp;Assist&amp;(other Pull)</Target>
+                <Name>Assist Target</Name>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Assist Me  - Taunt</Name>
+        <ResetTimer>2</ResetTimer>
+        <ResetType>FromFirstAdvance</ResetType>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="VariableKeystrokeAction">
+                <Target>Active&amp;Assist&amp;(other Taunt)</Target>
+                <Name>Target Slot {SLOT}</Name>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="VariableKeystrokeAction">
+                <Target>Active&amp;Assist&amp;(other Taunt)</Target>
+                <Name>Assist Target</Name>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Assist Me  - Interrupt</Name>
+        <ResetTimer>2</ResetTimer>
+        <ResetType>FromFirstAdvance</ResetType>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="VariableKeystrokeAction">
+                <Target>Active&amp;Assist&amp;(other Interrupt)</Target>
+                <Name>Target Slot {SLOT}</Name>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="VariableKeystrokeAction">
+                <Target>Active&amp;Assist&amp;(other Interrupt)</Target>
+                <Name>Assist Target</Name>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Assist Me  - Stun</Name>
+        <ResetTimer>2</ResetTimer>
+        <ResetType>FromFirstAdvance</ResetType>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="VariableKeystrokeAction">
+                <Target>Active&amp;Assist&amp;(other Stun)</Target>
+                <Name>Target Slot {SLOT}</Name>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="VariableKeystrokeAction">
+                <Target>Active&amp;Assist&amp;(other Stun)</Target>
+                <Name>Assist Target</Name>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Assist Me  - Root</Name>
+        <ResetTimer>2</ResetTimer>
+        <ResetType>FromFirstAdvance</ResetType>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="VariableKeystrokeAction">
+                <Target>Active&amp;Assist&amp;(other Root)</Target>
+                <Name>Target Slot {SLOT}</Name>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="VariableKeystrokeAction">
+                <Target>Active&amp;Assist&amp;(other Root)</Target>
+                <Name>Assist Target</Name>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Assist Me  - Snare</Name>
+        <ResetTimer>2</ResetTimer>
+        <ResetType>FromFirstAdvance</ResetType>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="VariableKeystrokeAction">
+                <Target>Active&amp;Assist&amp;(other Snare)</Target>
+                <Name>Target Slot {SLOT}</Name>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="VariableKeystrokeAction">
+                <Target>Active&amp;Assist&amp;(other Snare)</Target>
+                <Name>Assist Target</Name>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Assist Me  - Group 1</Name>
+        <ResetTimer>2</ResetTimer>
+        <ResetType>FromFirstAdvance</ResetType>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="VariableKeystrokeAction">
+                <Target>Active&amp;Assist&amp;(other Group 1)</Target>
+                <Name>Target Slot {SLOT}</Name>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="VariableKeystrokeAction">
+                <Target>Active&amp;Assist&amp;(other Group 1)</Target>
+                <Name>Assist Target</Name>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Assist Me  - Group 2</Name>
+        <ResetTimer>2</ResetTimer>
+        <ResetType>FromFirstAdvance</ResetType>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="VariableKeystrokeAction">
+                <Target>Active&amp;Assist&amp;(other Group 2)</Target>
+                <Name>Target Slot {SLOT}</Name>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="VariableKeystrokeAction">
+                <Target>Active&amp;Assist&amp;(other Group 2)</Target>
+                <Name>Assist Target</Name>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Assist Me  - Group 3</Name>
+        <ResetTimer>2</ResetTimer>
+        <ResetType>FromFirstAdvance</ResetType>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="VariableKeystrokeAction">
+                <Target>Active&amp;Assist&amp;(other Group 3)</Target>
+                <Name>Target Slot {SLOT}</Name>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="VariableKeystrokeAction">
+                <Target>Active&amp;Assist&amp;(other Group 3)</Target>
+                <Name>Assist Target</Name>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Assist Me  - Crowd Control</Name>
+        <ResetTimer>2</ResetTimer>
+        <ResetType>FromFirstAdvance</ResetType>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="VariableKeystrokeAction">
+                <Target>Active&amp;Assist&amp;(other Crowd Control)</Target>
+                <Name>Target Slot {SLOT}</Name>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="VariableKeystrokeAction">
+                <Target>Active&amp;Assist&amp;(other Crowd Control)</Target>
+                <Name>Assist Target</Name>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Assist Me - Resurrect</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="VariableKeystrokeAction">
+                <Target>Active&amp;Assist&amp;(other Resurrect)</Target>
+                <Name>Target Slot {SLOT}</Name>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="VariableKeystrokeAction">
+                <Target>Active&amp;Assist&amp;(other Resurrect)</Target>
+                <Name>Assist Target</Name>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+    </Mappings>
+  </KeyMap>
+  <KeyMap>
+    <Name>Assist &amp; Follow - WoW</Name>
+    <Mappings>
+      <MappedKey>
+        <Name>Follow Me</Name>
+        <Hold>
+          <Value>true</Value>
+        </Hold>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>ISB42 - WoW</KeyMapString>
+                <MappedKeyString>Follow Me</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Follow Me - Combat</Name>
+        <ResetTimer>2</ResetTimer>
+        <ResetType>FromFirstAdvance</ResetType>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>ISB42 - WoW</KeyMapString>
+                <MappedKeyString>Follow Me (Combat)</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Follow Me - Melee</Name>
+        <ResetTimer>2</ResetTimer>
+        <ResetType>FromFirstAdvance</ResetType>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>ISB42 - WoW</KeyMapString>
+                <MappedKeyString>Follow Me (Melee)</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Follow Me - Ranged</Name>
+        <ResetTimer>2</ResetTimer>
+        <ResetType>FromFirstAdvance</ResetType>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>ISB42 - WoW</KeyMapString>
+                <MappedKeyString>Follow Me (Ranged)</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Follow Me - Healer</Name>
+        <ResetTimer>2</ResetTimer>
+        <ResetType>FromFirstAdvance</ResetType>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>ISB42 - WoW</KeyMapString>
+                <MappedKeyString>Follow Me (Healer)</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Follow Me - DPS</Name>
+        <ResetTimer>2</ResetTimer>
+        <ResetType>FromFirstAdvance</ResetType>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>ISB42 - WoW</KeyMapString>
+                <MappedKeyString>Follow Me (DPS)</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Follow Me - Tank</Name>
+        <ResetTimer>2</ResetTimer>
+        <ResetType>FromFirstAdvance</ResetType>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>ISB42 - WoW</KeyMapString>
+                <MappedKeyString>Follow Me (Tank)</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Follow Me - Pull</Name>
+        <ResetTimer>2</ResetTimer>
+        <ResetType>FromFirstAdvance</ResetType>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>ISB42 - WoW</KeyMapString>
+                <MappedKeyString>Follow Me (Pull)</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Follow Me - Taunt</Name>
+        <ResetTimer>2</ResetTimer>
+        <ResetType>FromFirstAdvance</ResetType>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>ISB42 - WoW</KeyMapString>
+                <MappedKeyString>Follow Me (Taunt)</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Follow Me - Interrupt</Name>
+        <ResetTimer>2</ResetTimer>
+        <ResetType>FromFirstAdvance</ResetType>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>ISB42 - WoW</KeyMapString>
+                <MappedKeyString>Follow Me (Interrupt)</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Follow Me - Stun</Name>
+        <ResetTimer>2</ResetTimer>
+        <ResetType>FromFirstAdvance</ResetType>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>ISB42 - WoW</KeyMapString>
+                <MappedKeyString>Follow Me (Stun)</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Follow Me - Root</Name>
+        <ResetTimer>2</ResetTimer>
+        <ResetType>FromFirstAdvance</ResetType>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>ISB42 - WoW</KeyMapString>
+                <MappedKeyString>Follow Me (Root)</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Follow Me - Snare</Name>
+        <ResetTimer>2</ResetTimer>
+        <ResetType>FromFirstAdvance</ResetType>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>ISB42 - WoW</KeyMapString>
+                <MappedKeyString>Follow Me (Snare)</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Follow Me - Group 1</Name>
+        <ResetTimer>2</ResetTimer>
+        <ResetType>FromFirstAdvance</ResetType>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>ISB42 - WoW</KeyMapString>
+                <MappedKeyString>Follow Me (Group 1)</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Follow Me - Group 2</Name>
+        <ResetTimer>2</ResetTimer>
+        <ResetType>FromFirstAdvance</ResetType>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>ISB42 - WoW</KeyMapString>
+                <MappedKeyString>Follow Me (Group 2)</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Follow Me - Group 3</Name>
+        <ResetTimer>2</ResetTimer>
+        <ResetType>FromFirstAdvance</ResetType>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>ISB42 - WoW</KeyMapString>
+                <MappedKeyString>Follow Me (Group 3)</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>--</Name>
+        <Steps>
+          <Step>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Assist Me</Name>
+        <Hold>
+          <Value>true</Value>
+        </Hold>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>ISB42 - WoW</KeyMapString>
+                <MappedKeyString>Assist Me</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Assist Me  - Combat</Name>
+        <ResetTimer>2</ResetTimer>
+        <ResetType>FromFirstAdvance</ResetType>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>ISB42 - WoW</KeyMapString>
+                <MappedKeyString>Assist Me (Combat)</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Assist Me  - Melee</Name>
+        <ResetTimer>2</ResetTimer>
+        <ResetType>FromFirstAdvance</ResetType>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>ISB42 - WoW</KeyMapString>
+                <MappedKeyString>Assist Me (Melee)</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Assist Me  - Ranged</Name>
+        <ResetTimer>2</ResetTimer>
+        <ResetType>FromFirstAdvance</ResetType>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>ISB42 - WoW</KeyMapString>
+                <MappedKeyString>Assist Me (Ranged)</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Assist Me  - Healer</Name>
+        <ResetTimer>2</ResetTimer>
+        <ResetType>FromFirstAdvance</ResetType>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>ISB42 - WoW</KeyMapString>
+                <MappedKeyString>Assist Me (Healer)</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Assist Me  - DPS</Name>
+        <ResetTimer>2</ResetTimer>
+        <ResetType>FromFirstAdvance</ResetType>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>ISB42 - WoW</KeyMapString>
+                <MappedKeyString>Assist Me (DPS)</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Assist Me  - Tank</Name>
+        <ResetTimer>2</ResetTimer>
+        <ResetType>FromFirstAdvance</ResetType>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>ISB42 - WoW</KeyMapString>
+                <MappedKeyString>Assist Me (Tank)</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Assist Me  - Pull</Name>
+        <ResetTimer>2</ResetTimer>
+        <ResetType>FromFirstAdvance</ResetType>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>ISB42 - WoW</KeyMapString>
+                <MappedKeyString>Assist Me (Pull)</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Assist Me  - Taunt</Name>
+        <ResetTimer>2</ResetTimer>
+        <ResetType>FromFirstAdvance</ResetType>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>ISB42 - WoW</KeyMapString>
+                <MappedKeyString>Assist Me (Taunt)</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Assist Me  - Interrupt</Name>
+        <ResetTimer>2</ResetTimer>
+        <ResetType>FromFirstAdvance</ResetType>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>ISB42 - WoW</KeyMapString>
+                <MappedKeyString>Assist Me (Interrupt)</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Assist Me  - Stun</Name>
+        <ResetTimer>2</ResetTimer>
+        <ResetType>FromFirstAdvance</ResetType>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>ISB42 - WoW</KeyMapString>
+                <MappedKeyString>Assist Me (Stun)</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Assist Me  - Root</Name>
+        <ResetTimer>2</ResetTimer>
+        <ResetType>FromFirstAdvance</ResetType>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>ISB42 - WoW</KeyMapString>
+                <MappedKeyString>Assist Me (Root)</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Assist Me  - Snare</Name>
+        <ResetTimer>2</ResetTimer>
+        <ResetType>FromFirstAdvance</ResetType>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>ISB42 - WoW</KeyMapString>
+                <MappedKeyString>Assist Me (Snare)</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Assist Me  - Group 1</Name>
+        <ResetTimer>2</ResetTimer>
+        <ResetType>FromFirstAdvance</ResetType>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>ISB42 - WoW</KeyMapString>
+                <MappedKeyString>Assist Me (Group 1)</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Assist Me  - Group 2</Name>
+        <ResetTimer>2</ResetTimer>
+        <ResetType>FromFirstAdvance</ResetType>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>ISB42 - WoW</KeyMapString>
+                <MappedKeyString>Assist Me (Group 2)</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Assist Me  - Group 3</Name>
+        <ResetTimer>2</ResetTimer>
+        <ResetType>FromFirstAdvance</ResetType>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>ISB42 - WoW</KeyMapString>
+                <MappedKeyString>Assist Me (Group 3)</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+    </Mappings>
+  </KeyMap>
+  <KeyMap>
+    <Name>Auto-Assist</Name>
+    <Mappings>
+      <MappedKey>
+        <Name>Assist Me</Name>
+        <Steps>
+          <Step>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Assist Me  - Combat</Name>
+        <ResetTimer>2</ResetTimer>
+        <ResetType>FromFirstAdvance</ResetType>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps />
+      </MappedKey>
+      <MappedKey>
+        <Name>Assist Me  - Melee</Name>
+        <ResetTimer>2</ResetTimer>
+        <ResetType>FromFirstAdvance</ResetType>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps />
+      </MappedKey>
+      <MappedKey>
+        <Name>Assist Me  - Ranged</Name>
+        <ResetTimer>2</ResetTimer>
+        <ResetType>FromFirstAdvance</ResetType>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps />
+      </MappedKey>
+      <MappedKey>
+        <Name>Assist Me  - Healer</Name>
+        <ResetTimer>2</ResetTimer>
+        <ResetType>FromFirstAdvance</ResetType>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps />
+      </MappedKey>
+      <MappedKey>
+        <Name>Assist Me  - DPS</Name>
+        <ResetTimer>2</ResetTimer>
+        <ResetType>FromFirstAdvance</ResetType>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps />
+      </MappedKey>
+      <MappedKey>
+        <Name>Assist Me  - Tank</Name>
+        <ResetTimer>2</ResetTimer>
+        <ResetType>FromFirstAdvance</ResetType>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps />
+      </MappedKey>
+      <MappedKey>
+        <Name>Assist Me  - Pull</Name>
+        <ResetTimer>2</ResetTimer>
+        <ResetType>FromFirstAdvance</ResetType>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps />
+      </MappedKey>
+      <MappedKey>
+        <Name>Assist Me  - Taunt</Name>
+        <ResetTimer>2</ResetTimer>
+        <ResetType>FromFirstAdvance</ResetType>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps />
+      </MappedKey>
+      <MappedKey>
+        <Name>Assist Me  - Interrupt</Name>
+        <ResetTimer>2</ResetTimer>
+        <ResetType>FromFirstAdvance</ResetType>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps />
+      </MappedKey>
+      <MappedKey>
+        <Name>Assist Me  - Stun</Name>
+        <ResetTimer>2</ResetTimer>
+        <ResetType>FromFirstAdvance</ResetType>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps />
+      </MappedKey>
+      <MappedKey>
+        <Name>Assist Me  - Root</Name>
+        <ResetTimer>2</ResetTimer>
+        <ResetType>FromFirstAdvance</ResetType>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps />
+      </MappedKey>
+      <MappedKey>
+        <Name>Assist Me  - Snare</Name>
+        <ResetTimer>2</ResetTimer>
+        <ResetType>FromFirstAdvance</ResetType>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps />
+      </MappedKey>
+      <MappedKey>
+        <Name>Assist Me  - Group 1</Name>
+        <ResetTimer>2</ResetTimer>
+        <ResetType>FromFirstAdvance</ResetType>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps />
+      </MappedKey>
+      <MappedKey>
+        <Name>Assist Me  - Group 2</Name>
+        <ResetTimer>2</ResetTimer>
+        <ResetType>FromFirstAdvance</ResetType>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps />
+      </MappedKey>
+      <MappedKey>
+        <Name>Assist Me  - Group 3</Name>
+        <ResetTimer>2</ResetTimer>
+        <ResetType>FromFirstAdvance</ResetType>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps />
+      </MappedKey>
+      <MappedKey>
+        <Name>Assist Me  - Crowd Control</Name>
+        <ResetTimer>2</ResetTimer>
+        <ResetType>FromFirstAdvance</ResetType>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps />
+      </MappedKey>
+      <MappedKey>
+        <Name>Assist Me - Resurrect</Name>
+        <Steps>
+          <Step>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+    </Mappings>
+  </KeyMap>
+  <KeyMap>
+    <Name>--</Name>
+    <Mappings />
+  </KeyMap>
+  <KeyMap>
     <Name>Combat</Name>
     <Mappings>
       <MappedKey>
@@ -6241,8 +8167,8 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
           <Step>
             <Actions>
               <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-                <KeyMapString>ISB42 - Party</KeyMapString>
-                <MappedKeyString>Assist Me - Active Method</MappedKeyString>
+                <KeyMapString>Auto-Assist</KeyMapString>
+                <MappedKeyString>Assist Me  - Combat</MappedKeyString>
               </MappedKeyAction>
             </Actions>
           </Step>
@@ -6264,8 +8190,8 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
           <Step>
             <Actions>
               <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-                <KeyMapString>ISB42 - Party</KeyMapString>
-                <MappedKeyString>Assist Me  - Pull (Target Slot)</MappedKeyString>
+                <KeyMapString>Auto-Assist</KeyMapString>
+                <MappedKeyString>Assist Me  - Pull</MappedKeyString>
               </MappedKeyAction>
             </Actions>
           </Step>
@@ -6287,8 +8213,8 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
           <Step>
             <Actions>
               <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-                <KeyMapString>ISB42 - Party</KeyMapString>
-                <MappedKeyString>Assist Me  - Taunt (Target Slot)</MappedKeyString>
+                <KeyMapString>Auto-Assist</KeyMapString>
+                <MappedKeyString>Assist Me  - Taunt</MappedKeyString>
               </MappedKeyAction>
             </Actions>
           </Step>
@@ -6317,8 +8243,8 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
           <Step>
             <Actions>
               <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-                <KeyMapString>ISB42 - Party</KeyMapString>
-                <MappedKeyString>Assist Me - Active Method</MappedKeyString>
+                <KeyMapString>Auto-Assist</KeyMapString>
+                <MappedKeyString>Assist Me  - Interrupt</MappedKeyString>
               </MappedKeyAction>
             </Actions>
           </Step>
@@ -6340,8 +8266,8 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
           <Step>
             <Actions>
               <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-                <KeyMapString>ISB42 - Party</KeyMapString>
-                <MappedKeyString>Assist Me  - Interrupt - Ranged (Target Slot)</MappedKeyString>
+                <KeyMapString>Auto-Assist</KeyMapString>
+                <MappedKeyString>Assist Me  - Interrupt</MappedKeyString>
               </MappedKeyAction>
             </Actions>
           </Step>
@@ -6351,7 +8277,7 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
                 <Target>Active&amp;Combat&amp;Ranged&amp;Interrupt</Target>
                 <RoundRobin>true</RoundRobin>
                 <KeyMapString>Combat [Virtualized]</KeyMapString>
-                <MappedKeyString>Interrupt (Ranged)</MappedKeyString>
+                <MappedKeyString>Interrupt</MappedKeyString>
               </MappedKeyAction>
             </Actions>
           </Step>
@@ -6364,8 +8290,8 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
           <Step>
             <Actions>
               <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-                <KeyMapString>ISB42 - Party</KeyMapString>
-                <MappedKeyString>Assist Me  - Stun (Target Slot)</MappedKeyString>
+                <KeyMapString>Auto-Assist</KeyMapString>
+                <MappedKeyString>Assist Me  - Stun</MappedKeyString>
               </MappedKeyAction>
             </Actions>
           </Step>
@@ -6388,8 +8314,8 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
           <Step>
             <Actions>
               <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-                <KeyMapString>ISB42 - Party</KeyMapString>
-                <MappedKeyString>Assist Me  - Stun - Ranged (Target Slot)</MappedKeyString>
+                <KeyMapString>Auto-Assist</KeyMapString>
+                <MappedKeyString>Assist Me  - Stun</MappedKeyString>
               </MappedKeyAction>
             </Actions>
           </Step>
@@ -6399,7 +8325,7 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
                 <Target>Active&amp;Combat&amp;Ranged&amp;Stun</Target>
                 <RoundRobin>true</RoundRobin>
                 <KeyMapString>Combat [Virtualized]</KeyMapString>
-                <MappedKeyString>Stun (Ranged)</MappedKeyString>
+                <MappedKeyString>Stun</MappedKeyString>
               </MappedKeyAction>
             </Actions>
           </Step>
@@ -6412,8 +8338,8 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
           <Step>
             <Actions>
               <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-                <KeyMapString>ISB42 - Party</KeyMapString>
-                <MappedKeyString>Assist Me  - Root (Target Slot)</MappedKeyString>
+                <KeyMapString>Auto-Assist</KeyMapString>
+                <MappedKeyString>Assist Me  - Root</MappedKeyString>
               </MappedKeyAction>
             </Actions>
           </Step>
@@ -6436,8 +8362,8 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
           <Step>
             <Actions>
               <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-                <KeyMapString>ISB42 - Party</KeyMapString>
-                <MappedKeyString>Assist Me  - Root - Ranged (Target Slot)</MappedKeyString>
+                <KeyMapString>Auto-Assist</KeyMapString>
+                <MappedKeyString>Assist Me  - Root</MappedKeyString>
               </MappedKeyAction>
             </Actions>
           </Step>
@@ -6447,7 +8373,7 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
                 <Target>Active&amp;Combat&amp;Ranged&amp;Root</Target>
                 <RoundRobin>true</RoundRobin>
                 <KeyMapString>Combat [Virtualized]</KeyMapString>
-                <MappedKeyString>Root (Ranged)</MappedKeyString>
+                <MappedKeyString>Root</MappedKeyString>
               </MappedKeyAction>
             </Actions>
           </Step>
@@ -6460,8 +8386,8 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
           <Step>
             <Actions>
               <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-                <KeyMapString>ISB42 - Party</KeyMapString>
-                <MappedKeyString>Assist Me  - Snare (Target Slot)</MappedKeyString>
+                <KeyMapString>Auto-Assist</KeyMapString>
+                <MappedKeyString>Assist Me  - Snare</MappedKeyString>
               </MappedKeyAction>
             </Actions>
           </Step>
@@ -6484,8 +8410,8 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
           <Step>
             <Actions>
               <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-                <KeyMapString>ISB42 - Party</KeyMapString>
-                <MappedKeyString>Assist Me  - Snare - Ranged (Target Slot)</MappedKeyString>
+                <KeyMapString>Auto-Assist</KeyMapString>
+                <MappedKeyString>Assist Me  - Snare</MappedKeyString>
               </MappedKeyAction>
             </Actions>
           </Step>
@@ -6495,7 +8421,7 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
                 <Target>Active&amp;Combat&amp;Ranged&amp;Snare</Target>
                 <RoundRobin>true</RoundRobin>
                 <KeyMapString>Combat [Virtualized]</KeyMapString>
-                <MappedKeyString>Snare (Ranged)</MappedKeyString>
+                <MappedKeyString>Snare</MappedKeyString>
               </MappedKeyAction>
             </Actions>
           </Step>
@@ -6508,8 +8434,8 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
           <Step>
             <Actions>
               <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-                <KeyMapString>ISB42 - Party</KeyMapString>
-                <MappedKeyString>Assist Me  - Crowd Control (Target Slot)</MappedKeyString>
+                <KeyMapString>Auto-Assist</KeyMapString>
+                <MappedKeyString>Assist Me  - Crowd Control</MappedKeyString>
               </MappedKeyAction>
             </Actions>
           </Step>
@@ -6549,6 +8475,14 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
       <MappedKey>
         <Name>Resurrect</Name>
         <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Auto-Assist</KeyMapString>
+                <MappedKeyString>Assist Me - Resurrect</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
           <Step>
             <Actions>
               <MappedKeyAction xsi:type="MappedKeyExecuteAction">
@@ -6640,23 +8574,7 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
         </Steps>
       </MappedKey>
       <MappedKey>
-        <Name>Interrupt (Ranged)</Name>
-        <Steps>
-          <Step>
-            <Actions />
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
         <Name>Stun</Name>
-        <Steps>
-          <Step>
-            <Actions />
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
-        <Name>Stun (Ranged)</Name>
         <Steps>
           <Step>
             <Actions />
@@ -6672,23 +8590,7 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
         </Steps>
       </MappedKey>
       <MappedKey>
-        <Name>Root (Ranged)</Name>
-        <Steps>
-          <Step>
-            <Actions />
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
         <Name>Snare</Name>
-        <Steps>
-          <Step>
-            <Actions />
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
-        <Name>Snare (Ranged)</Name>
         <Steps>
           <Step>
             <Actions />
@@ -6738,7 +8640,7 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
     </Mappings>
   </KeyMap>
   <KeyMap>
-    <Name>--</Name>
+    <Name>-- </Name>
     <Mappings />
   </KeyMap>
   <KeyMap>
@@ -6779,8 +8681,8 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
           <Step>
             <Actions>
               <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-                <KeyMapString>ISB42 - Party</KeyMapString>
-                <MappedKeyString>Auto-Assist Me - DPS - Active Method</MappedKeyString>
+                <KeyMapString>Assist &amp; Follow</KeyMapString>
+                <MappedKeyString>Auto-Assist Me - DPS</MappedKeyString>
               </MappedKeyAction>
             </Actions>
           </Step>
@@ -6808,8 +8710,8 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
           <Step>
             <Actions>
               <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-                <KeyMapString>ISB42 - Party</KeyMapString>
-                <MappedKeyString>Auto-Assist Me - DPS - Active Method</MappedKeyString>
+                <KeyMapString>Assist &amp; Follow</KeyMapString>
+                <MappedKeyString>Auto-Assist Me - DPS</MappedKeyString>
               </MappedKeyAction>
             </Actions>
           </Step>
@@ -6852,7 +8754,7 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
     </Mappings>
   </KeyMap>
   <KeyMap>
-    <Name>-- </Name>
+    <Name>--  </Name>
     <Mappings />
   </KeyMap>
   <KeyMap>
@@ -6872,8 +8774,8 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
           <Step>
             <Actions>
               <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-                <KeyMapString>ISB42 - Party</KeyMapString>
-                <MappedKeyString>Auto-Assist Me - DPS - Active Method</MappedKeyString>
+                <KeyMapString>Assist &amp; Follow</KeyMapString>
+                <MappedKeyString>Auto-Assist Me - Combat</MappedKeyString>
               </MappedKeyAction>
             </Actions>
           </Step>
@@ -6893,8 +8795,8 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
           <Step>
             <Actions>
               <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-                <KeyMapString>ISB42 - Party</KeyMapString>
-                <MappedKeyString>Auto-Assist Me - DPS - Active Method</MappedKeyString>
+                <KeyMapString>Assist &amp; Follow</KeyMapString>
+                <MappedKeyString>Auto-Assist Me - Combat</MappedKeyString>
               </MappedKeyAction>
             </Actions>
           </Step>
@@ -6932,7 +8834,7 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
     </Mappings>
   </KeyMap>
   <KeyMap>
-    <Name>--  </Name>
+    <Name>--   </Name>
     <Mappings />
   </KeyMap>
   <KeyMap>
@@ -7162,7 +9064,7 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
     </Mappings>
   </KeyMap>
   <KeyMap>
-    <Name>--   </Name>
+    <Name>--    </Name>
     <Mappings />
   </KeyMap>
   <KeyMap>
@@ -11767,6 +13669,10 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
     </Mappings>
   </KeyMap>
   <KeyMap>
+    <Name>--      </Name>
+    <Mappings />
+  </KeyMap>
+  <KeyMap>
     <Name>Targeting</Name>
     <Mappings>
       <MappedKey>
@@ -12520,7 +14426,7 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
     </Mappings>
   </KeyMap>
   <KeyMap>
-    <Name>--    </Name>
+    <Name>--       </Name>
     <Mappings />
   </KeyMap>
   <KeyMap>
@@ -14548,14 +16454,6 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
         </Steps>
       </MappedKey>
       <MappedKey>
-        <Name />
-        <Steps>
-          <Step>
-            <Actions />
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
         <Name>Button 3 - Target</Name>
         <Steps>
           <Step>
@@ -14572,14 +16470,6 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
         </Steps>
       </MappedKey>
       <MappedKey>
-        <Name />
-        <Steps>
-          <Step>
-            <Actions />
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
         <Name>Button 4 - Target</Name>
         <Steps>
           <Step>
@@ -14589,14 +16479,6 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
       </MappedKey>
       <MappedKey>
         <Name>Button 4 - Swap</Name>
-        <Steps>
-          <Step>
-            <Actions />
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
-        <Name />
         <Steps>
           <Step>
             <Actions />
@@ -15390,14 +17272,6 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
         </Steps>
       </MappedKey>
       <MappedKey>
-        <Name />
-        <Steps>
-          <Step>
-            <Actions />
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
         <Name>Button 3 - Target</Name>
         <Steps>
           <Step>
@@ -15414,14 +17288,6 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
         </Steps>
       </MappedKey>
       <MappedKey>
-        <Name />
-        <Steps>
-          <Step>
-            <Actions />
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
         <Name>Button 4 - Target</Name>
         <Steps>
           <Step>
@@ -15431,14 +17297,6 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
       </MappedKey>
       <MappedKey>
         <Name>Button 4 - Swap</Name>
-        <Steps>
-          <Step>
-            <Actions />
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
-        <Name />
         <Steps>
           <Step>
             <Actions />
@@ -15893,7 +17751,7 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
     </Mappings>
   </KeyMap>
   <KeyMap>
-    <Name>--      </Name>
+    <Name>--        </Name>
     <Mappings />
   </KeyMap>
   <KeyMap>
@@ -19208,19 +21066,7 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
         </Steps>
       </MappedKey>
       <MappedKey>
-        <Name>Interrupt (Ranged)</Name>
-        <Steps />
-      </MappedKey>
-      <MappedKey>
         <Name>Stun</Name>
-        <Steps>
-          <Step>
-            <Actions />
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
-        <Name>Stun (Ranged)</Name>
         <Steps>
           <Step>
             <Actions />
@@ -19236,24 +21082,8 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
         </Steps>
       </MappedKey>
       <MappedKey>
-        <Name>Root (Ranged)</Name>
-        <Steps>
-          <Step>
-            <Actions />
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
         <Name>Snare</Name>
         <Steps />
-      </MappedKey>
-      <MappedKey>
-        <Name>Snare (Ranged)</Name>
-        <Steps>
-          <Step>
-            <Actions />
-          </Step>
-        </Steps>
       </MappedKey>
       <MappedKey>
         <Name>Crowd Control</Name>
@@ -19397,19 +21227,7 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
         </Steps>
       </MappedKey>
       <MappedKey>
-        <Name>Interrupt (Ranged)</Name>
-        <Steps />
-      </MappedKey>
-      <MappedKey>
         <Name>Stun</Name>
-        <Steps>
-          <Step>
-            <Actions />
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
-        <Name>Stun (Ranged)</Name>
         <Steps>
           <Step>
             <Actions />
@@ -19425,24 +21243,8 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
         </Steps>
       </MappedKey>
       <MappedKey>
-        <Name>Root (Ranged)</Name>
-        <Steps>
-          <Step>
-            <Actions />
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
         <Name>Snare</Name>
         <Steps />
-      </MappedKey>
-      <MappedKey>
-        <Name>Snare (Ranged)</Name>
-        <Steps>
-          <Step>
-            <Actions />
-          </Step>
-        </Steps>
       </MappedKey>
       <MappedKey>
         <Name>Crowd Control</Name>
@@ -19586,19 +21388,7 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
         </Steps>
       </MappedKey>
       <MappedKey>
-        <Name>Interrupt (Ranged)</Name>
-        <Steps />
-      </MappedKey>
-      <MappedKey>
         <Name>Stun</Name>
-        <Steps>
-          <Step>
-            <Actions />
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
-        <Name>Stun (Ranged)</Name>
         <Steps>
           <Step>
             <Actions />
@@ -19614,24 +21404,8 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
         </Steps>
       </MappedKey>
       <MappedKey>
-        <Name>Root (Ranged)</Name>
-        <Steps>
-          <Step>
-            <Actions />
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
         <Name>Snare</Name>
         <Steps />
-      </MappedKey>
-      <MappedKey>
-        <Name>Snare (Ranged)</Name>
-        <Steps>
-          <Step>
-            <Actions />
-          </Step>
-        </Steps>
       </MappedKey>
       <MappedKey>
         <Name>Crowd Control</Name>
@@ -19677,7 +21451,7 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
     </Mappings>
   </KeyMap>
   <KeyMap>
-    <Name>--       </Name>
+    <Name>--         </Name>
     <Mappings />
   </KeyMap>
   <KeyMap>
@@ -19859,14 +21633,6 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
         </Steps>
       </MappedKey>
       <MappedKey>
-        <Name>Interrupt (Ranged)</Name>
-        <Steps>
-          <Step>
-            <Actions />
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
         <Name>Stun</Name>
         <Steps>
           <Step>
@@ -19875,23 +21641,7 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
         </Steps>
       </MappedKey>
       <MappedKey>
-        <Name>Stun (Ranged)</Name>
-        <Steps>
-          <Step>
-            <Actions />
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
         <Name>Root</Name>
-        <Steps>
-          <Step>
-            <Actions />
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
-        <Name>Root (Ranged)</Name>
         <Steps>
           <Step>
             <Actions />
@@ -19911,14 +21661,6 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
                 </WoWMacro>
               </MappedKeyAction>
             </Actions>
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
-        <Name>Snare (Ranged)</Name>
-        <Steps>
-          <Step>
-            <Actions />
           </Step>
         </Steps>
       </MappedKey>
@@ -20337,14 +22079,6 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
         </Steps>
       </MappedKey>
       <MappedKey>
-        <Name>Interrupt (Ranged)</Name>
-        <Steps>
-          <Step>
-            <Actions />
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
         <Name>Stun</Name>
         <Steps>
           <Step>
@@ -20353,23 +22087,7 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
         </Steps>
       </MappedKey>
       <MappedKey>
-        <Name>Stun (Ranged)</Name>
-        <Steps>
-          <Step>
-            <Actions />
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
         <Name>Root</Name>
-        <Steps>
-          <Step>
-            <Actions />
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
-        <Name>Root (Ranged)</Name>
         <Steps>
           <Step>
             <Actions />
@@ -20389,14 +22107,6 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
                 </WoWMacro>
               </MappedKeyAction>
             </Actions>
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
-        <Name>Snare (Ranged)</Name>
-        <Steps>
-          <Step>
-            <Actions />
           </Step>
         </Steps>
       </MappedKey>
@@ -20815,14 +22525,6 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
         </Steps>
       </MappedKey>
       <MappedKey>
-        <Name>Interrupt (Ranged)</Name>
-        <Steps>
-          <Step>
-            <Actions />
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
         <Name>Stun</Name>
         <Steps>
           <Step>
@@ -20831,23 +22533,7 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
         </Steps>
       </MappedKey>
       <MappedKey>
-        <Name>Stun (Ranged)</Name>
-        <Steps>
-          <Step>
-            <Actions />
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
         <Name>Root</Name>
-        <Steps>
-          <Step>
-            <Actions />
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
-        <Name>Root (Ranged)</Name>
         <Steps>
           <Step>
             <Actions />
@@ -20867,14 +22553,6 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
                 </WoWMacro>
               </MappedKeyAction>
             </Actions>
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
-        <Name>Snare (Ranged)</Name>
-        <Steps>
-          <Step>
-            <Actions />
           </Step>
         </Steps>
       </MappedKey>
@@ -21162,7 +22840,7 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
     </Mappings>
   </KeyMap>
   <KeyMap>
-    <Name>--        </Name>
+    <Name>--          </Name>
     <Mappings />
   </KeyMap>
   <KeyMap>
@@ -21237,19 +22915,7 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
         </Steps>
       </MappedKey>
       <MappedKey>
-        <Name>Interrupt (Ranged)</Name>
-        <Steps />
-      </MappedKey>
-      <MappedKey>
         <Name>Stun</Name>
-        <Steps>
-          <Step>
-            <Actions />
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
-        <Name>Stun (Ranged)</Name>
         <Steps>
           <Step>
             <Actions />
@@ -21265,24 +22931,8 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
         </Steps>
       </MappedKey>
       <MappedKey>
-        <Name>Root (Ranged)</Name>
-        <Steps>
-          <Step>
-            <Actions />
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
         <Name>Snare</Name>
         <Steps />
-      </MappedKey>
-      <MappedKey>
-        <Name>Snare (Ranged)</Name>
-        <Steps>
-          <Step>
-            <Actions />
-          </Step>
-        </Steps>
       </MappedKey>
       <MappedKey>
         <Name>Crowd Control</Name>
@@ -21535,19 +23185,7 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
         </Steps>
       </MappedKey>
       <MappedKey>
-        <Name>Interrupt (Ranged)</Name>
-        <Steps />
-      </MappedKey>
-      <MappedKey>
         <Name>Stun</Name>
-        <Steps>
-          <Step>
-            <Actions />
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
-        <Name>Stun (Ranged)</Name>
         <Steps>
           <Step>
             <Actions />
@@ -21563,24 +23201,8 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
         </Steps>
       </MappedKey>
       <MappedKey>
-        <Name>Root (Ranged)</Name>
-        <Steps>
-          <Step>
-            <Actions />
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
         <Name>Snare</Name>
         <Steps />
-      </MappedKey>
-      <MappedKey>
-        <Name>Snare (Ranged)</Name>
-        <Steps>
-          <Step>
-            <Actions />
-          </Step>
-        </Steps>
       </MappedKey>
       <MappedKey>
         <Name>Crowd Control</Name>
@@ -21833,19 +23455,7 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
         </Steps>
       </MappedKey>
       <MappedKey>
-        <Name>Interrupt (Ranged)</Name>
-        <Steps />
-      </MappedKey>
-      <MappedKey>
         <Name>Stun</Name>
-        <Steps>
-          <Step>
-            <Actions />
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
-        <Name>Stun (Ranged)</Name>
         <Steps>
           <Step>
             <Actions />
@@ -21861,24 +23471,8 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
         </Steps>
       </MappedKey>
       <MappedKey>
-        <Name>Root (Ranged)</Name>
-        <Steps>
-          <Step>
-            <Actions />
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
         <Name>Snare</Name>
         <Steps />
-      </MappedKey>
-      <MappedKey>
-        <Name>Snare (Ranged)</Name>
-        <Steps>
-          <Step>
-            <Actions />
-          </Step>
-        </Steps>
       </MappedKey>
       <MappedKey>
         <Name>Crowd Control</Name>
@@ -22074,7 +23668,7 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
     </Mappings>
   </KeyMap>
   <KeyMap>
-    <Name>--         </Name>
+    <Name>--           </Name>
     <Mappings />
   </KeyMap>
   <KeyMap>
@@ -22149,19 +23743,7 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
         </Steps>
       </MappedKey>
       <MappedKey>
-        <Name>Interrupt (Ranged)</Name>
-        <Steps />
-      </MappedKey>
-      <MappedKey>
         <Name>Stun</Name>
-        <Steps>
-          <Step>
-            <Actions />
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
-        <Name>Stun (Ranged)</Name>
         <Steps>
           <Step>
             <Actions />
@@ -22177,24 +23759,8 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
         </Steps>
       </MappedKey>
       <MappedKey>
-        <Name>Root (Ranged)</Name>
-        <Steps>
-          <Step>
-            <Actions />
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
         <Name>Snare</Name>
         <Steps />
-      </MappedKey>
-      <MappedKey>
-        <Name>Snare (Ranged)</Name>
-        <Steps>
-          <Step>
-            <Actions />
-          </Step>
-        </Steps>
       </MappedKey>
       <MappedKey>
         <Name>Crowd Control</Name>
@@ -22297,19 +23863,7 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
         </Steps>
       </MappedKey>
       <MappedKey>
-        <Name>Interrupt (Ranged)</Name>
-        <Steps />
-      </MappedKey>
-      <MappedKey>
         <Name>Stun</Name>
-        <Steps>
-          <Step>
-            <Actions />
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
-        <Name>Stun (Ranged)</Name>
         <Steps>
           <Step>
             <Actions />
@@ -22325,24 +23879,8 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
         </Steps>
       </MappedKey>
       <MappedKey>
-        <Name>Root (Ranged)</Name>
-        <Steps>
-          <Step>
-            <Actions />
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
         <Name>Snare</Name>
         <Steps />
-      </MappedKey>
-      <MappedKey>
-        <Name>Snare (Ranged)</Name>
-        <Steps>
-          <Step>
-            <Actions />
-          </Step>
-        </Steps>
       </MappedKey>
       <MappedKey>
         <Name>Crowd Control</Name>
@@ -22445,19 +23983,7 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
         </Steps>
       </MappedKey>
       <MappedKey>
-        <Name>Interrupt (Ranged)</Name>
-        <Steps />
-      </MappedKey>
-      <MappedKey>
         <Name>Stun</Name>
-        <Steps>
-          <Step>
-            <Actions />
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
-        <Name>Stun (Ranged)</Name>
         <Steps>
           <Step>
             <Actions />
@@ -22473,24 +23999,8 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
         </Steps>
       </MappedKey>
       <MappedKey>
-        <Name>Root (Ranged)</Name>
-        <Steps>
-          <Step>
-            <Actions />
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
         <Name>Snare</Name>
         <Steps />
-      </MappedKey>
-      <MappedKey>
-        <Name>Snare (Ranged)</Name>
-        <Steps>
-          <Step>
-            <Actions />
-          </Step>
-        </Steps>
       </MappedKey>
       <MappedKey>
         <Name>Crowd Control</Name>
@@ -22536,7 +24046,7 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
     </Mappings>
   </KeyMap>
   <KeyMap>
-    <Name>--          </Name>
+    <Name>--            </Name>
     <Mappings />
   </KeyMap>
   <KeyMap>
@@ -22701,23 +24211,6 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
         </Steps>
       </MappedKey>
       <MappedKey>
-        <Name>Interrupt (Ranged)</Name>
-        <Steps>
-          <Step>
-            <Name>Earth Shock</Name>
-            <Actions>
-              <MappedKeyAction xsi:type="WoWMacroRefAction">
-                <UseCustomModifiers />
-                <WoWMacro>
-                  <WoWMacroSetString>Shaman</WoWMacroSetString>
-                  <WoWMacroString>Earth Shock</WoWMacroString>
-                </WoWMacro>
-              </MappedKeyAction>
-            </Actions>
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
         <Name>Stun</Name>
         <Steps>
           <Step>
@@ -22726,23 +24219,7 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
         </Steps>
       </MappedKey>
       <MappedKey>
-        <Name>Stun (Ranged)</Name>
-        <Steps>
-          <Step>
-            <Actions />
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
         <Name>Root</Name>
-        <Steps>
-          <Step>
-            <Actions />
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
-        <Name>Root (Ranged)</Name>
         <Steps>
           <Step>
             <Actions />
@@ -22763,14 +24240,6 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
                 </WoWMacro>
               </MappedKeyAction>
             </Actions>
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
-        <Name>Snare (Ranged)</Name>
-        <Steps>
-          <Step>
-            <Actions />
           </Step>
         </Steps>
       </MappedKey>
@@ -23299,23 +24768,6 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
         </Steps>
       </MappedKey>
       <MappedKey>
-        <Name>Interrupt (Ranged)</Name>
-        <Steps>
-          <Step>
-            <Name>Earth Shock</Name>
-            <Actions>
-              <MappedKeyAction xsi:type="WoWMacroRefAction">
-                <UseCustomModifiers />
-                <WoWMacro>
-                  <WoWMacroSetString>Shaman</WoWMacroSetString>
-                  <WoWMacroString>Earth Shock</WoWMacroString>
-                </WoWMacro>
-              </MappedKeyAction>
-            </Actions>
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
         <Name>Stun</Name>
         <Steps>
           <Step>
@@ -23324,23 +24776,7 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
         </Steps>
       </MappedKey>
       <MappedKey>
-        <Name>Stun (Ranged)</Name>
-        <Steps>
-          <Step>
-            <Actions />
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
         <Name>Root</Name>
-        <Steps>
-          <Step>
-            <Actions />
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
-        <Name>Root (Ranged)</Name>
         <Steps>
           <Step>
             <Actions />
@@ -23361,14 +24797,6 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
                 </WoWMacro>
               </MappedKeyAction>
             </Actions>
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
-        <Name>Snare (Ranged)</Name>
-        <Steps>
-          <Step>
-            <Actions />
           </Step>
         </Steps>
       </MappedKey>
@@ -23906,23 +25334,6 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
         </Steps>
       </MappedKey>
       <MappedKey>
-        <Name>Interrupt (Ranged)</Name>
-        <Steps>
-          <Step>
-            <Name>Earth Shock</Name>
-            <Actions>
-              <MappedKeyAction xsi:type="WoWMacroRefAction">
-                <UseCustomModifiers />
-                <WoWMacro>
-                  <WoWMacroSetString>Shaman</WoWMacroSetString>
-                  <WoWMacroString>Earth Shock</WoWMacroString>
-                </WoWMacro>
-              </MappedKeyAction>
-            </Actions>
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
         <Name>Stun</Name>
         <Steps>
           <Step>
@@ -23931,23 +25342,7 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
         </Steps>
       </MappedKey>
       <MappedKey>
-        <Name>Stun (Ranged)</Name>
-        <Steps>
-          <Step>
-            <Actions />
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
         <Name>Root</Name>
-        <Steps>
-          <Step>
-            <Actions />
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
-        <Name>Root (Ranged)</Name>
         <Steps>
           <Step>
             <Actions />
@@ -23968,14 +25363,6 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
                 </WoWMacro>
               </MappedKeyAction>
             </Actions>
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
-        <Name>Snare (Ranged)</Name>
-        <Steps>
-          <Step>
-            <Actions />
           </Step>
         </Steps>
       </MappedKey>
@@ -24319,7 +25706,7 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
     </Mappings>
   </KeyMap>
   <KeyMap>
-    <Name>--           </Name>
+    <Name>--             </Name>
     <Mappings />
   </KeyMap>
   <KeyMap>
@@ -24394,19 +25781,7 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
         </Steps>
       </MappedKey>
       <MappedKey>
-        <Name>Interrupt (Ranged)</Name>
-        <Steps />
-      </MappedKey>
-      <MappedKey>
         <Name>Stun</Name>
-        <Steps>
-          <Step>
-            <Actions />
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
-        <Name>Stun (Ranged)</Name>
         <Steps>
           <Step>
             <Actions />
@@ -24422,24 +25797,8 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
         </Steps>
       </MappedKey>
       <MappedKey>
-        <Name>Root (Ranged)</Name>
-        <Steps>
-          <Step>
-            <Actions />
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
         <Name>Snare</Name>
         <Steps />
-      </MappedKey>
-      <MappedKey>
-        <Name>Snare (Ranged)</Name>
-        <Steps>
-          <Step>
-            <Actions />
-          </Step>
-        </Steps>
       </MappedKey>
       <MappedKey>
         <Name>Crowd Control</Name>
@@ -24692,19 +26051,7 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
         </Steps>
       </MappedKey>
       <MappedKey>
-        <Name>Interrupt (Ranged)</Name>
-        <Steps />
-      </MappedKey>
-      <MappedKey>
         <Name>Stun</Name>
-        <Steps>
-          <Step>
-            <Actions />
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
-        <Name>Stun (Ranged)</Name>
         <Steps>
           <Step>
             <Actions />
@@ -24720,24 +26067,8 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
         </Steps>
       </MappedKey>
       <MappedKey>
-        <Name>Root (Ranged)</Name>
-        <Steps>
-          <Step>
-            <Actions />
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
         <Name>Snare</Name>
         <Steps />
-      </MappedKey>
-      <MappedKey>
-        <Name>Snare (Ranged)</Name>
-        <Steps>
-          <Step>
-            <Actions />
-          </Step>
-        </Steps>
       </MappedKey>
       <MappedKey>
         <Name>Crowd Control</Name>
@@ -24990,19 +26321,7 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
         </Steps>
       </MappedKey>
       <MappedKey>
-        <Name>Interrupt (Ranged)</Name>
-        <Steps />
-      </MappedKey>
-      <MappedKey>
         <Name>Stun</Name>
-        <Steps>
-          <Step>
-            <Actions />
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
-        <Name>Stun (Ranged)</Name>
         <Steps>
           <Step>
             <Actions />
@@ -25018,24 +26337,8 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
         </Steps>
       </MappedKey>
       <MappedKey>
-        <Name>Root (Ranged)</Name>
-        <Steps>
-          <Step>
-            <Actions />
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
         <Name>Snare</Name>
         <Steps />
-      </MappedKey>
-      <MappedKey>
-        <Name>Snare (Ranged)</Name>
-        <Steps>
-          <Step>
-            <Actions />
-          </Step>
-        </Steps>
       </MappedKey>
       <MappedKey>
         <Name>Crowd Control</Name>
