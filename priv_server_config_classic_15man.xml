@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ISBoxerToolkitProfile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="42" VersionMinor="0" BuildDate="8/8/2021 5:06:35 PM">
+<ISBoxerToolkitProfile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="42" VersionMinor="0" BuildDate="8/8/2021 1:12:37 AM">
   <CharacterSet>
     <ExecuteOnLoad>
       <KeyMapString>Initialization</KeyMapString>
@@ -1177,9 +1177,569 @@
       <WindowLayoutString>15 Slot VFX</WindowLayoutString>
     </WindowLayout>
   </CharacterSet>
+  <CharacterSet>
+    <ExecuteOnLoad>
+      <KeyMapString>Initialization</KeyMapString>
+      <MappedKeyString>Initialize</MappedKeyString>
+    </ExecuteOnLoad>
+    <Name>Nighthaven - Shamans</Name>
+    <EnforceSingleWindowControlTested>true</EnforceSingleWindowControlTested>
+    <GUIToggleCombo>
+      <Combo>Ctrl+Shift+Alt+G</Combo>
+      <Modifiers>Ctrl Shift Alt</Modifiers>
+      <Key>
+        <Key>G</Key>
+        <Code>34</Code>
+      </Key>
+    </GUIToggleCombo>
+    <VideoFXFocusCombo>
+      <Combo>Alt+Mouse1</Combo>
+      <Modifiers>Alt</Modifiers>
+      <Key>
+        <Key>Mouse1</Key>
+        <Code>0</Code>
+      </Key>
+    </VideoFXFocusCombo>
+    <Slots>
+      <Slot>
+        <ForegroundMaxFPS>60</ForegroundMaxFPS>
+        <BackgroundMaxFPS>30</BackgroundMaxFPS>
+        <CharacterString>Makdur</CharacterString>
+        <SwitchToCombo>
+          <Combo>F1</Combo>
+          <Key>
+            <Key>F1</Key>
+            <Code>59</Code>
+          </Key>
+        </SwitchToCombo>
+        <SwitchToComboIsGlobal>false</SwitchToComboIsGlobal>
+        <EffectType>OnFocus</EffectType>
+        <WindowTitle />
+        <SwitchToKeyMapString>Slot Swap</SwitchToKeyMapString>
+        <SwitchToMappedKeyString>Post-Swap</SwitchToMappedKeyString>
+        <FTLModifiers>
+          <FTLModifierEnum>LCtrl</FTLModifierEnum>
+        </FTLModifiers>
+        <CPUCores />
+        <VariableKeystrokeInstances />
+      </Slot>
+      <Slot>
+        <ForegroundMaxFPS>60</ForegroundMaxFPS>
+        <BackgroundMaxFPS>30</BackgroundMaxFPS>
+        <CharacterString>Mákdur</CharacterString>
+        <SwitchToCombo>
+          <Combo>F2</Combo>
+          <Key>
+            <Key>F2</Key>
+            <Code>60</Code>
+          </Key>
+        </SwitchToCombo>
+        <SwitchToComboIsGlobal>false</SwitchToComboIsGlobal>
+        <EffectType>OnFocus</EffectType>
+        <WindowTitle />
+        <SwitchToKeyMapString>Slot Swap</SwitchToKeyMapString>
+        <SwitchToMappedKeyString>Post-Swap</SwitchToMappedKeyString>
+        <FTLModifiers>
+          <FTLModifierEnum>LShift</FTLModifierEnum>
+        </FTLModifiers>
+        <CPUCores />
+        <VariableKeystrokeInstances />
+      </Slot>
+      <Slot>
+        <ForegroundMaxFPS>60</ForegroundMaxFPS>
+        <BackgroundMaxFPS>30</BackgroundMaxFPS>
+        <CharacterString>Màkdur</CharacterString>
+        <SwitchToCombo>
+          <Combo>F3</Combo>
+          <Key>
+            <Key>F3</Key>
+            <Code>61</Code>
+          </Key>
+        </SwitchToCombo>
+        <SwitchToComboIsGlobal>false</SwitchToComboIsGlobal>
+        <EffectType>OnFocus</EffectType>
+        <WindowTitle />
+        <SwitchToKeyMapString>Slot Swap</SwitchToKeyMapString>
+        <SwitchToMappedKeyString>Post-Swap</SwitchToMappedKeyString>
+        <FTLModifiers>
+          <FTLModifierEnum>LAlt</FTLModifierEnum>
+        </FTLModifiers>
+        <CPUCores />
+        <VariableKeystrokeInstances />
+      </Slot>
+      <Slot>
+        <ForegroundMaxFPS>60</ForegroundMaxFPS>
+        <BackgroundMaxFPS>30</BackgroundMaxFPS>
+        <CharacterString>Mâkdur</CharacterString>
+        <SwitchToCombo>
+          <Combo>F4</Combo>
+          <Key>
+            <Key>F4</Key>
+            <Code>62</Code>
+          </Key>
+        </SwitchToCombo>
+        <SwitchToComboIsGlobal>false</SwitchToComboIsGlobal>
+        <EffectType>OnFocus</EffectType>
+        <WindowTitle />
+        <SwitchToKeyMapString>Slot Swap</SwitchToKeyMapString>
+        <SwitchToMappedKeyString>Post-Swap</SwitchToMappedKeyString>
+        <FTLModifiers>
+          <FTLModifierEnum>RCtrl</FTLModifierEnum>
+        </FTLModifiers>
+        <CPUCores />
+        <VariableKeystrokeInstances />
+      </Slot>
+      <Slot>
+        <ForegroundMaxFPS>60</ForegroundMaxFPS>
+        <BackgroundMaxFPS>30</BackgroundMaxFPS>
+        <CharacterString>Mäkdur</CharacterString>
+        <SwitchToCombo>
+          <Combo>F5</Combo>
+          <Key>
+            <Key>F5</Key>
+            <Code>63</Code>
+          </Key>
+        </SwitchToCombo>
+        <SwitchToComboIsGlobal>false</SwitchToComboIsGlobal>
+        <EffectType>OnFocus</EffectType>
+        <WindowTitle />
+        <SwitchToKeyMapString>Slot Swap</SwitchToKeyMapString>
+        <SwitchToMappedKeyString>Post-Swap</SwitchToMappedKeyString>
+        <FTLModifiers>
+          <FTLModifierEnum>RShift</FTLModifierEnum>
+        </FTLModifiers>
+        <CPUCores />
+        <VariableKeystrokeInstances />
+      </Slot>
+      <Slot>
+        <ForegroundMaxFPS>60</ForegroundMaxFPS>
+        <BackgroundMaxFPS>30</BackgroundMaxFPS>
+        <CharacterString>Måkdur</CharacterString>
+        <SwitchToCombo>
+          <Combo>Ctrl+F1</Combo>
+          <Modifiers>Ctrl</Modifiers>
+          <Key>
+            <Key>F1</Key>
+            <Code>59</Code>
+          </Key>
+        </SwitchToCombo>
+        <SwitchToComboIsGlobal>false</SwitchToComboIsGlobal>
+        <EffectType>OnFocus</EffectType>
+        <WindowTitle />
+        <SwitchToKeyMapString>Slot Swap</SwitchToKeyMapString>
+        <SwitchToMappedKeyString>Post-Swap</SwitchToMappedKeyString>
+        <FTLModifiers>
+          <FTLModifierEnum>RAlt</FTLModifierEnum>
+        </FTLModifiers>
+        <CPUCores />
+        <VariableKeystrokeInstances />
+      </Slot>
+      <Slot>
+        <ForegroundMaxFPS>60</ForegroundMaxFPS>
+        <BackgroundMaxFPS>30</BackgroundMaxFPS>
+        <CharacterString>Makdúr</CharacterString>
+        <SwitchToCombo>
+          <Combo>Ctrl+F2</Combo>
+          <Modifiers>Ctrl</Modifiers>
+          <Key>
+            <Key>F2</Key>
+            <Code>60</Code>
+          </Key>
+        </SwitchToCombo>
+        <SwitchToComboIsGlobal>false</SwitchToComboIsGlobal>
+        <EffectType>OnFocus</EffectType>
+        <WindowTitle />
+        <SwitchToKeyMapString>Slot Swap</SwitchToKeyMapString>
+        <SwitchToMappedKeyString>Post-Swap</SwitchToMappedKeyString>
+        <FTLModifiers>
+          <FTLModifierEnum>LShift</FTLModifierEnum>
+          <FTLModifierEnum>LCtrl</FTLModifierEnum>
+        </FTLModifiers>
+        <CPUCores />
+        <VariableKeystrokeInstances />
+      </Slot>
+      <Slot>
+        <ForegroundMaxFPS>60</ForegroundMaxFPS>
+        <BackgroundMaxFPS>30</BackgroundMaxFPS>
+        <CharacterString>Makdùr</CharacterString>
+        <SwitchToCombo>
+          <Combo>Ctrl+F3</Combo>
+          <Modifiers>Ctrl</Modifiers>
+          <Key>
+            <Key>F3</Key>
+            <Code>61</Code>
+          </Key>
+        </SwitchToCombo>
+        <SwitchToComboIsGlobal>false</SwitchToComboIsGlobal>
+        <EffectType>OnFocus</EffectType>
+        <WindowTitle />
+        <SwitchToKeyMapString>Slot Swap</SwitchToKeyMapString>
+        <SwitchToMappedKeyString>Post-Swap</SwitchToMappedKeyString>
+        <FTLModifiers>
+          <FTLModifierEnum>LAlt</FTLModifierEnum>
+          <FTLModifierEnum>LCtrl</FTLModifierEnum>
+        </FTLModifiers>
+        <CPUCores />
+        <VariableKeystrokeInstances />
+      </Slot>
+      <Slot>
+        <ForegroundMaxFPS>60</ForegroundMaxFPS>
+        <BackgroundMaxFPS>30</BackgroundMaxFPS>
+        <CharacterString>Makdûr</CharacterString>
+        <SwitchToCombo>
+          <Combo>Ctrl+F4</Combo>
+          <Modifiers>Ctrl</Modifiers>
+          <Key>
+            <Key>F4</Key>
+            <Code>62</Code>
+          </Key>
+        </SwitchToCombo>
+        <SwitchToComboIsGlobal>false</SwitchToComboIsGlobal>
+        <EffectType>OnFocus</EffectType>
+        <WindowTitle />
+        <SwitchToKeyMapString>Slot Swap</SwitchToKeyMapString>
+        <SwitchToMappedKeyString>Post-Swap</SwitchToMappedKeyString>
+        <FTLModifiers>
+          <FTLModifierEnum>LCtrl</FTLModifierEnum>
+          <FTLModifierEnum>RCtrl</FTLModifierEnum>
+        </FTLModifiers>
+        <CPUCores />
+        <VariableKeystrokeInstances />
+      </Slot>
+      <Slot>
+        <ForegroundMaxFPS>60</ForegroundMaxFPS>
+        <BackgroundMaxFPS>30</BackgroundMaxFPS>
+        <CharacterString>Mákdúr</CharacterString>
+        <SwitchToCombo>
+          <Combo>Ctrl+F5</Combo>
+          <Modifiers>Ctrl</Modifiers>
+          <Key>
+            <Key>F5</Key>
+            <Code>63</Code>
+          </Key>
+        </SwitchToCombo>
+        <SwitchToComboIsGlobal>false</SwitchToComboIsGlobal>
+        <EffectType>OnFocus</EffectType>
+        <WindowTitle />
+        <SwitchToKeyMapString>Slot Swap</SwitchToKeyMapString>
+        <SwitchToMappedKeyString>Post-Swap</SwitchToMappedKeyString>
+        <FTLModifiers>
+          <FTLModifierEnum>RShift</FTLModifierEnum>
+          <FTLModifierEnum>LCtrl</FTLModifierEnum>
+        </FTLModifiers>
+        <CPUCores />
+        <VariableKeystrokeInstances />
+      </Slot>
+      <Slot>
+        <ForegroundMaxFPS>60</ForegroundMaxFPS>
+        <BackgroundMaxFPS>30</BackgroundMaxFPS>
+        <CharacterString>Mákdùr</CharacterString>
+        <SwitchToCombo>
+          <Combo>Alt+F1</Combo>
+          <Modifiers>Alt</Modifiers>
+          <Key>
+            <Key>F1</Key>
+            <Code>59</Code>
+          </Key>
+        </SwitchToCombo>
+        <SwitchToComboIsGlobal>false</SwitchToComboIsGlobal>
+        <EffectType>OnFocus</EffectType>
+        <WindowTitle />
+        <SwitchToKeyMapString>Slot Swap</SwitchToKeyMapString>
+        <SwitchToMappedKeyString>Post-Swap</SwitchToMappedKeyString>
+        <FTLModifiers>
+          <FTLModifierEnum>RAlt</FTLModifierEnum>
+          <FTLModifierEnum>LCtrl</FTLModifierEnum>
+        </FTLModifiers>
+        <CPUCores />
+        <VariableKeystrokeInstances />
+      </Slot>
+      <Slot>
+        <ForegroundMaxFPS>60</ForegroundMaxFPS>
+        <BackgroundMaxFPS>30</BackgroundMaxFPS>
+        <CharacterString>Mákdûr</CharacterString>
+        <SwitchToCombo>
+          <Combo>Alt+F2</Combo>
+          <Modifiers>Alt</Modifiers>
+          <Key>
+            <Key>F2</Key>
+            <Code>60</Code>
+          </Key>
+        </SwitchToCombo>
+        <SwitchToComboIsGlobal>false</SwitchToComboIsGlobal>
+        <EffectType>OnFocus</EffectType>
+        <WindowTitle />
+        <SwitchToKeyMapString>Slot Swap</SwitchToKeyMapString>
+        <SwitchToMappedKeyString>Post-Swap</SwitchToMappedKeyString>
+        <FTLModifiers>
+          <FTLModifierEnum>LAlt</FTLModifierEnum>
+          <FTLModifierEnum>LShift</FTLModifierEnum>
+        </FTLModifiers>
+        <CPUCores />
+        <VariableKeystrokeInstances />
+      </Slot>
+      <Slot>
+        <ForegroundMaxFPS>60</ForegroundMaxFPS>
+        <BackgroundMaxFPS>30</BackgroundMaxFPS>
+        <CharacterString>Màkdúr</CharacterString>
+        <SwitchToCombo>
+          <Combo>Alt+F3</Combo>
+          <Modifiers>Alt</Modifiers>
+          <Key>
+            <Key>F3</Key>
+            <Code>61</Code>
+          </Key>
+        </SwitchToCombo>
+        <SwitchToComboIsGlobal>false</SwitchToComboIsGlobal>
+        <EffectType>OnFocus</EffectType>
+        <WindowTitle />
+        <SwitchToKeyMapString>Slot Swap</SwitchToKeyMapString>
+        <SwitchToMappedKeyString>Post-Swap</SwitchToMappedKeyString>
+        <FTLModifiers>
+          <FTLModifierEnum>LShift</FTLModifierEnum>
+          <FTLModifierEnum>RCtrl</FTLModifierEnum>
+        </FTLModifiers>
+        <CPUCores />
+        <VariableKeystrokeInstances />
+      </Slot>
+      <Slot>
+        <ForegroundMaxFPS>60</ForegroundMaxFPS>
+        <BackgroundMaxFPS>30</BackgroundMaxFPS>
+        <CharacterString>Màkdùr</CharacterString>
+        <SwitchToCombo>
+          <Combo>Alt+F4</Combo>
+          <Modifiers>Alt</Modifiers>
+          <Key>
+            <Key>F4</Key>
+            <Code>62</Code>
+          </Key>
+        </SwitchToCombo>
+        <SwitchToComboIsGlobal>false</SwitchToComboIsGlobal>
+        <EffectType>OnFocus</EffectType>
+        <WindowTitle />
+        <SwitchToKeyMapString>Slot Swap</SwitchToKeyMapString>
+        <SwitchToMappedKeyString>Post-Swap</SwitchToMappedKeyString>
+        <FTLModifiers>
+          <FTLModifierEnum>LShift</FTLModifierEnum>
+          <FTLModifierEnum>RShift</FTLModifierEnum>
+        </FTLModifiers>
+        <CPUCores />
+        <VariableKeystrokeInstances />
+      </Slot>
+      <Slot>
+        <ForegroundMaxFPS>60</ForegroundMaxFPS>
+        <BackgroundMaxFPS>30</BackgroundMaxFPS>
+        <CharacterString>Màkdûr</CharacterString>
+        <SwitchToCombo>
+          <Combo>Alt+F5</Combo>
+          <Modifiers>Alt</Modifiers>
+          <Key>
+            <Key>F5</Key>
+            <Code>63</Code>
+          </Key>
+        </SwitchToCombo>
+        <SwitchToComboIsGlobal>false</SwitchToComboIsGlobal>
+        <EffectType>OnFocus</EffectType>
+        <WindowTitle />
+        <SwitchToKeyMapString>Slot Swap</SwitchToKeyMapString>
+        <SwitchToMappedKeyString>Post-Swap</SwitchToMappedKeyString>
+        <FTLModifiers>
+          <FTLModifierEnum>RAlt</FTLModifierEnum>
+          <FTLModifierEnum>LShift</FTLModifierEnum>
+        </FTLModifiers>
+        <CPUCores />
+        <VariableKeystrokeInstances />
+      </Slot>
+      <Slot>
+        <ForegroundMaxFPS>60</ForegroundMaxFPS>
+        <BackgroundMaxFPS>30</BackgroundMaxFPS>
+        <CharacterString>Mâkdúr</CharacterString>
+        <SwitchToCombo>
+          <Combo>Shift+F1</Combo>
+          <Modifiers>Shift</Modifiers>
+          <Key>
+            <Key>F1</Key>
+            <Code>59</Code>
+          </Key>
+        </SwitchToCombo>
+        <SwitchToComboIsGlobal>false</SwitchToComboIsGlobal>
+        <EffectType>OnFocus</EffectType>
+        <WindowTitle />
+        <SwitchToKeyMapString>Slot Swap</SwitchToKeyMapString>
+        <SwitchToMappedKeyString>Post-Swap</SwitchToMappedKeyString>
+        <FTLModifiers>
+          <FTLModifierEnum>LAlt</FTLModifierEnum>
+          <FTLModifierEnum>RCtrl</FTLModifierEnum>
+        </FTLModifiers>
+        <CPUCores />
+        <VariableKeystrokeInstances />
+      </Slot>
+      <Slot>
+        <ForegroundMaxFPS>60</ForegroundMaxFPS>
+        <BackgroundMaxFPS>30</BackgroundMaxFPS>
+        <CharacterString>Mâkdùr</CharacterString>
+        <SwitchToCombo>
+          <Combo>Shift+F2</Combo>
+          <Modifiers>Shift</Modifiers>
+          <Key>
+            <Key>F2</Key>
+            <Code>60</Code>
+          </Key>
+        </SwitchToCombo>
+        <SwitchToComboIsGlobal>false</SwitchToComboIsGlobal>
+        <EffectType>OnFocus</EffectType>
+        <WindowTitle />
+        <SwitchToKeyMapString>Slot Swap</SwitchToKeyMapString>
+        <SwitchToMappedKeyString>Post-Swap</SwitchToMappedKeyString>
+        <FTLModifiers>
+          <FTLModifierEnum>LAlt</FTLModifierEnum>
+          <FTLModifierEnum>RShift</FTLModifierEnum>
+        </FTLModifiers>
+        <CPUCores />
+        <VariableKeystrokeInstances />
+      </Slot>
+      <Slot>
+        <ForegroundMaxFPS>60</ForegroundMaxFPS>
+        <BackgroundMaxFPS>30</BackgroundMaxFPS>
+        <CharacterString>Mâkdûr</CharacterString>
+        <SwitchToCombo>
+          <Combo>Shift+F3</Combo>
+          <Modifiers>Shift</Modifiers>
+          <Key>
+            <Key>F3</Key>
+            <Code>61</Code>
+          </Key>
+        </SwitchToCombo>
+        <SwitchToComboIsGlobal>false</SwitchToComboIsGlobal>
+        <EffectType>OnFocus</EffectType>
+        <WindowTitle />
+        <SwitchToKeyMapString>Slot Swap</SwitchToKeyMapString>
+        <SwitchToMappedKeyString>Post-Swap</SwitchToMappedKeyString>
+        <FTLModifiers>
+          <FTLModifierEnum>LAlt</FTLModifierEnum>
+          <FTLModifierEnum>RAlt</FTLModifierEnum>
+        </FTLModifiers>
+        <CPUCores />
+        <VariableKeystrokeInstances />
+      </Slot>
+      <Slot>
+        <ForegroundMaxFPS>60</ForegroundMaxFPS>
+        <BackgroundMaxFPS>30</BackgroundMaxFPS>
+        <CharacterString>Mäkdúr</CharacterString>
+        <SwitchToCombo>
+          <Combo>Shift+F4</Combo>
+          <Modifiers>Shift</Modifiers>
+          <Key>
+            <Key>F4</Key>
+            <Code>62</Code>
+          </Key>
+        </SwitchToCombo>
+        <SwitchToComboIsGlobal>false</SwitchToComboIsGlobal>
+        <EffectType>OnFocus</EffectType>
+        <WindowTitle />
+        <SwitchToKeyMapString>Slot Swap</SwitchToKeyMapString>
+        <SwitchToMappedKeyString>Post-Swap</SwitchToMappedKeyString>
+        <FTLModifiers>
+          <FTLModifierEnum>RShift</FTLModifierEnum>
+          <FTLModifierEnum>RCtrl</FTLModifierEnum>
+        </FTLModifiers>
+        <CPUCores />
+        <VariableKeystrokeInstances />
+      </Slot>
+      <Slot>
+        <ForegroundMaxFPS>60</ForegroundMaxFPS>
+        <BackgroundMaxFPS>30</BackgroundMaxFPS>
+        <CharacterString>Mäkdùr</CharacterString>
+        <SwitchToCombo>
+          <Combo>Shift+F5</Combo>
+          <Modifiers>Shift</Modifiers>
+          <Key>
+            <Key>F5</Key>
+            <Code>63</Code>
+          </Key>
+        </SwitchToCombo>
+        <SwitchToComboIsGlobal>false</SwitchToComboIsGlobal>
+        <EffectType>OnFocus</EffectType>
+        <WindowTitle />
+        <SwitchToKeyMapString>Slot Swap</SwitchToKeyMapString>
+        <SwitchToMappedKeyString>Post-Swap</SwitchToMappedKeyString>
+        <FTLModifiers>
+          <FTLModifierEnum>RAlt</FTLModifierEnum>
+          <FTLModifierEnum>RCtrl</FTLModifierEnum>
+        </FTLModifiers>
+        <CPUCores />
+        <VariableKeystrokeInstances />
+      </Slot>
+    </Slots>
+    <LockForeground>false</LockForeground>
+    <RepeaterProfile>Default</RepeaterProfile>
+    <KeyMapStrings>
+      <string>ISB42 - Always On</string>
+      <string>ISB42 - Base Hotkeys</string>
+      <string>ISB42 - Toggles</string>
+      <string>ISB42 - Party</string>
+      <string>ISB42 - WoW</string>
+      <string>ISB42 - Custom Hotkeys</string>
+      <string>Initialization</string>
+      <string>Slot Toggles</string>
+      <string>Slot Menu</string>
+      <string>Interact With Target</string>
+      <string>Assist &amp; Follow</string>
+      <string>Assist &amp; Follow [Virtualized]</string>
+      <string>Assist &amp; Follow - Target Slot</string>
+      <string>Assist &amp; Follow - WoW</string>
+      <string>Auto-Assist</string>
+      <string>Combat</string>
+      <string>Combat [Virtualized]</string>
+      <string>DPS Rotation</string>
+      <string>DPS Rotation [Virtualized]</string>
+      <string>DPS Rotation - Active Group</string>
+      <string>DPS Rotation - Active Group [Virtualized]</string>
+      <string>Healing Rotation</string>
+      <string>Healing Rotation [Virtualized]</string>
+      <string>Slot View</string>
+      <string>Slot Swap</string>
+      <string>Active Group Toggle</string>
+      <string>Action Target Group</string>
+      <string>Game Settings</string>
+      <string>Control Panel</string>
+      <string>Control Panel - Menu</string>
+      <string>Targeting</string>
+      <string>Totems</string>
+      <string>Shaman - Combat Toggle</string>
+      <string>Party Grid - Core</string>
+      <string>Party Grid - First</string>
+      <string>Party Grid - First - Selector [Virtualized]</string>
+      <string>Party Grid - Second</string>
+      <string>Party Grid - Second - Selector [Virtualized]</string>
+      <string>Party Grid - Third</string>
+      <string>Party Grid - Third - Selector [Virtualized]</string>
+    </KeyMapStrings>
+    <KeyMapWhiteOrBlackListType>Ignore</KeyMapWhiteOrBlackListType>
+    <KeyMapWhiteOrBlackList />
+    <ClickBarStrings />
+    <VirtualFileTargets />
+    <VirtualMappedKeys />
+    <VariableKeystrokeInstances />
+    <MenuInstances />
+    <WoWMacroSets>
+      <WoWMacroSetLooseRef>
+        <WoWMacroSetString>Quick Setup 42</WoWMacroSetString>
+      </WoWMacroSetLooseRef>
+      <WoWMacroSetLooseRef>
+        <WoWMacroSetString>Game Settings</WoWMacroSetString>
+      </WoWMacroSetLooseRef>
+      <WoWMacroSetLooseRef>
+        <WoWMacroSetString>General</WoWMacroSetString>
+      </WoWMacroSetLooseRef>
+    </WoWMacroSets>
+    <CrypticMacroSets />
+    <LaunchCharacterSetStrings />
+    <WindowLayout />
+  </CharacterSet>
   <Character>
     <ExecuteOnLoad />
-    <Name>__Faerlina________</Name>
+    <Name>__Nighthaven________</Name>
     <AccountName />
     <SubAccountName />
     <ServerName />
@@ -1202,12 +1762,12 @@
   <Character>
     <ExecuteOnLoad />
     <Name>Makdur</Name>
-    <AccountName>chris@waymire.net</AccountName>
-    <SubAccountName>JXW129</SubAccountName>
-    <ServerName>Faerlina</ServerName>
+    <AccountName>waymirec</AccountName>
+    <SubAccountName>waymirec</SubAccountName>
+    <ServerName>Nighthaven</ServerName>
     <ActualName>Makdur</ActualName>
     <Game>World of Warcraft</Game>
-    <GameProfile>World of Warcraft Classic Client</GameProfile>
+    <GameProfile>New World of Warcraft Profile</GameProfile>
     <KnownGame>WoW</KnownGame>
     <RelayGroupStrings />
     <KeyMapStrings>
@@ -1257,12 +1817,12 @@
   <Character>
     <ExecuteOnLoad />
     <Name>Mákdur</Name>
-    <AccountName>chris@waymire.net</AccountName>
-    <SubAccountName>CHRISWAYMIRE</SubAccountName>
-    <ServerName>Faerlina</ServerName>
+    <AccountName>waymirec2</AccountName>
+    <SubAccountName>waymirec2</SubAccountName>
+    <ServerName>Nighthaven</ServerName>
     <ActualName>Mákdur</ActualName>
     <Game>World of Warcraft</Game>
-    <GameProfile>World of Warcraft Classic Client</GameProfile>
+    <GameProfile>New World of Warcraft Profile</GameProfile>
     <KnownGame>WoW</KnownGame>
     <RelayGroupStrings />
     <KeyMapStrings>
@@ -1312,12 +1872,12 @@
   <Character>
     <ExecuteOnLoad />
     <Name>Màkdur</Name>
-    <AccountName>chris@waymire.net</AccountName>
-    <SubAccountName>DECEPTION13</SubAccountName>
-    <ServerName>Faerlina</ServerName>
+    <AccountName>waymirec3</AccountName>
+    <SubAccountName>waymirec3</SubAccountName>
+    <ServerName>Nighthaven</ServerName>
     <ActualName>Màkdur</ActualName>
     <Game>World of Warcraft</Game>
-    <GameProfile>World of Warcraft Classic Client</GameProfile>
+    <GameProfile>New World of Warcraft Profile</GameProfile>
     <KnownGame>WoW</KnownGame>
     <RelayGroupStrings />
     <KeyMapStrings>
@@ -1367,12 +1927,12 @@
   <Character>
     <ExecuteOnLoad />
     <Name>Mâkdur</Name>
-    <AccountName>chris@waymire.net</AccountName>
-    <SubAccountName>LORDDOOM1</SubAccountName>
-    <ServerName>Faerlina</ServerName>
+    <AccountName>waymirec4</AccountName>
+    <SubAccountName>waymirec4</SubAccountName>
+    <ServerName>Nighthaven</ServerName>
     <ActualName>Mâkdur</ActualName>
     <Game>World of Warcraft</Game>
-    <GameProfile>World of Warcraft Classic Client</GameProfile>
+    <GameProfile>New World of Warcraft Profile</GameProfile>
     <KnownGame>WoW</KnownGame>
     <RelayGroupStrings />
     <KeyMapStrings>
@@ -1422,12 +1982,12 @@
   <Character>
     <ExecuteOnLoad />
     <Name>Mäkdur</Name>
-    <AccountName>chris@waymire.net</AccountName>
-    <SubAccountName>Wow2</SubAccountName>
-    <ServerName>Faerlina</ServerName>
+    <AccountName>waymirec5</AccountName>
+    <SubAccountName>waymirec5</SubAccountName>
+    <ServerName>Nighthaven</ServerName>
     <ActualName>Mäkdur</ActualName>
     <Game>World of Warcraft</Game>
-    <GameProfile>World of Warcraft Classic Client</GameProfile>
+    <GameProfile>New World of Warcraft Profile</GameProfile>
     <KnownGame>WoW</KnownGame>
     <RelayGroupStrings />
     <KeyMapStrings>
@@ -1477,12 +2037,12 @@
   <Character>
     <ExecuteOnLoad />
     <Name>Måkdur</Name>
-    <AccountName>chris@waymire.net</AccountName>
-    <SubAccountName>Wow3</SubAccountName>
-    <ServerName>Faerlina</ServerName>
+    <AccountName>waymirec6</AccountName>
+    <SubAccountName>waymirec6</SubAccountName>
+    <ServerName>Nighthaven</ServerName>
     <ActualName>Måkdur</ActualName>
     <Game>World of Warcraft</Game>
-    <GameProfile>World of Warcraft Classic Client</GameProfile>
+    <GameProfile>New World of Warcraft Profile</GameProfile>
     <KnownGame>WoW</KnownGame>
     <RelayGroupStrings />
     <KeyMapStrings>
@@ -1532,12 +2092,12 @@
   <Character>
     <ExecuteOnLoad />
     <Name>Makdúr</Name>
-    <AccountName>chris@waymire.net</AccountName>
-    <SubAccountName>Wow4</SubAccountName>
-    <ServerName>Faerlina</ServerName>
+    <AccountName>waymirec7</AccountName>
+    <SubAccountName>waymirec7</SubAccountName>
+    <ServerName>Nighthaven</ServerName>
     <ActualName>Makdúr</ActualName>
     <Game>World of Warcraft</Game>
-    <GameProfile>World of Warcraft Classic Client</GameProfile>
+    <GameProfile>New World of Warcraft Profile</GameProfile>
     <KnownGame>WoW</KnownGame>
     <RelayGroupStrings />
     <KeyMapStrings>
@@ -1587,12 +2147,12 @@
   <Character>
     <ExecuteOnLoad />
     <Name>Makdùr</Name>
-    <AccountName>chris@waymire.net</AccountName>
-    <SubAccountName>Wow5</SubAccountName>
-    <ServerName>Faerlina</ServerName>
+    <AccountName>waymirec8</AccountName>
+    <SubAccountName>waymirec8</SubAccountName>
+    <ServerName>Nighthaven</ServerName>
     <ActualName>Makdùr</ActualName>
     <Game>World of Warcraft</Game>
-    <GameProfile>World of Warcraft Classic Client</GameProfile>
+    <GameProfile>New World of Warcraft Profile</GameProfile>
     <KnownGame>WoW</KnownGame>
     <RelayGroupStrings />
     <KeyMapStrings>
@@ -1642,12 +2202,12 @@
   <Character>
     <ExecuteOnLoad />
     <Name>Makdûr</Name>
-    <AccountName>chris2@waymire.net</AccountName>
-    <SubAccountName>Wow1</SubAccountName>
-    <ServerName>Faerlina</ServerName>
+    <AccountName>waymirec9</AccountName>
+    <SubAccountName>waymirec9</SubAccountName>
+    <ServerName>Nighthaven</ServerName>
     <ActualName>Makdûr</ActualName>
     <Game>World of Warcraft</Game>
-    <GameProfile>World of Warcraft Classic Client</GameProfile>
+    <GameProfile>New World of Warcraft Profile</GameProfile>
     <KnownGame>WoW</KnownGame>
     <RelayGroupStrings />
     <KeyMapStrings>
@@ -1697,12 +2257,12 @@
   <Character>
     <ExecuteOnLoad />
     <Name>Mákdúr</Name>
-    <AccountName>chris2@waymire.net</AccountName>
-    <SubAccountName>Wow2</SubAccountName>
-    <ServerName>Faerlina</ServerName>
+    <AccountName>waymirec10</AccountName>
+    <SubAccountName>waymirec10</SubAccountName>
+    <ServerName>Nighthaven</ServerName>
     <ActualName>Mákdúr</ActualName>
     <Game>World of Warcraft</Game>
-    <GameProfile>World of Warcraft Classic Client</GameProfile>
+    <GameProfile>New World of Warcraft Profile</GameProfile>
     <KnownGame>WoW</KnownGame>
     <RelayGroupStrings />
     <KeyMapStrings>
@@ -1755,12 +2315,12 @@
   <Character>
     <ExecuteOnLoad />
     <Name>Mákdùr</Name>
-    <AccountName>chris2@waymire.net</AccountName>
-    <SubAccountName>Wow3</SubAccountName>
-    <ServerName>Faerlina</ServerName>
+    <AccountName>waymirec11</AccountName>
+    <SubAccountName>waymirec11</SubAccountName>
+    <ServerName>Nighthaven</ServerName>
     <ActualName>Mákdùr</ActualName>
     <Game>World of Warcraft</Game>
-    <GameProfile>World of Warcraft Classic Client</GameProfile>
+    <GameProfile>New World of Warcraft Profile</GameProfile>
     <KnownGame>WoW</KnownGame>
     <RelayGroupStrings />
     <KeyMapStrings>
@@ -1813,12 +2373,12 @@
   <Character>
     <ExecuteOnLoad />
     <Name>Mákdûr</Name>
-    <AccountName>chris2@waymire.net</AccountName>
-    <SubAccountName>Wow4</SubAccountName>
-    <ServerName>Faerlina</ServerName>
+    <AccountName>waymirec12</AccountName>
+    <SubAccountName>waymirec12</SubAccountName>
+    <ServerName>Nighthaven</ServerName>
     <ActualName>Mákdûr</ActualName>
     <Game>World of Warcraft</Game>
-    <GameProfile>World of Warcraft Classic Client</GameProfile>
+    <GameProfile>New World of Warcraft Profile</GameProfile>
     <KnownGame>WoW</KnownGame>
     <RelayGroupStrings />
     <KeyMapStrings>
@@ -1871,12 +2431,12 @@
   <Character>
     <ExecuteOnLoad />
     <Name>Màkdúr</Name>
-    <AccountName>chris2@waymire.net</AccountName>
-    <SubAccountName>Wow5</SubAccountName>
-    <ServerName>Faerlina</ServerName>
+    <AccountName>waymirec13</AccountName>
+    <SubAccountName>waymirec13</SubAccountName>
+    <ServerName>Nighthaven</ServerName>
     <ActualName>Màkdúr</ActualName>
     <Game>World of Warcraft</Game>
-    <GameProfile>World of Warcraft Classic Client</GameProfile>
+    <GameProfile>New World of Warcraft Profile</GameProfile>
     <KnownGame>WoW</KnownGame>
     <RelayGroupStrings />
     <KeyMapStrings>
@@ -1928,12 +2488,12 @@
   <Character>
     <ExecuteOnLoad />
     <Name>Màkdùr</Name>
-    <AccountName>chris2@waymire.net</AccountName>
-    <SubAccountName>Wow6</SubAccountName>
-    <ServerName>Faerlina</ServerName>
+    <AccountName>waymirec14</AccountName>
+    <SubAccountName>waymirec14</SubAccountName>
+    <ServerName>Nighthaven</ServerName>
     <ActualName>Màkdùr</ActualName>
     <Game>World of Warcraft</Game>
-    <GameProfile>World of Warcraft Classic Client</GameProfile>
+    <GameProfile>New World of Warcraft Profile</GameProfile>
     <KnownGame>WoW</KnownGame>
     <RelayGroupStrings />
     <KeyMapStrings>
@@ -1985,12 +2545,297 @@
   <Character>
     <ExecuteOnLoad />
     <Name>Màkdûr</Name>
-    <AccountName>chris2@waymire.net</AccountName>
-    <SubAccountName>Wow7</SubAccountName>
-    <ServerName>Faerlina</ServerName>
+    <AccountName>waymirec15</AccountName>
+    <SubAccountName>waymirec15</SubAccountName>
+    <ServerName>Nighthaven</ServerName>
     <ActualName>Màkdûr</ActualName>
     <Game>World of Warcraft</Game>
-    <GameProfile>World of Warcraft Classic Client</GameProfile>
+    <GameProfile>New World of Warcraft Profile</GameProfile>
+    <KnownGame>WoW</KnownGame>
+    <RelayGroupStrings />
+    <KeyMapStrings>
+      <string>Shaman - Initialization</string>
+      <string>Shaman - Restoration - Initialization</string>
+      <string>Shaman - Restoration - Combat</string>
+      <string>Shaman - Restoration - DPS Rotation</string>
+      <string>Shaman - Restoration - Healing</string>
+      <string>Shaman - Restoration - Healing Rotation</string>
+    </KeyMapStrings>
+    <KeyMapWhiteOrBlackListType>Ignore</KeyMapWhiteOrBlackListType>
+    <KeyMapWhiteOrBlackList />
+    <ClickBarStrings />
+    <MenuInstances />
+    <VirtualFileTargets>
+      <VirtualFileTarget>
+        <Filename>Battle.net-Màkdûr.config</Filename>
+        <VirtualFileString>Battle.net.config</VirtualFileString>
+      </VirtualFileTarget>
+      <VirtualFileTarget>
+        <Filename>Config-Màkdûr.WTF</Filename>
+        <VirtualFileString>Config.WTF</VirtualFileString>
+      </VirtualFileTarget>
+      <VirtualFileTarget>
+        <Filename>Software/Blizzard Entertainment/Battle.net-ISBoxer/Màkdûr/</Filename>
+        <VirtualFileString>Software/Blizzard Entertainment/Battle.net/</VirtualFileString>
+      </VirtualFileTarget>
+    </VirtualFileTargets>
+    <WoWMacroSets>
+      <WoWMacroSetLooseRef>
+        <WoWMacroSetString>Shaman</WoWMacroSetString>
+      </WoWMacroSetLooseRef>
+    </WoWMacroSets>
+    <CrypticMacroSets />
+    <VirtualMappedKeys>
+      <VirtualMappedKey>
+        <FromMappedKey>
+          <KeyMapString>Initialization</KeyMapString>
+          <MappedKeyString>Initialize - Class</MappedKeyString>
+        </FromMappedKey>
+        <ToMappedKey>
+          <KeyMapString>Shaman - Restoration - Initialization</KeyMapString>
+          <MappedKeyString>Initialize</MappedKeyString>
+        </ToMappedKey>
+      </VirtualMappedKey>
+    </VirtualMappedKeys>
+    <VariableKeystrokeInstances />
+  </Character>
+  <Character>
+    <ExecuteOnLoad />
+    <Name>Mâkdúr</Name>
+    <AccountName>waymirec16</AccountName>
+    <SubAccountName>waymirec16</SubAccountName>
+    <ServerName>Nighthaven</ServerName>
+    <ActualName>Màkdûr</ActualName>
+    <Game>World of Warcraft</Game>
+    <GameProfile>New World of Warcraft Profile</GameProfile>
+    <KnownGame>WoW</KnownGame>
+    <RelayGroupStrings />
+    <KeyMapStrings>
+      <string>Shaman - Initialization</string>
+      <string>Shaman - Restoration - Initialization</string>
+      <string>Shaman - Restoration - Combat</string>
+      <string>Shaman - Restoration - DPS Rotation</string>
+      <string>Shaman - Restoration - Healing</string>
+      <string>Shaman - Restoration - Healing Rotation</string>
+    </KeyMapStrings>
+    <KeyMapWhiteOrBlackListType>Ignore</KeyMapWhiteOrBlackListType>
+    <KeyMapWhiteOrBlackList />
+    <ClickBarStrings />
+    <MenuInstances />
+    <VirtualFileTargets>
+      <VirtualFileTarget>
+        <Filename>Battle.net-Màkdûr.config</Filename>
+        <VirtualFileString>Battle.net.config</VirtualFileString>
+      </VirtualFileTarget>
+      <VirtualFileTarget>
+        <Filename>Config-Màkdûr.WTF</Filename>
+        <VirtualFileString>Config.WTF</VirtualFileString>
+      </VirtualFileTarget>
+      <VirtualFileTarget>
+        <Filename>Software/Blizzard Entertainment/Battle.net-ISBoxer/Màkdûr/</Filename>
+        <VirtualFileString>Software/Blizzard Entertainment/Battle.net/</VirtualFileString>
+      </VirtualFileTarget>
+    </VirtualFileTargets>
+    <WoWMacroSets>
+      <WoWMacroSetLooseRef>
+        <WoWMacroSetString>Shaman</WoWMacroSetString>
+      </WoWMacroSetLooseRef>
+    </WoWMacroSets>
+    <CrypticMacroSets />
+    <VirtualMappedKeys>
+      <VirtualMappedKey>
+        <FromMappedKey>
+          <KeyMapString>Initialization</KeyMapString>
+          <MappedKeyString>Initialize - Class</MappedKeyString>
+        </FromMappedKey>
+        <ToMappedKey>
+          <KeyMapString>Shaman - Restoration - Initialization</KeyMapString>
+          <MappedKeyString>Initialize</MappedKeyString>
+        </ToMappedKey>
+      </VirtualMappedKey>
+    </VirtualMappedKeys>
+    <VariableKeystrokeInstances />
+  </Character>
+  <Character>
+    <ExecuteOnLoad />
+    <Name>Mâkdùr</Name>
+    <AccountName>waymirec17</AccountName>
+    <SubAccountName>waymirec17</SubAccountName>
+    <ServerName>Nighthaven</ServerName>
+    <ActualName>Màkdûr</ActualName>
+    <Game>World of Warcraft</Game>
+    <GameProfile>New World of Warcraft Profile</GameProfile>
+    <KnownGame>WoW</KnownGame>
+    <RelayGroupStrings />
+    <KeyMapStrings>
+      <string>Shaman - Initialization</string>
+      <string>Shaman - Restoration - Initialization</string>
+      <string>Shaman - Restoration - Combat</string>
+      <string>Shaman - Restoration - DPS Rotation</string>
+      <string>Shaman - Restoration - Healing</string>
+      <string>Shaman - Restoration - Healing Rotation</string>
+    </KeyMapStrings>
+    <KeyMapWhiteOrBlackListType>Ignore</KeyMapWhiteOrBlackListType>
+    <KeyMapWhiteOrBlackList />
+    <ClickBarStrings />
+    <MenuInstances />
+    <VirtualFileTargets>
+      <VirtualFileTarget>
+        <Filename>Battle.net-Màkdûr.config</Filename>
+        <VirtualFileString>Battle.net.config</VirtualFileString>
+      </VirtualFileTarget>
+      <VirtualFileTarget>
+        <Filename>Config-Màkdûr.WTF</Filename>
+        <VirtualFileString>Config.WTF</VirtualFileString>
+      </VirtualFileTarget>
+      <VirtualFileTarget>
+        <Filename>Software/Blizzard Entertainment/Battle.net-ISBoxer/Màkdûr/</Filename>
+        <VirtualFileString>Software/Blizzard Entertainment/Battle.net/</VirtualFileString>
+      </VirtualFileTarget>
+    </VirtualFileTargets>
+    <WoWMacroSets>
+      <WoWMacroSetLooseRef>
+        <WoWMacroSetString>Shaman</WoWMacroSetString>
+      </WoWMacroSetLooseRef>
+    </WoWMacroSets>
+    <CrypticMacroSets />
+    <VirtualMappedKeys>
+      <VirtualMappedKey>
+        <FromMappedKey>
+          <KeyMapString>Initialization</KeyMapString>
+          <MappedKeyString>Initialize - Class</MappedKeyString>
+        </FromMappedKey>
+        <ToMappedKey>
+          <KeyMapString>Shaman - Restoration - Initialization</KeyMapString>
+          <MappedKeyString>Initialize</MappedKeyString>
+        </ToMappedKey>
+      </VirtualMappedKey>
+    </VirtualMappedKeys>
+    <VariableKeystrokeInstances />
+  </Character>
+  <Character>
+    <ExecuteOnLoad />
+    <Name>Mâkdûr</Name>
+    <AccountName>waymirec18</AccountName>
+    <SubAccountName>waymirec18</SubAccountName>
+    <ServerName>Nighthaven</ServerName>
+    <ActualName>Màkdûr</ActualName>
+    <Game>World of Warcraft</Game>
+    <GameProfile>New World of Warcraft Profile</GameProfile>
+    <KnownGame>WoW</KnownGame>
+    <RelayGroupStrings />
+    <KeyMapStrings>
+      <string>Shaman - Initialization</string>
+      <string>Shaman - Restoration - Initialization</string>
+      <string>Shaman - Restoration - Combat</string>
+      <string>Shaman - Restoration - DPS Rotation</string>
+      <string>Shaman - Restoration - Healing</string>
+      <string>Shaman - Restoration - Healing Rotation</string>
+    </KeyMapStrings>
+    <KeyMapWhiteOrBlackListType>Ignore</KeyMapWhiteOrBlackListType>
+    <KeyMapWhiteOrBlackList />
+    <ClickBarStrings />
+    <MenuInstances />
+    <VirtualFileTargets>
+      <VirtualFileTarget>
+        <Filename>Battle.net-Màkdûr.config</Filename>
+        <VirtualFileString>Battle.net.config</VirtualFileString>
+      </VirtualFileTarget>
+      <VirtualFileTarget>
+        <Filename>Config-Màkdûr.WTF</Filename>
+        <VirtualFileString>Config.WTF</VirtualFileString>
+      </VirtualFileTarget>
+      <VirtualFileTarget>
+        <Filename>Software/Blizzard Entertainment/Battle.net-ISBoxer/Màkdûr/</Filename>
+        <VirtualFileString>Software/Blizzard Entertainment/Battle.net/</VirtualFileString>
+      </VirtualFileTarget>
+    </VirtualFileTargets>
+    <WoWMacroSets>
+      <WoWMacroSetLooseRef>
+        <WoWMacroSetString>Shaman</WoWMacroSetString>
+      </WoWMacroSetLooseRef>
+    </WoWMacroSets>
+    <CrypticMacroSets />
+    <VirtualMappedKeys>
+      <VirtualMappedKey>
+        <FromMappedKey>
+          <KeyMapString>Initialization</KeyMapString>
+          <MappedKeyString>Initialize - Class</MappedKeyString>
+        </FromMappedKey>
+        <ToMappedKey>
+          <KeyMapString>Shaman - Restoration - Initialization</KeyMapString>
+          <MappedKeyString>Initialize</MappedKeyString>
+        </ToMappedKey>
+      </VirtualMappedKey>
+    </VirtualMappedKeys>
+    <VariableKeystrokeInstances />
+  </Character>
+  <Character>
+    <ExecuteOnLoad />
+    <Name>Mäkdúr</Name>
+    <AccountName>waymirec19</AccountName>
+    <SubAccountName>waymirec19</SubAccountName>
+    <ServerName>Nighthaven</ServerName>
+    <ActualName>Màkdûr</ActualName>
+    <Game>World of Warcraft</Game>
+    <GameProfile>New World of Warcraft Profile</GameProfile>
+    <KnownGame>WoW</KnownGame>
+    <RelayGroupStrings />
+    <KeyMapStrings>
+      <string>Shaman - Initialization</string>
+      <string>Shaman - Restoration - Initialization</string>
+      <string>Shaman - Restoration - Combat</string>
+      <string>Shaman - Restoration - DPS Rotation</string>
+      <string>Shaman - Restoration - Healing</string>
+      <string>Shaman - Restoration - Healing Rotation</string>
+    </KeyMapStrings>
+    <KeyMapWhiteOrBlackListType>Ignore</KeyMapWhiteOrBlackListType>
+    <KeyMapWhiteOrBlackList />
+    <ClickBarStrings />
+    <MenuInstances />
+    <VirtualFileTargets>
+      <VirtualFileTarget>
+        <Filename>Battle.net-Màkdûr.config</Filename>
+        <VirtualFileString>Battle.net.config</VirtualFileString>
+      </VirtualFileTarget>
+      <VirtualFileTarget>
+        <Filename>Config-Màkdûr.WTF</Filename>
+        <VirtualFileString>Config.WTF</VirtualFileString>
+      </VirtualFileTarget>
+      <VirtualFileTarget>
+        <Filename>Software/Blizzard Entertainment/Battle.net-ISBoxer/Màkdûr/</Filename>
+        <VirtualFileString>Software/Blizzard Entertainment/Battle.net/</VirtualFileString>
+      </VirtualFileTarget>
+    </VirtualFileTargets>
+    <WoWMacroSets>
+      <WoWMacroSetLooseRef>
+        <WoWMacroSetString>Shaman</WoWMacroSetString>
+      </WoWMacroSetLooseRef>
+    </WoWMacroSets>
+    <CrypticMacroSets />
+    <VirtualMappedKeys>
+      <VirtualMappedKey>
+        <FromMappedKey>
+          <KeyMapString>Initialization</KeyMapString>
+          <MappedKeyString>Initialize - Class</MappedKeyString>
+        </FromMappedKey>
+        <ToMappedKey>
+          <KeyMapString>Shaman - Restoration - Initialization</KeyMapString>
+          <MappedKeyString>Initialize</MappedKeyString>
+        </ToMappedKey>
+      </VirtualMappedKey>
+    </VirtualMappedKeys>
+    <VariableKeystrokeInstances />
+  </Character>
+  <Character>
+    <ExecuteOnLoad />
+    <Name>Mäkdùr</Name>
+    <AccountName>waymirec20</AccountName>
+    <SubAccountName>waymirec20</SubAccountName>
+    <ServerName>Nighthaven</ServerName>
+    <ActualName>Màkdûr</ActualName>
+    <Game>World of Warcraft</Game>
+    <GameProfile>New World of Warcraft Profile</GameProfile>
     <KnownGame>WoW</KnownGame>
     <RelayGroupStrings />
     <KeyMapStrings>
@@ -40962,7 +41807,7 @@ See http://isboxer.com/wiki/WoW:Interact_with_Target.</Description>
     <X>0</X>
     <Y>1392</Y>
     <RowHeight>25</RowHeight>
-    <ColumnWidth>139</ColumnWidth>
+    <ColumnWidth>156</ColumnWidth>
     <BackgroundColor />
     <CellBorder_Color>
       <Red>255</Red>
