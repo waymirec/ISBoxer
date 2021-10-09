@@ -1,0 +1,2265 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ISBoxerToolkitGlobalSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="42">
+  <Image>
+    <Name>Line Formation pressed</Name>
+    <ImageSet>Default</ImageSet>
+    <Filename>C:\Program Files (x86)\InnerSpace\Scripts\ISBoxer Images\Line Formation.png</Filename>
+    <Crop>
+      <Location>
+        <X>0</X>
+        <Y>0</Y>
+      </Location>
+      <Size>
+        <Width>0</Width>
+        <Height>0</Height>
+      </Size>
+      <X>0</X>
+      <Y>0</Y>
+      <Width>0</Width>
+      <Height>0</Height>
+    </Crop>
+    <ColorMask>
+      <Red>51</Red>
+      <Green>51</Green>
+      <Blue>51</Blue>
+    </ColorMask>
+  </Image>
+  <Image>
+    <Name>Flying V Formation pressed</Name>
+    <ImageSet>Default</ImageSet>
+    <Filename>C:\Program Files (x86)\InnerSpace\Scripts\ISBoxer Images\Flying V Formation.png</Filename>
+    <Crop>
+      <Location>
+        <X>0</X>
+        <Y>0</Y>
+      </Location>
+      <Size>
+        <Width>0</Width>
+        <Height>0</Height>
+      </Size>
+      <X>0</X>
+      <Y>0</Y>
+      <Width>0</Width>
+      <Height>0</Height>
+    </Crop>
+    <ColorMask>
+      <Red>51</Red>
+      <Green>51</Green>
+      <Blue>51</Blue>
+    </ColorMask>
+  </Image>
+  <Image>
+    <Name>4 pt star Formation pressed</Name>
+    <ImageSet>Default</ImageSet>
+    <Filename>C:\Program Files (x86)\InnerSpace\Scripts\ISBoxer Images\4 pt star Formation.png</Filename>
+    <Crop>
+      <Location>
+        <X>0</X>
+        <Y>0</Y>
+      </Location>
+      <Size>
+        <Width>0</Width>
+        <Height>0</Height>
+      </Size>
+      <X>0</X>
+      <Y>0</Y>
+      <Width>0</Width>
+      <Height>0</Height>
+    </Crop>
+    <ColorMask>
+      <Red>51</Red>
+      <Green>51</Green>
+      <Blue>51</Blue>
+    </ColorMask>
+  </Image>
+  <Image>
+    <Name>#FF606060</Name>
+    <ImageSet>Default</ImageSet>
+    <Filename />
+    <Crop>
+      <Location>
+        <X>0</X>
+        <Y>0</Y>
+      </Location>
+      <Size>
+        <Width>0</Width>
+        <Height>0</Height>
+      </Size>
+      <X>0</X>
+      <Y>0</Y>
+      <Width>0</Width>
+      <Height>0</Height>
+    </Crop>
+    <ColorMask>
+      <Red>96</Red>
+      <Green>96</Green>
+      <Blue>96</Blue>
+    </ColorMask>
+  </Image>
+  <Image>
+    <Name>#FF404040</Name>
+    <ImageSet>Default</ImageSet>
+    <Filename />
+    <Crop>
+      <Location>
+        <X>0</X>
+        <Y>0</Y>
+      </Location>
+      <Size>
+        <Width>0</Width>
+        <Height>0</Height>
+      </Size>
+      <X>0</X>
+      <Y>0</Y>
+      <Width>0</Width>
+      <Height>0</Height>
+    </Crop>
+    <ColorMask>
+      <Red>64</Red>
+      <Green>64</Green>
+      <Blue>64</Blue>
+    </ColorMask>
+  </Image>
+  <Image>
+    <Name>#FF000000</Name>
+    <ImageSet>Default</ImageSet>
+    <Filename />
+    <Crop>
+      <Location>
+        <X>0</X>
+        <Y>0</Y>
+      </Location>
+      <Size>
+        <Width>0</Width>
+        <Height>0</Height>
+      </Size>
+      <X>0</X>
+      <Y>0</Y>
+      <Width>0</Width>
+      <Height>0</Height>
+    </Crop>
+    <ColorMask />
+  </Image>
+  <Image>
+    <Name>ISBoxer logo</Name>
+    <ImageSet>Default</ImageSet>
+    <Filename>C:\Program Files (x86)\InnerSpace\Scripts\ISBoxer Images\ISBoxer logo 48x48.png</Filename>
+    <Crop>
+      <Location>
+        <X>0</X>
+        <Y>0</Y>
+      </Location>
+      <Size>
+        <Width>0</Width>
+        <Height>0</Height>
+      </Size>
+      <X>0</X>
+      <Y>0</Y>
+      <Width>0</Width>
+      <Height>0</Height>
+    </Crop>
+  </Image>
+  <Image>
+    <Name>key maps pressed</Name>
+    <ImageSet>Default</ImageSet>
+    <Filename>C:\Program Files (x86)\InnerSpace\Scripts\ISBoxer Images\Key Maps On.png</Filename>
+    <Crop>
+      <Location>
+        <X>0</X>
+        <Y>0</Y>
+      </Location>
+      <Size>
+        <Width>0</Width>
+        <Height>0</Height>
+      </Size>
+      <X>0</X>
+      <Y>0</Y>
+      <Width>0</Width>
+      <Height>0</Height>
+    </Crop>
+    <ColorMask>
+      <Red>51</Red>
+      <Green>51</Green>
+      <Blue>51</Blue>
+    </ColorMask>
+  </Image>
+  <Image>
+    <Name>repeater pressed</Name>
+    <ImageSet>Default</ImageSet>
+    <Filename>C:\Program Files (x86)\InnerSpace\Scripts\ISBoxer Images\Repeater On 2.png</Filename>
+    <Crop>
+      <Location>
+        <X>0</X>
+        <Y>0</Y>
+      </Location>
+      <Size>
+        <Width>0</Width>
+        <Height>0</Height>
+      </Size>
+      <X>0</X>
+      <Y>0</Y>
+      <Width>0</Width>
+      <Height>0</Height>
+    </Crop>
+    <ColorMask>
+      <Red>51</Red>
+      <Green>51</Green>
+      <Blue>51</Blue>
+    </ColorMask>
+  </Image>
+  <Image>
+    <Name>Line Formation</Name>
+    <ImageSet>Default</ImageSet>
+    <Filename>C:\Program Files (x86)\InnerSpace\Scripts\ISBoxer Images\Line Formation.png</Filename>
+    <Crop>
+      <Location>
+        <X>0</X>
+        <Y>0</Y>
+      </Location>
+      <Size>
+        <Width>0</Width>
+        <Height>0</Height>
+      </Size>
+      <X>0</X>
+      <Y>0</Y>
+      <Width>0</Width>
+      <Height>0</Height>
+    </Crop>
+  </Image>
+  <Image>
+    <Name>4 pt star Formation</Name>
+    <ImageSet>Default</ImageSet>
+    <Filename>C:\Program Files (x86)\InnerSpace\Scripts\ISBoxer Images\4 pt star Formation.png</Filename>
+    <Crop>
+      <Location>
+        <X>0</X>
+        <Y>0</Y>
+      </Location>
+      <Size>
+        <Width>0</Width>
+        <Height>0</Height>
+      </Size>
+      <X>0</X>
+      <Y>0</Y>
+      <Width>0</Width>
+      <Height>0</Height>
+    </Crop>
+  </Image>
+  <Image>
+    <Name>Flying V Formation</Name>
+    <ImageSet>Default</ImageSet>
+    <Filename>C:\Program Files (x86)\InnerSpace\Scripts\ISBoxer Images\Flying V Formation.png</Filename>
+    <Crop>
+      <Location>
+        <X>0</X>
+        <Y>0</Y>
+      </Location>
+      <Size>
+        <Width>0</Width>
+        <Height>0</Height>
+      </Size>
+      <X>0</X>
+      <Y>0</Y>
+      <Width>0</Width>
+      <Height>0</Height>
+    </Crop>
+  </Image>
+  <Image>
+    <Name>repeater off</Name>
+    <ImageSet>Default</ImageSet>
+    <Filename>C:\Program Files (x86)\InnerSpace\Scripts\ISBoxer Images\Repeater Off 2.png</Filename>
+    <Crop>
+      <Location>
+        <X>0</X>
+        <Y>0</Y>
+      </Location>
+      <Size>
+        <Width>0</Width>
+        <Height>0</Height>
+      </Size>
+      <X>0</X>
+      <Y>0</Y>
+      <Width>0</Width>
+      <Height>0</Height>
+    </Crop>
+  </Image>
+  <Image>
+    <Name>repeater on</Name>
+    <ImageSet>Default</ImageSet>
+    <Filename>C:\Program Files (x86)\InnerSpace\Scripts\ISBoxer Images\Repeater On 2.png</Filename>
+    <Crop>
+      <Location>
+        <X>0</X>
+        <Y>0</Y>
+      </Location>
+      <Size>
+        <Width>0</Width>
+        <Height>0</Height>
+      </Size>
+      <X>0</X>
+      <Y>0</Y>
+      <Width>0</Width>
+      <Height>0</Height>
+    </Crop>
+  </Image>
+  <Image>
+    <Name>key maps on</Name>
+    <ImageSet>Default</ImageSet>
+    <Filename>C:\Program Files (x86)\InnerSpace\Scripts\ISBoxer Images\Key Maps On.png</Filename>
+    <Crop>
+      <Location>
+        <X>0</X>
+        <Y>0</Y>
+      </Location>
+      <Size>
+        <Width>0</Width>
+        <Height>0</Height>
+      </Size>
+      <X>0</X>
+      <Y>0</Y>
+      <Width>0</Width>
+      <Height>0</Height>
+    </Crop>
+  </Image>
+  <Image>
+    <Name>key maps off</Name>
+    <ImageSet>Default</ImageSet>
+    <Filename>C:\Program Files (x86)\InnerSpace\Scripts\ISBoxer Images\Key Maps Off.png</Filename>
+    <Crop>
+      <Location>
+        <X>0</X>
+        <Y>0</Y>
+      </Location>
+      <Size>
+        <Width>0</Width>
+        <Height>0</Height>
+      </Size>
+      <X>0</X>
+      <Y>0</Y>
+      <Width>0</Width>
+      <Height>0</Height>
+    </Crop>
+  </Image>
+  <Image>
+    <Name>40px-Eo_circle_pink_letter-m.svg.png</Name>
+    <ImageSet>Misc</ImageSet>
+    <Filename>C:\Users\Chris Waymire\OneDrive\Documents\WoW\ISBoxer\images\40px-Eo_circle_pink_letter-m.svg.png</Filename>
+    <Crop>
+      <Location>
+        <X>0</X>
+        <Y>0</Y>
+      </Location>
+      <Size>
+        <Width>0</Width>
+        <Height>0</Height>
+      </Size>
+      <X>0</X>
+      <Y>0</Y>
+      <Width>0</Width>
+      <Height>0</Height>
+    </Crop>
+  </Image>
+  <Image>
+    <Name>40px-Eo_circle_pink_letter-s.svg.png</Name>
+    <ImageSet>Misc</ImageSet>
+    <Filename>C:\Users\Chris Waymire\OneDrive\Documents\WoW\ISBoxer\images\40px-Eo_circle_pink_letter-s.svg.png</Filename>
+    <Crop>
+      <Location>
+        <X>0</X>
+        <Y>0</Y>
+      </Location>
+      <Size>
+        <Width>0</Width>
+        <Height>0</Height>
+      </Size>
+      <X>0</X>
+      <Y>0</Y>
+      <Width>0</Width>
+      <Height>0</Height>
+    </Crop>
+  </Image>
+  <Image>
+    <Name>768px-Eo_circle_pink_letter-m.svg.png</Name>
+    <ImageSet>Misc</ImageSet>
+    <Filename>C:\Users\Chris Waymire\OneDrive\Documents\WoW\ISBoxer\images\768px-Eo_circle_pink_letter-m.svg.png</Filename>
+    <Crop>
+      <Location>
+        <X>0</X>
+        <Y>0</Y>
+      </Location>
+      <Size>
+        <Width>0</Width>
+        <Height>0</Height>
+      </Size>
+      <X>0</X>
+      <Y>0</Y>
+      <Width>0</Width>
+      <Height>0</Height>
+    </Crop>
+  </Image>
+  <Image>
+    <Name>1200px-Eo_circle_pink_letter-s.svg.png</Name>
+    <ImageSet>Misc</ImageSet>
+    <Filename>C:\Users\Chris Waymire\OneDrive\Documents\WoW\ISBoxer\images\1200px-Eo_circle_pink_letter-s.svg.png</Filename>
+    <Crop>
+      <Location>
+        <X>0</X>
+        <Y>0</Y>
+      </Location>
+      <Size>
+        <Width>0</Width>
+        <Height>0</Height>
+      </Size>
+      <X>0</X>
+      <Y>0</Y>
+      <Width>0</Width>
+      <Height>0</Height>
+    </Crop>
+  </Image>
+  <Image>
+    <Name>ability_tracking.jpg</Name>
+    <ImageSet>Misc</ImageSet>
+    <Filename>C:\Users\Chris Waymire\OneDrive\Documents\WoW\ISBoxer\images\ability_tracking.jpg</Filename>
+    <Crop>
+      <Location>
+        <X>0</X>
+        <Y>0</Y>
+      </Location>
+      <Size>
+        <Width>0</Width>
+        <Height>0</Height>
+      </Size>
+      <X>0</X>
+      <Y>0</Y>
+      <Width>0</Width>
+      <Height>0</Height>
+    </Crop>
+  </Image>
+  <Image>
+    <Name>inv_crate_02.jpg</Name>
+    <ImageSet>Misc</ImageSet>
+    <Filename>C:\Users\Chris Waymire\OneDrive\Documents\WoW\ISBoxer\images\inv_crate_02.jpg</Filename>
+    <Crop>
+      <Location>
+        <X>0</X>
+        <Y>0</Y>
+      </Location>
+      <Size>
+        <Width>0</Width>
+        <Height>0</Height>
+      </Size>
+      <X>0</X>
+      <Y>0</Y>
+      <Width>0</Width>
+      <Height>0</Height>
+    </Crop>
+  </Image>
+  <Image>
+    <Name>enhancement.jpg</Name>
+    <ImageSet>Shaman - General</ImageSet>
+    <Filename>C:\Users\Chris Waymire\OneDrive\Documents\WoW\ISBoxer\images\Shaman\enhancement.jpg</Filename>
+    <Crop>
+      <Location>
+        <X>0</X>
+        <Y>0</Y>
+      </Location>
+      <Size>
+        <Width>0</Width>
+        <Height>0</Height>
+      </Size>
+      <X>0</X>
+      <Y>0</Y>
+      <Width>0</Width>
+      <Height>0</Height>
+    </Crop>
+  </Image>
+  <Image>
+    <Name>restoration.jpg</Name>
+    <ImageSet>Shaman - General</ImageSet>
+    <Filename>C:\Users\Chris Waymire\OneDrive\Documents\WoW\ISBoxer\images\Shaman\restoration.jpg</Filename>
+    <Crop>
+      <Location>
+        <X>0</X>
+        <Y>0</Y>
+      </Location>
+      <Size>
+        <Width>0</Width>
+        <Height>0</Height>
+      </Size>
+      <X>0</X>
+      <Y>0</Y>
+      <Width>0</Width>
+      <Height>0</Height>
+    </Crop>
+  </Image>
+  <Image>
+    <Name>spell_nature_astralrecal.jpg</Name>
+    <ImageSet>Shaman - General</ImageSet>
+    <Filename>C:\Users\Chris Waymire\OneDrive\Documents\WoW\ISBoxer\images\Shaman\spell_nature_astralrecal.jpg</Filename>
+    <Crop>
+      <Location>
+        <X>0</X>
+        <Y>0</Y>
+      </Location>
+      <Size>
+        <Width>0</Width>
+        <Height>0</Height>
+      </Size>
+      <X>0</X>
+      <Y>0</Y>
+      <Width>0</Width>
+      <Height>0</Height>
+    </Crop>
+  </Image>
+  <Image>
+    <Name>spell_nature_bloodlust.jpg</Name>
+    <ImageSet>Shaman - General</ImageSet>
+    <Filename>C:\Users\Chris Waymire\OneDrive\Documents\WoW\ISBoxer\images\Shaman\spell_nature_bloodlust.jpg</Filename>
+    <Crop>
+      <Location>
+        <X>0</X>
+        <Y>0</Y>
+      </Location>
+      <Size>
+        <Width>0</Width>
+        <Height>0</Height>
+      </Size>
+      <X>0</X>
+      <Y>0</Y>
+      <Width>0</Width>
+      <Height>0</Height>
+    </Crop>
+  </Image>
+  <Image>
+    <Name>spell_shaman_healingwave.jpg</Name>
+    <ImageSet>Shaman - General</ImageSet>
+    <Filename>C:\Users\Chris Waymire\OneDrive\Documents\WoW\ISBoxer\images\Shaman\spell_shaman_healingwave.jpg</Filename>
+    <Crop>
+      <Location>
+        <X>0</X>
+        <Y>0</Y>
+      </Location>
+      <Size>
+        <Width>0</Width>
+        <Height>0</Height>
+      </Size>
+      <X>0</X>
+      <Y>0</Y>
+      <Width>0</Width>
+      <Height>0</Height>
+    </Crop>
+  </Image>
+  <Image>
+    <Name>spell_shaman_thunderstorm.jpg</Name>
+    <ImageSet>Shaman - General</ImageSet>
+    <Filename>C:\Users\Chris Waymire\OneDrive\Documents\WoW\ISBoxer\images\Shaman\spell_shaman_thunderstorm.jpg</Filename>
+    <Crop>
+      <Location>
+        <X>0</X>
+        <Y>0</Y>
+      </Location>
+      <Size>
+        <Width>0</Width>
+        <Height>0</Height>
+      </Size>
+      <X>0</X>
+      <Y>0</Y>
+      <Width>0</Width>
+      <Height>0</Height>
+    </Crop>
+  </Image>
+  <Image>
+    <Name>earthbind_totem.jpg</Name>
+    <ImageSet>Shaman - Totems</ImageSet>
+    <Filename>C:\Users\Chris Waymire\OneDrive\Documents\WoW\ISBoxer\images\Shaman\Totems\earthbind_totem.jpg</Filename>
+    <Crop>
+      <Location>
+        <X>0</X>
+        <Y>0</Y>
+      </Location>
+      <Size>
+        <Width>0</Width>
+        <Height>0</Height>
+      </Size>
+      <X>0</X>
+      <Y>0</Y>
+      <Width>0</Width>
+      <Height>0</Height>
+    </Crop>
+  </Image>
+  <Image>
+    <Name>fire_nova_totem.jpg</Name>
+    <ImageSet>Shaman - Totems</ImageSet>
+    <Filename>C:\Users\Chris Waymire\OneDrive\Documents\WoW\ISBoxer\images\Shaman\Totems\fire_nova_totem.jpg</Filename>
+    <Crop>
+      <Location>
+        <X>0</X>
+        <Y>0</Y>
+      </Location>
+      <Size>
+        <Width>0</Width>
+        <Height>0</Height>
+      </Size>
+      <X>0</X>
+      <Y>0</Y>
+      <Width>0</Width>
+      <Height>0</Height>
+    </Crop>
+  </Image>
+  <Image>
+    <Name>frost_resistance_totem.jpg</Name>
+    <ImageSet>Shaman - Totems</ImageSet>
+    <Filename>C:\Users\Chris Waymire\OneDrive\Documents\WoW\ISBoxer\images\Shaman\Totems\frost_resistance_totem.jpg</Filename>
+    <Crop>
+      <Location>
+        <X>0</X>
+        <Y>0</Y>
+      </Location>
+      <Size>
+        <Width>0</Width>
+        <Height>0</Height>
+      </Size>
+      <X>0</X>
+      <Y>0</Y>
+      <Width>0</Width>
+      <Height>0</Height>
+    </Crop>
+  </Image>
+  <Image>
+    <Name>healing_stream_totem.jpg</Name>
+    <ImageSet>Shaman - Totems</ImageSet>
+    <Filename>C:\Users\Chris Waymire\OneDrive\Documents\WoW\ISBoxer\images\Shaman\Totems\healing_stream_totem.jpg</Filename>
+    <Crop>
+      <Location>
+        <X>0</X>
+        <Y>0</Y>
+      </Location>
+      <Size>
+        <Width>0</Width>
+        <Height>0</Height>
+      </Size>
+      <X>0</X>
+      <Y>0</Y>
+      <Width>0</Width>
+      <Height>0</Height>
+    </Crop>
+  </Image>
+  <Image>
+    <Name>magma_totem.jpg</Name>
+    <ImageSet>Shaman - Totems</ImageSet>
+    <Filename>C:\Users\Chris Waymire\OneDrive\Documents\WoW\ISBoxer\images\Shaman\Totems\magma_totem.jpg</Filename>
+    <Crop>
+      <Location>
+        <X>0</X>
+        <Y>0</Y>
+      </Location>
+      <Size>
+        <Width>0</Width>
+        <Height>0</Height>
+      </Size>
+      <X>0</X>
+      <Y>0</Y>
+      <Width>0</Width>
+      <Height>0</Height>
+    </Crop>
+  </Image>
+  <Image>
+    <Name>poison_cleansing_totem.jpg</Name>
+    <ImageSet>Shaman - Totems</ImageSet>
+    <Filename>C:\Users\Chris Waymire\OneDrive\Documents\WoW\ISBoxer\images\Shaman\Totems\poison_cleansing_totem.jpg</Filename>
+    <Crop>
+      <Location>
+        <X>0</X>
+        <Y>0</Y>
+      </Location>
+      <Size>
+        <Width>0</Width>
+        <Height>0</Height>
+      </Size>
+      <X>0</X>
+      <Y>0</Y>
+      <Width>0</Width>
+      <Height>0</Height>
+    </Crop>
+  </Image>
+  <Image>
+    <Name>searing_totem.jpg</Name>
+    <ImageSet>Shaman - Totems</ImageSet>
+    <Filename>C:\Users\Chris Waymire\OneDrive\Documents\WoW\ISBoxer\images\Shaman\Totems\searing_totem.jpg</Filename>
+    <Crop>
+      <Location>
+        <X>0</X>
+        <Y>0</Y>
+      </Location>
+      <Size>
+        <Width>0</Width>
+        <Height>0</Height>
+      </Size>
+      <X>0</X>
+      <Y>0</Y>
+      <Width>0</Width>
+      <Height>0</Height>
+    </Crop>
+  </Image>
+  <Image>
+    <Name>spell_fire_elemental_totem.jpg</Name>
+    <ImageSet>Shaman - Totems</ImageSet>
+    <Filename>C:\Users\Chris Waymire\OneDrive\Documents\WoW\ISBoxer\images\Shaman\Totems\spell_fire_elemental_totem.jpg</Filename>
+    <Crop>
+      <Location>
+        <X>0</X>
+        <Y>0</Y>
+      </Location>
+      <Size>
+        <Width>0</Width>
+        <Height>0</Height>
+      </Size>
+      <X>0</X>
+      <Y>0</Y>
+      <Width>0</Width>
+      <Height>0</Height>
+    </Crop>
+  </Image>
+  <Image>
+    <Name>spell_fire_totemofwrath.jpg</Name>
+    <ImageSet>Shaman - Totems</ImageSet>
+    <Filename>C:\Users\Chris Waymire\OneDrive\Documents\WoW\ISBoxer\images\Shaman\Totems\spell_fire_totemofwrath.jpg</Filename>
+    <Crop>
+      <Location>
+        <X>0</X>
+        <Y>0</Y>
+      </Location>
+      <Size>
+        <Width>0</Width>
+        <Height>0</Height>
+      </Size>
+      <X>0</X>
+      <Y>0</Y>
+      <Width>0</Width>
+      <Height>0</Height>
+    </Crop>
+  </Image>
+  <Image>
+    <Name>spell_nature_groundingtotem.jpg</Name>
+    <ImageSet>Shaman - Totems</ImageSet>
+    <Filename>C:\Users\Chris Waymire\OneDrive\Documents\WoW\ISBoxer\images\Shaman\Totems\spell_nature_groundingtotem.jpg</Filename>
+    <Crop>
+      <Location>
+        <X>0</X>
+        <Y>0</Y>
+      </Location>
+      <Size>
+        <Width>0</Width>
+        <Height>0</Height>
+      </Size>
+      <X>0</X>
+      <Y>0</Y>
+      <Width>0</Width>
+      <Height>0</Height>
+    </Crop>
+  </Image>
+  <Image>
+    <Name>spell_nature_manaregentotem.jpg</Name>
+    <ImageSet>Shaman - Totems</ImageSet>
+    <Filename>C:\Users\Chris Waymire\OneDrive\Documents\WoW\ISBoxer\images\Shaman\Totems\spell_nature_manaregentotem.jpg</Filename>
+    <Crop>
+      <Location>
+        <X>0</X>
+        <Y>0</Y>
+      </Location>
+      <Size>
+        <Width>0</Width>
+        <Height>0</Height>
+      </Size>
+      <X>0</X>
+      <Y>0</Y>
+      <Width>0</Width>
+      <Height>0</Height>
+    </Crop>
+  </Image>
+  <Image>
+    <Name>spell_nature_windfury.jpg</Name>
+    <ImageSet>Shaman - Totems</ImageSet>
+    <Filename>C:\Users\Chris Waymire\OneDrive\Documents\WoW\ISBoxer\images\Shaman\Totems\spell_nature_windfury.jpg</Filename>
+    <Crop>
+      <Location>
+        <X>0</X>
+        <Y>0</Y>
+      </Location>
+      <Size>
+        <Width>0</Width>
+        <Height>0</Height>
+      </Size>
+      <X>0</X>
+      <Y>0</Y>
+      <Width>0</Width>
+      <Height>0</Height>
+    </Crop>
+  </Image>
+  <Image>
+    <Name>stoneskin_totem.jpg</Name>
+    <ImageSet>Shaman - Totems</ImageSet>
+    <Filename>C:\Users\Chris Waymire\OneDrive\Documents\WoW\ISBoxer\images\Shaman\Totems\stoneskin_totem.jpg</Filename>
+    <Crop>
+      <Location>
+        <X>0</X>
+        <Y>0</Y>
+      </Location>
+      <Size>
+        <Width>0</Width>
+        <Height>0</Height>
+      </Size>
+      <X>0</X>
+      <Y>0</Y>
+      <Width>0</Width>
+      <Height>0</Height>
+    </Crop>
+  </Image>
+  <Image>
+    <Name>strength_of_earth_totem.jpg</Name>
+    <ImageSet>Shaman - Totems</ImageSet>
+    <Filename>C:\Users\Chris Waymire\OneDrive\Documents\WoW\ISBoxer\images\Shaman\Totems\strength_of_earth_totem.jpg</Filename>
+    <Crop>
+      <Location>
+        <X>0</X>
+        <Y>0</Y>
+      </Location>
+      <Size>
+        <Width>0</Width>
+        <Height>0</Height>
+      </Size>
+      <X>0</X>
+      <Y>0</Y>
+      <Width>0</Width>
+      <Height>0</Height>
+    </Crop>
+  </Image>
+  <Image>
+    <Name>tremor_totem.jpg</Name>
+    <ImageSet>Shaman - Totems</ImageSet>
+    <Filename>C:\Users\Chris Waymire\OneDrive\Documents\WoW\ISBoxer\images\Shaman\Totems\tremor_totem.jpg</Filename>
+    <Crop>
+      <Location>
+        <X>0</X>
+        <Y>0</Y>
+      </Location>
+      <Size>
+        <Width>0</Width>
+        <Height>0</Height>
+      </Size>
+      <X>0</X>
+      <Y>0</Y>
+      <Width>0</Width>
+      <Height>0</Height>
+    </Crop>
+  </Image>
+  <Image>
+    <Name>0-100.png</Name>
+    <ImageSet>Alphanumeric - Green</ImageSet>
+    <Filename>C:\Users\Chris Waymire\OneDrive\Documents\WoW\ISBoxer\images\misc\alphanumeric\green\0-100.png</Filename>
+    <Crop>
+      <Location>
+        <X>0</X>
+        <Y>0</Y>
+      </Location>
+      <Size>
+        <Width>0</Width>
+        <Height>0</Height>
+      </Size>
+      <X>0</X>
+      <Y>0</Y>
+      <Width>0</Width>
+      <Height>0</Height>
+    </Crop>
+  </Image>
+  <Image>
+    <Name>Green 1-100.png</Name>
+    <ImageSet>Alphanumeric - Green</ImageSet>
+    <Filename>C:\Users\Chris Waymire\OneDrive\Documents\WoW\ISBoxer\images\misc\alphanumeric\green\1-100.png</Filename>
+    <Crop>
+      <Location>
+        <X>0</X>
+        <Y>0</Y>
+      </Location>
+      <Size>
+        <Width>0</Width>
+        <Height>0</Height>
+      </Size>
+      <X>0</X>
+      <Y>0</Y>
+      <Width>0</Width>
+      <Height>0</Height>
+    </Crop>
+  </Image>
+  <Image>
+    <Name>Green 2-100.png</Name>
+    <ImageSet>Alphanumeric - Green</ImageSet>
+    <Filename>C:\Users\Chris Waymire\OneDrive\Documents\WoW\ISBoxer\images\misc\alphanumeric\green\2-100.png</Filename>
+    <Crop>
+      <Location>
+        <X>0</X>
+        <Y>0</Y>
+      </Location>
+      <Size>
+        <Width>0</Width>
+        <Height>0</Height>
+      </Size>
+      <X>0</X>
+      <Y>0</Y>
+      <Width>0</Width>
+      <Height>0</Height>
+    </Crop>
+  </Image>
+  <Image>
+    <Name>Green 3-100.png</Name>
+    <ImageSet>Alphanumeric - Green</ImageSet>
+    <Filename>C:\Users\Chris Waymire\OneDrive\Documents\WoW\ISBoxer\images\misc\alphanumeric\green\3-100.png</Filename>
+    <Crop>
+      <Location>
+        <X>0</X>
+        <Y>0</Y>
+      </Location>
+      <Size>
+        <Width>0</Width>
+        <Height>0</Height>
+      </Size>
+      <X>0</X>
+      <Y>0</Y>
+      <Width>0</Width>
+      <Height>0</Height>
+    </Crop>
+  </Image>
+  <Image>
+    <Name>Green 4-100.png</Name>
+    <ImageSet>Alphanumeric - Green</ImageSet>
+    <Filename>C:\Users\Chris Waymire\OneDrive\Documents\WoW\ISBoxer\images\misc\alphanumeric\green\4-100.png</Filename>
+    <Crop>
+      <Location>
+        <X>0</X>
+        <Y>0</Y>
+      </Location>
+      <Size>
+        <Width>0</Width>
+        <Height>0</Height>
+      </Size>
+      <X>0</X>
+      <Y>0</Y>
+      <Width>0</Width>
+      <Height>0</Height>
+    </Crop>
+  </Image>
+  <Image>
+    <Name>Green 5-100.png</Name>
+    <ImageSet>Alphanumeric - Green</ImageSet>
+    <Filename>C:\Users\Chris Waymire\OneDrive\Documents\WoW\ISBoxer\images\misc\alphanumeric\green\5-100.png</Filename>
+    <Crop>
+      <Location>
+        <X>0</X>
+        <Y>0</Y>
+      </Location>
+      <Size>
+        <Width>0</Width>
+        <Height>0</Height>
+      </Size>
+      <X>0</X>
+      <Y>0</Y>
+      <Width>0</Width>
+      <Height>0</Height>
+    </Crop>
+  </Image>
+  <Image>
+    <Name>Green 6-100.png</Name>
+    <ImageSet>Alphanumeric - Green</ImageSet>
+    <Filename>C:\Users\Chris Waymire\OneDrive\Documents\WoW\ISBoxer\images\misc\alphanumeric\green\6-100.png</Filename>
+    <Crop>
+      <Location>
+        <X>0</X>
+        <Y>0</Y>
+      </Location>
+      <Size>
+        <Width>0</Width>
+        <Height>0</Height>
+      </Size>
+      <X>0</X>
+      <Y>0</Y>
+      <Width>0</Width>
+      <Height>0</Height>
+    </Crop>
+  </Image>
+  <Image>
+    <Name>Green 7-100.png</Name>
+    <ImageSet>Alphanumeric - Green</ImageSet>
+    <Filename>C:\Users\Chris Waymire\OneDrive\Documents\WoW\ISBoxer\images\misc\alphanumeric\green\7-100.png</Filename>
+    <Crop>
+      <Location>
+        <X>0</X>
+        <Y>0</Y>
+      </Location>
+      <Size>
+        <Width>0</Width>
+        <Height>0</Height>
+      </Size>
+      <X>0</X>
+      <Y>0</Y>
+      <Width>0</Width>
+      <Height>0</Height>
+    </Crop>
+  </Image>
+  <Image>
+    <Name>Green 8-100.png</Name>
+    <ImageSet>Alphanumeric - Green</ImageSet>
+    <Filename>C:\Users\Chris Waymire\OneDrive\Documents\WoW\ISBoxer\images\misc\alphanumeric\green\8-100.png</Filename>
+    <Crop>
+      <Location>
+        <X>0</X>
+        <Y>0</Y>
+      </Location>
+      <Size>
+        <Width>0</Width>
+        <Height>0</Height>
+      </Size>
+      <X>0</X>
+      <Y>0</Y>
+      <Width>0</Width>
+      <Height>0</Height>
+    </Crop>
+  </Image>
+  <Image>
+    <Name>Green 9-100.png</Name>
+    <ImageSet>Alphanumeric - Green</ImageSet>
+    <Filename>C:\Users\Chris Waymire\OneDrive\Documents\WoW\ISBoxer\images\misc\alphanumeric\green\9-100.png</Filename>
+    <Crop>
+      <Location>
+        <X>0</X>
+        <Y>0</Y>
+      </Location>
+      <Size>
+        <Width>0</Width>
+        <Height>0</Height>
+      </Size>
+      <X>0</X>
+      <Y>0</Y>
+      <Width>0</Width>
+      <Height>0</Height>
+    </Crop>
+  </Image>
+  <Image>
+    <Name>Green A-100.png</Name>
+    <ImageSet>Alphanumeric - Green</ImageSet>
+    <Filename>C:\Users\Chris Waymire\OneDrive\Documents\WoW\ISBoxer\images\misc\alphanumeric\green\A-100.png</Filename>
+    <Crop>
+      <Location>
+        <X>0</X>
+        <Y>0</Y>
+      </Location>
+      <Size>
+        <Width>0</Width>
+        <Height>0</Height>
+      </Size>
+      <X>0</X>
+      <Y>0</Y>
+      <Width>0</Width>
+      <Height>0</Height>
+    </Crop>
+  </Image>
+  <Image>
+    <Name>Green B-100.png</Name>
+    <ImageSet>Alphanumeric - Green</ImageSet>
+    <Filename>C:\Users\Chris Waymire\OneDrive\Documents\WoW\ISBoxer\images\misc\alphanumeric\green\B-100.png</Filename>
+    <Crop>
+      <Location>
+        <X>0</X>
+        <Y>0</Y>
+      </Location>
+      <Size>
+        <Width>0</Width>
+        <Height>0</Height>
+      </Size>
+      <X>0</X>
+      <Y>0</Y>
+      <Width>0</Width>
+      <Height>0</Height>
+    </Crop>
+  </Image>
+  <Image>
+    <Name>Green C-100.png</Name>
+    <ImageSet>Alphanumeric - Green</ImageSet>
+    <Filename>C:\Users\Chris Waymire\OneDrive\Documents\WoW\ISBoxer\images\misc\alphanumeric\green\C-100.png</Filename>
+    <Crop>
+      <Location>
+        <X>0</X>
+        <Y>0</Y>
+      </Location>
+      <Size>
+        <Width>0</Width>
+        <Height>0</Height>
+      </Size>
+      <X>0</X>
+      <Y>0</Y>
+      <Width>0</Width>
+      <Height>0</Height>
+    </Crop>
+  </Image>
+  <Image>
+    <Name>Green D-100.png</Name>
+    <ImageSet>Alphanumeric - Green</ImageSet>
+    <Filename>C:\Users\Chris Waymire\OneDrive\Documents\WoW\ISBoxer\images\misc\alphanumeric\green\D-100.png</Filename>
+    <Crop>
+      <Location>
+        <X>0</X>
+        <Y>0</Y>
+      </Location>
+      <Size>
+        <Width>0</Width>
+        <Height>0</Height>
+      </Size>
+      <X>0</X>
+      <Y>0</Y>
+      <Width>0</Width>
+      <Height>0</Height>
+    </Crop>
+  </Image>
+  <Image>
+    <Name>Green E-100.png</Name>
+    <ImageSet>Alphanumeric - Green</ImageSet>
+    <Filename>C:\Users\Chris Waymire\OneDrive\Documents\WoW\ISBoxer\images\misc\alphanumeric\green\E-100.png</Filename>
+    <Crop>
+      <Location>
+        <X>0</X>
+        <Y>0</Y>
+      </Location>
+      <Size>
+        <Width>0</Width>
+        <Height>0</Height>
+      </Size>
+      <X>0</X>
+      <Y>0</Y>
+      <Width>0</Width>
+      <Height>0</Height>
+    </Crop>
+  </Image>
+  <Image>
+    <Name>Green F-100.png</Name>
+    <ImageSet>Alphanumeric - Green</ImageSet>
+    <Filename>C:\Users\Chris Waymire\OneDrive\Documents\WoW\ISBoxer\images\misc\alphanumeric\green\F-100.png</Filename>
+    <Crop>
+      <Location>
+        <X>0</X>
+        <Y>0</Y>
+      </Location>
+      <Size>
+        <Width>0</Width>
+        <Height>0</Height>
+      </Size>
+      <X>0</X>
+      <Y>0</Y>
+      <Width>0</Width>
+      <Height>0</Height>
+    </Crop>
+  </Image>
+  <Image>
+    <Name>Green G-100.png</Name>
+    <ImageSet>Alphanumeric - Green</ImageSet>
+    <Filename>C:\Users\Chris Waymire\OneDrive\Documents\WoW\ISBoxer\images\misc\alphanumeric\green\G-100.png</Filename>
+    <Crop>
+      <Location>
+        <X>0</X>
+        <Y>0</Y>
+      </Location>
+      <Size>
+        <Width>0</Width>
+        <Height>0</Height>
+      </Size>
+      <X>0</X>
+      <Y>0</Y>
+      <Width>0</Width>
+      <Height>0</Height>
+    </Crop>
+  </Image>
+  <Image>
+    <Name>Green H-100.png</Name>
+    <ImageSet>Alphanumeric - Green</ImageSet>
+    <Filename>C:\Users\Chris Waymire\OneDrive\Documents\WoW\ISBoxer\images\misc\alphanumeric\green\H-100.png</Filename>
+    <Crop>
+      <Location>
+        <X>0</X>
+        <Y>0</Y>
+      </Location>
+      <Size>
+        <Width>0</Width>
+        <Height>0</Height>
+      </Size>
+      <X>0</X>
+      <Y>0</Y>
+      <Width>0</Width>
+      <Height>0</Height>
+    </Crop>
+  </Image>
+  <Image>
+    <Name>Green I-100.png</Name>
+    <ImageSet>Alphanumeric - Green</ImageSet>
+    <Filename>C:\Users\Chris Waymire\OneDrive\Documents\WoW\ISBoxer\images\misc\alphanumeric\green\I-100.png</Filename>
+    <Crop>
+      <Location>
+        <X>0</X>
+        <Y>0</Y>
+      </Location>
+      <Size>
+        <Width>0</Width>
+        <Height>0</Height>
+      </Size>
+      <X>0</X>
+      <Y>0</Y>
+      <Width>0</Width>
+      <Height>0</Height>
+    </Crop>
+  </Image>
+  <Image>
+    <Name>Green J-100.png</Name>
+    <ImageSet>Alphanumeric - Green</ImageSet>
+    <Filename>C:\Users\Chris Waymire\OneDrive\Documents\WoW\ISBoxer\images\misc\alphanumeric\green\J-100.png</Filename>
+    <Crop>
+      <Location>
+        <X>0</X>
+        <Y>0</Y>
+      </Location>
+      <Size>
+        <Width>0</Width>
+        <Height>0</Height>
+      </Size>
+      <X>0</X>
+      <Y>0</Y>
+      <Width>0</Width>
+      <Height>0</Height>
+    </Crop>
+  </Image>
+  <Image>
+    <Name>Green K-100.png</Name>
+    <ImageSet>Alphanumeric - Green</ImageSet>
+    <Filename>C:\Users\Chris Waymire\OneDrive\Documents\WoW\ISBoxer\images\misc\alphanumeric\green\K-100.png</Filename>
+    <Crop>
+      <Location>
+        <X>0</X>
+        <Y>0</Y>
+      </Location>
+      <Size>
+        <Width>0</Width>
+        <Height>0</Height>
+      </Size>
+      <X>0</X>
+      <Y>0</Y>
+      <Width>0</Width>
+      <Height>0</Height>
+    </Crop>
+  </Image>
+  <Image>
+    <Name>Green L-100.png</Name>
+    <ImageSet>Alphanumeric - Green</ImageSet>
+    <Filename>C:\Users\Chris Waymire\OneDrive\Documents\WoW\ISBoxer\images\misc\alphanumeric\green\L-100.png</Filename>
+    <Crop>
+      <Location>
+        <X>0</X>
+        <Y>0</Y>
+      </Location>
+      <Size>
+        <Width>0</Width>
+        <Height>0</Height>
+      </Size>
+      <X>0</X>
+      <Y>0</Y>
+      <Width>0</Width>
+      <Height>0</Height>
+    </Crop>
+  </Image>
+  <Image>
+    <Name>Green M-100.png</Name>
+    <ImageSet>Alphanumeric - Green</ImageSet>
+    <Filename>C:\Users\Chris Waymire\OneDrive\Documents\WoW\ISBoxer\images\misc\alphanumeric\green\M-100.png</Filename>
+    <Crop>
+      <Location>
+        <X>0</X>
+        <Y>0</Y>
+      </Location>
+      <Size>
+        <Width>0</Width>
+        <Height>0</Height>
+      </Size>
+      <X>0</X>
+      <Y>0</Y>
+      <Width>0</Width>
+      <Height>0</Height>
+    </Crop>
+  </Image>
+  <Image>
+    <Name>Green N-100.png</Name>
+    <ImageSet>Alphanumeric - Green</ImageSet>
+    <Filename>C:\Users\Chris Waymire\OneDrive\Documents\WoW\ISBoxer\images\misc\alphanumeric\green\N-100.png</Filename>
+    <Crop>
+      <Location>
+        <X>0</X>
+        <Y>0</Y>
+      </Location>
+      <Size>
+        <Width>0</Width>
+        <Height>0</Height>
+      </Size>
+      <X>0</X>
+      <Y>0</Y>
+      <Width>0</Width>
+      <Height>0</Height>
+    </Crop>
+  </Image>
+  <Image>
+    <Name>Green O-100.png</Name>
+    <ImageSet>Alphanumeric - Green</ImageSet>
+    <Filename>C:\Users\Chris Waymire\OneDrive\Documents\WoW\ISBoxer\images\misc\alphanumeric\green\O-100.png</Filename>
+    <Crop>
+      <Location>
+        <X>0</X>
+        <Y>0</Y>
+      </Location>
+      <Size>
+        <Width>0</Width>
+        <Height>0</Height>
+      </Size>
+      <X>0</X>
+      <Y>0</Y>
+      <Width>0</Width>
+      <Height>0</Height>
+    </Crop>
+  </Image>
+  <Image>
+    <Name>Green P-100.png</Name>
+    <ImageSet>Alphanumeric - Green</ImageSet>
+    <Filename>C:\Users\Chris Waymire\OneDrive\Documents\WoW\ISBoxer\images\misc\alphanumeric\green\P-100.png</Filename>
+    <Crop>
+      <Location>
+        <X>0</X>
+        <Y>0</Y>
+      </Location>
+      <Size>
+        <Width>0</Width>
+        <Height>0</Height>
+      </Size>
+      <X>0</X>
+      <Y>0</Y>
+      <Width>0</Width>
+      <Height>0</Height>
+    </Crop>
+  </Image>
+  <Image>
+    <Name>Green Q-100.png</Name>
+    <ImageSet>Alphanumeric - Green</ImageSet>
+    <Filename>C:\Users\Chris Waymire\OneDrive\Documents\WoW\ISBoxer\images\misc\alphanumeric\green\Q-100.png</Filename>
+    <Crop>
+      <Location>
+        <X>0</X>
+        <Y>0</Y>
+      </Location>
+      <Size>
+        <Width>0</Width>
+        <Height>0</Height>
+      </Size>
+      <X>0</X>
+      <Y>0</Y>
+      <Width>0</Width>
+      <Height>0</Height>
+    </Crop>
+  </Image>
+  <Image>
+    <Name>Green R-100.png</Name>
+    <ImageSet>Alphanumeric - Green</ImageSet>
+    <Filename>C:\Users\Chris Waymire\OneDrive\Documents\WoW\ISBoxer\images\misc\alphanumeric\green\R-100.png</Filename>
+    <Crop>
+      <Location>
+        <X>0</X>
+        <Y>0</Y>
+      </Location>
+      <Size>
+        <Width>0</Width>
+        <Height>0</Height>
+      </Size>
+      <X>0</X>
+      <Y>0</Y>
+      <Width>0</Width>
+      <Height>0</Height>
+    </Crop>
+  </Image>
+  <Image>
+    <Name>Green S-100.png</Name>
+    <ImageSet>Alphanumeric - Green</ImageSet>
+    <Filename>C:\Users\Chris Waymire\OneDrive\Documents\WoW\ISBoxer\images\misc\alphanumeric\green\S-100.png</Filename>
+    <Crop>
+      <Location>
+        <X>0</X>
+        <Y>0</Y>
+      </Location>
+      <Size>
+        <Width>0</Width>
+        <Height>0</Height>
+      </Size>
+      <X>0</X>
+      <Y>0</Y>
+      <Width>0</Width>
+      <Height>0</Height>
+    </Crop>
+  </Image>
+  <Image>
+    <Name>Green T-100.png</Name>
+    <ImageSet>Alphanumeric - Green</ImageSet>
+    <Filename>C:\Users\Chris Waymire\OneDrive\Documents\WoW\ISBoxer\images\misc\alphanumeric\green\T-100.png</Filename>
+    <Crop>
+      <Location>
+        <X>0</X>
+        <Y>0</Y>
+      </Location>
+      <Size>
+        <Width>0</Width>
+        <Height>0</Height>
+      </Size>
+      <X>0</X>
+      <Y>0</Y>
+      <Width>0</Width>
+      <Height>0</Height>
+    </Crop>
+  </Image>
+  <Image>
+    <Name>Green U-100.png</Name>
+    <ImageSet>Alphanumeric - Green</ImageSet>
+    <Filename>C:\Users\Chris Waymire\OneDrive\Documents\WoW\ISBoxer\images\misc\alphanumeric\green\U-100.png</Filename>
+    <Crop>
+      <Location>
+        <X>0</X>
+        <Y>0</Y>
+      </Location>
+      <Size>
+        <Width>0</Width>
+        <Height>0</Height>
+      </Size>
+      <X>0</X>
+      <Y>0</Y>
+      <Width>0</Width>
+      <Height>0</Height>
+    </Crop>
+  </Image>
+  <Image>
+    <Name>Green V-100.png</Name>
+    <ImageSet>Alphanumeric - Green</ImageSet>
+    <Filename>C:\Users\Chris Waymire\OneDrive\Documents\WoW\ISBoxer\images\misc\alphanumeric\green\V-100.png</Filename>
+    <Crop>
+      <Location>
+        <X>0</X>
+        <Y>0</Y>
+      </Location>
+      <Size>
+        <Width>0</Width>
+        <Height>0</Height>
+      </Size>
+      <X>0</X>
+      <Y>0</Y>
+      <Width>0</Width>
+      <Height>0</Height>
+    </Crop>
+  </Image>
+  <Image>
+    <Name>Green W-100.png</Name>
+    <ImageSet>Alphanumeric - Green</ImageSet>
+    <Filename>C:\Users\Chris Waymire\OneDrive\Documents\WoW\ISBoxer\images\misc\alphanumeric\green\W-100.png</Filename>
+    <Crop>
+      <Location>
+        <X>0</X>
+        <Y>0</Y>
+      </Location>
+      <Size>
+        <Width>0</Width>
+        <Height>0</Height>
+      </Size>
+      <X>0</X>
+      <Y>0</Y>
+      <Width>0</Width>
+      <Height>0</Height>
+    </Crop>
+  </Image>
+  <Image>
+    <Name>Green X-100.png</Name>
+    <ImageSet>Alphanumeric - Green</ImageSet>
+    <Filename>C:\Users\Chris Waymire\OneDrive\Documents\WoW\ISBoxer\images\misc\alphanumeric\green\X-100.png</Filename>
+    <Crop>
+      <Location>
+        <X>0</X>
+        <Y>0</Y>
+      </Location>
+      <Size>
+        <Width>0</Width>
+        <Height>0</Height>
+      </Size>
+      <X>0</X>
+      <Y>0</Y>
+      <Width>0</Width>
+      <Height>0</Height>
+    </Crop>
+  </Image>
+  <Image>
+    <Name>Green Y-100.png</Name>
+    <ImageSet>Alphanumeric - Green</ImageSet>
+    <Filename>C:\Users\Chris Waymire\OneDrive\Documents\WoW\ISBoxer\images\misc\alphanumeric\green\Y-100.png</Filename>
+    <Crop>
+      <Location>
+        <X>0</X>
+        <Y>0</Y>
+      </Location>
+      <Size>
+        <Width>0</Width>
+        <Height>0</Height>
+      </Size>
+      <X>0</X>
+      <Y>0</Y>
+      <Width>0</Width>
+      <Height>0</Height>
+    </Crop>
+  </Image>
+  <Image>
+    <Name>Green Z-100.png</Name>
+    <ImageSet>Alphanumeric - Green</ImageSet>
+    <Filename>C:\Users\Chris Waymire\OneDrive\Documents\WoW\ISBoxer\images\misc\alphanumeric\green\Z-100.png</Filename>
+    <Crop>
+      <Location>
+        <X>0</X>
+        <Y>0</Y>
+      </Location>
+      <Size>
+        <Width>0</Width>
+        <Height>0</Height>
+      </Size>
+      <X>0</X>
+      <Y>0</Y>
+      <Width>0</Width>
+      <Height>0</Height>
+    </Crop>
+  </Image>
+  <Image>
+    <Name>Red 0-100.png</Name>
+    <ImageSet>Alphanumeric - Red</ImageSet>
+    <Filename>C:\Users\Chris Waymire\OneDrive\Documents\WoW\ISBoxer\images\misc\alphanumeric\red\0-100.png</Filename>
+    <Crop>
+      <Location>
+        <X>0</X>
+        <Y>0</Y>
+      </Location>
+      <Size>
+        <Width>0</Width>
+        <Height>0</Height>
+      </Size>
+      <X>0</X>
+      <Y>0</Y>
+      <Width>0</Width>
+      <Height>0</Height>
+    </Crop>
+  </Image>
+  <Image>
+    <Name>Red 1-100.png</Name>
+    <ImageSet>Alphanumeric - Red</ImageSet>
+    <Filename>C:\Users\Chris Waymire\OneDrive\Documents\WoW\ISBoxer\images\misc\alphanumeric\red\1-100.png</Filename>
+    <Crop>
+      <Location>
+        <X>0</X>
+        <Y>0</Y>
+      </Location>
+      <Size>
+        <Width>0</Width>
+        <Height>0</Height>
+      </Size>
+      <X>0</X>
+      <Y>0</Y>
+      <Width>0</Width>
+      <Height>0</Height>
+    </Crop>
+  </Image>
+  <Image>
+    <Name>Red 2-100.png</Name>
+    <ImageSet>Alphanumeric - Red</ImageSet>
+    <Filename>C:\Users\Chris Waymire\OneDrive\Documents\WoW\ISBoxer\images\misc\alphanumeric\red\2-100.png</Filename>
+    <Crop>
+      <Location>
+        <X>0</X>
+        <Y>0</Y>
+      </Location>
+      <Size>
+        <Width>0</Width>
+        <Height>0</Height>
+      </Size>
+      <X>0</X>
+      <Y>0</Y>
+      <Width>0</Width>
+      <Height>0</Height>
+    </Crop>
+  </Image>
+  <Image>
+    <Name>Red 3-100.png</Name>
+    <ImageSet>Alphanumeric - Red</ImageSet>
+    <Filename>C:\Users\Chris Waymire\OneDrive\Documents\WoW\ISBoxer\images\misc\alphanumeric\red\3-100.png</Filename>
+    <Crop>
+      <Location>
+        <X>0</X>
+        <Y>0</Y>
+      </Location>
+      <Size>
+        <Width>0</Width>
+        <Height>0</Height>
+      </Size>
+      <X>0</X>
+      <Y>0</Y>
+      <Width>0</Width>
+      <Height>0</Height>
+    </Crop>
+  </Image>
+  <Image>
+    <Name>Red 4-100.png</Name>
+    <ImageSet>Alphanumeric - Red</ImageSet>
+    <Filename>C:\Users\Chris Waymire\OneDrive\Documents\WoW\ISBoxer\images\misc\alphanumeric\red\4-100.png</Filename>
+    <Crop>
+      <Location>
+        <X>0</X>
+        <Y>0</Y>
+      </Location>
+      <Size>
+        <Width>0</Width>
+        <Height>0</Height>
+      </Size>
+      <X>0</X>
+      <Y>0</Y>
+      <Width>0</Width>
+      <Height>0</Height>
+    </Crop>
+  </Image>
+  <Image>
+    <Name>Red 5-100.png</Name>
+    <ImageSet>Alphanumeric - Red</ImageSet>
+    <Filename>C:\Users\Chris Waymire\OneDrive\Documents\WoW\ISBoxer\images\misc\alphanumeric\red\5-100.png</Filename>
+    <Crop>
+      <Location>
+        <X>0</X>
+        <Y>0</Y>
+      </Location>
+      <Size>
+        <Width>0</Width>
+        <Height>0</Height>
+      </Size>
+      <X>0</X>
+      <Y>0</Y>
+      <Width>0</Width>
+      <Height>0</Height>
+    </Crop>
+  </Image>
+  <Image>
+    <Name>Red 6-100.png</Name>
+    <ImageSet>Alphanumeric - Red</ImageSet>
+    <Filename>C:\Users\Chris Waymire\OneDrive\Documents\WoW\ISBoxer\images\misc\alphanumeric\red\6-100.png</Filename>
+    <Crop>
+      <Location>
+        <X>0</X>
+        <Y>0</Y>
+      </Location>
+      <Size>
+        <Width>0</Width>
+        <Height>0</Height>
+      </Size>
+      <X>0</X>
+      <Y>0</Y>
+      <Width>0</Width>
+      <Height>0</Height>
+    </Crop>
+  </Image>
+  <Image>
+    <Name>Red 7-100.png</Name>
+    <ImageSet>Alphanumeric - Red</ImageSet>
+    <Filename>C:\Users\Chris Waymire\OneDrive\Documents\WoW\ISBoxer\images\misc\alphanumeric\red\7-100.png</Filename>
+    <Crop>
+      <Location>
+        <X>0</X>
+        <Y>0</Y>
+      </Location>
+      <Size>
+        <Width>0</Width>
+        <Height>0</Height>
+      </Size>
+      <X>0</X>
+      <Y>0</Y>
+      <Width>0</Width>
+      <Height>0</Height>
+    </Crop>
+  </Image>
+  <Image>
+    <Name>Red 8-100.png</Name>
+    <ImageSet>Alphanumeric - Red</ImageSet>
+    <Filename>C:\Users\Chris Waymire\OneDrive\Documents\WoW\ISBoxer\images\misc\alphanumeric\red\8-100.png</Filename>
+    <Crop>
+      <Location>
+        <X>0</X>
+        <Y>0</Y>
+      </Location>
+      <Size>
+        <Width>0</Width>
+        <Height>0</Height>
+      </Size>
+      <X>0</X>
+      <Y>0</Y>
+      <Width>0</Width>
+      <Height>0</Height>
+    </Crop>
+  </Image>
+  <Image>
+    <Name>Red 9-100.png</Name>
+    <ImageSet>Alphanumeric - Red</ImageSet>
+    <Filename>C:\Users\Chris Waymire\OneDrive\Documents\WoW\ISBoxer\images\misc\alphanumeric\red\9-100.png</Filename>
+    <Crop>
+      <Location>
+        <X>0</X>
+        <Y>0</Y>
+      </Location>
+      <Size>
+        <Width>0</Width>
+        <Height>0</Height>
+      </Size>
+      <X>0</X>
+      <Y>0</Y>
+      <Width>0</Width>
+      <Height>0</Height>
+    </Crop>
+  </Image>
+  <Image>
+    <Name>Red A-100.png</Name>
+    <ImageSet>Alphanumeric - Red</ImageSet>
+    <Filename>C:\Users\Chris Waymire\OneDrive\Documents\WoW\ISBoxer\images\misc\alphanumeric\red\A-100.png</Filename>
+    <Crop>
+      <Location>
+        <X>0</X>
+        <Y>0</Y>
+      </Location>
+      <Size>
+        <Width>0</Width>
+        <Height>0</Height>
+      </Size>
+      <X>0</X>
+      <Y>0</Y>
+      <Width>0</Width>
+      <Height>0</Height>
+    </Crop>
+  </Image>
+  <Image>
+    <Name>Red B-100.png</Name>
+    <ImageSet>Alphanumeric - Red</ImageSet>
+    <Filename>C:\Users\Chris Waymire\OneDrive\Documents\WoW\ISBoxer\images\misc\alphanumeric\red\B-100.png</Filename>
+    <Crop>
+      <Location>
+        <X>0</X>
+        <Y>0</Y>
+      </Location>
+      <Size>
+        <Width>0</Width>
+        <Height>0</Height>
+      </Size>
+      <X>0</X>
+      <Y>0</Y>
+      <Width>0</Width>
+      <Height>0</Height>
+    </Crop>
+  </Image>
+  <Image>
+    <Name>Red C-100.png</Name>
+    <ImageSet>Alphanumeric - Red</ImageSet>
+    <Filename>C:\Users\Chris Waymire\OneDrive\Documents\WoW\ISBoxer\images\misc\alphanumeric\red\C-100.png</Filename>
+    <Crop>
+      <Location>
+        <X>0</X>
+        <Y>0</Y>
+      </Location>
+      <Size>
+        <Width>0</Width>
+        <Height>0</Height>
+      </Size>
+      <X>0</X>
+      <Y>0</Y>
+      <Width>0</Width>
+      <Height>0</Height>
+    </Crop>
+  </Image>
+  <Image>
+    <Name>Red D-100.png</Name>
+    <ImageSet>Alphanumeric - Red</ImageSet>
+    <Filename>C:\Users\Chris Waymire\OneDrive\Documents\WoW\ISBoxer\images\misc\alphanumeric\red\D-100.png</Filename>
+    <Crop>
+      <Location>
+        <X>0</X>
+        <Y>0</Y>
+      </Location>
+      <Size>
+        <Width>0</Width>
+        <Height>0</Height>
+      </Size>
+      <X>0</X>
+      <Y>0</Y>
+      <Width>0</Width>
+      <Height>0</Height>
+    </Crop>
+  </Image>
+  <Image>
+    <Name>Red E-100.png</Name>
+    <ImageSet>Alphanumeric - Red</ImageSet>
+    <Filename>C:\Users\Chris Waymire\OneDrive\Documents\WoW\ISBoxer\images\misc\alphanumeric\red\E-100.png</Filename>
+    <Crop>
+      <Location>
+        <X>0</X>
+        <Y>0</Y>
+      </Location>
+      <Size>
+        <Width>0</Width>
+        <Height>0</Height>
+      </Size>
+      <X>0</X>
+      <Y>0</Y>
+      <Width>0</Width>
+      <Height>0</Height>
+    </Crop>
+  </Image>
+  <Image>
+    <Name>Red F-100.png</Name>
+    <ImageSet>Alphanumeric - Red</ImageSet>
+    <Filename>C:\Users\Chris Waymire\OneDrive\Documents\WoW\ISBoxer\images\misc\alphanumeric\red\F-100.png</Filename>
+    <Crop>
+      <Location>
+        <X>0</X>
+        <Y>0</Y>
+      </Location>
+      <Size>
+        <Width>0</Width>
+        <Height>0</Height>
+      </Size>
+      <X>0</X>
+      <Y>0</Y>
+      <Width>0</Width>
+      <Height>0</Height>
+    </Crop>
+  </Image>
+  <Image>
+    <Name>Red G-100.png</Name>
+    <ImageSet>Alphanumeric - Red</ImageSet>
+    <Filename>C:\Users\Chris Waymire\OneDrive\Documents\WoW\ISBoxer\images\misc\alphanumeric\red\G-100.png</Filename>
+    <Crop>
+      <Location>
+        <X>0</X>
+        <Y>0</Y>
+      </Location>
+      <Size>
+        <Width>0</Width>
+        <Height>0</Height>
+      </Size>
+      <X>0</X>
+      <Y>0</Y>
+      <Width>0</Width>
+      <Height>0</Height>
+    </Crop>
+  </Image>
+  <Image>
+    <Name>Red H-100.png</Name>
+    <ImageSet>Alphanumeric - Red</ImageSet>
+    <Filename>C:\Users\Chris Waymire\OneDrive\Documents\WoW\ISBoxer\images\misc\alphanumeric\red\H-100.png</Filename>
+    <Crop>
+      <Location>
+        <X>0</X>
+        <Y>0</Y>
+      </Location>
+      <Size>
+        <Width>0</Width>
+        <Height>0</Height>
+      </Size>
+      <X>0</X>
+      <Y>0</Y>
+      <Width>0</Width>
+      <Height>0</Height>
+    </Crop>
+  </Image>
+  <Image>
+    <Name>Red I-100.png</Name>
+    <ImageSet>Alphanumeric - Red</ImageSet>
+    <Filename>C:\Users\Chris Waymire\OneDrive\Documents\WoW\ISBoxer\images\misc\alphanumeric\red\I-100.png</Filename>
+    <Crop>
+      <Location>
+        <X>0</X>
+        <Y>0</Y>
+      </Location>
+      <Size>
+        <Width>0</Width>
+        <Height>0</Height>
+      </Size>
+      <X>0</X>
+      <Y>0</Y>
+      <Width>0</Width>
+      <Height>0</Height>
+    </Crop>
+  </Image>
+  <Image>
+    <Name>Red J-100.png</Name>
+    <ImageSet>Alphanumeric - Red</ImageSet>
+    <Filename>C:\Users\Chris Waymire\OneDrive\Documents\WoW\ISBoxer\images\misc\alphanumeric\red\J-100.png</Filename>
+    <Crop>
+      <Location>
+        <X>0</X>
+        <Y>0</Y>
+      </Location>
+      <Size>
+        <Width>0</Width>
+        <Height>0</Height>
+      </Size>
+      <X>0</X>
+      <Y>0</Y>
+      <Width>0</Width>
+      <Height>0</Height>
+    </Crop>
+  </Image>
+  <Image>
+    <Name>Red K-100.png</Name>
+    <ImageSet>Alphanumeric - Red</ImageSet>
+    <Filename>C:\Users\Chris Waymire\OneDrive\Documents\WoW\ISBoxer\images\misc\alphanumeric\red\K-100.png</Filename>
+    <Crop>
+      <Location>
+        <X>0</X>
+        <Y>0</Y>
+      </Location>
+      <Size>
+        <Width>0</Width>
+        <Height>0</Height>
+      </Size>
+      <X>0</X>
+      <Y>0</Y>
+      <Width>0</Width>
+      <Height>0</Height>
+    </Crop>
+  </Image>
+  <Image>
+    <Name>Red L-100.png</Name>
+    <ImageSet>Alphanumeric - Red</ImageSet>
+    <Filename>C:\Users\Chris Waymire\OneDrive\Documents\WoW\ISBoxer\images\misc\alphanumeric\red\L-100.png</Filename>
+    <Crop>
+      <Location>
+        <X>0</X>
+        <Y>0</Y>
+      </Location>
+      <Size>
+        <Width>0</Width>
+        <Height>0</Height>
+      </Size>
+      <X>0</X>
+      <Y>0</Y>
+      <Width>0</Width>
+      <Height>0</Height>
+    </Crop>
+  </Image>
+  <Image>
+    <Name>Red M-100.png</Name>
+    <ImageSet>Alphanumeric - Red</ImageSet>
+    <Filename>C:\Users\Chris Waymire\OneDrive\Documents\WoW\ISBoxer\images\misc\alphanumeric\red\M-100.png</Filename>
+    <Crop>
+      <Location>
+        <X>0</X>
+        <Y>0</Y>
+      </Location>
+      <Size>
+        <Width>0</Width>
+        <Height>0</Height>
+      </Size>
+      <X>0</X>
+      <Y>0</Y>
+      <Width>0</Width>
+      <Height>0</Height>
+    </Crop>
+  </Image>
+  <Image>
+    <Name>Red N-100.png</Name>
+    <ImageSet>Alphanumeric - Red</ImageSet>
+    <Filename>C:\Users\Chris Waymire\OneDrive\Documents\WoW\ISBoxer\images\misc\alphanumeric\red\N-100.png</Filename>
+    <Crop>
+      <Location>
+        <X>0</X>
+        <Y>0</Y>
+      </Location>
+      <Size>
+        <Width>0</Width>
+        <Height>0</Height>
+      </Size>
+      <X>0</X>
+      <Y>0</Y>
+      <Width>0</Width>
+      <Height>0</Height>
+    </Crop>
+  </Image>
+  <Image>
+    <Name>Red O-100.png</Name>
+    <ImageSet>Alphanumeric - Red</ImageSet>
+    <Filename>C:\Users\Chris Waymire\OneDrive\Documents\WoW\ISBoxer\images\misc\alphanumeric\red\O-100.png</Filename>
+    <Crop>
+      <Location>
+        <X>0</X>
+        <Y>0</Y>
+      </Location>
+      <Size>
+        <Width>0</Width>
+        <Height>0</Height>
+      </Size>
+      <X>0</X>
+      <Y>0</Y>
+      <Width>0</Width>
+      <Height>0</Height>
+    </Crop>
+  </Image>
+  <Image>
+    <Name>Red P-100.png</Name>
+    <ImageSet>Alphanumeric - Red</ImageSet>
+    <Filename>C:\Users\Chris Waymire\OneDrive\Documents\WoW\ISBoxer\images\misc\alphanumeric\red\P-100.png</Filename>
+    <Crop>
+      <Location>
+        <X>0</X>
+        <Y>0</Y>
+      </Location>
+      <Size>
+        <Width>0</Width>
+        <Height>0</Height>
+      </Size>
+      <X>0</X>
+      <Y>0</Y>
+      <Width>0</Width>
+      <Height>0</Height>
+    </Crop>
+  </Image>
+  <Image>
+    <Name>Red Q-100.png</Name>
+    <ImageSet>Alphanumeric - Red</ImageSet>
+    <Filename>C:\Users\Chris Waymire\OneDrive\Documents\WoW\ISBoxer\images\misc\alphanumeric\red\Q-100.png</Filename>
+    <Crop>
+      <Location>
+        <X>0</X>
+        <Y>0</Y>
+      </Location>
+      <Size>
+        <Width>0</Width>
+        <Height>0</Height>
+      </Size>
+      <X>0</X>
+      <Y>0</Y>
+      <Width>0</Width>
+      <Height>0</Height>
+    </Crop>
+  </Image>
+  <Image>
+    <Name>Red R-100.png</Name>
+    <ImageSet>Alphanumeric - Red</ImageSet>
+    <Filename>C:\Users\Chris Waymire\OneDrive\Documents\WoW\ISBoxer\images\misc\alphanumeric\red\R-100.png</Filename>
+    <Crop>
+      <Location>
+        <X>0</X>
+        <Y>0</Y>
+      </Location>
+      <Size>
+        <Width>0</Width>
+        <Height>0</Height>
+      </Size>
+      <X>0</X>
+      <Y>0</Y>
+      <Width>0</Width>
+      <Height>0</Height>
+    </Crop>
+  </Image>
+  <Image>
+    <Name>Red S-100.png</Name>
+    <ImageSet>Alphanumeric - Red</ImageSet>
+    <Filename>C:\Users\Chris Waymire\OneDrive\Documents\WoW\ISBoxer\images\misc\alphanumeric\red\S-100.png</Filename>
+    <Crop>
+      <Location>
+        <X>0</X>
+        <Y>0</Y>
+      </Location>
+      <Size>
+        <Width>0</Width>
+        <Height>0</Height>
+      </Size>
+      <X>0</X>
+      <Y>0</Y>
+      <Width>0</Width>
+      <Height>0</Height>
+    </Crop>
+  </Image>
+  <Image>
+    <Name>Red T-100.png</Name>
+    <ImageSet>Alphanumeric - Red</ImageSet>
+    <Filename>C:\Users\Chris Waymire\OneDrive\Documents\WoW\ISBoxer\images\misc\alphanumeric\red\T-100.png</Filename>
+    <Crop>
+      <Location>
+        <X>0</X>
+        <Y>0</Y>
+      </Location>
+      <Size>
+        <Width>0</Width>
+        <Height>0</Height>
+      </Size>
+      <X>0</X>
+      <Y>0</Y>
+      <Width>0</Width>
+      <Height>0</Height>
+    </Crop>
+  </Image>
+  <Image>
+    <Name>Red U-100.png</Name>
+    <ImageSet>Alphanumeric - Red</ImageSet>
+    <Filename>C:\Users\Chris Waymire\OneDrive\Documents\WoW\ISBoxer\images\misc\alphanumeric\red\U-100.png</Filename>
+    <Crop>
+      <Location>
+        <X>0</X>
+        <Y>0</Y>
+      </Location>
+      <Size>
+        <Width>0</Width>
+        <Height>0</Height>
+      </Size>
+      <X>0</X>
+      <Y>0</Y>
+      <Width>0</Width>
+      <Height>0</Height>
+    </Crop>
+  </Image>
+  <Image>
+    <Name>Red V-100.png</Name>
+    <ImageSet>Alphanumeric - Red</ImageSet>
+    <Filename>C:\Users\Chris Waymire\OneDrive\Documents\WoW\ISBoxer\images\misc\alphanumeric\red\V-100.png</Filename>
+    <Crop>
+      <Location>
+        <X>0</X>
+        <Y>0</Y>
+      </Location>
+      <Size>
+        <Width>0</Width>
+        <Height>0</Height>
+      </Size>
+      <X>0</X>
+      <Y>0</Y>
+      <Width>0</Width>
+      <Height>0</Height>
+    </Crop>
+  </Image>
+  <Image>
+    <Name>Red W-100.png</Name>
+    <ImageSet>Alphanumeric - Red</ImageSet>
+    <Filename>C:\Users\Chris Waymire\OneDrive\Documents\WoW\ISBoxer\images\misc\alphanumeric\red\W-100.png</Filename>
+    <Crop>
+      <Location>
+        <X>0</X>
+        <Y>0</Y>
+      </Location>
+      <Size>
+        <Width>0</Width>
+        <Height>0</Height>
+      </Size>
+      <X>0</X>
+      <Y>0</Y>
+      <Width>0</Width>
+      <Height>0</Height>
+    </Crop>
+  </Image>
+  <Image>
+    <Name>Red X-100.png</Name>
+    <ImageSet>Alphanumeric - Red</ImageSet>
+    <Filename>C:\Users\Chris Waymire\OneDrive\Documents\WoW\ISBoxer\images\misc\alphanumeric\red\X-100.png</Filename>
+    <Crop>
+      <Location>
+        <X>0</X>
+        <Y>0</Y>
+      </Location>
+      <Size>
+        <Width>0</Width>
+        <Height>0</Height>
+      </Size>
+      <X>0</X>
+      <Y>0</Y>
+      <Width>0</Width>
+      <Height>0</Height>
+    </Crop>
+  </Image>
+  <Image>
+    <Name>Red Y-100.png</Name>
+    <ImageSet>Alphanumeric - Red</ImageSet>
+    <Filename>C:\Users\Chris Waymire\OneDrive\Documents\WoW\ISBoxer\images\misc\alphanumeric\red\Y-100.png</Filename>
+    <Crop>
+      <Location>
+        <X>0</X>
+        <Y>0</Y>
+      </Location>
+      <Size>
+        <Width>0</Width>
+        <Height>0</Height>
+      </Size>
+      <X>0</X>
+      <Y>0</Y>
+      <Width>0</Width>
+      <Height>0</Height>
+    </Crop>
+  </Image>
+  <Image>
+    <Name>Red Z-100.png</Name>
+    <ImageSet>Alphanumeric - Red</ImageSet>
+    <Filename>C:\Users\Chris Waymire\OneDrive\Documents\WoW\ISBoxer\images\misc\alphanumeric\red\Z-100.png</Filename>
+    <Crop>
+      <Location>
+        <X>0</X>
+        <Y>0</Y>
+      </Location>
+      <Size>
+        <Width>0</Width>
+        <Height>0</Height>
+      </Size>
+      <X>0</X>
+      <Y>0</Y>
+      <Width>0</Width>
+      <Height>0</Height>
+    </Crop>
+  </Image>
+  <Game Name="World of Warcraft">
+    <LastGameProfile>WoW - 3.3.5a</LastGameProfile>
+  </Game>
+  <CompatibilityFlags />
+  <LastImagePath>C:\Program Files (x86)\InnerSpace</LastImagePath>
+  <LastProfileFilename>C:\Users\Chris Waymire\OneDrive\Documents\WoW\ISBoxer\whitemane_config_40man.xml</LastProfileFilename>
+  <LastMultiplePCHelperState>false</LastMultiplePCHelperState>
+  <UseInnerSpace64>false</UseInnerSpace64>
+  <LastWindowPlacement>
+    <flags>0</flags>
+    <showCmd>1</showCmd>
+    <ptMinPosition>
+      <X>-1</X>
+      <Y>-1</Y>
+    </ptMinPosition>
+    <ptMaxPosition>
+      <X>-1</X>
+      <Y>-1</Y>
+    </ptMaxPosition>
+    <rcNormalPosition>
+      <Location>
+        <X>97</X>
+        <Y>131</Y>
+      </Location>
+      <Size>
+        <Width>2516</Width>
+        <Height>1574</Height>
+      </Size>
+      <X>97</X>
+      <Y>131</Y>
+      <Width>2516</Width>
+      <Height>1574</Height>
+    </rcNormalPosition>
+  </LastWindowPlacement>
+  <LastMainSplitter>715</LastMainSplitter>
+  <LastBottomSplitter>330</LastBottomSplitter>
+  <LastLanguage>English (United States) (LCID:0409)</LastLanguage>
+  <NeverShowCPUThrottleForm>false</NeverShowCPUThrottleForm>
+  <NeverShowCompatibilityForm>false</NeverShowCompatibilityForm>
+  <NeverShowMultisamplingWarning>false</NeverShowMultisamplingWarning>
+  <NeverShowDxNothingVFXWarning>false</NeverShowDxNothingVFXWarning>
+</ISBoxerToolkitGlobalSettings>
